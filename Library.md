@@ -1,0 +1,3 @@
+| Icon | Playset Name w/ Author | Extra Info |
+|-----------------------------------------|-----------------|-----------------|
+| <img src=".assets/ReloadDustyDepotWarehouse_Icon.png" width="256"/> | **[Dusty Docks Warehouse A](SpawnerTexts/Prefab_Reload_DustyDocks_WarehouseA.txt)**<br>**(Ported by: akira_v9)**<br><br>**Source: Reload Ventures Map**<br>**POI: Dusty Docks** | Visually Modified: ❌<br>Requires External Download: ❌|
