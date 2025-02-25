@@ -1,0 +1,567 @@
+Begin Map
+   Begin Level
+      Begin Actor Class=/Script/FortniteGame.FortPlaysetRoot Name=FortPlaysetRoot_UAID_345A600DDC87954F02_1289258578 Archetype="/Script/FortniteGame.FortPlaysetRoot'/Script/FortniteGame.Default__FortPlaysetRoot'" ActorFolderPath="Reload Environment Shop A Wall & Floor Gallery" ExportPath="/Script/FortniteGame.FortPlaysetRoot'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.FortPlaysetRoot_UAID_345A600DDC87954F02_1289258578'"
+         Begin Object Class=/Script/Engine.SceneComponent Name="DefaultSceneRoot" Archetype="/Script/Engine.SceneComponent'/Script/FortniteGame.Default__FortPlaysetRoot:DefaultSceneRoot'" ExportPath="/Script/Engine.SceneComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.FortPlaysetRoot_UAID_345A600DDC87954F02_1289258578.DefaultSceneRoot'"
+         End Object
+         Begin Object Name="DefaultSceneRoot" ExportPath="/Script/Engine.SceneComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.FortPlaysetRoot_UAID_345A600DDC87954F02_1289258578.DefaultSceneRoot'"
+         End Object
+         SavedActorGuid=EB7344624A06A9485380569B62388C6B
+         PlaysetPackagePathName="/CRP_Foundation/SetupAssets/Maps/PID_CP_Foundation_3x7_StripMallStores_01"
+         ActorLabel="Reload Environment Shop A Wall & Floor Gallery"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/BrickSimple_DoorWaySide_INT.BrickSimple_DoorWaySide_INT_C Name=BrickSimple_DoorWaySide_INT_C_UAID_E04F43E63F3866FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1853172392 Archetype="/Game/Building/ActorBlueprints/Wall/BrickSimple_DoorWaySide_INT.BrickSimple_DoorWaySide_INT_C'/Game/Building/ActorBlueprints/Wall/BrickSimple_DoorWaySide_INT.Default__BrickSimple_DoorWaySide_INT_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87954F02_1289258578 ActorFolderPath="Reload Environment Shop A Wall & Floor Gallery" ExportPath="/Game/Building/ActorBlueprints/Wall/BrickSimple_DoorWaySide_INT.BrickSimple_DoorWaySide_INT_C'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.BrickSimple_DoorWaySide_INT_C_UAID_E04F43E63F3866FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1853172392'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_DoorWaySide_INT.Default__BrickSimple_DoorWaySide_INT_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.BrickSimple_DoorWaySide_INT_C_UAID_E04F43E63F3866FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1853172392.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_DoorWaySide_INT.Default__BrickSimple_DoorWaySide_INT_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.BrickSimple_DoorWaySide_INT_C_UAID_E04F43E63F3866FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1853172392.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_DoorWaySide_INT.Default__BrickSimple_DoorWaySide_INT_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.BrickSimple_DoorWaySide_INT_C_UAID_E04F43E63F3866FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1853172392.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Script/FortniteAI.FortDoorLinkComponent Name="DoorSmartLinkComp" ExportPath="/Script/FortniteAI.FortDoorLinkComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.BrickSimple_DoorWaySide_INT_C_UAID_E04F43E63F3866FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1853172392.DoorSmartLinkComp'"
+         End Object
+         Begin Object Class=/Game/Building/ActorBlueprints/Wall/DoorSoundIndicatorComponent.DoorSoundIndicatorComponent_C Name="DoorSoundIndicator" ExportPath="/Game/Building/ActorBlueprints/Wall/DoorSoundIndicatorComponent.DoorSoundIndicatorComponent_C'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.BrickSimple_DoorWaySide_INT_C_UAID_E04F43E63F3866FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1853172392.DoorSoundIndicator'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.BrickSimple_DoorWaySide_INT_C_UAID_E04F43E63F3866FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1853172392.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_FORT_Brick_Simple_160'"
+            CachedMaxDrawDistance=22870.902344
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-511.999788,Y=-640.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=89.999999,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.BrickSimple_DoorWaySide_INT_C_UAID_E04F43E63F3866FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1853172392.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22870.902344
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.BrickSimple_DoorWaySide_INT_C_UAID_E04F43E63F3866FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1853172392.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22870.902344
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="DoorSmartLinkComp" ExportPath="/Script/FortniteAI.FortDoorLinkComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.BrickSimple_DoorWaySide_INT_C_UAID_E04F43E63F3866FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1853172392.DoorSmartLinkComp'"
+            CustomLinkId=(Id=15965505357945461431)
+            AuxiliaryCustomLinkId=(Id=10672248914855006588)
+            DisabledAreaClass="/Script/CoreUObject.Class'/Script/NavigationSystem.NavArea_Default'"
+            LinkRelativeStart=(X=-138.199997,Y=130.000000,Z=0.000000)
+            LinkRelativeEnd=(X=-138.199997,Y=-130.000000,Z=0.000000)
+            bLinkEnabled=False
+            ObstacleOffset=(X=-138.199997,Y=0.000000,Z=0.000000)
+            ObstacleExtent=(X=38.400002,Y=17.500000,Z=153.600002)
+            ObstacleAreaClass="/Script/Engine.BlueprintGeneratedClass'/Game/Building/NavigationAreas/FortMetaNavWallAreaDef.FortMetaNavWallAreaDef_C'"
+         End Object
+         Begin Object Name="DoorSoundIndicator" ExportPath="/Game/Building/ActorBlueprints/Wall/DoorSoundIndicatorComponent.DoorSoundIndicatorComponent_C'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.BrickSimple_DoorWaySide_INT_C_UAID_E04F43E63F3866FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1853172392.DoorSoundIndicator'"
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallOuter/BrickWall_003b.BrickWall_003b'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallInner/House_Interior_09.House_Interior_09'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22870.902344
+         StaticGameplayTags=(GameplayTags=((TagName="Building.Type.All.Wall"),(TagName="Building.Type.Door")))
+         DataVersion=1
+         SavedActorGuid=C274F8E94C48168A61AC2D895995206B
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="BrickSimple_DoorWaySide_INT5"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Corner/DTN_Corner_04e_Quarter.DTN_Corner_04e_Quarter_C Name=DTN_Corner_04e_Quarter_C_UAID_E04F43E63F3867FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_2000279395 Archetype="/Game/Building/ActorBlueprints/Corner/DTN_Corner_04e_Quarter.DTN_Corner_04e_Quarter_C'/Game/Building/ActorBlueprints/Corner/DTN_Corner_04e_Quarter.Default__DTN_Corner_04e_Quarter_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87954F02_1289258578 ActorFolderPath="Reload Environment Shop A Wall & Floor Gallery" ExportPath="/Game/Building/ActorBlueprints/Corner/DTN_Corner_04e_Quarter.DTN_Corner_04e_Quarter_C'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.DTN_Corner_04e_Quarter_C_UAID_E04F43E63F3867FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_2000279395'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Corner/DTN_Corner_04e_Quarter.Default__DTN_Corner_04e_Quarter_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.DTN_Corner_04e_Quarter_C_UAID_E04F43E63F3867FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_2000279395.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Corner/DTN_Corner_04e_Quarter.Default__DTN_Corner_04e_Quarter_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.DTN_Corner_04e_Quarter_C_UAID_E04F43E63F3867FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_2000279395.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Corner/DTN_Corner_04e_Quarter.Default__DTN_Corner_04e_Quarter_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.DTN_Corner_04e_Quarter_C_UAID_E04F43E63F3867FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_2000279395.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.DTN_Corner_04e_Quarter_C_UAID_E04F43E63F3867FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_2000279395.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_StoreFront_Facade_94'"
+            CachedMaxDrawDistance=15863.572266
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=512.000209,Y=768.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=180.000000,Roll=-0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.DTN_Corner_04e_Quarter_C_UAID_E04F43E63F3867FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_2000279395.BoundingBoxComponent'"
+            CachedMaxDrawDistance=15863.572266
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.DTN_Corner_04e_Quarter_C_UAID_E04F43E63F3867FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_2000279395.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=15863.572266
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallOuter/BrickWall_003b.BrickWall_003b'"
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=15863.572266
+         DataVersion=1
+         SavedActorGuid=C274896F4D1FE62582AAB2AD3A3BF399
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="DTN_Corner_04e_Quarter34"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/BrickSimple_AAA_SolidWall.BrickSimple_AAA_SolidWall_C Name=Rural_House_Wall_8_C28_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1915307393 Archetype="/Game/Building/ActorBlueprints/Wall/BrickSimple_AAA_SolidWall.BrickSimple_AAA_SolidWall_C'/Game/Building/ActorBlueprints/Wall/BrickSimple_AAA_SolidWall.Default__BrickSimple_AAA_SolidWall_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87954F02_1289258578 ActorFolderPath="Reload Environment Shop A Wall & Floor Gallery" ExportPath="/Game/Building/ActorBlueprints/Wall/BrickSimple_AAA_SolidWall.BrickSimple_AAA_SolidWall_C'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.Rural_House_Wall_8_C28_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1915307393'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_AAA_SolidWall.Default__BrickSimple_AAA_SolidWall_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.Rural_House_Wall_8_C28_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1915307393.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_AAA_SolidWall.Default__BrickSimple_AAA_SolidWall_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.Rural_House_Wall_8_C28_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1915307393.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_AAA_SolidWall.Default__BrickSimple_AAA_SolidWall_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.Rural_House_Wall_8_C28_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1915307393.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.Rural_House_Wall_8_C28_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1915307393.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_FORT_Brick_Simple_159'"
+            CachedMaxDrawDistance=22870.902344
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-511.999791,Y=-0.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=90.000000,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.Rural_House_Wall_8_C28_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1915307393.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22870.902344
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.Rural_House_Wall_8_C28_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1915307393.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22870.902344
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallOuter/BrickWall_003b.BrickWall_003b'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallInner/Tiling_Tileset01.Tiling_Tileset01'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22870.902344
+         DataVersion=1
+         SavedActorGuid=EBEE951F4815E0E725159D899AFD3819
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Rural_House_Wall_8_C40"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/Rural_House_Wall_9.Rural_House_Wall_9_C Name=Rural_House_Wall_8_C22_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1976220394 Archetype="/Game/Building/ActorBlueprints/Wall/Rural_House_Wall_9.Rural_House_Wall_9_C'/Game/Building/ActorBlueprints/Wall/Rural_House_Wall_9.Default__Rural_House_Wall_9_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87954F02_1289258578 ActorFolderPath="Reload Environment Shop A Wall & Floor Gallery" ExportPath="/Game/Building/ActorBlueprints/Wall/Rural_House_Wall_9.Rural_House_Wall_9_C'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.Rural_House_Wall_8_C22_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1976220394'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Rural_House_Wall_9.Default__Rural_House_Wall_9_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.Rural_House_Wall_8_C22_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1976220394.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/Rural_House_Wall_9.Default__Rural_House_Wall_9_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.Rural_House_Wall_8_C22_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1976220394.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Rural_House_Wall_9.Default__Rural_House_Wall_9_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.Rural_House_Wall_8_C22_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1976220394.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Script/FortniteAI.FortDoorLinkComponent Name="DoorSmartLinkComp" ExportPath="/Script/FortniteAI.FortDoorLinkComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.Rural_House_Wall_8_C22_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1976220394.DoorSmartLinkComp'"
+         End Object
+         Begin Object Class=/Game/Building/ActorBlueprints/Wall/DoorSoundIndicatorComponent.DoorSoundIndicatorComponent_C Name="DoorSoundIndicator" ExportPath="/Game/Building/ActorBlueprints/Wall/DoorSoundIndicatorComponent.DoorSoundIndicatorComponent_C'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.Rural_House_Wall_8_C22_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1976220394.DoorSoundIndicator'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.Rural_House_Wall_8_C22_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1976220394.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Rural_House_74'"
+            CachedMaxDrawDistance=22925.103516
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-512.000408,Y=640.003494,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000045,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.Rural_House_Wall_8_C22_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1976220394.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22925.103516
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.Rural_House_Wall_8_C22_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1976220394.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22925.103516
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="DoorSmartLinkComp" ExportPath="/Script/FortniteAI.FortDoorLinkComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.Rural_House_Wall_8_C22_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1976220394.DoorSmartLinkComp'"
+            CustomLinkId=(Id=14795081652716572620)
+            AuxiliaryCustomLinkId=(Id=18307776423786453268)
+            DisabledAreaClass="/Script/CoreUObject.Class'/Script/NavigationSystem.NavArea_Default'"
+            LinkRelativeStart=(X=4.800003,Y=130.000000,Z=0.000000)
+            LinkRelativeEnd=(X=4.800003,Y=-130.000000,Z=0.000000)
+            bLinkEnabled=False
+            ObstacleOffset=(X=4.800003,Y=0.000000,Z=0.000000)
+            ObstacleExtent=(X=38.400002,Y=17.500000,Z=153.600002)
+            ObstacleAreaClass="/Script/Engine.BlueprintGeneratedClass'/Game/Building/NavigationAreas/FortMetaNavWallAreaDef.FortMetaNavWallAreaDef_C'"
+         End Object
+         Begin Object Name="DoorSoundIndicator" ExportPath="/Game/Building/ActorBlueprints/Wall/DoorSoundIndicatorComponent.DoorSoundIndicatorComponent_C'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.Rural_House_Wall_8_C22_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1976220394.DoorSoundIndicator'"
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallInner/Tiling_Tileset01.Tiling_Tileset01'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallInner/House_Interior_09.House_Interior_09'"
+         ResourceType=Stone
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22925.103516
+         StaticGameplayTags=(GameplayTags=((TagName="Building.Type.All.Wall"),(TagName="Building.Type.Door")))
+         DataVersion=1
+         SavedActorGuid=D725A44749FA7099D9C8DDA0B1828F91
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Rural_House_Wall_8_C41"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/S_BuildingTrim_A.S_BuildingTrim_A_C Name=S_BuildingTrim_D_C_UAID_E04F43E63F3866FE01_ebb54901b573cc92_UAID_345A600DDC87954F02_1107309576 Archetype="/Game/Building/ActorBlueprints/Wall/S_BuildingTrim_A.S_BuildingTrim_A_C'/Game/Building/ActorBlueprints/Wall/S_BuildingTrim_A.Default__S_BuildingTrim_A_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87954F02_1289258578 ActorFolderPath="Reload Environment Shop A Wall & Floor Gallery" ExportPath="/Game/Building/ActorBlueprints/Wall/S_BuildingTrim_A.S_BuildingTrim_A_C'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.S_BuildingTrim_D_C_UAID_E04F43E63F3866FE01_ebb54901b573cc92_UAID_345A600DDC87954F02_1107309576'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/S_BuildingTrim_A.Default__S_BuildingTrim_A_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.S_BuildingTrim_D_C_UAID_E04F43E63F3866FE01_ebb54901b573cc92_UAID_345A600DDC87954F02_1107309576.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/S_BuildingTrim_A.Default__S_BuildingTrim_A_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.S_BuildingTrim_D_C_UAID_E04F43E63F3866FE01_ebb54901b573cc92_UAID_345A600DDC87954F02_1107309576.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/S_BuildingTrim_A.Default__S_BuildingTrim_A_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.S_BuildingTrim_D_C_UAID_E04F43E63F3866FE01_ebb54901b573cc92_UAID_345A600DDC87954F02_1107309576.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.S_BuildingTrim_D_C_UAID_E04F43E63F3866FE01_ebb54901b573cc92_UAID_345A600DDC87954F02_1107309576.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fortress_Wood_BlackTrim_3'"
+            CachedMaxDrawDistance=20032.644531
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=512.000209,Y=0.000000,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000000,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.S_BuildingTrim_D_C_UAID_E04F43E63F3866FE01_ebb54901b573cc92_UAID_345A600DDC87954F02_1107309576.BoundingBoxComponent'"
+            CachedMaxDrawDistance=20032.644531
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.S_BuildingTrim_D_C_UAID_E04F43E63F3866FE01_ebb54901b573cc92_UAID_345A600DDC87954F02_1107309576.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=20032.644531
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=20032.644531
+         DataVersion=1
+         SavedActorGuid=D2F96C904D0E305A66FEDB831F9587F7
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="S_BuildingTrim_A46"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C Name=SM_FORT_Floors_Generic_BasicTile_C_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_2014606396 Archetype="/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87954F02_1289258578 ActorFolderPath="Reload Environment Shop A Wall & Floor Gallery" ExportPath="/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_2014606396'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_2014606396.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_2014606396.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_2014606396.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_2014606396.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fort_Floors_Generic_TilesClean_96'"
+            CachedMaxDrawDistance=24648.673828
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-0.001439,Y=-895.997328,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-0.000046,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_2014606396.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24648.673828
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_2014606396.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24648.673828
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/FloorTexture/Wood_Floor_Hardwood_01.Wood_Floor_Hardwood_01'"
+         ResourceType=Wood
+         NavObstacles(0)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(1)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(2)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(3)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(4)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(5)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(6)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(7)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(8)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(9)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(10)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(11)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(12)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(13)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(14)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(15)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(16)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(17)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(18)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(19)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(20)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24648.673828
+         DataVersion=1
+         SavedActorGuid=2141DB0F4865A394AD05B186DB650920
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_FORT_Floors_Generic_BasicTile_C1573"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C Name=SM_FORT_Floors_Generic_BasicTile_C_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_2061945397 Archetype="/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87954F02_1289258578 ActorFolderPath="Reload Environment Shop A Wall & Floor Gallery" ExportPath="/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_2061945397'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_2061945397.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_2061945397.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_2061945397.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_2061945397.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fort_Floors_Generic_TilesClean_97'"
+            CachedMaxDrawDistance=24648.673828
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-0.000514,Y=-255.997328,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-0.000046,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_2061945397.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24648.673828
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_2061945397.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24648.673828
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/FloorTexture/Wood_Floor_Hardwood_01.Wood_Floor_Hardwood_01'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/Ceiling/PlasterCeiling_04.PlasterCeiling_04'"
+         ResourceType=Wood
+         NavObstacles(0)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(1)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(2)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(3)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(4)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(5)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(6)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(7)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(8)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(9)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(10)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(11)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(12)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(13)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(14)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(15)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(16)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24648.673828
+         DataVersion=1
+         SavedActorGuid=325A586B47122023326D24BA254EA6A3
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_FORT_Floors_Generic_BasicTile_C1574"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C Name=SM_FORT_Floors_Generic_BasicTile_C_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_2136789398 Archetype="/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87954F02_1289258578 ActorFolderPath="Reload Environment Shop A Wall & Floor Gallery" ExportPath="/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_2136789398'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_2136789398.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_2136789398.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_2136789398.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_2136789398.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fort_Floors_Generic_TilesClean_95'"
+            CachedMaxDrawDistance=24648.673828
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-0.000815,Y=384.003083,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-0.000046,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_2136789398.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24648.673828
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_2136789398.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24648.673828
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/FloorTexture/TileFloor2_Tan_Worn.TileFloor2_Tan_Worn'"
+         NavObstacles(0)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(1)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(2)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(3)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(4)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(5)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(6)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(7)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(8)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(9)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(10)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(11)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(12)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(13)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(14)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(15)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(16)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(17)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(18)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24648.673828
+         DataVersion=1
+         SavedActorGuid=EBB5BEEC475AC519F54CA89050792538
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_FORT_Floors_Generic_BasicTile_C1575"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C Name=SM_FORT_Floors_Generic_BasicTile_C_UAID_E04F43E63F3866FE01_ebb54901b573cc92_UAID_345A600DDC87954F02_1085016575 Archetype="/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87954F02_1289258578 ActorFolderPath="Reload Environment Shop A Wall & Floor Gallery" ExportPath="/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_E04F43E63F3866FE01_ebb54901b573cc92_UAID_345A600DDC87954F02_1085016575'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_E04F43E63F3866FE01_ebb54901b573cc92_UAID_345A600DDC87954F02_1085016575.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_E04F43E63F3866FE01_ebb54901b573cc92_UAID_345A600DDC87954F02_1085016575.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_E04F43E63F3866FE01_ebb54901b573cc92_UAID_345A600DDC87954F02_1085016575.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_E04F43E63F3866FE01_ebb54901b573cc92_UAID_345A600DDC87954F02_1085016575.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fort_Floors_Generic_TilesClean_94'"
+            CachedMaxDrawDistance=24648.673828
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=639.998975,Y=-895.997842,Z=-0.000048)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-0.000046,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_E04F43E63F3866FE01_ebb54901b573cc92_UAID_345A600DDC87954F02_1085016575.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24648.673828
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_E04F43E63F3866FE01_ebb54901b573cc92_UAID_345A600DDC87954F02_1085016575.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24648.673828
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/FloorTexture/RooftopTar_01.RooftopTar_01'"
+         NavObstacles(0)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(1)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(2)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(3)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(4)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(5)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(6)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(7)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(8)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(9)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(10)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(11)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(12)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(13)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(14)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(15)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(16)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(17)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(18)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(19)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(20)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(21)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(22)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(23)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(24)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(25)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(26)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(27)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(28)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24648.673828
+         DataVersion=1
+         SavedActorGuid=BC979E20465EF3B802A5F8B7CD8794D5
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_FORT_Floors_Generic_BasicTile_C1576"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Corner/SM_Trim_Corner_04.SM_Trim_Corner_04_C Name=SM_Trim_Corner_04_C_UAID_E04F43E63F3866FE01_ebb54901b573cc92_UAID_345A600DDC87954F02_1127832577 Archetype="/Game/Building/ActorBlueprints/Corner/SM_Trim_Corner_04.SM_Trim_Corner_04_C'/Game/Building/ActorBlueprints/Corner/SM_Trim_Corner_04.Default__SM_Trim_Corner_04_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87954F02_1289258578 ActorFolderPath="Reload Environment Shop A Wall & Floor Gallery" ExportPath="/Game/Building/ActorBlueprints/Corner/SM_Trim_Corner_04.SM_Trim_Corner_04_C'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.SM_Trim_Corner_04_C_UAID_E04F43E63F3866FE01_ebb54901b573cc92_UAID_345A600DDC87954F02_1127832577'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Corner/SM_Trim_Corner_04.Default__SM_Trim_Corner_04_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.SM_Trim_Corner_04_C_UAID_E04F43E63F3866FE01_ebb54901b573cc92_UAID_345A600DDC87954F02_1127832577.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Corner/SM_Trim_Corner_04.Default__SM_Trim_Corner_04_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.SM_Trim_Corner_04_C_UAID_E04F43E63F3866FE01_ebb54901b573cc92_UAID_345A600DDC87954F02_1127832577.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Corner/SM_Trim_Corner_04.Default__SM_Trim_Corner_04_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.SM_Trim_Corner_04_C_UAID_E04F43E63F3866FE01_ebb54901b573cc92_UAID_345A600DDC87954F02_1127832577.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.SM_Trim_Corner_04_C_UAID_E04F43E63F3866FE01_ebb54901b573cc92_UAID_345A600DDC87954F02_1127832577.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fortress_Wood_BlackTrim_3'"
+            CachedMaxDrawDistance=2800.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=512.000209,Y=384.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=0.000001,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.SM_Trim_Corner_04_C_UAID_E04F43E63F3866FE01_ebb54901b573cc92_UAID_345A600DDC87954F02_1127832577.BoundingBoxComponent'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.SM_Trim_Corner_04_C_UAID_E04F43E63F3866FE01_ebb54901b573cc92_UAID_345A600DDC87954F02_1127832577.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=2800.000000
+         DataVersion=1
+         SavedActorGuid=88E921BD4687A29FBA7AFFA350906FEB
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_Trim_Corner_27"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/S_StoreFront_Glass_K2.S_StoreFront_Glass_K2_C Name=S_StoreFront_Glass_K_C40_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1734987389 Archetype="/Game/Building/ActorBlueprints/Wall/S_StoreFront_Glass_K2.S_StoreFront_Glass_K2_C'/Game/Building/ActorBlueprints/Wall/S_StoreFront_Glass_K2.Default__S_StoreFront_Glass_K2_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87954F02_1289258578 ActorFolderPath="Reload Environment Shop A Wall & Floor Gallery" ExportPath="/Game/Building/ActorBlueprints/Wall/S_StoreFront_Glass_K2.S_StoreFront_Glass_K2_C'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.S_StoreFront_Glass_K_C40_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1734987389'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/S_StoreFront_Glass_K2.Default__S_StoreFront_Glass_K2_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.S_StoreFront_Glass_K_C40_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1734987389.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/S_StoreFront_Glass_K2.Default__S_StoreFront_Glass_K2_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.S_StoreFront_Glass_K_C40_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1734987389.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/S_StoreFront_Glass_K2.Default__S_StoreFront_Glass_K2_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.S_StoreFront_Glass_K_C40_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1734987389.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.S_StoreFront_Glass_K_C40_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1734987389.StaticMeshComponent0'"
+            bEvaluateWorldPositionOffsetInRayTracing=False
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_StoreFront_Facade_97'"
+            CachedMaxDrawDistance=22947.236328
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-895.999791,Y=-640.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=90.000000,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.S_StoreFront_Glass_K_C40_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1734987389.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22947.236328
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.S_StoreFront_Glass_K_C40_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1734987389.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22947.236328
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallOuter/BrickWall_003b.BrickWall_003b'"
+         TextureData(2)="/Script/FortniteGame.BuildingTextureData'/LakeHub/Assets_CommunityPrefabs/BlastBerry/Storefront_Frame_Blue.Storefront_Frame_Blue'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22947.236328
+         DataVersion=1
+         SavedActorGuid=06D530404D40CAEC605BF8A7175BE63D
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="S_StoreFront_Glass_K_C44"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/S_StoreFront_Glass_L.S_StoreFront_Glass_L_C Name=S_StoreFront_Glass_L_C_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1753811390 Archetype="/Game/Building/ActorBlueprints/Wall/S_StoreFront_Glass_L.S_StoreFront_Glass_L_C'/Game/Building/ActorBlueprints/Wall/S_StoreFront_Glass_L.Default__S_StoreFront_Glass_L_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87954F02_1289258578 ActorFolderPath="Reload Environment Shop A Wall & Floor Gallery" ExportPath="/Game/Building/ActorBlueprints/Wall/S_StoreFront_Glass_L.S_StoreFront_Glass_L_C'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.S_StoreFront_Glass_L_C_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1753811390'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/S_StoreFront_Glass_L.Default__S_StoreFront_Glass_L_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.S_StoreFront_Glass_L_C_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1753811390.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/S_StoreFront_Glass_L.Default__S_StoreFront_Glass_L_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.S_StoreFront_Glass_L_C_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1753811390.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/S_StoreFront_Glass_L.Default__S_StoreFront_Glass_L_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.S_StoreFront_Glass_L_C_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1753811390.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.S_StoreFront_Glass_L_C_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1753811390.StaticMeshComponent0'"
+            bEvaluateWorldPositionOffsetInRayTracing=False
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_StoreFront_Facade_95'"
+            CachedMaxDrawDistance=22932.277344
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-895.999791,Y=-0.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=90.000000,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.S_StoreFront_Glass_L_C_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1753811390.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22932.277344
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.S_StoreFront_Glass_L_C_UAID_E04F43E63F3865FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1753811390.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22932.277344
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallOuter/BrickWall_003b.BrickWall_003b'"
+         TextureData(2)="/Script/FortniteGame.BuildingTextureData'/LakeHub/Assets_CommunityPrefabs/BlastBerry/Storefront_Frame_Blue.Storefront_Frame_Blue'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22932.277344
+         DataVersion=1
+         SavedActorGuid=0B0761E54CC9EB35011D59B7529DECAD
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="S_StoreFront_Glass_L_C12"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/S_StoreFront_Wall_A3.S_StoreFront_Wall_A3_C Name=S_StoreFront_Wall_A3_C_UAID_E04F43E63F3866FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1777160391 Archetype="/Game/Building/ActorBlueprints/Wall/S_StoreFront_Wall_A3.S_StoreFront_Wall_A3_C'/Game/Building/ActorBlueprints/Wall/S_StoreFront_Wall_A3.Default__S_StoreFront_Wall_A3_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87954F02_1289258578 ActorFolderPath="Reload Environment Shop A Wall & Floor Gallery" ExportPath="/Game/Building/ActorBlueprints/Wall/S_StoreFront_Wall_A3.S_StoreFront_Wall_A3_C'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.S_StoreFront_Wall_A3_C_UAID_E04F43E63F3866FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1777160391'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/S_StoreFront_Wall_A3.Default__S_StoreFront_Wall_A3_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.S_StoreFront_Wall_A3_C_UAID_E04F43E63F3866FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1777160391.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/S_StoreFront_Wall_A3.Default__S_StoreFront_Wall_A3_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.S_StoreFront_Wall_A3_C_UAID_E04F43E63F3866FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1777160391.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/S_StoreFront_Wall_A3.Default__S_StoreFront_Wall_A3_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.S_StoreFront_Wall_A3_C_UAID_E04F43E63F3866FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1777160391.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.S_StoreFront_Wall_A3_C_UAID_E04F43E63F3866FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1777160391.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_StoreFront_Facade_93'"
+            CachedMaxDrawDistance=22932.279297
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-895.999796,Y=640.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=90.000001,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.S_StoreFront_Wall_A3_C_UAID_E04F43E63F3866FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1777160391.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22932.279297
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/LakeHub/BlastBerryPrefabStage.BlastBerryPrefabStage:PersistentLevel.S_StoreFront_Wall_A3_C_UAID_E04F43E63F3866FE01_ebb54901b573cc92_UAID_345A600DDC87944F02_1777160391.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22932.279297
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallOuter/BrickWall_003b.BrickWall_003b'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22932.279297
+         DataVersion=1
+         SavedActorGuid=7A862BED45E2A5CD0B03BD96D7686EBC
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="S_StoreFront_Wall_A11"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map
+Begin FolderList
+	Folder=Reload Environment Shop A Wall & Floor Gallery
+End FolderList
