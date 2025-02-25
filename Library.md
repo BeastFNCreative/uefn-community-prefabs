@@ -78,3 +78,12 @@
 | <img src=".assets/Dirty Docks Warehouse B.png" width="256"/> | **[Warehouse B](SpawnerTexts/Dirty%20Docks%20Warehouse%20B.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Custom** | Visually Modified: ✔️<br>Requires External Download: ❌|
 | <img src=".assets/Dirty Docks Warehouse C.png" width="256"/> | **[Warehouse C](SpawnerTexts/Dirty%20Docks%20Warehouse%20C.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Custom** | Visually Modified: ✔️<br>Requires External Download: ❌|
 | <img src=".assets/Dirty Docks Warehouse D.png" width="256"/> | **[Warehouse D](SpawnerTexts/Dirty%20Docks%20Warehouse%20D.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Custom** | Visually Modified: ✔️<br>Requires External Download: ❌|
+
+# Condo Canyon
+
+| Icon | Playset Name w/ Author | Extra Info |
+|-----------------------------------------|-----------------|-----------------|
+| <img src=".assets/Condo Canyon Classy Condos.png" width="256"/> | **[Classy Condos](SpawnerTexts/Condo%20Canyon%20Classy%20Condos.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Custom** | Visually Modified: ✔️<br>Requires External Download: ❌|
+| <img src=".assets/Condo Canyon Pawn Shop.png" width="256"/> | **[Pawn Shop](SpawnerTexts/Condo%20Canyon%20Pawn%20Shop.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Custom** | Visually Modified: ✔️<br>Requires External Download: ❌|
+| <img src=".assets/Condo Canyon Shops A.png" width="256"/> | **[Shops A](SpawnerTexts/Condo%20Canyon%20Shops%20A.txt.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Custom** | Visually Modified: ✔️<br>Requires External Download: ❌|
+| <img src=".assets/Condo Canyon Shops B.png" width="256"/> | **[Shops B](SpawnerTexts/Condo%20Canyon%20Shops%20B.txt.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Custom** | Visually Modified: ✔️<br>Requires External Download: ❌|
