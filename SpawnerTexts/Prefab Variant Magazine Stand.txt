@@ -1,0 +1,1088 @@
+Begin Map
+   Begin Level
+      Begin Actor Class=/Script/FortniteGame.FortPlaysetRoot Name=FortPlaysetRoot_UAID_D843AE8E0CE56E4F02_1981077538 Archetype="/Script/FortniteGame.FortPlaysetRoot'/Script/FortniteGame.Default__FortPlaysetRoot'" ActorFolderPath="Magazine Stand" ExportPath="/Script/FortniteGame.FortPlaysetRoot'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.FortPlaysetRoot_UAID_D843AE8E0CE56E4F02_1981077538'"
+         Begin Object Class=/Script/Engine.SceneComponent Name="DefaultSceneRoot" Archetype="/Script/Engine.SceneComponent'/Script/FortniteGame.Default__FortPlaysetRoot:DefaultSceneRoot'" ExportPath="/Script/Engine.SceneComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.FortPlaysetRoot_UAID_D843AE8E0CE56E4F02_1981077538.DefaultSceneRoot'"
+         End Object
+         Begin Object Name="DefaultSceneRoot" ExportPath="/Script/Engine.SceneComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.FortPlaysetRoot_UAID_D843AE8E0CE56E4F02_1981077538.DefaultSceneRoot'"
+         End Object
+         SavedActorGuid=B9E4FDA742F75A13CB6467ADEDBFD4C5
+         PlaysetPackagePathName="/CRP_Foundation/SetupAssets/Maps/PID_CP_Foundation_3x7_StripMallStores_01"
+         ActorLabel="Variant Tilted Towers Magazine Stand"
+      End Actor
+      Begin Actor Class=/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Awning_03A.Apollo_Commerce_Awning_03A_C Name=Apollo_Commerce_Awning_03A_C_1 Archetype="/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Awning_03A.Apollo_Commerce_Awning_03A_C'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Awning_03A.Default__Apollo_Commerce_Awning_03A_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE56E4F02_1981077538 ActorFolderPath="Magazine Stand" ExportPath="/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Awning_03A.Apollo_Commerce_Awning_03A_C'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Awning_03A_C_1'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Awning_03A.Default__Apollo_Commerce_Awning_03A_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Awning_03A_C_1.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Awning_03A.Default__Apollo_Commerce_Awning_03A_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Awning_03A_C_1.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Awning_03A.Default__Apollo_Commerce_Awning_03A_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Awning_03A_C_1.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Game/Environments/Apollo/Sets/Commerce/Props/TextureData/Commerce_Awning_ColorSwatch_Palette.Commerce_Awning_ColorSwatch_Palette_C Name="Commerce_Awning_ColorSwatch_Palette_C_1" ExportPath="/Game/Environments/Apollo/Sets/Commerce/Props/TextureData/Commerce_Awning_ColorSwatch_Palette.Commerce_Awning_ColorSwatch_Palette_C'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Awning_03A_C_1.Commerce_Awning_ColorSwatch_Palette_C_1'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Awning_03A_C_1.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Commerce_Awning_03A_4'"
+            LDMaxDrawDistance=0.000000
+            CachedMaxDrawDistance=20451.453125
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=252.986328,Y=256.031250,Z=278.269775)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000076,Roll=0.000000)
+            RelativeScale3D=(X=1.000000,Y=1.000000,Z=0.600772)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Awning_03A_C_1.BoundingBoxComponent'"
+            CachedMaxDrawDistance=20451.453125
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Awning_03A_C_1.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=20451.453125
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="Commerce_Awning_ColorSwatch_Palette_C_1" ExportPath="/Game/Environments/Apollo/Sets/Commerce/Props/TextureData/Commerce_Awning_ColorSwatch_Palette.Commerce_Awning_ColorSwatch_Palette_C'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Awning_03A_C_1.Commerce_Awning_ColorSwatch_Palette_C_1'"
+         End Object
+         SwatchIndex=0
+         currentPalette="/Game/Environments/Apollo/Sets/Commerce/Props/TextureData/Commerce_Awning_ColorSwatch_Palette.Commerce_Awning_ColorSwatch_Palette_C'Commerce_Awning_ColorSwatch_Palette_C_1'"
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Papaya/Texture_Data/Papaya_Swatch_Red2.Papaya_Swatch_Red2'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=20451.453125
+         DataVersion=1
+         SavedActorGuid=0000000000000000000000002C04407E
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Apollo_Commerce_Awning_03A_C1"
+      End Actor
+      Begin Actor Class=/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_CashRegister_01.Apollo_Commerce_CashRegister_01_C Name=Apollo_Commerce_CashRegister_01_C_2 Archetype="/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_CashRegister_01.Apollo_Commerce_CashRegister_01_C'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_CashRegister_01.Default__Apollo_Commerce_CashRegister_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE56E4F02_1981077538 ActorFolderPath="Magazine Stand" ExportPath="/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_CashRegister_01.Apollo_Commerce_CashRegister_01_C'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_CashRegister_01_C_2'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_CashRegister_01.Default__Apollo_Commerce_CashRegister_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_CashRegister_01_C_2.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_CashRegister_01.Default__Apollo_Commerce_CashRegister_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_CashRegister_01_C_2.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_CashRegister_01.Default__Apollo_Commerce_CashRegister_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_CashRegister_01_C_2.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.TimelineComponent Name="Timeline_0" ExportPath="/Script/Engine.TimelineComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_CashRegister_01_C_2.Timeline_0'"
+         End Object
+         Begin Object Class=/Script/Engine.TimelineComponent Name="MobileSelectedTL" ExportPath="/Script/Engine.TimelineComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_CashRegister_01_C_2.MobileSelectedTL'"
+         End Object
+         Begin Object Class=/Script/Engine.TimelineComponent Name="MobileOnInteractTL" ExportPath="/Script/Engine.TimelineComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_CashRegister_01_C_2.MobileOnInteractTL'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="Custom Smoke Sheet" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Containers/Tiered_Chest_Athena.Tiered_Chest_Athena_C:Custom Smoke Sheet_GEN_VARIABLE'" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_CashRegister_01_C_2.Custom Smoke Sheet'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="FX Glow & Smoke Sheet" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Containers/Tiered_Chest_Athena.Tiered_Chest_Athena_C:FX Glow & Smoke Sheet_GEN_VARIABLE'" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_CashRegister_01_C_2.FX Glow & Smoke Sheet'"
+         End Object
+         Begin Object Class=/Script/SoundLibrary.SoundLibraryComponent Name="SoundLibrary Component" Archetype="/Script/SoundLibrary.SoundLibraryComponent'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_CashRegister_01.Apollo_Commerce_CashRegister_01_C:SoundLibrary Component_GEN_VARIABLE'" ExportPath="/Script/SoundLibrary.SoundLibraryComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_CashRegister_01_C_2.SoundLibrary Component'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortSoundIndicatorComponent Name="Sound Indicator Component" Archetype="/Script/FortniteGame.FortSoundIndicatorComponent'/Game/Building/ActorBlueprints/Containers/Tiered_Chest_Athena.Tiered_Chest_Athena_C:Sound Indicator Component_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.FortSoundIndicatorComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_CashRegister_01_C_2.Sound Indicator Component'"
+         End Object
+         Begin Object Class=/Script/Engine.PointLightComponent Name="TreasureLight" Archetype="/Script/Engine.PointLightComponent'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_CashRegister_01.Apollo_Commerce_CashRegister_01_C:TreasureLight_GEN_VARIABLE'" ExportPath="/Script/Engine.PointLightComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_CashRegister_01_C_2.TreasureLight'"
+         End Object
+         Begin Object Class=/Script/Engine.AudioComponent Name="Chest_Ambient_Sound" Archetype="/Script/Engine.AudioComponent'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_CashRegister_01.Apollo_Commerce_CashRegister_01_C:AudioComponent_1'" ExportPath="/Script/Engine.AudioComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_CashRegister_01_C_2.Chest_Ambient_Sound'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_CashRegister_01_C_2.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Commerce_CashRegister_01_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=39.992188,Y=201.027344,Z=120.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=120.000160,Roll=-0.000000)
+            Mobility=Static
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_CashRegister_01_C_2.BoundingBoxComponent'"
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_CashRegister_01_C_2.EditorOnlyStaticMeshComponent'"
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="Timeline_0" ExportPath="/Script/Engine.TimelineComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_CashRegister_01_C_2.Timeline_0'"
+            TheTimeline=(LengthMode=TL_TimelineLength,Length=1.500000,InterpFloats=((FloatCurve="/Script/Engine.CurveFloat'/Game/Building/ActorBlueprints/Containers/Tiered_Chest_Athena.Tiered_Chest_Athena_C:CurveFloat_2'",TrackName="Time",FloatPropertyName="Timeline_0_Time_C3D8BC62418047EE3E783F89FAF8EEB6")),TimelinePostUpdateFunc=Apollo_Commerce_CashRegister_01_C_2.Timeline_0__UpdateFunc,TimelineFinishedFunc=Apollo_Commerce_CashRegister_01_C_2.Timeline_0__FinishedFunc,PropertySetObject="/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_CashRegister_01.Apollo_Commerce_CashRegister_01_C'Apollo_Commerce_CashRegister_01_C_2'",DirectionPropertyName="Timeline_0__Direction_C3D8BC62418047EE3E783F89FAF8EEB6")
+            bNetAddressable=True
+            CreationMethod=UserConstructionScript
+         End Object
+         Begin Object Name="MobileSelectedTL" ExportPath="/Script/Engine.TimelineComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_CashRegister_01_C_2.MobileSelectedTL'"
+            TheTimeline=(LengthMode=TL_TimelineLength,Length=0.210000,InterpFloats=((FloatCurve="/Script/Engine.CurveFloat'/Game/Building/ActorBlueprints/Containers/Tiered_Chest_Athena.Tiered_Chest_Athena_C:CurveFloat_0_1'",TrackName="LerpObject",FloatPropertyName="MobileSelectedTL_LerpObject_EEB30EBE433E8977EDA63DB381EAF0C8"),(FloatCurve="/Script/Engine.CurveFloat'/Game/Building/ActorBlueprints/Containers/Tiered_Chest_Athena.Tiered_Chest_Athena_C:CurveFloat_1'",TrackName="LerpInteactoIcon",FloatPropertyName="MobileSelectedTL_LerpInteactoIcon_EEB30EBE433E8977EDA63DB381EAF0C8")),TimelinePostUpdateFunc=Apollo_Commerce_CashRegister_01_C_2.MobileSelectedTL__UpdateFunc,TimelineFinishedFunc=Apollo_Commerce_CashRegister_01_C_2.MobileSelectedTL__FinishedFunc,PropertySetObject="/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_CashRegister_01.Apollo_Commerce_CashRegister_01_C'Apollo_Commerce_CashRegister_01_C_2'",DirectionPropertyName="MobileSelectedTL__Direction_EEB30EBE433E8977EDA63DB381EAF0C8")
+            bNetAddressable=True
+            CreationMethod=UserConstructionScript
+         End Object
+         Begin Object Name="MobileOnInteractTL" ExportPath="/Script/Engine.TimelineComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_CashRegister_01_C_2.MobileOnInteractTL'"
+            TheTimeline=(LengthMode=TL_TimelineLength,Length=0.250000,InterpFloats=((FloatCurve="/Script/Engine.CurveFloat'/Game/Building/ActorBlueprints/Containers/Tiered_Chest_Athena.Tiered_Chest_Athena_C:CurveFloat_0'",TrackName="LERP",FloatPropertyName="MobileOnInteractTL_LERP_9BD788A146DACD005BAF94BEBEDAB584")),TimelinePostUpdateFunc=Apollo_Commerce_CashRegister_01_C_2.MobileOnInteractTL__UpdateFunc,TimelineFinishedFunc=Apollo_Commerce_CashRegister_01_C_2.MobileOnInteractTL__FinishedFunc,PropertySetObject="/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_CashRegister_01.Apollo_Commerce_CashRegister_01_C'Apollo_Commerce_CashRegister_01_C_2'",DirectionPropertyName="MobileOnInteractTL__Direction_9BD788A146DACD005BAF94BEBEDAB584")
+            bNetAddressable=True
+            CreationMethod=UserConstructionScript
+         End Object
+         Begin Object Name="Custom Smoke Sheet" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_CashRegister_01_C_2.Custom Smoke Sheet'"
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="FX Glow & Smoke Sheet" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_CashRegister_01_C_2.FX Glow & Smoke Sheet'"
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="SoundLibrary Component" ExportPath="/Script/SoundLibrary.SoundLibraryComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_CashRegister_01_C_2.SoundLibrary Component'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Sound Indicator Component" ExportPath="/Script/FortniteGame.FortSoundIndicatorComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_CashRegister_01_C_2.Sound Indicator Component'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="TreasureLight" ExportPath="/Script/Engine.PointLightComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_CashRegister_01_C_2.TreasureLight'"
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Chest_Ambient_Sound" ExportPath="/Script/Engine.AudioComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_CashRegister_01_C_2.Chest_Ambient_Sound'"
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Custom Smoke Sheet="Custom Smoke Sheet"
+         FX Glow & Smoke Sheet="FX Glow & Smoke Sheet"
+         SoundLibrary Component="SoundLibrary Component"
+         Sound Indicator Component="Sound Indicator Component"
+         TreasureLight="TreasureLight"
+         Chest_Ambient_Sound="Chest_Ambient_Sound"
+         Timeline_0="/Script/Engine.TimelineComponent'Timeline_0'"
+         MobileSelectedTL="/Script/Engine.TimelineComponent'MobileSelectedTL'"
+         MobileOnInteractTL="/Script/Engine.TimelineComponent'MobileOnInteractTL'"
+         TimeOfDayControlledLightDataArray(0)=(LightComponent="TreasureLight",Position=(X=6695.992188,Y=5321.027344,Z=1656.000000))
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=15000.000000
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000AC21A626
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Apollo_Commerce_CashRegister_01_C2"
+      End Actor
+      Begin Actor Class=/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Counter_04.Apollo_Commerce_Counter_04_C Name=Apollo_Commerce_Counter_04_C_4 Archetype="/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Counter_04.Apollo_Commerce_Counter_04_C'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Counter_04.Default__Apollo_Commerce_Counter_04_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE56E4F02_1981077538 ActorFolderPath="Magazine Stand" ExportPath="/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Counter_04.Apollo_Commerce_Counter_04_C'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Counter_04_C_4'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Counter_04.Default__Apollo_Commerce_Counter_04_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Counter_04_C_4.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Counter_04.Default__Apollo_Commerce_Counter_04_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Counter_04_C_4.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Counter_04.Default__Apollo_Commerce_Counter_04_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Counter_04_C_4.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Counter_04_C_4.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Apollo_Commerce_Counters_9'"
+            LDMaxDrawDistance=0.000000
+            CachedMaxDrawDistance=0.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=1.988281,Y=244.029297,Z=8.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000076,Roll=0.000000)
+            RelativeScale3D=(X=0.950000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Counter_04_C_4.BoundingBoxComponent'"
+            CachedMaxDrawDistance=11756.581055
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Counter_04_C_4.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=11756.581055
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=11756.581055
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000A1BC100D
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Apollo_Commerce_Counter_04_C4"
+      End Actor
+      Begin Actor Class=/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Counter_04.Apollo_Commerce_Counter_04_C Name=Apollo_Commerce_Counter_04_C_5 Archetype="/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Counter_04.Apollo_Commerce_Counter_04_C'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Counter_04.Default__Apollo_Commerce_Counter_04_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE56E4F02_1981077538 ActorFolderPath="Magazine Stand" ExportPath="/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Counter_04.Apollo_Commerce_Counter_04_C'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Counter_04_C_5'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Counter_04.Default__Apollo_Commerce_Counter_04_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Counter_04_C_5.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Counter_04.Default__Apollo_Commerce_Counter_04_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Counter_04_C_5.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Counter_04.Default__Apollo_Commerce_Counter_04_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Counter_04_C_5.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Counter_04_C_5.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Apollo_Commerce_Counters_9'"
+            LDMaxDrawDistance=0.000000
+            CachedMaxDrawDistance=0.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=1.986328,Y=0.031250,Z=8.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000076,Roll=0.000000)
+            RelativeScale3D=(X=0.950000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Counter_04_C_5.BoundingBoxComponent'"
+            CachedMaxDrawDistance=11756.581055
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Counter_04_C_5.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=11756.581055
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=11756.581055
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000782776E8
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Apollo_Commerce_Counter_04_C5"
+      End Actor
+      Begin Actor Class=/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_SandwichBoard_01.Apollo_Commerce_SandwichBoard_01_C Name=Apollo_Commerce_SandwichBoard_01_C_0 Archetype="/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_SandwichBoard_01.Apollo_Commerce_SandwichBoard_01_C'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_SandwichBoard_01.Default__Apollo_Commerce_SandwichBoard_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE56E4F02_1981077538 ActorFolderPath="Magazine Stand" ExportPath="/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_SandwichBoard_01.Apollo_Commerce_SandwichBoard_01_C'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_SandwichBoard_01_C_0'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_SandwichBoard_01.Default__Apollo_Commerce_SandwichBoard_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_SandwichBoard_01_C_0.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_SandwichBoard_01.Default__Apollo_Commerce_SandwichBoard_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_SandwichBoard_01_C_0.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_SandwichBoard_01.Default__Apollo_Commerce_SandwichBoard_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_SandwichBoard_01_C_0.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_SandwichBoard_01_C_0.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Commerce_SandwichBoard_01_1'"
+            LDMaxDrawDistance=0.000000
+            CachedMaxDrawDistance=0.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=361.990234,Y=272.029297,Z=8.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-39.999645,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_SandwichBoard_01_C_0.BoundingBoxComponent'"
+            CachedMaxDrawDistance=3759.452637
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_SandwichBoard_01_C_0.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=3759.452637
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=3759.452637
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000EB717EB2
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Apollo_Commerce_SandwichBoard_01_C0"
+      End Actor
+      Begin Actor Class=/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Shelve_NewsStand_01.Apollo_Commerce_Shelve_NewsStand_01_C Name=Apollo_Commerce_Shelve_NewsStand_01_C_0 Archetype="/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Shelve_NewsStand_01.Apollo_Commerce_Shelve_NewsStand_01_C'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Shelve_NewsStand_01.Default__Apollo_Commerce_Shelve_NewsStand_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE56E4F02_1981077538 ActorFolderPath="Magazine Stand" ExportPath="/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Shelve_NewsStand_01.Apollo_Commerce_Shelve_NewsStand_01_C'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Shelve_NewsStand_01_C_0'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Shelve_NewsStand_01.Default__Apollo_Commerce_Shelve_NewsStand_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Shelve_NewsStand_01_C_0.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Shelve_NewsStand_01.Default__Apollo_Commerce_Shelve_NewsStand_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Shelve_NewsStand_01_C_0.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Shelve_NewsStand_01.Default__Apollo_Commerce_Shelve_NewsStand_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Shelve_NewsStand_01_C_0.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Shelve_NewsStand_01_C_0.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Commerce_Shelve_NewsStand_01_1'"
+            LDMaxDrawDistance=0.000000
+            CachedMaxDrawDistance=0.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-6.010254,Y=-240.968750,Z=8.000000)
+            RelativeScale3D=(X=1.000000,Y=0.699923,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Shelve_NewsStand_01_C_0.BoundingBoxComponent'"
+            CachedMaxDrawDistance=12627.303711
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Shelve_NewsStand_01_C_0.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=12627.303711
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=12627.303711
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000C02FC86A
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Apollo_Commerce_Shelve_NewsStand_01_C0"
+      End Actor
+      Begin Actor Class=/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Shelve_NewsStand_02.Apollo_Commerce_Shelve_NewsStand_02_C Name=Apollo_Commerce_Shelve_NewsStand_02_C_0 Archetype="/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Shelve_NewsStand_02.Apollo_Commerce_Shelve_NewsStand_02_C'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Shelve_NewsStand_02.Default__Apollo_Commerce_Shelve_NewsStand_02_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE56E4F02_1981077538 ActorFolderPath="Magazine Stand" ExportPath="/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Shelve_NewsStand_02.Apollo_Commerce_Shelve_NewsStand_02_C'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Shelve_NewsStand_02_C_0'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Shelve_NewsStand_02.Default__Apollo_Commerce_Shelve_NewsStand_02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Shelve_NewsStand_02_C_0.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Shelve_NewsStand_02.Default__Apollo_Commerce_Shelve_NewsStand_02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Shelve_NewsStand_02_C_0.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Shelve_NewsStand_02.Default__Apollo_Commerce_Shelve_NewsStand_02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Shelve_NewsStand_02_C_0.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Shelve_NewsStand_02_C_0.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Commerce_Shelve_NewsStand_01_1'"
+            LDMaxDrawDistance=0.000000
+            CachedMaxDrawDistance=0.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=67.987793,Y=-267.968750,Z=8.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999893,Roll=-0.000000)
+            RelativeScale3D=(X=1.000000,Y=1.500000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Shelve_NewsStand_02_C_0.BoundingBoxComponent'"
+            CachedMaxDrawDistance=10568.861328
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Shelve_NewsStand_02_C_0.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=10568.861328
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=10568.861328
+         DataVersion=1
+         SavedActorGuid=0000000000000000000000001CEF744C
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Apollo_Commerce_Shelve_NewsStand_02_C0"
+      End Actor
+      Begin Actor Class=/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Shelve_NewsStand_02.Apollo_Commerce_Shelve_NewsStand_02_C Name=Apollo_Commerce_Shelve_NewsStand_02_C_1 Archetype="/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Shelve_NewsStand_02.Apollo_Commerce_Shelve_NewsStand_02_C'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Shelve_NewsStand_02.Default__Apollo_Commerce_Shelve_NewsStand_02_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE56E4F02_1981077538 ActorFolderPath="Magazine Stand" ExportPath="/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Shelve_NewsStand_02.Apollo_Commerce_Shelve_NewsStand_02_C'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Shelve_NewsStand_02_C_1'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Shelve_NewsStand_02.Default__Apollo_Commerce_Shelve_NewsStand_02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Shelve_NewsStand_02_C_1.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Shelve_NewsStand_02.Default__Apollo_Commerce_Shelve_NewsStand_02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Shelve_NewsStand_02_C_1.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Shelve_NewsStand_02.Default__Apollo_Commerce_Shelve_NewsStand_02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Shelve_NewsStand_02_C_1.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Shelve_NewsStand_02_C_1.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Commerce_Shelve_NewsStand_01_1'"
+            LDMaxDrawDistance=0.000000
+            CachedMaxDrawDistance=0.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=243.359375,Y=268.253906,Z=8.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Shelve_NewsStand_02_C_1.BoundingBoxComponent'"
+            CachedMaxDrawDistance=10432.144531
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Shelve_NewsStand_02_C_1.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=10432.144531
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=10432.144531
+         DataVersion=1
+         SavedActorGuid=00000000000000000000000054321A54
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Apollo_Commerce_Shelve_NewsStand_02_C1"
+      End Actor
+      Begin Actor Class=/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Shelve_NewsStand_03.Apollo_Commerce_Shelve_NewsStand_03_C Name=Apollo_Commerce_Shelve_NewsStand_03_C_0 Archetype="/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Shelve_NewsStand_03.Apollo_Commerce_Shelve_NewsStand_03_C'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Shelve_NewsStand_03.Default__Apollo_Commerce_Shelve_NewsStand_03_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE56E4F02_1981077538 ActorFolderPath="Magazine Stand" ExportPath="/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Shelve_NewsStand_03.Apollo_Commerce_Shelve_NewsStand_03_C'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Shelve_NewsStand_03_C_0'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Shelve_NewsStand_03.Default__Apollo_Commerce_Shelve_NewsStand_03_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Shelve_NewsStand_03_C_0.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Shelve_NewsStand_03.Default__Apollo_Commerce_Shelve_NewsStand_03_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Shelve_NewsStand_03_C_0.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Shelve_NewsStand_03.Default__Apollo_Commerce_Shelve_NewsStand_03_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Shelve_NewsStand_03_C_0.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Shelve_NewsStand_03_C_0.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Commerce_Shelve_NewsStand_01_1'"
+            LDMaxDrawDistance=0.000000
+            CachedMaxDrawDistance=0.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-76.841797,Y=-273.970703,Z=8.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999893,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Shelve_NewsStand_03_C_0.BoundingBoxComponent'"
+            CachedMaxDrawDistance=6960.342285
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Shelve_NewsStand_03_C_0.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=6960.342285
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=6960.342285
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000C8331C81
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Apollo_Commerce_Shelve_NewsStand_03_C0"
+      End Actor
+      Begin Actor Class=/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Shelve_NewsStand_03.Apollo_Commerce_Shelve_NewsStand_03_C Name=Apollo_Commerce_Shelve_NewsStand_03_C_1 Archetype="/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Shelve_NewsStand_03.Apollo_Commerce_Shelve_NewsStand_03_C'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Shelve_NewsStand_03.Default__Apollo_Commerce_Shelve_NewsStand_03_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE56E4F02_1981077538 ActorFolderPath="Magazine Stand" ExportPath="/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Shelve_NewsStand_03.Apollo_Commerce_Shelve_NewsStand_03_C'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Shelve_NewsStand_03_C_1'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Shelve_NewsStand_03.Default__Apollo_Commerce_Shelve_NewsStand_03_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Shelve_NewsStand_03_C_1.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Shelve_NewsStand_03.Default__Apollo_Commerce_Shelve_NewsStand_03_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Shelve_NewsStand_03_C_1.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Shelve_NewsStand_03.Default__Apollo_Commerce_Shelve_NewsStand_03_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Shelve_NewsStand_03_C_1.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Shelve_NewsStand_03_C_1.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Commerce_Shelve_NewsStand_01_1'"
+            LDMaxDrawDistance=0.000000
+            CachedMaxDrawDistance=0.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=103.503906,Y=243.568359,Z=8.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999985,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Shelve_NewsStand_03_C_1.BoundingBoxComponent'"
+            CachedMaxDrawDistance=6960.342285
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Shelve_NewsStand_03_C_1.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=6960.342285
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=6960.342285
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000C57A9158
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Apollo_Commerce_Shelve_NewsStand_03_C1"
+      End Actor
+      Begin Actor Class=/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Shelve_NewsStand_03.Apollo_Commerce_Shelve_NewsStand_03_C Name=Apollo_Commerce_Shelve_NewsStand_03_C_2 Archetype="/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Shelve_NewsStand_03.Apollo_Commerce_Shelve_NewsStand_03_C'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Shelve_NewsStand_03.Default__Apollo_Commerce_Shelve_NewsStand_03_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE56E4F02_1981077538 ActorFolderPath="Magazine Stand" ExportPath="/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Shelve_NewsStand_03.Apollo_Commerce_Shelve_NewsStand_03_C'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Shelve_NewsStand_03_C_2'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Shelve_NewsStand_03.Default__Apollo_Commerce_Shelve_NewsStand_03_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Shelve_NewsStand_03_C_2.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Shelve_NewsStand_03.Default__Apollo_Commerce_Shelve_NewsStand_03_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Shelve_NewsStand_03_C_2.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Shelve_NewsStand_03.Default__Apollo_Commerce_Shelve_NewsStand_03_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Shelve_NewsStand_03_C_2.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Shelve_NewsStand_03_C_2.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Commerce_Shelve_NewsStand_01_1'"
+            LDMaxDrawDistance=0.000000
+            CachedMaxDrawDistance=0.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=65.371582,Y=269.035156,Z=8.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Shelve_NewsStand_03_C_2.BoundingBoxComponent'"
+            CachedMaxDrawDistance=6960.342285
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Shelve_NewsStand_03_C_2.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=6960.342285
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=6960.342285
+         DataVersion=1
+         SavedActorGuid=00000000000000000000000046C2D82B
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Apollo_Commerce_Shelve_NewsStand_03_C2"
+      End Actor
+      Begin Actor Class=/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Shelve_Toys_02.Apollo_Commerce_Shelve_Toys_02_C Name=Apollo_Commerce_Shelve_Toys_02_C_1 Archetype="/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Shelve_Toys_02.Apollo_Commerce_Shelve_Toys_02_C'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Shelve_Toys_02.Default__Apollo_Commerce_Shelve_Toys_02_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE56E4F02_1981077538 ActorFolderPath="Magazine Stand" ExportPath="/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Shelve_Toys_02.Apollo_Commerce_Shelve_Toys_02_C'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Shelve_Toys_02_C_1'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Shelve_Toys_02.Default__Apollo_Commerce_Shelve_Toys_02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Shelve_Toys_02_C_1.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Shelve_Toys_02.Default__Apollo_Commerce_Shelve_Toys_02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Shelve_Toys_02_C_1.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Commerce/Props/Apollo_Commerce_Shelve_Toys_02.Default__Apollo_Commerce_Shelve_Toys_02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Shelve_Toys_02_C_1.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Shelve_Toys_02_C_1.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Commerce_Shelve_Toys_1'"
+            LDMaxDrawDistance=0.000000
+            CachedMaxDrawDistance=0.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-244.935547,Y=-70.250000,Z=8.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000046,Roll=0.000000)
+            RelativeScale3D=(X=0.900224,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Shelve_Toys_02_C_1.BoundingBoxComponent'"
+            CachedMaxDrawDistance=14505.018555
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Commerce_Shelve_Toys_02_C_1.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=14505.018555
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=14505.018555
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000FF1B9D71
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Apollo_Commerce_Shelve_Toys_02_C1"
+      End Actor
+      Begin Actor Class=/Game/Athena/Apollo/Environments/BuildingActors/Street/Props/Apollo_Street_NewsPaperRack_01.Apollo_Street_NewsPaperRack_01_C Name=Apollo_Street_NewsPaperRack_01_C_0 Archetype="/Game/Athena/Apollo/Environments/BuildingActors/Street/Props/Apollo_Street_NewsPaperRack_01.Apollo_Street_NewsPaperRack_01_C'/Game/Athena/Apollo/Environments/BuildingActors/Street/Props/Apollo_Street_NewsPaperRack_01.Default__Apollo_Street_NewsPaperRack_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE56E4F02_1981077538 ActorFolderPath="Magazine Stand" ExportPath="/Game/Athena/Apollo/Environments/BuildingActors/Street/Props/Apollo_Street_NewsPaperRack_01.Apollo_Street_NewsPaperRack_01_C'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Street_NewsPaperRack_01_C_0'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Street/Props/Apollo_Street_NewsPaperRack_01.Default__Apollo_Street_NewsPaperRack_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Street_NewsPaperRack_01_C_0.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Apollo/Environments/BuildingActors/Street/Props/Apollo_Street_NewsPaperRack_01.Default__Apollo_Street_NewsPaperRack_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Street_NewsPaperRack_01_C_0.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Street/Props/Apollo_Street_NewsPaperRack_01.Default__Apollo_Street_NewsPaperRack_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Street_NewsPaperRack_01_C_0.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Street_NewsPaperRack_01_C_0.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Street_NewsPaperRack_01_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=132.069824,Y=-230.259766,Z=8.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Street_NewsPaperRack_01_C_0.BoundingBoxComponent'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Street_NewsPaperRack_01_C_0.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=2800.000000
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000C82C3C08
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Apollo_Street_NewsPaperRack_01_C0"
+      End Actor
+      Begin Actor Class=/Game/Athena/Apollo/Environments/BuildingActors/Street/Props/Apollo_Street_NewsPaperRack_01.Apollo_Street_NewsPaperRack_01_C Name=Apollo_Street_NewsPaperRack_01_C_1 Archetype="/Game/Athena/Apollo/Environments/BuildingActors/Street/Props/Apollo_Street_NewsPaperRack_01.Apollo_Street_NewsPaperRack_01_C'/Game/Athena/Apollo/Environments/BuildingActors/Street/Props/Apollo_Street_NewsPaperRack_01.Default__Apollo_Street_NewsPaperRack_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE56E4F02_1981077538 ActorFolderPath="Magazine Stand" ExportPath="/Game/Athena/Apollo/Environments/BuildingActors/Street/Props/Apollo_Street_NewsPaperRack_01.Apollo_Street_NewsPaperRack_01_C'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Street_NewsPaperRack_01_C_1'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Street/Props/Apollo_Street_NewsPaperRack_01.Default__Apollo_Street_NewsPaperRack_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Street_NewsPaperRack_01_C_1.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Apollo/Environments/BuildingActors/Street/Props/Apollo_Street_NewsPaperRack_01.Default__Apollo_Street_NewsPaperRack_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Street_NewsPaperRack_01_C_1.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Street/Props/Apollo_Street_NewsPaperRack_01.Default__Apollo_Street_NewsPaperRack_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Street_NewsPaperRack_01_C_1.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Street_NewsPaperRack_01_C_1.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Street_NewsPaperRack_01_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=191.056641,Y=-227.957031,Z=8.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-12.401691,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Street_NewsPaperRack_01_C_1.BoundingBoxComponent'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Street_NewsPaperRack_01_C_1.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=2800.000000
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000DDFEE72E
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Apollo_Street_NewsPaperRack_01_C1"
+      End Actor
+      Begin Actor Class=/Game/Athena/Apollo/Environments/BuildingActors/Street/Props/Apollo_Street_SuburbanLight_01.Apollo_Street_SuburbanLight_01_C Name=Apollo_Street_SuburbanLight_01_C_4 Archetype="/Game/Athena/Apollo/Environments/BuildingActors/Street/Props/Apollo_Street_SuburbanLight_01.Apollo_Street_SuburbanLight_01_C'/Game/Athena/Apollo/Environments/BuildingActors/Street/Props/Apollo_Street_SuburbanLight_01.Default__Apollo_Street_SuburbanLight_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE56E4F02_1981077538 ActorFolderPath="Magazine Stand" ExportPath="/Game/Athena/Apollo/Environments/BuildingActors/Street/Props/Apollo_Street_SuburbanLight_01.Apollo_Street_SuburbanLight_01_C'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Street_SuburbanLight_01_C_4'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Street/Props/Apollo_Street_SuburbanLight_01.Default__Apollo_Street_SuburbanLight_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Street_SuburbanLight_01_C_4.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Apollo/Environments/BuildingActors/Street/Props/Apollo_Street_SuburbanLight_01.Default__Apollo_Street_SuburbanLight_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Street_SuburbanLight_01_C_4.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Street/Props/Apollo_Street_SuburbanLight_01.Default__Apollo_Street_SuburbanLight_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Street_SuburbanLight_01_C_4.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Street_SuburbanLight_01_C_4.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Street_SuburbanLight_01_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=767.986328,Y=-3.969238,Z=8.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=153.720428,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Street_SuburbanLight_01_C_4.BoundingBoxComponent'"
+            CachedMaxDrawDistance=16476.281250
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Apollo_Street_SuburbanLight_01_C_4.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=16476.281250
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=16476.281250
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000DD17F61F
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Apollo_Street_SuburbanLight_01_C4"
+      End Actor
+      Begin Actor Class=/Game/Athena/Artemis/Environments/BuildingActors/Planters/Artemis_Planter_L.Artemis_Planter_L_C Name=Artemis_Planter_L_C_0 Archetype="/Game/Athena/Artemis/Environments/BuildingActors/Planters/Artemis_Planter_L.Artemis_Planter_L_C'/Game/Athena/Artemis/Environments/BuildingActors/Planters/Artemis_Planter_L.Default__Artemis_Planter_L_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE56E4F02_1981077538 ActorFolderPath="Magazine Stand" ExportPath="/Game/Athena/Artemis/Environments/BuildingActors/Planters/Artemis_Planter_L.Artemis_Planter_L_C'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Artemis_Planter_L_C_0'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Planters/Artemis_Planter_L.Default__Artemis_Planter_L_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Artemis_Planter_L_C_0.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Artemis/Environments/BuildingActors/Planters/Artemis_Planter_L.Default__Artemis_Planter_L_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Artemis_Planter_L_C_0.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Planters/Artemis_Planter_L.Default__Artemis_Planter_L_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Artemis_Planter_L_C_0.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Artemis_Planter_L_C_0.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Artemis_Planters_1'"
+            LDMaxDrawDistance=0.000000
+            CachedMaxDrawDistance=0.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=1023.982422,Y=640.026855,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999985,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Artemis_Planter_L_C_0.BoundingBoxComponent'"
+            CachedMaxDrawDistance=25226.613281
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Artemis_Planter_L_C_0.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=25226.613281
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=25226.613281
+         DataVersion=1
+         SavedActorGuid=0000000000000000000000000F7CBA72
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Artemis_Planter_L_C0"
+      End Actor
+      Begin Actor Class=/Game/Athena/Artemis/Environments/BuildingActors/Planters/Artemis_Planter_L.Artemis_Planter_L_C Name=Artemis_Planter_L_C_1 Archetype="/Game/Athena/Artemis/Environments/BuildingActors/Planters/Artemis_Planter_L.Artemis_Planter_L_C'/Game/Athena/Artemis/Environments/BuildingActors/Planters/Artemis_Planter_L.Default__Artemis_Planter_L_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE56E4F02_1981077538 ActorFolderPath="Magazine Stand" ExportPath="/Game/Athena/Artemis/Environments/BuildingActors/Planters/Artemis_Planter_L.Artemis_Planter_L_C'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Artemis_Planter_L_C_1'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Planters/Artemis_Planter_L.Default__Artemis_Planter_L_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Artemis_Planter_L_C_1.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Artemis/Environments/BuildingActors/Planters/Artemis_Planter_L.Default__Artemis_Planter_L_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Artemis_Planter_L_C_1.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Planters/Artemis_Planter_L.Default__Artemis_Planter_L_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Artemis_Planter_L_C_1.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Artemis_Planter_L_C_1.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Artemis_Planters_1'"
+            LDMaxDrawDistance=0.000000
+            CachedMaxDrawDistance=0.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=1151.991699,Y=-511.967285,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=90.000046,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Artemis_Planter_L_C_1.BoundingBoxComponent'"
+            CachedMaxDrawDistance=25226.613281
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Artemis_Planter_L_C_1.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=25226.613281
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=25226.613281
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000869A3527
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Artemis_Planter_L_C1"
+      End Actor
+      Begin Actor Class=/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Plant_Flowerbed_05.Athena_Prop_Plant_Flowerbed_05_C Name=Athena_Prop_Plant_Flowerbed_05_C_0 Archetype="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Plant_Flowerbed_05.Athena_Prop_Plant_Flowerbed_05_C'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Plant_Flowerbed_05.Default__Athena_Prop_Plant_Flowerbed_05_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE56E4F02_1981077538 ActorFolderPath="Magazine Stand" ExportPath="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Plant_Flowerbed_05.Athena_Prop_Plant_Flowerbed_05_C'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Athena_Prop_Plant_Flowerbed_05_C_0'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Plant_Flowerbed_05.Default__Athena_Prop_Plant_Flowerbed_05_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Athena_Prop_Plant_Flowerbed_05_C_0.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Plant_Flowerbed_05.Default__Athena_Prop_Plant_Flowerbed_05_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Athena_Prop_Plant_Flowerbed_05_C_0.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Plant_Flowerbed_05.Default__Athena_Prop_Plant_Flowerbed_05_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Athena_Prop_Plant_Flowerbed_05_C_0.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Athena_Prop_Plant_Flowerbed_05_C_0.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Foliage_Flowers_01c_Ambient_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=1143.984375,Y=360.030762,Z=94.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=90.000076,Roll=-0.000000)
+            CustomProperties 
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Athena_Prop_Plant_Flowerbed_05_C_0.BoundingBoxComponent'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Athena_Prop_Plant_Flowerbed_05_C_0.EditorOnlyStaticMeshComponent'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=18000.000000
+         DataVersion=1
+         SavedActorGuid=0000000000000000000000003434B55F
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Athena_Prop_Plant_Flowerbed_05_C0"
+      End Actor
+      Begin Actor Class=/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Plant_Flowerbed_05.Athena_Prop_Plant_Flowerbed_05_C Name=Athena_Prop_Plant_Flowerbed_05_C_1 Archetype="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Plant_Flowerbed_05.Athena_Prop_Plant_Flowerbed_05_C'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Plant_Flowerbed_05.Default__Athena_Prop_Plant_Flowerbed_05_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE56E4F02_1981077538 ActorFolderPath="Magazine Stand" ExportPath="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Plant_Flowerbed_05.Athena_Prop_Plant_Flowerbed_05_C'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Athena_Prop_Plant_Flowerbed_05_C_1'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Plant_Flowerbed_05.Default__Athena_Prop_Plant_Flowerbed_05_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Athena_Prop_Plant_Flowerbed_05_C_1.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Plant_Flowerbed_05.Default__Athena_Prop_Plant_Flowerbed_05_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Athena_Prop_Plant_Flowerbed_05_C_1.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Plant_Flowerbed_05.Default__Athena_Prop_Plant_Flowerbed_05_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Athena_Prop_Plant_Flowerbed_05_C_1.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Athena_Prop_Plant_Flowerbed_05_C_1.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Foliage_Flowers_01c_Ambient_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=887.984375,Y=644.026855,Z=96.000000)
+            CustomProperties 
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Athena_Prop_Plant_Flowerbed_05_C_1.BoundingBoxComponent'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Athena_Prop_Plant_Flowerbed_05_C_1.EditorOnlyStaticMeshComponent'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=18000.000000
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000EB0748E3
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Athena_Prop_Plant_Flowerbed_05_C1"
+      End Actor
+      Begin Actor Class=/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Plant_Flowerbed_05.Athena_Prop_Plant_Flowerbed_05_C Name=Athena_Prop_Plant_Flowerbed_05_C_2 Archetype="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Plant_Flowerbed_05.Athena_Prop_Plant_Flowerbed_05_C'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Plant_Flowerbed_05.Default__Athena_Prop_Plant_Flowerbed_05_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE56E4F02_1981077538 ActorFolderPath="Magazine Stand" ExportPath="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Plant_Flowerbed_05.Athena_Prop_Plant_Flowerbed_05_C'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Athena_Prop_Plant_Flowerbed_05_C_2'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Plant_Flowerbed_05.Default__Athena_Prop_Plant_Flowerbed_05_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Athena_Prop_Plant_Flowerbed_05_C_2.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Plant_Flowerbed_05.Default__Athena_Prop_Plant_Flowerbed_05_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Athena_Prop_Plant_Flowerbed_05_C_2.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Plant_Flowerbed_05.Default__Athena_Prop_Plant_Flowerbed_05_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Athena_Prop_Plant_Flowerbed_05_C_2.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Athena_Prop_Plant_Flowerbed_05_C_2.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Foliage_Flowers_01c_Ambient_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=887.996094,Y=-633.969238,Z=92.000000)
+            CustomProperties 
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Athena_Prop_Plant_Flowerbed_05_C_2.BoundingBoxComponent'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Athena_Prop_Plant_Flowerbed_05_C_2.EditorOnlyStaticMeshComponent'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=18000.000000
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000D6D8AC5F
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Athena_Prop_Plant_Flowerbed_05_C2"
+      End Actor
+      Begin Actor Class=/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Plant_Flowerbed_05.Athena_Prop_Plant_Flowerbed_05_C Name=Athena_Prop_Plant_Flowerbed_05_C_3 Archetype="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Plant_Flowerbed_05.Athena_Prop_Plant_Flowerbed_05_C'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Plant_Flowerbed_05.Default__Athena_Prop_Plant_Flowerbed_05_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE56E4F02_1981077538 ActorFolderPath="Magazine Stand" ExportPath="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Plant_Flowerbed_05.Athena_Prop_Plant_Flowerbed_05_C'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Athena_Prop_Plant_Flowerbed_05_C_3'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Plant_Flowerbed_05.Default__Athena_Prop_Plant_Flowerbed_05_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Athena_Prop_Plant_Flowerbed_05_C_3.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Plant_Flowerbed_05.Default__Athena_Prop_Plant_Flowerbed_05_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Athena_Prop_Plant_Flowerbed_05_C_3.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Plant_Flowerbed_05.Default__Athena_Prop_Plant_Flowerbed_05_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Athena_Prop_Plant_Flowerbed_05_C_3.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Athena_Prop_Plant_Flowerbed_05_C_3.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Foliage_Flowers_01c_Ambient_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=1163.994141,Y=-361.967285,Z=92.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000076,Roll=0.000000)
+            CustomProperties 
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Athena_Prop_Plant_Flowerbed_05_C_3.BoundingBoxComponent'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Athena_Prop_Plant_Flowerbed_05_C_3.EditorOnlyStaticMeshComponent'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=18000.000000
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000284E1F46
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Athena_Prop_Plant_Flowerbed_05_C3"
+      End Actor
+      Begin Actor Class=/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Plant_Flowerbed_07.Athena_Prop_Plant_Flowerbed_07_C Name=Athena_Prop_Plant_Flowerbed_07_C_0 Archetype="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Plant_Flowerbed_07.Athena_Prop_Plant_Flowerbed_07_C'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Plant_Flowerbed_07.Default__Athena_Prop_Plant_Flowerbed_07_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE56E4F02_1981077538 ActorFolderPath="Magazine Stand" ExportPath="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Plant_Flowerbed_07.Athena_Prop_Plant_Flowerbed_07_C'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Athena_Prop_Plant_Flowerbed_07_C_0'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Plant_Flowerbed_07.Default__Athena_Prop_Plant_Flowerbed_07_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Athena_Prop_Plant_Flowerbed_07_C_0.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Plant_Flowerbed_07.Default__Athena_Prop_Plant_Flowerbed_07_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Athena_Prop_Plant_Flowerbed_07_C_0.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Plant_Flowerbed_07.Default__Athena_Prop_Plant_Flowerbed_07_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Athena_Prop_Plant_Flowerbed_07_C_0.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Athena_Prop_Plant_Flowerbed_07_C_0.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Foliage_Flowers_02b_Ambient_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=1183.979004,Y=632.024902,Z=92.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000076,Roll=0.000000)
+            CustomProperties 
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Athena_Prop_Plant_Flowerbed_07_C_0.BoundingBoxComponent'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Athena_Prop_Plant_Flowerbed_07_C_0.EditorOnlyStaticMeshComponent'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=18000.000000
+         DataVersion=1
+         SavedActorGuid=0000000000000000000000004FB32F8D
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Athena_Prop_Plant_Flowerbed_07_C0"
+      End Actor
+      Begin Actor Class=/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Plant_Flowerbed_07.Athena_Prop_Plant_Flowerbed_07_C Name=Athena_Prop_Plant_Flowerbed_07_C_1 Archetype="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Plant_Flowerbed_07.Athena_Prop_Plant_Flowerbed_07_C'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Plant_Flowerbed_07.Default__Athena_Prop_Plant_Flowerbed_07_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE56E4F02_1981077538 ActorFolderPath="Magazine Stand" ExportPath="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Plant_Flowerbed_07.Athena_Prop_Plant_Flowerbed_07_C'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Athena_Prop_Plant_Flowerbed_07_C_1'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Plant_Flowerbed_07.Default__Athena_Prop_Plant_Flowerbed_07_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Athena_Prop_Plant_Flowerbed_07_C_1.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Plant_Flowerbed_07.Default__Athena_Prop_Plant_Flowerbed_07_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Athena_Prop_Plant_Flowerbed_07_C_1.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Plant_Flowerbed_07.Default__Athena_Prop_Plant_Flowerbed_07_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Athena_Prop_Plant_Flowerbed_07_C_1.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Athena_Prop_Plant_Flowerbed_07_C_1.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Foliage_Flowers_02b_Ambient_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=1183.996094,Y=-619.967285,Z=92.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000076,Roll=0.000000)
+            CustomProperties 
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Athena_Prop_Plant_Flowerbed_07_C_1.BoundingBoxComponent'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Athena_Prop_Plant_Flowerbed_07_C_1.EditorOnlyStaticMeshComponent'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=18000.000000
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000663CE2AB
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Athena_Prop_Plant_Flowerbed_07_C1"
+      End Actor
+      Begin Actor Class=/Game/Athena/Artemis/Environments/BuildingActors/Business/Roofs/Business_RoofCap_A.Business_RoofCap_A_C Name=Business_RoofCap_A_C_4 Archetype="/Game/Athena/Artemis/Environments/BuildingActors/Business/Roofs/Business_RoofCap_A.Business_RoofCap_A_C'/Game/Athena/Artemis/Environments/BuildingActors/Business/Roofs/Business_RoofCap_A.Default__Business_RoofCap_A_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE56E4F02_1981077538 ActorFolderPath="Magazine Stand" ExportPath="/Game/Athena/Artemis/Environments/BuildingActors/Business/Roofs/Business_RoofCap_A.Business_RoofCap_A_C'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Business_RoofCap_A_C_4'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Business/Roofs/Business_RoofCap_A.Default__Business_RoofCap_A_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Business_RoofCap_A_C_4.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Artemis/Environments/BuildingActors/Business/Roofs/Business_RoofCap_A.Default__Business_RoofCap_A_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Business_RoofCap_A_C_4.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Business/Roofs/Business_RoofCap_A.Default__Business_RoofCap_A_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Business_RoofCap_A_C_4.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Business_RoofCap_A_C_4.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Artemis_Business_Master_4_Roof_5'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-256.000000,Y=0.000488,Z=384.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=-90.000076,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Business_RoofCap_A_C_4.BoundingBoxComponent'"
+            CachedMaxDrawDistance=27454.197266
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Business_RoofCap_A_C_4.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=27454.197266
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Artemis/TextureData/Roof/TD_DiamondSlate_Roof.TD_DiamondSlate_Roof'"
+         NavObstacles(0)=(LocalBounds=(Min=(X=-281.000000,Y=-281.000000,Z=-200.000000),Max=(X=281.000000,Y=281.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=27454.197266
+         DataVersion=1
+         SavedActorGuid=0000000000000000000000009752028B
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Business_RoofCap_A_C4"
+      End Actor
+      Begin Actor Class=/Game/Athena/Artemis/Environments/BuildingActors/Business/Walls/Business_Wall_A_Window_B.Business_Wall_A_Window_B_C Name=Business_Wall_A_Window_B_C_0 Archetype="/Game/Athena/Artemis/Environments/BuildingActors/Business/Walls/Business_Wall_A_Window_B.Business_Wall_A_Window_B_C'/Game/Athena/Artemis/Environments/BuildingActors/Business/Walls/Business_Wall_A_Window_B.Default__Business_Wall_A_Window_B_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE56E4F02_1981077538 ActorFolderPath="Magazine Stand" ExportPath="/Game/Athena/Artemis/Environments/BuildingActors/Business/Walls/Business_Wall_A_Window_B.Business_Wall_A_Window_B_C'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Business_Wall_A_Window_B_C_0'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Business/Walls/Business_Wall_A_Window_B.Default__Business_Wall_A_Window_B_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Business_Wall_A_Window_B_C_0.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Artemis/Environments/BuildingActors/Business/Walls/Business_Wall_A_Window_B.Default__Business_Wall_A_Window_B_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Business_Wall_A_Window_B_C_0.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Business/Walls/Business_Wall_A_Window_B.Default__Business_Wall_A_Window_B_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Business_Wall_A_Window_B_C_0.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Business_Wall_A_Window_B_C_0.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Artemis_Business_Master_335'"
+            CachedMaxDrawDistance=23171.248047
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=256.000000,Z=0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Business_Wall_A_Window_B_C_0.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23171.248047
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Business_Wall_A_Window_B_C_0.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23171.248047
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Artemis/TextureData/Walls/TD_Artemis_Business_Brick_B.TD_Artemis_Business_Brick_B'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Apollo/Sets/Agency/TextureData/Agency_BlueWall.Agency_BlueWall'"
+         TextureData(2)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Artemis/Sets/Business/TextureData/TD_Business_Trims_A_DarkGray.TD_Business_Trims_A_DarkGray'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=23171.248047
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000D71E5F05
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Business_Wall_A_Window_B_C0"
+      End Actor
+      Begin Actor Class=/Game/Athena/Artemis/Environments/BuildingActors/Business/Walls/Business_Wall_A_Window_B.Business_Wall_A_Window_B_C Name=Business_Wall_A_Window_B_C_1 Archetype="/Game/Athena/Artemis/Environments/BuildingActors/Business/Walls/Business_Wall_A_Window_B.Business_Wall_A_Window_B_C'/Game/Athena/Artemis/Environments/BuildingActors/Business/Walls/Business_Wall_A_Window_B.Default__Business_Wall_A_Window_B_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE56E4F02_1981077538 ActorFolderPath="Magazine Stand" ExportPath="/Game/Athena/Artemis/Environments/BuildingActors/Business/Walls/Business_Wall_A_Window_B.Business_Wall_A_Window_B_C'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Business_Wall_A_Window_B_C_1'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Business/Walls/Business_Wall_A_Window_B.Default__Business_Wall_A_Window_B_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Business_Wall_A_Window_B_C_1.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Artemis/Environments/BuildingActors/Business/Walls/Business_Wall_A_Window_B.Default__Business_Wall_A_Window_B_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Business_Wall_A_Window_B_C_1.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Business/Walls/Business_Wall_A_Window_B.Default__Business_Wall_A_Window_B_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Business_Wall_A_Window_B_C_1.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Business_Wall_A_Window_B_C_1.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Artemis_Business_Master_445'"
+            CachedMaxDrawDistance=23171.248047
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=-256.000000,Z=0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Business_Wall_A_Window_B_C_1.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23171.248047
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Business_Wall_A_Window_B_C_1.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23171.248047
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Apollo/Sets/Agency/TextureData/Agency_BlueWall.Agency_BlueWall'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Artemis/TextureData/Walls/TD_Artemis_Business_Brick_B.TD_Artemis_Business_Brick_B'"
+         TextureData(2)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Artemis/Sets/Business/TextureData/TD_Business_Trims_A_DarkGray.TD_Business_Trims_A_DarkGray'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=23171.248047
+         DataVersion=1
+         SavedActorGuid=0000000000000000000000005723D6DF
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Business_Wall_A_Window_B_C1"
+      End Actor
+      Begin Actor Class=/Game/Athena/Artemis/Environments/BuildingActors/GasStation/Walls/GasStation_Door_S_01.GasStation_Door_S_01_C Name=GasStation_Door_S_01_C_0 Archetype="/Game/Athena/Artemis/Environments/BuildingActors/GasStation/Walls/GasStation_Door_S_01.GasStation_Door_S_01_C'/Game/Athena/Artemis/Environments/BuildingActors/GasStation/Walls/GasStation_Door_S_01.Default__GasStation_Door_S_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE56E4F02_1981077538 ActorFolderPath="Magazine Stand" ExportPath="/Game/Athena/Artemis/Environments/BuildingActors/GasStation/Walls/GasStation_Door_S_01.GasStation_Door_S_01_C'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.GasStation_Door_S_01_C_0'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/GasStation/Walls/GasStation_Door_S_01.Default__GasStation_Door_S_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.GasStation_Door_S_01_C_0.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Artemis/Environments/BuildingActors/GasStation/Walls/GasStation_Door_S_01.Default__GasStation_Door_S_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.GasStation_Door_S_01_C_0.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/GasStation/Walls/GasStation_Door_S_01.Default__GasStation_Door_S_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.GasStation_Door_S_01_C_0.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Script/FortniteAI.FortDoorLinkComponent Name="DoorSmartLinkComp" ExportPath="/Script/FortniteAI.FortDoorLinkComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.GasStation_Door_S_01_C_0.DoorSmartLinkComp'"
+         End Object
+         Begin Object Class=/Game/Building/ActorBlueprints/Wall/DoorSoundIndicatorComponent.DoorSoundIndicatorComponent_C Name="DoorSoundIndicator" ExportPath="/Game/Building/ActorBlueprints/Wall/DoorSoundIndicatorComponent.DoorSoundIndicatorComponent_C'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.GasStation_Door_S_01_C_0.DoorSoundIndicator'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.GasStation_Door_S_01_C_0.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_GasStation_Wall_3-Layer_16'"
+            CachedMaxDrawDistance=23263.564453
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-256.000000,Y=0.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=89.999985,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.GasStation_Door_S_01_C_0.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23263.564453
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.GasStation_Door_S_01_C_0.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23263.564453
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="DoorSmartLinkComp" ExportPath="/Script/FortniteAI.FortDoorLinkComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.GasStation_Door_S_01_C_0.DoorSmartLinkComp'"
+            CustomLinkId=(Id=16414462093468420901)
+            AuxiliaryCustomLinkId=(Id=16851351380578571305)
+            DisabledAreaClass="/Script/CoreUObject.Class'/Script/NavigationSystem.NavArea_Default'"
+            LinkRelativeStart=(X=139.800003,Y=129.000000,Z=0.000000)
+            LinkRelativeEnd=(X=139.800003,Y=-131.000000,Z=0.000000)
+            bLinkEnabled=False
+            ObstacleOffset=(X=139.800003,Y=-1.000000,Z=0.000000)
+            ObstacleExtent=(X=38.400002,Y=17.500000,Z=153.600002)
+            ObstacleAreaClass="/Script/Engine.BlueprintGeneratedClass'/Game/Building/NavigationAreas/FortMetaNavWallAreaDef.FortMetaNavWallAreaDef_C'"
+         End Object
+         Begin Object Name="DoorSoundIndicator" ExportPath="/Game/Building/ActorBlueprints/Wall/DoorSoundIndicatorComponent.DoorSoundIndicatorComponent_C'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.GasStation_Door_S_01_C_0.DoorSoundIndicator'"
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Artemis/TextureData/Walls/TD_Artemis_Business_Brick_B.TD_Artemis_Business_Brick_B'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Apollo/Sets/Agency/TextureData/Agency_BlueWall.Agency_BlueWall'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=23263.564453
+         StaticGameplayTags=(GameplayTags=((TagName="Building.Type.All.Wall"),(TagName="Building.Type.Door")))
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000BD3A638B
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="GasStation_Door_S_01_C0"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/Prop_SecurityCamera_01.Prop_SecurityCamera_01_C Name=Prop_SecurityCamera_01_C_2 Archetype="/Game/Building/ActorBlueprints/Prop/Prop_SecurityCamera_01.Prop_SecurityCamera_01_C'/Game/Building/ActorBlueprints/Prop/Prop_SecurityCamera_01.Default__Prop_SecurityCamera_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE56E4F02_1981077538 ActorFolderPath="Magazine Stand" ExportPath="/Game/Building/ActorBlueprints/Prop/Prop_SecurityCamera_01.Prop_SecurityCamera_01_C'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Prop_SecurityCamera_01_C_2'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Prop_SecurityCamera_01.Default__Prop_SecurityCamera_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Prop_SecurityCamera_01_C_2.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/Prop_SecurityCamera_01.Default__Prop_SecurityCamera_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Prop_SecurityCamera_01_C_2.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Prop_SecurityCamera_01.Default__Prop_SecurityCamera_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Prop_SecurityCamera_01_C_2.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="Camera" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Prop_SecurityCamera_01.Prop_SecurityCamera_01_C:StaticMeshComponent_38__1B6E62D9'" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Prop_SecurityCamera_01_C_2.Camera'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Prop_SecurityCamera_01_C_2.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_SecurityCamera_01_1'"
+            LDMaxDrawDistance=12000.000000
+            CachedMaxDrawDistance=12000.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-244.005859,Y=-181.980469,Z=316.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999985,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Prop_SecurityCamera_01_C_2.BoundingBoxComponent'"
+            LDMaxDrawDistance=12000.000000
+            CachedMaxDrawDistance=12000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Prop_SecurityCamera_01_C_2.EditorOnlyStaticMeshComponent'"
+            LDMaxDrawDistance=12000.000000
+            CachedMaxDrawDistance=12000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="Camera" ExportPath="/Script/Engine.StaticMeshComponent'/TTPrefabProject/TTPrefabProject.TTPrefabProject:PersistentLevel.Prop_SecurityCamera_01_C_2.Camera'"
+            LDMaxDrawDistance=12000.000000
+            CachedMaxDrawDistance=12000.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Camera="Camera"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=12000.000000
+         DataVersion=1
+         SavedActorGuid=0000000000000000000000001454DA7E
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Prop_SecurityCamera_01_C2"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map
