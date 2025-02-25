@@ -1,0 +1,1142 @@
+Begin Map
+   Begin Level
+      Begin Actor Class=/Script/FortniteGame.FortPlaysetRoot Name=FortPlaysetRoot_UAID_D843AE8E0CE57C4F02_1658326648 Archetype="/Script/FortniteGame.FortPlaysetRoot'/Script/FortniteGame.Default__FortPlaysetRoot'" ActorFolderPath="GG Gazebo" ExportPath="/Script/FortniteGame.FortPlaysetRoot'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.FortPlaysetRoot_UAID_D843AE8E0CE57C4F02_1658326648'"
+         Begin Object Class=/Script/Engine.SceneComponent Name="DefaultSceneRoot" Archetype="/Script/Engine.SceneComponent'/Script/FortniteGame.Default__FortPlaysetRoot:DefaultSceneRoot'" ExportPath="/Script/Engine.SceneComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.FortPlaysetRoot_UAID_D843AE8E0CE57C4F02_1658326648.DefaultSceneRoot'"
+         End Object
+         Begin Object Name="DefaultSceneRoot" ExportPath="/Script/Engine.SceneComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.FortPlaysetRoot_UAID_D843AE8E0CE57C4F02_1658326648.DefaultSceneRoot'"
+         End Object
+         SavedActorGuid=09EE10AF48FCCC7C07D8BA9F1B89FF63
+         PlaysetPackagePathName="/CRP_Foundation/SetupAssets/Maps/PID_CP_Foundation_3x7_StripMallStores_01"
+         ActorLabel="GG Gazebo"
+      End Actor
+      Begin Actor Class=/Game/Athena/Apollo/Environments/BuildingActors/Coastal/Props/Apollo_Coastal_GarbageCan_01.Apollo_Coastal_GarbageCan_01_C Name=Apollo_Coastal_GarbageCan_01_C_4 Archetype="/Game/Athena/Apollo/Environments/BuildingActors/Coastal/Props/Apollo_Coastal_GarbageCan_01.Apollo_Coastal_GarbageCan_01_C'/Game/Athena/Apollo/Environments/BuildingActors/Coastal/Props/Apollo_Coastal_GarbageCan_01.Default__Apollo_Coastal_GarbageCan_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE57C4F02_1658326648 ActorFolderPath="GG Gazebo" ExportPath="/Game/Athena/Apollo/Environments/BuildingActors/Coastal/Props/Apollo_Coastal_GarbageCan_01.Apollo_Coastal_GarbageCan_01_C'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Apollo_Coastal_GarbageCan_01_C_4'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Coastal/Props/Apollo_Coastal_GarbageCan_01.Default__Apollo_Coastal_GarbageCan_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Apollo_Coastal_GarbageCan_01_C_4.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Apollo/Environments/BuildingActors/Coastal/Props/Apollo_Coastal_GarbageCan_01.Default__Apollo_Coastal_GarbageCan_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Apollo_Coastal_GarbageCan_01_C_4.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Coastal/Props/Apollo_Coastal_GarbageCan_01.Default__Apollo_Coastal_GarbageCan_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Apollo_Coastal_GarbageCan_01_C_4.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Apollo_Coastal_GarbageCan_01_C_4.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Coastal_TashCan_01_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=189.983887,Y=162.963867,Z=8.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-110.000023,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Apollo_Coastal_GarbageCan_01_C_4.BoundingBoxComponent'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Apollo_Coastal_GarbageCan_01_C_4.EditorOnlyStaticMeshComponent'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=18000.000000
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000DE059712
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Apollo_Coastal_GarbageCan_01_C4"
+      End Actor
+      Begin Actor Class=/Game/Athena/Apollo/Environments/BuildingActors/Outdoor/Props/Apollo_Outdoor_Table_02.Apollo_Outdoor_Table_02_C Name=Apollo_Outdoor_Table_02_C_0 Archetype="/Game/Athena/Apollo/Environments/BuildingActors/Outdoor/Props/Apollo_Outdoor_Table_02.Apollo_Outdoor_Table_02_C'/Game/Athena/Apollo/Environments/BuildingActors/Outdoor/Props/Apollo_Outdoor_Table_02.Default__Apollo_Outdoor_Table_02_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE57C4F02_1658326648 ActorFolderPath="GG Gazebo" ExportPath="/Game/Athena/Apollo/Environments/BuildingActors/Outdoor/Props/Apollo_Outdoor_Table_02.Apollo_Outdoor_Table_02_C'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Apollo_Outdoor_Table_02_C_0'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Outdoor/Props/Apollo_Outdoor_Table_02.Default__Apollo_Outdoor_Table_02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Apollo_Outdoor_Table_02_C_0.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Apollo/Environments/BuildingActors/Outdoor/Props/Apollo_Outdoor_Table_02.Default__Apollo_Outdoor_Table_02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Apollo_Outdoor_Table_02_C_0.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Outdoor/Props/Apollo_Outdoor_Table_02.Default__Apollo_Outdoor_Table_02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Apollo_Outdoor_Table_02_C_0.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Game/Environments/Apollo/Sets/Outdoor/Props/TextureData/Outdoor_Umbrella_ColorSwatch_Palette.Outdoor_Umbrella_ColorSwatch_Palette_C Name="Outdoor_Umbrella_ColorSwatch_Palette_C_1" ExportPath="/Game/Environments/Apollo/Sets/Outdoor/Props/TextureData/Outdoor_Umbrella_ColorSwatch_Palette.Outdoor_Umbrella_ColorSwatch_Palette_C'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Apollo_Outdoor_Table_02_C_0.Outdoor_Umbrella_ColorSwatch_Palette_C_1'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Apollo_Outdoor_Table_02_C_0.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Outdoor_Table_02_5'"
+            LDMaxDrawDistance=0.000000
+            CachedMaxDrawDistance=9793.146484
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=511.965332,Y=38.773926,Z=8.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Apollo_Outdoor_Table_02_C_0.BoundingBoxComponent'"
+            CachedMaxDrawDistance=9793.146484
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Apollo_Outdoor_Table_02_C_0.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=9793.146484
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="Outdoor_Umbrella_ColorSwatch_Palette_C_1" ExportPath="/Game/Environments/Apollo/Sets/Outdoor/Props/TextureData/Outdoor_Umbrella_ColorSwatch_Palette.Outdoor_Umbrella_ColorSwatch_Palette_C'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Apollo_Outdoor_Table_02_C_0.Outdoor_Umbrella_ColorSwatch_Palette_C_1'"
+         End Object
+         SwatchIndex=1
+         currentPalette="/Game/Environments/Apollo/Sets/Outdoor/Props/TextureData/Outdoor_Umbrella_ColorSwatch_Palette.Outdoor_Umbrella_ColorSwatch_Palette_C'Outdoor_Umbrella_ColorSwatch_Palette_C_1'"
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Props/Trash/TextureData/TD_Prop_Dumpster_Blue.TD_Prop_Dumpster_Blue'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=9793.146484
+         DataVersion=1
+         SavedActorGuid=0000000000000000000000000F21138A
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Apollo_Outdoor_Table_02_C0"
+      End Actor
+      Begin Actor Class=/Game/Athena/Apollo/Environments/BuildingActors/Outdoor/Props/Apollo_Outdoor_Table_02.Apollo_Outdoor_Table_02_C Name=Apollo_Outdoor_Table_02_C_1 Archetype="/Game/Athena/Apollo/Environments/BuildingActors/Outdoor/Props/Apollo_Outdoor_Table_02.Apollo_Outdoor_Table_02_C'/Game/Athena/Apollo/Environments/BuildingActors/Outdoor/Props/Apollo_Outdoor_Table_02.Default__Apollo_Outdoor_Table_02_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE57C4F02_1658326648 ActorFolderPath="GG Gazebo" ExportPath="/Game/Athena/Apollo/Environments/BuildingActors/Outdoor/Props/Apollo_Outdoor_Table_02.Apollo_Outdoor_Table_02_C'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Apollo_Outdoor_Table_02_C_1'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Outdoor/Props/Apollo_Outdoor_Table_02.Default__Apollo_Outdoor_Table_02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Apollo_Outdoor_Table_02_C_1.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Apollo/Environments/BuildingActors/Outdoor/Props/Apollo_Outdoor_Table_02.Default__Apollo_Outdoor_Table_02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Apollo_Outdoor_Table_02_C_1.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Outdoor/Props/Apollo_Outdoor_Table_02.Default__Apollo_Outdoor_Table_02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Apollo_Outdoor_Table_02_C_1.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Game/Environments/Apollo/Sets/Outdoor/Props/TextureData/Outdoor_Umbrella_ColorSwatch_Palette.Outdoor_Umbrella_ColorSwatch_Palette_C Name="Outdoor_Umbrella_ColorSwatch_Palette_C_1" ExportPath="/Game/Environments/Apollo/Sets/Outdoor/Props/TextureData/Outdoor_Umbrella_ColorSwatch_Palette.Outdoor_Umbrella_ColorSwatch_Palette_C'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Apollo_Outdoor_Table_02_C_1.Outdoor_Umbrella_ColorSwatch_Palette_C_1'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Apollo_Outdoor_Table_02_C_1.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Outdoor_Table_02_3'"
+            LDMaxDrawDistance=0.000000
+            CachedMaxDrawDistance=9793.146484
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=483.979980,Y=522.390625,Z=8.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Apollo_Outdoor_Table_02_C_1.BoundingBoxComponent'"
+            CachedMaxDrawDistance=9793.146484
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Apollo_Outdoor_Table_02_C_1.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=9793.146484
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="Outdoor_Umbrella_ColorSwatch_Palette_C_1" ExportPath="/Game/Environments/Apollo/Sets/Outdoor/Props/TextureData/Outdoor_Umbrella_ColorSwatch_Palette.Outdoor_Umbrella_ColorSwatch_Palette_C'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Apollo_Outdoor_Table_02_C_1.Outdoor_Umbrella_ColorSwatch_Palette_C_1'"
+         End Object
+         SwatchIndex=0
+         currentPalette="/Game/Environments/Apollo/Sets/Outdoor/Props/TextureData/Outdoor_Umbrella_ColorSwatch_Palette.Outdoor_Umbrella_ColorSwatch_Palette_C'Outdoor_Umbrella_ColorSwatch_Palette_C_1'"
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Athena/Apollo/Environments/BuildingActors/Bridges/Walls/DataAssets/SteelBridge_Purple.SteelBridge_Purple'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=9793.146484
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000FFB76052
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Apollo_Outdoor_Table_02_C1"
+      End Actor
+      Begin Actor Class=/Game/Athena/Apollo/Environments/BuildingActors/Outdoor/Props/Apollo_Outdoor_Table_02.Apollo_Outdoor_Table_02_C Name=Apollo_Outdoor_Table_02_C_2 Archetype="/Game/Athena/Apollo/Environments/BuildingActors/Outdoor/Props/Apollo_Outdoor_Table_02.Apollo_Outdoor_Table_02_C'/Game/Athena/Apollo/Environments/BuildingActors/Outdoor/Props/Apollo_Outdoor_Table_02.Default__Apollo_Outdoor_Table_02_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE57C4F02_1658326648 ActorFolderPath="GG Gazebo" ExportPath="/Game/Athena/Apollo/Environments/BuildingActors/Outdoor/Props/Apollo_Outdoor_Table_02.Apollo_Outdoor_Table_02_C'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Apollo_Outdoor_Table_02_C_2'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Outdoor/Props/Apollo_Outdoor_Table_02.Default__Apollo_Outdoor_Table_02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Apollo_Outdoor_Table_02_C_2.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Apollo/Environments/BuildingActors/Outdoor/Props/Apollo_Outdoor_Table_02.Default__Apollo_Outdoor_Table_02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Apollo_Outdoor_Table_02_C_2.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Outdoor/Props/Apollo_Outdoor_Table_02.Default__Apollo_Outdoor_Table_02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Apollo_Outdoor_Table_02_C_2.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Game/Environments/Apollo/Sets/Outdoor/Props/TextureData/Outdoor_Umbrella_ColorSwatch_Palette.Outdoor_Umbrella_ColorSwatch_Palette_C Name="Outdoor_Umbrella_ColorSwatch_Palette_C_1" ExportPath="/Game/Environments/Apollo/Sets/Outdoor/Props/TextureData/Outdoor_Umbrella_ColorSwatch_Palette.Outdoor_Umbrella_ColorSwatch_Palette_C'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Apollo_Outdoor_Table_02_C_2.Outdoor_Umbrella_ColorSwatch_Palette_C_1'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Apollo_Outdoor_Table_02_C_2.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Outdoor_Table_02_4'"
+            LDMaxDrawDistance=0.000000
+            CachedMaxDrawDistance=9793.146484
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-55.999023,Y=516.347656,Z=8.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Apollo_Outdoor_Table_02_C_2.BoundingBoxComponent'"
+            CachedMaxDrawDistance=9793.146484
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Apollo_Outdoor_Table_02_C_2.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=9793.146484
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="Outdoor_Umbrella_ColorSwatch_Palette_C_1" ExportPath="/Game/Environments/Apollo/Sets/Outdoor/Props/TextureData/Outdoor_Umbrella_ColorSwatch_Palette.Outdoor_Umbrella_ColorSwatch_Palette_C'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Apollo_Outdoor_Table_02_C_2.Outdoor_Umbrella_ColorSwatch_Palette_C_1'"
+         End Object
+         SwatchIndex=3
+         currentPalette="/Game/Environments/Apollo/Sets/Outdoor/Props/TextureData/Outdoor_Umbrella_ColorSwatch_Palette.Outdoor_Umbrella_ColorSwatch_Palette_C'Outdoor_Umbrella_ColorSwatch_Palette_C_1'"
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Apollo/Vehicles/Standard/Standard_Car_Crossroad/Materials/Cross_Color2.Cross_Color2'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=9793.146484
+         DataVersion=1
+         SavedActorGuid=0000000000000000000000008846EDF8
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Apollo_Outdoor_Table_02_C2"
+      End Actor
+      Begin Actor Class=/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Utility_TrashBag_01_CP.Athena_Prop_Utility_TrashBag_01_CP_C Name=Athena_Prop_Utility_TrashBag_01_CP_C_3 Archetype="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Utility_TrashBag_01_CP.Athena_Prop_Utility_TrashBag_01_CP_C'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Utility_TrashBag_01_CP.Default__Athena_Prop_Utility_TrashBag_01_CP_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE57C4F02_1658326648 ActorFolderPath="GG Gazebo" ExportPath="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Utility_TrashBag_01_CP.Athena_Prop_Utility_TrashBag_01_CP_C'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Athena_Prop_Utility_TrashBag_01_CP_C_3'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Utility_TrashBag_01_CP.Default__Athena_Prop_Utility_TrashBag_01_CP_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Athena_Prop_Utility_TrashBag_01_CP_C_3.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Utility_TrashBag_01_CP.Default__Athena_Prop_Utility_TrashBag_01_CP_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Athena_Prop_Utility_TrashBag_01_CP_C_3.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Utility_TrashBag_01_CP.Default__Athena_Prop_Utility_TrashBag_01_CP_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Athena_Prop_Utility_TrashBag_01_CP_C_3.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Athena_Prop_Utility_TrashBag_01_CP_C_3.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_FORT_Scraps_INST_6'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=190.309082,Y=235.211426,Z=7.999512)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-144.705505,Roll=0.000000)
+            RelativeScale3D=(X=1.096246,Y=1.096246,Z=1.096246)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Athena_Prop_Utility_TrashBag_01_CP_C_3.BoundingBoxComponent'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Athena_Prop_Utility_TrashBag_01_CP_C_3.EditorOnlyStaticMeshComponent'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=18000.000000
+         DataVersion=1
+         SavedActorGuid=0000000000000000000000005E1F1BE7
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Athena_Prop_Utility_TrashBag_01_CP_C3"
+      End Actor
+      Begin Actor Class=/Game/Creative/Environments/ApolloHedges/CP_BP_Apollo_Hedge_Cone.CP_BP_Apollo_Hedge_Cone_C Name=CP_BP_Apollo_Hedge_Cone_C_0 Archetype="/Game/Creative/Environments/ApolloHedges/CP_BP_Apollo_Hedge_Cone.CP_BP_Apollo_Hedge_Cone_C'/Game/Creative/Environments/ApolloHedges/CP_BP_Apollo_Hedge_Cone.Default__CP_BP_Apollo_Hedge_Cone_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE57C4F02_1658326648 ActorFolderPath="GG Gazebo" ExportPath="/Game/Creative/Environments/ApolloHedges/CP_BP_Apollo_Hedge_Cone.CP_BP_Apollo_Hedge_Cone_C'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.CP_BP_Apollo_Hedge_Cone_C_0'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Creative/Environments/ApolloHedges/CP_BP_Apollo_Hedge_Cone.Default__CP_BP_Apollo_Hedge_Cone_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.CP_BP_Apollo_Hedge_Cone_C_0.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Creative/Environments/ApolloHedges/CP_BP_Apollo_Hedge_Cone.Default__CP_BP_Apollo_Hedge_Cone_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.CP_BP_Apollo_Hedge_Cone_C_0.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Creative/Environments/ApolloHedges/CP_BP_Apollo_Hedge_Cone.Default__CP_BP_Apollo_Hedge_Cone_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.CP_BP_Apollo_Hedge_Cone_C_0.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.CP_BP_Apollo_Hedge_Cone_C_0.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_CP_MI_Apollo_Bush_6'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=901.998535,Y=648.940918,Z=10.000000)
+            Mobility=Static
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.CP_BP_Apollo_Hedge_Cone_C_0.BoundingBoxComponent'"
+            CachedMaxDrawDistance=15157.693359
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.CP_BP_Apollo_Hedge_Cone_C_0.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=15157.693359
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=15157.693359
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000BF62FA67
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="CP_BP_Apollo_Hedge_Cone_C0"
+      End Actor
+      Begin Actor Class=/Game/Creative/Environments/ApolloHedges/CP_BP_Apollo_Hedge_Cone.CP_BP_Apollo_Hedge_Cone_C Name=CP_BP_Apollo_Hedge_Cone_C_3 Archetype="/Game/Creative/Environments/ApolloHedges/CP_BP_Apollo_Hedge_Cone.CP_BP_Apollo_Hedge_Cone_C'/Game/Creative/Environments/ApolloHedges/CP_BP_Apollo_Hedge_Cone.Default__CP_BP_Apollo_Hedge_Cone_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE57C4F02_1658326648 ActorFolderPath="GG Gazebo" ExportPath="/Game/Creative/Environments/ApolloHedges/CP_BP_Apollo_Hedge_Cone.CP_BP_Apollo_Hedge_Cone_C'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.CP_BP_Apollo_Hedge_Cone_C_3'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Creative/Environments/ApolloHedges/CP_BP_Apollo_Hedge_Cone.Default__CP_BP_Apollo_Hedge_Cone_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.CP_BP_Apollo_Hedge_Cone_C_3.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Creative/Environments/ApolloHedges/CP_BP_Apollo_Hedge_Cone.Default__CP_BP_Apollo_Hedge_Cone_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.CP_BP_Apollo_Hedge_Cone_C_3.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Creative/Environments/ApolloHedges/CP_BP_Apollo_Hedge_Cone.Default__CP_BP_Apollo_Hedge_Cone_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.CP_BP_Apollo_Hedge_Cone_C_3.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.CP_BP_Apollo_Hedge_Cone_C_3.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_CP_MI_Apollo_Bush_6'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=901.987305,Y=-124.940918,Z=10.000000)
+            Mobility=Static
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.CP_BP_Apollo_Hedge_Cone_C_3.BoundingBoxComponent'"
+            CachedMaxDrawDistance=15157.693359
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.CP_BP_Apollo_Hedge_Cone_C_3.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=15157.693359
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=15157.693359
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000459FF5BA
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="CP_BP_Apollo_Hedge_Cone_C3"
+      End Actor
+      Begin Actor Class=/Game/Creative/Environments/ApolloHedges/CP_BP_Apollo_Hedge_Cone.CP_BP_Apollo_Hedge_Cone_C Name=CP_BP_Apollo_Hedge_Cone_C_4 Archetype="/Game/Creative/Environments/ApolloHedges/CP_BP_Apollo_Hedge_Cone.CP_BP_Apollo_Hedge_Cone_C'/Game/Creative/Environments/ApolloHedges/CP_BP_Apollo_Hedge_Cone.Default__CP_BP_Apollo_Hedge_Cone_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE57C4F02_1658326648 ActorFolderPath="GG Gazebo" ExportPath="/Game/Creative/Environments/ApolloHedges/CP_BP_Apollo_Hedge_Cone.CP_BP_Apollo_Hedge_Cone_C'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.CP_BP_Apollo_Hedge_Cone_C_4'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Creative/Environments/ApolloHedges/CP_BP_Apollo_Hedge_Cone.Default__CP_BP_Apollo_Hedge_Cone_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.CP_BP_Apollo_Hedge_Cone_C_4.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Creative/Environments/ApolloHedges/CP_BP_Apollo_Hedge_Cone.Default__CP_BP_Apollo_Hedge_Cone_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.CP_BP_Apollo_Hedge_Cone_C_4.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Creative/Environments/ApolloHedges/CP_BP_Apollo_Hedge_Cone.Default__CP_BP_Apollo_Hedge_Cone_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.CP_BP_Apollo_Hedge_Cone_C_4.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.CP_BP_Apollo_Hedge_Cone_C_4.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_CP_MI_Apollo_Bush_6'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=651.964844,Y=894.499023,Z=10.000000)
+            Mobility=Static
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.CP_BP_Apollo_Hedge_Cone_C_4.BoundingBoxComponent'"
+            CachedMaxDrawDistance=15157.693359
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.CP_BP_Apollo_Hedge_Cone_C_4.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=15157.693359
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=15157.693359
+         DataVersion=1
+         SavedActorGuid=00000000000000000000000067FECA24
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="CP_BP_Apollo_Hedge_Cone_C4"
+      End Actor
+      Begin Actor Class=/Game/Creative/Environments/ApolloHedges/CP_BP_Apollo_Hedge_Cone.CP_BP_Apollo_Hedge_Cone_C Name=CP_BP_Apollo_Hedge_Cone_C_5 Archetype="/Game/Creative/Environments/ApolloHedges/CP_BP_Apollo_Hedge_Cone.CP_BP_Apollo_Hedge_Cone_C'/Game/Creative/Environments/ApolloHedges/CP_BP_Apollo_Hedge_Cone.Default__CP_BP_Apollo_Hedge_Cone_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE57C4F02_1658326648 ActorFolderPath="GG Gazebo" ExportPath="/Game/Creative/Environments/ApolloHedges/CP_BP_Apollo_Hedge_Cone.CP_BP_Apollo_Hedge_Cone_C'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.CP_BP_Apollo_Hedge_Cone_C_5'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Creative/Environments/ApolloHedges/CP_BP_Apollo_Hedge_Cone.Default__CP_BP_Apollo_Hedge_Cone_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.CP_BP_Apollo_Hedge_Cone_C_5.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Creative/Environments/ApolloHedges/CP_BP_Apollo_Hedge_Cone.Default__CP_BP_Apollo_Hedge_Cone_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.CP_BP_Apollo_Hedge_Cone_C_5.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Creative/Environments/ApolloHedges/CP_BP_Apollo_Hedge_Cone.Default__CP_BP_Apollo_Hedge_Cone_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.CP_BP_Apollo_Hedge_Cone_C_5.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.CP_BP_Apollo_Hedge_Cone_C_5.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_CP_MI_Apollo_Bush_6'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-126.022949,Y=894.660400,Z=10.000000)
+            Mobility=Static
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.CP_BP_Apollo_Hedge_Cone_C_5.BoundingBoxComponent'"
+            CachedMaxDrawDistance=15157.693359
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.CP_BP_Apollo_Hedge_Cone_C_5.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=15157.693359
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=15157.693359
+         DataVersion=1
+         SavedActorGuid=00000000000000000000000032DACBD3
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="CP_BP_Apollo_Hedge_Cone_C5"
+      End Actor
+      Begin Actor Class=/Game/Creative/Environments/ApolloHedges/CP_BP_Apollo_Hedge_Straight.CP_BP_Apollo_Hedge_Straight_C Name=CP_BP_Apollo_Hedge_Straight_C_0 Archetype="/Game/Creative/Environments/ApolloHedges/CP_BP_Apollo_Hedge_Straight.CP_BP_Apollo_Hedge_Straight_C'/Game/Creative/Environments/ApolloHedges/CP_BP_Apollo_Hedge_Straight.Default__CP_BP_Apollo_Hedge_Straight_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE57C4F02_1658326648 ActorFolderPath="GG Gazebo" ExportPath="/Game/Creative/Environments/ApolloHedges/CP_BP_Apollo_Hedge_Straight.CP_BP_Apollo_Hedge_Straight_C'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.CP_BP_Apollo_Hedge_Straight_C_0'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Creative/Environments/ApolloHedges/CP_BP_Apollo_Hedge_Straight.Default__CP_BP_Apollo_Hedge_Straight_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.CP_BP_Apollo_Hedge_Straight_C_0.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Creative/Environments/ApolloHedges/CP_BP_Apollo_Hedge_Straight.Default__CP_BP_Apollo_Hedge_Straight_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.CP_BP_Apollo_Hedge_Straight_C_0.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Creative/Environments/ApolloHedges/CP_BP_Apollo_Hedge_Straight.Default__CP_BP_Apollo_Hedge_Straight_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.CP_BP_Apollo_Hedge_Straight_C_0.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.CP_BP_Apollo_Hedge_Straight_C_0.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_CP_MI_Apollo_Bush_6'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=263.964844,Y=886.577637,Z=8.000000)
+            RelativeScale3D=(X=1.250000,Y=1.187500,Z=1.000000)
+            Mobility=Static
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.CP_BP_Apollo_Hedge_Straight_C_0.BoundingBoxComponent'"
+            CachedMaxDrawDistance=21550.234375
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.CP_BP_Apollo_Hedge_Straight_C_0.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=21550.234375
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=21550.234375
+         DataVersion=1
+         SavedActorGuid=0000000000000000000000007C16B98C
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="CP_BP_Apollo_Hedge_Straight_C0"
+      End Actor
+      Begin Actor Class=/Game/Creative/Environments/ApolloHedges/CP_BP_Apollo_Hedge_Straight.CP_BP_Apollo_Hedge_Straight_C Name=CP_BP_Apollo_Hedge_Straight_C_1 Archetype="/Game/Creative/Environments/ApolloHedges/CP_BP_Apollo_Hedge_Straight.CP_BP_Apollo_Hedge_Straight_C'/Game/Creative/Environments/ApolloHedges/CP_BP_Apollo_Hedge_Straight.Default__CP_BP_Apollo_Hedge_Straight_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE57C4F02_1658326648 ActorFolderPath="GG Gazebo" ExportPath="/Game/Creative/Environments/ApolloHedges/CP_BP_Apollo_Hedge_Straight.CP_BP_Apollo_Hedge_Straight_C'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.CP_BP_Apollo_Hedge_Straight_C_1'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Creative/Environments/ApolloHedges/CP_BP_Apollo_Hedge_Straight.Default__CP_BP_Apollo_Hedge_Straight_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.CP_BP_Apollo_Hedge_Straight_C_1.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Creative/Environments/ApolloHedges/CP_BP_Apollo_Hedge_Straight.Default__CP_BP_Apollo_Hedge_Straight_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.CP_BP_Apollo_Hedge_Straight_C_1.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Creative/Environments/ApolloHedges/CP_BP_Apollo_Hedge_Straight.Default__CP_BP_Apollo_Hedge_Straight_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.CP_BP_Apollo_Hedge_Straight_C_1.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.CP_BP_Apollo_Hedge_Straight_C_1.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_CP_MI_Apollo_Bush_6'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=873.964844,Y=256.430664,Z=8.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000092,Roll=0.000000)
+            RelativeScale3D=(X=1.250000,Y=1.187500,Z=1.000000)
+            Mobility=Static
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.CP_BP_Apollo_Hedge_Straight_C_1.BoundingBoxComponent'"
+            CachedMaxDrawDistance=21550.234375
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.CP_BP_Apollo_Hedge_Straight_C_1.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=21550.234375
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=21550.234375
+         DataVersion=1
+         SavedActorGuid=0000000000000000000000005CD7077D
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="CP_BP_Apollo_Hedge_Straight_C1"
+      End Actor
+      Begin Actor Class=/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_Pillar.Suburban_Half_Wall_Pillar_C Name=Suburban_Half_Wall_Pillar_C_0 Archetype="/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_Pillar.Suburban_Half_Wall_Pillar_C'/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_Pillar.Default__Suburban_Half_Wall_Pillar_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE57C4F02_1658326648 ActorFolderPath="GG Gazebo" ExportPath="/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_Pillar.Suburban_Half_Wall_Pillar_C'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_Pillar_C_0'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_Pillar.Default__Suburban_Half_Wall_Pillar_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_Pillar_C_0.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_Pillar.Default__Suburban_Half_Wall_Pillar_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_Pillar_C_0.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_Pillar.Default__Suburban_Half_Wall_Pillar_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_Pillar_C_0.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_Pillar_C_0.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Wall_Divider_2Layer_20'"
+            LDMaxDrawDistance=0.000000
+            CachedMaxDrawDistance=0.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=767.984375,Y=-255.242188,Z=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_Pillar_C_0.BoundingBoxComponent'"
+            CachedMaxDrawDistance=10201.518555
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_Pillar_C_0.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=10201.518555
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=10201.518555
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000462FF6F1
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Suburban_Half_Wall_Pillar_C0"
+      End Actor
+      Begin Actor Class=/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_Pillar.Suburban_Half_Wall_Pillar_C Name=Suburban_Half_Wall_Pillar_C_1 Archetype="/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_Pillar.Suburban_Half_Wall_Pillar_C'/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_Pillar.Default__Suburban_Half_Wall_Pillar_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE57C4F02_1658326648 ActorFolderPath="GG Gazebo" ExportPath="/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_Pillar.Suburban_Half_Wall_Pillar_C'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_Pillar_C_1'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_Pillar.Default__Suburban_Half_Wall_Pillar_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_Pillar_C_1.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_Pillar.Default__Suburban_Half_Wall_Pillar_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_Pillar_C_1.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_Pillar.Default__Suburban_Half_Wall_Pillar_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_Pillar_C_1.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_Pillar_C_1.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Wall_Divider_2Layer_20'"
+            LDMaxDrawDistance=0.000000
+            CachedMaxDrawDistance=0.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=767.979492,Y=768.733887,Z=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_Pillar_C_1.BoundingBoxComponent'"
+            CachedMaxDrawDistance=10201.518555
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_Pillar_C_1.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=10201.518555
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=10201.518555
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000922EF347
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Suburban_Half_Wall_Pillar_C1"
+      End Actor
+      Begin Actor Class=/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_Pillar.Suburban_Half_Wall_Pillar_C Name=Suburban_Half_Wall_Pillar_C_2 Archetype="/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_Pillar.Suburban_Half_Wall_Pillar_C'/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_Pillar.Default__Suburban_Half_Wall_Pillar_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE57C4F02_1658326648 ActorFolderPath="GG Gazebo" ExportPath="/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_Pillar.Suburban_Half_Wall_Pillar_C'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_Pillar_C_2'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_Pillar.Default__Suburban_Half_Wall_Pillar_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_Pillar_C_2.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_Pillar.Default__Suburban_Half_Wall_Pillar_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_Pillar_C_2.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_Pillar.Default__Suburban_Half_Wall_Pillar_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_Pillar_C_2.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_Pillar_C_2.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Wall_Divider_2Layer_20'"
+            LDMaxDrawDistance=0.000000
+            CachedMaxDrawDistance=0.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-256.011719,Y=768.452393,Z=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_Pillar_C_2.BoundingBoxComponent'"
+            CachedMaxDrawDistance=10201.518555
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_Pillar_C_2.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=10201.518555
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=10201.518555
+         DataVersion=1
+         SavedActorGuid=00000000000000000000000099402F80
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Suburban_Half_Wall_Pillar_C2"
+      End Actor
+      Begin Actor Class=/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_Pillar.Suburban_Half_Wall_Pillar_C Name=Suburban_Half_Wall_Pillar_C_3 Archetype="/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_Pillar.Suburban_Half_Wall_Pillar_C'/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_Pillar.Default__Suburban_Half_Wall_Pillar_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE57C4F02_1658326648 ActorFolderPath="GG Gazebo" ExportPath="/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_Pillar.Suburban_Half_Wall_Pillar_C'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_Pillar_C_3'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_Pillar.Default__Suburban_Half_Wall_Pillar_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_Pillar_C_3.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_Pillar.Default__Suburban_Half_Wall_Pillar_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_Pillar_C_3.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_Pillar.Default__Suburban_Half_Wall_Pillar_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_Pillar_C_3.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_Pillar_C_3.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Wall_Divider_2Layer_20'"
+            LDMaxDrawDistance=0.000000
+            CachedMaxDrawDistance=0.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-256.019287,Y=256.617676,Z=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_Pillar_C_3.BoundingBoxComponent'"
+            CachedMaxDrawDistance=10201.518555
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_Pillar_C_3.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=10201.518555
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=10201.518555
+         DataVersion=1
+         SavedActorGuid=0000000000000000000000002556BA03
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Suburban_Half_Wall_Pillar_C3"
+      End Actor
+      Begin Actor Class=/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_Pillar.Suburban_Half_Wall_Pillar_C Name=Suburban_Half_Wall_Pillar_C_4 Archetype="/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_Pillar.Suburban_Half_Wall_Pillar_C'/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_Pillar.Default__Suburban_Half_Wall_Pillar_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE57C4F02_1658326648 ActorFolderPath="GG Gazebo" ExportPath="/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_Pillar.Suburban_Half_Wall_Pillar_C'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_Pillar_C_4'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_Pillar.Default__Suburban_Half_Wall_Pillar_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_Pillar_C_4.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_Pillar.Default__Suburban_Half_Wall_Pillar_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_Pillar_C_4.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_Pillar.Default__Suburban_Half_Wall_Pillar_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_Pillar_C_4.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_Pillar_C_4.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Wall_Divider_2Layer_20'"
+            LDMaxDrawDistance=0.000000
+            CachedMaxDrawDistance=0.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=255.957031,Y=-255.288086,Z=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_Pillar_C_4.BoundingBoxComponent'"
+            CachedMaxDrawDistance=10201.518555
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_Pillar_C_4.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=10201.518555
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=10201.518555
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000EE410D20
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Suburban_Half_Wall_Pillar_C4"
+      End Actor
+      Begin Actor Class=/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_Pillar.Suburban_Half_Wall_Pillar_C Name=Suburban_Half_Wall_Pillar_C_5 Archetype="/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_Pillar.Suburban_Half_Wall_Pillar_C'/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_Pillar.Default__Suburban_Half_Wall_Pillar_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE57C4F02_1658326648 ActorFolderPath="GG Gazebo" ExportPath="/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_Pillar.Suburban_Half_Wall_Pillar_C'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_Pillar_C_5'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_Pillar.Default__Suburban_Half_Wall_Pillar_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_Pillar_C_5.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_Pillar.Default__Suburban_Half_Wall_Pillar_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_Pillar_C_5.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_Pillar.Default__Suburban_Half_Wall_Pillar_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_Pillar_C_5.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_Pillar_C_5.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Wall_Divider_2Layer_20'"
+            LDMaxDrawDistance=0.000000
+            CachedMaxDrawDistance=0.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=767.984375,Y=257.476562,Z=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_Pillar_C_5.BoundingBoxComponent'"
+            CachedMaxDrawDistance=10201.518555
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_Pillar_C_5.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=10201.518555
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=10201.518555
+         DataVersion=1
+         SavedActorGuid=00000000000000000000000024602A30
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Suburban_Half_Wall_Pillar_C5"
+      End Actor
+      Begin Actor Class=/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_S.Suburban_Half_Wall_S_C Name=Suburban_Half_Wall_S_C_0 Archetype="/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_S.Suburban_Half_Wall_S_C'/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_S.Default__Suburban_Half_Wall_S_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE57C4F02_1658326648 ActorFolderPath="GG Gazebo" ExportPath="/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_S.Suburban_Half_Wall_S_C'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_S_C_0'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_S.Default__Suburban_Half_Wall_S_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_S_C_0.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_S.Default__Suburban_Half_Wall_S_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_S_C_0.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_S.Default__Suburban_Half_Wall_S_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_S_C_0.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_S_C_0.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Wall_Divider_2Layer_20'"
+            CachedMaxDrawDistance=20680.373047
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=768.000000,Z=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_S_C_0.BoundingBoxComponent'"
+            CachedMaxDrawDistance=20680.373047
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_S_C_0.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=20680.373047
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=20680.373047
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000E83B1CE4
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Suburban_Half_Wall_S_C0"
+      End Actor
+      Begin Actor Class=/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_S.Suburban_Half_Wall_S_C Name=Suburban_Half_Wall_S_C_1 Archetype="/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_S.Suburban_Half_Wall_S_C'/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_S.Default__Suburban_Half_Wall_S_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE57C4F02_1658326648 ActorFolderPath="GG Gazebo" ExportPath="/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_S.Suburban_Half_Wall_S_C'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_S_C_1'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_S.Default__Suburban_Half_Wall_S_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_S_C_1.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_S.Default__Suburban_Half_Wall_S_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_S_C_1.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_S.Default__Suburban_Half_Wall_S_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_S_C_1.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_S_C_1.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Wall_Divider_2Layer_20'"
+            CachedMaxDrawDistance=20680.373047
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=512.000000,Y=768.000000,Z=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_S_C_1.BoundingBoxComponent'"
+            CachedMaxDrawDistance=20680.373047
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_S_C_1.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=20680.373047
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=20680.373047
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000033A1B98
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Suburban_Half_Wall_S_C1"
+      End Actor
+      Begin Actor Class=/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_S.Suburban_Half_Wall_S_C Name=Suburban_Half_Wall_S_C_2 Archetype="/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_S.Suburban_Half_Wall_S_C'/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_S.Default__Suburban_Half_Wall_S_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE57C4F02_1658326648 ActorFolderPath="GG Gazebo" ExportPath="/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_S.Suburban_Half_Wall_S_C'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_S_C_2'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_S.Default__Suburban_Half_Wall_S_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_S_C_2.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_S.Default__Suburban_Half_Wall_S_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_S_C_2.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_S.Default__Suburban_Half_Wall_S_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_S_C_2.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_S_C_2.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Wall_Divider_2Layer_20'"
+            CachedMaxDrawDistance=20680.373047
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=768.000000,Y=0.000000,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-89.999977,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_S_C_2.BoundingBoxComponent'"
+            CachedMaxDrawDistance=20680.373047
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_S_C_2.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=20680.373047
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=20680.373047
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000D77B590B
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Suburban_Half_Wall_S_C2"
+      End Actor
+      Begin Actor Class=/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_S.Suburban_Half_Wall_S_C Name=Suburban_Half_Wall_S_C_3 Archetype="/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_S.Suburban_Half_Wall_S_C'/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_S.Default__Suburban_Half_Wall_S_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE57C4F02_1658326648 ActorFolderPath="GG Gazebo" ExportPath="/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_S.Suburban_Half_Wall_S_C'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_S_C_3'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_S.Default__Suburban_Half_Wall_S_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_S_C_3.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_S.Default__Suburban_Half_Wall_S_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_S_C_3.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Divider_Walls/Suburban_Half_Wall_S.Default__Suburban_Half_Wall_S_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_S_C_3.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_S_C_3.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Wall_Divider_2Layer_20'"
+            CachedMaxDrawDistance=20680.373047
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=768.000000,Y=512.000000,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-89.999977,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_S_C_3.BoundingBoxComponent'"
+            CachedMaxDrawDistance=20680.373047
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Half_Wall_S_C_3.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=20680.373047
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=20680.373047
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000FB19550C
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Suburban_Half_Wall_S_C3"
+      End Actor
+      Begin Actor Class=/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Props/Suburban_Pillar_Corner.Suburban_Pillar_Corner_C Name=Suburban_Pillar_Corner_C_0 Archetype="/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Props/Suburban_Pillar_Corner.Suburban_Pillar_Corner_C'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Props/Suburban_Pillar_Corner.Default__Suburban_Pillar_Corner_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE57C4F02_1658326648 ActorFolderPath="GG Gazebo" ExportPath="/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Props/Suburban_Pillar_Corner.Suburban_Pillar_Corner_C'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Pillar_Corner_C_0'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Props/Suburban_Pillar_Corner.Default__Suburban_Pillar_Corner_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Pillar_Corner_C_0.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Props/Suburban_Pillar_Corner.Default__Suburban_Pillar_Corner_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Pillar_Corner_C_0.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Props/Suburban_Pillar_Corner.Default__Suburban_Pillar_Corner_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Pillar_Corner_C_0.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Pillar_Corner_C_0.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Suburban_Trim_03_5'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=256.000488,Y=-256.000275,Z=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Pillar_Corner_C_0.BoundingBoxComponent'"
+            CachedMaxDrawDistance=16001.268555
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Pillar_Corner_C_0.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=16001.268555
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=16001.268555
+         DataVersion=1
+         SavedActorGuid=00000000000000000000000017B51BDD
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Suburban_Pillar_Corner_C0"
+      End Actor
+      Begin Actor Class=/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Props/Suburban_Pillar_Corner.Suburban_Pillar_Corner_C Name=Suburban_Pillar_Corner_C_1 Archetype="/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Props/Suburban_Pillar_Corner.Suburban_Pillar_Corner_C'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Props/Suburban_Pillar_Corner.Default__Suburban_Pillar_Corner_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE57C4F02_1658326648 ActorFolderPath="GG Gazebo" ExportPath="/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Props/Suburban_Pillar_Corner.Suburban_Pillar_Corner_C'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Pillar_Corner_C_1'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Props/Suburban_Pillar_Corner.Default__Suburban_Pillar_Corner_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Pillar_Corner_C_1.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Props/Suburban_Pillar_Corner.Default__Suburban_Pillar_Corner_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Pillar_Corner_C_1.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Props/Suburban_Pillar_Corner.Default__Suburban_Pillar_Corner_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Pillar_Corner_C_1.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Pillar_Corner_C_1.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Suburban_Trim_03_5'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=256.000488,Y=255.999756,Z=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Pillar_Corner_C_1.BoundingBoxComponent'"
+            CachedMaxDrawDistance=16001.268555
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Pillar_Corner_C_1.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=16001.268555
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=16001.268555
+         DataVersion=1
+         SavedActorGuid=00000000000000000000000093633553
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Suburban_Pillar_Corner_C1"
+      End Actor
+      Begin Actor Class=/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Props/Suburban_Pillar_Corner.Suburban_Pillar_Corner_C Name=Suburban_Pillar_Corner_C_2 Archetype="/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Props/Suburban_Pillar_Corner.Suburban_Pillar_Corner_C'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Props/Suburban_Pillar_Corner.Default__Suburban_Pillar_Corner_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE57C4F02_1658326648 ActorFolderPath="GG Gazebo" ExportPath="/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Props/Suburban_Pillar_Corner.Suburban_Pillar_Corner_C'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Pillar_Corner_C_2'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Props/Suburban_Pillar_Corner.Default__Suburban_Pillar_Corner_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Pillar_Corner_C_2.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Props/Suburban_Pillar_Corner.Default__Suburban_Pillar_Corner_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Pillar_Corner_C_2.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Props/Suburban_Pillar_Corner.Default__Suburban_Pillar_Corner_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Pillar_Corner_C_2.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Pillar_Corner_C_2.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Suburban_Trim_03_5'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-255.999756,Y=255.999756,Z=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Pillar_Corner_C_2.BoundingBoxComponent'"
+            CachedMaxDrawDistance=16001.268555
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Pillar_Corner_C_2.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=16001.268555
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=16001.268555
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000FC3E8C07
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Suburban_Pillar_Corner_C2"
+      End Actor
+      Begin Actor Class=/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Props/Suburban_Pillar_Corner.Suburban_Pillar_Corner_C Name=Suburban_Pillar_Corner_C_3 Archetype="/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Props/Suburban_Pillar_Corner.Suburban_Pillar_Corner_C'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Props/Suburban_Pillar_Corner.Default__Suburban_Pillar_Corner_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE57C4F02_1658326648 ActorFolderPath="GG Gazebo" ExportPath="/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Props/Suburban_Pillar_Corner.Suburban_Pillar_Corner_C'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Pillar_Corner_C_3'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Props/Suburban_Pillar_Corner.Default__Suburban_Pillar_Corner_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Pillar_Corner_C_3.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Props/Suburban_Pillar_Corner.Default__Suburban_Pillar_Corner_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Pillar_Corner_C_3.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Props/Suburban_Pillar_Corner.Default__Suburban_Pillar_Corner_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Pillar_Corner_C_3.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Pillar_Corner_C_3.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Suburban_Trim_03_5'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=768.000488,Y=-256.000275,Z=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Pillar_Corner_C_3.BoundingBoxComponent'"
+            CachedMaxDrawDistance=16001.268555
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Pillar_Corner_C_3.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=16001.268555
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=16001.268555
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000A252D58D
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Suburban_Pillar_Corner_C3"
+      End Actor
+      Begin Actor Class=/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Props/Suburban_Pillar_Corner.Suburban_Pillar_Corner_C Name=Suburban_Pillar_Corner_C_4 Archetype="/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Props/Suburban_Pillar_Corner.Suburban_Pillar_Corner_C'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Props/Suburban_Pillar_Corner.Default__Suburban_Pillar_Corner_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE57C4F02_1658326648 ActorFolderPath="GG Gazebo" ExportPath="/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Props/Suburban_Pillar_Corner.Suburban_Pillar_Corner_C'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Pillar_Corner_C_4'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Props/Suburban_Pillar_Corner.Default__Suburban_Pillar_Corner_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Pillar_Corner_C_4.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Props/Suburban_Pillar_Corner.Default__Suburban_Pillar_Corner_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Pillar_Corner_C_4.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Props/Suburban_Pillar_Corner.Default__Suburban_Pillar_Corner_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Pillar_Corner_C_4.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Pillar_Corner_C_4.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Suburban_Trim_03_5'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=768.000488,Y=767.999756,Z=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Pillar_Corner_C_4.BoundingBoxComponent'"
+            CachedMaxDrawDistance=16001.268555
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Pillar_Corner_C_4.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=16001.268555
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=16001.268555
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000E0C79732
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Suburban_Pillar_Corner_C4"
+      End Actor
+      Begin Actor Class=/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Props/Suburban_Pillar_Corner.Suburban_Pillar_Corner_C Name=Suburban_Pillar_Corner_C_5 Archetype="/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Props/Suburban_Pillar_Corner.Suburban_Pillar_Corner_C'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Props/Suburban_Pillar_Corner.Default__Suburban_Pillar_Corner_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE57C4F02_1658326648 ActorFolderPath="GG Gazebo" ExportPath="/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Props/Suburban_Pillar_Corner.Suburban_Pillar_Corner_C'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Pillar_Corner_C_5'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Props/Suburban_Pillar_Corner.Default__Suburban_Pillar_Corner_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Pillar_Corner_C_5.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Props/Suburban_Pillar_Corner.Default__Suburban_Pillar_Corner_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Pillar_Corner_C_5.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Props/Suburban_Pillar_Corner.Default__Suburban_Pillar_Corner_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Pillar_Corner_C_5.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Pillar_Corner_C_5.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Suburban_Trim_03_5'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-255.999756,Y=767.999756,Z=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Pillar_Corner_C_5.BoundingBoxComponent'"
+            CachedMaxDrawDistance=16001.268555
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Pillar_Corner_C_5.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=16001.268555
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=16001.268555
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000A580AD57
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Suburban_Pillar_Corner_C5"
+      End Actor
+      Begin Actor Class=/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Props/Suburban_Pillar_Corner.Suburban_Pillar_Corner_C Name=Suburban_Pillar_Corner_C_6 Archetype="/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Props/Suburban_Pillar_Corner.Suburban_Pillar_Corner_C'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Props/Suburban_Pillar_Corner.Default__Suburban_Pillar_Corner_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE57C4F02_1658326648 ActorFolderPath="GG Gazebo" ExportPath="/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Props/Suburban_Pillar_Corner.Suburban_Pillar_Corner_C'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Pillar_Corner_C_6'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Props/Suburban_Pillar_Corner.Default__Suburban_Pillar_Corner_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Pillar_Corner_C_6.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Props/Suburban_Pillar_Corner.Default__Suburban_Pillar_Corner_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Pillar_Corner_C_6.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Props/Suburban_Pillar_Corner.Default__Suburban_Pillar_Corner_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Pillar_Corner_C_6.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Pillar_Corner_C_6.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Suburban_Trim_03_5'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=768.000488,Y=255.999756,Z=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Pillar_Corner_C_6.BoundingBoxComponent'"
+            CachedMaxDrawDistance=16001.268555
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Pillar_Corner_C_6.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=16001.268555
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=16001.268555
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000CB2C3627
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Suburban_Pillar_Corner_C6"
+      End Actor
+      Begin Actor Class=/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Roofs/Suburban_Roof_C_02.Suburban_Roof_C_02_C Name=Suburban_Roof_C_02_C_0 Archetype="/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Roofs/Suburban_Roof_C_02.Suburban_Roof_C_02_C'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Roofs/Suburban_Roof_C_02.Default__Suburban_Roof_C_02_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE57C4F02_1658326648 ActorFolderPath="GG Gazebo" ExportPath="/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Roofs/Suburban_Roof_C_02.Suburban_Roof_C_02_C'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Roof_C_02_C_0'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Roofs/Suburban_Roof_C_02.Default__Suburban_Roof_C_02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Roof_C_02_C_0.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Roofs/Suburban_Roof_C_02.Default__Suburban_Roof_C_02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Roof_C_02_C_0.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Roofs/Suburban_Roof_C_02.Default__Suburban_Roof_C_02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Roof_C_02_C_0.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Roof_C_02_C_0.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Suburban_Roof_3Layer_2'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000977,Y=768.000000,Z=384.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999756,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Roof_C_02_C_0.BoundingBoxComponent'"
+            CachedMaxDrawDistance=26474.310547
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Roof_C_02_C_0.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=26474.310547
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         NavObstacles(0)=(LocalBounds=(Min=(X=-281.000000,Y=-281.000000,Z=-200.000000),Max=(X=281.000000,Y=281.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=26474.310547
+         DataVersion=1
+         SavedActorGuid=0000000000000000000000004C038B14
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Suburban_Roof_C_02_C0"
+      End Actor
+      Begin Actor Class=/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Roofs/Suburban_Roof_C_02.Suburban_Roof_C_02_C Name=Suburban_Roof_C_02_C_1 Archetype="/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Roofs/Suburban_Roof_C_02.Suburban_Roof_C_02_C'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Roofs/Suburban_Roof_C_02.Default__Suburban_Roof_C_02_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE57C4F02_1658326648 ActorFolderPath="GG Gazebo" ExportPath="/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Roofs/Suburban_Roof_C_02.Suburban_Roof_C_02_C'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Roof_C_02_C_1'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Roofs/Suburban_Roof_C_02.Default__Suburban_Roof_C_02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Roof_C_02_C_1.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Roofs/Suburban_Roof_C_02.Default__Suburban_Roof_C_02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Roof_C_02_C_1.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Roofs/Suburban_Roof_C_02.Default__Suburban_Roof_C_02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Roof_C_02_C_1.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Roof_C_02_C_1.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Suburban_Roof_3Layer_2'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=768.000000,Y=-0.000275,Z=384.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=89.999939,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Roof_C_02_C_1.BoundingBoxComponent'"
+            CachedMaxDrawDistance=26474.310547
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Roof_C_02_C_1.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=26474.310547
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         NavObstacles(0)=(LocalBounds=(Min=(X=-281.000000,Y=-281.000000,Z=-200.000000),Max=(X=281.000000,Y=281.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=26474.310547
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000FFB542A0
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Suburban_Roof_C_02_C1"
+      End Actor
+      Begin Actor Class=/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Roofs/Suburban_Roof_C_03.Suburban_Roof_C_03_C Name=Suburban_Roof_C_03_C_0 Archetype="/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Roofs/Suburban_Roof_C_03.Suburban_Roof_C_03_C'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Roofs/Suburban_Roof_C_03.Default__Suburban_Roof_C_03_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE57C4F02_1658326648 ActorFolderPath="GG Gazebo" ExportPath="/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Roofs/Suburban_Roof_C_03.Suburban_Roof_C_03_C'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Roof_C_03_C_0'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Roofs/Suburban_Roof_C_03.Default__Suburban_Roof_C_03_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Roof_C_03_C_0.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Roofs/Suburban_Roof_C_03.Default__Suburban_Roof_C_03_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Roof_C_03_C_0.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Roofs/Suburban_Roof_C_03.Default__Suburban_Roof_C_03_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Roof_C_03_C_0.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Roof_C_03_C_0.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Suburban_Roof_3Layer_2'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=512.000977,Y=768.000000,Z=384.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999756,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Roof_C_03_C_0.BoundingBoxComponent'"
+            CachedMaxDrawDistance=25886.525391
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_Roof_C_03_C_0.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=25886.525391
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         NavObstacles(0)=(LocalBounds=(Min=(X=-281.000000,Y=-281.000000,Z=-200.000000),Max=(X=281.000000,Y=281.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=25886.525391
+         DataVersion=1
+         SavedActorGuid=00000000000000000000000072799066
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Suburban_Roof_C_03_C0"
+      End Actor
+      Begin Actor Class=/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Roofs/Suburban_RoofWall_01.Suburban_RoofWall_01_C Name=Suburban_RoofWall_01_C_0 Archetype="/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Roofs/Suburban_RoofWall_01.Suburban_RoofWall_01_C'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Roofs/Suburban_RoofWall_01.Default__Suburban_RoofWall_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE57C4F02_1658326648 ActorFolderPath="GG Gazebo" ExportPath="/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Roofs/Suburban_RoofWall_01.Suburban_RoofWall_01_C'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_RoofWall_01_C_0'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Roofs/Suburban_RoofWall_01.Default__Suburban_RoofWall_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_RoofWall_01_C_0.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Roofs/Suburban_RoofWall_01.Default__Suburban_RoofWall_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_RoofWall_01_C_0.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Roofs/Suburban_RoofWall_01.Default__Suburban_RoofWall_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_RoofWall_01_C_0.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_RoofWall_01_C_0.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Suburban_Roof_4layer_13'"
+            CachedMaxDrawDistance=22947.097656
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=512.000000,Y=-256.000000,Z=384.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=180.000000,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_RoofWall_01_C_0.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22947.097656
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_RoofWall_01_C_0.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22947.097656
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22947.097656
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000AD72A528
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Suburban_RoofWall_01_C0"
+      End Actor
+      Begin Actor Class=/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Roofs/Suburban_RoofWall_01.Suburban_RoofWall_01_C Name=Suburban_RoofWall_01_C_1 Archetype="/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Roofs/Suburban_RoofWall_01.Suburban_RoofWall_01_C'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Roofs/Suburban_RoofWall_01.Default__Suburban_RoofWall_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE57C4F02_1658326648 ActorFolderPath="GG Gazebo" ExportPath="/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Roofs/Suburban_RoofWall_01.Suburban_RoofWall_01_C'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_RoofWall_01_C_1'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Roofs/Suburban_RoofWall_01.Default__Suburban_RoofWall_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_RoofWall_01_C_1.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Roofs/Suburban_RoofWall_01.Default__Suburban_RoofWall_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_RoofWall_01_C_1.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Roofs/Suburban_RoofWall_01.Default__Suburban_RoofWall_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_RoofWall_01_C_1.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_RoofWall_01_C_1.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Suburban_Roof_4layer_13'"
+            CachedMaxDrawDistance=22947.097656
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-256.000000,Y=512.000000,Z=384.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=89.999939,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_RoofWall_01_C_1.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22947.097656
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_RoofWall_01_C_1.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22947.097656
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22947.097656
+         DataVersion=1
+         SavedActorGuid=00000000000000000000000007B9B0C7
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Suburban_RoofWall_01_C1"
+      End Actor
+      Begin Actor Class=/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Roofs/Suburban_RoofWall_01.Suburban_RoofWall_01_C Name=Suburban_RoofWall_01_C_2 Archetype="/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Roofs/Suburban_RoofWall_01.Suburban_RoofWall_01_C'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Roofs/Suburban_RoofWall_01.Default__Suburban_RoofWall_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE57C4F02_1658326648 ActorFolderPath="GG Gazebo" ExportPath="/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Roofs/Suburban_RoofWall_01.Suburban_RoofWall_01_C'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_RoofWall_01_C_2'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Roofs/Suburban_RoofWall_01.Default__Suburban_RoofWall_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_RoofWall_01_C_2.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Roofs/Suburban_RoofWall_01.Default__Suburban_RoofWall_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_RoofWall_01_C_2.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Artemis/Environments/BuildingActors/Suburban/Roofs/Suburban_RoofWall_01.Default__Suburban_RoofWall_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_RoofWall_01_C_2.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_RoofWall_01_C_2.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Suburban_Roof_4layer_13'"
+            CachedMaxDrawDistance=22947.097656
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=768.000000,Y=512.000000,Z=384.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-89.999977,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_RoofWall_01_C_2.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22947.097656
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/GG_PrefabProject/GG_PrefabProject.GG_PrefabProject:PersistentLevel.Suburban_RoofWall_01_C_2.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22947.097656
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22947.097656
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000FB85D7C1
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Suburban_RoofWall_01_C2"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map
