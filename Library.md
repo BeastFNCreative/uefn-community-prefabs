@@ -70,3 +70,14 @@
 | Icon | Playset Name w/ Author | Extra Info |
 |-----------------------------------------|-----------------|-----------------|
 | <img src=".assets/Dirty Docks Cranes.png" width="256"/> | **[Cranes](SpawnerTexts/Dirty%20Docks%20Cranes.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Custom** | Visually Modified: ✔️<br>Requires External Download: ❌|
+| <img src=".assets/Dirty Docks Dock Warehouse.png" width="256"/> | **[Dock Warehouse](SpawnerTexts/Dirty%20Docks%20Dock%20Warehouse.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Custom** | Visually Modified: ✔️<br>Requires External Download: ❌|
+| <img src=".assets/Dirty Docks Dropoff Station.png" width="256"/> | **[Dropoff Station](SpawnerTexts/Dirty%20Docks%20Dropoff%20Station.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Custom** | Visually Modified: ✔️<br>Requires External Download: ❌<br>Some actors may be off position if you align to building grid|
+| <img src=".assets/Dirty Docks Pump Station A.png" width="256"/> | **[Pump Station A](SpawnerTexts/Dirty%20Docks%20Pump%20Station%20A.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Custom** | Visually Modified: ✔️<br>Requires External Download: ❌|
+| <img src=".assets/Dirty Docks Pump Station B.png" width="256"/> | **[Pump Station B](SpawnerTexts/Dirty%20Docks%20Pump%20Station%20B.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Custom** | Visually Modified: ✔️<br>Requires External Download: ❌<br>Some actors may be off position if you align to building grid|
+| <img src=".assets/Dirty Docks Warehouse A.png" width="256"/> | **[Warehouse A](SpawnerTexts/Dirty%20Docks%20Warehouse%20A.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Custom** | Visually Modified: ✔️<br>Requires External Download: ❌|
+Modified: ✔️<br>Requires External Download: ❌<br>Some actors may be off position if you align to building grid|
+| <img src=".assets/Dirty Docks Warehouse B.png" width="256"/> | **[Warehouse B](SpawnerTexts/Dirty%20Docks%20Warehouse%20B.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Custom** | Visually Modified: ✔️<br>Requires External Download: ❌|
+Modified: ✔️<br>Requires External Download: ❌<br>Some actors may be off position if you align to building grid|
+| <img src=".assets/Dirty Docks Warehouse C.png" width="256"/> | **[Warehouse C](SpawnerTexts/Dirty%20Docks%20Warehouse%20C.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Custom** | Visually Modified: ✔️<br>Requires External Download: ❌|
+Modified: ✔️<br>Requires External Download: ❌<br>Some actors may be off position if you align to building grid|
+| <img src=".assets/Dirty Docks Warehouse D.png" width="256"/> | **[Warehouse D](SpawnerTexts/Dirty%20Docks%20Warehouse%20D.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Custom** | Visually Modified: ✔️<br>Requires External Download: ❌|
