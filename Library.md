@@ -11,17 +11,17 @@
 #
 | <img src=".assets/ReloadEnvironmentShopA_WallGallery_Icon.png" width="256"/> | **[Reload Environment Shop A Wall & Floor Gallery](SpawnerTexts/Gallery_ReloadEnvironmentShopA.txt)**<br>**(Ported by: akira_v9)**<br><br>**Source: Reload Ventures Map** | Visually Modified: ❌<br>Requires External Download: [LINK](https://drive.google.com/drive/folders/1z-QCm8OmSfO_L3lJ2AVAxplUqQfZfY6r?usp=drive_link)|
 # Unreleased Prefabs
-| <img src=".assets/Prefab Spiky Stadium.png" width="256"/> | **[Spiky Stadium](SpawnerTexts/Prefab_Spiky_Stadium.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Playground, Custom** | Visually Modified: ✔️<br>Requires External Download: ❌|
+| <img src=".assets/Prefab Spiky Stadium.png" width="256"/> | **[Spiky Stadium](SpawnerTexts/Prefab_Spiky_Stadium.txt)**<br>**(Ported by: Lady Miranda & akira_v9)**<br><br>**Source: Playground, Custom** | Visually Modified: ✔️<br>Requires External Download: ❌|
 # Custom Prefabs
 | <img src=".assets/Risky_Reels_Icon.png" width="256"/> | **[Variant Risky Reels](SpawnerTexts/Prefab_VariantRiskyReels_POI.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Recreated** | Visually Modified: ✔️<br>Requires External Download: ❌|
 #
 | <img src=".assets/LandmarkRainbowRentals_Icon.png" width="256"/> | **[Rainbow Rentals](SpawnerTexts/Prefab_RainbowRentals_Landmark.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Recreated** | Visually Modified: ✔️<br>Requires External Download: ❌|
 # Sleepy Sound Prefabs
-| <img src=".assets/Sleepy Sound Motel.png" width="256"/> | **[Sleepy Sound Motel](SpawnerTexts/Prefab_SleepySound_Motel.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Unreleased, Modified** | Visually Modified: ❌<br>Requires External Download: ❌|
+| <img src=".assets/Sleepy Sound Motel.png" width="256"/> | **[Sleepy Sound Motel](SpawnerTexts/Prefab_SleepySound_Motel.txt)**<br>**(Ported by: akira_v9 & Lady Miranda)**<br><br>**Source: Unreleased, Modified** | Visually Modified: ❌<br>Requires External Download: ❌|
 #
-| <img src=".assets/Sleepy Sound Shops.png" width="256"/> | **[Sleepy Sound Shops](SpawnerTexts/Prefab_SleepySound_Shops.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Unreleased, Modified** | Visually Modified: ❌<br>Requires External Download: ❌|
+| <img src=".assets/Sleepy Sound Shops.png" width="256"/> | **[Sleepy Sound Shops](SpawnerTexts/Prefab_SleepySound_Shops.txt)**<br>**(Ported by: akira_v9 & Lady Miranda)**<br><br>**Source: Unreleased, Modified** | Visually Modified: ❌<br>Requires External Download: ❌|
 #
-| <img src=".assets/Sleepy Sound Joels.png" width="256"/> | **[Sleepy Sound Joels](SpawnerTexts/Prefab_SleepySound_Joels.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Unreleased, Modified** | Visually Modified: ❌<br>Requires External Download: ❌|
+| <img src=".assets/Sleepy Sound Joels.png" width="256"/> | **[Sleepy Sound Joels](SpawnerTexts/Prefab_SleepySound_Joels.txt)**<br>**(Ported by: akira_v9 & Lady Miranda)**<br><br>**Source: Unreleased, Modified** | Visually Modified: ❌<br>Requires External Download: ❌|
 # Tilted Towers Poi Island
 | <img src=".assets/Variant Blue Apartments Icon.png" width="256"/> | **[Variant Blue Apartments](SpawnerTexts/Prefab%20Variant%20Blue%20Apartments.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Tilted Towers POI Island** | Visually Modified: ❌<br>Requires External Download: ❌|
 #
