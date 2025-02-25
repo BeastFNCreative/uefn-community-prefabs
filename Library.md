@@ -20,6 +20,9 @@
 |-----------------------------------------|-----------------|-----------------|
 | <img src=".assets/Risky_Reels_Icon.png" width="256"/> | **[Variant Risky Reels](SpawnerTexts/Prefab_VariantRiskyReels_POI.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Recreated** | Visually Modified: ✔️<br>Requires External Download: ❌|
 | <img src=".assets/LandmarkRainbowRentals_Icon.png" width="256"/> | **[Rainbow Rentals](SpawnerTexts/Prefab_RainbowRentals_Landmark.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Recreated** | Visually Modified: ✔️<br>Requires External Download: ❌|
+| <img src=".assets/Eye Land Cabin.png" width="256"/> | **[Eye Land Cabin](SpawnerTexts/Eye%20Land%20Cabin.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Recreated** | Visually Modified: ✔️<br>Requires External Download: ❌|
+| <img src=".assets/Eye Land Main Lodge.png" width="256"/> | **[Eye Land Main Lodge](SpawnerTexts/Eye%20Land%20Main%20Lodge.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Recreated** | Visually Modified: ✔️<br>Requires External Download: ❌|
+| <img src=".assets/Eye Land Side Lodge.png" width="256"/> | **[Eye Land Side Lodge](SpawnerTexts/Eye%20Land%20Side%20Lodge.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Recreated** | Visually Modified: ✔️<br>Requires External Download: ❌|
 
 # Sleepy Sound Prefabs
 
@@ -65,7 +68,7 @@
 | <img src=".assets/GG Fishing Shop.png" width="256"/> | **[Greasy Fishing Shop](SpawnerTexts/Prefab%20GG%20Fishing%20Shop.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Greasy Grove POI Island** | Visually Modified: ❌<br>Requires External Download: ❌|
 | <img src=".assets/GG Gas Station.png" width="256"/> | **[Greasy Gas Station](SpawnerTexts/Prefab%20GG%20Gas%20Station.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Greasy Grove POI Island** | Visually Modified: ❌<br>Requires External Download: ❌|
 
-# Dirty Docks
+# Custom Dirty Docks Prefabs
 
 | Icon | Playset Name w/ Author | Extra Info |
 |-----------------------------------------|-----------------|-----------------|
