@@ -74,3 +74,5 @@
 | <img src=".assets/GG Fishing Shop.png" width="256"/> | **[Greasy Fishing Shop](SpawnerTexts/Prefab%20GG%20Fishing%20Shop.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Greasy Grove POI Island** | Visually Modified: ❌<br>Requires External Download: ❌|
 #
 | <img src=".assets/GG Gas Station.png" width="256"/> | **[Greasy Gas Station](SpawnerTexts/Prefab%20GG%20Gas%20Station.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Greasy Grove POI Island** | Visually Modified: ❌<br>Requires External Download: ❌|
+# Dirty Docks Custom
+| <img src=".assets/Dirty Docks Cranes.png" width="256"/> | **[Cranes](SpawnerTexts/Dirty%20Docks%20Cranes.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Custom** | Visually Modified: ✔️<br>Requires External Download: ❌|
