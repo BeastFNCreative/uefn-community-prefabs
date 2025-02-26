@@ -24,6 +24,12 @@
 | <img src=".assets/Eye Land Main Lodge.png" width="256"/> | **[Eye Land Main Lodge](SpawnerTexts/Eye%20Land%20Main%20Lodge.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Recreated** | Visually Modified: ✔️<br>Requires External Download: ❌|
 | <img src=".assets/Eye Land Side Lodge.png" width="256"/> | **[Eye Land Side Lodge](SpawnerTexts/Eye%20Land%20Side%20Lodge.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Recreated** | Visually Modified: ✔️<br>Requires External Download: ❌|
 
+# Chapter 3 Misc
+
+| Icon | Playset Name w/ Author | Extra Info |
+|-----------------------------------------|-----------------|-----------------|
+| <img src=".assets/The Driftwood.png" width="256"/> | **[The Driftwood](SpawnerTexts/The Driftwood.txt)**<br>**(Ported by: akira_v9)**<br><br>**Source: Chapter 3 Island** | Visually Modified: ❌<br>Requires External Download: ❌|
+
 # Sleepy Sound Prefabs
 
 | Icon | Playset Name w/ Author | Extra Info |
