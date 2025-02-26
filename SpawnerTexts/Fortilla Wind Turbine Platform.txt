@@ -1,0 +1,1637 @@
+Begin Map
+   Begin Level
+      Begin Actor Class=/Script/FortniteGame.FortPlaysetRoot Name=FortPlaysetRoot_UAID_D843AE8E0CE50B5002_1984392356 Archetype="/Script/FortniteGame.FortPlaysetRoot'/Script/FortniteGame.Default__FortPlaysetRoot'" ActorFolderPath="Fortilla Wind Turbine Platform" ExportPath="/Script/FortniteGame.FortPlaysetRoot'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.FortPlaysetRoot_UAID_D843AE8E0CE50B5002_1984392356'"
+         Begin Object Class=/Script/Engine.SceneComponent Name="DefaultSceneRoot" Archetype="/Script/Engine.SceneComponent'/Script/FortniteGame.Default__FortPlaysetRoot:DefaultSceneRoot'" ExportPath="/Script/Engine.SceneComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.FortPlaysetRoot_UAID_D843AE8E0CE50B5002_1984392356.DefaultSceneRoot'"
+         End Object
+         Begin Object Name="DefaultSceneRoot" ExportPath="/Script/Engine.SceneComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.FortPlaysetRoot_UAID_D843AE8E0CE50B5002_1984392356.DefaultSceneRoot'"
+         End Object
+         SavedActorGuid=66656BBE4F1AAA05A91216914BA788F4
+         PlaysetPackagePathName="/CRP_Foundation/SetupAssets/Maps/PID_CP_Foundation_3x7_StripMallStores_01"
+         ActorLabel="Fortilla Wind Turbine Platform"
+      End Actor
+      Begin Actor Class=/Game/Athena/Apollo/Environments/BuildingActors/Farm/Roofs/Apollo_Barn_Roof_Peak_Metal_B.Apollo_Barn_Roof_Peak_Metal_B_C Name=Apollo_Barn_Roof_Peak_Metal_B_C_3 Archetype="/Game/Athena/Apollo/Environments/BuildingActors/Farm/Roofs/Apollo_Barn_Roof_Peak_Metal_B.Apollo_Barn_Roof_Peak_Metal_B_C'/Game/Athena/Apollo/Environments/BuildingActors/Farm/Roofs/Apollo_Barn_Roof_Peak_Metal_B.Default__Apollo_Barn_Roof_Peak_Metal_B_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50B5002_1984392356 ActorFolderPath="Fortilla Wind Turbine Platform" ExportPath="/Game/Athena/Apollo/Environments/BuildingActors/Farm/Roofs/Apollo_Barn_Roof_Peak_Metal_B.Apollo_Barn_Roof_Peak_Metal_B_C'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Barn_Roof_Peak_Metal_B_C_3'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Farm/Roofs/Apollo_Barn_Roof_Peak_Metal_B.Default__Apollo_Barn_Roof_Peak_Metal_B_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Barn_Roof_Peak_Metal_B_C_3.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Apollo/Environments/BuildingActors/Farm/Roofs/Apollo_Barn_Roof_Peak_Metal_B.Default__Apollo_Barn_Roof_Peak_Metal_B_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Barn_Roof_Peak_Metal_B_C_3.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Farm/Roofs/Apollo_Barn_Roof_Peak_Metal_B.Default__Apollo_Barn_Roof_Peak_Metal_B_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Barn_Roof_Peak_Metal_B_C_3.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Barn_Roof_Peak_Metal_B_C_3.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Apollo_Barn_Metal_Fortilla_Blue_2'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1024.000000,Y=768.000000,Z=384.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Barn_Roof_Peak_Metal_B_C_3.BoundingBoxComponent'"
+            CachedMaxDrawDistance=27738.802734
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Barn_Roof_Peak_Metal_B_C_3.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=27738.802734
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Apollo/Sets/Fortilla/TextureData/MI_Apollo_Barn_Corrugated_Roof_Blue_S13.MI_Apollo_Barn_Corrugated_Roof_Blue_S13'"
+         NavObstacles(0)=(LocalBounds=(Min=(X=-281.000000,Y=-281.000000,Z=-200.000000),Max=(X=281.000000,Y=281.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=27738.802734
+         DataVersion=1
+         SavedActorGuid=0000000000000000000000000CB58253
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Apollo_Barn_Roof_Peak_Metal_B_C3"
+      End Actor
+      Begin Actor Class=/Game/Athena/Apollo/Environments/BuildingActors/Farm/Roofs/Apollo_Barn_Roof_Peak_Metal_B.Apollo_Barn_Roof_Peak_Metal_B_C Name=Apollo_Barn_Roof_Peak_Metal_B_C_4 Archetype="/Game/Athena/Apollo/Environments/BuildingActors/Farm/Roofs/Apollo_Barn_Roof_Peak_Metal_B.Apollo_Barn_Roof_Peak_Metal_B_C'/Game/Athena/Apollo/Environments/BuildingActors/Farm/Roofs/Apollo_Barn_Roof_Peak_Metal_B.Default__Apollo_Barn_Roof_Peak_Metal_B_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50B5002_1984392356 ActorFolderPath="Fortilla Wind Turbine Platform" ExportPath="/Game/Athena/Apollo/Environments/BuildingActors/Farm/Roofs/Apollo_Barn_Roof_Peak_Metal_B.Apollo_Barn_Roof_Peak_Metal_B_C'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Barn_Roof_Peak_Metal_B_C_4'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Farm/Roofs/Apollo_Barn_Roof_Peak_Metal_B.Default__Apollo_Barn_Roof_Peak_Metal_B_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Barn_Roof_Peak_Metal_B_C_4.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Apollo/Environments/BuildingActors/Farm/Roofs/Apollo_Barn_Roof_Peak_Metal_B.Default__Apollo_Barn_Roof_Peak_Metal_B_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Barn_Roof_Peak_Metal_B_C_4.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Farm/Roofs/Apollo_Barn_Roof_Peak_Metal_B.Default__Apollo_Barn_Roof_Peak_Metal_B_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Barn_Roof_Peak_Metal_B_C_4.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Barn_Roof_Peak_Metal_B_C_4.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Apollo_Barn_Metal_Fortilla_Blue_2'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-512.000000,Y=768.000000,Z=384.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Barn_Roof_Peak_Metal_B_C_4.BoundingBoxComponent'"
+            CachedMaxDrawDistance=27738.802734
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Barn_Roof_Peak_Metal_B_C_4.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=27738.802734
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Apollo/Sets/Fortilla/TextureData/MI_Apollo_Barn_Corrugated_Roof_Blue_S13.MI_Apollo_Barn_Corrugated_Roof_Blue_S13'"
+         NavObstacles(0)=(LocalBounds=(Min=(X=-281.000000,Y=-281.000000,Z=-200.000000),Max=(X=281.000000,Y=281.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=27738.802734
+         DataVersion=1
+         SavedActorGuid=00000000000000000000000050816702
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Apollo_Barn_Roof_Peak_Metal_B_C4"
+      End Actor
+      Begin Actor Class=/Game/Athena/Apollo/Environments/BuildingActors/Farm/Roofs/Apollo_Barn_Roof_Peak_Metal_B_Cap_B.Apollo_Barn_Roof_Peak_Metal_B_Cap_B_C Name=Apollo_Barn_Roof_Peak_Metal_B_Cap_B_C_4 Archetype="/Game/Athena/Apollo/Environments/BuildingActors/Farm/Roofs/Apollo_Barn_Roof_Peak_Metal_B_Cap_B.Apollo_Barn_Roof_Peak_Metal_B_Cap_B_C'/Game/Athena/Apollo/Environments/BuildingActors/Farm/Roofs/Apollo_Barn_Roof_Peak_Metal_B_Cap_B.Default__Apollo_Barn_Roof_Peak_Metal_B_Cap_B_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50B5002_1984392356 ActorFolderPath="Fortilla Wind Turbine Platform" ExportPath="/Game/Athena/Apollo/Environments/BuildingActors/Farm/Roofs/Apollo_Barn_Roof_Peak_Metal_B_Cap_B.Apollo_Barn_Roof_Peak_Metal_B_Cap_B_C'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Barn_Roof_Peak_Metal_B_Cap_B_C_4'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Farm/Roofs/Apollo_Barn_Roof_Peak_Metal_B_Cap_B.Default__Apollo_Barn_Roof_Peak_Metal_B_Cap_B_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Barn_Roof_Peak_Metal_B_Cap_B_C_4.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Apollo/Environments/BuildingActors/Farm/Roofs/Apollo_Barn_Roof_Peak_Metal_B_Cap_B.Default__Apollo_Barn_Roof_Peak_Metal_B_Cap_B_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Barn_Roof_Peak_Metal_B_Cap_B_C_4.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Farm/Roofs/Apollo_Barn_Roof_Peak_Metal_B_Cap_B.Default__Apollo_Barn_Roof_Peak_Metal_B_Cap_B_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Barn_Roof_Peak_Metal_B_Cap_B_C_4.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Barn_Roof_Peak_Metal_B_Cap_B_C_4.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Apollo_Barn_Metal_Fortilla_Blue_2'"
+            CachedMaxDrawDistance=25016.814453
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1280.000000,Y=1024.000000,Z=384.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=90.000076,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Barn_Roof_Peak_Metal_B_Cap_B_C_4.BoundingBoxComponent'"
+            CachedMaxDrawDistance=25016.814453
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Barn_Roof_Peak_Metal_B_Cap_B_C_4.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=25016.814453
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Apollo/Sets/Fortilla/TextureData/MI_Apollo_Barn_Corrugated_Roof_Blue_S13.MI_Apollo_Barn_Corrugated_Roof_Blue_S13'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=25016.814453
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000688935B8
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Apollo_Barn_Roof_Peak_Metal_B_Cap_B_C4"
+      End Actor
+      Begin Actor Class=/Game/Athena/Apollo/Environments/BuildingActors/Farm/Roofs/Apollo_Barn_Roof_Peak_Metal_B_Cap_B.Apollo_Barn_Roof_Peak_Metal_B_Cap_B_C Name=Apollo_Barn_Roof_Peak_Metal_B_Cap_B_C_5 Archetype="/Game/Athena/Apollo/Environments/BuildingActors/Farm/Roofs/Apollo_Barn_Roof_Peak_Metal_B_Cap_B.Apollo_Barn_Roof_Peak_Metal_B_Cap_B_C'/Game/Athena/Apollo/Environments/BuildingActors/Farm/Roofs/Apollo_Barn_Roof_Peak_Metal_B_Cap_B.Default__Apollo_Barn_Roof_Peak_Metal_B_Cap_B_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50B5002_1984392356 ActorFolderPath="Fortilla Wind Turbine Platform" ExportPath="/Game/Athena/Apollo/Environments/BuildingActors/Farm/Roofs/Apollo_Barn_Roof_Peak_Metal_B_Cap_B.Apollo_Barn_Roof_Peak_Metal_B_Cap_B_C'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Barn_Roof_Peak_Metal_B_Cap_B_C_5'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Farm/Roofs/Apollo_Barn_Roof_Peak_Metal_B_Cap_B.Default__Apollo_Barn_Roof_Peak_Metal_B_Cap_B_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Barn_Roof_Peak_Metal_B_Cap_B_C_5.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Apollo/Environments/BuildingActors/Farm/Roofs/Apollo_Barn_Roof_Peak_Metal_B_Cap_B.Default__Apollo_Barn_Roof_Peak_Metal_B_Cap_B_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Barn_Roof_Peak_Metal_B_Cap_B_C_5.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Farm/Roofs/Apollo_Barn_Roof_Peak_Metal_B_Cap_B.Default__Apollo_Barn_Roof_Peak_Metal_B_Cap_B_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Barn_Roof_Peak_Metal_B_Cap_B_C_5.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Barn_Roof_Peak_Metal_B_Cap_B_C_5.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Apollo_Barn_Metal_Fortilla_Blue_2'"
+            CachedMaxDrawDistance=25016.814453
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-256.000000,Y=1024.000000,Z=384.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000008,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Barn_Roof_Peak_Metal_B_Cap_B_C_5.BoundingBoxComponent'"
+            CachedMaxDrawDistance=25016.814453
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Barn_Roof_Peak_Metal_B_Cap_B_C_5.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=25016.814453
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Apollo/Sets/Fortilla/TextureData/MI_Apollo_Barn_Corrugated_Roof_Blue_S13.MI_Apollo_Barn_Corrugated_Roof_Blue_S13'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=25016.814453
+         DataVersion=1
+         SavedActorGuid=0000000000000000000000002DEC5D6F
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Apollo_Barn_Roof_Peak_Metal_B_Cap_B_C5"
+      End Actor
+      Begin Actor Class=/Game/Athena/Apollo/Environments/BuildingActors/Farm/Walls/Apollo_Barn_Wall_C.Apollo_Barn_Wall_C_C Name=Apollo_Barn_Wall_C_C_0 Archetype="/Game/Athena/Apollo/Environments/BuildingActors/Farm/Walls/Apollo_Barn_Wall_C.Apollo_Barn_Wall_C_C'/Game/Athena/Apollo/Environments/BuildingActors/Farm/Walls/Apollo_Barn_Wall_C.Default__Apollo_Barn_Wall_C_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50B5002_1984392356 ActorFolderPath="Fortilla Wind Turbine Platform" ExportPath="/Game/Athena/Apollo/Environments/BuildingActors/Farm/Walls/Apollo_Barn_Wall_C.Apollo_Barn_Wall_C_C'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Barn_Wall_C_C_0'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Farm/Walls/Apollo_Barn_Wall_C.Default__Apollo_Barn_Wall_C_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Barn_Wall_C_C_0.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Apollo/Environments/BuildingActors/Farm/Walls/Apollo_Barn_Wall_C.Default__Apollo_Barn_Wall_C_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Barn_Wall_C_C_0.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Farm/Walls/Apollo_Barn_Wall_C.Default__Apollo_Barn_Wall_C_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Barn_Wall_C_C_0.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Barn_Wall_C_C_0.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Apollo_Barn_18'"
+            CachedMaxDrawDistance=22904.650391
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-256.000000,Y=1024.000000,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000008,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Barn_Wall_C_C_0.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22904.650391
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Barn_Wall_C_C_0.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22904.650391
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Apollo/Sets/Fortilla/TextureData/Apollo_Fortilla_BarnWall_Blue.Apollo_Fortilla_BarnWall_Blue'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Apollo/Sets/Fortilla/TextureData/Apollo_Fortilla_BarnWall_Blue.Apollo_Fortilla_BarnWall_Blue'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22904.650391
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000249AD648
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Apollo_Barn_Wall_C_C0"
+      End Actor
+      Begin Actor Class=/Game/Athena/Apollo/Environments/BuildingActors/Farm/Walls/Apollo_Barn_Wall_Window_B.Apollo_Barn_Wall_Window_B_C Name=Apollo_Barn_Wall_Window_B_C_1 Archetype="/Game/Athena/Apollo/Environments/BuildingActors/Farm/Walls/Apollo_Barn_Wall_Window_B.Apollo_Barn_Wall_Window_B_C'/Game/Athena/Apollo/Environments/BuildingActors/Farm/Walls/Apollo_Barn_Wall_Window_B.Default__Apollo_Barn_Wall_Window_B_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50B5002_1984392356 ActorFolderPath="Fortilla Wind Turbine Platform" ExportPath="/Game/Athena/Apollo/Environments/BuildingActors/Farm/Walls/Apollo_Barn_Wall_Window_B.Apollo_Barn_Wall_Window_B_C'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Barn_Wall_Window_B_C_1'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Farm/Walls/Apollo_Barn_Wall_Window_B.Default__Apollo_Barn_Wall_Window_B_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Barn_Wall_Window_B_C_1.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Apollo/Environments/BuildingActors/Farm/Walls/Apollo_Barn_Wall_Window_B.Default__Apollo_Barn_Wall_Window_B_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Barn_Wall_Window_B_C_1.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Farm/Walls/Apollo_Barn_Wall_Window_B.Default__Apollo_Barn_Wall_Window_B_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Barn_Wall_Window_B_C_1.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Barn_Wall_Window_B_C_1.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Apollo_Barn_18'"
+            CachedMaxDrawDistance=22885.216797
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1280.000000,Y=1024.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=90.000008,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Barn_Wall_Window_B_C_1.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22885.216797
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Barn_Wall_Window_B_C_1.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22885.216797
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Apollo/Sets/Fortilla/TextureData/Apollo_Fortilla_BarnWall_Blue.Apollo_Fortilla_BarnWall_Blue'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Apollo/Sets/Fortilla/TextureData/Apollo_Fortilla_BarnWall_Blue.Apollo_Fortilla_BarnWall_Blue'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22885.216797
+         bHasCustomAttackLocation=True
+         DataVersion=1
+         SavedActorGuid=00000000000000000000000074596C42
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Apollo_Barn_Wall_Window_B_C1"
+      End Actor
+      Begin Actor Class=/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Balcony/Apollo_Fortilla_BalconyO_Wood_01.Apollo_Fortilla_BalconyO_Wood_01_C Name=Apollo_Fortilla_BalconyO_Wood_01_C_15 Archetype="/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Balcony/Apollo_Fortilla_BalconyO_Wood_01.Apollo_Fortilla_BalconyO_Wood_01_C'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Balcony/Apollo_Fortilla_BalconyO_Wood_01.Default__Apollo_Fortilla_BalconyO_Wood_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50B5002_1984392356 ActorFolderPath="Fortilla Wind Turbine Platform" ExportPath="/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Balcony/Apollo_Fortilla_BalconyO_Wood_01.Apollo_Fortilla_BalconyO_Wood_01_C'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_BalconyO_Wood_01_C_15'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Balcony/Apollo_Fortilla_BalconyO_Wood_01.Default__Apollo_Fortilla_BalconyO_Wood_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_BalconyO_Wood_01_C_15.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Balcony/Apollo_Fortilla_BalconyO_Wood_01.Default__Apollo_Fortilla_BalconyO_Wood_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_BalconyO_Wood_01_C_15.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Balcony/Apollo_Fortilla_BalconyO_Wood_01.Default__Apollo_Fortilla_BalconyO_Wood_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_BalconyO_Wood_01_C_15.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_BalconyO_Wood_01_C_15.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fortilla_Floor_Wood_01_6'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=768.000000,Z=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_BalconyO_Wood_01_C_15.BoundingBoxComponent'"
+            CachedMaxDrawDistance=16153.824219
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_BalconyO_Wood_01_C_15.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=16153.824219
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         bShouldIgnoreForHorizontalHotspotSearch=False
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Apollo/Sets/Fortilla/TextureData/Apollo_Fortilla_FloorWood_Blue.Apollo_Fortilla_FloorWood_Blue'"
+         NavObstacles(0)=(LocalBounds=(Min=(X=-291.000000,Y=-35.000000,Z=-250.000000),Max=(X=35.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashSmasherOnly)
+         NavObstacles(1)=(LocalBounds=(Min=(X=-291.000000,Y=-35.000000,Z=-250.000000),Max=(X=35.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashSmasherOnly)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=16153.824219
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000A969E89C
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Apollo_Fortilla_BalconyO_Wood_01_C15"
+      End Actor
+      Begin Actor Class=/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Balcony/Apollo_Fortilla_BalconyS_Wood_01.Apollo_Fortilla_BalconyS_Wood_01_C Name=Apollo_Fortilla_BalconyS_Wood_01_C_48 Archetype="/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Balcony/Apollo_Fortilla_BalconyS_Wood_01.Apollo_Fortilla_BalconyS_Wood_01_C'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Balcony/Apollo_Fortilla_BalconyS_Wood_01.Default__Apollo_Fortilla_BalconyS_Wood_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50B5002_1984392356 ActorFolderPath="Fortilla Wind Turbine Platform" ExportPath="/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Balcony/Apollo_Fortilla_BalconyS_Wood_01.Apollo_Fortilla_BalconyS_Wood_01_C'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_BalconyS_Wood_01_C_48'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Balcony/Apollo_Fortilla_BalconyS_Wood_01.Default__Apollo_Fortilla_BalconyS_Wood_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_BalconyS_Wood_01_C_48.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Balcony/Apollo_Fortilla_BalconyS_Wood_01.Default__Apollo_Fortilla_BalconyS_Wood_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_BalconyS_Wood_01_C_48.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Balcony/Apollo_Fortilla_BalconyS_Wood_01.Default__Apollo_Fortilla_BalconyS_Wood_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_BalconyS_Wood_01_C_48.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_BalconyS_Wood_01_C_48.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fortilla_Floor_Wood_01_6'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=256.000000,Y=1535.999023,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=89.999817,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_BalconyS_Wood_01_C_48.BoundingBoxComponent'"
+            CachedMaxDrawDistance=21656.244141
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_BalconyS_Wood_01_C_48.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=21656.244141
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         bShouldIgnoreForHorizontalHotspotSearch=False
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Apollo/Sets/Fortilla/TextureData/Apollo_Fortilla_FloorWood_Blue.Apollo_Fortilla_FloorWood_Blue'"
+         NavObstacles(0)=(LocalBounds=(Min=(X=-291.000000,Y=-35.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(1)=(LocalBounds=(Min=(X=-291.000000,Y=-35.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=21656.244141
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000B24C5EB9
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Apollo_Fortilla_BalconyS_Wood_01_C48"
+      End Actor
+      Begin Actor Class=/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Balcony/Apollo_Fortilla_BalconyS_Wood_01.Apollo_Fortilla_BalconyS_Wood_01_C Name=Apollo_Fortilla_BalconyS_Wood_01_C_49 Archetype="/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Balcony/Apollo_Fortilla_BalconyS_Wood_01.Apollo_Fortilla_BalconyS_Wood_01_C'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Balcony/Apollo_Fortilla_BalconyS_Wood_01.Default__Apollo_Fortilla_BalconyS_Wood_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50B5002_1984392356 ActorFolderPath="Fortilla Wind Turbine Platform" ExportPath="/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Balcony/Apollo_Fortilla_BalconyS_Wood_01.Apollo_Fortilla_BalconyS_Wood_01_C'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_BalconyS_Wood_01_C_49'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Balcony/Apollo_Fortilla_BalconyS_Wood_01.Default__Apollo_Fortilla_BalconyS_Wood_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_BalconyS_Wood_01_C_49.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Balcony/Apollo_Fortilla_BalconyS_Wood_01.Default__Apollo_Fortilla_BalconyS_Wood_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_BalconyS_Wood_01_C_49.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Balcony/Apollo_Fortilla_BalconyS_Wood_01.Default__Apollo_Fortilla_BalconyS_Wood_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_BalconyS_Wood_01_C_49.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_BalconyS_Wood_01_C_49.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fortilla_Floor_Wood_01_6'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1280.000000,Y=1536.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=-90.000023,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_BalconyS_Wood_01_C_49.BoundingBoxComponent'"
+            CachedMaxDrawDistance=21656.244141
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_BalconyS_Wood_01_C_49.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=21656.244141
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         bShouldIgnoreForHorizontalHotspotSearch=False
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Apollo/Sets/Fortilla/TextureData/Apollo_Fortilla_FloorWood_Blue.Apollo_Fortilla_FloorWood_Blue'"
+         NavObstacles(0)=(LocalBounds=(Min=(X=-291.000000,Y=-35.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(1)=(LocalBounds=(Min=(X=-291.000000,Y=-35.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=21656.244141
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000FE674ED8
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Apollo_Fortilla_BalconyS_Wood_01_C49"
+      End Actor
+      Begin Actor Class=/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Floors/Apollo_Fortilla_Floor_Net_Half.Apollo_Fortilla_Floor_Net_Half_C Name=Apollo_Fortilla_Floor_Net_Half_C_13 Archetype="/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Floors/Apollo_Fortilla_Floor_Net_Half.Apollo_Fortilla_Floor_Net_Half_C'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Floors/Apollo_Fortilla_Floor_Net_Half.Default__Apollo_Fortilla_Floor_Net_Half_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50B5002_1984392356 ActorFolderPath="Fortilla Wind Turbine Platform" ExportPath="/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Floors/Apollo_Fortilla_Floor_Net_Half.Apollo_Fortilla_Floor_Net_Half_C'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Floor_Net_Half_C_13'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Floors/Apollo_Fortilla_Floor_Net_Half.Default__Apollo_Fortilla_Floor_Net_Half_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Floor_Net_Half_C_13.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Floors/Apollo_Fortilla_Floor_Net_Half.Default__Apollo_Fortilla_Floor_Net_Half_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Floor_Net_Half_C_13.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Floors/Apollo_Fortilla_Floor_Net_Half.Default__Apollo_Fortilla_Floor_Net_Half_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Floor_Net_Half_C_13.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Floor_Net_Half_C_13.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fortilla_NetsMetal_2'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=767.999023,Y=511.999023,Z=-0.775452)
+            RelativeRotation=(Pitch=0.000000,Yaw=89.999779,Roll=-0.173552)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Floor_Net_Half_C_13.BoundingBoxComponent'"
+            CachedMaxDrawDistance=21667.201172
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Floor_Net_Half_C_13.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=21667.201172
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         bShouldIgnoreForHorizontalHotspotSearch=False
+         NavObstacles(0)=(LocalBounds=(Min=(X=-291.000000,Y=-35.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(1)=(LocalBounds=(Min=(X=-291.000000,Y=-35.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=21667.201172
+         DataVersion=1
+         SavedActorGuid=00000000000000000000000039A9DFCB
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Apollo_Fortilla_Floor_Net_Half_C13"
+      End Actor
+      Begin Actor Class=/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Floors/Apollo_Fortilla_Floor_Wood_02.Apollo_Fortilla_Floor_Wood_02_C Name=Apollo_Fortilla_Floor_Wood_02_C_20 Archetype="/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Floors/Apollo_Fortilla_Floor_Wood_02.Apollo_Fortilla_Floor_Wood_02_C'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Floors/Apollo_Fortilla_Floor_Wood_02.Default__Apollo_Fortilla_Floor_Wood_02_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50B5002_1984392356 ActorFolderPath="Fortilla Wind Turbine Platform" ExportPath="/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Floors/Apollo_Fortilla_Floor_Wood_02.Apollo_Fortilla_Floor_Wood_02_C'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Floor_Wood_02_C_20'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Floors/Apollo_Fortilla_Floor_Wood_02.Default__Apollo_Fortilla_Floor_Wood_02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Floor_Wood_02_C_20.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Floors/Apollo_Fortilla_Floor_Wood_02.Default__Apollo_Fortilla_Floor_Wood_02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Floor_Wood_02_C_20.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Floors/Apollo_Fortilla_Floor_Wood_02.Default__Apollo_Fortilla_Floor_Wood_02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Floor_Wood_02_C_20.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Floor_Wood_02_C_20.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fortilla_Floor_Wood_01_6'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-512.000000,Y=1792.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=-179.999969,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Floor_Wood_02_C_20.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24649.082031
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Floor_Wood_02_C_20.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24649.082031
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Apollo/Sets/Fortilla/TextureData/Apollo_Fortilla_FloorWood_Blue.Apollo_Fortilla_FloorWood_Blue'"
+         NavObstacles(0)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(1)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24649.082031
+         DataVersion=1
+         SavedActorGuid=0000000000000000000000004113F1F7
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Apollo_Fortilla_Floor_Wood_02_C20"
+      End Actor
+      Begin Actor Class=/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Girder_01.Apollo_Fortilla_Girder_01_C Name=Apollo_Fortilla_Girder_01_C_172 Archetype="/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Girder_01.Apollo_Fortilla_Girder_01_C'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Girder_01.Default__Apollo_Fortilla_Girder_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50B5002_1984392356 ActorFolderPath="Fortilla Wind Turbine Platform" ExportPath="/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Girder_01.Apollo_Fortilla_Girder_01_C'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Girder_01_C_172'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Girder_01.Default__Apollo_Fortilla_Girder_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Girder_01_C_172.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Girder_01.Default__Apollo_Fortilla_Girder_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Girder_01_C_172.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Girder_01.Default__Apollo_Fortilla_Girder_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Girder_01_C_172.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Girder_01_C_172.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fortilla_Girders_2'"
+            CachedMaxDrawDistance=22912.917969
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1280.000000,Y=1024.000000,Z=-384.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=90.000053,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Girder_01_C_172.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22912.917969
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Girder_01_C_172.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22912.917969
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22912.917969
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000DEC4720C
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Apollo_Fortilla_Girder_01_C172"
+      End Actor
+      Begin Actor Class=/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Girder_01.Apollo_Fortilla_Girder_01_C Name=Apollo_Fortilla_Girder_01_C_173 Archetype="/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Girder_01.Apollo_Fortilla_Girder_01_C'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Girder_01.Default__Apollo_Fortilla_Girder_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50B5002_1984392356 ActorFolderPath="Fortilla Wind Turbine Platform" ExportPath="/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Girder_01.Apollo_Fortilla_Girder_01_C'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Girder_01_C_173'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Girder_01.Default__Apollo_Fortilla_Girder_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Girder_01_C_173.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Girder_01.Default__Apollo_Fortilla_Girder_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Girder_01_C_173.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Girder_01.Default__Apollo_Fortilla_Girder_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Girder_01_C_173.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Girder_01_C_173.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fortilla_Girders_2'"
+            CachedMaxDrawDistance=22912.917969
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1024.000000,Y=1280.000000,Z=-384.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Girder_01_C_173.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22912.917969
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Girder_01_C_173.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22912.917969
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22912.917969
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000672D26E0
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Apollo_Fortilla_Girder_01_C173"
+      End Actor
+      Begin Actor Class=/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Girder_01.Apollo_Fortilla_Girder_01_C Name=Apollo_Fortilla_Girder_01_C_174 Archetype="/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Girder_01.Apollo_Fortilla_Girder_01_C'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Girder_01.Default__Apollo_Fortilla_Girder_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50B5002_1984392356 ActorFolderPath="Fortilla Wind Turbine Platform" ExportPath="/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Girder_01.Apollo_Fortilla_Girder_01_C'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Girder_01_C_174'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Girder_01.Default__Apollo_Fortilla_Girder_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Girder_01_C_174.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Girder_01.Default__Apollo_Fortilla_Girder_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Girder_01_C_174.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Girder_01.Default__Apollo_Fortilla_Girder_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Girder_01_C_174.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Girder_01_C_174.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fortilla_Girders_2'"
+            CachedMaxDrawDistance=22912.917969
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-512.000000,Y=1280.000000,Z=-384.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Girder_01_C_174.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22912.917969
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Girder_01_C_174.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22912.917969
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22912.917969
+         DataVersion=1
+         SavedActorGuid=0000000000000000000000007F8B41B5
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Apollo_Fortilla_Girder_01_C174"
+      End Actor
+      Begin Actor Class=/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Girder_01.Apollo_Fortilla_Girder_01_C Name=Apollo_Fortilla_Girder_01_C_175 Archetype="/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Girder_01.Apollo_Fortilla_Girder_01_C'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Girder_01.Default__Apollo_Fortilla_Girder_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50B5002_1984392356 ActorFolderPath="Fortilla Wind Turbine Platform" ExportPath="/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Girder_01.Apollo_Fortilla_Girder_01_C'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Girder_01_C_175'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Girder_01.Default__Apollo_Fortilla_Girder_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Girder_01_C_175.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Girder_01.Default__Apollo_Fortilla_Girder_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Girder_01_C_175.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Girder_01.Default__Apollo_Fortilla_Girder_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Girder_01_C_175.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Girder_01_C_175.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fortilla_Girders_2'"
+            CachedMaxDrawDistance=22912.917969
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-256.000000,Y=1024.000000,Z=-384.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=90.000076,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Girder_01_C_175.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22912.917969
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Girder_01_C_175.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22912.917969
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22912.917969
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000EA30CDCD
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Apollo_Fortilla_Girder_01_C175"
+      End Actor
+      Begin Actor Class=/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Girder_01.Apollo_Fortilla_Girder_01_C Name=Apollo_Fortilla_Girder_01_C_176 Archetype="/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Girder_01.Apollo_Fortilla_Girder_01_C'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Girder_01.Default__Apollo_Fortilla_Girder_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50B5002_1984392356 ActorFolderPath="Fortilla Wind Turbine Platform" ExportPath="/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Girder_01.Apollo_Fortilla_Girder_01_C'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Girder_01_C_176'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Girder_01.Default__Apollo_Fortilla_Girder_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Girder_01_C_176.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Girder_01.Default__Apollo_Fortilla_Girder_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Girder_01_C_176.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Girder_01.Default__Apollo_Fortilla_Girder_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Girder_01_C_176.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Girder_01_C_176.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fortilla_Girders_2'"
+            CachedMaxDrawDistance=22912.917969
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1024.000000,Y=768.000000,Z=-384.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Girder_01_C_176.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22912.917969
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Girder_01_C_176.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22912.917969
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22912.917969
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000132244C1
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Apollo_Fortilla_Girder_01_C176"
+      End Actor
+      Begin Actor Class=/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Girder_01.Apollo_Fortilla_Girder_01_C Name=Apollo_Fortilla_Girder_01_C_177 Archetype="/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Girder_01.Apollo_Fortilla_Girder_01_C'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Girder_01.Default__Apollo_Fortilla_Girder_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50B5002_1984392356 ActorFolderPath="Fortilla Wind Turbine Platform" ExportPath="/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Girder_01.Apollo_Fortilla_Girder_01_C'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Girder_01_C_177'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Girder_01.Default__Apollo_Fortilla_Girder_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Girder_01_C_177.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Girder_01.Default__Apollo_Fortilla_Girder_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Girder_01_C_177.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Girder_01.Default__Apollo_Fortilla_Girder_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Girder_01_C_177.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Girder_01_C_177.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fortilla_Girders_2'"
+            CachedMaxDrawDistance=22912.917969
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-512.000000,Y=768.000000,Z=-384.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Girder_01_C_177.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22912.917969
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Girder_01_C_177.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22912.917969
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22912.917969
+         DataVersion=1
+         SavedActorGuid=0000000000000000000000007392931A
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Apollo_Fortilla_Girder_01_C177"
+      End Actor
+      Begin Actor Class=/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Props/Apollo_Fortilla_Tank_01.Apollo_Fortilla_Tank_01_C Name=Apollo_Fortilla_Tank_01_C_2 Archetype="/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Props/Apollo_Fortilla_Tank_01.Apollo_Fortilla_Tank_01_C'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Props/Apollo_Fortilla_Tank_01.Default__Apollo_Fortilla_Tank_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50B5002_1984392356 ActorFolderPath="Fortilla Wind Turbine Platform" ExportPath="/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Props/Apollo_Fortilla_Tank_01.Apollo_Fortilla_Tank_01_C'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Tank_01_C_2'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Props/Apollo_Fortilla_Tank_01.Default__Apollo_Fortilla_Tank_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Tank_01_C_2.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Props/Apollo_Fortilla_Tank_01.Default__Apollo_Fortilla_Tank_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Tank_01_C_2.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Props/Apollo_Fortilla_Tank_01.Default__Apollo_Fortilla_Tank_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Tank_01_C_2.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Tank_01_C_2.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fortilla_Tank_01_1'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-768.022461,Y=-255.978516,Z=-128.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999771,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Tank_01_C_2.BoundingBoxComponent'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Tank_01_C_2.EditorOnlyStaticMeshComponent'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=18000.000000
+         DataVersion=1
+         SavedActorGuid=0000000000000000000000001759480F
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Apollo_Fortilla_Tank_01_C2"
+      End Actor
+      Begin Actor Class=/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Wall_Wood_01.Apollo_Fortilla_Wall_Wood_01_C Name=Apollo_Fortilla_Wall_Wood_01_C_20 Archetype="/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Wall_Wood_01.Apollo_Fortilla_Wall_Wood_01_C'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Wall_Wood_01.Default__Apollo_Fortilla_Wall_Wood_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50B5002_1984392356 ActorFolderPath="Fortilla Wind Turbine Platform" ExportPath="/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Wall_Wood_01.Apollo_Fortilla_Wall_Wood_01_C'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Wall_Wood_01_C_20'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Wall_Wood_01.Default__Apollo_Fortilla_Wall_Wood_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Wall_Wood_01_C_20.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Wall_Wood_01.Default__Apollo_Fortilla_Wall_Wood_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Wall_Wood_01_C_20.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Wall_Wood_01.Default__Apollo_Fortilla_Wall_Wood_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Wall_Wood_01_C_20.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Wall_Wood_01_C_20.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fortilla_WoodWall_Painted_01_15'"
+            CachedMaxDrawDistance=22927.966797
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1024.000000,Y=1280.000000,Z=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Wall_Wood_01_C_20.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22927.966797
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Wall_Wood_01_C_20.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22927.966797
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Apollo/Sets/Fortilla/TextureData/Apollo_Fortilla_PaintedWood_Blue.Apollo_Fortilla_PaintedWood_Blue'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22927.966797
+         DataVersion=1
+         SavedActorGuid=0000000000000000000000005F5026AC
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Apollo_Fortilla_Wall_Wood_01_C20"
+      End Actor
+      Begin Actor Class=/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Wall_Wood_01.Apollo_Fortilla_Wall_Wood_01_C Name=Apollo_Fortilla_Wall_Wood_01_C_21 Archetype="/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Wall_Wood_01.Apollo_Fortilla_Wall_Wood_01_C'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Wall_Wood_01.Default__Apollo_Fortilla_Wall_Wood_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50B5002_1984392356 ActorFolderPath="Fortilla Wind Turbine Platform" ExportPath="/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Wall_Wood_01.Apollo_Fortilla_Wall_Wood_01_C'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Wall_Wood_01_C_21'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Wall_Wood_01.Default__Apollo_Fortilla_Wall_Wood_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Wall_Wood_01_C_21.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Wall_Wood_01.Default__Apollo_Fortilla_Wall_Wood_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Wall_Wood_01_C_21.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Wall_Wood_01.Default__Apollo_Fortilla_Wall_Wood_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Wall_Wood_01_C_21.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Wall_Wood_01_C_21.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fortilla_WoodWall_Painted_01_20'"
+            CachedMaxDrawDistance=22927.966797
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-512.000000,Y=768.000000,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999985,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Wall_Wood_01_C_21.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22927.966797
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Wall_Wood_01_C_21.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22927.966797
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Apollo/Sets/Fortilla/TextureData/Apollo_Fortilla_PaintedWood_Pink.Apollo_Fortilla_PaintedWood_Pink'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22927.966797
+         DataVersion=1
+         SavedActorGuid=0000000000000000000000009CB8F4EB
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Apollo_Fortilla_Wall_Wood_01_C21"
+      End Actor
+      Begin Actor Class=/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Wall_Wood_02.Apollo_Fortilla_Wall_Wood_02_C Name=Apollo_Fortilla_Wall_Wood_02_C_6 Archetype="/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Wall_Wood_02.Apollo_Fortilla_Wall_Wood_02_C'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Wall_Wood_02.Default__Apollo_Fortilla_Wall_Wood_02_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50B5002_1984392356 ActorFolderPath="Fortilla Wind Turbine Platform" ExportPath="/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Wall_Wood_02.Apollo_Fortilla_Wall_Wood_02_C'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Wall_Wood_02_C_6'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Wall_Wood_02.Default__Apollo_Fortilla_Wall_Wood_02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Wall_Wood_02_C_6.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Wall_Wood_02.Default__Apollo_Fortilla_Wall_Wood_02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Wall_Wood_02_C_6.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Wall_Wood_02.Default__Apollo_Fortilla_Wall_Wood_02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Wall_Wood_02_C_6.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Wall_Wood_02_C_6.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fortilla_WoodWall_Painted_01_20'"
+            CachedMaxDrawDistance=22927.966797
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1024.000000,Y=768.000000,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999985,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Wall_Wood_02_C_6.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22927.966797
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Wall_Wood_02_C_6.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22927.966797
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Apollo/Sets/Fortilla/TextureData/Apollo_Fortilla_PaintedWood_Pink.Apollo_Fortilla_PaintedWood_Pink'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22927.966797
+         bHasCustomAttackLocation=True
+         DataVersion=1
+         SavedActorGuid=0000000000000000000000004C35F1A6
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Apollo_Fortilla_Wall_Wood_02_C6"
+      End Actor
+      Begin Actor Class=/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Wall_Wood_03.Apollo_Fortilla_Wall_Wood_03_C Name=Apollo_Fortilla_Wall_Wood_03_C_8 Archetype="/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Wall_Wood_03.Apollo_Fortilla_Wall_Wood_03_C'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Wall_Wood_03.Default__Apollo_Fortilla_Wall_Wood_03_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50B5002_1984392356 ActorFolderPath="Fortilla Wind Turbine Platform" ExportPath="/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Wall_Wood_03.Apollo_Fortilla_Wall_Wood_03_C'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Wall_Wood_03_C_8'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Wall_Wood_03.Default__Apollo_Fortilla_Wall_Wood_03_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Wall_Wood_03_C_8.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Wall_Wood_03.Default__Apollo_Fortilla_Wall_Wood_03_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Wall_Wood_03_C_8.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/Fortilla/Walls/Apollo_Fortilla_Wall_Wood_03.Default__Apollo_Fortilla_Wall_Wood_03_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Wall_Wood_03_C_8.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Wall_Wood_03_C_8.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fortilla_WoodWall_Painted_01_15'"
+            CachedMaxDrawDistance=22927.966797
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-512.000000,Y=1280.000000,Z=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Wall_Wood_03_C_8.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22927.966797
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_Fortilla_Wall_Wood_03_C_8.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22927.966797
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Apollo/Sets/Fortilla/TextureData/Apollo_Fortilla_PaintedWood_Blue.Apollo_Fortilla_PaintedWood_Blue'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22927.966797
+         DataVersion=1
+         SavedActorGuid=00000000000000000000000052D24B61
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Apollo_Fortilla_Wall_Wood_03_C8"
+      End Actor
+      Begin Actor Class=/Game/Athena/Apollo/Environments/BuildingActors/PowerPlant/Props/Apollo_PowerPlant_WaterPump.Apollo_PowerPlant_WaterPump_C Name=Apollo_PowerPlant_WaterPump_C_3 Archetype="/Game/Athena/Apollo/Environments/BuildingActors/PowerPlant/Props/Apollo_PowerPlant_WaterPump.Apollo_PowerPlant_WaterPump_C'/Game/Athena/Apollo/Environments/BuildingActors/PowerPlant/Props/Apollo_PowerPlant_WaterPump.Default__Apollo_PowerPlant_WaterPump_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50B5002_1984392356 ActorFolderPath="Fortilla Wind Turbine Platform" ExportPath="/Game/Athena/Apollo/Environments/BuildingActors/PowerPlant/Props/Apollo_PowerPlant_WaterPump.Apollo_PowerPlant_WaterPump_C'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_PowerPlant_WaterPump_C_3'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/PowerPlant/Props/Apollo_PowerPlant_WaterPump.Default__Apollo_PowerPlant_WaterPump_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_PowerPlant_WaterPump_C_3.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/Apollo/Environments/BuildingActors/PowerPlant/Props/Apollo_PowerPlant_WaterPump.Default__Apollo_PowerPlant_WaterPump_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_PowerPlant_WaterPump_C_3.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/Apollo/Environments/BuildingActors/PowerPlant/Props/Apollo_PowerPlant_WaterPump.Default__Apollo_PowerPlant_WaterPump_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_PowerPlant_WaterPump_C_3.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_PowerPlant_WaterPump_C_3.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_PowerPlant_WaterPump_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=115.177734,Y=491.662109,Z=6.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999893,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_PowerPlant_WaterPump_C_3.BoundingBoxComponent'"
+            CachedMaxDrawDistance=20481.187500
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Apollo_PowerPlant_WaterPump_C_3.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=20481.187500
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=20481.187500
+         DataVersion=1
+         SavedActorGuid=0000000000000000000000004F5DD87E
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Apollo_PowerPlant_WaterPump_C3"
+      End Actor
+      Begin Actor Class=/Game/Creative/BuildingActors/Floors/CP_Fortilla_Floor_Floating_02.CP_Fortilla_Floor_Floating_02_C Name=CP_Fortilla_Floor_Floating_02_C_10 Archetype="/Game/Creative/BuildingActors/Floors/CP_Fortilla_Floor_Floating_02.CP_Fortilla_Floor_Floating_02_C'/Game/Creative/BuildingActors/Floors/CP_Fortilla_Floor_Floating_02.Default__CP_Fortilla_Floor_Floating_02_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50B5002_1984392356 ActorFolderPath="Fortilla Wind Turbine Platform" ExportPath="/Game/Creative/BuildingActors/Floors/CP_Fortilla_Floor_Floating_02.CP_Fortilla_Floor_Floating_02_C'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_02_C_10'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Creative/BuildingActors/Floors/CP_Fortilla_Floor_Floating_02.Default__CP_Fortilla_Floor_Floating_02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_02_C_10.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Creative/BuildingActors/Floors/CP_Fortilla_Floor_Floating_02.Default__CP_Fortilla_Floor_Floating_02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_02_C_10.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Creative/BuildingActors/Floors/CP_Fortilla_Floor_Floating_02.Default__CP_Fortilla_Floor_Floating_02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_02_C_10.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.AudioComponent Name="RandomOneShotAudio" Archetype="/Script/Engine.AudioComponent'/Game/Creative/BuildingActors/Floors/CP_Fortilla_Floor_Floating_02.CP_Fortilla_Floor_Floating_02_C:RandomOneShotAudio_GEN_VARIABLE'" ExportPath="/Script/Engine.AudioComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_02_C_10.RandomOneShotAudio'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_02_C_10.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fortilla_Floor_Floating_01_38'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1024.000000,Y=256.000000,Z=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_02_C_10.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24956.941406
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_02_C_10.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24956.941406
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="RandomOneShotAudio" ExportPath="/Script/Engine.AudioComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_02_C_10.RandomOneShotAudio'"
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         RandomOneShotAudio="RandomOneShotAudio"
+         TextureData(3)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Apollo/Sets/Fortilla/TextureData/Apollo_Fortilla_TD_Floating_Barrels_Grey.Apollo_Fortilla_TD_Floating_Barrels_Grey'"
+         NavObstacles(0)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(1)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24956.941406
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000474DECA5
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="CP_Fortilla_Floor_Floating_02_C10"
+      End Actor
+      Begin Actor Class=/Game/Creative/BuildingActors/Floors/CP_Fortilla_Floor_Floating_02.CP_Fortilla_Floor_Floating_02_C Name=CP_Fortilla_Floor_Floating_02_C_28 Archetype="/Game/Creative/BuildingActors/Floors/CP_Fortilla_Floor_Floating_02.CP_Fortilla_Floor_Floating_02_C'/Game/Creative/BuildingActors/Floors/CP_Fortilla_Floor_Floating_02.Default__CP_Fortilla_Floor_Floating_02_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50B5002_1984392356 ActorFolderPath="Fortilla Wind Turbine Platform" ExportPath="/Game/Creative/BuildingActors/Floors/CP_Fortilla_Floor_Floating_02.CP_Fortilla_Floor_Floating_02_C'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_02_C_28'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Creative/BuildingActors/Floors/CP_Fortilla_Floor_Floating_02.Default__CP_Fortilla_Floor_Floating_02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_02_C_28.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Creative/BuildingActors/Floors/CP_Fortilla_Floor_Floating_02.Default__CP_Fortilla_Floor_Floating_02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_02_C_28.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Creative/BuildingActors/Floors/CP_Fortilla_Floor_Floating_02.Default__CP_Fortilla_Floor_Floating_02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_02_C_28.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.AudioComponent Name="RandomOneShotAudio" Archetype="/Script/Engine.AudioComponent'/Game/Creative/BuildingActors/Floors/CP_Fortilla_Floor_Floating_02.CP_Fortilla_Floor_Floating_02_C:RandomOneShotAudio_GEN_VARIABLE'" ExportPath="/Script/Engine.AudioComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_02_C_28.RandomOneShotAudio'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_02_C_28.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fortilla_Floor_Floating_01_38'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=256.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999893,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_02_C_28.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24956.941406
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_02_C_28.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24956.941406
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="RandomOneShotAudio" ExportPath="/Script/Engine.AudioComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_02_C_28.RandomOneShotAudio'"
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         RandomOneShotAudio="RandomOneShotAudio"
+         TextureData(3)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Apollo/Sets/Fortilla/TextureData/Apollo_Fortilla_TD_Floating_Barrels_Grey.Apollo_Fortilla_TD_Floating_Barrels_Grey'"
+         NavObstacles(0)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(1)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24956.941406
+         DataVersion=1
+         SavedActorGuid=0000000000000000000000005C8CF9A6
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="CP_Fortilla_Floor_Floating_02_C28"
+      End Actor
+      Begin Actor Class=/Game/Creative/BuildingActors/Floors/CP_Fortilla_Floor_Floating_02.CP_Fortilla_Floor_Floating_02_C Name=CP_Fortilla_Floor_Floating_02_C_29 Archetype="/Game/Creative/BuildingActors/Floors/CP_Fortilla_Floor_Floating_02.CP_Fortilla_Floor_Floating_02_C'/Game/Creative/BuildingActors/Floors/CP_Fortilla_Floor_Floating_02.Default__CP_Fortilla_Floor_Floating_02_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50B5002_1984392356 ActorFolderPath="Fortilla Wind Turbine Platform" ExportPath="/Game/Creative/BuildingActors/Floors/CP_Fortilla_Floor_Floating_02.CP_Fortilla_Floor_Floating_02_C'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_02_C_29'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Creative/BuildingActors/Floors/CP_Fortilla_Floor_Floating_02.Default__CP_Fortilla_Floor_Floating_02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_02_C_29.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Creative/BuildingActors/Floors/CP_Fortilla_Floor_Floating_02.Default__CP_Fortilla_Floor_Floating_02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_02_C_29.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Creative/BuildingActors/Floors/CP_Fortilla_Floor_Floating_02.Default__CP_Fortilla_Floor_Floating_02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_02_C_29.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.AudioComponent Name="RandomOneShotAudio" Archetype="/Script/Engine.AudioComponent'/Game/Creative/BuildingActors/Floors/CP_Fortilla_Floor_Floating_02.CP_Fortilla_Floor_Floating_02_C:RandomOneShotAudio_GEN_VARIABLE'" ExportPath="/Script/Engine.AudioComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_02_C_29.RandomOneShotAudio'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_02_C_29.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fortilla_Floor_Floating_01_38'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-768.000000,Y=-0.001953,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=89.999619,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_02_C_29.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24956.941406
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_02_C_29.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24956.941406
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="RandomOneShotAudio" ExportPath="/Script/Engine.AudioComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_02_C_29.RandomOneShotAudio'"
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         RandomOneShotAudio="RandomOneShotAudio"
+         TextureData(3)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Apollo/Sets/Fortilla/TextureData/Apollo_Fortilla_TD_Floating_Barrels_Grey.Apollo_Fortilla_TD_Floating_Barrels_Grey'"
+         NavObstacles(0)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(1)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24956.941406
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000A9D5A110
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="CP_Fortilla_Floor_Floating_02_C29"
+      End Actor
+      Begin Actor Class=/Game/Creative/BuildingActors/Floors/CP_Fortilla_Floor_Floating_02.CP_Fortilla_Floor_Floating_02_C Name=CP_Fortilla_Floor_Floating_02_C_30 Archetype="/Game/Creative/BuildingActors/Floors/CP_Fortilla_Floor_Floating_02.CP_Fortilla_Floor_Floating_02_C'/Game/Creative/BuildingActors/Floors/CP_Fortilla_Floor_Floating_02.Default__CP_Fortilla_Floor_Floating_02_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50B5002_1984392356 ActorFolderPath="Fortilla Wind Turbine Platform" ExportPath="/Game/Creative/BuildingActors/Floors/CP_Fortilla_Floor_Floating_02.CP_Fortilla_Floor_Floating_02_C'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_02_C_30'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Creative/BuildingActors/Floors/CP_Fortilla_Floor_Floating_02.Default__CP_Fortilla_Floor_Floating_02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_02_C_30.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Creative/BuildingActors/Floors/CP_Fortilla_Floor_Floating_02.Default__CP_Fortilla_Floor_Floating_02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_02_C_30.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Creative/BuildingActors/Floors/CP_Fortilla_Floor_Floating_02.Default__CP_Fortilla_Floor_Floating_02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_02_C_30.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.AudioComponent Name="RandomOneShotAudio" Archetype="/Script/Engine.AudioComponent'/Game/Creative/BuildingActors/Floors/CP_Fortilla_Floor_Floating_02.CP_Fortilla_Floor_Floating_02_C:RandomOneShotAudio_GEN_VARIABLE'" ExportPath="/Script/Engine.AudioComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_02_C_30.RandomOneShotAudio'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_02_C_30.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fortilla_Floor_Floating_01_38'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-256.000000,Y=512.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=-90.000023,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_02_C_30.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24956.941406
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_02_C_30.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24956.941406
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="RandomOneShotAudio" ExportPath="/Script/Engine.AudioComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_02_C_30.RandomOneShotAudio'"
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         RandomOneShotAudio="RandomOneShotAudio"
+         TextureData(3)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Apollo/Sets/Fortilla/TextureData/Apollo_Fortilla_TD_Floating_Barrels_Grey.Apollo_Fortilla_TD_Floating_Barrels_Grey'"
+         NavObstacles(0)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(1)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24956.941406
+         DataVersion=1
+         SavedActorGuid=0000000000000000000000007ED7CCD7
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="CP_Fortilla_Floor_Floating_02_C30"
+      End Actor
+      Begin Actor Class=/Game/Creative/BuildingActors/Floors/CP_Fortilla_Floor_Floating_03.CP_Fortilla_Floor_Floating_03_C Name=CP_Fortilla_Floor_Floating_03_C_40 Archetype="/Game/Creative/BuildingActors/Floors/CP_Fortilla_Floor_Floating_03.CP_Fortilla_Floor_Floating_03_C'/Game/Creative/BuildingActors/Floors/CP_Fortilla_Floor_Floating_03.Default__CP_Fortilla_Floor_Floating_03_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50B5002_1984392356 ActorFolderPath="Fortilla Wind Turbine Platform" ExportPath="/Game/Creative/BuildingActors/Floors/CP_Fortilla_Floor_Floating_03.CP_Fortilla_Floor_Floating_03_C'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_03_C_40'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Creative/BuildingActors/Floors/CP_Fortilla_Floor_Floating_03.Default__CP_Fortilla_Floor_Floating_03_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_03_C_40.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Creative/BuildingActors/Floors/CP_Fortilla_Floor_Floating_03.Default__CP_Fortilla_Floor_Floating_03_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_03_C_40.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Creative/BuildingActors/Floors/CP_Fortilla_Floor_Floating_03.Default__CP_Fortilla_Floor_Floating_03_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_03_C_40.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.AudioComponent Name="RandomOneShotAudio" Archetype="/Script/Engine.AudioComponent'/Game/Creative/BuildingActors/Floors/CP_Fortilla_Floor_Floating_03.CP_Fortilla_Floor_Floating_03_C:RandomOneShotAudio_GEN_VARIABLE'" ExportPath="/Script/Engine.AudioComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_03_C_40.RandomOneShotAudio'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_03_C_40.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fortilla_Floor_Floating_01_43'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-512.000000,Y=256.000000,Z=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_03_C_40.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24956.941406
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_03_C_40.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24956.941406
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="RandomOneShotAudio" ExportPath="/Script/Engine.AudioComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_03_C_40.RandomOneShotAudio'"
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         RandomOneShotAudio="RandomOneShotAudio"
+         TextureData(3)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Apollo/Sets/Fortilla/TextureData/Apollo_Fortilla_TD_Floating_Barrels_Grey.Apollo_Fortilla_TD_Floating_Barrels_Grey'"
+         NavObstacles(0)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(1)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24956.941406
+         DataVersion=1
+         SavedActorGuid=0000000000000000000000005F3043C4
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="CP_Fortilla_Floor_Floating_03_C40"
+      End Actor
+      Begin Actor Class=/Game/Creative/BuildingActors/Floors/CP_Fortilla_Floor_Floating_03.CP_Fortilla_Floor_Floating_03_C Name=CP_Fortilla_Floor_Floating_03_C_73 Archetype="/Game/Creative/BuildingActors/Floors/CP_Fortilla_Floor_Floating_03.CP_Fortilla_Floor_Floating_03_C'/Game/Creative/BuildingActors/Floors/CP_Fortilla_Floor_Floating_03.Default__CP_Fortilla_Floor_Floating_03_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50B5002_1984392356 ActorFolderPath="Fortilla Wind Turbine Platform" ExportPath="/Game/Creative/BuildingActors/Floors/CP_Fortilla_Floor_Floating_03.CP_Fortilla_Floor_Floating_03_C'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_03_C_73'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Creative/BuildingActors/Floors/CP_Fortilla_Floor_Floating_03.Default__CP_Fortilla_Floor_Floating_03_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_03_C_73.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Creative/BuildingActors/Floors/CP_Fortilla_Floor_Floating_03.Default__CP_Fortilla_Floor_Floating_03_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_03_C_73.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Creative/BuildingActors/Floors/CP_Fortilla_Floor_Floating_03.Default__CP_Fortilla_Floor_Floating_03_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_03_C_73.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.AudioComponent Name="RandomOneShotAudio" Archetype="/Script/Engine.AudioComponent'/Game/Creative/BuildingActors/Floors/CP_Fortilla_Floor_Floating_03.CP_Fortilla_Floor_Floating_03_C:RandomOneShotAudio_GEN_VARIABLE'" ExportPath="/Script/Engine.AudioComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_03_C_73.RandomOneShotAudio'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_03_C_73.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fortilla_Floor_Floating_01_43'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-512.000000,Y=256.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999893,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_03_C_73.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24956.941406
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_03_C_73.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24956.941406
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="RandomOneShotAudio" ExportPath="/Script/Engine.AudioComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Fortilla_Floor_Floating_03_C_73.RandomOneShotAudio'"
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         RandomOneShotAudio="RandomOneShotAudio"
+         TextureData(3)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Apollo/Sets/Fortilla/TextureData/Apollo_Fortilla_TD_Floating_Barrels_Grey.Apollo_Fortilla_TD_Floating_Barrels_Grey'"
+         NavObstacles(0)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(1)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24956.941406
+         DataVersion=1
+         SavedActorGuid=00000000000000000000000032B790A7
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="CP_Fortilla_Floor_Floating_03_C73"
+      End Actor
+      Begin Actor Class=/Game/Creative/BuildingActors/Props/CP_Street_Light_2.CP_Street_Light_2_C Name=CP_Street_Light_2_C_18 Archetype="/Game/Creative/BuildingActors/Props/CP_Street_Light_2.CP_Street_Light_2_C'/Game/Creative/BuildingActors/Props/CP_Street_Light_2.Default__CP_Street_Light_2_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50B5002_1984392356 ActorFolderPath="Fortilla Wind Turbine Platform" ExportPath="/Game/Creative/BuildingActors/Props/CP_Street_Light_2.CP_Street_Light_2_C'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Street_Light_2_C_18'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Creative/BuildingActors/Props/CP_Street_Light_2.Default__CP_Street_Light_2_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Street_Light_2_C_18.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Creative/BuildingActors/Props/CP_Street_Light_2.Default__CP_Street_Light_2_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Street_Light_2_C_18.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Creative/BuildingActors/Props/CP_Street_Light_2.Default__CP_Street_Light_2_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Street_Light_2_C_18.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="LightRay" Archetype="/Script/Engine.StaticMeshComponent'/Game/Creative/BuildingActors/Props/CP_Street_Light_2.CP_Street_Light_2_C:LightRay_GEN_VARIABLE'" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Street_Light_2_C_18.LightRay'"
+         End Object
+         Begin Object Class=/Script/Engine.SpotLightComponent Name="SpotLight" Archetype="/Script/Engine.SpotLightComponent'/Game/Creative/BuildingActors/Props/CP_Street_Light_2.CP_Street_Light_2_C:SpotLight_GEN_VARIABLE'" ExportPath="/Script/Engine.SpotLightComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Street_Light_2_C_18.SpotLight'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Street_Light_2_C_18.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_StreetLightUrban_04_Ambient_25'"
+            LDMaxDrawDistance=22000.000000
+            CachedMaxDrawDistance=22000.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=177.553711,Y=-176.671875,Z=-5.587158)
+            RelativeRotation=(Pitch=0.000000,Yaw=138.685349,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Street_Light_2_C_18.BoundingBoxComponent'"
+            LDMaxDrawDistance=22000.000000
+            CachedMaxDrawDistance=22000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Street_Light_2_C_18.EditorOnlyStaticMeshComponent'"
+            LDMaxDrawDistance=22000.000000
+            CachedMaxDrawDistance=22000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="LightRay" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Street_Light_2_C_18.LightRay'"
+            LDMaxDrawDistance=22000.000000
+            CachedMaxDrawDistance=22000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="SpotLight" ExportPath="/Script/Engine.SpotLightComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Street_Light_2_C_18.SpotLight'"
+            MaxDrawDistance=22000.000000
+            MaxDistanceFadeRange=2048.000000
+            VolumetricScatteringIntensity=2.000000
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         LightRay="LightRay"
+         SpotLight="SpotLight"
+         TimeOfDayControlledLightDataArray(0)=(LightComponent="SpotLight",Position=(X=-12441.459882,Y=8801.744774,Z=795.530151),InitialIntensity=6.000000)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22000.000000
+         DataVersion=1
+         SavedActorGuid=00000000000000000000000007C0A196
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="CP_Street_Light_2_C18"
+      End Actor
+      Begin Actor Class=/Game/Creative/BuildingActors/Props/CP_Turbine_Base.CP_Turbine_Base_C Name=CP_Turbine_Base_C_0 Archetype="/Game/Creative/BuildingActors/Props/CP_Turbine_Base.CP_Turbine_Base_C'/Game/Creative/BuildingActors/Props/CP_Turbine_Base.Default__CP_Turbine_Base_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50B5002_1984392356 ActorFolderPath="Fortilla Wind Turbine Platform" ExportPath="/Game/Creative/BuildingActors/Props/CP_Turbine_Base.CP_Turbine_Base_C'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Turbine_Base_C_0'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Creative/BuildingActors/Props/CP_Turbine_Base.Default__CP_Turbine_Base_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Turbine_Base_C_0.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Creative/BuildingActors/Props/CP_Turbine_Base.Default__CP_Turbine_Base_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Turbine_Base_C_0.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Creative/BuildingActors/Props/CP_Turbine_Base.Default__CP_Turbine_Base_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Turbine_Base_C_0.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Turbine_Base_C_0.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fortilla_Turbine_1'"
+            LDMaxDrawDistance=22000.000000
+            CachedMaxDrawDistance=22000.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-770.135742,Y=256.441406,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=30.000149,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Turbine_Base_C_0.BoundingBoxComponent'"
+            LDMaxDrawDistance=22000.000000
+            CachedMaxDrawDistance=22000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Turbine_Base_C_0.EditorOnlyStaticMeshComponent'"
+            LDMaxDrawDistance=22000.000000
+            CachedMaxDrawDistance=22000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Creative/TextureData/CP_TD_Fortilla_Turbine.CP_TD_Fortilla_Turbine'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22000.000000
+         DataVersion=1
+         SavedActorGuid=0000000000000000000000005EBA4125
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="CP_Turbine_Base_C0"
+      End Actor
+      Begin Actor Class=/Game/Creative/BuildingActors/Props/CP_Turbine_Fan.CP_Turbine_Fan_C Name=CP_Turbine_Fan_C_0 Archetype="/Game/Creative/BuildingActors/Props/CP_Turbine_Fan.CP_Turbine_Fan_C'/Game/Creative/BuildingActors/Props/CP_Turbine_Fan.Default__CP_Turbine_Fan_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50B5002_1984392356 ActorFolderPath="Fortilla Wind Turbine Platform" ExportPath="/Game/Creative/BuildingActors/Props/CP_Turbine_Fan.CP_Turbine_Fan_C'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Turbine_Fan_C_0'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Creative/BuildingActors/Props/CP_Turbine_Fan.Default__CP_Turbine_Fan_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Turbine_Fan_C_0.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Creative/BuildingActors/Props/CP_Turbine_Fan.Default__CP_Turbine_Fan_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Turbine_Fan_C_0.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Creative/BuildingActors/Props/CP_Turbine_Fan.Default__CP_Turbine_Fan_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Turbine_Fan_C_0.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Turbine_Fan_C_0.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fortilla_Turbine_1'"
+            LDMaxDrawDistance=22000.000000
+            CachedMaxDrawDistance=22000.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-934.965820,Y=348.138672,Z=2515.102539)
+            RelativeRotation=(Pitch=-55.129658,Yaw=-120.004303,Roll=-179.999893)
+            RelativeScale3D=(X=0.600000,Y=0.600000,Z=0.600000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Turbine_Fan_C_0.BoundingBoxComponent'"
+            LDMaxDrawDistance=22000.000000
+            CachedMaxDrawDistance=22000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Turbine_Fan_C_0.EditorOnlyStaticMeshComponent'"
+            LDMaxDrawDistance=22000.000000
+            CachedMaxDrawDistance=22000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Creative/TextureData/CP_TD_Fortilla_Turbine.CP_TD_Fortilla_Turbine'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         EditorOnlyInstanceTags=(GameplayTags=((TagName="BuildingActor.FailedPhysicsObjectSizeValidation")))
+         CullDistance=22000.000000
+         StaticGameplayTags=(GameplayTags=((TagName="BuildingActor.FailedPhysicsObjectSizeValidation"),(TagName="Building.Type.Prop"),(TagName="PhysicsObject")))
+         DataVersion=1
+         SavedActorGuid=0000000000000000000000003B55647D
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="CP_Turbine_Fan_C0"
+      End Actor
+      Begin Actor Class=/Game/Creative/BuildingActors/Props/CP_Turbine_Post.CP_Turbine_Post_C Name=CP_Turbine_Post_C_0 Archetype="/Game/Creative/BuildingActors/Props/CP_Turbine_Post.CP_Turbine_Post_C'/Game/Creative/BuildingActors/Props/CP_Turbine_Post.Default__CP_Turbine_Post_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50B5002_1984392356 ActorFolderPath="Fortilla Wind Turbine Platform" ExportPath="/Game/Creative/BuildingActors/Props/CP_Turbine_Post.CP_Turbine_Post_C'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Turbine_Post_C_0'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Creative/BuildingActors/Props/CP_Turbine_Post.Default__CP_Turbine_Post_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Turbine_Post_C_0.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Creative/BuildingActors/Props/CP_Turbine_Post.Default__CP_Turbine_Post_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Turbine_Post_C_0.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Creative/BuildingActors/Props/CP_Turbine_Post.Default__CP_Turbine_Post_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Turbine_Post_C_0.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Turbine_Post_C_0.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fortilla_Turbine_1'"
+            LDMaxDrawDistance=22000.000000
+            CachedMaxDrawDistance=22000.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-770.135742,Y=256.441406,Z=384.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=30.000149,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Turbine_Post_C_0.BoundingBoxComponent'"
+            LDMaxDrawDistance=22000.000000
+            CachedMaxDrawDistance=22000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Turbine_Post_C_0.EditorOnlyStaticMeshComponent'"
+            LDMaxDrawDistance=22000.000000
+            CachedMaxDrawDistance=22000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Creative/TextureData/CP_TD_Fortilla_Turbine.CP_TD_Fortilla_Turbine'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22000.000000
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000132F8234
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="CP_Turbine_Post_C0"
+      End Actor
+      Begin Actor Class=/Game/Creative/BuildingActors/Props/CP_Turbine_Tube.CP_Turbine_Tube_C Name=CP_Turbine_Tube_C_0 Archetype="/Game/Creative/BuildingActors/Props/CP_Turbine_Tube.CP_Turbine_Tube_C'/Game/Creative/BuildingActors/Props/CP_Turbine_Tube.Default__CP_Turbine_Tube_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50B5002_1984392356 ActorFolderPath="Fortilla Wind Turbine Platform" ExportPath="/Game/Creative/BuildingActors/Props/CP_Turbine_Tube.CP_Turbine_Tube_C'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Turbine_Tube_C_0'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Creative/BuildingActors/Props/CP_Turbine_Tube.Default__CP_Turbine_Tube_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Turbine_Tube_C_0.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Creative/BuildingActors/Props/CP_Turbine_Tube.Default__CP_Turbine_Tube_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Turbine_Tube_C_0.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Creative/BuildingActors/Props/CP_Turbine_Tube.Default__CP_Turbine_Tube_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Turbine_Tube_C_0.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Turbine_Tube_C_0.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fortilla_Turbine_1'"
+            LDMaxDrawDistance=22000.000000
+            CachedMaxDrawDistance=22000.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-768.247070,Y=252.949219,Z=2720.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=59.998325,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Turbine_Tube_C_0.BoundingBoxComponent'"
+            LDMaxDrawDistance=22000.000000
+            CachedMaxDrawDistance=22000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.CP_Turbine_Tube_C_0.EditorOnlyStaticMeshComponent'"
+            LDMaxDrawDistance=22000.000000
+            CachedMaxDrawDistance=22000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Creative/TextureData/CP_TD_Fortilla_Turbine.CP_TD_Fortilla_Turbine'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22000.000000
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000529C25E8
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="CP_Turbine_Tube_C0"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B06.Fence_Chainlink_B06_C Name=Fence_Chainlink_B06_C_0 Archetype="/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B06.Fence_Chainlink_B06_C'/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B06.Default__Fence_Chainlink_B06_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50B5002_1984392356 ActorFolderPath="Fortilla Wind Turbine Platform" ExportPath="/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B06.Fence_Chainlink_B06_C'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B06_C_0'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B06.Default__Fence_Chainlink_B06_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B06_C_0.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B06.Default__Fence_Chainlink_B06_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B06_C_0.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B06.Default__Fence_Chainlink_B06_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B06_C_0.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B06_C_0.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fort_Fences_ChainlinkFenceSet_1'"
+            LDMaxDrawDistance=40000.000000
+            CachedMaxDrawDistance=40000.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=768.000000,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999985,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B06_C_0.BoundingBoxComponent'"
+            LDMaxDrawDistance=40000.000000
+            CachedMaxDrawDistance=40000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B06_C_0.EditorOnlyStaticMeshComponent'"
+            LDMaxDrawDistance=40000.000000
+            CachedMaxDrawDistance=40000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=40000.000000
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000BFBFDD4B
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Fence_Chainlink_B06_C0"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B06.Fence_Chainlink_B06_C Name=Fence_Chainlink_B06_C_1 Archetype="/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B06.Fence_Chainlink_B06_C'/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B06.Default__Fence_Chainlink_B06_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50B5002_1984392356 ActorFolderPath="Fortilla Wind Turbine Platform" ExportPath="/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B06.Fence_Chainlink_B06_C'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B06_C_1'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B06.Default__Fence_Chainlink_B06_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B06_C_1.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B06.Default__Fence_Chainlink_B06_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B06_C_1.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B06.Default__Fence_Chainlink_B06_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B06_C_1.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B06_C_1.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fort_Fences_ChainlinkFenceSet_1'"
+            LDMaxDrawDistance=40000.000000
+            CachedMaxDrawDistance=40000.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=256.000000,Y=512.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=90.000008,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B06_C_1.BoundingBoxComponent'"
+            LDMaxDrawDistance=40000.000000
+            CachedMaxDrawDistance=40000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B06_C_1.EditorOnlyStaticMeshComponent'"
+            LDMaxDrawDistance=40000.000000
+            CachedMaxDrawDistance=40000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=40000.000000
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000F85CFD11
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Fence_Chainlink_B06_C1"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B06.Fence_Chainlink_B06_C Name=Fence_Chainlink_B06_C_2 Archetype="/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B06.Fence_Chainlink_B06_C'/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B06.Default__Fence_Chainlink_B06_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50B5002_1984392356 ActorFolderPath="Fortilla Wind Turbine Platform" ExportPath="/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B06.Fence_Chainlink_B06_C'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B06_C_2'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B06.Default__Fence_Chainlink_B06_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B06_C_2.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B06.Default__Fence_Chainlink_B06_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B06_C_2.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B06.Default__Fence_Chainlink_B06_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B06_C_2.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B06_C_2.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fort_Fences_ChainlinkFenceSet_1'"
+            LDMaxDrawDistance=40000.000000
+            CachedMaxDrawDistance=40000.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1280.000000,Y=512.000000,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000008,Roll=0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B06_C_2.BoundingBoxComponent'"
+            LDMaxDrawDistance=40000.000000
+            CachedMaxDrawDistance=40000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B06_C_2.EditorOnlyStaticMeshComponent'"
+            LDMaxDrawDistance=40000.000000
+            CachedMaxDrawDistance=40000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=40000.000000
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000212DAB08
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Fence_Chainlink_B06_C2"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B06.Fence_Chainlink_B06_C Name=Fence_Chainlink_B06_C_3 Archetype="/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B06.Fence_Chainlink_B06_C'/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B06.Default__Fence_Chainlink_B06_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50B5002_1984392356 ActorFolderPath="Fortilla Wind Turbine Platform" ExportPath="/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B06.Fence_Chainlink_B06_C'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B06_C_3'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B06.Default__Fence_Chainlink_B06_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B06_C_3.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B06.Default__Fence_Chainlink_B06_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B06_C_3.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B06.Default__Fence_Chainlink_B06_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B06_C_3.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B06_C_3.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fort_Fences_ChainlinkFenceSet_1'"
+            LDMaxDrawDistance=40000.000000
+            CachedMaxDrawDistance=40000.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1280.000000,Y=0.000000,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000008,Roll=0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B06_C_3.BoundingBoxComponent'"
+            LDMaxDrawDistance=40000.000000
+            CachedMaxDrawDistance=40000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B06_C_3.EditorOnlyStaticMeshComponent'"
+            LDMaxDrawDistance=40000.000000
+            CachedMaxDrawDistance=40000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=40000.000000
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000FCF87186
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Fence_Chainlink_B06_C3"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B06.Fence_Chainlink_B06_C Name=Fence_Chainlink_B06_C_4 Archetype="/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B06.Fence_Chainlink_B06_C'/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B06.Default__Fence_Chainlink_B06_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50B5002_1984392356 ActorFolderPath="Fortilla Wind Turbine Platform" ExportPath="/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B06.Fence_Chainlink_B06_C'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B06_C_4'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B06.Default__Fence_Chainlink_B06_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B06_C_4.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B06.Default__Fence_Chainlink_B06_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B06_C_4.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B06.Default__Fence_Chainlink_B06_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B06_C_4.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B06_C_4.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fort_Fences_ChainlinkFenceSet_1'"
+            LDMaxDrawDistance=40000.000000
+            CachedMaxDrawDistance=40000.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1024.000000,Y=-256.000000,Z=0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B06_C_4.BoundingBoxComponent'"
+            LDMaxDrawDistance=40000.000000
+            CachedMaxDrawDistance=40000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B06_C_4.EditorOnlyStaticMeshComponent'"
+            LDMaxDrawDistance=40000.000000
+            CachedMaxDrawDistance=40000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=40000.000000
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000795DE16D
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Fence_Chainlink_B06_C4"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B06.Fence_Chainlink_B06_C Name=Fence_Chainlink_B06_C_5 Archetype="/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B06.Fence_Chainlink_B06_C'/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B06.Default__Fence_Chainlink_B06_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50B5002_1984392356 ActorFolderPath="Fortilla Wind Turbine Platform" ExportPath="/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B06.Fence_Chainlink_B06_C'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B06_C_5'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B06.Default__Fence_Chainlink_B06_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B06_C_5.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B06.Default__Fence_Chainlink_B06_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B06_C_5.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B06.Default__Fence_Chainlink_B06_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B06_C_5.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B06_C_5.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fort_Fences_ChainlinkFenceSet_1'"
+            LDMaxDrawDistance=40000.000000
+            CachedMaxDrawDistance=40000.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-512.000000,Y=-256.000000,Z=0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B06_C_5.BoundingBoxComponent'"
+            LDMaxDrawDistance=40000.000000
+            CachedMaxDrawDistance=40000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B06_C_5.EditorOnlyStaticMeshComponent'"
+            LDMaxDrawDistance=40000.000000
+            CachedMaxDrawDistance=40000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=40000.000000
+         DataVersion=1
+         SavedActorGuid=0000000000000000000000007F534544
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Fence_Chainlink_B06_C5"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B06.Fence_Chainlink_B06_C Name=Fence_Chainlink_B06_C_6 Archetype="/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B06.Fence_Chainlink_B06_C'/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B06.Default__Fence_Chainlink_B06_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50B5002_1984392356 ActorFolderPath="Fortilla Wind Turbine Platform" ExportPath="/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B06.Fence_Chainlink_B06_C'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B06_C_6'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B06.Default__Fence_Chainlink_B06_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B06_C_6.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B06.Default__Fence_Chainlink_B06_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B06_C_6.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B06.Default__Fence_Chainlink_B06_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B06_C_6.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B06_C_6.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fort_Fences_ChainlinkFenceSet_1'"
+            LDMaxDrawDistance=40000.000000
+            CachedMaxDrawDistance=40000.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=-256.000000,Z=0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B06_C_6.BoundingBoxComponent'"
+            LDMaxDrawDistance=40000.000000
+            CachedMaxDrawDistance=40000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B06_C_6.EditorOnlyStaticMeshComponent'"
+            LDMaxDrawDistance=40000.000000
+            CachedMaxDrawDistance=40000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=40000.000000
+         DataVersion=1
+         SavedActorGuid=00000000000000000000000091AB9613
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Fence_Chainlink_B06_C6"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B09.Fence_Chainlink_B09_C Name=Fence_Chainlink_B09_C_0 Archetype="/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B09.Fence_Chainlink_B09_C'/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B09.Default__Fence_Chainlink_B09_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50B5002_1984392356 ActorFolderPath="Fortilla Wind Turbine Platform" ExportPath="/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B09.Fence_Chainlink_B09_C'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B09_C_0'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B09.Default__Fence_Chainlink_B09_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B09_C_0.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B09.Default__Fence_Chainlink_B09_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B09_C_0.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Fence_Chainlink_B09.Default__Fence_Chainlink_B09_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B09_C_0.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B09_C_0.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fort_Fences_ChainlinkFenceSet_1'"
+            LDMaxDrawDistance=40000.000000
+            CachedMaxDrawDistance=40000.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=256.000000,Y=0.000000,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000008,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B09_C_0.BoundingBoxComponent'"
+            LDMaxDrawDistance=40000.000000
+            CachedMaxDrawDistance=40000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.Fence_Chainlink_B09_C_0.EditorOnlyStaticMeshComponent'"
+            LDMaxDrawDistance=40000.000000
+            CachedMaxDrawDistance=40000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=40000.000000
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000E9AB940C
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Fence_Chainlink_B09_C0"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile_NOLOD.SM_FORT_Floors_Generic_BasicTile_NOLOD_C Name=SM_FORT_Floors_Generic_BasicTile_NOLOD_C_29 Archetype="/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile_NOLOD.SM_FORT_Floors_Generic_BasicTile_NOLOD_C'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile_NOLOD.Default__SM_FORT_Floors_Generic_BasicTile_NOLOD_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50B5002_1984392356 ActorFolderPath="Fortilla Wind Turbine Platform" ExportPath="/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile_NOLOD.SM_FORT_Floors_Generic_BasicTile_NOLOD_C'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_NOLOD_C_29'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile_NOLOD.Default__SM_FORT_Floors_Generic_BasicTile_NOLOD_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_NOLOD_C_29.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile_NOLOD.Default__SM_FORT_Floors_Generic_BasicTile_NOLOD_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_NOLOD_C_29.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile_NOLOD.Default__SM_FORT_Floors_Generic_BasicTile_NOLOD_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_NOLOD_C_29.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_NOLOD_C_29.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fort_Floors_Generic_TilesClean_19'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1280.000000,Y=1023.999023,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=-89.999817,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_NOLOD_C_29.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24648.673828
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_NOLOD_C_29.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24648.673828
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Apollo/Sets/Barn/Texture_Data/TD_Apollo_Barn_Inside.TD_Apollo_Barn_Inside'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Apollo/Sets/Barn/Texture_Data/TD_Apollo_Barn_Inside.TD_Apollo_Barn_Inside'"
+         ResourceType=Wood
+         NavObstacles(0)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(1)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24648.673828
+         DataVersion=1
+         SavedActorGuid=0000000000000000000000007FA6D0ED
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_FORT_Floors_Generic_BasicTile_NOLOD_C29"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile_NOLOD.SM_FORT_Floors_Generic_BasicTile_NOLOD_C Name=SM_FORT_Floors_Generic_BasicTile_NOLOD_C_30 Archetype="/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile_NOLOD.SM_FORT_Floors_Generic_BasicTile_NOLOD_C'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile_NOLOD.Default__SM_FORT_Floors_Generic_BasicTile_NOLOD_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50B5002_1984392356 ActorFolderPath="Fortilla Wind Turbine Platform" ExportPath="/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile_NOLOD.SM_FORT_Floors_Generic_BasicTile_NOLOD_C'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_NOLOD_C_30'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile_NOLOD.Default__SM_FORT_Floors_Generic_BasicTile_NOLOD_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_NOLOD_C_30.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile_NOLOD.Default__SM_FORT_Floors_Generic_BasicTile_NOLOD_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_NOLOD_C_30.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile_NOLOD.Default__SM_FORT_Floors_Generic_BasicTile_NOLOD_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_NOLOD_C_30.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_NOLOD_C_30.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fort_Floors_Generic_TilesClean_19'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-768.000000,Y=1023.999023,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=-89.999817,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_NOLOD_C_30.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24648.673828
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Fortilla_IIPPD/Fortilla_IIPPD.Fortilla_IIPPD:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_NOLOD_C_30.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24648.673828
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Apollo/Sets/Barn/Texture_Data/TD_Apollo_Barn_Inside.TD_Apollo_Barn_Inside'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Apollo/Sets/Barn/Texture_Data/TD_Apollo_Barn_Inside.TD_Apollo_Barn_Inside'"
+         ResourceType=Wood
+         NavObstacles(0)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(1)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24648.673828
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000BBBF2109
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_FORT_Floors_Generic_BasicTile_NOLOD_C30"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map

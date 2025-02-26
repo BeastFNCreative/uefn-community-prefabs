@@ -30,6 +30,19 @@
 |-----------------------------------------|-----------------|-----------------|
 | <img src=".assets/The Driftwood.png" width="256"/> | **[The Driftwood](SpawnerTexts/The%20Driftwood.txt)**<br>**(Ported by: akira_v9)**<br><br>**Source: Chapter 3 Island** | Visually Modified: ❌<br>Requires External Download: ❌|
 
+# Fortilla
+
+| Icon | Playset Name w/ Author | Extra Info |
+|-----------------------------------------|-----------------|-----------------|
+| <img src=".assets/Fortilla Barge B.png" width="256"/> | **[Fortilla Barge B](SpawnerTexts/Fortilla%20Barge%20B.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Fortilla** | Visually Modified: ❌<br>Requires External Download: ❌|
+| <img src=".assets/Fortilla Boxfight Platform.png" width="256"/> | **[Fortilla Boxfight Platform](SpawnerTexts/Fortilla%20Boxfight%20Platform.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Fortilla** | Visually Modified: ❌<br>Requires External Download: ❌|
+| <img src=".assets/Fortilla Garbage Islands.png" width="256"/> | **[Fortilla Garbage Islands Gallery](SpawnerTexts/Fortilla%20Garbage%20Islands.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Fortilla** | Visually Modified: ❌<br>Requires External Download: ❌|
+| <img src=".assets/Fortilla Hut Platform A.png" width="256"/> | **[Fortilla Hut Platform A](SpawnerTexts/Fortilla%20Hut%20Platform%20A.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Fortilla** | Visually Modified: ❌<br>Requires External Download: ❌|
+| <img src=".assets/Fortilla Hut Platform B.png" width="256"/> | **[Fortilla Hut Platform B](SpawnerTexts/Fortilla%20Hut%20Platform%20B.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Fortilla** | Visually Modified: ❌<br>Requires External Download: ❌|
+| <img src=".assets/Fortilla Shipping Houses.png" width="256"/> | **[Fortilla Shipping Houses](SpawnerTexts/Fortilla%20Shipping%20Houses.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Fortilla** | Visually Modified: ❌<br>Requires External Download: ❌|
+| <img src=".assets/Fortilla Tower.png" width="256"/> | **[Fortilla Tower](SpawnerTexts/Fortilla%20Tower.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Fortilla** | Visually Modified: ❌<br>Requires External Download: ❌|
+| <img src=".assets/Fortilla Wind Turbine Platform.png" width="256"/> | **[Fortilla Wind Turbine Platform](SpawnerTexts/Fortilla%20Wind%20Turbine%20Platform.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Fortilla** | Visually Modified: ❌<br>Requires External Download: ❌|
+
 # Sleepy Sound Prefabs
 
 | Icon | Playset Name w/ Author | Extra Info |
