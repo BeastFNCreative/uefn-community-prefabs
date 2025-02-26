@@ -32,7 +32,7 @@
 | <img src=".assets/Sleepy Sound Shops.png" width="256"/> | **[Sleepy Sound Shops](SpawnerTexts/Prefab_SleepySound_Shops.txt)**<br>**(Ported by: akira_v9 & Lady Miranda)**<br><br>**Source: Unreleased, Modified** | Visually Modified: ❌<br>Requires External Download: ❌|
 | <img src=".assets/Sleepy Sound Joels.png" width="256"/> | **[Sleepy Sound Joels](SpawnerTexts/Prefab_SleepySound_Joels.txt)**<br>**(Ported by: akira_v9 & Lady Miranda)**<br><br>**Source: Unreleased, Modified** | Visually Modified: ❌<br>Requires External Download: ❌|
 
-# Tilted Towers Poi Island
+# Artemis Tilted Towers (Chapter 3)
 
 | Icon | Playset Name w/ Author | Extra Info |
 |-----------------------------------------|-----------------|-----------------|
@@ -52,6 +52,11 @@
 | <img src=".assets/Variant Soccer Field Icon.png" width="256"/> | **[Variant Soccer Field](SpawnerTexts/Prefab%20Variant%20Soccer%20Field.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Tilted Towers POI Island** | Visually Modified: ❌<br>Requires External Download: ❌|
 | <img src=".assets/Variant Taco Shop Icon.png" width="256"/> | **[Variant Taco Shop](SpawnerTexts/Prefab%20Variant%20Taco%20Shop.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Tilted Towers POI Island** | Visually Modified: ❌<br>Requires External Download: ❌|
 | <img src=".assets/Variant Twin Apartments Icon.png" width="256"/> | **[Variant Twin Apartments](SpawnerTexts/Prefab%20Variant%20Twin%20Apartments.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Tilted Towers POI Island** | Visually Modified: ❌<br>Requires External Download: ❌|
+Visually Modified: ❌<br>Requires External Download: ❌|
+| <img src=".assets/Tilted Building Benmac.png" width="256"/> | **[Block 2.0 Benmac Building](SpawnerTexts/Tilted%20Building%20Benmac.txt)**<br>**(Ported by: akira_v9)**<br><br>**Source: Chapter 3 Island** | Visually Modified: ❌<br>Requires External Download: ❌|
+| <img src=".assets/Tilted Building Charlee-Brown.png" width="256"/> | **[Block 2.0 Charlee-Brown Building](SpawnerTexts/Tilted%20Building%20Charlee-Brown.txt)**<br>**(Ported by: akira_v9)**<br><br>**Source: Chapter 3 Island** | Visually Modified: ❌<br>Requires External Download: ❌|
+| <img src=".assets/Tilted Building Oricent.png" width="256"/> | **[Block 2.0 Oricent Building](SpawnerTexts/Tilted%20Building%20Oricent.txt)**<br>**(Ported by: akira_v9)**<br><br>**Source: Chapter 3 Island** | Visually Modified: ❌<br>Requires External Download: ❌|
+
 
 # Greasy Grove Poi Island
 
