@@ -28,7 +28,7 @@
 
 | Icon | Playset Name w/ Author | Extra Info |
 |-----------------------------------------|-----------------|-----------------|
-| <img src=".assets/The Driftwood.png" width="256"/> | **[The Driftwood](SpawnerTexts/The Driftwood.txt)**<br>**(Ported by: akira_v9)**<br><br>**Source: Chapter 3 Island** | Visually Modified: ❌<br>Requires External Download: ❌|
+| <img src=".assets/The Driftwood.png" width="256"/> | **[The Driftwood](SpawnerTexts/The%20Driftwood.txt)**<br>**(Ported by: akira_v9)**<br><br>**Source: Chapter 3 Island** | Visually Modified: ❌<br>Requires External Download: ❌|
 
 # Sleepy Sound Prefabs
 
