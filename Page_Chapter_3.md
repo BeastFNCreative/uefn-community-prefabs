@@ -15,15 +15,5 @@
 | Icon | Playset Name w/ Author | Extra Info |
 |-----------------------------------------|-----------------|-----------------|
 | <img src=".assets/Sleepy Sound Motel.png" width="256"/> | **[Sleepy Sound Motel](SpawnerTexts/Prefab_SleepySound_Motel.txt)**<br>**(Ported by: akira_v9 & Lady Miranda)**<br><br>**Source: Unreleased, Modified** | Visually Modified: ❌<br>Requires External Download: ❌|
-| <img src=".assets/Sleepy Sound Shops.png" width="256"/> | **[Sleepy Sound Shops](SpawnerTexts/Prefab_SleepySound_Shops.txt)**<br>**(Ported by: akira_v9 & Lady Miranda)**<br><br>**Source: Unreleased, Modified** | Visually Modified: ❌<br>Requires External Download: ❌|
-| <img src=".assets/Sleepy Sound Joels.png" width="256"/> | **[Sleepy Sound Joels](SpawnerTexts/Prefab_SleepySound_Joels.txt)**<br>**(Ported by: akira_v9 & Lady Miranda)**<br><br>**Source: Unreleased, Modified** | Visually Modified: ❌<br>Requires External Download: ❌|
-
-# Sleepy Sound Prefabs
-
-| Icon | Playset Name w/ Author | Extra Info |
-|-----------------------------------------|-----------------|-----------------|
-| <img src=".assets/Sleepy Sound Motel.png" width="256"/> | **[Sleepy Sound Motel](SpawnerTexts/Prefab_SleepySound_Motel.txt)**<br>**(Ported by: akira_v9 & Lady Miranda)**<br><br>**Source: Unreleased, Modified** | Visually Modified: ❌<br>Requires External Download: ❌|
-| <img src=".assets/Sleepy Sound Shops.png" width="256"/> | **[Sleepy Sound Shops](SpawnerTexts/Prefab_SleepySound_Shops.txt)**<br>**(Ported by: akira_v9 & Lady Miranda)**<br><br>**Source: Unreleased, Modified** | Visually Modified: ❌<br>Requires External Download: ❌|
-| <img src=".assets/Sleepy Sound Joels.png" width="256"/> | **[Sleepy Sound Joels](SpawnerTexts/Prefab_SleepySound_Joels.txt)**<br>**(Ported by: akira_v9 & Lady Miranda)**<br><br>**Source: Unreleased, Modified** | Visually Modified: ❌<br>Requires External Download: ❌|
-
-
+| <img src=".assets/Sleepy Sound Shops.png" width="256"/> | **[Sleepy Sound Shops](SpawnerTexts/Prefab_SleepySound_Shops.txt)**<br>**(Ported by: akira_v9)**<br><br>**Source: Unreleased, Modified** | Visually Modified: ❌<br>Requires External Download: ❌|
+| <img src=".assets/Sleepy Sound Joels.png" width="256"/> | **[Sleepy Sound Joels](SpawnerTexts/Prefab_SleepySound_Joels.txt)**<br>**(Ported by: akira_v9)**<br><br>**Source: Unreleased, Modified** | Visually Modified: ❌<br>Requires External Download: ❌|
