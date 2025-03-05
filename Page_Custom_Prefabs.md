@@ -6,10 +6,10 @@
 
 | Icon | Playset Name w/ Author | Extra Info |
 |-----------------------------------------|-----------------|-----------------|
-| <img src=".assets/neo tilted banana stand.png" width="256"/> | **[Banananana Stand](SpawnerTexts/Neo%20Tilted%20Banana%20Stand.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Recreated** | Visually Modified: ✔️<br>Requires External Download: ❌|
-| <img src=".assets/neo tilted construction site b.png" width="256"/> | **[Banananana Stand](SpawnerTexts/Neo%20Tilted%20Construction%20Site%20B.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Recreated** | Visually Modified: ✔️<br>Requires External Download: ❌|
-| <img src=".assets/slipstation A.png" width="256"/> | **[Banananana Stand](SpawnerTexts/Slipstation%20A.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Recreated** | Visually Modified: ✔️<br>Requires External Download: ❌|
-| <img src=".assets/slipstation B.png" width="256"/> | **[Banananana Stand](SpawnerTexts/Slipstation%20B.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Recreated** | Visually Modified: ✔️<br>Requires External Download: ❌|
+| <img src=".assets/neo tilted banana stand.png" width="256"/> | **[Banana Stand](SpawnerTexts/Neo%20Tilted%20Banana%20Stand.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Recreated** | Visually Modified: ✔️<br>Requires External Download: ❌|
+| <img src=".assets/neo tilted construction site b.png" width="256"/> | **[Neo Tilted Construction Site B](SpawnerTexts/Neo%20Tilted%20Construction%20Site%20B.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Recreated** | Visually Modified: ✔️<br>Requires External Download: ❌|
+| <img src=".assets/slipstation A.png" width="256"/> | **[Slipstation A](SpawnerTexts/Slipstation%20A.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Recreated** | Visually Modified: ✔️<br>Requires External Download: ❌|
+| <img src=".assets/slipstation b.png" width="256"/> | **[Slipstation B](SpawnerTexts/Slipstation%20B.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Recreated** | Visually Modified: ✔️<br>Requires External Download: ❌|
 
 # Chapture 2 Custom Prefabs
 
