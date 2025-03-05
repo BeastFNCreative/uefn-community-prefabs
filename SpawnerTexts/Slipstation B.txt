@@ -1,0 +1,1437 @@
+Begin Map
+   Begin Level
+      Begin Actor Class=/Script/FortniteGame.FortPlaysetRoot Name=FortPlaysetRoot_UAID_D843AE8E0CE5105002_1497116266 Archetype="/Script/FortniteGame.FortPlaysetRoot'/Script/FortniteGame.Default__FortPlaysetRoot'" ActorFolderPath="Slipstream B" ExportPath="/Script/FortniteGame.FortPlaysetRoot'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.FortPlaysetRoot_UAID_D843AE8E0CE5105002_1497116266'"
+         Begin Object Class=/Script/Engine.SceneComponent Name="DefaultSceneRoot" Archetype="/Script/Engine.SceneComponent'/Script/FortniteGame.Default__FortPlaysetRoot:DefaultSceneRoot'" ExportPath="/Script/Engine.SceneComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.FortPlaysetRoot_UAID_D843AE8E0CE5105002_1497116266.DefaultSceneRoot'"
+         End Object
+         Begin Object Name="DefaultSceneRoot" ExportPath="/Script/Engine.SceneComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.FortPlaysetRoot_UAID_D843AE8E0CE5105002_1497116266.DefaultSceneRoot'"
+         End Object
+         SavedActorGuid=B6C1E2F54996EE043C634C89FEBC8FFD
+         PlaysetPackagePathName="/CRP_Foundation/SetupAssets/Maps/PID_CP_Foundation_3x7_StripMallStores_01"
+         ActorLabel="Slipstream B"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C Name=SM_FORT_Floors_Generic_BasicTile_C_UAID_D843AE8E0CE50F5002_1882241952 Archetype="/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5105002_1497116266 ActorFolderPath="Slipstream B" ExportPath="/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_D843AE8E0CE50F5002_1882241952'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_D843AE8E0CE50F5002_1882241952.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_D843AE8E0CE50F5002_1882241952.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_D843AE8E0CE50F5002_1882241952.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_D843AE8E0CE50F5002_1882241952.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fort_Floors_Generic_TilesClean_12'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=256.000000,Z=768.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_D843AE8E0CE50F5002_1882241952.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24648.673828
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_D843AE8E0CE50F5002_1882241952.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24648.673828
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_SciFi_Wall_01.Neo_SciFi_Wall_01'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_Ceiling_02.Neo_Ceiling_02'"
+         ResourceType=Metal
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24648.673828
+         DataVersion=1
+         SavedActorGuid=E4AE9B974FE0FD96287DD99F6B44023E
+         ActorTemplateID="SM_FORT_Floors_Generic_BasicTile_C_03E79722"
+         PlaysetPackagePathName="/Project_Neo_Tilted/_INT/Playsets/PID_Slipstream_Station_A"
+         RootComponent="StaticMeshComponent0"
+         PivotOffset=(X=-0.000000,Y=256.000000,Z=-0.000000)
+         ActorLabel="Floors Generic BasicTile C2"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C Name=SM_FORT_Floors_Generic_BasicTile_C_UAID_D843AE8E0CE50F5002_1882309971 Archetype="/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5105002_1497116266 ActorFolderPath="Slipstream B" ExportPath="/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_D843AE8E0CE50F5002_1882309971'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_D843AE8E0CE50F5002_1882309971.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_D843AE8E0CE50F5002_1882309971.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_D843AE8E0CE50F5002_1882309971.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_D843AE8E0CE50F5002_1882309971.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fort_Floors_Generic_TilesClean_12'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=-768.000000,Z=1152.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_D843AE8E0CE50F5002_1882309971.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24648.673828
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_D843AE8E0CE50F5002_1882309971.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24648.673828
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_SciFi_Wall_01.Neo_SciFi_Wall_01'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_Ceiling_02.Neo_Ceiling_02'"
+         ResourceType=Metal
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24648.673828
+         DataVersion=1
+         SavedActorGuid=9CBC93B54627FA0A1182059FF73BB81A
+         ActorTemplateID="SM_FORT_Floors_Generic_BasicTile_C_03E79722"
+         PlaysetPackagePathName="/Project_Neo_Tilted/_INT/Playsets/PID_Slipstream_Station_A"
+         RootComponent="StaticMeshComponent0"
+         PivotOffset=(X=-0.000000,Y=256.000000,Z=-0.000000)
+         ActorLabel="Floors Generic BasicTile C3"
+      End Actor
+      Begin Actor Class=/Game/Creative/Devices/HoloScreen/BP_Creative_Holoscreen.BP_Creative_HoloScreen_C Name=BP_Creative_HoloScreen_C_UAID_D843AE8E0CE50F5002_1882212949 Archetype="/Game/Creative/Devices/HoloScreen/BP_Creative_Holoscreen.BP_Creative_HoloScreen_C'/Game/Creative/Devices/HoloScreen/BP_Creative_Holoscreen.Default__BP_Creative_HoloScreen_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5105002_1497116266 ActorFolderPath="Slipstream B" ExportPath="/Game/Creative/Devices/HoloScreen/BP_Creative_Holoscreen.BP_Creative_HoloScreen_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_Creative_HoloScreen_C_UAID_D843AE8E0CE50F5002_1882212949'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Creative/Devices/HoloScreen/BP_Creative_Holoscreen.Default__BP_Creative_HoloScreen_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_Creative_HoloScreen_C_UAID_D843AE8E0CE50F5002_1882212949.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Creative/Devices/HoloScreen/BP_Creative_Holoscreen.Default__BP_Creative_HoloScreen_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_Creative_HoloScreen_C_UAID_D843AE8E0CE50F5002_1882212949.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Creative/Devices/HoloScreen/BP_Creative_Holoscreen.Default__BP_Creative_HoloScreen_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_Creative_HoloScreen_C_UAID_D843AE8E0CE50F5002_1882212949.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C Name="Creative_VisibleInGame_Component" Archetype="/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C'/Game/Creative/Devices/HoloScreen/BP_Creative_Holoscreen.BP_Creative_HoloScreen_C:Creative_VisibleInGame_Component_GEN_VARIABLE'" ExportPath="/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_Creative_HoloScreen_C_UAID_D843AE8E0CE50F5002_1882212949.Creative_VisibleInGame_Component'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="Box" Archetype="/Script/Engine.BoxComponent'/Game/Creative/Devices/HoloScreen/BP_Creative_Holoscreen.BP_Creative_HoloScreen_C:Box_GEN_VARIABLE'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_Creative_HoloScreen_C_UAID_D843AE8E0CE50F5002_1882212949.Box'"
+         End Object
+         Begin Object Class=/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C Name="ToyOptionsComponent" Archetype="/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C'/Game/Creative/Devices/HoloScreen/BP_Creative_Holoscreen.BP_Creative_HoloScreen_C:ToyOptionsComponent_GEN_VARIABLE'" ExportPath="/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_Creative_HoloScreen_C_UAID_D843AE8E0CE50F5002_1882212949.ToyOptionsComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="SM_HoloProjector" Archetype="/Script/Engine.StaticMeshComponent'/Game/Creative/Devices/HoloScreen/BP_Creative_Holoscreen.BP_Creative_HoloScreen_C:SM_HoloProjector_GEN_VARIABLE'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_Creative_HoloScreen_C_UAID_D843AE8E0CE50F5002_1882212949.SM_HoloProjector'"
+            Begin Object Class=/Script/Engine.MaterialInstanceDynamic Name="M_HoloScreen_Gym_0-A4F6C570F16FEA30_0" ExportPath="/Script/Engine.MaterialInstanceDynamic'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_Creative_HoloScreen_C_UAID_D843AE8E0CE50F5002_1882212949.SM_HoloProjector.M_HoloScreen_Gym_0-A4F6C570F16FEA30_0'"
+               Begin Object Class=/Script/Engine.MaterialInstanceEditorOnlyData Name="M_HoloScreen_Gym_0-A4F6C570F16FEA30_0EditorOnlyData" ExportPath="/Script/Engine.MaterialInstanceEditorOnlyData'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_Creative_HoloScreen_C_UAID_D843AE8E0CE50F5002_1882212949.SM_HoloProjector.M_HoloScreen_Gym_0-A4F6C570F16FEA30_0.M_HoloScreen_Gym_0-A4F6C570F16FEA30_0EditorOnlyData'"
+               End Object
+            End Object
+            Begin Object Class=/Script/Engine.MaterialInstanceDynamic Name="M_HoloProjector_1-F4F8418BF16FEA30" ExportPath="/Script/Engine.MaterialInstanceDynamic'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_Creative_HoloScreen_C_UAID_D843AE8E0CE50F5002_1882212949.SM_HoloProjector.M_HoloProjector_1-F4F8418BF16FEA30'"
+               Begin Object Class=/Script/Engine.MaterialInstanceEditorOnlyData Name="M_HoloProjector_1-F4F8418BF16FEA30EditorOnlyData" ExportPath="/Script/Engine.MaterialInstanceEditorOnlyData'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_Creative_HoloScreen_C_UAID_D843AE8E0CE50F5002_1882212949.SM_HoloProjector.M_HoloProjector_1-F4F8418BF16FEA30.M_HoloProjector_1-F4F8418BF16FEA30EditorOnlyData'"
+               End Object
+            End Object
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_Creative_HoloScreen_C_UAID_D843AE8E0CE50F5002_1882212949.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_SecurityCamera_01_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-0.000001,Y=768.000000,Z=542.952866)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_Creative_HoloScreen_C_UAID_D843AE8E0CE50F5002_1882212949.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24620.275391
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_Creative_HoloScreen_C_UAID_D843AE8E0CE50F5002_1882212949.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24620.275391
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="Creative_VisibleInGame_Component" ExportPath="/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_Creative_HoloScreen_C_UAID_D843AE8E0CE50F5002_1882212949.Creative_VisibleInGame_Component'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Box" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_Creative_HoloScreen_C_UAID_D843AE8E0CE50F5002_1882212949.Box'"
+            CachedMaxDrawDistance=24620.275391
+            AttachParent="StaticMeshComponent0"
+            RelativeScale3D=(X=3.000000,Y=0.500000,Z=2.000000)
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="ToyOptionsComponent" ExportPath="/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_Creative_HoloScreen_C_UAID_D843AE8E0CE50F5002_1882212949.ToyOptionsComponent'"
+            PlayerOptionData=(PropertyOverrides=((PropertyName="Bend",PropertyData="2.000000"),(PropertyName="bProjectorVisible",PropertyData="False"),(PropertyName="Distance",PropertyData="0.500000"),(PropertyName="Height",PropertyData="2.000000"),(PropertyName="HoloScreenIndex",PropertyData="14"),(PropertyName="LabelOverride",PropertyData="HoloScreen"),(PropertyName="Width",PropertyData="3.000000")))
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="SM_HoloProjector" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_Creative_HoloScreen_C_UAID_D843AE8E0CE50F5002_1882212949.SM_HoloProjector'"
+            Begin Object Name="M_HoloScreen_Gym_0-A4F6C570F16FEA30_0" ExportPath="/Script/Engine.MaterialInstanceDynamic'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_Creative_HoloScreen_C_UAID_D843AE8E0CE50F5002_1882212949.SM_HoloProjector.M_HoloScreen_Gym_0-A4F6C570F16FEA30_0'"
+               Begin Object Name="M_HoloScreen_Gym_0-A4F6C570F16FEA30_0EditorOnlyData" ExportPath="/Script/Engine.MaterialInstanceEditorOnlyData'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_Creative_HoloScreen_C_UAID_D843AE8E0CE50F5002_1882212949.SM_HoloProjector.M_HoloScreen_Gym_0-A4F6C570F16FEA30_0.M_HoloScreen_Gym_0-A4F6C570F16FEA30_0EditorOnlyData'"
+               End Object
+               Parent="/Script/Engine.MaterialInstanceConstant'/Game/Athena/Environments/Materials/Holograms/M_HoloScreen_Gym.M_HoloScreen_Gym'"
+               ScalarParameterValues(0)=(ParameterInfo=(Name="Constant Rotation Speed"),ExpressionGUID=334F83E1422C7207090E5C82CB65894B)
+               ScalarParameterValues(1)=(ParameterInfo=(Name="Rotationamount"),ParameterValue=-0.020000,ExpressionGUID=5C614C664B560510F0C7E2A98DDD89E6)
+               ScalarParameterValues(2)=(ParameterInfo=(Name="Glow"),ParameterValue=3.000000,ExpressionGUID=54C45A314DCDAD305783CA9930A735B4)
+               ScalarParameterValues(3)=(ParameterInfo=(Name="Contrast"),ParameterValue=2.000000,ExpressionGUID=3A4FD46348ECA7691D6296B71EDDE0A5)
+               VectorParameterValues(0)=(ParameterInfo=(Name="Color"),ParameterValue=(R=0.415371,G=0.342099,B=1.000000,A=0.000000),ExpressionGUID=BB321B6C45CCCA4F0BFAB08BE12E2AC9)
+               BasePropertyOverrides=(TwoSided=True,BlendMode=BLEND_Masked,ShadingModel=MSM_Unlit,OpacityMaskClipValue=0.333300)
+               ReferencedTextureGuids(0)=705FD412470E2609447A28A0292DD9CB
+               ReferencedTextureGuids(1)=FA5DDE0242C6A9125070D1A5B3C47BDF
+               ReferencedTextureGuids(2)=F0AC02F144E41F7ABE7978A63EF15B26
+               ReferencedTextureGuids(3)=69736E314E33763CD7D171A59949EC68
+               ReferencedTextureGuids(4)=307757E1458E615C7D97A39E32219707
+               EditorOnlyData="/Script/Engine.MaterialInstanceEditorOnlyData'M_HoloScreen_Gym_0-A4F6C570F16FEA30_0EditorOnlyData'"
+               LightingGuid=93E8E1E64AD0DD7D6B48BB9D260D54D2
+            End Object
+            Begin Object Name="M_HoloProjector_1-F4F8418BF16FEA30" ExportPath="/Script/Engine.MaterialInstanceDynamic'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_Creative_HoloScreen_C_UAID_D843AE8E0CE50F5002_1882212949.SM_HoloProjector.M_HoloProjector_1-F4F8418BF16FEA30'"
+               Begin Object Name="M_HoloProjector_1-F4F8418BF16FEA30EditorOnlyData" ExportPath="/Script/Engine.MaterialInstanceEditorOnlyData'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_Creative_HoloScreen_C_UAID_D843AE8E0CE50F5002_1882212949.SM_HoloProjector.M_HoloProjector_1-F4F8418BF16FEA30.M_HoloProjector_1-F4F8418BF16FEA30EditorOnlyData'"
+               End Object
+               Parent="/Script/Engine.Material'/Game/Athena/Environments/Materials/Holograms/M_HoloProjector.M_HoloProjector'"
+               ScalarParameterValues(0)=(ParameterInfo=(Name="Constant Rotation Speed"),ExpressionGUID=6A7C42C749157959BA439DA2318C81A8)
+               ScalarParameterValues(1)=(ParameterInfo=(Name="Rotationamount"),ParameterValue=-0.020000,ExpressionGUID=BBAA0C584F20DC63B6F177A99A128EE0)
+               ScalarParameterValues(2)=(ParameterInfo=(Name="Glow"),ParameterValue=5.000000,ExpressionGUID=A37A4052409309298A67F8B9F0E5B699)
+               VectorParameterValues(0)=(ParameterInfo=(Name="Color"),ParameterValue=(R=0.415371,G=0.342099,B=1.000000,A=0.000000),ExpressionGUID=BB321B6C45CCCA4F0BFAB08BE12E2AC9)
+               BasePropertyOverrides=(TwoSided=True,BlendMode=BLEND_Additive,ShadingModel=MSM_Unlit,OpacityMaskClipValue=0.333300)
+               ReferencedTextureGuids(0)=7A85A46944640ED1656A9993512EC288
+               ReferencedTextureGuids(1)=6B487046411F2BD0BFD7D8BFBF8E6396
+               EditorOnlyData="/Script/Engine.MaterialInstanceEditorOnlyData'M_HoloProjector_1-F4F8418BF16FEA30EditorOnlyData'"
+               LightingGuid=373FFF604A3B810A4EB02A9ED5A41CE5
+            End Object
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'M_HoloScreen_Gym_0-A4F6C570F16FEA30_0'"
+            OverrideMaterials(1)="/Script/Engine.MaterialInstanceDynamic'M_HoloProjector_1-F4F8418BF16FEA30'"
+            AttachParent="StaticMeshComponent0"
+            RelativeScale3D=(X=3.000000,Y=0.500000,Z=2.000000)
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Creative_VisibleInGame_Component="Creative_VisibleInGame_Component"
+         Box="Box"
+         ToyOptionsComponent="ToyOptionsComponent"
+         SM_HoloProjector="SM_HoloProjector"
+         HoloScreenIndex=14
+         Distance=0.500000
+         Height=2.000000
+         Width=3.000000
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24620.275391
+         DataVersion=1
+         ComponentTypesWhitelistedForReplication(2)="/Script/CoreUObject.Class'/Script/FortniteGame.FortActorOptionsComponent'"
+         SavedActorGuid=77A030124CC6DA59EAF5488ED5F7B2AB
+         ActorTemplateID="BP_Creative_HoloScreen_C_D5437C58"
+         PlaysetPackagePathName="/Game/Playsets/PlaysetProps/PPID_BP_Creative_HoloScreen_7e742acc"
+         LabelOverride="HoloScreen"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="HoloScreen"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Neo/Floor/Neo_Balcony_RoundCrn.Neo_Balcony_RoundCrn_C Name=Neo_Balcony_RoundCrn_C_UAID_D843AE8E0CE50F5002_1882317976 Archetype="/Game/Building/ActorBlueprints/Neo/Floor/Neo_Balcony_RoundCrn.Neo_Balcony_RoundCrn_C'/Game/Building/ActorBlueprints/Neo/Floor/Neo_Balcony_RoundCrn.Default__Neo_Balcony_RoundCrn_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5105002_1497116266 ActorFolderPath="Slipstream B" ExportPath="/Game/Building/ActorBlueprints/Neo/Floor/Neo_Balcony_RoundCrn.Neo_Balcony_RoundCrn_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Balcony_RoundCrn_C_UAID_D843AE8E0CE50F5002_1882317976'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Floor/Neo_Balcony_RoundCrn.Default__Neo_Balcony_RoundCrn_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Balcony_RoundCrn_C_UAID_D843AE8E0CE50F5002_1882317976.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Neo/Floor/Neo_Balcony_RoundCrn.Default__Neo_Balcony_RoundCrn_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Balcony_RoundCrn_C_UAID_D843AE8E0CE50F5002_1882317976.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Floor/Neo_Balcony_RoundCrn.Default__Neo_Balcony_RoundCrn_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Balcony_RoundCrn_C_UAID_D843AE8E0CE50F5002_1882317976.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Balcony_RoundCrn_C_UAID_D843AE8E0CE50F5002_1882317976.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Neo_Balcony_9'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-512.000011,Y=1280.000000,Z=768.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Balcony_RoundCrn_C_UAID_D843AE8E0CE50F5002_1882317976.BoundingBoxComponent'"
+            CachedMaxDrawDistance=16117.629883
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Balcony_RoundCrn_C_UAID_D843AE8E0CE50F5002_1882317976.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=16117.629883
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_SciFi_Wall_01.Neo_SciFi_Wall_01'"
+         ResourceType=Metal
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=16117.629883
+         DataVersion=1
+         SavedActorGuid=9DA41AB04FB36380CDACD28F66D443EF
+         ActorTemplateID="Neo_Balcony_RoundCrn_C_0DB1C53B"
+         PlaysetPackagePathName="/Project_Neo_Tilted/_INT/Playsets/PID_Slipstream_Station_A"
+         RootComponent="StaticMeshComponent0"
+         PivotOffset=(X=-0.000000,Y=256.000000,Z=-0.000000)
+         ActorLabel="Neo Balcony RoundCrn C2"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Neo/Floor/Neo_Balcony_RoundCrn.Neo_Balcony_RoundCrn_C Name=Neo_Balcony_RoundCrn_C_UAID_D843AE8E0CE50F5002_1882246955 Archetype="/Game/Building/ActorBlueprints/Neo/Floor/Neo_Balcony_RoundCrn.Neo_Balcony_RoundCrn_C'/Game/Building/ActorBlueprints/Neo/Floor/Neo_Balcony_RoundCrn.Default__Neo_Balcony_RoundCrn_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5105002_1497116266 ActorFolderPath="Slipstream B" ExportPath="/Game/Building/ActorBlueprints/Neo/Floor/Neo_Balcony_RoundCrn.Neo_Balcony_RoundCrn_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Balcony_RoundCrn_C_UAID_D843AE8E0CE50F5002_1882246955'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Floor/Neo_Balcony_RoundCrn.Default__Neo_Balcony_RoundCrn_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Balcony_RoundCrn_C_UAID_D843AE8E0CE50F5002_1882246955.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Neo/Floor/Neo_Balcony_RoundCrn.Default__Neo_Balcony_RoundCrn_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Balcony_RoundCrn_C_UAID_D843AE8E0CE50F5002_1882246955.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Floor/Neo_Balcony_RoundCrn.Default__Neo_Balcony_RoundCrn_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Balcony_RoundCrn_C_UAID_D843AE8E0CE50F5002_1882246955.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Balcony_RoundCrn_C_UAID_D843AE8E0CE50F5002_1882246955.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Neo_Balcony_9'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=768.000000,Y=1024.000006,Z=768.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=90.000002,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Balcony_RoundCrn_C_UAID_D843AE8E0CE50F5002_1882246955.BoundingBoxComponent'"
+            CachedMaxDrawDistance=16117.629883
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Balcony_RoundCrn_C_UAID_D843AE8E0CE50F5002_1882246955.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=16117.629883
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_SciFi_Wall_01.Neo_SciFi_Wall_01'"
+         ResourceType=Metal
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=16117.629883
+         DataVersion=1
+         SavedActorGuid=E25E91484B569CC5F85DD1BFA6A5D14B
+         ActorTemplateID="Neo_Balcony_RoundCrn_C_0DB1C53B"
+         PlaysetPackagePathName="/Project_Neo_Tilted/_INT/Playsets/PID_Slipstream_Station_A"
+         RootComponent="StaticMeshComponent0"
+         PivotOffset=(X=-0.000000,Y=256.000000,Z=-0.000000)
+         ActorLabel="Neo Balcony RoundCrn C3"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Neo/Floor/Neo_Balcony_Str.Neo_Balcony_Str_C Name=Neo_Balcony_Str_C_UAID_D843AE8E0CE50F5002_1882280961 Archetype="/Game/Building/ActorBlueprints/Neo/Floor/Neo_Balcony_Str.Neo_Balcony_Str_C'/Game/Building/ActorBlueprints/Neo/Floor/Neo_Balcony_Str.Default__Neo_Balcony_Str_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5105002_1497116266 ActorFolderPath="Slipstream B" ExportPath="/Game/Building/ActorBlueprints/Neo/Floor/Neo_Balcony_Str.Neo_Balcony_Str_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Balcony_Str_C_UAID_D843AE8E0CE50F5002_1882280961'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Floor/Neo_Balcony_Str.Default__Neo_Balcony_Str_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Balcony_Str_C_UAID_D843AE8E0CE50F5002_1882280961.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Neo/Floor/Neo_Balcony_Str.Default__Neo_Balcony_Str_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Balcony_Str_C_UAID_D843AE8E0CE50F5002_1882280961.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Floor/Neo_Balcony_Str.Default__Neo_Balcony_Str_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Balcony_Str_C_UAID_D843AE8E0CE50F5002_1882280961.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Balcony_Str_C_UAID_D843AE8E0CE50F5002_1882280961.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Neo_Balcony_9'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-0.000024,Y=1280.000000,Z=768.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999996,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Balcony_Str_C_UAID_D843AE8E0CE50F5002_1882280961.BoundingBoxComponent'"
+            CachedMaxDrawDistance=21636.007812
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Balcony_Str_C_UAID_D843AE8E0CE50F5002_1882280961.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=21636.007812
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_SciFi_Wall_01.Neo_SciFi_Wall_01'"
+         ResourceType=Metal
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=21636.007812
+         DataVersion=1
+         SavedActorGuid=B72C9D8B48B9EF7BF514E19F7CB67800
+         ActorTemplateID="Neo_Balcony_Str_C_49E3C9F1"
+         PlaysetPackagePathName="/Project_Neo_Tilted/_INT/Playsets/PID_Slipstream_Station_A"
+         RootComponent="StaticMeshComponent0"
+         PivotOffset=(X=-0.000000,Y=256.000000,Z=-0.000000)
+         ActorLabel="Neo Balcony Str C"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Brace.Neo_Residential_Brace_C Name=Neo_Residential_Brace_C_UAID_D843AE8E0CE50F5002_1882249957 Archetype="/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Brace.Neo_Residential_Brace_C'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Brace.Default__Neo_Residential_Brace_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5105002_1497116266 ActorFolderPath="Slipstream B" ExportPath="/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Brace.Neo_Residential_Brace_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Brace_C_UAID_D843AE8E0CE50F5002_1882249957'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Brace.Default__Neo_Residential_Brace_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Brace_C_UAID_D843AE8E0CE50F5002_1882249957.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Brace.Default__Neo_Residential_Brace_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Brace_C_UAID_D843AE8E0CE50F5002_1882249957.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Brace.Default__Neo_Residential_Brace_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Brace_C_UAID_D843AE8E0CE50F5002_1882249957.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Brace_C_UAID_D843AE8E0CE50F5002_1882249957.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Neo_BuildingTrim_01_7'"
+            CachedMaxDrawDistance=23292.263672
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-256.000000,Y=512.000000,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-89.999998,Roll=0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Brace_C_UAID_D843AE8E0CE50F5002_1882249957.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23292.263672
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Brace_C_UAID_D843AE8E0CE50F5002_1882249957.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23292.263672
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_White_Concrete_01.Neo_White_Concrete_01'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_White_Concrete_01.Neo_White_Concrete_01'"
+         TextureData(2)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_White_Concrete_01.Neo_White_Concrete_01'"
+         TextureData(3)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_White_Concrete_01.Neo_White_Concrete_01'"
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=23292.263672
+         DataVersion=1
+         SavedActorGuid=821581EC4544D7F40C4996852EACF961
+         ActorTemplateID="Neo_Residential_Brace_C_FA3D33CE"
+         PlaysetPackagePathName="/Project_Neo_Tilted/_INT/Playsets/PID_Slipstream_Station_A"
+         RootComponent="StaticMeshComponent0"
+         PivotOffset=(X=-0.000000,Y=256.000000,Z=-0.000000)
+         ActorLabel="Neo Residential Brace C"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Brace.Neo_Residential_Brace_C Name=Neo_Residential_Brace_C_UAID_D843AE8E0CE50F5002_1882240951 Archetype="/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Brace.Neo_Residential_Brace_C'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Brace.Default__Neo_Residential_Brace_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5105002_1497116266 ActorFolderPath="Slipstream B" ExportPath="/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Brace.Neo_Residential_Brace_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Brace_C_UAID_D843AE8E0CE50F5002_1882240951'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Brace.Default__Neo_Residential_Brace_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Brace_C_UAID_D843AE8E0CE50F5002_1882240951.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Brace.Default__Neo_Residential_Brace_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Brace_C_UAID_D843AE8E0CE50F5002_1882240951.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Brace.Default__Neo_Residential_Brace_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Brace_C_UAID_D843AE8E0CE50F5002_1882240951.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Brace_C_UAID_D843AE8E0CE50F5002_1882240951.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Neo_BuildingTrim_01_7'"
+            CachedMaxDrawDistance=23292.263672
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=256.000000,Y=-512.000000,Z=384.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=90.000003,Roll=-0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Brace_C_UAID_D843AE8E0CE50F5002_1882240951.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23292.263672
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Brace_C_UAID_D843AE8E0CE50F5002_1882240951.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23292.263672
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_White_Concrete_01.Neo_White_Concrete_01'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_White_Concrete_01.Neo_White_Concrete_01'"
+         TextureData(2)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_White_Concrete_01.Neo_White_Concrete_01'"
+         TextureData(3)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_White_Concrete_01.Neo_White_Concrete_01'"
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=23292.263672
+         DataVersion=1
+         SavedActorGuid=69C5DC504FB10FEF75A69CB5A39BE70D
+         ActorTemplateID="Neo_Residential_Brace_C_FA3D33CE"
+         PlaysetPackagePathName="/Project_Neo_Tilted/_INT/Playsets/PID_Slipstream_Station_A"
+         RootComponent="StaticMeshComponent0"
+         PivotOffset=(X=-0.000000,Y=256.000000,Z=-0.000000)
+         ActorLabel="Neo Residential Brace C2"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Brace.Neo_Residential_Brace_C Name=Neo_Residential_Brace_C_UAID_D843AE8E0CE50F5002_1882310972 Archetype="/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Brace.Neo_Residential_Brace_C'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Brace.Default__Neo_Residential_Brace_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5105002_1497116266 ActorFolderPath="Slipstream B" ExportPath="/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Brace.Neo_Residential_Brace_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Brace_C_UAID_D843AE8E0CE50F5002_1882310972'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Brace.Default__Neo_Residential_Brace_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Brace_C_UAID_D843AE8E0CE50F5002_1882310972.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Brace.Default__Neo_Residential_Brace_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Brace_C_UAID_D843AE8E0CE50F5002_1882310972.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Brace.Default__Neo_Residential_Brace_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Brace_C_UAID_D843AE8E0CE50F5002_1882310972.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Brace_C_UAID_D843AE8E0CE50F5002_1882310972.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Neo_BuildingTrim_01_7'"
+            CachedMaxDrawDistance=23292.263672
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-256.000000,Y=-512.000000,Z=384.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=90.000003,Roll=-0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Brace_C_UAID_D843AE8E0CE50F5002_1882310972.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23292.263672
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Brace_C_UAID_D843AE8E0CE50F5002_1882310972.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23292.263672
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_White_Concrete_01.Neo_White_Concrete_01'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_White_Concrete_01.Neo_White_Concrete_01'"
+         TextureData(2)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_White_Concrete_01.Neo_White_Concrete_01'"
+         TextureData(3)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_White_Concrete_01.Neo_White_Concrete_01'"
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=23292.263672
+         DataVersion=1
+         SavedActorGuid=12E9DAC149605A694629ACB7D058CDA0
+         ActorTemplateID="Neo_Residential_Brace_C_FA3D33CE"
+         PlaysetPackagePathName="/Project_Neo_Tilted/_INT/Playsets/PID_Slipstream_Station_A"
+         RootComponent="StaticMeshComponent0"
+         PivotOffset=(X=-0.000000,Y=256.000000,Z=-0.000000)
+         ActorLabel="Neo Residential Brace C3"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Brace.Neo_Residential_Brace_C Name=Neo_Residential_Brace_C_UAID_D843AE8E0CE50F5002_1882247956 Archetype="/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Brace.Neo_Residential_Brace_C'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Brace.Default__Neo_Residential_Brace_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5105002_1497116266 ActorFolderPath="Slipstream B" ExportPath="/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Brace.Neo_Residential_Brace_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Brace_C_UAID_D843AE8E0CE50F5002_1882247956'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Brace.Default__Neo_Residential_Brace_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Brace_C_UAID_D843AE8E0CE50F5002_1882247956.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Brace.Default__Neo_Residential_Brace_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Brace_C_UAID_D843AE8E0CE50F5002_1882247956.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Brace.Default__Neo_Residential_Brace_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Brace_C_UAID_D843AE8E0CE50F5002_1882247956.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Brace_C_UAID_D843AE8E0CE50F5002_1882247956.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Neo_BuildingTrim_01_7'"
+            CachedMaxDrawDistance=23292.263672
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=256.000000,Y=512.000000,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-89.999998,Roll=0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Brace_C_UAID_D843AE8E0CE50F5002_1882247956.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23292.263672
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Brace_C_UAID_D843AE8E0CE50F5002_1882247956.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23292.263672
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_White_Concrete_01.Neo_White_Concrete_01'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_White_Concrete_01.Neo_White_Concrete_01'"
+         TextureData(2)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_White_Concrete_01.Neo_White_Concrete_01'"
+         TextureData(3)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_White_Concrete_01.Neo_White_Concrete_01'"
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=23292.263672
+         DataVersion=1
+         SavedActorGuid=7D70F05E476CAEC7E2014C974C8535B1
+         ActorTemplateID="Neo_Residential_Brace_C_FA3D33CE"
+         PlaysetPackagePathName="/Project_Neo_Tilted/_INT/Playsets/PID_Slipstream_Station_A"
+         RootComponent="StaticMeshComponent0"
+         PivotOffset=(X=-0.000000,Y=256.000000,Z=-0.000000)
+         ActorLabel="Neo Residential Brace C4"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Neo/Roof/Neo_Residential_Roof_Str_01.Neo_Residential_Roof_Str_01_C Name=Neo_Residential_Roof_Str_01_C_UAID_D843AE8E0CE50F5002_1882209948 Archetype="/Game/Building/ActorBlueprints/Neo/Roof/Neo_Residential_Roof_Str_01.Neo_Residential_Roof_Str_01_C'/Game/Building/ActorBlueprints/Neo/Roof/Neo_Residential_Roof_Str_01.Default__Neo_Residential_Roof_Str_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5105002_1497116266 ActorFolderPath="Slipstream B" ExportPath="/Game/Building/ActorBlueprints/Neo/Roof/Neo_Residential_Roof_Str_01.Neo_Residential_Roof_Str_01_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Roof_Str_01_C_UAID_D843AE8E0CE50F5002_1882209948'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Roof/Neo_Residential_Roof_Str_01.Default__Neo_Residential_Roof_Str_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Roof_Str_01_C_UAID_D843AE8E0CE50F5002_1882209948.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Neo/Roof/Neo_Residential_Roof_Str_01.Default__Neo_Residential_Roof_Str_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Roof_Str_01_C_UAID_D843AE8E0CE50F5002_1882209948.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Roof/Neo_Residential_Roof_Str_01.Default__Neo_Residential_Roof_Str_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Roof_Str_01_C_UAID_D843AE8E0CE50F5002_1882209948.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Roof_Str_01_C_UAID_D843AE8E0CE50F5002_1882209948.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Neo_ResidentialConcrete_Roof_4'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000012,Y=768.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999999,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Roof_Str_01_C_UAID_D843AE8E0CE50F5002_1882209948.BoundingBoxComponent'"
+            CachedMaxDrawDistance=26871.351562
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Roof_Str_01_C_UAID_D843AE8E0CE50F5002_1882209948.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=26871.351562
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_White_Concrete_01.Neo_White_Concrete_01'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_White_Concrete_01.Neo_White_Concrete_01'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=26871.351562
+         DataVersion=1
+         SavedActorGuid=FF15144648750C75B3148290BE5AFED0
+         ActorTemplateID="Neo_Residential_Roof_Str_01_C_6F20FD2F"
+         PlaysetPackagePathName="/Game/Playsets/PlaysetProps/PPID_Neo_Residential_Roof_Str_01_19b6ea01"
+         RootComponent="StaticMeshComponent0"
+         PivotOffset=(X=-0.000000,Y=256.000000,Z=-0.000000)
+         ActorLabel="Neo Residential Roof Str 11"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Neo/Roof/Neo_Residential_Roof_Str_01.Neo_Residential_Roof_Str_01_C Name=Neo_Residential_Roof_Str_01_C_UAID_D843AE8E0CE50F5002_1882288965 Archetype="/Game/Building/ActorBlueprints/Neo/Roof/Neo_Residential_Roof_Str_01.Neo_Residential_Roof_Str_01_C'/Game/Building/ActorBlueprints/Neo/Roof/Neo_Residential_Roof_Str_01.Default__Neo_Residential_Roof_Str_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5105002_1497116266 ActorFolderPath="Slipstream B" ExportPath="/Game/Building/ActorBlueprints/Neo/Roof/Neo_Residential_Roof_Str_01.Neo_Residential_Roof_Str_01_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Roof_Str_01_C_UAID_D843AE8E0CE50F5002_1882288965'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Roof/Neo_Residential_Roof_Str_01.Default__Neo_Residential_Roof_Str_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Roof_Str_01_C_UAID_D843AE8E0CE50F5002_1882288965.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Neo/Roof/Neo_Residential_Roof_Str_01.Default__Neo_Residential_Roof_Str_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Roof_Str_01_C_UAID_D843AE8E0CE50F5002_1882288965.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Roof/Neo_Residential_Roof_Str_01.Default__Neo_Residential_Roof_Str_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Roof_Str_01_C_UAID_D843AE8E0CE50F5002_1882288965.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Roof_Str_01_C_UAID_D843AE8E0CE50F5002_1882288965.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Neo_ResidentialConcrete_Roof_4'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=-768.000000,Z=384.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Roof_Str_01_C_UAID_D843AE8E0CE50F5002_1882288965.BoundingBoxComponent'"
+            CachedMaxDrawDistance=26871.351562
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Roof_Str_01_C_UAID_D843AE8E0CE50F5002_1882288965.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=26871.351562
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_White_Concrete_01.Neo_White_Concrete_01'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_White_Concrete_01.Neo_White_Concrete_01'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=26871.351562
+         DataVersion=1
+         SavedActorGuid=5864F63140B2829885EEA28B6B7A81EA
+         ActorTemplateID="Neo_Residential_Roof_Str_01_C_6F20FD2F"
+         PlaysetPackagePathName="/Game/Playsets/PlaysetProps/PPID_Neo_Residential_Roof_Str_01_19b6ea01"
+         RootComponent="StaticMeshComponent0"
+         PivotOffset=(X=-0.000000,Y=256.000000,Z=-0.000000)
+         ActorLabel="Neo Residential Roof Str 12"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_RoofWall.Neo_Residential_RoofWall_C Name=Neo_Residential_RoofWall_C_UAID_D843AE8E0CE50F5002_1882306969 Archetype="/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_RoofWall.Neo_Residential_RoofWall_C'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_RoofWall.Default__Neo_Residential_RoofWall_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5105002_1497116266 ActorFolderPath="Slipstream B" ExportPath="/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_RoofWall.Neo_Residential_RoofWall_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_RoofWall_C_UAID_D843AE8E0CE50F5002_1882306969'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_RoofWall.Default__Neo_Residential_RoofWall_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_RoofWall_C_UAID_D843AE8E0CE50F5002_1882306969.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_RoofWall.Default__Neo_Residential_RoofWall_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_RoofWall_C_UAID_D843AE8E0CE50F5002_1882306969.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_RoofWall.Default__Neo_Residential_RoofWall_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_RoofWall_C_UAID_D843AE8E0CE50F5002_1882306969.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_RoofWall_C_UAID_D843AE8E0CE50F5002_1882306969.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Neo_BuildingTrim_01_8'"
+            CachedMaxDrawDistance=23098.466797
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=256.000000,Y=0.000000,Z=768.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=90.000000,Roll=-0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_RoofWall_C_UAID_D843AE8E0CE50F5002_1882306969.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23098.466797
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_RoofWall_C_UAID_D843AE8E0CE50F5002_1882306969.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23098.466797
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_White_Concrete_01.Neo_White_Concrete_01'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_White_Concrete_01.Neo_White_Concrete_01'"
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=23098.466797
+         DataVersion=1
+         SavedActorGuid=D9B6980D498C23A48A3079B91E8227DB
+         ActorTemplateID="Neo_Residential_RoofWall_C_15CCF2B7"
+         PlaysetPackagePathName="/Game/Playsets/PlaysetProps/PPID_Neo_Residential_RoofWall_63371066"
+         RootComponent="StaticMeshComponent0"
+         PivotOffset=(X=-0.000000,Y=256.000000,Z=-0.000000)
+         ActorLabel="Neo Residential RoofWall"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_RoofWall.Neo_Residential_RoofWall_C Name=Neo_Residential_RoofWall_C_UAID_D843AE8E0CE50F5002_1882296968 Archetype="/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_RoofWall.Neo_Residential_RoofWall_C'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_RoofWall.Default__Neo_Residential_RoofWall_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5105002_1497116266 ActorFolderPath="Slipstream B" ExportPath="/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_RoofWall.Neo_Residential_RoofWall_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_RoofWall_C_UAID_D843AE8E0CE50F5002_1882296968'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_RoofWall.Default__Neo_Residential_RoofWall_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_RoofWall_C_UAID_D843AE8E0CE50F5002_1882296968.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_RoofWall.Default__Neo_Residential_RoofWall_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_RoofWall_C_UAID_D843AE8E0CE50F5002_1882296968.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_RoofWall.Default__Neo_Residential_RoofWall_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_RoofWall_C_UAID_D843AE8E0CE50F5002_1882296968.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_RoofWall_C_UAID_D843AE8E0CE50F5002_1882296968.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Neo_BuildingTrim_01_8'"
+            CachedMaxDrawDistance=23098.466797
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-256.000000,Y=0.000000,Z=768.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=90.000000,Roll=-0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_RoofWall_C_UAID_D843AE8E0CE50F5002_1882296968.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23098.466797
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_RoofWall_C_UAID_D843AE8E0CE50F5002_1882296968.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23098.466797
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_White_Concrete_01.Neo_White_Concrete_01'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_White_Concrete_01.Neo_White_Concrete_01'"
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=23098.466797
+         DataVersion=1
+         SavedActorGuid=976EA41F45D0A740965D74A9829A7333
+         ActorTemplateID="Neo_Residential_RoofWall_C_15CCF2B7"
+         PlaysetPackagePathName="/Game/Playsets/PlaysetProps/PPID_Neo_Residential_RoofWall_63371066"
+         RootComponent="StaticMeshComponent0"
+         PivotOffset=(X=-0.000000,Y=256.000000,Z=-0.000000)
+         ActorLabel="Neo Residential RoofWall2"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Neo_Residential_Wall_01_C Name=Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882292967 Archetype="/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Neo_Residential_Wall_01_C'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Default__Neo_Residential_Wall_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5105002_1497116266 ActorFolderPath="Slipstream B" ExportPath="/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Neo_Residential_Wall_01_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882292967'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Default__Neo_Residential_Wall_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882292967.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Default__Neo_Residential_Wall_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882292967.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Default__Neo_Residential_Wall_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882292967.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882292967.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Neo_ResidentialConcrete_01_12'"
+            CachedMaxDrawDistance=23292.259766
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-256.000000,Y=0.000000,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000000,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882292967.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23292.259766
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882292967.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23292.259766
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_White_Concrete_01.Neo_White_Concrete_01'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_White_Concrete_01.Neo_White_Concrete_01'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=23292.259766
+         DataVersion=1
+         SavedActorGuid=1F2D85D04DB421D1C9AEE399269ED2DE
+         ActorTemplateID="Neo_Residential_Wall_01_C_ED3E00BE"
+         PlaysetPackagePathName="/Project_Neo_Tilted/_INT/Playsets/PID_Slipstream_Station_A"
+         RootComponent="StaticMeshComponent0"
+         PivotOffset=(X=-0.000000,Y=256.000000,Z=-0.000000)
+         ActorLabel="Neo Residential Wall 01 C"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Neo_Residential_Wall_01_C Name=Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882326982 Archetype="/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Neo_Residential_Wall_01_C'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Default__Neo_Residential_Wall_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5105002_1497116266 ActorFolderPath="Slipstream B" ExportPath="/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Neo_Residential_Wall_01_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882326982'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Default__Neo_Residential_Wall_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882326982.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Default__Neo_Residential_Wall_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882326982.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Default__Neo_Residential_Wall_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882326982.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882326982.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Neo_ResidentialConcrete_01_12'"
+            CachedMaxDrawDistance=23292.259766
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-256.000000,Y=512.000000,Z=384.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000000,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882326982.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23292.259766
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882326982.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23292.259766
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_White_Concrete_01.Neo_White_Concrete_01'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_White_Concrete_01.Neo_White_Concrete_01'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=23292.259766
+         DataVersion=1
+         SavedActorGuid=4D210D3344B22D311E3D26972EE0346E
+         ActorTemplateID="Neo_Residential_Wall_01_C_ED3E00BE"
+         PlaysetPackagePathName="/Project_Neo_Tilted/_INT/Playsets/PID_Slipstream_Station_A"
+         RootComponent="StaticMeshComponent0"
+         PivotOffset=(X=-0.000000,Y=256.000000,Z=-0.000000)
+         ActorLabel="Neo Residential Wall 01 C2"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Neo_Residential_Wall_01_C Name=Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882311973 Archetype="/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Neo_Residential_Wall_01_C'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Default__Neo_Residential_Wall_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5105002_1497116266 ActorFolderPath="Slipstream B" ExportPath="/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Neo_Residential_Wall_01_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882311973'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Default__Neo_Residential_Wall_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882311973.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Default__Neo_Residential_Wall_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882311973.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Default__Neo_Residential_Wall_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882311973.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882311973.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Neo_ResidentialConcrete_01_12'"
+            CachedMaxDrawDistance=23292.259766
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-256.000000,Y=0.000000,Z=384.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000000,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882311973.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23292.259766
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882311973.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23292.259766
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_White_Concrete_01.Neo_White_Concrete_01'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_White_Concrete_01.Neo_White_Concrete_01'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=23292.259766
+         DataVersion=1
+         SavedActorGuid=53290C524D4C43995395A7867C8861F4
+         ActorTemplateID="Neo_Residential_Wall_01_C_ED3E00BE"
+         PlaysetPackagePathName="/Project_Neo_Tilted/_INT/Playsets/PID_Slipstream_Station_A"
+         RootComponent="StaticMeshComponent0"
+         PivotOffset=(X=-0.000000,Y=256.000000,Z=-0.000000)
+         ActorLabel="Neo Residential Wall 01 C3"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Neo_Residential_Wall_01_C Name=Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882324981 Archetype="/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Neo_Residential_Wall_01_C'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Default__Neo_Residential_Wall_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5105002_1497116266 ActorFolderPath="Slipstream B" ExportPath="/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Neo_Residential_Wall_01_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882324981'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Default__Neo_Residential_Wall_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882324981.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Default__Neo_Residential_Wall_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882324981.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Default__Neo_Residential_Wall_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882324981.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882324981.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Neo_ResidentialConcrete_01_12'"
+            CachedMaxDrawDistance=23292.259766
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=-256.000000,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882324981.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23292.259766
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882324981.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23292.259766
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_White_Concrete_01.Neo_White_Concrete_01'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_White_Concrete_01.Neo_White_Concrete_01'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=23292.259766
+         DataVersion=1
+         SavedActorGuid=E48DFF6243E634367B4E5385B7D1F7F7
+         ActorTemplateID="Neo_Residential_Wall_01_C_ED3E00BE"
+         PlaysetPackagePathName="/Project_Neo_Tilted/_INT/Playsets/PID_Slipstream_Station_A"
+         RootComponent="StaticMeshComponent0"
+         PivotOffset=(X=-0.000000,Y=256.000000,Z=-0.000000)
+         ActorLabel="Neo Residential Wall 01 C4"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Neo_Residential_Wall_01_C Name=Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882313974 Archetype="/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Neo_Residential_Wall_01_C'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Default__Neo_Residential_Wall_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5105002_1497116266 ActorFolderPath="Slipstream B" ExportPath="/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Neo_Residential_Wall_01_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882313974'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Default__Neo_Residential_Wall_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882313974.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Default__Neo_Residential_Wall_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882313974.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Default__Neo_Residential_Wall_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882313974.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882313974.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Neo_ResidentialConcrete_01_12'"
+            CachedMaxDrawDistance=23292.259766
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-256.000000,Y=-512.000000,Z=768.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000000,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882313974.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23292.259766
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882313974.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23292.259766
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_White_Concrete_01.Neo_White_Concrete_01'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_White_Concrete_01.Neo_White_Concrete_01'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=23292.259766
+         DataVersion=1
+         SavedActorGuid=FFBB02654F266C1318F8968ACC88A55D
+         ActorTemplateID="Neo_Residential_Wall_01_C_ED3E00BE"
+         PlaysetPackagePathName="/Project_Neo_Tilted/_INT/Playsets/PID_Slipstream_Station_A"
+         RootComponent="StaticMeshComponent0"
+         PivotOffset=(X=-0.000000,Y=256.000000,Z=-0.000000)
+         ActorLabel="Neo Residential Wall 01 C5"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Neo_Residential_Wall_01_C Name=Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882282962 Archetype="/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Neo_Residential_Wall_01_C'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Default__Neo_Residential_Wall_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5105002_1497116266 ActorFolderPath="Slipstream B" ExportPath="/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Neo_Residential_Wall_01_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882282962'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Default__Neo_Residential_Wall_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882282962.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Default__Neo_Residential_Wall_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882282962.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Default__Neo_Residential_Wall_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882282962.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882282962.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Neo_ResidentialConcrete_01_12'"
+            CachedMaxDrawDistance=23292.259766
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=256.000000,Y=-512.000000,Z=768.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=89.999999,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882282962.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23292.259766
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882282962.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23292.259766
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_White_Concrete_01.Neo_White_Concrete_01'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_White_Concrete_01.Neo_White_Concrete_01'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=23292.259766
+         DataVersion=1
+         SavedActorGuid=F06A6C0E47DAB706C5F5C183E24A6D97
+         ActorTemplateID="Neo_Residential_Wall_01_C_ED3E00BE"
+         PlaysetPackagePathName="/Project_Neo_Tilted/_INT/Playsets/PID_Slipstream_Station_A"
+         RootComponent="StaticMeshComponent0"
+         PivotOffset=(X=-0.000000,Y=256.000000,Z=-0.000000)
+         ActorLabel="Neo Residential Wall 01 C6"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Neo_Residential_Wall_01_C Name=Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882290966 Archetype="/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Neo_Residential_Wall_01_C'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Default__Neo_Residential_Wall_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5105002_1497116266 ActorFolderPath="Slipstream B" ExportPath="/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Neo_Residential_Wall_01_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882290966'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Default__Neo_Residential_Wall_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882290966.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Default__Neo_Residential_Wall_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882290966.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Default__Neo_Residential_Wall_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882290966.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882290966.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Neo_ResidentialConcrete_01_12'"
+            CachedMaxDrawDistance=23292.259766
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=-768.000000,Z=768.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882290966.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23292.259766
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882290966.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23292.259766
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_White_Concrete_01.Neo_White_Concrete_01'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_White_Concrete_01.Neo_White_Concrete_01'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=23292.259766
+         DataVersion=1
+         SavedActorGuid=CBB8959240798DD95AA7A8A55C643653
+         ActorTemplateID="Neo_Residential_Wall_01_C_ED3E00BE"
+         PlaysetPackagePathName="/Project_Neo_Tilted/_INT/Playsets/PID_Slipstream_Station_A"
+         RootComponent="StaticMeshComponent0"
+         PivotOffset=(X=-0.000000,Y=256.000000,Z=-0.000000)
+         ActorLabel="Neo Residential Wall 01 C7"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Neo_Residential_Wall_01_C Name=Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882327983 Archetype="/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Neo_Residential_Wall_01_C'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Default__Neo_Residential_Wall_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5105002_1497116266 ActorFolderPath="Slipstream B" ExportPath="/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Neo_Residential_Wall_01_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882327983'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Default__Neo_Residential_Wall_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882327983.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Default__Neo_Residential_Wall_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882327983.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Default__Neo_Residential_Wall_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882327983.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882327983.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Neo_ResidentialConcrete_01_12'"
+            CachedMaxDrawDistance=23292.259766
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=256.000000,Y=0.000000,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000000,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882327983.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23292.259766
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882327983.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23292.259766
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_White_Concrete_01.Neo_White_Concrete_01'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_White_Concrete_01.Neo_White_Concrete_01'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=23292.259766
+         DataVersion=1
+         SavedActorGuid=68DB7EAE47B415FB00D5F299F995A237
+         ActorTemplateID="Neo_Residential_Wall_01_C_ED3E00BE"
+         PlaysetPackagePathName="/Project_Neo_Tilted/_INT/Playsets/PID_Slipstream_Station_A"
+         RootComponent="StaticMeshComponent0"
+         PivotOffset=(X=-0.000000,Y=256.000000,Z=-0.000000)
+         ActorLabel="Neo Residential Wall 01 C8"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Neo_Residential_Wall_01_C Name=Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882277959 Archetype="/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Neo_Residential_Wall_01_C'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Default__Neo_Residential_Wall_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5105002_1497116266 ActorFolderPath="Slipstream B" ExportPath="/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Neo_Residential_Wall_01_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882277959'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Default__Neo_Residential_Wall_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882277959.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Default__Neo_Residential_Wall_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882277959.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Default__Neo_Residential_Wall_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882277959.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882277959.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Neo_ResidentialConcrete_01_12'"
+            CachedMaxDrawDistance=23292.259766
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=256.000000,Y=512.000000,Z=384.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000000,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882277959.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23292.259766
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882277959.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23292.259766
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_White_Concrete_01.Neo_White_Concrete_01'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_White_Concrete_01.Neo_White_Concrete_01'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=23292.259766
+         DataVersion=1
+         SavedActorGuid=E81C7B9241B45BEA12FD258AA320D890
+         ActorTemplateID="Neo_Residential_Wall_01_C_ED3E00BE"
+         PlaysetPackagePathName="/Project_Neo_Tilted/_INT/Playsets/PID_Slipstream_Station_A"
+         RootComponent="StaticMeshComponent0"
+         PivotOffset=(X=-0.000000,Y=256.000000,Z=-0.000000)
+         ActorLabel="Neo Residential Wall 01 C9"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Neo_Residential_Wall_01_C Name=Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882321979 Archetype="/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Neo_Residential_Wall_01_C'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Default__Neo_Residential_Wall_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5105002_1497116266 ActorFolderPath="Slipstream B" ExportPath="/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Neo_Residential_Wall_01_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882321979'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Default__Neo_Residential_Wall_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882321979.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Default__Neo_Residential_Wall_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882321979.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Default__Neo_Residential_Wall_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882321979.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882321979.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Neo_ResidentialConcrete_01_12'"
+            CachedMaxDrawDistance=23292.259766
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=256.000000,Y=0.000000,Z=384.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000000,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882321979.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23292.259766
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882321979.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23292.259766
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_White_Concrete_01.Neo_White_Concrete_01'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_White_Concrete_01.Neo_White_Concrete_01'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=23292.259766
+         DataVersion=1
+         SavedActorGuid=99AF9C834AF0C424532DE6A89DA06D8E
+         ActorTemplateID="Neo_Residential_Wall_01_C_ED3E00BE"
+         PlaysetPackagePathName="/Project_Neo_Tilted/_INT/Playsets/PID_Slipstream_Station_A"
+         RootComponent="StaticMeshComponent0"
+         PivotOffset=(X=-0.000000,Y=256.000000,Z=-0.000000)
+         ActorLabel="Neo Residential Wall 01 C10"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Neo_Residential_Wall_01_C Name=Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882279960 Archetype="/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Neo_Residential_Wall_01_C'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Default__Neo_Residential_Wall_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5105002_1497116266 ActorFolderPath="Slipstream B" ExportPath="/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Neo_Residential_Wall_01_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882279960'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Default__Neo_Residential_Wall_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882279960.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Default__Neo_Residential_Wall_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882279960.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Walls/Neo_Residential_Wall_01.Default__Neo_Residential_Wall_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882279960.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882279960.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Neo_ResidentialConcrete_01_12'"
+            CachedMaxDrawDistance=23292.259766
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=768.000000,Z=384.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882279960.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23292.259766
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_Residential_Wall_01_C_UAID_D843AE8E0CE50F5002_1882279960.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23292.259766
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_White_Concrete_01.Neo_White_Concrete_01'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_White_Concrete_01.Neo_White_Concrete_01'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=23292.259766
+         DataVersion=1
+         SavedActorGuid=A47FEA98417FBDB2F67B77AACC73E039
+         ActorTemplateID="Neo_Residential_Wall_01_C_ED3E00BE"
+         PlaysetPackagePathName="/Project_Neo_Tilted/_INT/Playsets/PID_Slipstream_Station_A"
+         RootComponent="StaticMeshComponent0"
+         PivotOffset=(X=-0.000000,Y=256.000000,Z=-0.000000)
+         ActorLabel="Neo Residential Wall 01 C11"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Neo/Stairs/Neo_StairF.Neo_StairF_C Name=Neo_StairF_C_UAID_D843AE8E0CE50F5002_1882319978 Archetype="/Game/Building/ActorBlueprints/Neo/Stairs/Neo_StairF.Neo_StairF_C'/Game/Building/ActorBlueprints/Neo/Stairs/Neo_StairF.Default__Neo_StairF_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5105002_1497116266 ActorFolderPath="Slipstream B" ExportPath="/Game/Building/ActorBlueprints/Neo/Stairs/Neo_StairF.Neo_StairF_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_StairF_C_UAID_D843AE8E0CE50F5002_1882319978'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Stairs/Neo_StairF.Default__Neo_StairF_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_StairF_C_UAID_D843AE8E0CE50F5002_1882319978.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Neo/Stairs/Neo_StairF.Default__Neo_StairF_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_StairF_C_UAID_D843AE8E0CE50F5002_1882319978.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Stairs/Neo_StairF.Default__Neo_StairF_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_StairF_C_UAID_D843AE8E0CE50F5002_1882319978.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_StairF_C_UAID_D843AE8E0CE50F5002_1882319978.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Neo_Balcony_8'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=511.999989,Y=256.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=-179.999999,Roll=0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_StairF_C_UAID_D843AE8E0CE50F5002_1882319978.BoundingBoxComponent'"
+            CachedMaxDrawDistance=25264.667969
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_StairF_C_UAID_D843AE8E0CE50F5002_1882319978.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=25264.667969
+            AttachParent="StaticMeshComponent0"
+         End Object
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=25264.667969
+         DataVersion=1
+         SavedActorGuid=EBC0226342655B447EDB018845AEE606
+         ActorTemplateID="Neo_StairF_C_B132E50C"
+         PlaysetPackagePathName="/Project_Neo_Tilted/_INT/Playsets/PID_Slipstream_Station_A"
+         RootComponent="StaticMeshComponent0"
+         PivotOffset=(X=-0.000000,Y=256.000000,Z=-0.000000)
+         ActorLabel="Neo StairF C"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Neo/Stairs/Neo_StairF.Neo_StairF_C Name=Neo_StairF_C_UAID_D843AE8E0CE50F5002_1882323980 Archetype="/Game/Building/ActorBlueprints/Neo/Stairs/Neo_StairF.Neo_StairF_C'/Game/Building/ActorBlueprints/Neo/Stairs/Neo_StairF.Default__Neo_StairF_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5105002_1497116266 ActorFolderPath="Slipstream B" ExportPath="/Game/Building/ActorBlueprints/Neo/Stairs/Neo_StairF.Neo_StairF_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_StairF_C_UAID_D843AE8E0CE50F5002_1882323980'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Stairs/Neo_StairF.Default__Neo_StairF_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_StairF_C_UAID_D843AE8E0CE50F5002_1882323980.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Neo/Stairs/Neo_StairF.Default__Neo_StairF_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_StairF_C_UAID_D843AE8E0CE50F5002_1882323980.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Stairs/Neo_StairF.Default__Neo_StairF_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_StairF_C_UAID_D843AE8E0CE50F5002_1882323980.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_StairF_C_UAID_D843AE8E0CE50F5002_1882323980.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Neo_Balcony_8'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-512.000011,Y=256.000000,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_StairF_C_UAID_D843AE8E0CE50F5002_1882323980.BoundingBoxComponent'"
+            CachedMaxDrawDistance=25264.667969
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_StairF_C_UAID_D843AE8E0CE50F5002_1882323980.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=25264.667969
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=25264.667969
+         DataVersion=1
+         SavedActorGuid=06A2D6714F9B95D1A9731EAEB2B1484D
+         ActorTemplateID="Neo_StairF_C_B132E50C"
+         PlaysetPackagePathName="/Project_Neo_Tilted/_INT/Playsets/PID_Slipstream_Station_A"
+         RootComponent="StaticMeshComponent0"
+         PivotOffset=(X=-0.000000,Y=256.000000,Z=-0.000000)
+         ActorLabel="Neo StairF C2"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Neo/Stairs/Neo_StairF.Neo_StairF_C Name=Neo_StairF_C_UAID_D843AE8E0CE50F5002_1882308970 Archetype="/Game/Building/ActorBlueprints/Neo/Stairs/Neo_StairF.Neo_StairF_C'/Game/Building/ActorBlueprints/Neo/Stairs/Neo_StairF.Default__Neo_StairF_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5105002_1497116266 ActorFolderPath="Slipstream B" ExportPath="/Game/Building/ActorBlueprints/Neo/Stairs/Neo_StairF.Neo_StairF_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_StairF_C_UAID_D843AE8E0CE50F5002_1882308970'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Stairs/Neo_StairF.Default__Neo_StairF_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_StairF_C_UAID_D843AE8E0CE50F5002_1882308970.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Neo/Stairs/Neo_StairF.Default__Neo_StairF_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_StairF_C_UAID_D843AE8E0CE50F5002_1882308970.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Stairs/Neo_StairF.Default__Neo_StairF_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_StairF_C_UAID_D843AE8E0CE50F5002_1882308970.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_StairF_C_UAID_D843AE8E0CE50F5002_1882308970.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Neo_Balcony_8'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=511.999989,Y=768.000000,Z=384.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=-179.999999,Roll=0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_StairF_C_UAID_D843AE8E0CE50F5002_1882308970.BoundingBoxComponent'"
+            CachedMaxDrawDistance=25264.667969
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_StairF_C_UAID_D843AE8E0CE50F5002_1882308970.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=25264.667969
+            AttachParent="StaticMeshComponent0"
+         End Object
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=25264.667969
+         DataVersion=1
+         SavedActorGuid=2421FFA44719C2ED02FB418BE50F2AD2
+         ActorTemplateID="Neo_StairF_C_B132E50C"
+         PlaysetPackagePathName="/Project_Neo_Tilted/_INT/Playsets/PID_Slipstream_Station_A"
+         RootComponent="StaticMeshComponent0"
+         PivotOffset=(X=-0.000000,Y=256.000000,Z=-0.000000)
+         ActorLabel="Neo StairF C3"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Neo/Stairs/Neo_StairF.Neo_StairF_C Name=Neo_StairF_C_UAID_D843AE8E0CE50F5002_1882285963 Archetype="/Game/Building/ActorBlueprints/Neo/Stairs/Neo_StairF.Neo_StairF_C'/Game/Building/ActorBlueprints/Neo/Stairs/Neo_StairF.Default__Neo_StairF_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5105002_1497116266 ActorFolderPath="Slipstream B" ExportPath="/Game/Building/ActorBlueprints/Neo/Stairs/Neo_StairF.Neo_StairF_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_StairF_C_UAID_D843AE8E0CE50F5002_1882285963'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Stairs/Neo_StairF.Default__Neo_StairF_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_StairF_C_UAID_D843AE8E0CE50F5002_1882285963.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Neo/Stairs/Neo_StairF.Default__Neo_StairF_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_StairF_C_UAID_D843AE8E0CE50F5002_1882285963.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Stairs/Neo_StairF.Default__Neo_StairF_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_StairF_C_UAID_D843AE8E0CE50F5002_1882285963.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_StairF_C_UAID_D843AE8E0CE50F5002_1882285963.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Neo_Balcony_8'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-512.000011,Y=768.000000,Z=384.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_StairF_C_UAID_D843AE8E0CE50F5002_1882285963.BoundingBoxComponent'"
+            CachedMaxDrawDistance=25264.667969
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_StairF_C_UAID_D843AE8E0CE50F5002_1882285963.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=25264.667969
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=25264.667969
+         DataVersion=1
+         SavedActorGuid=D0E83F3049F7C5C4E97D63A04FE1B7BF
+         ActorTemplateID="Neo_StairF_C_B132E50C"
+         PlaysetPackagePathName="/Project_Neo_Tilted/_INT/Playsets/PID_Slipstream_Station_A"
+         RootComponent="StaticMeshComponent0"
+         PivotOffset=(X=-0.000000,Y=256.000000,Z=-0.000000)
+         ActorLabel="Neo StairF C4"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Neo/Stairs/Neo_StairW.Neo_StairW_C Name=Neo_StairW_C_UAID_D843AE8E0CE50F5002_1882243953 Archetype="/Game/Building/ActorBlueprints/Neo/Stairs/Neo_StairW.Neo_StairW_C'/Game/Building/ActorBlueprints/Neo/Stairs/Neo_StairW.Default__Neo_StairW_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5105002_1497116266 ActorFolderPath="Slipstream B" ExportPath="/Game/Building/ActorBlueprints/Neo/Stairs/Neo_StairW.Neo_StairW_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_StairW_C_UAID_D843AE8E0CE50F5002_1882243953'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Stairs/Neo_StairW.Default__Neo_StairW_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_StairW_C_UAID_D843AE8E0CE50F5002_1882243953.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Neo/Stairs/Neo_StairW.Default__Neo_StairW_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_StairW_C_UAID_D843AE8E0CE50F5002_1882243953.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Stairs/Neo_StairW.Default__Neo_StairW_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_StairW_C_UAID_D843AE8E0CE50F5002_1882243953.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_StairW_C_UAID_D843AE8E0CE50F5002_1882243953.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Neo_Balcony_10'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000009,Y=-256.000000,Z=768.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=0.000002,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_StairW_C_UAID_D843AE8E0CE50F5002_1882243953.BoundingBoxComponent'"
+            CachedMaxDrawDistance=26624.433594
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Neo_StairW_C_UAID_D843AE8E0CE50F5002_1882243953.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=26624.433594
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Environments/Sets/Neo/Architecture/Data_Assets/Neo_Sidewalk_Gray.Neo_Sidewalk_Gray'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=26624.433594
+         DataVersion=1
+         SavedActorGuid=C6BE4E174F19D3C8ED5D4F91F9094D2D
+         ActorTemplateID="Neo_StairW_C_A51B3933"
+         PlaysetPackagePathName="/Project_Neo_Tilted/_INT/Playsets/PID_Slipstream_Station_A"
+         RootComponent="StaticMeshComponent0"
+         PivotOffset=(X=-0.000000,Y=256.000000,Z=-0.000000)
+         ActorLabel="Neo StairW C"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Neo/Props/NeoTilted_BusStop.NeoTilted_BusStop_C Name=NeoTilted_BusStop_C_UAID_D843AE8E0CE50F5002_1882315975 Archetype="/Game/Building/ActorBlueprints/Neo/Props/NeoTilted_BusStop.NeoTilted_BusStop_C'/Game/Building/ActorBlueprints/Neo/Props/NeoTilted_BusStop.Default__NeoTilted_BusStop_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5105002_1497116266 ActorFolderPath="Slipstream B" ExportPath="/Game/Building/ActorBlueprints/Neo/Props/NeoTilted_BusStop.NeoTilted_BusStop_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.NeoTilted_BusStop_C_UAID_D843AE8E0CE50F5002_1882315975'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Props/NeoTilted_BusStop.Default__NeoTilted_BusStop_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.NeoTilted_BusStop_C_UAID_D843AE8E0CE50F5002_1882315975.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Neo/Props/NeoTilted_BusStop.Default__NeoTilted_BusStop_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.NeoTilted_BusStop_C_UAID_D843AE8E0CE50F5002_1882315975.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Props/NeoTilted_BusStop.Default__NeoTilted_BusStop_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.NeoTilted_BusStop_C_UAID_D843AE8E0CE50F5002_1882315975.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.NeoTilted_BusStop_C_UAID_D843AE8E0CE50F5002_1882315975.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_NeoTilted_BusStop_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=-384.000000,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.NeoTilted_BusStop_C_UAID_D843AE8E0CE50F5002_1882315975.BoundingBoxComponent'"
+            CachedMaxDrawDistance=21081.193359
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.NeoTilted_BusStop_C_UAID_D843AE8E0CE50F5002_1882315975.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=21081.193359
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=21081.193359
+         DataVersion=1
+         SavedActorGuid=97D86215419FC546774D9EAEA568D8F7
+         ActorTemplateID="NeoTilted_BusStop_C_AA949C9F"
+         PlaysetPackagePathName="/Game/Playsets/PlaysetProps/PPID_NeoTilted_BusStop"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="NeoTilted BusStop3"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Neo/Props/NeoTilted_Corporation_Sign_03.NeoTilted_Corporation_Sign_03_C Name=NeoTilted_Corporation_Sign_03_C_UAID_D843AE8E0CE50F5002_1882220950 Archetype="/Game/Building/ActorBlueprints/Neo/Props/NeoTilted_Corporation_Sign_03.NeoTilted_Corporation_Sign_03_C'/Game/Building/ActorBlueprints/Neo/Props/NeoTilted_Corporation_Sign_03.Default__NeoTilted_Corporation_Sign_03_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5105002_1497116266 ActorFolderPath="Slipstream B" ExportPath="/Game/Building/ActorBlueprints/Neo/Props/NeoTilted_Corporation_Sign_03.NeoTilted_Corporation_Sign_03_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.NeoTilted_Corporation_Sign_03_C_UAID_D843AE8E0CE50F5002_1882220950'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Props/NeoTilted_Corporation_Sign_03.Default__NeoTilted_Corporation_Sign_03_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.NeoTilted_Corporation_Sign_03_C_UAID_D843AE8E0CE50F5002_1882220950.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Neo/Props/NeoTilted_Corporation_Sign_03.Default__NeoTilted_Corporation_Sign_03_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.NeoTilted_Corporation_Sign_03_C_UAID_D843AE8E0CE50F5002_1882220950.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Props/NeoTilted_Corporation_Sign_03.Default__NeoTilted_Corporation_Sign_03_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.NeoTilted_Corporation_Sign_03_C_UAID_D843AE8E0CE50F5002_1882220950.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.NeoTilted_Corporation_Sign_03_C_UAID_D843AE8E0CE50F5002_1882220950.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_NeoTilted_Corporation_Sign_03_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=1024.000000,Z=846.294988)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.NeoTilted_Corporation_Sign_03_C_UAID_D843AE8E0CE50F5002_1882220950.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22082.189453
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.NeoTilted_Corporation_Sign_03_C_UAID_D843AE8E0CE50F5002_1882220950.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22082.189453
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22082.189453
+         DataVersion=1
+         SavedActorGuid=505ED4B8477ACCDF3883348687AD36FC
+         ActorTemplateID="NeoTilted_Corporation_Sign_03_C_43B3D0BC"
+         PlaysetPackagePathName="/Game/Playsets/PlaysetProps/PPID_NeoTilted_Corporation_Sign_03"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="NeoTilted Corporation Sign 03"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Neo/Props/NeoTilted_InfoBoard.NeoTilted_InfoBoard_C Name=NeoTilted_InfoBoard_C_UAID_D843AE8E0CE50F5002_1882244954 Archetype="/Game/Building/ActorBlueprints/Neo/Props/NeoTilted_InfoBoard.NeoTilted_InfoBoard_C'/Game/Building/ActorBlueprints/Neo/Props/NeoTilted_InfoBoard.Default__NeoTilted_InfoBoard_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5105002_1497116266 ActorFolderPath="Slipstream B" ExportPath="/Game/Building/ActorBlueprints/Neo/Props/NeoTilted_InfoBoard.NeoTilted_InfoBoard_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.NeoTilted_InfoBoard_C_UAID_D843AE8E0CE50F5002_1882244954'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Props/NeoTilted_InfoBoard.Default__NeoTilted_InfoBoard_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.NeoTilted_InfoBoard_C_UAID_D843AE8E0CE50F5002_1882244954.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Neo/Props/NeoTilted_InfoBoard.Default__NeoTilted_InfoBoard_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.NeoTilted_InfoBoard_C_UAID_D843AE8E0CE50F5002_1882244954.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Props/NeoTilted_InfoBoard.Default__NeoTilted_InfoBoard_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.NeoTilted_InfoBoard_C_UAID_D843AE8E0CE50F5002_1882244954.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.NeoTilted_InfoBoard_C_UAID_D843AE8E0CE50F5002_1882244954.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_NeoTilted_InfoBoard_01_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-640.000000,Y=-256.000000,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+            RelativeScale3D=(X=1.068804,Y=1.068804,Z=1.068804)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.NeoTilted_InfoBoard_C_UAID_D843AE8E0CE50F5002_1882244954.BoundingBoxComponent'"
+            CachedMaxDrawDistance=9759.715820
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.NeoTilted_InfoBoard_C_UAID_D843AE8E0CE50F5002_1882244954.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=9759.715820
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=9759.715820
+         DataVersion=1
+         SavedActorGuid=4BE927EB42F1B9A3326247B9B66F0B31
+         ActorTemplateID="NeoTilted_InfoBoard_C_3F3F7740"
+         PlaysetPackagePathName="/Game/Playsets/PlaysetProps/PPID_NeoTilted_InfoBoard"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="NeoTilted InfoBoard3"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Neo/Props/NeoTilted_VendingMachine.NeoTilted_VendingMachine_C Name=NeoTilted_VendingMachine_C_UAID_D843AE8E0CE50F5002_1882318977 Archetype="/Game/Building/ActorBlueprints/Neo/Props/NeoTilted_VendingMachine.NeoTilted_VendingMachine_C'/Game/Building/ActorBlueprints/Neo/Props/NeoTilted_VendingMachine.Default__NeoTilted_VendingMachine_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5105002_1497116266 ActorFolderPath="Slipstream B" ExportPath="/Game/Building/ActorBlueprints/Neo/Props/NeoTilted_VendingMachine.NeoTilted_VendingMachine_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.NeoTilted_VendingMachine_C_UAID_D843AE8E0CE50F5002_1882318977'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Props/NeoTilted_VendingMachine.Default__NeoTilted_VendingMachine_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.NeoTilted_VendingMachine_C_UAID_D843AE8E0CE50F5002_1882318977.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Neo/Props/NeoTilted_VendingMachine.Default__NeoTilted_VendingMachine_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.NeoTilted_VendingMachine_C_UAID_D843AE8E0CE50F5002_1882318977.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Neo/Props/NeoTilted_VendingMachine.Default__NeoTilted_VendingMachine_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.NeoTilted_VendingMachine_C_UAID_D843AE8E0CE50F5002_1882318977.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.NeoTilted_VendingMachine_C_UAID_D843AE8E0CE50F5002_1882318977.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_NeoTilted_VendingMachine_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=512.000000,Y=192.000000,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-89.999999,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.NeoTilted_VendingMachine_C_UAID_D843AE8E0CE50F5002_1882318977.BoundingBoxComponent'"
+            CachedMaxDrawDistance=11173.019531
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.NeoTilted_VendingMachine_C_UAID_D843AE8E0CE50F5002_1882318977.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=11173.019531
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=11173.019531
+         DataVersion=1
+         SavedActorGuid=1C92BC834E0F049047600B8599C7B7B9
+         ActorTemplateID="NeoTilted_VendingMachine_C_7E56D6B8"
+         PlaysetPackagePathName="/Game/Playsets/PlaysetProps/PPID_NeoTilted_VendingMachine"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="NeoTilted VendingMachine2"
+      End Actor
+      Begin Actor Class=/CRP_SplineSupportActors/SetupAssets/Blueprints/BP_Athena_SkyTube_Ring.BP_Athena_SkyTube_Ring_C Name=BP_Athena_SkyTube_Ring_C_UAID_D843AE8E0CE50F5002_1882286964 Archetype="/CRP_SplineSupportActors/SetupAssets/Blueprints/BP_Athena_SkyTube_Ring.BP_Athena_SkyTube_Ring_C'/CRP_SplineSupportActors/SetupAssets/Blueprints/BP_Athena_SkyTube_Ring.Default__BP_Athena_SkyTube_Ring_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5105002_1497116266 ActorFolderPath="Slipstream B" ExportPath="/CRP_SplineSupportActors/SetupAssets/Blueprints/BP_Athena_SkyTube_Ring.BP_Athena_SkyTube_Ring_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_Athena_SkyTube_Ring_C_UAID_D843AE8E0CE50F5002_1882286964'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRP_SplineSupportActors/SetupAssets/Blueprints/BP_Athena_SkyTube_Ring.Default__BP_Athena_SkyTube_Ring_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_Athena_SkyTube_Ring_C_UAID_D843AE8E0CE50F5002_1882286964.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRP_SplineSupportActors/SetupAssets/Blueprints/BP_Athena_SkyTube_Ring.Default__BP_Athena_SkyTube_Ring_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_Athena_SkyTube_Ring_C_UAID_D843AE8E0CE50F5002_1882286964.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRP_SplineSupportActors/SetupAssets/Blueprints/BP_Athena_SkyTube_Ring.Default__BP_Athena_SkyTube_Ring_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_Athena_SkyTube_Ring_C_UAID_D843AE8E0CE50F5002_1882286964.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.AudioComponent Name="AmbientAudio" Archetype="/Script/Engine.AudioComponent'/CRP_SplineSupportActors/SetupAssets/Blueprints/BP_Athena_SkyTube_Ring.BP_Athena_SkyTube_Ring_C:AmbientAudio_GEN_VARIABLE'" ExportPath="/Script/Engine.AudioComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_Athena_SkyTube_Ring_C_UAID_D843AE8E0CE50F5002_1882286964.AmbientAudio'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="SM_Wind_Tunnel_Connector" Archetype="/Script/Engine.StaticMeshComponent'/CRP_SplineSupportActors/SetupAssets/Blueprints/BP_Athena_SkyTube_Ring.BP_Athena_SkyTube_Ring_C:SM_Wind_Tunnel_Connector_GEN_VARIABLE'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_Athena_SkyTube_Ring_C_UAID_D843AE8E0CE50F5002_1882286964.SM_Wind_Tunnel_Connector'"
+         End Object
+         Begin Object Class=/Script/Engine.CapsuleComponent Name="Capsule" Archetype="/Script/Engine.CapsuleComponent'/CRP_SplineSupportActors/SetupAssets/Blueprints/BP_Athena_SkyTube_Ring.BP_Athena_SkyTube_Ring_C:Capsule_GEN_VARIABLE'" ExportPath="/Script/Engine.CapsuleComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_Athena_SkyTube_Ring_C_UAID_D843AE8E0CE50F5002_1882286964.Capsule'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_Athena_SkyTube_Ring_C_UAID_D843AE8E0CE50F5002_1882286964.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_NeoTilted_Conduits_Fan_X_Inst_1'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-512.000000,Y=-512.000000,Z=1536.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_Athena_SkyTube_Ring_C_UAID_D843AE8E0CE50F5002_1882286964.BoundingBoxComponent'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_Athena_SkyTube_Ring_C_UAID_D843AE8E0CE50F5002_1882286964.EditorOnlyStaticMeshComponent'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="AmbientAudio" ExportPath="/Script/Engine.AudioComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_Athena_SkyTube_Ring_C_UAID_D843AE8E0CE50F5002_1882286964.AmbientAudio'"
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="SM_Wind_Tunnel_Connector" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_Athena_SkyTube_Ring_C_UAID_D843AE8E0CE50F5002_1882286964.SM_Wind_Tunnel_Connector'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Capsule" ExportPath="/Script/Engine.CapsuleComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_Athena_SkyTube_Ring_C_UAID_D843AE8E0CE50F5002_1882286964.Capsule'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         AmbientAudio="AmbientAudio"
+         SM_Wind_Tunnel_Connector="SM_Wind_Tunnel_Connector"
+         Capsule="Capsule"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=18000.000000
+         DataVersion=1
+         SavedActorGuid=E0E762EC40E721FA57B35C99FF32974C
+         ActorTemplateID="BP_Athena_SkyTube_Ring_C_15EE5211"
+         PlaysetPackagePathName="/CRP_SplineSupportActors/SetupAssets/Maps/PPIDs/PPID_CRP_SplineSupportActors_BP_Athena_SkyTube_Ring"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SkyTube Ring"
+      End Actor
+      Begin Actor Class=/CRP_SplineSupportActors/SetupAssets/Blueprints/BP_Athena_SkyTube_Ring.BP_Athena_SkyTube_Ring_C Name=BP_Athena_SkyTube_Ring_C_UAID_D843AE8E0CE50F5002_1882263958 Archetype="/CRP_SplineSupportActors/SetupAssets/Blueprints/BP_Athena_SkyTube_Ring.BP_Athena_SkyTube_Ring_C'/CRP_SplineSupportActors/SetupAssets/Blueprints/BP_Athena_SkyTube_Ring.Default__BP_Athena_SkyTube_Ring_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5105002_1497116266 ActorFolderPath="Slipstream B" ExportPath="/CRP_SplineSupportActors/SetupAssets/Blueprints/BP_Athena_SkyTube_Ring.BP_Athena_SkyTube_Ring_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_Athena_SkyTube_Ring_C_UAID_D843AE8E0CE50F5002_1882263958'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRP_SplineSupportActors/SetupAssets/Blueprints/BP_Athena_SkyTube_Ring.Default__BP_Athena_SkyTube_Ring_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_Athena_SkyTube_Ring_C_UAID_D843AE8E0CE50F5002_1882263958.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRP_SplineSupportActors/SetupAssets/Blueprints/BP_Athena_SkyTube_Ring.Default__BP_Athena_SkyTube_Ring_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_Athena_SkyTube_Ring_C_UAID_D843AE8E0CE50F5002_1882263958.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRP_SplineSupportActors/SetupAssets/Blueprints/BP_Athena_SkyTube_Ring.Default__BP_Athena_SkyTube_Ring_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_Athena_SkyTube_Ring_C_UAID_D843AE8E0CE50F5002_1882263958.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.AudioComponent Name="AmbientAudio" Archetype="/Script/Engine.AudioComponent'/CRP_SplineSupportActors/SetupAssets/Blueprints/BP_Athena_SkyTube_Ring.BP_Athena_SkyTube_Ring_C:AmbientAudio_GEN_VARIABLE'" ExportPath="/Script/Engine.AudioComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_Athena_SkyTube_Ring_C_UAID_D843AE8E0CE50F5002_1882263958.AmbientAudio'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="SM_Wind_Tunnel_Connector" Archetype="/Script/Engine.StaticMeshComponent'/CRP_SplineSupportActors/SetupAssets/Blueprints/BP_Athena_SkyTube_Ring.BP_Athena_SkyTube_Ring_C:SM_Wind_Tunnel_Connector_GEN_VARIABLE'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_Athena_SkyTube_Ring_C_UAID_D843AE8E0CE50F5002_1882263958.SM_Wind_Tunnel_Connector'"
+         End Object
+         Begin Object Class=/Script/Engine.CapsuleComponent Name="Capsule" Archetype="/Script/Engine.CapsuleComponent'/CRP_SplineSupportActors/SetupAssets/Blueprints/BP_Athena_SkyTube_Ring.BP_Athena_SkyTube_Ring_C:Capsule_GEN_VARIABLE'" ExportPath="/Script/Engine.CapsuleComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_Athena_SkyTube_Ring_C_UAID_D843AE8E0CE50F5002_1882263958.Capsule'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_Athena_SkyTube_Ring_C_UAID_D843AE8E0CE50F5002_1882263958.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_NeoTilted_Conduits_Fan_X_Inst_1'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=512.000000,Y=-512.000000,Z=1536.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_Athena_SkyTube_Ring_C_UAID_D843AE8E0CE50F5002_1882263958.BoundingBoxComponent'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_Athena_SkyTube_Ring_C_UAID_D843AE8E0CE50F5002_1882263958.EditorOnlyStaticMeshComponent'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="AmbientAudio" ExportPath="/Script/Engine.AudioComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_Athena_SkyTube_Ring_C_UAID_D843AE8E0CE50F5002_1882263958.AmbientAudio'"
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="SM_Wind_Tunnel_Connector" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_Athena_SkyTube_Ring_C_UAID_D843AE8E0CE50F5002_1882263958.SM_Wind_Tunnel_Connector'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Capsule" ExportPath="/Script/Engine.CapsuleComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_Athena_SkyTube_Ring_C_UAID_D843AE8E0CE50F5002_1882263958.Capsule'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         AmbientAudio="AmbientAudio"
+         SM_Wind_Tunnel_Connector="SM_Wind_Tunnel_Connector"
+         Capsule="Capsule"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=18000.000000
+         DataVersion=1
+         SavedActorGuid=43DC74F24C4D37DC9AEA4B847CC4776F
+         ActorTemplateID="BP_Athena_SkyTube_Ring_C_15EE5211"
+         PlaysetPackagePathName="/CRP_SplineSupportActors/SetupAssets/Maps/PPIDs/PPID_CRP_SplineSupportActors_BP_Athena_SkyTube_Ring"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SkyTube Ring2"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map
