@@ -1,0 +1,472 @@
+Begin Map
+   Begin Level
+      Begin Actor Class=/Script/FortniteGame.FortPlaysetRoot Name=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1227550420 Archetype="/Script/FortniteGame.FortPlaysetRoot'/Script/FortniteGame.Default__FortPlaysetRoot'" ActorFolderPath="Evil Hut" ExportPath="/Script/FortniteGame.FortPlaysetRoot'/temperatelols/temperatelols.temperatelols:PersistentLevel.FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1227550420'"
+         Begin Object Class=/Script/Engine.SceneComponent Name="DefaultSceneRoot" Archetype="/Script/Engine.SceneComponent'/Script/FortniteGame.Default__FortPlaysetRoot:DefaultSceneRoot'" ExportPath="/Script/Engine.SceneComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1227550420.DefaultSceneRoot'"
+         End Object
+         Begin Object Name="DefaultSceneRoot" ExportPath="/Script/Engine.SceneComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1227550420.DefaultSceneRoot'"
+         End Object
+         SavedActorGuid=B3DEF48A4EE9013C386E2C83361F9D24
+         PlaysetPackagePathName="/CRP_Foundation/SetupAssets/Maps/PID_CP_Foundation_3x7_StripMallStores_01"
+         ActorLabel="Evil Hut"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/BrickSimple_AAA_SolidWall.BrickSimple_AAA_SolidWall_C Name=BrickSimple_AAA_SolidWall_C_0 Archetype="/Game/Building/ActorBlueprints/Wall/BrickSimple_AAA_SolidWall.BrickSimple_AAA_SolidWall_C'/Game/Building/ActorBlueprints/Wall/BrickSimple_AAA_SolidWall.Default__BrickSimple_AAA_SolidWall_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1227550420 ActorFolderPath="Evil Hut" ExportPath="/Game/Building/ActorBlueprints/Wall/BrickSimple_AAA_SolidWall.BrickSimple_AAA_SolidWall_C'/temperatelols/temperatelols.temperatelols:PersistentLevel.BrickSimple_AAA_SolidWall_C_0'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_AAA_SolidWall.Default__BrickSimple_AAA_SolidWall_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.BrickSimple_AAA_SolidWall_C_0.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_AAA_SolidWall.Default__BrickSimple_AAA_SolidWall_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.BrickSimple_AAA_SolidWall_C_0.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_AAA_SolidWall.Default__BrickSimple_AAA_SolidWall_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.BrickSimple_AAA_SolidWall_C_0.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.BrickSimple_AAA_SolidWall_C_0.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_FORT_Brick_Simple_73'"
+            CachedMaxDrawDistance=22870.902344
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=-256.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999939,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.BrickSimple_AAA_SolidWall_C_0.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22870.902344
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.BrickSimple_AAA_SolidWall_C_0.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22870.902344
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallOuter/Siding_04.Siding_04'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallInner/House_Interior_07.House_Interior_07'"
+         ResourceType=Wood
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22870.902344
+         DataVersion=1
+         SavedActorGuid=0000000000000000000000009742F153
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="BrickSimple_AAA_SolidWall_C0"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/BrickSimple_AAA_SolidWall.BrickSimple_AAA_SolidWall_C Name=BrickSimple_AAA_SolidWall_C_1 Archetype="/Game/Building/ActorBlueprints/Wall/BrickSimple_AAA_SolidWall.BrickSimple_AAA_SolidWall_C'/Game/Building/ActorBlueprints/Wall/BrickSimple_AAA_SolidWall.Default__BrickSimple_AAA_SolidWall_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1227550420 ActorFolderPath="Evil Hut" ExportPath="/Game/Building/ActorBlueprints/Wall/BrickSimple_AAA_SolidWall.BrickSimple_AAA_SolidWall_C'/temperatelols/temperatelols.temperatelols:PersistentLevel.BrickSimple_AAA_SolidWall_C_1'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_AAA_SolidWall.Default__BrickSimple_AAA_SolidWall_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.BrickSimple_AAA_SolidWall_C_1.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_AAA_SolidWall.Default__BrickSimple_AAA_SolidWall_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.BrickSimple_AAA_SolidWall_C_1.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_AAA_SolidWall.Default__BrickSimple_AAA_SolidWall_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.BrickSimple_AAA_SolidWall_C_1.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.BrickSimple_AAA_SolidWall_C_1.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_FORT_Brick_Simple_73'"
+            CachedMaxDrawDistance=22870.902344
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=256.000000,Z=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.BrickSimple_AAA_SolidWall_C_1.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22870.902344
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.BrickSimple_AAA_SolidWall_C_1.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22870.902344
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallOuter/Siding_04.Siding_04'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallInner/House_Interior_07.House_Interior_07'"
+         ResourceType=Wood
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22870.902344
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000F81162B8
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="BrickSimple_AAA_SolidWall_C1"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/BrickSimple_Roof_Peak_Cap.BrickSimple_Roof_Peak_Cap_C Name=BrickSimple_Roof_Peak_Cap_C_0 Archetype="/Game/Building/ActorBlueprints/Wall/BrickSimple_Roof_Peak_Cap.BrickSimple_Roof_Peak_Cap_C'/Game/Building/ActorBlueprints/Wall/BrickSimple_Roof_Peak_Cap.Default__BrickSimple_Roof_Peak_Cap_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1227550420 ActorFolderPath="Evil Hut" ExportPath="/Game/Building/ActorBlueprints/Wall/BrickSimple_Roof_Peak_Cap.BrickSimple_Roof_Peak_Cap_C'/temperatelols/temperatelols.temperatelols:PersistentLevel.BrickSimple_Roof_Peak_Cap_C_0'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_Roof_Peak_Cap.Default__BrickSimple_Roof_Peak_Cap_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.BrickSimple_Roof_Peak_Cap_C_0.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_Roof_Peak_Cap.Default__BrickSimple_Roof_Peak_Cap_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.BrickSimple_Roof_Peak_Cap_C_0.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_Roof_Peak_Cap.Default__BrickSimple_Roof_Peak_Cap_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.BrickSimple_Roof_Peak_Cap_C_0.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.BrickSimple_Roof_Peak_Cap_C_0.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_FORT_Brick_Simple_72'"
+            CachedMaxDrawDistance=22208.519531
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=-256.000000,Z=384.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=180.000000,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.BrickSimple_Roof_Peak_Cap_C_0.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22208.519531
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.BrickSimple_Roof_Peak_Cap_C_0.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22208.519531
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallOuter/Siding_04.Siding_04'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallInner/House_Attic_1.House_Attic_1'"
+         ResourceType=Wood
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22208.519531
+         DataVersion=1
+         SavedActorGuid=00000000000000000000000023ADD6E1
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="BrickSimple_Roof_Peak_Cap_C0"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/BrickSimple_Roof_Peak_Cap.BrickSimple_Roof_Peak_Cap_C Name=BrickSimple_Roof_Peak_Cap_C_1 Archetype="/Game/Building/ActorBlueprints/Wall/BrickSimple_Roof_Peak_Cap.BrickSimple_Roof_Peak_Cap_C'/Game/Building/ActorBlueprints/Wall/BrickSimple_Roof_Peak_Cap.Default__BrickSimple_Roof_Peak_Cap_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1227550420 ActorFolderPath="Evil Hut" ExportPath="/Game/Building/ActorBlueprints/Wall/BrickSimple_Roof_Peak_Cap.BrickSimple_Roof_Peak_Cap_C'/temperatelols/temperatelols.temperatelols:PersistentLevel.BrickSimple_Roof_Peak_Cap_C_1'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_Roof_Peak_Cap.Default__BrickSimple_Roof_Peak_Cap_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.BrickSimple_Roof_Peak_Cap_C_1.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_Roof_Peak_Cap.Default__BrickSimple_Roof_Peak_Cap_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.BrickSimple_Roof_Peak_Cap_C_1.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_Roof_Peak_Cap.Default__BrickSimple_Roof_Peak_Cap_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.BrickSimple_Roof_Peak_Cap_C_1.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.BrickSimple_Roof_Peak_Cap_C_1.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_FORT_Brick_Simple_72'"
+            CachedMaxDrawDistance=22208.519531
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=256.000000,Z=384.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.BrickSimple_Roof_Peak_Cap_C_1.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22208.519531
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.BrickSimple_Roof_Peak_Cap_C_1.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22208.519531
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallOuter/Siding_04.Siding_04'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallInner/House_Attic_1.House_Attic_1'"
+         ResourceType=Wood
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22208.519531
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000F0522A7C
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="BrickSimple_Roof_Peak_Cap_C1"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/Factory_Wall_Garage.Factory_Wall_Garage_C Name=Factory_Wall_Garage_C_0 Archetype="/Game/Building/ActorBlueprints/Wall/Factory_Wall_Garage.Factory_Wall_Garage_C'/Game/Building/ActorBlueprints/Wall/Factory_Wall_Garage.Default__Factory_Wall_Garage_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1227550420 ActorFolderPath="Evil Hut" ExportPath="/Game/Building/ActorBlueprints/Wall/Factory_Wall_Garage.Factory_Wall_Garage_C'/temperatelols/temperatelols.temperatelols:PersistentLevel.Factory_Wall_Garage_C_0'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Factory_Wall_Garage.Default__Factory_Wall_Garage_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.Factory_Wall_Garage_C_0.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/Factory_Wall_Garage.Default__Factory_Wall_Garage_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.Factory_Wall_Garage_C_0.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Factory_Wall_Garage.Default__Factory_Wall_Garage_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.Factory_Wall_Garage_C_0.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.Factory_Wall_Garage_C_0.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Factory_GarageDoorWay_2'"
+            CachedMaxDrawDistance=22871.660156
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=256.000000,Y=0.000000,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000008,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.Factory_Wall_Garage_C_0.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22871.660156
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.Factory_Wall_Garage_C_0.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22871.660156
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallOuter/Siding_04.Siding_04'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallInner/House_Interior_07.House_Interior_07'"
+         ResourceType=Wood
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22871.660156
+         bHasCustomAttackLocation=True
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000920B26E1
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Factory_Wall_Garage_C0"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Roof/Fort_Roof_Peak_Open.Fort_Roof_Peak_Open_C Name=Fort_Roof_Peak_Open_C_0 Archetype="/Game/Building/ActorBlueprints/Roof/Fort_Roof_Peak_Open.Fort_Roof_Peak_Open_C'/Game/Building/ActorBlueprints/Roof/Fort_Roof_Peak_Open.Default__Fort_Roof_Peak_Open_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1227550420 ActorFolderPath="Evil Hut" ExportPath="/Game/Building/ActorBlueprints/Roof/Fort_Roof_Peak_Open.Fort_Roof_Peak_Open_C'/temperatelols/temperatelols.temperatelols:PersistentLevel.Fort_Roof_Peak_Open_C_0'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Roof/Fort_Roof_Peak_Open.Default__Fort_Roof_Peak_Open_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.Fort_Roof_Peak_Open_C_0.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Roof/Fort_Roof_Peak_Open.Default__Fort_Roof_Peak_Open_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.Fort_Roof_Peak_Open_C_0.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Roof/Fort_Roof_Peak_Open.Default__Fort_Roof_Peak_Open_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.Fort_Roof_Peak_Open_C_0.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.Fort_Roof_Peak_Open_C_0.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_FORT_Brick_Simple_71'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-256.000000,Y=0.000000,Z=384.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=-90.000000,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.Fort_Roof_Peak_Open_C_0.BoundingBoxComponent'"
+            CachedMaxDrawDistance=26074.916016
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.Fort_Roof_Peak_Open_C_0.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=26074.916016
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallOuter/Siding_04.Siding_04'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallInner/House_Attic_1.House_Attic_1'"
+         TextureData(3)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/RoofTexture/Roof_Shingles_1.Roof_Shingles_1'"
+         NavObstacles(0)=(LocalBounds=(Min=(X=-281.000000,Y=-281.000000,Z=-200.000000),Max=(X=281.000000,Y=281.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=26074.916016
+         DataVersion=1
+         SavedActorGuid=00000000000000000000000044579569
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Fort_Roof_Peak_Open_C0"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/Garage_Door_01.Garage_Door_01_C Name=Garage_Door_01_C_0 Archetype="/Game/Building/ActorBlueprints/Prop/Garage_Door_01.Garage_Door_01_C'/Game/Building/ActorBlueprints/Prop/Garage_Door_01.Default__Garage_Door_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1227550420 ActorFolderPath="Evil Hut" ExportPath="/Game/Building/ActorBlueprints/Prop/Garage_Door_01.Garage_Door_01_C'/temperatelols/temperatelols.temperatelols:PersistentLevel.Garage_Door_01_C_0'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Garage_Door_01.Default__Garage_Door_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.Garage_Door_01_C_0.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/Garage_Door_01.Default__Garage_Door_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.Garage_Door_01_C_0.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Garage_Door_01.Default__Garage_Door_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.Garage_Door_01_C_0.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.Garage_Door_01_C_0.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Rural_Garage_3'"
+            LDMaxDrawDistance=22000.000000
+            CachedMaxDrawDistance=22000.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=353.196045,Y=-0.003906,Z=157.028320)
+            RelativeRotation=(Pitch=0.000041,Yaw=-89.999832,Roll=-47.611351)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.Garage_Door_01_C_0.BoundingBoxComponent'"
+            LDMaxDrawDistance=22000.000000
+            CachedMaxDrawDistance=22000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.Garage_Door_01_C_0.EditorOnlyStaticMeshComponent'"
+            LDMaxDrawDistance=22000.000000
+            CachedMaxDrawDistance=22000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22000.000000
+         DataVersion=1
+         SavedActorGuid=0000000000000000000000003BE13129
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Garage_Door_01_C0"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/Prop_Boxes_01b.Prop_Boxes_01b_C Name=Prop_Boxes_01b_C_0 Archetype="/Game/Building/ActorBlueprints/Prop/Prop_Boxes_01b.Prop_Boxes_01b_C'/Game/Building/ActorBlueprints/Prop/Prop_Boxes_01b.Default__Prop_Boxes_01b_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1227550420 ActorFolderPath="Evil Hut" ExportPath="/Game/Building/ActorBlueprints/Prop/Prop_Boxes_01b.Prop_Boxes_01b_C'/temperatelols/temperatelols.temperatelols:PersistentLevel.Prop_Boxes_01b_C_0'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Prop_Boxes_01b.Default__Prop_Boxes_01b_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.Prop_Boxes_01b_C_0.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/Prop_Boxes_01b.Default__Prop_Boxes_01b_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.Prop_Boxes_01b_C_0.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Prop_Boxes_01b.Default__Prop_Boxes_01b_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.Prop_Boxes_01b_C_0.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.Prop_Boxes_01b_C_0.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_Boxes1_3'"
+            LDMaxDrawDistance=6000.000000
+            CachedMaxDrawDistance=6000.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-119.084961,Y=-199.750000,Z=288.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-176.727112,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.Prop_Boxes_01b_C_0.BoundingBoxComponent'"
+            LDMaxDrawDistance=6000.000000
+            CachedMaxDrawDistance=6000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.Prop_Boxes_01b_C_0.EditorOnlyStaticMeshComponent'"
+            LDMaxDrawDistance=6000.000000
+            CachedMaxDrawDistance=6000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=6000.000000
+         DataVersion=1
+         SavedActorGuid=0000000000000000000000008A2F0532
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Prop_Boxes_01b_C0"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/ShutterHouse_DoorSide_02.ShutterHouse_DoorSide_02_C Name=ShutterHouse_DoorSide_02_C_0 Archetype="/Game/Building/ActorBlueprints/Wall/ShutterHouse_DoorSide_02.ShutterHouse_DoorSide_02_C'/Game/Building/ActorBlueprints/Wall/ShutterHouse_DoorSide_02.Default__ShutterHouse_DoorSide_02_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1227550420 ActorFolderPath="Evil Hut" ExportPath="/Game/Building/ActorBlueprints/Wall/ShutterHouse_DoorSide_02.ShutterHouse_DoorSide_02_C'/temperatelols/temperatelols.temperatelols:PersistentLevel.ShutterHouse_DoorSide_02_C_0'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/ShutterHouse_DoorSide_02.Default__ShutterHouse_DoorSide_02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.ShutterHouse_DoorSide_02_C_0.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/ShutterHouse_DoorSide_02.Default__ShutterHouse_DoorSide_02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.ShutterHouse_DoorSide_02_C_0.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/ShutterHouse_DoorSide_02.Default__ShutterHouse_DoorSide_02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.ShutterHouse_DoorSide_02_C_0.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Script/FortniteAI.FortDoorLinkComponent Name="DoorSmartLinkComp" ExportPath="/Script/FortniteAI.FortDoorLinkComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.ShutterHouse_DoorSide_02_C_0.DoorSmartLinkComp'"
+         End Object
+         Begin Object Class=/Game/Building/ActorBlueprints/Wall/DoorSoundIndicatorComponent.DoorSoundIndicatorComponent_C Name="DoorSoundIndicator" ExportPath="/Game/Building/ActorBlueprints/Wall/DoorSoundIndicatorComponent.DoorSoundIndicatorComponent_C'/temperatelols/temperatelols.temperatelols:PersistentLevel.ShutterHouse_DoorSide_02_C_0.DoorSoundIndicator'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.ShutterHouse_DoorSide_02_C_0.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_ShutterHouse_2'"
+            CachedMaxDrawDistance=22892.962891
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-256.000000,Y=0.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=90.000008,Roll=-0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.ShutterHouse_DoorSide_02_C_0.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22892.962891
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.ShutterHouse_DoorSide_02_C_0.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22892.962891
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="DoorSmartLinkComp" ExportPath="/Script/FortniteAI.FortDoorLinkComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.ShutterHouse_DoorSide_02_C_0.DoorSmartLinkComp'"
+            CustomLinkId=(Id=15403307810597395700)
+            AuxiliaryCustomLinkId=(Id=11733275864001329439)
+            DisabledAreaClass="/Script/CoreUObject.Class'/Script/NavigationSystem.NavArea_Default'"
+            LinkRelativeStart=(X=-102.199997,Y=130.000000,Z=0.000000)
+            LinkRelativeEnd=(X=-102.199997,Y=-130.000000,Z=0.000000)
+            bLinkEnabled=False
+            ObstacleOffset=(X=-102.199997,Y=0.000000,Z=0.000000)
+            ObstacleExtent=(X=38.400002,Y=17.500000,Z=153.600002)
+            ObstacleAreaClass="/Script/Engine.BlueprintGeneratedClass'/Game/Building/NavigationAreas/FortMetaNavWallAreaDef.FortMetaNavWallAreaDef_C'"
+         End Object
+         Begin Object Name="DoorSoundIndicator" ExportPath="/Game/Building/ActorBlueprints/Wall/DoorSoundIndicatorComponent.DoorSoundIndicatorComponent_C'/temperatelols/temperatelols.temperatelols:PersistentLevel.ShutterHouse_DoorSide_02_C_0.DoorSoundIndicator'"
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallOuter/Siding_04.Siding_04'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallInner/House_Interior_07.House_Interior_07'"
+         TextureData(2)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallOuter/Siding_44.Siding_44'"
+         ResourceType=Wood
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         EditorOnlyInstanceTags=(GameplayTags=((TagName="BuildingActor.FailedPhysicsObjectCookLandscapeEmbeddingValidation")))
+         CullDistance=22892.962891
+         StaticGameplayTags=(GameplayTags=((TagName="BuildingActor.FailedPhysicsObjectCookLandscapeEmbeddingValidation"),(TagName="Building.Type.All.Wall"),(TagName="Building.Type.Door")))
+         DataVersion=1
+         SavedActorGuid=0000000000000000000000001BDBE474
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="ShutterHouse_DoorSide_02_C0"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C Name=SM_FORT_Floors_Generic_BasicTile_C_1 Archetype="/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1227550420 ActorFolderPath="Evil Hut" ExportPath="/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C'/temperatelols/temperatelols.temperatelols:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_1'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_1.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_1.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_1.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_1.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fort_Floors_Generic_TilesClean_68'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=256.000000,Y=0.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=90.000008,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_1.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24648.673828
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_1.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24648.673828
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/FloorTexture/Concrete01.Concrete01'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/Ceiling/PlasterCeiling_05.PlasterCeiling_05'"
+         NavObstacles(0)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         EditorOnlyInstanceTags=(GameplayTags=((TagName="BuildingActor.FailedPhysicsObjectCookLandscapeEmbeddingValidation")))
+         CullDistance=24648.673828
+         StaticGameplayTags=(GameplayTags=((TagName="BuildingActor.FailedPhysicsObjectCookLandscapeEmbeddingValidation"),(TagName="Building.Creative.PersistOnDetachment"),(TagName="Building.Type.All.Floor")))
+         DataVersion=1
+         SavedActorGuid=00000000000000000000000086AF962E
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_FORT_Floors_Generic_BasicTile_C1"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_TilesBrokenBeamsI.SM_FORT_Floors_Generic_TilesBrokenBeamsI_C Name=SM_FORT_Floors_Generic_TilesBrokenBeamsI_C_0 Archetype="/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_TilesBrokenBeamsI.SM_FORT_Floors_Generic_TilesBrokenBeamsI_C'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_TilesBrokenBeamsI.Default__SM_FORT_Floors_Generic_TilesBrokenBeamsI_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1227550420 ActorFolderPath="Evil Hut" ExportPath="/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_TilesBrokenBeamsI.SM_FORT_Floors_Generic_TilesBrokenBeamsI_C'/temperatelols/temperatelols.temperatelols:PersistentLevel.SM_FORT_Floors_Generic_TilesBrokenBeamsI_C_0'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_TilesBrokenBeamsI.Default__SM_FORT_Floors_Generic_TilesBrokenBeamsI_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.SM_FORT_Floors_Generic_TilesBrokenBeamsI_C_0.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_TilesBrokenBeamsI.Default__SM_FORT_Floors_Generic_TilesBrokenBeamsI_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.SM_FORT_Floors_Generic_TilesBrokenBeamsI_C_0.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_TilesBrokenBeamsI.Default__SM_FORT_Floors_Generic_TilesBrokenBeamsI_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.SM_FORT_Floors_Generic_TilesBrokenBeamsI_C_0.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.SM_FORT_Floors_Generic_TilesBrokenBeamsI_C_0.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fort_Floors_Generic_TilesClean_69'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-256.000000,Y=0.000488,Z=384.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000122,Roll=0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.SM_FORT_Floors_Generic_TilesBrokenBeamsI_C_0.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24667.939453
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.SM_FORT_Floors_Generic_TilesBrokenBeamsI_C_0.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24667.939453
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/FloorTexture/Wood_Floor_Hardwood_04.Wood_Floor_Hardwood_04'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/FloorTexture/Wood_Floor_Hardwood_04.Wood_Floor_Hardwood_04'"
+         ResourceType=Wood
+         bMirrored=True
+         NavObstacles(0)=(LocalBounds=(Min=(X=-291.000000,Y=-35.000000,Z=-250.000000),Max=(X=35.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(1)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=35.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24667.939453
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000050C4769
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_FORT_Floors_Generic_TilesBrokenBeamsI_C0"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/WarehouseShelves_02.WarehouseShelves_02_C Name=WarehouseShelves_02_C_0 Archetype="/Game/Building/ActorBlueprints/Prop/WarehouseShelves_02.WarehouseShelves_02_C'/Game/Building/ActorBlueprints/Prop/WarehouseShelves_02.Default__WarehouseShelves_02_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1227550420 ActorFolderPath="Evil Hut" ExportPath="/Game/Building/ActorBlueprints/Prop/WarehouseShelves_02.WarehouseShelves_02_C'/temperatelols/temperatelols.temperatelols:PersistentLevel.WarehouseShelves_02_C_0'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/WarehouseShelves_02.Default__WarehouseShelves_02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.WarehouseShelves_02_C_0.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/WarehouseShelves_02.Default__WarehouseShelves_02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.WarehouseShelves_02_C_0.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/WarehouseShelves_02.Default__WarehouseShelves_02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.WarehouseShelves_02_C_0.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.WarehouseShelves_02_C_0.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Warehouse_shelves_4'"
+            LDMaxDrawDistance=6000.000000
+            CachedMaxDrawDistance=6000.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-123.992188,Y=-184.003906,Z=8.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-176.727112,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.WarehouseShelves_02_C_0.BoundingBoxComponent'"
+            LDMaxDrawDistance=6000.000000
+            CachedMaxDrawDistance=6000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/temperatelols/temperatelols.temperatelols:PersistentLevel.WarehouseShelves_02_C_0.EditorOnlyStaticMeshComponent'"
+            LDMaxDrawDistance=6000.000000
+            CachedMaxDrawDistance=6000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=6000.000000
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000BB5E5FCD
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="WarehouseShelves_02_C0"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map

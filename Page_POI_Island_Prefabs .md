@@ -2,6 +2,26 @@
 **[Back To Table of Contents](/Table%20of%20Contents.md)**
 # POI Island Prefabs
 
+
+# Frosty Fortress
+
+| Icon | Playset Name w/ Author | Extra Info |
+|-----------------------------------------|-----------------|-----------------|
+| <img src=".assets/Frosty Fortress Castle Gate A.png" width="256"/> | **[Frosty Fortress Castle Gate A](SpawnerTexts/Frosty%20Fortress%20Castle%20Gate%20A.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Frosty Fortress** | Visually Modified: ❌<br>Requires External Download: ❌|
+| <img src=".assets/Frosty Fortress Castle Gate B.png" width="256"/> | **[Frosty Fortress Castle Gate B](SpawnerTexts/Frosty%20Fortress%20Castle%20Gate%20B.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Frosty Fortress** | Visually Modified: ❌<br>Requires External Download: ❌|
+| <img src=".assets/Frosty Fortress Castle Tower A.png" width="256"/> | **[Frosty Fortress Castle Tower A](SpawnerTexts/Frosty%20Fortress%20Castle%20Tower%20A.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Frosty Fortress** | Visually Modified: ❌<br>Requires External Download: ❌|
+| <img src=".assets/Frosty Fortress Castle Tower B.png" width="256"/> | **[Frosty Fortress Castle Tower B](SpawnerTexts/Frosty%20Fortress%20Castle%20Tower%20B.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Frosty Fortress** | Visually Modified: ❌<br>Requires External Download: ❌|
+| <img src=".assets/Frosty Fortress Houses.png" width="256"/> | **[Frosty Fortress Houses](SpawnerTexts/Frosty%20Fortress%20Houses.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Frosty Fortress** | Visually Modified: ❌<br>Requires External Download: ❌|
+| <img src=".assets/Frosty Fortress Triple House .png" width="256"/> | **[Frosty Fortress Triple House ](SpawnerTexts/Frosty%20Fortress%20Triple%20House.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Frosty Fortress** | Visually Modified: ❌<br>Requires External Download: ❌|
+| <img src=".assets/Frosty Fortress Market A.png" width="256"/> | **[Frosty Fortress Market A](SpawnerTexts/Frosty%20Fortress%20Market%20A.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Frosty Fortress** | Visually Modified: ❌<br>Requires External Download: ❌|
+| <img src=".assets/Frosty Fortress Market B.png" width="256"/> | **[Frosty Fortress Market B](SpawnerTexts/Frosty%20Fortress%20Market%20B.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Frosty Fortress** | Visually Modified: ❌<br>Requires External Download: ❌|
+| <img src=".assets/Frosty Fortress Outskirts Tower.png" width="256"/> | **[Frosty Fortress Outskirts Tower](SpawnerTexts/Frosty%20Fortress%20Outskirts%20Tower.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Frosty Fortress** | Visually Modified: ❌<br>Requires External Download: ❌|
+| <img src=".assets/Frosty Fortress Plaza.png" width="256"/> | **[Frosty Fortress Plaza](SpawnerTexts/Frosty%20Fortress%20Plaza.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Frosty Fortress** | Visually Modified: ❌<br>Requires External Download: ❌|
+
+
+
+
+
 # Fortilla
 
 | Icon | Playset Name w/ Author | Extra Info |
@@ -53,3 +73,9 @@
 | <img src=".assets/GG Gazebo.png" width="256"/> | **[Greasy Gazebo](SpawnerTexts/Prefab%20GG%20Gazebo.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Greasy Grove POI Island** | Visually Modified: ❌<br>Requires External Download: ❌|
 | <img src=".assets/GG Fishing Shop.png" width="256"/> | **[Greasy Fishing Shop](SpawnerTexts/Prefab%20GG%20Fishing%20Shop.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Greasy Grove POI Island** | Visually Modified: ❌<br>Requires External Download: ❌|
 | <img src=".assets/GG Gas Station.png" width="256"/> | **[Greasy Gas Station](SpawnerTexts/Prefab%20GG%20Gas%20Station.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Greasy Grove POI Island** | Visually Modified: ❌<br>Requires External Download: ❌|
+
+# This Hut, an Evil Hut
+
+| Icon | Playset Name w/ Author | Extra Info |
+|-----------------------------------------|-----------------|-----------------|
+| <img src=".assets/Evil Hut.png" width="256"/> | **[Hut](SpawnerTexts/Evil%20Hut.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Temperate Island** | Visually Modified: ❌<br>Requires External Download: ❌|

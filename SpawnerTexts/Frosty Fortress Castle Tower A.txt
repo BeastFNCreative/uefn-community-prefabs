@@ -1,0 +1,1241 @@
+Begin Map
+   Begin Level
+      Begin Actor Class=/Script/FortniteGame.FortPlaysetRoot Name=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 Archetype="/Script/FortniteGame.FortPlaysetRoot'/Script/FortniteGame.Default__FortPlaysetRoot'" ActorFolderPath="Frosty Fortress Castle Tower A" ExportPath="/Script/FortniteGame.FortPlaysetRoot'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513'"
+         Begin Object Class=/Script/Engine.SceneComponent Name="DefaultSceneRoot" Archetype="/Script/Engine.SceneComponent'/Script/FortniteGame.Default__FortPlaysetRoot:DefaultSceneRoot'" ExportPath="/Script/Engine.SceneComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513.DefaultSceneRoot'"
+         End Object
+         Begin Object Name="DefaultSceneRoot" ExportPath="/Script/Engine.SceneComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513.DefaultSceneRoot'"
+         End Object
+         SavedActorGuid=53F8D2E741C673EFC5F22FA04022459B
+         PlaysetPackagePathName="/CRP_Foundation/SetupAssets/Maps/PID_CP_Foundation_3x7_StripMallStores_01"
+         ActorLabel="Frosty Fortress Castle Tower A"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/IceCastle/Floor/IceCastle_Floor1.IceCastle_Floor1_C Name=IceCastle_Floor1_C_UAID_D843AE8E0CE50F5202_1224696853 Archetype="/Game/Building/ActorBlueprints/IceCastle/Floor/IceCastle_Floor1.IceCastle_Floor1_C'/Game/Building/ActorBlueprints/IceCastle/Floor/IceCastle_Floor1.Default__IceCastle_Floor1_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Castle Tower A" ExportPath="/Game/Building/ActorBlueprints/IceCastle/Floor/IceCastle_Floor1.IceCastle_Floor1_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Floor1_C_UAID_D843AE8E0CE50F5202_1224696853'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Floor/IceCastle_Floor1.Default__IceCastle_Floor1_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Floor1_C_UAID_D843AE8E0CE50F5202_1224696853.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/IceCastle/Floor/IceCastle_Floor1.Default__IceCastle_Floor1_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Floor1_C_UAID_D843AE8E0CE50F5202_1224696853.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Floor/IceCastle_Floor1.Default__IceCastle_Floor1_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Floor1_C_UAID_D843AE8E0CE50F5202_1224696853.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Floor1_C_UAID_D843AE8E0CE50F5202_1224696853.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_IceCastle_Floor_5'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-767.999731,Y=-512.500053,Z=384.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000022,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Floor1_C_UAID_D843AE8E0CE50F5202_1224696853.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24689.271484
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Floor1_C_UAID_D843AE8E0CE50F5202_1224696853.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24689.271484
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         bShouldIgnoreForHorizontalHotspotSearch=False
+         NavObstacles(0)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24689.271484
+         DataVersion=1
+         SavedActorGuid=FAC7F86948605A6A4C08D99217BB6DF5
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="IceCastle_Floor1_C254"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/IceCastle/Floor/IceCastle_Floor1.IceCastle_Floor1_C Name=IceCastle_Floor1_C_UAID_D843AE8E0CE50F5202_1224751881 Archetype="/Game/Building/ActorBlueprints/IceCastle/Floor/IceCastle_Floor1.IceCastle_Floor1_C'/Game/Building/ActorBlueprints/IceCastle/Floor/IceCastle_Floor1.Default__IceCastle_Floor1_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Castle Tower A" ExportPath="/Game/Building/ActorBlueprints/IceCastle/Floor/IceCastle_Floor1.IceCastle_Floor1_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Floor1_C_UAID_D843AE8E0CE50F5202_1224751881'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Floor/IceCastle_Floor1.Default__IceCastle_Floor1_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Floor1_C_UAID_D843AE8E0CE50F5202_1224751881.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/IceCastle/Floor/IceCastle_Floor1.Default__IceCastle_Floor1_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Floor1_C_UAID_D843AE8E0CE50F5202_1224751881.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Floor/IceCastle_Floor1.Default__IceCastle_Floor1_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Floor1_C_UAID_D843AE8E0CE50F5202_1224751881.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Floor1_C_UAID_D843AE8E0CE50F5202_1224751881.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_IceCastle_Floor_5'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1023.999743,Y=-256.500187,Z=384.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Floor1_C_UAID_D843AE8E0CE50F5202_1224751881.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24689.271484
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Floor1_C_UAID_D843AE8E0CE50F5202_1224751881.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24689.271484
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         bShouldIgnoreForHorizontalHotspotSearch=False
+         NavObstacles(0)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24689.271484
+         DataVersion=1
+         SavedActorGuid=2AF844B943D04B3826715F9F1ED1A786
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="IceCastle_Floor1_C255"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/IceCastle/Floor/IceCastle_Floor1.IceCastle_Floor1_C Name=IceCastle_Floor1_C_UAID_D843AE8E0CE50F5202_1224742876 Archetype="/Game/Building/ActorBlueprints/IceCastle/Floor/IceCastle_Floor1.IceCastle_Floor1_C'/Game/Building/ActorBlueprints/IceCastle/Floor/IceCastle_Floor1.Default__IceCastle_Floor1_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Castle Tower A" ExportPath="/Game/Building/ActorBlueprints/IceCastle/Floor/IceCastle_Floor1.IceCastle_Floor1_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Floor1_C_UAID_D843AE8E0CE50F5202_1224742876'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Floor/IceCastle_Floor1.Default__IceCastle_Floor1_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Floor1_C_UAID_D843AE8E0CE50F5202_1224742876.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/IceCastle/Floor/IceCastle_Floor1.Default__IceCastle_Floor1_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Floor1_C_UAID_D843AE8E0CE50F5202_1224742876.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Floor/IceCastle_Floor1.Default__IceCastle_Floor1_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Floor1_C_UAID_D843AE8E0CE50F5202_1224742876.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Floor1_C_UAID_D843AE8E0CE50F5202_1224742876.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_IceCastle_Floor_5'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1023.999768,Y=255.499813,Z=384.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Floor1_C_UAID_D843AE8E0CE50F5202_1224742876.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24689.271484
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Floor1_C_UAID_D843AE8E0CE50F5202_1224742876.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24689.271484
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         bShouldIgnoreForHorizontalHotspotSearch=False
+         NavObstacles(0)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24689.271484
+         DataVersion=1
+         SavedActorGuid=ADE0814543E5C6B56DF71D82E1508868
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="IceCastle_Floor1_C256"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/IceCastle/Floor/IceCastle_Floor1.IceCastle_Floor1_C Name=IceCastle_Floor1_C_UAID_D843AE8E0CE50F5202_1224755883 Archetype="/Game/Building/ActorBlueprints/IceCastle/Floor/IceCastle_Floor1.IceCastle_Floor1_C'/Game/Building/ActorBlueprints/IceCastle/Floor/IceCastle_Floor1.Default__IceCastle_Floor1_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Castle Tower A" ExportPath="/Game/Building/ActorBlueprints/IceCastle/Floor/IceCastle_Floor1.IceCastle_Floor1_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Floor1_C_UAID_D843AE8E0CE50F5202_1224755883'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Floor/IceCastle_Floor1.Default__IceCastle_Floor1_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Floor1_C_UAID_D843AE8E0CE50F5202_1224755883.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/IceCastle/Floor/IceCastle_Floor1.Default__IceCastle_Floor1_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Floor1_C_UAID_D843AE8E0CE50F5202_1224755883.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Floor/IceCastle_Floor1.Default__IceCastle_Floor1_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Floor1_C_UAID_D843AE8E0CE50F5202_1224755883.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Floor1_C_UAID_D843AE8E0CE50F5202_1224755883.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_IceCastle_Floor_5'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-255.999878,Y=-0.250075,Z=384.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=90.000001,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Floor1_C_UAID_D843AE8E0CE50F5202_1224755883.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24689.271484
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Floor1_C_UAID_D843AE8E0CE50F5202_1224755883.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24689.271484
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         bShouldIgnoreForHorizontalHotspotSearch=False
+         NavObstacles(0)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24689.271484
+         DataVersion=1
+         SavedActorGuid=B8AC5BA74B5964098B7A4C982686728F
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="IceCastle_Floor1_C257"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/IceCastle/Floor/IceCastle_Floor1.IceCastle_Floor1_C Name=IceCastle_Floor1_C_UAID_D843AE8E0CE50F5202_1224691851 Archetype="/Game/Building/ActorBlueprints/IceCastle/Floor/IceCastle_Floor1.IceCastle_Floor1_C'/Game/Building/ActorBlueprints/IceCastle/Floor/IceCastle_Floor1.Default__IceCastle_Floor1_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Castle Tower A" ExportPath="/Game/Building/ActorBlueprints/IceCastle/Floor/IceCastle_Floor1.IceCastle_Floor1_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Floor1_C_UAID_D843AE8E0CE50F5202_1224691851'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Floor/IceCastle_Floor1.Default__IceCastle_Floor1_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Floor1_C_UAID_D843AE8E0CE50F5202_1224691851.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/IceCastle/Floor/IceCastle_Floor1.Default__IceCastle_Floor1_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Floor1_C_UAID_D843AE8E0CE50F5202_1224691851.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Floor/IceCastle_Floor1.Default__IceCastle_Floor1_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Floor1_C_UAID_D843AE8E0CE50F5202_1224691851.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Floor1_C_UAID_D843AE8E0CE50F5202_1224691851.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_IceCastle_Floor_5'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1279.999731,Y=-512.500078,Z=1152.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000022,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Floor1_C_UAID_D843AE8E0CE50F5202_1224691851.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24689.271484
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Floor1_C_UAID_D843AE8E0CE50F5202_1224691851.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24689.271484
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         bShouldIgnoreForHorizontalHotspotSearch=False
+         NavObstacles(0)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24689.271484
+         DataVersion=1
+         SavedActorGuid=276EC4ED4435BDA2A195E78AFE3D92CF
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="IceCastle_Floor1_C258"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_QuarterWall.IceCastle_QuarterWall_C Name=IceCastle_QuarterWall_C_UAID_D843AE8E0CE50F5202_1224689850 Archetype="/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_QuarterWall.IceCastle_QuarterWall_C'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_QuarterWall.Default__IceCastle_QuarterWall_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Castle Tower A" ExportPath="/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_QuarterWall.IceCastle_QuarterWall_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_QuarterWall_C_UAID_D843AE8E0CE50F5202_1224689850'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_QuarterWall.Default__IceCastle_QuarterWall_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_QuarterWall_C_UAID_D843AE8E0CE50F5202_1224689850.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_QuarterWall.Default__IceCastle_QuarterWall_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_QuarterWall_C_UAID_D843AE8E0CE50F5202_1224689850.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_QuarterWall.Default__IceCastle_QuarterWall_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_QuarterWall_C_UAID_D843AE8E0CE50F5202_1224689850.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_QuarterWall_C_UAID_D843AE8E0CE50F5202_1224689850.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_IceCastle_Arch_2'"
+            CachedMaxDrawDistance=20540.751953
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-511.999718,Y=-768.500162,Z=384.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-0.000045,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_QuarterWall_C_UAID_D843AE8E0CE50F5202_1224689850.BoundingBoxComponent'"
+            CachedMaxDrawDistance=20540.751953
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_QuarterWall_C_UAID_D843AE8E0CE50F5202_1224689850.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=20540.751953
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=20540.751953
+         DataVersion=1
+         SavedActorGuid=D298873041B8043259D703A1D524108A
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="IceCastle_QuarterWall_C67"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_QuarterWall.IceCastle_QuarterWall_C Name=IceCastle_QuarterWall_C_UAID_D843AE8E0CE50F5202_1224714862 Archetype="/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_QuarterWall.IceCastle_QuarterWall_C'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_QuarterWall.Default__IceCastle_QuarterWall_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Castle Tower A" ExportPath="/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_QuarterWall.IceCastle_QuarterWall_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_QuarterWall_C_UAID_D843AE8E0CE50F5202_1224714862'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_QuarterWall.Default__IceCastle_QuarterWall_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_QuarterWall_C_UAID_D843AE8E0CE50F5202_1224714862.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_QuarterWall.Default__IceCastle_QuarterWall_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_QuarterWall_C_UAID_D843AE8E0CE50F5202_1224714862.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_QuarterWall.Default__IceCastle_QuarterWall_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_QuarterWall_C_UAID_D843AE8E0CE50F5202_1224714862.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_QuarterWall_C_UAID_D843AE8E0CE50F5202_1224714862.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_IceCastle_Arch_2'"
+            CachedMaxDrawDistance=20540.751953
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1023.999718,Y=-768.500187,Z=1152.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-0.000045,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_QuarterWall_C_UAID_D843AE8E0CE50F5202_1224714862.BoundingBoxComponent'"
+            CachedMaxDrawDistance=20540.751953
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_QuarterWall_C_UAID_D843AE8E0CE50F5202_1224714862.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=20540.751953
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=20540.751953
+         DataVersion=1
+         SavedActorGuid=071297684B28C89262E777999DC70A74
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="IceCastle_QuarterWall_C68"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_QuarterWall.IceCastle_QuarterWall_C Name=IceCastle_QuarterWall_C_UAID_D843AE8E0CE50F5202_1224752882 Archetype="/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_QuarterWall.IceCastle_QuarterWall_C'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_QuarterWall.Default__IceCastle_QuarterWall_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Castle Tower A" ExportPath="/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_QuarterWall.IceCastle_QuarterWall_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_QuarterWall_C_UAID_D843AE8E0CE50F5202_1224752882'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_QuarterWall.Default__IceCastle_QuarterWall_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_QuarterWall_C_UAID_D843AE8E0CE50F5202_1224752882.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_QuarterWall.Default__IceCastle_QuarterWall_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_QuarterWall_C_UAID_D843AE8E0CE50F5202_1224752882.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_QuarterWall.Default__IceCastle_QuarterWall_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_QuarterWall_C_UAID_D843AE8E0CE50F5202_1224752882.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_QuarterWall_C_UAID_D843AE8E0CE50F5202_1224752882.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_IceCastle_Arch_2'"
+            CachedMaxDrawDistance=20540.751953
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-767.999731,Y=-512.500175,Z=1152.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=89.999993,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_QuarterWall_C_UAID_D843AE8E0CE50F5202_1224752882.BoundingBoxComponent'"
+            CachedMaxDrawDistance=20540.751953
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_QuarterWall_C_UAID_D843AE8E0CE50F5202_1224752882.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=20540.751953
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=20540.751953
+         DataVersion=1
+         SavedActorGuid=2229578C486623B38AD11E8B679B667A
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="IceCastle_QuarterWall_C69"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_QuarterWall.IceCastle_QuarterWall_C Name=IceCastle_QuarterWall_C_UAID_D843AE8E0CE50F5202_1224709859 Archetype="/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_QuarterWall.IceCastle_QuarterWall_C'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_QuarterWall.Default__IceCastle_QuarterWall_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Castle Tower A" ExportPath="/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_QuarterWall.IceCastle_QuarterWall_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_QuarterWall_C_UAID_D843AE8E0CE50F5202_1224709859'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_QuarterWall.Default__IceCastle_QuarterWall_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_QuarterWall_C_UAID_D843AE8E0CE50F5202_1224709859.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_QuarterWall.Default__IceCastle_QuarterWall_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_QuarterWall_C_UAID_D843AE8E0CE50F5202_1224709859.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_QuarterWall.Default__IceCastle_QuarterWall_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_QuarterWall_C_UAID_D843AE8E0CE50F5202_1224709859.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_QuarterWall_C_UAID_D843AE8E0CE50F5202_1224709859.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_IceCastle_Arch_2'"
+            CachedMaxDrawDistance=20540.751953
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1279.999731,Y=-512.500200,Z=1152.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000022,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_QuarterWall_C_UAID_D843AE8E0CE50F5202_1224709859.BoundingBoxComponent'"
+            CachedMaxDrawDistance=20540.751953
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_QuarterWall_C_UAID_D843AE8E0CE50F5202_1224709859.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=20540.751953
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=20540.751953
+         DataVersion=1
+         SavedActorGuid=BAC4CC49448563CD8DF91F87ABC03AF6
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="IceCastle_QuarterWall_C70"
+      End Actor
+      Begin Actor Class=/Game/Playgrounds/Environments/Sets/IceCastle/IceCastle_Roof_Cap2_1.IceCastle_Roof_Cap2_1_C Name=IceCastle_Roof_Cap2_1_C_UAID_D843AE8E0CE50F5202_1224747879 Archetype="/Game/Playgrounds/Environments/Sets/IceCastle/IceCastle_Roof_Cap2_1.IceCastle_Roof_Cap2_1_C'/Game/Playgrounds/Environments/Sets/IceCastle/IceCastle_Roof_Cap2_1.Default__IceCastle_Roof_Cap2_1_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Castle Tower A" ExportPath="/Game/Playgrounds/Environments/Sets/IceCastle/IceCastle_Roof_Cap2_1.IceCastle_Roof_Cap2_1_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Roof_Cap2_1_C_UAID_D843AE8E0CE50F5202_1224747879'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Playgrounds/Environments/Sets/IceCastle/IceCastle_Roof_Cap2_1.Default__IceCastle_Roof_Cap2_1_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Roof_Cap2_1_C_UAID_D843AE8E0CE50F5202_1224747879.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Playgrounds/Environments/Sets/IceCastle/IceCastle_Roof_Cap2_1.Default__IceCastle_Roof_Cap2_1_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Roof_Cap2_1_C_UAID_D843AE8E0CE50F5202_1224747879.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Playgrounds/Environments/Sets/IceCastle/IceCastle_Roof_Cap2_1.Default__IceCastle_Roof_Cap2_1_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Roof_Cap2_1_C_UAID_D843AE8E0CE50F5202_1224747879.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Roof_Cap2_1_C_UAID_D843AE8E0CE50F5202_1224747879.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_IceCastle_RoofCap_2'"
+            CachedMaxDrawDistance=26715.808594
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-255.999756,Y=-0.500150,Z=768.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000022,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Roof_Cap2_1_C_UAID_D843AE8E0CE50F5202_1224747879.BoundingBoxComponent'"
+            CachedMaxDrawDistance=26715.808594
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Roof_Cap2_1_C_UAID_D843AE8E0CE50F5202_1224747879.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=26715.808594
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=26715.808594
+         DataVersion=1
+         SavedActorGuid=3DF47BE349B6E5A382FD01BE03FEB286
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="IceCastle_Roof_Cap2_1_C57"
+      End Actor
+      Begin Actor Class=/Game/Playgrounds/Environments/Sets/IceCastle/IceCastle_Roof_Cap2_1.IceCastle_Roof_Cap2_1_C Name=IceCastle_Roof_Cap2_1_C_UAID_D843AE8E0CE50F5202_1224710860 Archetype="/Game/Playgrounds/Environments/Sets/IceCastle/IceCastle_Roof_Cap2_1.IceCastle_Roof_Cap2_1_C'/Game/Playgrounds/Environments/Sets/IceCastle/IceCastle_Roof_Cap2_1.Default__IceCastle_Roof_Cap2_1_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Castle Tower A" ExportPath="/Game/Playgrounds/Environments/Sets/IceCastle/IceCastle_Roof_Cap2_1.IceCastle_Roof_Cap2_1_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Roof_Cap2_1_C_UAID_D843AE8E0CE50F5202_1224710860'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Playgrounds/Environments/Sets/IceCastle/IceCastle_Roof_Cap2_1.Default__IceCastle_Roof_Cap2_1_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Roof_Cap2_1_C_UAID_D843AE8E0CE50F5202_1224710860.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Playgrounds/Environments/Sets/IceCastle/IceCastle_Roof_Cap2_1.Default__IceCastle_Roof_Cap2_1_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Roof_Cap2_1_C_UAID_D843AE8E0CE50F5202_1224710860.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Playgrounds/Environments/Sets/IceCastle/IceCastle_Roof_Cap2_1.Default__IceCastle_Roof_Cap2_1_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Roof_Cap2_1_C_UAID_D843AE8E0CE50F5202_1224710860.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Roof_Cap2_1_C_UAID_D843AE8E0CE50F5202_1224710860.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_IceCastle_RoofCap_2'"
+            CachedMaxDrawDistance=26715.808594
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-255.999731,Y=-512.500150,Z=768.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000022,Roll=0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Roof_Cap2_1_C_UAID_D843AE8E0CE50F5202_1224710860.BoundingBoxComponent'"
+            CachedMaxDrawDistance=26715.808594
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Roof_Cap2_1_C_UAID_D843AE8E0CE50F5202_1224710860.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=26715.808594
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=26715.808594
+         DataVersion=1
+         SavedActorGuid=B8155F504DFEB8E3D5B525B1F05F083B
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="IceCastle_Roof_Cap2_1_C58"
+      End Actor
+      Begin Actor Class=/Game/Playgrounds/Environments/Sets/IceCastle/IceCastle_Roof_Cap2_1.IceCastle_Roof_Cap2_1_C Name=IceCastle_Roof_Cap2_1_C_UAID_D843AE8E0CE50F5202_1224744877 Archetype="/Game/Playgrounds/Environments/Sets/IceCastle/IceCastle_Roof_Cap2_1.IceCastle_Roof_Cap2_1_C'/Game/Playgrounds/Environments/Sets/IceCastle/IceCastle_Roof_Cap2_1.Default__IceCastle_Roof_Cap2_1_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Castle Tower A" ExportPath="/Game/Playgrounds/Environments/Sets/IceCastle/IceCastle_Roof_Cap2_1.IceCastle_Roof_Cap2_1_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Roof_Cap2_1_C_UAID_D843AE8E0CE50F5202_1224744877'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Playgrounds/Environments/Sets/IceCastle/IceCastle_Roof_Cap2_1.Default__IceCastle_Roof_Cap2_1_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Roof_Cap2_1_C_UAID_D843AE8E0CE50F5202_1224744877.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Playgrounds/Environments/Sets/IceCastle/IceCastle_Roof_Cap2_1.Default__IceCastle_Roof_Cap2_1_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Roof_Cap2_1_C_UAID_D843AE8E0CE50F5202_1224744877.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Playgrounds/Environments/Sets/IceCastle/IceCastle_Roof_Cap2_1.Default__IceCastle_Roof_Cap2_1_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Roof_Cap2_1_C_UAID_D843AE8E0CE50F5202_1224744877.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Roof_Cap2_1_C_UAID_D843AE8E0CE50F5202_1224744877.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_IceCastle_RoofCap_2'"
+            CachedMaxDrawDistance=26715.808594
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1279.999756,Y=-0.500200,Z=768.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=89.999993,Roll=-0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Roof_Cap2_1_C_UAID_D843AE8E0CE50F5202_1224744877.BoundingBoxComponent'"
+            CachedMaxDrawDistance=26715.808594
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Roof_Cap2_1_C_UAID_D843AE8E0CE50F5202_1224744877.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=26715.808594
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=26715.808594
+         DataVersion=1
+         SavedActorGuid=D663305C48041FE2DD22AA85228D3A0B
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="IceCastle_Roof_Cap2_1_C59"
+      End Actor
+      Begin Actor Class=/Game/Playgrounds/Environments/Sets/IceCastle/IceCastle_Roof_Strait2.IceCastle_Roof_Strait2_C Name=IceCastle_Roof_Strait2_C_UAID_D843AE8E0CE50F5202_1224749880 Archetype="/Game/Playgrounds/Environments/Sets/IceCastle/IceCastle_Roof_Strait2.IceCastle_Roof_Strait2_C'/Game/Playgrounds/Environments/Sets/IceCastle/IceCastle_Roof_Strait2.Default__IceCastle_Roof_Strait2_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Castle Tower A" ExportPath="/Game/Playgrounds/Environments/Sets/IceCastle/IceCastle_Roof_Strait2.IceCastle_Roof_Strait2_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Roof_Strait2_C_UAID_D843AE8E0CE50F5202_1224749880'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Playgrounds/Environments/Sets/IceCastle/IceCastle_Roof_Strait2.Default__IceCastle_Roof_Strait2_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Roof_Strait2_C_UAID_D843AE8E0CE50F5202_1224749880.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Playgrounds/Environments/Sets/IceCastle/IceCastle_Roof_Strait2.Default__IceCastle_Roof_Strait2_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Roof_Strait2_C_UAID_D843AE8E0CE50F5202_1224749880.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Playgrounds/Environments/Sets/IceCastle/IceCastle_Roof_Strait2.Default__IceCastle_Roof_Strait2_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Roof_Strait2_C_UAID_D843AE8E0CE50F5202_1224749880.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Roof_Strait2_C_UAID_D843AE8E0CE50F5202_1224749880.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_IceCastle_Roof_2'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-511.999955,Y=-256.500162,Z=768.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-0.000045,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Roof_Strait2_C_UAID_D843AE8E0CE50F5202_1224749880.BoundingBoxComponent'"
+            CachedMaxDrawDistance=29001.679688
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Roof_Strait2_C_UAID_D843AE8E0CE50F5202_1224749880.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=29001.679688
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         NavObstacles(0)=(LocalBounds=(Min=(X=-256.000000,Y=0.000000,Z=-20.000000),Max=(X=256.000000,Y=100.000000,Z=50.000000),IsValid=True),ObstacleType=UnwalkableHuskOnly)
+         NavObstacles(1)=(LocalBounds=(Min=(X=-320.000000,Y=-320.000000,Z=-150.000000),Max=(X=64.000000,Y=64.000000,Z=150.000000),IsValid=True),ObstacleType=SmashOnlyLowHeight)
+         NavObstacles(2)=(LocalBounds=(Min=(X=-64.000000,Y=-320.000000,Z=-150.000000),Max=(X=320.000000,Y=64.000000,Z=150.000000),IsValid=True),ObstacleType=SmashOnlyLowHeight)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=29001.679688
+         DataVersion=1
+         SavedActorGuid=84F68777410F47BF6B51E2A05A76F26C
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="IceCastle_Roof_Strait2_C40"
+      End Actor
+      Begin Actor Class=/Game/Playgrounds/Environments/Sets/IceCastle/IceCastle_Roof_Strait2.IceCastle_Roof_Strait2_C Name=IceCastle_Roof_Strait2_C_UAID_D843AE8E0CE50F5202_1224701855 Archetype="/Game/Playgrounds/Environments/Sets/IceCastle/IceCastle_Roof_Strait2.IceCastle_Roof_Strait2_C'/Game/Playgrounds/Environments/Sets/IceCastle/IceCastle_Roof_Strait2.Default__IceCastle_Roof_Strait2_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Castle Tower A" ExportPath="/Game/Playgrounds/Environments/Sets/IceCastle/IceCastle_Roof_Strait2.IceCastle_Roof_Strait2_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Roof_Strait2_C_UAID_D843AE8E0CE50F5202_1224701855'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Playgrounds/Environments/Sets/IceCastle/IceCastle_Roof_Strait2.Default__IceCastle_Roof_Strait2_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Roof_Strait2_C_UAID_D843AE8E0CE50F5202_1224701855.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Playgrounds/Environments/Sets/IceCastle/IceCastle_Roof_Strait2.Default__IceCastle_Roof_Strait2_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Roof_Strait2_C_UAID_D843AE8E0CE50F5202_1224701855.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Playgrounds/Environments/Sets/IceCastle/IceCastle_Roof_Strait2.Default__IceCastle_Roof_Strait2_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Roof_Strait2_C_UAID_D843AE8E0CE50F5202_1224701855.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Roof_Strait2_C_UAID_D843AE8E0CE50F5202_1224701855.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_IceCastle_Roof_2'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1023.999955,Y=-256.500187,Z=768.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-0.000045,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Roof_Strait2_C_UAID_D843AE8E0CE50F5202_1224701855.BoundingBoxComponent'"
+            CachedMaxDrawDistance=29001.679688
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Roof_Strait2_C_UAID_D843AE8E0CE50F5202_1224701855.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=29001.679688
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         NavObstacles(0)=(LocalBounds=(Min=(X=-256.000000,Y=0.000000,Z=-20.000000),Max=(X=256.000000,Y=100.000000,Z=50.000000),IsValid=True),ObstacleType=UnwalkableHuskOnly)
+         NavObstacles(1)=(LocalBounds=(Min=(X=-320.000000,Y=-320.000000,Z=-150.000000),Max=(X=64.000000,Y=64.000000,Z=150.000000),IsValid=True),ObstacleType=SmashOnlyLowHeight)
+         NavObstacles(2)=(LocalBounds=(Min=(X=-64.000000,Y=-320.000000,Z=-150.000000),Max=(X=320.000000,Y=64.000000,Z=150.000000),IsValid=True),ObstacleType=SmashOnlyLowHeight)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=29001.679688
+         DataVersion=1
+         SavedActorGuid=170A25684EEA465AF115FBB763AAEC89
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="IceCastle_Roof_Strait2_C41"
+      End Actor
+      Begin Actor Class=/Game/Playgrounds/Environments/Sets/IceCastle/IceCastle_Roof_Strait2.IceCastle_Roof_Strait2_C Name=IceCastle_Roof_Strait2_C_UAID_D843AE8E0CE50F5202_1224727869 Archetype="/Game/Playgrounds/Environments/Sets/IceCastle/IceCastle_Roof_Strait2.IceCastle_Roof_Strait2_C'/Game/Playgrounds/Environments/Sets/IceCastle/IceCastle_Roof_Strait2.Default__IceCastle_Roof_Strait2_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Castle Tower A" ExportPath="/Game/Playgrounds/Environments/Sets/IceCastle/IceCastle_Roof_Strait2.IceCastle_Roof_Strait2_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Roof_Strait2_C_UAID_D843AE8E0CE50F5202_1224727869'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Playgrounds/Environments/Sets/IceCastle/IceCastle_Roof_Strait2.Default__IceCastle_Roof_Strait2_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Roof_Strait2_C_UAID_D843AE8E0CE50F5202_1224727869.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Playgrounds/Environments/Sets/IceCastle/IceCastle_Roof_Strait2.Default__IceCastle_Roof_Strait2_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Roof_Strait2_C_UAID_D843AE8E0CE50F5202_1224727869.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Playgrounds/Environments/Sets/IceCastle/IceCastle_Roof_Strait2.Default__IceCastle_Roof_Strait2_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Roof_Strait2_C_UAID_D843AE8E0CE50F5202_1224727869.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Roof_Strait2_C_UAID_D843AE8E0CE50F5202_1224727869.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_IceCastle_Roof_2'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-511.999743,Y=-256.500162,Z=768.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Roof_Strait2_C_UAID_D843AE8E0CE50F5202_1224727869.BoundingBoxComponent'"
+            CachedMaxDrawDistance=29001.679688
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Roof_Strait2_C_UAID_D843AE8E0CE50F5202_1224727869.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=29001.679688
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         NavObstacles(0)=(LocalBounds=(Min=(X=-256.000000,Y=0.000000,Z=-20.000000),Max=(X=256.000000,Y=100.000000,Z=50.000000),IsValid=True),ObstacleType=UnwalkableHuskOnly)
+         NavObstacles(1)=(LocalBounds=(Min=(X=-320.000000,Y=-320.000000,Z=-150.000000),Max=(X=64.000000,Y=64.000000,Z=150.000000),IsValid=True),ObstacleType=SmashOnlyLowHeight)
+         NavObstacles(2)=(LocalBounds=(Min=(X=-64.000000,Y=-320.000000,Z=-150.000000),Max=(X=320.000000,Y=64.000000,Z=150.000000),IsValid=True),ObstacleType=SmashOnlyLowHeight)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=29001.679688
+         DataVersion=1
+         SavedActorGuid=11E67768418B56D0EC6E368E6820B184
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="IceCastle_Roof_Strait2_C42"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.IceCastle_Wall1_C Name=IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224735873 Archetype="/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.IceCastle_Wall1_C'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Castle Tower A" ExportPath="/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.IceCastle_Wall1_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224735873'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224735873.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224735873.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224735873.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224735873.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_IceCastle_Wall1_2'"
+            CachedMaxDrawDistance=23245.019531
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1279.999756,Y=-0.500200,Z=384.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=89.999993,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224735873.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23245.019531
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224735873.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23245.019531
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=23245.019531
+         DataVersion=1
+         SavedActorGuid=E6F351044784552A2931C5ADB25E536E
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="IceCastle_Wall1_C591"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.IceCastle_Wall1_C Name=IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224712861 Archetype="/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.IceCastle_Wall1_C'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Castle Tower A" ExportPath="/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.IceCastle_Wall1_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224712861'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224712861.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224712861.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224712861.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224712861.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_IceCastle_Wall1_2'"
+            CachedMaxDrawDistance=23245.019531
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1023.999718,Y=-768.500187,Z=384.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224712861.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23245.019531
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224712861.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23245.019531
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=23245.019531
+         DataVersion=1
+         SavedActorGuid=E1F1EC4841EE06C94F396797313E6E98
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="IceCastle_Wall1_C592"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.IceCastle_Wall1_C Name=IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224740875 Archetype="/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.IceCastle_Wall1_C'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Castle Tower A" ExportPath="/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.IceCastle_Wall1_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224740875'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224740875.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224740875.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224740875.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224740875.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_IceCastle_Wall1_2'"
+            CachedMaxDrawDistance=23245.019531
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1023.999718,Y=-768.500187,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224740875.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23245.019531
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224740875.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23245.019531
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         EditorOnlyInstanceTags=(GameplayTags=((TagName="BuildingActor.FailedPhysicsObjectCookLandscapeEmbeddingValidation")))
+         CullDistance=23245.019531
+         StaticGameplayTags=(GameplayTags=((TagName="BuildingActor.FailedPhysicsObjectCookLandscapeEmbeddingValidation"),(TagName="Building.Type.All.Wall")))
+         DataVersion=1
+         SavedActorGuid=58B1C5454FB0338B6E95C4B4A5DEF07E
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="IceCastle_Wall1_C593"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.IceCastle_Wall1_C Name=IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224746878 Archetype="/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.IceCastle_Wall1_C'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Castle Tower A" ExportPath="/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.IceCastle_Wall1_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224746878'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224746878.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224746878.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224746878.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224746878.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_IceCastle_Wall1_2'"
+            CachedMaxDrawDistance=23245.019531
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1279.999731,Y=-512.500200,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=89.999993,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224746878.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23245.019531
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224746878.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23245.019531
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=23245.019531
+         DataVersion=1
+         SavedActorGuid=8C60562E4CDD9CB341A94D97B9222476
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="IceCastle_Wall1_C594"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.IceCastle_Wall1_C Name=IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224707858 Archetype="/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.IceCastle_Wall1_C'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Castle Tower A" ExportPath="/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.IceCastle_Wall1_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224707858'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224707858.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224707858.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224707858.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224707858.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_IceCastle_Wall1_2'"
+            CachedMaxDrawDistance=23245.019531
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1279.999756,Y=-0.500200,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=89.999993,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224707858.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23245.019531
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224707858.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23245.019531
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         EditorOnlyInstanceTags=(GameplayTags=((TagName="BuildingActor.FailedPhysicsObjectCookLandscapeEmbeddingValidation")))
+         CullDistance=23245.019531
+         StaticGameplayTags=(GameplayTags=((TagName="BuildingActor.FailedPhysicsObjectCookLandscapeEmbeddingValidation"),(TagName="Building.Type.All.Wall")))
+         DataVersion=1
+         SavedActorGuid=6831A72D43E26EE4CF0D928137EF4B6B
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="IceCastle_Wall1_C595"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.IceCastle_Wall1_C Name=IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224730870 Archetype="/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.IceCastle_Wall1_C'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Castle Tower A" ExportPath="/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.IceCastle_Wall1_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224730870'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224730870.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224730870.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224730870.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224730870.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_IceCastle_Wall1_2'"
+            CachedMaxDrawDistance=23245.019531
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-511.999768,Y=255.499838,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-0.000045,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224730870.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23245.019531
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224730870.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23245.019531
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         EditorOnlyInstanceTags=(GameplayTags=((TagName="BuildingActor.FailedPhysicsObjectCookLandscapeEmbeddingValidation")))
+         CullDistance=23245.019531
+         StaticGameplayTags=(GameplayTags=((TagName="BuildingActor.FailedPhysicsObjectCookLandscapeEmbeddingValidation"),(TagName="Building.Type.All.Wall")))
+         DataVersion=1
+         SavedActorGuid=C83F799E4A60794B467B7690000046B3
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="IceCastle_Wall1_C596"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.IceCastle_Wall1_C Name=IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224717864 Archetype="/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.IceCastle_Wall1_C'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Castle Tower A" ExportPath="/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.IceCastle_Wall1_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224717864'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224717864.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224717864.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224717864.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224717864.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_IceCastle_Wall1_2'"
+            CachedMaxDrawDistance=23245.019531
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1023.999768,Y=255.499813,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-0.000045,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224717864.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23245.019531
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224717864.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23245.019531
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         EditorOnlyInstanceTags=(GameplayTags=((TagName="BuildingActor.FailedPhysicsObjectCookLandscapeEmbeddingValidation")))
+         CullDistance=23245.019531
+         StaticGameplayTags=(GameplayTags=((TagName="BuildingActor.FailedPhysicsObjectCookLandscapeEmbeddingValidation"),(TagName="Building.Type.All.Wall")))
+         DataVersion=1
+         SavedActorGuid=5455B50C45659B0717E41B9F81055F42
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="IceCastle_Wall1_C597"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.IceCastle_Wall1_C Name=IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224721866 Archetype="/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.IceCastle_Wall1_C'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Castle Tower A" ExportPath="/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.IceCastle_Wall1_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224721866'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224721866.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224721866.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224721866.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224721866.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_IceCastle_Wall1_2'"
+            CachedMaxDrawDistance=23245.019531
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-255.999756,Y=-0.500150,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000022,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224721866.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23245.019531
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224721866.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23245.019531
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         EditorOnlyInstanceTags=(GameplayTags=((TagName="BuildingActor.FailedPhysicsObjectCookLandscapeEmbeddingValidation")))
+         CullDistance=23245.019531
+         StaticGameplayTags=(GameplayTags=((TagName="BuildingActor.FailedPhysicsObjectCookLandscapeEmbeddingValidation"),(TagName="Building.Type.All.Wall")))
+         DataVersion=1
+         SavedActorGuid=1DFC174B4E8C0222B37684B485910DDA
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="IceCastle_Wall1_C598"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.IceCastle_Wall1_C Name=IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224716863 Archetype="/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.IceCastle_Wall1_C'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Castle Tower A" ExportPath="/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.IceCastle_Wall1_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224716863'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224716863.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224716863.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224716863.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224716863.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_IceCastle_Wall1_2'"
+            CachedMaxDrawDistance=23245.019531
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-255.999731,Y=-512.500150,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000022,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224716863.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23245.019531
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224716863.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23245.019531
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         EditorOnlyInstanceTags=(GameplayTags=((TagName="BuildingActor.FailedPhysicsObjectCookLandscapeEmbeddingValidation")))
+         CullDistance=23245.019531
+         StaticGameplayTags=(GameplayTags=((TagName="BuildingActor.FailedPhysicsObjectCookLandscapeEmbeddingValidation"),(TagName="Building.Type.All.Wall")))
+         DataVersion=1
+         SavedActorGuid=2D56BCA94FF91B5E84F687BDC414E7ED
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="IceCastle_Wall1_C599"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.IceCastle_Wall1_C Name=IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224686849 Archetype="/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.IceCastle_Wall1_C'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Castle Tower A" ExportPath="/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.IceCastle_Wall1_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224686849'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224686849.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224686849.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224686849.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224686849.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_IceCastle_Wall1_2'"
+            CachedMaxDrawDistance=23245.019531
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-511.999718,Y=-768.500162,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224686849.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23245.019531
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224686849.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23245.019531
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         EditorOnlyInstanceTags=(GameplayTags=((TagName="BuildingActor.FailedPhysicsObjectCookLandscapeEmbeddingValidation")))
+         CullDistance=23245.019531
+         StaticGameplayTags=(GameplayTags=((TagName="BuildingActor.FailedPhysicsObjectCookLandscapeEmbeddingValidation"),(TagName="Building.Type.All.Wall")))
+         DataVersion=1
+         SavedActorGuid=421CA5754E463F5210109CB69BD4ADC1
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="IceCastle_Wall1_C600"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.IceCastle_Wall1_C Name=IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224705857 Archetype="/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.IceCastle_Wall1_C'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Castle Tower A" ExportPath="/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.IceCastle_Wall1_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224705857'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224705857.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224705857.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224705857.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224705857.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_IceCastle_Wall1_2'"
+            CachedMaxDrawDistance=23245.019531
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-511.999743,Y=-256.500162,Z=768.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224705857.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23245.019531
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224705857.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23245.019531
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=23245.019531
+         DataVersion=1
+         SavedActorGuid=9A517BC9480E0584BE1CC6BB232F4E81
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="IceCastle_Wall1_C603"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.IceCastle_Wall1_C Name=IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224693852 Archetype="/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.IceCastle_Wall1_C'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Castle Tower A" ExportPath="/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.IceCastle_Wall1_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224693852'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224693852.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224693852.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224693852.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224693852.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_IceCastle_Wall1_2'"
+            CachedMaxDrawDistance=23245.019531
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1279.999731,Y=-512.500200,Z=384.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=89.999993,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224693852.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23245.019531
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224693852.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23245.019531
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=23245.019531
+         DataVersion=1
+         SavedActorGuid=AE9DC7AD44F9931C9B1FDC91C3EA710D
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="IceCastle_Wall1_C604"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.IceCastle_Wall1_C Name=IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224683848 Archetype="/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.IceCastle_Wall1_C'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Castle Tower A" ExportPath="/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.IceCastle_Wall1_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224683848'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224683848.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224683848.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224683848.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224683848.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_IceCastle_Wall1_2'"
+            CachedMaxDrawDistance=23245.019531
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1279.999731,Y=-512.500200,Z=768.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=89.999993,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224683848.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23245.019531
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224683848.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23245.019531
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=23245.019531
+         DataVersion=1
+         SavedActorGuid=211A1A134788121C08E1EA9C63276AFC
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="IceCastle_Wall1_C605"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.IceCastle_Wall1_C Name=IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224725868 Archetype="/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.IceCastle_Wall1_C'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Castle Tower A" ExportPath="/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.IceCastle_Wall1_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224725868'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224725868.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224725868.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224725868.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224725868.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_IceCastle_Wall1_2'"
+            CachedMaxDrawDistance=23245.019531
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1023.999718,Y=-768.500187,Z=768.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224725868.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23245.019531
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224725868.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23245.019531
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=23245.019531
+         DataVersion=1
+         SavedActorGuid=9BDB83BD4D016E6FC2E2DBAF5B260E0C
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="IceCastle_Wall1_C606"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.IceCastle_Wall1_C Name=IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224719865 Archetype="/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.IceCastle_Wall1_C'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Castle Tower A" ExportPath="/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.IceCastle_Wall1_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224719865'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224719865.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224719865.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall1.Default__IceCastle_Wall1_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224719865.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224719865.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_IceCastle_Wall1_2'"
+            CachedMaxDrawDistance=23245.019531
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-767.999731,Y=-512.500175,Z=768.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000022,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224719865.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23245.019531
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall1_C_UAID_D843AE8E0CE50F5202_1224719865.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23245.019531
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=23245.019531
+         DataVersion=1
+         SavedActorGuid=0A569DCC4F60596D543C3C92E98C98C5
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="IceCastle_Wall1_C607"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall_Arch1.IceCastle_Wall_Arch1_C Name=IceCastle_Wall_Arch1_C_UAID_D843AE8E0CE50F5202_1224737874 Archetype="/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall_Arch1.IceCastle_Wall_Arch1_C'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall_Arch1.Default__IceCastle_Wall_Arch1_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Castle Tower A" ExportPath="/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall_Arch1.IceCastle_Wall_Arch1_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall_Arch1_C_UAID_D843AE8E0CE50F5202_1224737874'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall_Arch1.Default__IceCastle_Wall_Arch1_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall_Arch1_C_UAID_D843AE8E0CE50F5202_1224737874.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall_Arch1.Default__IceCastle_Wall_Arch1_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall_Arch1_C_UAID_D843AE8E0CE50F5202_1224737874.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall_Arch1.Default__IceCastle_Wall_Arch1_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall_Arch1_C_UAID_D843AE8E0CE50F5202_1224737874.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall_Arch1_C_UAID_D843AE8E0CE50F5202_1224737874.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_IceCastle_Arch_2'"
+            CachedMaxDrawDistance=23856.445312
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-767.999731,Y=-512.500175,Z=384.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=89.999993,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall_Arch1_C_UAID_D843AE8E0CE50F5202_1224737874.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23856.445312
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall_Arch1_C_UAID_D843AE8E0CE50F5202_1224737874.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23856.445312
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=23856.445312
+         bHasCustomAttackLocation=True
+         DataVersion=1
+         SavedActorGuid=D8B3D38140CDA87A2EB5B88ACA2366D1
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="IceCastle_Wall_Arch1_C180"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall_Arch1.IceCastle_Wall_Arch1_C Name=IceCastle_Wall_Arch1_C_UAID_D843AE8E0CE50F5202_1224731871 Archetype="/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall_Arch1.IceCastle_Wall_Arch1_C'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall_Arch1.Default__IceCastle_Wall_Arch1_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Castle Tower A" ExportPath="/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall_Arch1.IceCastle_Wall_Arch1_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall_Arch1_C_UAID_D843AE8E0CE50F5202_1224731871'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall_Arch1.Default__IceCastle_Wall_Arch1_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall_Arch1_C_UAID_D843AE8E0CE50F5202_1224731871.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall_Arch1.Default__IceCastle_Wall_Arch1_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall_Arch1_C_UAID_D843AE8E0CE50F5202_1224731871.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Wall_Arch1.Default__IceCastle_Wall_Arch1_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall_Arch1_C_UAID_D843AE8E0CE50F5202_1224731871.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall_Arch1_C_UAID_D843AE8E0CE50F5202_1224731871.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_IceCastle_Arch_2'"
+            CachedMaxDrawDistance=23856.445312
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-511.999743,Y=-256.500162,Z=384.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-0.000045,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall_Arch1_C_UAID_D843AE8E0CE50F5202_1224731871.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23856.445312
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Wall_Arch1_C_UAID_D843AE8E0CE50F5202_1224731871.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23856.445312
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=23856.445312
+         bHasCustomAttackLocation=True
+         DataVersion=1
+         SavedActorGuid=7863FB0E4D2D6E4FF9A00AB904B5FB25
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="IceCastle_Wall_Arch1_C181"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Window1.IceCastle_Window1_C Name=IceCastle_Window1_C_UAID_D843AE8E0CE50F5202_1224723867 Archetype="/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Window1.IceCastle_Window1_C'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Window1.Default__IceCastle_Window1_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Castle Tower A" ExportPath="/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Window1.IceCastle_Window1_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Window1_C_UAID_D843AE8E0CE50F5202_1224723867'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Window1.Default__IceCastle_Window1_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Window1_C_UAID_D843AE8E0CE50F5202_1224723867.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Window1.Default__IceCastle_Window1_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Window1_C_UAID_D843AE8E0CE50F5202_1224723867.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Window1.Default__IceCastle_Window1_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Window1_C_UAID_D843AE8E0CE50F5202_1224723867.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Window1_C_UAID_D843AE8E0CE50F5202_1224723867.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_IceCastle_Window_2'"
+            CachedMaxDrawDistance=23255.371094
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-255.999756,Y=-0.500150,Z=384.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000022,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Window1_C_UAID_D843AE8E0CE50F5202_1224723867.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23255.371094
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Window1_C_UAID_D843AE8E0CE50F5202_1224723867.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23255.371094
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=23255.371094
+         bHasCustomAttackLocation=True
+         DataVersion=1
+         SavedActorGuid=49A117504C6A55EB0094E4A773D83B4A
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="IceCastle_Window1_C46"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Window1.IceCastle_Window1_C Name=IceCastle_Window1_C_UAID_D843AE8E0CE50F5202_1224734872 Archetype="/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Window1.IceCastle_Window1_C'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Window1.Default__IceCastle_Window1_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Castle Tower A" ExportPath="/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Window1.IceCastle_Window1_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Window1_C_UAID_D843AE8E0CE50F5202_1224734872'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Window1.Default__IceCastle_Window1_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Window1_C_UAID_D843AE8E0CE50F5202_1224734872.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Window1.Default__IceCastle_Window1_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Window1_C_UAID_D843AE8E0CE50F5202_1224734872.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Window1.Default__IceCastle_Window1_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Window1_C_UAID_D843AE8E0CE50F5202_1224734872.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Window1_C_UAID_D843AE8E0CE50F5202_1224734872.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_IceCastle_Window_2'"
+            CachedMaxDrawDistance=23255.371094
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-511.999768,Y=255.499838,Z=384.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-0.000045,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Window1_C_UAID_D843AE8E0CE50F5202_1224734872.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23255.371094
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Window1_C_UAID_D843AE8E0CE50F5202_1224734872.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23255.371094
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=23255.371094
+         bHasCustomAttackLocation=True
+         DataVersion=1
+         SavedActorGuid=69F1832B4FD6C9171E87DE9C41238F66
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="IceCastle_Window1_C47"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Window1.IceCastle_Window1_C Name=IceCastle_Window1_C_UAID_D843AE8E0CE50F5202_1224703856 Archetype="/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Window1.IceCastle_Window1_C'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Window1.Default__IceCastle_Window1_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Castle Tower A" ExportPath="/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Window1.IceCastle_Window1_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Window1_C_UAID_D843AE8E0CE50F5202_1224703856'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Window1.Default__IceCastle_Window1_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Window1_C_UAID_D843AE8E0CE50F5202_1224703856.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Window1.Default__IceCastle_Window1_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Window1_C_UAID_D843AE8E0CE50F5202_1224703856.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/IceCastle/Walls/IceCastle_Window1.Default__IceCastle_Window1_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Window1_C_UAID_D843AE8E0CE50F5202_1224703856.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Window1_C_UAID_D843AE8E0CE50F5202_1224703856.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_IceCastle_Window_2'"
+            CachedMaxDrawDistance=23255.371094
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1023.999768,Y=255.499813,Z=384.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-0.000045,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Window1_C_UAID_D843AE8E0CE50F5202_1224703856.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23255.371094
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.IceCastle_Window1_C_UAID_D843AE8E0CE50F5202_1224703856.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23255.371094
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=23255.371094
+         bHasCustomAttackLocation=True
+         DataVersion=1
+         SavedActorGuid=CC2321D24F4E9518EDB7358B5D395D12
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="IceCastle_Window1_C48"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Stairs/SM_Boardwalk_Stair2.SM_Boardwalk_Stair2_C Name=SM_Boardwalk_Stair2_C_UAID_D843AE8E0CE50F5202_1224698854 Archetype="/Game/Building/ActorBlueprints/Stairs/SM_Boardwalk_Stair2.SM_Boardwalk_Stair2_C'/Game/Building/ActorBlueprints/Stairs/SM_Boardwalk_Stair2.Default__SM_Boardwalk_Stair2_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Castle Tower A" ExportPath="/Game/Building/ActorBlueprints/Stairs/SM_Boardwalk_Stair2.SM_Boardwalk_Stair2_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_Boardwalk_Stair2_C_UAID_D843AE8E0CE50F5202_1224698854'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Stairs/SM_Boardwalk_Stair2.Default__SM_Boardwalk_Stair2_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_Boardwalk_Stair2_C_UAID_D843AE8E0CE50F5202_1224698854.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Stairs/SM_Boardwalk_Stair2.Default__SM_Boardwalk_Stair2_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_Boardwalk_Stair2_C_UAID_D843AE8E0CE50F5202_1224698854.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Stairs/SM_Boardwalk_Stair2.Default__SM_Boardwalk_Stair2_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_Boardwalk_Stair2_C_UAID_D843AE8E0CE50F5202_1224698854.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_Boardwalk_Stair2_C_UAID_D843AE8E0CE50F5202_1224698854.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Wood_Dock_5'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-255.999731,Y=-512.500028,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000022,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_Boardwalk_Stair2_C_UAID_D843AE8E0CE50F5202_1224698854.BoundingBoxComponent'"
+            CachedMaxDrawDistance=27252.929688
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_Boardwalk_Stair2_C_UAID_D843AE8E0CE50F5202_1224698854.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=27252.929688
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         NavObstacles(0)=(LocalBounds=(Min=(X=-256.000000,Y=0.000000,Z=-20.000000),Max=(X=256.000000,Y=100.000000,Z=50.000000),IsValid=True),ObstacleType=UnwalkableHuskOnly)
+         NavObstacles(1)=(LocalBounds=(Min=(X=-320.000000,Y=-320.000000,Z=-150.000000),Max=(X=64.000000,Y=64.000000,Z=150.000000),IsValid=True),ObstacleType=SmashOnlyLowHeight)
+         NavObstacles(2)=(LocalBounds=(Min=(X=-64.000000,Y=-320.000000,Z=-150.000000),Max=(X=320.000000,Y=64.000000,Z=150.000000),IsValid=True),ObstacleType=SmashOnlyLowHeight)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         EditorOnlyInstanceTags=(GameplayTags=((TagName="BuildingActor.FailedPhysicsObjectCookLandscapeEmbeddingValidation")))
+         CullDistance=27252.929688
+         StaticGameplayTags=(GameplayTags=((TagName="BuildingActor.FailedPhysicsObjectCookLandscapeEmbeddingValidation"),(TagName="Building.Type.All.Floor"),(TagName="Building.Type.All.Stair")))
+         DataVersion=1
+         SavedActorGuid=CF48001946DB1953EC69B787D781AFF8
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_Boardwalk_Stair2_C1"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map

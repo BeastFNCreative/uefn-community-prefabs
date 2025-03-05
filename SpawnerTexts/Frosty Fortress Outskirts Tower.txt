@@ -1,0 +1,899 @@
+Begin Map
+   Begin Level
+      Begin Actor Class=/Script/FortniteGame.FortPlaysetRoot Name=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 Archetype="/Script/FortniteGame.FortPlaysetRoot'/Script/FortniteGame.Default__FortPlaysetRoot'" ActorFolderPath="Frosty Fortress Outskirts Tower" ExportPath="/Script/FortniteGame.FortPlaysetRoot'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513'"
+         Begin Object Class=/Script/Engine.SceneComponent Name="DefaultSceneRoot" Archetype="/Script/Engine.SceneComponent'/Script/FortniteGame.Default__FortPlaysetRoot:DefaultSceneRoot'" ExportPath="/Script/Engine.SceneComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513.DefaultSceneRoot'"
+         End Object
+         Begin Object Name="DefaultSceneRoot" ExportPath="/Script/Engine.SceneComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513.DefaultSceneRoot'"
+         End Object
+         SavedActorGuid=53F8D2E741C673EFC5F22FA04022459B
+         PlaysetPackagePathName="/CRP_Foundation/SetupAssets/Maps/PID_CP_Foundation_3x7_StripMallStores_01"
+         ActorLabel="Frosty Fortress Outskirts Tower"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Floor/Boardwalk_BalconyO.Boardwalk_BalconyO_C Name=Boardwalk_BalconyO_C_UAID_D843AE8E0CE50F5202_1817239788 Archetype="/Game/Building/ActorBlueprints/Floor/Boardwalk_BalconyO.Boardwalk_BalconyO_C'/Game/Building/ActorBlueprints/Floor/Boardwalk_BalconyO.Default__Boardwalk_BalconyO_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Outskirts Tower" ExportPath="/Game/Building/ActorBlueprints/Floor/Boardwalk_BalconyO.Boardwalk_BalconyO_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Boardwalk_BalconyO_C_UAID_D843AE8E0CE50F5202_1817239788'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Floor/Boardwalk_BalconyO.Default__Boardwalk_BalconyO_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Boardwalk_BalconyO_C_UAID_D843AE8E0CE50F5202_1817239788.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Floor/Boardwalk_BalconyO.Default__Boardwalk_BalconyO_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Boardwalk_BalconyO_C_UAID_D843AE8E0CE50F5202_1817239788.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Floor/Boardwalk_BalconyO.Default__Boardwalk_BalconyO_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Boardwalk_BalconyO_C_UAID_D843AE8E0CE50F5202_1817239788.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Boardwalk_BalconyO_C_UAID_D843AE8E0CE50F5202_1817239788.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Wood_Dock_5'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=768.000000,Y=512.000000,Z=384.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=89.999962,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Boardwalk_BalconyO_C_UAID_D843AE8E0CE50F5202_1817239788.BoundingBoxComponent'"
+            CachedMaxDrawDistance=16142.056641
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Boardwalk_BalconyO_C_UAID_D843AE8E0CE50F5202_1817239788.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=16142.056641
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         bShouldIgnoreForHorizontalHotspotSearch=False
+         NavObstacles(0)=(LocalBounds=(Min=(X=-291.000000,Y=-35.000000,Z=-250.000000),Max=(X=35.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashSmasherOnly)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=16142.056641
+         DataVersion=1
+         SavedActorGuid=210F75084BCFCCA6FC0F5CB7B9C1D4FC
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Boardwalk_BalconyO_C0"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Floor/Boardwalk_BalconyS.Boardwalk_BalconyS_C Name=Boardwalk_BalconyS_C_UAID_D843AE8E0CE50F5202_1817232784 Archetype="/Game/Building/ActorBlueprints/Floor/Boardwalk_BalconyS.Boardwalk_BalconyS_C'/Game/Building/ActorBlueprints/Floor/Boardwalk_BalconyS.Default__Boardwalk_BalconyS_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Outskirts Tower" ExportPath="/Game/Building/ActorBlueprints/Floor/Boardwalk_BalconyS.Boardwalk_BalconyS_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Boardwalk_BalconyS_C_UAID_D843AE8E0CE50F5202_1817232784'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Floor/Boardwalk_BalconyS.Default__Boardwalk_BalconyS_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Boardwalk_BalconyS_C_UAID_D843AE8E0CE50F5202_1817232784.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Floor/Boardwalk_BalconyS.Default__Boardwalk_BalconyS_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Boardwalk_BalconyS_C_UAID_D843AE8E0CE50F5202_1817232784.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Floor/Boardwalk_BalconyS.Default__Boardwalk_BalconyS_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Boardwalk_BalconyS_C_UAID_D843AE8E0CE50F5202_1817232784.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Boardwalk_BalconyS_C_UAID_D843AE8E0CE50F5202_1817232784.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Wood_Dock_5'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=768.000000,Z=384.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999954,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Boardwalk_BalconyS_C_UAID_D843AE8E0CE50F5202_1817232784.BoundingBoxComponent'"
+            CachedMaxDrawDistance=21727.210938
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Boardwalk_BalconyS_C_UAID_D843AE8E0CE50F5202_1817232784.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=21727.210938
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         bShouldIgnoreForHorizontalHotspotSearch=False
+         NavObstacles(0)=(LocalBounds=(Min=(X=-291.000000,Y=-35.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=21727.210938
+         DataVersion=1
+         SavedActorGuid=3D80AD11450B399C805821BAFA2DF79C
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Boardwalk_BalconyS_C0"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/Boardwalk_QuarterWallHalf.Boardwalk_QuarterWallHalf_C Name=Boardwalk_QuarterWallHalf_C_UAID_D843AE8E0CE50F5202_1817265801 Archetype="/Game/Building/ActorBlueprints/Wall/Boardwalk_QuarterWallHalf.Boardwalk_QuarterWallHalf_C'/Game/Building/ActorBlueprints/Wall/Boardwalk_QuarterWallHalf.Default__Boardwalk_QuarterWallHalf_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Outskirts Tower" ExportPath="/Game/Building/ActorBlueprints/Wall/Boardwalk_QuarterWallHalf.Boardwalk_QuarterWallHalf_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Boardwalk_QuarterWallHalf_C_UAID_D843AE8E0CE50F5202_1817265801'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Boardwalk_QuarterWallHalf.Default__Boardwalk_QuarterWallHalf_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Boardwalk_QuarterWallHalf_C_UAID_D843AE8E0CE50F5202_1817265801.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/Boardwalk_QuarterWallHalf.Default__Boardwalk_QuarterWallHalf_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Boardwalk_QuarterWallHalf_C_UAID_D843AE8E0CE50F5202_1817265801.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Boardwalk_QuarterWallHalf.Default__Boardwalk_QuarterWallHalf_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Boardwalk_QuarterWallHalf_C_UAID_D843AE8E0CE50F5202_1817265801.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Boardwalk_QuarterWallHalf_C_UAID_D843AE8E0CE50F5202_1817265801.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Wood_Dock_5'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-256.000000,Y=512.000000,Z=384.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-89.999977,Roll=0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Boardwalk_QuarterWallHalf_C_UAID_D843AE8E0CE50F5202_1817265801.BoundingBoxComponent'"
+            CachedMaxDrawDistance=11575.681641
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Boardwalk_QuarterWallHalf_C_UAID_D843AE8E0CE50F5202_1817265801.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=11575.681641
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=11575.681641
+         DataVersion=1
+         SavedActorGuid=D3A46BB84C58D4B8DBC6D490F2520C71
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Boardwalk_QuarterWallHalf_C0"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Beams_01.BP_WV_Tudor_Beams_01_C Name=BP_WV_Tudor_Beams_01_C_UAID_D843AE8E0CE50F5202_1817251794 Archetype="/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Beams_01.BP_WV_Tudor_Beams_01_C'/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Beams_01.Default__BP_WV_Tudor_Beams_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Outskirts Tower" ExportPath="/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Beams_01.BP_WV_Tudor_Beams_01_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Beams_01_C_UAID_D843AE8E0CE50F5202_1817251794'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Beams_01.Default__BP_WV_Tudor_Beams_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Beams_01_C_UAID_D843AE8E0CE50F5202_1817251794.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Beams_01.Default__BP_WV_Tudor_Beams_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Beams_01_C_UAID_D843AE8E0CE50F5202_1817251794.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Beams_01.Default__BP_WV_Tudor_Beams_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Beams_01_C_UAID_D843AE8E0CE50F5202_1817251794.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Game/Sounds/Fort_Audio_Blueprints/PropAmbientAudioComponent/FortPropAudioComponent.FortPropAudioComponent_C Name="FortPropAudioComponent" Archetype="/Game/Sounds/Fort_Audio_Blueprints/PropAmbientAudioComponent/FortPropAudioComponent.FortPropAudioComponent_C'/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Beams_01.BP_WV_Tudor_Beams_01_C:FortPropAudioComponent_GEN_VARIABLE'" ExportPath="/Game/Sounds/Fort_Audio_Blueprints/PropAmbientAudioComponent/FortPropAudioComponent.FortPropAudioComponent_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Beams_01_C_UAID_D843AE8E0CE50F5202_1817251794.FortPropAudioComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Beams_01_C_UAID_D843AE8E0CE50F5202_1817251794.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_WV_Tudor_Walls_01_NoGradient_2'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=256.000000,Z=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Beams_01_C_UAID_D843AE8E0CE50F5202_1817251794.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22944.474609
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Beams_01_C_UAID_D843AE8E0CE50F5202_1817251794.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22944.474609
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="FortPropAudioComponent" ExportPath="/Game/Sounds/Fort_Audio_Blueprints/PropAmbientAudioComponent/FortPropAudioComponent.FortPropAudioComponent_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Beams_01_C_UAID_D843AE8E0CE50F5202_1817251794.FortPropAudioComponent'"
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         FortPropAudioComponent="FortPropAudioComponent"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22944.474609
+         bHasCustomAttackLocation=True
+         DataVersion=1
+         SavedActorGuid=F9D3ACB34FC15F3423355DB553E1D0A3
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="BP_WV_Tudor_Beams_01_C0"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Door_02.BP_WV_Tudor_Door_02_C Name=BP_WV_Tudor_Door_02_C_UAID_D843AE8E0CE50F5202_1817255796 Archetype="/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Door_02.BP_WV_Tudor_Door_02_C'/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Door_02.Default__BP_WV_Tudor_Door_02_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Outskirts Tower" ExportPath="/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Door_02.BP_WV_Tudor_Door_02_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Door_02_C_UAID_D843AE8E0CE50F5202_1817255796'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Door_02.Default__BP_WV_Tudor_Door_02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Door_02_C_UAID_D843AE8E0CE50F5202_1817255796.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Door_02.Default__BP_WV_Tudor_Door_02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Door_02_C_UAID_D843AE8E0CE50F5202_1817255796.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Door_02.Default__BP_WV_Tudor_Door_02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Door_02_C_UAID_D843AE8E0CE50F5202_1817255796.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Script/FortniteAI.FortDoorLinkComponent Name="DoorSmartLinkComp" ExportPath="/Script/FortniteAI.FortDoorLinkComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Door_02_C_UAID_D843AE8E0CE50F5202_1817255796.DoorSmartLinkComp'"
+         End Object
+         Begin Object Class=/Game/Building/ActorBlueprints/Wall/DoorSoundIndicatorComponent.DoorSoundIndicatorComponent_C Name="DoorSoundIndicator" ExportPath="/Game/Building/ActorBlueprints/Wall/DoorSoundIndicatorComponent.DoorSoundIndicatorComponent_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Door_02_C_UAID_D843AE8E0CE50F5202_1817255796.DoorSoundIndicator'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Door_02_C_UAID_D843AE8E0CE50F5202_1817255796.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_WV_Tudor_Walls_01_2'"
+            CachedMaxDrawDistance=23360.984375
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=256.000000,Z=384.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Door_02_C_UAID_D843AE8E0CE50F5202_1817255796.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23360.984375
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Door_02_C_UAID_D843AE8E0CE50F5202_1817255796.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23360.984375
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="DoorSmartLinkComp" ExportPath="/Script/FortniteAI.FortDoorLinkComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Door_02_C_UAID_D843AE8E0CE50F5202_1817255796.DoorSmartLinkComp'"
+            CustomLinkId=(Id=10157254925331151330)
+            AuxiliaryCustomLinkId=(Id=7779583076680755382)
+            DisabledAreaClass="/Script/CoreUObject.Class'/Script/NavigationSystem.NavArea_Default'"
+            LinkRelativeStart=(X=-95.199997,Y=130.000000,Z=0.000000)
+            LinkRelativeEnd=(X=-95.199997,Y=-130.000000,Z=0.000000)
+            bLinkEnabled=False
+            ObstacleOffset=(X=-95.199997,Y=0.000000,Z=0.000000)
+            ObstacleExtent=(X=38.400002,Y=17.500000,Z=153.600002)
+            ObstacleAreaClass="/Script/Engine.BlueprintGeneratedClass'/Game/Building/NavigationAreas/FortMetaNavWallAreaDef.FortMetaNavWallAreaDef_C'"
+         End Object
+         Begin Object Name="DoorSoundIndicator" ExportPath="/Game/Building/ActorBlueprints/Wall/DoorSoundIndicatorComponent.DoorSoundIndicatorComponent_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Door_02_C_UAID_D843AE8E0CE50F5202_1817255796.DoorSoundIndicator'"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=23360.984375
+         StaticGameplayTags=(GameplayTags=((TagName="Building.Type.All.Wall"),(TagName="Building.Type.Door")))
+         DataVersion=1
+         SavedActorGuid=504DF63A4F52EAB8A265EBB5179824C4
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="BP_WV_Tudor_Door_02_C0"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Roof_03_Edge_01.BP_WV_Tudor_Roof_03_Edge_01_C Name=BP_WV_Tudor_Roof_03_Edge_01_C_UAID_D843AE8E0CE50F5202_1817274806 Archetype="/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Roof_03_Edge_01.BP_WV_Tudor_Roof_03_Edge_01_C'/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Roof_03_Edge_01.Default__BP_WV_Tudor_Roof_03_Edge_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Outskirts Tower" ExportPath="/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Roof_03_Edge_01.BP_WV_Tudor_Roof_03_Edge_01_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Roof_03_Edge_01_C_UAID_D843AE8E0CE50F5202_1817274806'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Roof_03_Edge_01.Default__BP_WV_Tudor_Roof_03_Edge_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Roof_03_Edge_01_C_UAID_D843AE8E0CE50F5202_1817274806.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Roof_03_Edge_01.Default__BP_WV_Tudor_Roof_03_Edge_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Roof_03_Edge_01_C_UAID_D843AE8E0CE50F5202_1817274806.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Roof_03_Edge_01.Default__BP_WV_Tudor_Roof_03_Edge_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Roof_03_Edge_01_C_UAID_D843AE8E0CE50F5202_1817274806.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Roof_03_Edge_01_C_UAID_D843AE8E0CE50F5202_1817274806.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_WV_Tudor_Roofs_01_2'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-256.000000,Y=256.000000,Z=768.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=89.999962,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Roof_03_Edge_01_C_UAID_D843AE8E0CE50F5202_1817274806.BoundingBoxComponent'"
+            CachedMaxDrawDistance=4316.575195
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Roof_03_Edge_01_C_UAID_D843AE8E0CE50F5202_1817274806.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=4316.575195
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=4316.575195
+         DataVersion=1
+         SavedActorGuid=3EB9210E4F6EF00C791CE39B8B9DEA3B
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="BP_WV_Tudor_Roof_03_Edge_01_C0"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Roof_03_Edge_01.BP_WV_Tudor_Roof_03_Edge_01_C Name=BP_WV_Tudor_Roof_03_Edge_01_C_UAID_D843AE8E0CE50F5202_1817229783 Archetype="/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Roof_03_Edge_01.BP_WV_Tudor_Roof_03_Edge_01_C'/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Roof_03_Edge_01.Default__BP_WV_Tudor_Roof_03_Edge_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Outskirts Tower" ExportPath="/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Roof_03_Edge_01.BP_WV_Tudor_Roof_03_Edge_01_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Roof_03_Edge_01_C_UAID_D843AE8E0CE50F5202_1817229783'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Roof_03_Edge_01.Default__BP_WV_Tudor_Roof_03_Edge_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Roof_03_Edge_01_C_UAID_D843AE8E0CE50F5202_1817229783.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Roof_03_Edge_01.Default__BP_WV_Tudor_Roof_03_Edge_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Roof_03_Edge_01_C_UAID_D843AE8E0CE50F5202_1817229783.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Roof_03_Edge_01.Default__BP_WV_Tudor_Roof_03_Edge_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Roof_03_Edge_01_C_UAID_D843AE8E0CE50F5202_1817229783.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Roof_03_Edge_01_C_UAID_D843AE8E0CE50F5202_1817229783.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_WV_Tudor_Roofs_01_2'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-256.000000,Y=-256.000000,Z=768.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=89.999939,Roll=-0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Roof_03_Edge_01_C_UAID_D843AE8E0CE50F5202_1817229783.BoundingBoxComponent'"
+            CachedMaxDrawDistance=4316.575195
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Roof_03_Edge_01_C_UAID_D843AE8E0CE50F5202_1817229783.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=4316.575195
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=4316.575195
+         DataVersion=1
+         SavedActorGuid=CEBFCF484AC47270B853808F8EACD7FF
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="BP_WV_Tudor_Roof_03_Edge_01_C1"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Roof_03_Edge_01.BP_WV_Tudor_Roof_03_Edge_01_C Name=BP_WV_Tudor_Roof_03_Edge_01_C_UAID_D843AE8E0CE50F5202_1817271804 Archetype="/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Roof_03_Edge_01.BP_WV_Tudor_Roof_03_Edge_01_C'/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Roof_03_Edge_01.Default__BP_WV_Tudor_Roof_03_Edge_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Outskirts Tower" ExportPath="/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Roof_03_Edge_01.BP_WV_Tudor_Roof_03_Edge_01_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Roof_03_Edge_01_C_UAID_D843AE8E0CE50F5202_1817271804'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Roof_03_Edge_01.Default__BP_WV_Tudor_Roof_03_Edge_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Roof_03_Edge_01_C_UAID_D843AE8E0CE50F5202_1817271804.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Roof_03_Edge_01.Default__BP_WV_Tudor_Roof_03_Edge_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Roof_03_Edge_01_C_UAID_D843AE8E0CE50F5202_1817271804.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Roof_03_Edge_01.Default__BP_WV_Tudor_Roof_03_Edge_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Roof_03_Edge_01_C_UAID_D843AE8E0CE50F5202_1817271804.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Roof_03_Edge_01_C_UAID_D843AE8E0CE50F5202_1817271804.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_WV_Tudor_Roofs_01_2'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=256.000000,Y=256.000000,Z=768.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000053,Roll=0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Roof_03_Edge_01_C_UAID_D843AE8E0CE50F5202_1817271804.BoundingBoxComponent'"
+            CachedMaxDrawDistance=4316.575195
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Roof_03_Edge_01_C_UAID_D843AE8E0CE50F5202_1817271804.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=4316.575195
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=4316.575195
+         DataVersion=1
+         SavedActorGuid=9067887C43B34120DDC18D8005DF279B
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="BP_WV_Tudor_Roof_03_Edge_01_C2"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Roof_03_Edge_01.BP_WV_Tudor_Roof_03_Edge_01_C Name=BP_WV_Tudor_Roof_03_Edge_01_C_UAID_D843AE8E0CE50F5202_1817245791 Archetype="/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Roof_03_Edge_01.BP_WV_Tudor_Roof_03_Edge_01_C'/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Roof_03_Edge_01.Default__BP_WV_Tudor_Roof_03_Edge_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Outskirts Tower" ExportPath="/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Roof_03_Edge_01.BP_WV_Tudor_Roof_03_Edge_01_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Roof_03_Edge_01_C_UAID_D843AE8E0CE50F5202_1817245791'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Roof_03_Edge_01.Default__BP_WV_Tudor_Roof_03_Edge_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Roof_03_Edge_01_C_UAID_D843AE8E0CE50F5202_1817245791.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Roof_03_Edge_01.Default__BP_WV_Tudor_Roof_03_Edge_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Roof_03_Edge_01_C_UAID_D843AE8E0CE50F5202_1817245791.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Roof_03_Edge_01.Default__BP_WV_Tudor_Roof_03_Edge_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Roof_03_Edge_01_C_UAID_D843AE8E0CE50F5202_1817245791.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Roof_03_Edge_01_C_UAID_D843AE8E0CE50F5202_1817245791.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_WV_Tudor_Roofs_01_2'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=256.000000,Y=-256.000000,Z=768.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000053,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Roof_03_Edge_01_C_UAID_D843AE8E0CE50F5202_1817245791.BoundingBoxComponent'"
+            CachedMaxDrawDistance=4316.575195
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Roof_03_Edge_01_C_UAID_D843AE8E0CE50F5202_1817245791.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=4316.575195
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=4316.575195
+         DataVersion=1
+         SavedActorGuid=676A96924C453E68D3B2B5A1F8200C24
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="BP_WV_Tudor_Roof_03_Edge_01_C3"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Roof_Edge_S.BP_WV_Tudor_Roof_Edge_S_C Name=BP_WV_Tudor_Roof_Edge_S_C_UAID_D843AE8E0CE50F5202_1817249793 Archetype="/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Roof_Edge_S.BP_WV_Tudor_Roof_Edge_S_C'/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Roof_Edge_S.Default__BP_WV_Tudor_Roof_Edge_S_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Outskirts Tower" ExportPath="/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Roof_Edge_S.BP_WV_Tudor_Roof_Edge_S_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Roof_Edge_S_C_UAID_D843AE8E0CE50F5202_1817249793'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Roof_Edge_S.Default__BP_WV_Tudor_Roof_Edge_S_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Roof_Edge_S_C_UAID_D843AE8E0CE50F5202_1817249793.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Roof_Edge_S.Default__BP_WV_Tudor_Roof_Edge_S_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Roof_Edge_S_C_UAID_D843AE8E0CE50F5202_1817249793.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Roof_Edge_S.Default__BP_WV_Tudor_Roof_Edge_S_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Roof_Edge_S_C_UAID_D843AE8E0CE50F5202_1817249793.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Roof_Edge_S_C_UAID_D843AE8E0CE50F5202_1817249793.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_WV_Tudor_Roofs_01_2'"
+            RelativeLocation=(X=-256.000000,Y=0.000000,Z=768.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=89.999962,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Roof_Edge_S_C_UAID_D843AE8E0CE50F5202_1817249793.BoundingBoxComponent'"
+            CachedMaxDrawDistance=19882.417969
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Roof_Edge_S_C_UAID_D843AE8E0CE50F5202_1817249793.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=19882.417969
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=19882.417969
+         DataVersion=1
+         SavedActorGuid=FD2BF25149A740C1EF8277AC7AAE3AA8
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="BP_WV_Tudor_Roof_Edge_S_C0"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Roof_Edge_S.BP_WV_Tudor_Roof_Edge_S_C Name=BP_WV_Tudor_Roof_Edge_S_C_UAID_D843AE8E0CE50F5202_1817272805 Archetype="/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Roof_Edge_S.BP_WV_Tudor_Roof_Edge_S_C'/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Roof_Edge_S.Default__BP_WV_Tudor_Roof_Edge_S_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Outskirts Tower" ExportPath="/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Roof_Edge_S.BP_WV_Tudor_Roof_Edge_S_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Roof_Edge_S_C_UAID_D843AE8E0CE50F5202_1817272805'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Roof_Edge_S.Default__BP_WV_Tudor_Roof_Edge_S_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Roof_Edge_S_C_UAID_D843AE8E0CE50F5202_1817272805.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Roof_Edge_S.Default__BP_WV_Tudor_Roof_Edge_S_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Roof_Edge_S_C_UAID_D843AE8E0CE50F5202_1817272805.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Roof_Edge_S.Default__BP_WV_Tudor_Roof_Edge_S_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Roof_Edge_S_C_UAID_D843AE8E0CE50F5202_1817272805.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Roof_Edge_S_C_UAID_D843AE8E0CE50F5202_1817272805.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_WV_Tudor_Roofs_01_2'"
+            RelativeLocation=(X=256.000000,Y=0.000000,Z=768.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-89.999977,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Roof_Edge_S_C_UAID_D843AE8E0CE50F5202_1817272805.BoundingBoxComponent'"
+            CachedMaxDrawDistance=19882.417969
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Roof_Edge_S_C_UAID_D843AE8E0CE50F5202_1817272805.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=19882.417969
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=19882.417969
+         DataVersion=1
+         SavedActorGuid=B3D2C2FA4A83C16C76D5849599230CBB
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="BP_WV_Tudor_Roof_Edge_S_C1"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Tall_Roof_01.BP_WV_Tudor_Tall_Roof_01_C Name=BP_WV_Tudor_Tall_Roof_01_C_UAID_D843AE8E0CE50F5202_1817234785 Archetype="/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Tall_Roof_01.BP_WV_Tudor_Tall_Roof_01_C'/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Tall_Roof_01.Default__BP_WV_Tudor_Tall_Roof_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Outskirts Tower" ExportPath="/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Tall_Roof_01.BP_WV_Tudor_Tall_Roof_01_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Tall_Roof_01_C_UAID_D843AE8E0CE50F5202_1817234785'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Tall_Roof_01.Default__BP_WV_Tudor_Tall_Roof_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Tall_Roof_01_C_UAID_D843AE8E0CE50F5202_1817234785.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Tall_Roof_01.Default__BP_WV_Tudor_Tall_Roof_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Tall_Roof_01_C_UAID_D843AE8E0CE50F5202_1817234785.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Tall_Roof_01.Default__BP_WV_Tudor_Tall_Roof_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Tall_Roof_01_C_UAID_D843AE8E0CE50F5202_1817234785.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Tall_Roof_01_C_UAID_D843AE8E0CE50F5202_1817234785.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_WV_Tudor_Roofs_01_2'"
+            RelativeLocation=(X=256.000000,Y=0.000000,Z=768.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=89.999962,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Tall_Roof_01_C_UAID_D843AE8E0CE50F5202_1817234785.BoundingBoxComponent'"
+            CachedMaxDrawDistance=26712.085938
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Tall_Roof_01_C_UAID_D843AE8E0CE50F5202_1817234785.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=26712.085938
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         NavObstacles(0)=(LocalBounds=(Min=(X=-281.000000,Y=-281.000000,Z=-200.000000),Max=(X=281.000000,Y=281.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=26712.085938
+         DataVersion=1
+         SavedActorGuid=3B91811F470E11A0A4DCE4B6137336CB
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="BP_WV_Tudor_Tall_Roof_01_C0"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Tall_Roof_Top.BP_WV_Tudor_Tall_Roof_Top_C Name=BP_WV_Tudor_Tall_Roof_Top_C_UAID_D843AE8E0CE50F5202_1817241789 Archetype="/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Tall_Roof_Top.BP_WV_Tudor_Tall_Roof_Top_C'/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Tall_Roof_Top.Default__BP_WV_Tudor_Tall_Roof_Top_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Outskirts Tower" ExportPath="/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Tall_Roof_Top.BP_WV_Tudor_Tall_Roof_Top_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Tall_Roof_Top_C_UAID_D843AE8E0CE50F5202_1817241789'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Tall_Roof_Top.Default__BP_WV_Tudor_Tall_Roof_Top_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Tall_Roof_Top_C_UAID_D843AE8E0CE50F5202_1817241789.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Tall_Roof_Top.Default__BP_WV_Tudor_Tall_Roof_Top_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Tall_Roof_Top_C_UAID_D843AE8E0CE50F5202_1817241789.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Tall_Roof_Top.Default__BP_WV_Tudor_Tall_Roof_Top_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Tall_Roof_Top_C_UAID_D843AE8E0CE50F5202_1817241789.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Tall_Roof_Top_C_UAID_D843AE8E0CE50F5202_1817241789.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_WV_Tudor_Roofs_01_2'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            RelativeLocation=(X=256.000000,Y=0.000000,Z=768.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=89.999962,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Tall_Roof_Top_C_UAID_D843AE8E0CE50F5202_1817241789.BoundingBoxComponent'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Tall_Roof_Top_C_UAID_D843AE8E0CE50F5202_1817241789.EditorOnlyStaticMeshComponent'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=18000.000000
+         DataVersion=1
+         SavedActorGuid=900E2043489219DB49BC869EF061BE43
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="BP_WV_Tudor_Tall_Roof_Top_C0"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Tall_Roof_Wall_01.BP_WV_Tudor_Tall_Roof_Wall_01_C Name=BP_WV_Tudor_Tall_Roof_Wall_01_C_UAID_D843AE8E0CE50F5202_1817226782 Archetype="/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Tall_Roof_Wall_01.BP_WV_Tudor_Tall_Roof_Wall_01_C'/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Tall_Roof_Wall_01.Default__BP_WV_Tudor_Tall_Roof_Wall_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Outskirts Tower" ExportPath="/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Tall_Roof_Wall_01.BP_WV_Tudor_Tall_Roof_Wall_01_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Tall_Roof_Wall_01_C_UAID_D843AE8E0CE50F5202_1817226782'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Tall_Roof_Wall_01.Default__BP_WV_Tudor_Tall_Roof_Wall_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Tall_Roof_Wall_01_C_UAID_D843AE8E0CE50F5202_1817226782.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Tall_Roof_Wall_01.Default__BP_WV_Tudor_Tall_Roof_Wall_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Tall_Roof_Wall_01_C_UAID_D843AE8E0CE50F5202_1817226782.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Tall_Roof_Wall_01.Default__BP_WV_Tudor_Tall_Roof_Wall_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Tall_Roof_Wall_01_C_UAID_D843AE8E0CE50F5202_1817226782.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Tall_Roof_Wall_01_C_UAID_D843AE8E0CE50F5202_1817226782.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_WV_Tudor_Roofs_01_2'"
+            RelativeLocation=(X=0.000000,Y=-256.000000,Z=768.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Tall_Roof_Wall_01_C_UAID_D843AE8E0CE50F5202_1817226782.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23440.179688
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Tall_Roof_Wall_01_C_UAID_D843AE8E0CE50F5202_1817226782.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23440.179688
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=23440.179688
+         DataVersion=1
+         SavedActorGuid=61E5380F4E3759B862199D94D12C259E
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="BP_WV_Tudor_Tall_Roof_Wall_01_C0"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Tall_Roof_Wall_01.BP_WV_Tudor_Tall_Roof_Wall_01_C Name=BP_WV_Tudor_Tall_Roof_Wall_01_C_UAID_D843AE8E0CE50F5202_1817267802 Archetype="/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Tall_Roof_Wall_01.BP_WV_Tudor_Tall_Roof_Wall_01_C'/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Tall_Roof_Wall_01.Default__BP_WV_Tudor_Tall_Roof_Wall_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Outskirts Tower" ExportPath="/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Tall_Roof_Wall_01.BP_WV_Tudor_Tall_Roof_Wall_01_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Tall_Roof_Wall_01_C_UAID_D843AE8E0CE50F5202_1817267802'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Tall_Roof_Wall_01.Default__BP_WV_Tudor_Tall_Roof_Wall_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Tall_Roof_Wall_01_C_UAID_D843AE8E0CE50F5202_1817267802.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Tall_Roof_Wall_01.Default__BP_WV_Tudor_Tall_Roof_Wall_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Tall_Roof_Wall_01_C_UAID_D843AE8E0CE50F5202_1817267802.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Tall_Roof_Wall_01.Default__BP_WV_Tudor_Tall_Roof_Wall_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Tall_Roof_Wall_01_C_UAID_D843AE8E0CE50F5202_1817267802.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Tall_Roof_Wall_01_C_UAID_D843AE8E0CE50F5202_1817267802.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_WV_Tudor_Roofs_01_2'"
+            RelativeLocation=(X=0.000000,Y=256.000000,Z=768.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999954,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Tall_Roof_Wall_01_C_UAID_D843AE8E0CE50F5202_1817267802.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23440.179688
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Tall_Roof_Wall_01_C_UAID_D843AE8E0CE50F5202_1817267802.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23440.179688
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=23440.179688
+         DataVersion=1
+         SavedActorGuid=459B7CF7414EC364884894B19804EE5B
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="BP_WV_Tudor_Tall_Roof_Wall_01_C1"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Tall_Roof_Wall_Top.BP_WV_Tudor_Tall_Roof_Wall_Top_C Name=BP_WV_Tudor_Tall_Roof_Wall_Top_C_UAID_D843AE8E0CE50F5202_1817236786 Archetype="/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Tall_Roof_Wall_Top.BP_WV_Tudor_Tall_Roof_Wall_Top_C'/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Tall_Roof_Wall_Top.Default__BP_WV_Tudor_Tall_Roof_Wall_Top_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Outskirts Tower" ExportPath="/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Tall_Roof_Wall_Top.BP_WV_Tudor_Tall_Roof_Wall_Top_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Tall_Roof_Wall_Top_C_UAID_D843AE8E0CE50F5202_1817236786'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Tall_Roof_Wall_Top.Default__BP_WV_Tudor_Tall_Roof_Wall_Top_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Tall_Roof_Wall_Top_C_UAID_D843AE8E0CE50F5202_1817236786.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Tall_Roof_Wall_Top.Default__BP_WV_Tudor_Tall_Roof_Wall_Top_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Tall_Roof_Wall_Top_C_UAID_D843AE8E0CE50F5202_1817236786.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Tall_Roof_Wall_Top.Default__BP_WV_Tudor_Tall_Roof_Wall_Top_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Tall_Roof_Wall_Top_C_UAID_D843AE8E0CE50F5202_1817236786.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Tall_Roof_Wall_Top_C_UAID_D843AE8E0CE50F5202_1817236786.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_WV_Tudor_Roofs_01_2'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            RelativeLocation=(X=0.000000,Y=-256.000000,Z=768.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Tall_Roof_Wall_Top_C_UAID_D843AE8E0CE50F5202_1817236786.BoundingBoxComponent'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Tall_Roof_Wall_Top_C_UAID_D843AE8E0CE50F5202_1817236786.EditorOnlyStaticMeshComponent'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=18000.000000
+         DataVersion=1
+         SavedActorGuid=973FFAE3470A21792DDCF8B0CCB949F3
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="BP_WV_Tudor_Tall_Roof_Wall_Top_C0"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Tall_Roof_Wall_Top.BP_WV_Tudor_Tall_Roof_Wall_Top_C Name=BP_WV_Tudor_Tall_Roof_Wall_Top_C_UAID_D843AE8E0CE50F5202_1817259798 Archetype="/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Tall_Roof_Wall_Top.BP_WV_Tudor_Tall_Roof_Wall_Top_C'/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Tall_Roof_Wall_Top.Default__BP_WV_Tudor_Tall_Roof_Wall_Top_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Outskirts Tower" ExportPath="/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Tall_Roof_Wall_Top.BP_WV_Tudor_Tall_Roof_Wall_Top_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Tall_Roof_Wall_Top_C_UAID_D843AE8E0CE50F5202_1817259798'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Tall_Roof_Wall_Top.Default__BP_WV_Tudor_Tall_Roof_Wall_Top_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Tall_Roof_Wall_Top_C_UAID_D843AE8E0CE50F5202_1817259798.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Tall_Roof_Wall_Top.Default__BP_WV_Tudor_Tall_Roof_Wall_Top_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Tall_Roof_Wall_Top_C_UAID_D843AE8E0CE50F5202_1817259798.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/WinterVillage/Roof/BP_WV_Tudor_Tall_Roof_Wall_Top.Default__BP_WV_Tudor_Tall_Roof_Wall_Top_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Tall_Roof_Wall_Top_C_UAID_D843AE8E0CE50F5202_1817259798.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Tall_Roof_Wall_Top_C_UAID_D843AE8E0CE50F5202_1817259798.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_WV_Tudor_Roofs_01_2'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            RelativeLocation=(X=0.000000,Y=256.000000,Z=768.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999954,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Tall_Roof_Wall_Top_C_UAID_D843AE8E0CE50F5202_1817259798.BoundingBoxComponent'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Tall_Roof_Wall_Top_C_UAID_D843AE8E0CE50F5202_1817259798.EditorOnlyStaticMeshComponent'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=18000.000000
+         DataVersion=1
+         SavedActorGuid=6A47C4C541B348B277F71FB6A90C5F13
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="BP_WV_Tudor_Tall_Roof_Wall_Top_C1"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Wall_01.BP_WV_Tudor_Wall_01_C Name=BP_WV_Tudor_Wall_01_C_UAID_D843AE8E0CE50F5202_1817261799 Archetype="/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Wall_01.BP_WV_Tudor_Wall_01_C'/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Wall_01.Default__BP_WV_Tudor_Wall_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Outskirts Tower" ExportPath="/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Wall_01.BP_WV_Tudor_Wall_01_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Wall_01_C_UAID_D843AE8E0CE50F5202_1817261799'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Wall_01.Default__BP_WV_Tudor_Wall_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Wall_01_C_UAID_D843AE8E0CE50F5202_1817261799.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Wall_01.Default__BP_WV_Tudor_Wall_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Wall_01_C_UAID_D843AE8E0CE50F5202_1817261799.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Wall_01.Default__BP_WV_Tudor_Wall_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Wall_01_C_UAID_D843AE8E0CE50F5202_1817261799.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Wall_01_C_UAID_D843AE8E0CE50F5202_1817261799.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_WV_Tudor_Walls_01_2'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=-256.000000,Z=384.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999954,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Wall_01_C_UAID_D843AE8E0CE50F5202_1817261799.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23363.978516
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Wall_01_C_UAID_D843AE8E0CE50F5202_1817261799.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23363.978516
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=23363.978516
+         DataVersion=1
+         SavedActorGuid=8E23CC654FE0FDCE72324CBAE75EC765
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="BP_WV_Tudor_Wall_01_C0"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Wall_05.BP_WV_Tudor_Wall_05_C Name=BP_WV_Tudor_Wall_05_C_UAID_D843AE8E0CE50F5202_1817268803 Archetype="/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Wall_05.BP_WV_Tudor_Wall_05_C'/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Wall_05.Default__BP_WV_Tudor_Wall_05_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Outskirts Tower" ExportPath="/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Wall_05.BP_WV_Tudor_Wall_05_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Wall_05_C_UAID_D843AE8E0CE50F5202_1817268803'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Wall_05.Default__BP_WV_Tudor_Wall_05_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Wall_05_C_UAID_D843AE8E0CE50F5202_1817268803.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Wall_05.Default__BP_WV_Tudor_Wall_05_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Wall_05_C_UAID_D843AE8E0CE50F5202_1817268803.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Wall_05.Default__BP_WV_Tudor_Wall_05_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Wall_05_C_UAID_D843AE8E0CE50F5202_1817268803.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Wall_05_C_UAID_D843AE8E0CE50F5202_1817268803.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_WV_Tudor_Walls_01_NoGradient_2'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-256.000000,Y=0.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=89.999962,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Wall_05_C_UAID_D843AE8E0CE50F5202_1817268803.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23352.783203
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Wall_05_C_UAID_D843AE8E0CE50F5202_1817268803.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23352.783203
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=23352.783203
+         DataVersion=1
+         SavedActorGuid=73DFD1FF4BFA980C8D65F6A991A302BA
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="BP_WV_Tudor_Wall_05_C0"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Wall_05.BP_WV_Tudor_Wall_05_C Name=BP_WV_Tudor_Wall_05_C_UAID_D843AE8E0CE50F5202_1817253795 Archetype="/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Wall_05.BP_WV_Tudor_Wall_05_C'/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Wall_05.Default__BP_WV_Tudor_Wall_05_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Outskirts Tower" ExportPath="/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Wall_05.BP_WV_Tudor_Wall_05_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Wall_05_C_UAID_D843AE8E0CE50F5202_1817253795'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Wall_05.Default__BP_WV_Tudor_Wall_05_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Wall_05_C_UAID_D843AE8E0CE50F5202_1817253795.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Wall_05.Default__BP_WV_Tudor_Wall_05_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Wall_05_C_UAID_D843AE8E0CE50F5202_1817253795.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Wall_05.Default__BP_WV_Tudor_Wall_05_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Wall_05_C_UAID_D843AE8E0CE50F5202_1817253795.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Wall_05_C_UAID_D843AE8E0CE50F5202_1817253795.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_WV_Tudor_Walls_01_NoGradient_2'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=-256.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=-179.999954,Roll=0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Wall_05_C_UAID_D843AE8E0CE50F5202_1817253795.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23352.783203
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Wall_05_C_UAID_D843AE8E0CE50F5202_1817253795.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23352.783203
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=23352.783203
+         DataVersion=1
+         SavedActorGuid=8846C4F043A354097BAE49844548ACFC
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="BP_WV_Tudor_Wall_05_C1"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Wall_05.BP_WV_Tudor_Wall_05_C Name=BP_WV_Tudor_Wall_05_C_UAID_D843AE8E0CE50F5202_1817222781 Archetype="/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Wall_05.BP_WV_Tudor_Wall_05_C'/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Wall_05.Default__BP_WV_Tudor_Wall_05_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Outskirts Tower" ExportPath="/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Wall_05.BP_WV_Tudor_Wall_05_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Wall_05_C_UAID_D843AE8E0CE50F5202_1817222781'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Wall_05.Default__BP_WV_Tudor_Wall_05_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Wall_05_C_UAID_D843AE8E0CE50F5202_1817222781.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Wall_05.Default__BP_WV_Tudor_Wall_05_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Wall_05_C_UAID_D843AE8E0CE50F5202_1817222781.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Wall_05.Default__BP_WV_Tudor_Wall_05_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Wall_05_C_UAID_D843AE8E0CE50F5202_1817222781.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Wall_05_C_UAID_D843AE8E0CE50F5202_1817222781.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_WV_Tudor_Walls_01_NoGradient_2'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=256.000000,Y=0.000000,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-89.999977,Roll=0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Wall_05_C_UAID_D843AE8E0CE50F5202_1817222781.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23352.783203
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Wall_05_C_UAID_D843AE8E0CE50F5202_1817222781.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23352.783203
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=23352.783203
+         DataVersion=1
+         SavedActorGuid=1287776B41E7E5540B6830B3DE7F23FF
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="BP_WV_Tudor_Wall_05_C2"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Window_01.BP_WV_Tudor_Window_01_C Name=BP_WV_Tudor_Window_01_C_UAID_D843AE8E0CE50F5202_1817237787 Archetype="/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Window_01.BP_WV_Tudor_Window_01_C'/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Window_01.Default__BP_WV_Tudor_Window_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Outskirts Tower" ExportPath="/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Window_01.BP_WV_Tudor_Window_01_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Window_01_C_UAID_D843AE8E0CE50F5202_1817237787'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Window_01.Default__BP_WV_Tudor_Window_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Window_01_C_UAID_D843AE8E0CE50F5202_1817237787.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Window_01.Default__BP_WV_Tudor_Window_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Window_01_C_UAID_D843AE8E0CE50F5202_1817237787.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Window_01.Default__BP_WV_Tudor_Window_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Window_01_C_UAID_D843AE8E0CE50F5202_1817237787.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Window_01_C_UAID_D843AE8E0CE50F5202_1817237787.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_WV_Tudor_Walls_01_NoGradient_2'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=256.000000,Y=0.000000,Z=384.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-89.999977,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Window_01_C_UAID_D843AE8E0CE50F5202_1817237787.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23353.544922
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Window_01_C_UAID_D843AE8E0CE50F5202_1817237787.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23353.544922
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=23353.544922
+         bHasCustomAttackLocation=True
+         DataVersion=1
+         SavedActorGuid=1D3BC5C341624C9A29E9738BE0766BE1
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="BP_WV_Tudor_Window_01_C0"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Window_01.BP_WV_Tudor_Window_01_C Name=BP_WV_Tudor_Window_01_C_UAID_D843AE8E0CE50F5202_1817243790 Archetype="/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Window_01.BP_WV_Tudor_Window_01_C'/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Window_01.Default__BP_WV_Tudor_Window_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Outskirts Tower" ExportPath="/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Window_01.BP_WV_Tudor_Window_01_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Window_01_C_UAID_D843AE8E0CE50F5202_1817243790'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Window_01.Default__BP_WV_Tudor_Window_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Window_01_C_UAID_D843AE8E0CE50F5202_1817243790.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Window_01.Default__BP_WV_Tudor_Window_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Window_01_C_UAID_D843AE8E0CE50F5202_1817243790.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/WinterVillage/Walls/BP_WV_Tudor_Window_01.Default__BP_WV_Tudor_Window_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Window_01_C_UAID_D843AE8E0CE50F5202_1817243790.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Window_01_C_UAID_D843AE8E0CE50F5202_1817243790.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_WV_Tudor_Walls_01_NoGradient_2'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-256.000000,Y=0.000000,Z=384.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=89.999962,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Window_01_C_UAID_D843AE8E0CE50F5202_1817243790.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23353.544922
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.BP_WV_Tudor_Window_01_C_UAID_D843AE8E0CE50F5202_1817243790.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23353.544922
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=23353.544922
+         bHasCustomAttackLocation=True
+         DataVersion=1
+         SavedActorGuid=1F2BC12D48DAE076DBCF94AD5687D77B
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="BP_WV_Tudor_Window_01_C1"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Stairs/SM_Boardwalk_Stairs.SM_Boardwalk_Stairs_C Name=SM_Boardwalk_Stairs_C_UAID_D843AE8E0CE50F5202_1817257797 Archetype="/Game/Building/ActorBlueprints/Stairs/SM_Boardwalk_Stairs.SM_Boardwalk_Stairs_C'/Game/Building/ActorBlueprints/Stairs/SM_Boardwalk_Stairs.Default__SM_Boardwalk_Stairs_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Outskirts Tower" ExportPath="/Game/Building/ActorBlueprints/Stairs/SM_Boardwalk_Stairs.SM_Boardwalk_Stairs_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_Boardwalk_Stairs_C_UAID_D843AE8E0CE50F5202_1817257797'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Stairs/SM_Boardwalk_Stairs.Default__SM_Boardwalk_Stairs_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_Boardwalk_Stairs_C_UAID_D843AE8E0CE50F5202_1817257797.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Stairs/SM_Boardwalk_Stairs.Default__SM_Boardwalk_Stairs_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_Boardwalk_Stairs_C_UAID_D843AE8E0CE50F5202_1817257797.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Stairs/SM_Boardwalk_Stairs.Default__SM_Boardwalk_Stairs_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_Boardwalk_Stairs_C_UAID_D843AE8E0CE50F5202_1817257797.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_Boardwalk_Stairs_C_UAID_D843AE8E0CE50F5202_1817257797.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Wood_Dock_5'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=512.000000,Y=256.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999954,Roll=-0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_Boardwalk_Stairs_C_UAID_D843AE8E0CE50F5202_1817257797.BoundingBoxComponent'"
+            CachedMaxDrawDistance=25281.994141
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_Boardwalk_Stairs_C_UAID_D843AE8E0CE50F5202_1817257797.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=25281.994141
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         bMirrored=True
+         NavObstacles(0)=(LocalBounds=(Min=(X=-256.000000,Y=0.000000,Z=-20.000000),Max=(X=0.000000,Y=100.000000,Z=50.000000),IsValid=True),ObstacleType=UnwalkableHuskOnly)
+         NavObstacles(1)=(LocalBounds=(Min=(X=-320.000000,Y=-320.000000,Z=-150.000000),Max=(X=64.000000,Y=64.000000,Z=150.000000),IsValid=True),ObstacleType=SmashOnlyLowHeight)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=25281.994141
+         DataVersion=1
+         SavedActorGuid=A8D2A6AC4E76FC737F460B95871DC1E7
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_Boardwalk_Stairs_C0"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C Name=SM_FORT_Floors_Generic_BasicTile_C_UAID_D843AE8E0CE50F5202_1817263800 Archetype="/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Outskirts Tower" ExportPath="/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_D843AE8E0CE50F5202_1817263800'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_D843AE8E0CE50F5202_1817263800.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_D843AE8E0CE50F5202_1817263800.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_D843AE8E0CE50F5202_1817263800.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_D843AE8E0CE50F5202_1817263800.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fort_Floors_Generic_TilesClean_74'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=-256.000000,Z=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_D843AE8E0CE50F5202_1817263800.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24648.673828
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_D843AE8E0CE50F5202_1817263800.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24648.673828
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/FloorTexture/PatioFloor.PatioFloor'"
+         NavObstacles(0)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24648.673828
+         DataVersion=1
+         SavedActorGuid=E6FBF3A34A16CC0158EA82929BCF9671
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_FORT_Floors_Generic_BasicTile_C0"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C Name=SM_FORT_Floors_Generic_BasicTile_C_UAID_D843AE8E0CE50F5202_1817247792 Archetype="/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE50E5202_1878446513 ActorFolderPath="Frosty Fortress Outskirts Tower" ExportPath="/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_D843AE8E0CE50F5202_1817247792'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_D843AE8E0CE50F5202_1817247792.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_D843AE8E0CE50F5202_1817247792.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_D843AE8E0CE50F5202_1817247792.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_D843AE8E0CE50F5202_1817247792.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fort_Floors_Generic_TilesClean_74'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=-256.000000,Z=384.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_D843AE8E0CE50F5202_1817247792.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24648.673828
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_C_UAID_D843AE8E0CE50F5202_1817247792.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24648.673828
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/FloorTexture/PatioFloor.PatioFloor'"
+         NavObstacles(0)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24648.673828
+         DataVersion=1
+         SavedActorGuid=919422534E03E56463F756AE0FA98260
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_FORT_Floors_Generic_BasicTile_C1"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map
