@@ -1,0 +1,838 @@
+Begin Map
+   Begin Level
+      Begin Actor Class=/Script/FortniteGame.FortPlaysetRoot Name=FortPlaysetRoot_UAID_D843AE8E0CE5D95802_1400753103 Archetype="/Script/FortniteGame.FortPlaysetRoot'/Script/FortniteGame.Default__FortPlaysetRoot'" ActorFolderPath="Greasy Grove Sidewalks" ExportPath="/Script/FortniteGame.FortPlaysetRoot'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.FortPlaysetRoot_UAID_D843AE8E0CE5D95802_1400753103'"
+         Begin Object Class=/Script/Engine.SceneComponent Name="DefaultSceneRoot" Archetype="/Script/Engine.SceneComponent'/Script/FortniteGame.Default__FortPlaysetRoot:DefaultSceneRoot'" ExportPath="/Script/Engine.SceneComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.FortPlaysetRoot_UAID_D843AE8E0CE5D95802_1400753103.DefaultSceneRoot'"
+         End Object
+         Begin Object Name="DefaultSceneRoot" ExportPath="/Script/Engine.SceneComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.FortPlaysetRoot_UAID_D843AE8E0CE5D95802_1400753103.DefaultSceneRoot'"
+         End Object
+         SavedActorGuid=B3B678604D57A7E6F7645381F12D3F89
+         PlaysetPackagePathName="/CRP_Foundation/SetupAssets/Maps/PID_CP_Foundation_3x7_StripMallStores_01"
+         ActorLabel="Greasy Grove Sidewalks"
+      End Actor
+      Begin Actor Class=/Script/FortniteGame.FortStaticMeshActor Name=S_Elevation_Ground58_UAID_D843AE8E0CE5DB5802_1880882520 Archetype="/Script/FortniteGame.FortStaticMeshActor'/Script/FortniteGame.Default__FortStaticMeshActor'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5D95802_1400753103 ActorFolderPath="Greasy Grove Sidewalks" ExportPath="/Script/FortniteGame.FortStaticMeshActor'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground58_UAID_D843AE8E0CE5DB5802_1880882520'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/Engine.StaticMeshComponent'/Script/FortniteGame.Default__FortStaticMeshActor:StaticMeshComponent0'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground58_UAID_D843AE8E0CE5DB5802_1880882520.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/NavigationSystem.NavLinkRenderingComponent Name="EdRenderComp" Archetype="/Script/NavigationSystem.NavLinkRenderingComponent'/Script/FortniteGame.Default__FortStaticMeshActor:EdRenderComp'" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground58_UAID_D843AE8E0CE5DB5802_1880882520.EdRenderComp'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground58_UAID_D843AE8E0CE5DB5802_1880882520.StaticMeshComponent0'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Packages/DS_Fortnight/SM/Mesh/S_Road_ParkingHandicap.S_Road_ParkingHandicap'"
+            bEvaluateWorldPositionOffsetInRayTracing=True
+            StaticMeshDerivedDataKey="STATICMESH_8A752B9E4A904F25B0AB9D65A70A8BDC_228332BAE0224DD294E232B87D83948F1$2e0_209CF6EC04DB7CFD137187E834BC92378X0100000001000000010000000100000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E65000000803F0000000000000041000000000000A04203030300000000039BE8CE4E48CF6DF599BC836EEE60EB0000000001000000010000000100000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E65000000803F0000000000000041000000000000A042030303000000000"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceConstant'/Game/Creative/Materials/CP_Apollo_Terrain_Mat_Biome_Asphal_Parking.CP_Apollo_Terrain_Mat_Biome_Asphal_Parking'"
+            RelativeLocation=(X=-384.000044,Y=-767.999907,Z=128.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+            bCanEverAffectNavigation=True
+         End Object
+         Begin Object Name="EdRenderComp" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground58_UAID_D843AE8E0CE5DB5802_1880882520.EdRenderComp'"
+            AttachParent="StaticMeshComponent0"
+         End Object
+         SavedActorGuid=043AB012457AA5DF9724E49E84F95926
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         Layers(0)="Durrr"
+         ActorLabel="S_Elevation_Ground58"
+      End Actor
+      Begin Actor Class=/Script/FortniteGame.FortStaticMeshActor Name=S_Elevation_Ground61_UAID_D843AE8E0CE5DB5802_1880967544 Archetype="/Script/FortniteGame.FortStaticMeshActor'/Script/FortniteGame.Default__FortStaticMeshActor'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5D95802_1400753103 ActorFolderPath="Greasy Grove Sidewalks" ExportPath="/Script/FortniteGame.FortStaticMeshActor'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground61_UAID_D843AE8E0CE5DB5802_1880967544'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/Engine.StaticMeshComponent'/Script/FortniteGame.Default__FortStaticMeshActor:StaticMeshComponent0'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground61_UAID_D843AE8E0CE5DB5802_1880967544.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/NavigationSystem.NavLinkRenderingComponent Name="EdRenderComp" Archetype="/Script/NavigationSystem.NavLinkRenderingComponent'/Script/FortniteGame.Default__FortStaticMeshActor:EdRenderComp'" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground61_UAID_D843AE8E0CE5DB5802_1880967544.EdRenderComp'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground61_UAID_D843AE8E0CE5DB5802_1880967544.StaticMeshComponent0'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Packages/DS_Fortnight/SM/Mesh/S_Road_ParkingSpots.S_Road_ParkingSpots'"
+            bEvaluateWorldPositionOffsetInRayTracing=True
+            StaticMeshDerivedDataKey="STATICMESH_8A752B9E4A904F25B0AB9D65A70A8BDC_228332BAE0224DD294E232B87D83948F1$2e0_2B6AA1B5A4517B242F3143DA1A2623C12X0100000001000000010000000100000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E65000000803F0000000000000041000000000000A0420303030000000084616EB54C60B290AF4940ABFC1DA23F0000000001000000010000000100000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E65000000803F0000000000000041000000000000A042030303000000000"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceConstant'/Game/Creative/Materials/CP_Apollo_Terrain_Mat_Biome_Asphal_Parking.CP_Apollo_Terrain_Mat_Biome_Asphal_Parking'"
+            RelativeLocation=(X=-1024.000044,Y=-767.999938,Z=128.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+            bCanEverAffectNavigation=True
+         End Object
+         Begin Object Name="EdRenderComp" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground61_UAID_D843AE8E0CE5DB5802_1880967544.EdRenderComp'"
+            AttachParent="StaticMeshComponent0"
+         End Object
+         SavedActorGuid=8E45BBB944E1A095C0B7DE96AFBC6511
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         Layers(0)="Durrr"
+         ActorLabel="S_Elevation_Ground61"
+      End Actor
+      Begin Actor Class=/Script/FortniteGame.FortStaticMeshActor Name=S_Elevation_Ground77_UAID_D843AE8E0CE5DB5802_1880971545 Archetype="/Script/FortniteGame.FortStaticMeshActor'/Script/FortniteGame.Default__FortStaticMeshActor'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5D95802_1400753103 ActorFolderPath="Greasy Grove Sidewalks" ExportPath="/Script/FortniteGame.FortStaticMeshActor'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground77_UAID_D843AE8E0CE5DB5802_1880971545'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/Engine.StaticMeshComponent'/Script/FortniteGame.Default__FortStaticMeshActor:StaticMeshComponent0'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground77_UAID_D843AE8E0CE5DB5802_1880971545.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/NavigationSystem.NavLinkRenderingComponent Name="EdRenderComp" Archetype="/Script/NavigationSystem.NavLinkRenderingComponent'/Script/FortniteGame.Default__FortStaticMeshActor:EdRenderComp'" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground77_UAID_D843AE8E0CE5DB5802_1880971545.EdRenderComp'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground77_UAID_D843AE8E0CE5DB5802_1880971545.StaticMeshComponent0'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Packages/DS_Fortnight/SM/Mesh/S_Road_Crosswalk_B.S_Road_Crosswalk_B'"
+            bEvaluateWorldPositionOffsetInRayTracing=True
+            StaticMeshDerivedDataKey="STATICMESH_8A752B9E4A904F25B0AB9D65A70A8BDC_228332BAE0224DD294E232B87D83948F1$2e0_2041F5B204C1192ED95F457AA359B5CE7X0100000001000000010000000100000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E65000000803F0000000000000041000000000000A042030303000000002162F42948B97621465973AAC3E9B5DC0000000001000000010000000100000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E65000000803F0000000000000041000000000000A042030303000000000"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceConstant'/Game/Creative/Materials/CP_Apollo_Terrain_Mat_Biome_Asphalt_RoadCrossing.CP_Apollo_Terrain_Mat_Biome_Asphalt_RoadCrossing'"
+            RelativeLocation=(X=255.999956,Y=-767.999875,Z=128.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+            bCanEverAffectNavigation=True
+         End Object
+         Begin Object Name="EdRenderComp" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground77_UAID_D843AE8E0CE5DB5802_1880971545.EdRenderComp'"
+            AttachParent="StaticMeshComponent0"
+         End Object
+         SavedActorGuid=662B321243F31C99A46D5580D08A0994
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         Layers(0)="Durrr"
+         ActorLabel="S_Elevation_Ground77"
+      End Actor
+      Begin Actor Class=/Script/FortniteGame.FortStaticMeshActor Name=S_Elevation_Ground130_UAID_D843AE8E0CE5DB5802_1880959542 Archetype="/Script/FortniteGame.FortStaticMeshActor'/Script/FortniteGame.Default__FortStaticMeshActor'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5D95802_1400753103 ActorFolderPath="Greasy Grove Sidewalks" ExportPath="/Script/FortniteGame.FortStaticMeshActor'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground130_UAID_D843AE8E0CE5DB5802_1880959542'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/Engine.StaticMeshComponent'/Script/FortniteGame.Default__FortStaticMeshActor:StaticMeshComponent0'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground130_UAID_D843AE8E0CE5DB5802_1880959542.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/NavigationSystem.NavLinkRenderingComponent Name="EdRenderComp" Archetype="/Script/NavigationSystem.NavLinkRenderingComponent'/Script/FortniteGame.Default__FortStaticMeshActor:EdRenderComp'" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground130_UAID_D843AE8E0CE5DB5802_1880959542.EdRenderComp'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground130_UAID_D843AE8E0CE5DB5802_1880959542.StaticMeshComponent0'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Environments/Artemis/Sets/Sidewalk/Meshes/SM_Artemis_Sidewalk_InsideCorner.SM_Artemis_Sidewalk_InsideCorner'"
+            bEvaluateWorldPositionOffsetInRayTracing=True
+            StaticMeshDerivedDataKey="STATICMESH_3590ADE1085140A68202E37A3EACED95_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V2$2e0_557E1AC9$2dD61E$2d4C1D$2dA462$2d7BB695AC21EE_CONSTRAINED_9000000000000008000000000F650E02245936B5DB81B3B86ABE61D4F0000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803F0000803F000000000000F041000000000000A0420503030000000000000000_LS0MNSzzzzzzzz0_SWLZ_MinMLOD"
+            RelativeLocation=(X=-767.999863,Y=-4479.999925,Z=128.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+            bCanEverAffectNavigation=True
+         End Object
+         Begin Object Name="EdRenderComp" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground130_UAID_D843AE8E0CE5DB5802_1880959542.EdRenderComp'"
+            AttachParent="StaticMeshComponent0"
+         End Object
+         SavedActorGuid=2EF065A643E5FAAFD1BD0F8237000D23
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         Layers(0)="Durrr"
+         ActorLabel="S_Elevation_Ground130"
+      End Actor
+      Begin Actor Class=/Script/FortniteGame.FortStaticMeshActor Name=S_Elevation_Ground132_UAID_D843AE8E0CE5DB5802_1880942538 Archetype="/Script/FortniteGame.FortStaticMeshActor'/Script/FortniteGame.Default__FortStaticMeshActor'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5D95802_1400753103 ActorFolderPath="Greasy Grove Sidewalks" ExportPath="/Script/FortniteGame.FortStaticMeshActor'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground132_UAID_D843AE8E0CE5DB5802_1880942538'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/Engine.StaticMeshComponent'/Script/FortniteGame.Default__FortStaticMeshActor:StaticMeshComponent0'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground132_UAID_D843AE8E0CE5DB5802_1880942538.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/NavigationSystem.NavLinkRenderingComponent Name="EdRenderComp" Archetype="/Script/NavigationSystem.NavLinkRenderingComponent'/Script/FortniteGame.Default__FortStaticMeshActor:EdRenderComp'" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground132_UAID_D843AE8E0CE5DB5802_1880942538.EdRenderComp'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground132_UAID_D843AE8E0CE5DB5802_1880942538.StaticMeshComponent0'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Environments/Artemis/Sets/Sidewalk/Meshes/Grass/SM_Artemis_Sidewalk_InsideCorner_Grass_A.SM_Artemis_Sidewalk_InsideCorner_Grass_A'"
+            bEvaluateWorldPositionOffsetInRayTracing=True
+            StaticMeshDerivedDataKey="STATICMESH_3590ADE1085140A68202E37A3EACED95_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V2$2e0_557E1AC9$2dD61E$2d4C1D$2dA462$2d7BB695AC21EE_CONSTRAINED_9000000000000008000000000A19B0177492BD32DF2230C9B1C08A64A0000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803F0000803F000000000000F041000000000000A0420503030000000000000000_0000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000003F0000803F000000000000F041000000000000A0420503030000000000000000_0000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803E0000803F000000000000F041000000000000A0420503030000000000000000_LS0MNSzzzzzzzz0_SWLZ_MinMLOD_10"
+            RelativeLocation=(X=-1919.999863,Y=-4479.999981,Z=128.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+            bCanEverAffectNavigation=True
+         End Object
+         Begin Object Name="EdRenderComp" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground132_UAID_D843AE8E0CE5DB5802_1880942538.EdRenderComp'"
+            AttachParent="StaticMeshComponent0"
+         End Object
+         SavedActorGuid=75967C094A11BDDC2CBAC7940D2B84C3
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         Layers(0)="Durrr"
+         ActorLabel="S_Elevation_Ground132"
+      End Actor
+      Begin Actor Class=/Script/FortniteGame.FortStaticMeshActor Name=S_Elevation_Ground135_UAID_D843AE8E0CE5DB5802_1880901525 Archetype="/Script/FortniteGame.FortStaticMeshActor'/Script/FortniteGame.Default__FortStaticMeshActor'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5D95802_1400753103 ActorFolderPath="Greasy Grove Sidewalks" ExportPath="/Script/FortniteGame.FortStaticMeshActor'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground135_UAID_D843AE8E0CE5DB5802_1880901525'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/Engine.StaticMeshComponent'/Script/FortniteGame.Default__FortStaticMeshActor:StaticMeshComponent0'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground135_UAID_D843AE8E0CE5DB5802_1880901525.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/NavigationSystem.NavLinkRenderingComponent Name="EdRenderComp" Archetype="/Script/NavigationSystem.NavLinkRenderingComponent'/Script/FortniteGame.Default__FortStaticMeshActor:EdRenderComp'" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground135_UAID_D843AE8E0CE5DB5802_1880901525.EdRenderComp'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground135_UAID_D843AE8E0CE5DB5802_1880901525.StaticMeshComponent0'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Environments/Artemis/Sets/Sidewalk/Meshes/SM_Artemis_Sidewalk_1x05.SM_Artemis_Sidewalk_1x05'"
+            bEvaluateWorldPositionOffsetInRayTracing=True
+            StaticMeshDerivedDataKey="STATICMESH_3590ADE1085140A68202E37A3EACED95_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V2$2e0_557E1AC9$2dD61E$2d4C1D$2dA462$2d7BB695AC21EE_CONSTRAINED_900000000000000800000000098AD857F445EFA88BAF47995123E7DE60000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803F0000803F000000000000F041000000000000A0420503030000000000000000_LS0MNSzzzzzzzz0_SWLZ_MinMLOD"
+            RelativeLocation=(X=256.000056,Y=-2815.999875,Z=128.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+            bCanEverAffectNavigation=True
+         End Object
+         Begin Object Name="EdRenderComp" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground135_UAID_D843AE8E0CE5DB5802_1880901525.EdRenderComp'"
+            AttachParent="StaticMeshComponent0"
+         End Object
+         SavedActorGuid=C4EF340B4286CEB7828C7DBFB51CDEBA
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         Layers(0)="Durrr"
+         ActorLabel="S_Elevation_Ground135"
+      End Actor
+      Begin Actor Class=/Script/FortniteGame.FortStaticMeshActor Name=S_Elevation_Ground142_UAID_D843AE8E0CE5DB5802_1880985548 Archetype="/Script/FortniteGame.FortStaticMeshActor'/Script/FortniteGame.Default__FortStaticMeshActor'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5D95802_1400753103 ActorFolderPath="Greasy Grove Sidewalks" ExportPath="/Script/FortniteGame.FortStaticMeshActor'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground142_UAID_D843AE8E0CE5DB5802_1880985548'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/Engine.StaticMeshComponent'/Script/FortniteGame.Default__FortStaticMeshActor:StaticMeshComponent0'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground142_UAID_D843AE8E0CE5DB5802_1880985548.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/NavigationSystem.NavLinkRenderingComponent Name="EdRenderComp" Archetype="/Script/NavigationSystem.NavLinkRenderingComponent'/Script/FortniteGame.Default__FortStaticMeshActor:EdRenderComp'" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground142_UAID_D843AE8E0CE5DB5802_1880985548.EdRenderComp'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground142_UAID_D843AE8E0CE5DB5802_1880985548.StaticMeshComponent0'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Environments/Artemis/Sets/Sidewalk/Meshes/SM_Artemis_Sidewalk_SBend.SM_Artemis_Sidewalk_SBend'"
+            bEvaluateWorldPositionOffsetInRayTracing=True
+            StaticMeshDerivedDataKey="STATICMESH_3590ADE1085140A68202E37A3EACED95_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V2$2e0_557E1AC9$2dD61E$2d4C1D$2dA462$2d7BB695AC21EE_CONSTRAINED_90000000000000080000000003E376A2E467B7FAF3EF1F6BAF0C916760000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803F0000803F000000000000F041000000000000A0420503030000000000000000_LS0MNSzzzzzzzz0_SWLZ_MinMLOD"
+            RelativeLocation=(X=-3071.999863,Y=-4480.000037,Z=128.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+            bCanEverAffectNavigation=True
+         End Object
+         Begin Object Name="EdRenderComp" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground142_UAID_D843AE8E0CE5DB5802_1880985548.EdRenderComp'"
+            AttachParent="StaticMeshComponent0"
+         End Object
+         SavedActorGuid=06D5D12C471FBD7386101A9A2B75A5F7
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         Layers(0)="Durrr"
+         ActorLabel="S_Elevation_Ground142"
+      End Actor
+      Begin Actor Class=/Script/FortniteGame.FortStaticMeshActor Name=S_Elevation_Ground143_UAID_D843AE8E0CE5DB5802_1880876518 Archetype="/Script/FortniteGame.FortStaticMeshActor'/Script/FortniteGame.Default__FortStaticMeshActor'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5D95802_1400753103 ActorFolderPath="Greasy Grove Sidewalks" ExportPath="/Script/FortniteGame.FortStaticMeshActor'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground143_UAID_D843AE8E0CE5DB5802_1880876518'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/Engine.StaticMeshComponent'/Script/FortniteGame.Default__FortStaticMeshActor:StaticMeshComponent0'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground143_UAID_D843AE8E0CE5DB5802_1880876518.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/NavigationSystem.NavLinkRenderingComponent Name="EdRenderComp" Archetype="/Script/NavigationSystem.NavLinkRenderingComponent'/Script/FortniteGame.Default__FortStaticMeshActor:EdRenderComp'" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground143_UAID_D843AE8E0CE5DB5802_1880876518.EdRenderComp'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground143_UAID_D843AE8E0CE5DB5802_1880876518.StaticMeshComponent0'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Environments/Artemis/Sets/Sidewalk/Meshes/Grass/SM_Artemis_Sidewalk_1x2_Grass_B.SM_Artemis_Sidewalk_1x2_Grass_B'"
+            bEvaluateWorldPositionOffsetInRayTracing=True
+            StaticMeshDerivedDataKey="STATICMESH_3590ADE1085140A68202E37A3EACED95_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V2$2e0_OldSimplifier_557E1AC9$2dD61E$2d4C1D$2dA462$2d7BB695AC21EE_CONSTRAINED_9000000000000008000000000A879BBEB43E0E4744A332C8580081A5C0000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803F0000803F000000000000F041000000000000A0420503030000000000000000_0000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000003F0000803F000000000000F041000000000000A0420503030000000000000000_0000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803E0000803F000000000000F041000000000000A0420503030000000000000000_LS0MNSzzzzzzzz0_SWLZ_MinMLOD_10"
+            RelativeLocation=(X=-1919.999950,Y=-2687.999981,Z=128.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+            bCanEverAffectNavigation=True
+         End Object
+         Begin Object Name="EdRenderComp" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground143_UAID_D843AE8E0CE5DB5802_1880876518.EdRenderComp'"
+            AttachParent="StaticMeshComponent0"
+         End Object
+         SavedActorGuid=2581504F4942E927174CDF89D7DC9EE7
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         Layers(0)="Durrr"
+         ActorLabel="S_Elevation_Ground143"
+      End Actor
+      Begin Actor Class=/Script/FortniteGame.FortStaticMeshActor Name=S_Elevation_Ground146_UAID_D843AE8E0CE5DB5802_1880976546 Archetype="/Script/FortniteGame.FortStaticMeshActor'/Script/FortniteGame.Default__FortStaticMeshActor'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5D95802_1400753103 ActorFolderPath="Greasy Grove Sidewalks" ExportPath="/Script/FortniteGame.FortStaticMeshActor'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground146_UAID_D843AE8E0CE5DB5802_1880976546'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/Engine.StaticMeshComponent'/Script/FortniteGame.Default__FortStaticMeshActor:StaticMeshComponent0'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground146_UAID_D843AE8E0CE5DB5802_1880976546.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/NavigationSystem.NavLinkRenderingComponent Name="EdRenderComp" Archetype="/Script/NavigationSystem.NavLinkRenderingComponent'/Script/FortniteGame.Default__FortStaticMeshActor:EdRenderComp'" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground146_UAID_D843AE8E0CE5DB5802_1880976546.EdRenderComp'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground146_UAID_D843AE8E0CE5DB5802_1880976546.StaticMeshComponent0'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Environments/Artemis/Sets/Sidewalk/Meshes/SM_Artemis_Sidewalk_1x4_A.SM_Artemis_Sidewalk_1x4_A'"
+            bEvaluateWorldPositionOffsetInRayTracing=True
+            StaticMeshDerivedDataKey="STATICMESH_3590ADE1085140A68202E37A3EACED95_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V2$2e0_557E1AC9$2dD61E$2d4C1D$2dA462$2d7BB695AC21EE_CONSTRAINED_9000000000000008000000000F15C0DDE406573A214A1EBB7D6C7DAC70000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803F0000803F000000000000F041000000000000A0420503030000000000000000_LS0MNSzzzzzzzz0_SWLZ_MinMLOD"
+            RelativeLocation=(X=-895.999919,Y=-3327.999931,Z=128.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+            bCanEverAffectNavigation=True
+         End Object
+         Begin Object Name="EdRenderComp" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground146_UAID_D843AE8E0CE5DB5802_1880976546.EdRenderComp'"
+            AttachParent="StaticMeshComponent0"
+         End Object
+         SavedActorGuid=3C4FF2E8423E3A08615F9B9DD2A46640
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         Layers(0)="Durrr"
+         ActorLabel="S_Elevation_Ground146"
+      End Actor
+      Begin Actor Class=/Script/FortniteGame.FortStaticMeshActor Name=S_Elevation_Ground147_UAID_D843AE8E0CE5DB5802_1880924532 Archetype="/Script/FortniteGame.FortStaticMeshActor'/Script/FortniteGame.Default__FortStaticMeshActor'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5D95802_1400753103 ActorFolderPath="Greasy Grove Sidewalks" ExportPath="/Script/FortniteGame.FortStaticMeshActor'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground147_UAID_D843AE8E0CE5DB5802_1880924532'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/Engine.StaticMeshComponent'/Script/FortniteGame.Default__FortStaticMeshActor:StaticMeshComponent0'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground147_UAID_D843AE8E0CE5DB5802_1880924532.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/NavigationSystem.NavLinkRenderingComponent Name="EdRenderComp" Archetype="/Script/NavigationSystem.NavLinkRenderingComponent'/Script/FortniteGame.Default__FortStaticMeshActor:EdRenderComp'" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground147_UAID_D843AE8E0CE5DB5802_1880924532.EdRenderComp'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground147_UAID_D843AE8E0CE5DB5802_1880924532.StaticMeshComponent0'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Environments/Artemis/Sets/Sidewalk/Meshes/Grass/SM_Artemis_Sidewalk_1x1_Grass_B.SM_Artemis_Sidewalk_1x1_Grass_B'"
+            bEvaluateWorldPositionOffsetInRayTracing=True
+            StaticMeshDerivedDataKey="STATICMESH_3590ADE1085140A68202E37A3EACED95_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V2$2e0_557E1AC9$2dD61E$2d4C1D$2dA462$2d7BB695AC21EE_CONSTRAINED_9000000000000008000000000804011BC4FBDEA59BBBA5F92696A0C190000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803F0000803F000000000000F041000000000000A0420503030000000000000000_0000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000003F0000803F000000000000F041000000000000A0420503030000000000000000_0000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803E0000803F000000000000F041000000000000A0420503030000000000000000_LS0MNSzzzzzzzz0_SWLZ_MinMLOD_10"
+            RelativeLocation=(X=-4863.999950,Y=-2688.000125,Z=128.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+            bCanEverAffectNavigation=True
+         End Object
+         Begin Object Name="EdRenderComp" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground147_UAID_D843AE8E0CE5DB5802_1880924532.EdRenderComp'"
+            AttachParent="StaticMeshComponent0"
+         End Object
+         SavedActorGuid=288BA1E14694F0B22CD22D89F82A5F11
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         Layers(0)="Durrr"
+         ActorLabel="S_Elevation_Ground147"
+      End Actor
+      Begin Actor Class=/Script/FortniteGame.FortStaticMeshActor Name=S_Elevation_Ground148_UAID_D843AE8E0CE5DB5802_1880856513 Archetype="/Script/FortniteGame.FortStaticMeshActor'/Script/FortniteGame.Default__FortStaticMeshActor'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5D95802_1400753103 ActorFolderPath="Greasy Grove Sidewalks" ExportPath="/Script/FortniteGame.FortStaticMeshActor'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground148_UAID_D843AE8E0CE5DB5802_1880856513'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/Engine.StaticMeshComponent'/Script/FortniteGame.Default__FortStaticMeshActor:StaticMeshComponent0'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground148_UAID_D843AE8E0CE5DB5802_1880856513.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/NavigationSystem.NavLinkRenderingComponent Name="EdRenderComp" Archetype="/Script/NavigationSystem.NavLinkRenderingComponent'/Script/FortniteGame.Default__FortStaticMeshActor:EdRenderComp'" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground148_UAID_D843AE8E0CE5DB5802_1880856513.EdRenderComp'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground148_UAID_D843AE8E0CE5DB5802_1880856513.StaticMeshComponent0'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Environments/Artemis/Sets/Sidewalk/Meshes/Grass/SM_Artemis_Sidewalk_1x2_Grass_A.SM_Artemis_Sidewalk_1x2_Grass_A'"
+            bEvaluateWorldPositionOffsetInRayTracing=True
+            StaticMeshDerivedDataKey="STATICMESH_3590ADE1085140A68202E37A3EACED95_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V2$2e0_557E1AC9$2dD61E$2d4C1D$2dA462$2d7BB695AC21EE_CONSTRAINED_9000000000000008000000000F051FB7B4320C1A77F9177B877EE4F150000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803F0000803F000000000000F041000000000000A0420503030000000000000000_0000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000003F0000803F000000000000F041000000000000A0420503030000000000000000_0000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803E0000803F000000000000F041000000000000A0420503030000000000000000_LS0MNSzzzzzzzz0_SWLZ_MinMLOD_10"
+            RelativeLocation=(X=-767.999950,Y=-2687.999925,Z=128.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+            bCanEverAffectNavigation=True
+         End Object
+         Begin Object Name="EdRenderComp" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground148_UAID_D843AE8E0CE5DB5802_1880856513.EdRenderComp'"
+            AttachParent="StaticMeshComponent0"
+         End Object
+         SavedActorGuid=FBCF1AFB441FFBD8C49D07912A124739
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         Layers(0)="Durrr"
+         ActorLabel="S_Elevation_Ground148"
+      End Actor
+      Begin Actor Class=/Script/FortniteGame.FortStaticMeshActor Name=S_Elevation_Ground146_UAID_D843AE8E0CE5DB5802_1880932535 Archetype="/Script/FortniteGame.FortStaticMeshActor'/Script/FortniteGame.Default__FortStaticMeshActor'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5D95802_1400753103 ActorFolderPath="Greasy Grove Sidewalks" ExportPath="/Script/FortniteGame.FortStaticMeshActor'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground146_UAID_D843AE8E0CE5DB5802_1880932535'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/Engine.StaticMeshComponent'/Script/FortniteGame.Default__FortStaticMeshActor:StaticMeshComponent0'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground146_UAID_D843AE8E0CE5DB5802_1880932535.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/NavigationSystem.NavLinkRenderingComponent Name="EdRenderComp" Archetype="/Script/NavigationSystem.NavLinkRenderingComponent'/Script/FortniteGame.Default__FortStaticMeshActor:EdRenderComp'" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground146_UAID_D843AE8E0CE5DB5802_1880932535.EdRenderComp'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground146_UAID_D843AE8E0CE5DB5802_1880932535.StaticMeshComponent0'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Environments/Artemis/Sets/Sidewalk/Meshes/SM_Artemis_Sidewalk_1x2_A.SM_Artemis_Sidewalk_1x2_A'"
+            bEvaluateWorldPositionOffsetInRayTracing=True
+            StaticMeshDerivedDataKey="STATICMESH_3590ADE1085140A68202E37A3EACED95_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V2$2e0_557E1AC9$2dD61E$2d4C1D$2dA462$2d7BB695AC21EE_CONSTRAINED_9000000000000008000000000A439B335469E19E61F0F5B9138B595500000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803F0000803F000000000000F041000000000000A0420503030000000000000000_0000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000003F0000803F000000000000F041000000000000A0420503030000000000000000_0000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803E0000803F000000000000F041000000000000A0420503030000000000000000_LS0MNSzzzzzzzz0_SWLZ_MinMLOD"
+            RelativeLocation=(X=-3071.999919,Y=-3328.000037,Z=128.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+            bCanEverAffectNavigation=True
+         End Object
+         Begin Object Name="EdRenderComp" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground146_UAID_D843AE8E0CE5DB5802_1880932535.EdRenderComp'"
+            AttachParent="StaticMeshComponent0"
+         End Object
+         SavedActorGuid=59039E3A4490FA8E20208BB4460442B3
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         Layers(0)="Durrr"
+         ActorLabel="S_Elevation_Ground150"
+      End Actor
+      Begin Actor Class=/Script/FortniteGame.FortStaticMeshActor Name=S_Elevation_Ground153_UAID_D843AE8E0CE5DB5802_1880920531 Archetype="/Script/FortniteGame.FortStaticMeshActor'/Script/FortniteGame.Default__FortStaticMeshActor'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5D95802_1400753103 ActorFolderPath="Greasy Grove Sidewalks" ExportPath="/Script/FortniteGame.FortStaticMeshActor'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground153_UAID_D843AE8E0CE5DB5802_1880920531'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/Engine.StaticMeshComponent'/Script/FortniteGame.Default__FortStaticMeshActor:StaticMeshComponent0'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground153_UAID_D843AE8E0CE5DB5802_1880920531.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/NavigationSystem.NavLinkRenderingComponent Name="EdRenderComp" Archetype="/Script/NavigationSystem.NavLinkRenderingComponent'/Script/FortniteGame.Default__FortStaticMeshActor:EdRenderComp'" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground153_UAID_D843AE8E0CE5DB5802_1880920531.EdRenderComp'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground153_UAID_D843AE8E0CE5DB5802_1880920531.StaticMeshComponent0'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Environments/Artemis/Sets/Sidewalk/Meshes/SM_Artemis_Sidewalk_1x2_B.SM_Artemis_Sidewalk_1x2_B'"
+            bEvaluateWorldPositionOffsetInRayTracing=True
+            StaticMeshDerivedDataKey="STATICMESH_3590ADE1085140A68202E37A3EACED95_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V2$2e0_557E1AC9$2dD61E$2d4C1D$2dA462$2d7BB695AC21EE_CONSTRAINED_90000000000000080000000002F910D304AB6F5D9B6662FBA0E18061A0000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803F0000803F000000000000F041000000000000A0420503030000000000000000_0000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000003F0000803F000000000000F041000000000000A0420503030000000000000000_0000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803E0000803F000000000000F041000000000000A0420503030000000000000000_LS0MNSzzzzzzzz0_SWLZ_MinMLOD"
+            RelativeLocation=(X=-4223.999919,Y=-3328.000093,Z=128.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+            bCanEverAffectNavigation=True
+         End Object
+         Begin Object Name="EdRenderComp" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground153_UAID_D843AE8E0CE5DB5802_1880920531.EdRenderComp'"
+            AttachParent="StaticMeshComponent0"
+         End Object
+         SavedActorGuid=F17EFA454846370289C05E89DEBB6CE0
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         Layers(0)="Durrr"
+         ActorLabel="S_Elevation_Ground153"
+      End Actor
+      Begin Actor Class=/Script/FortniteGame.FortStaticMeshActor Name=S_Elevation_Ground158_UAID_D843AE8E0CE5DB5802_1880989549 Archetype="/Script/FortniteGame.FortStaticMeshActor'/Script/FortniteGame.Default__FortStaticMeshActor'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5D95802_1400753103 ActorFolderPath="Greasy Grove Sidewalks" ExportPath="/Script/FortniteGame.FortStaticMeshActor'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground158_UAID_D843AE8E0CE5DB5802_1880989549'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/Engine.StaticMeshComponent'/Script/FortniteGame.Default__FortStaticMeshActor:StaticMeshComponent0'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground158_UAID_D843AE8E0CE5DB5802_1880989549.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/NavigationSystem.NavLinkRenderingComponent Name="EdRenderComp" Archetype="/Script/NavigationSystem.NavLinkRenderingComponent'/Script/FortniteGame.Default__FortStaticMeshActor:EdRenderComp'" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground158_UAID_D843AE8E0CE5DB5802_1880989549.EdRenderComp'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground158_UAID_D843AE8E0CE5DB5802_1880989549.StaticMeshComponent0'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Environments/Artemis/Sets/Sidewalk/Meshes/SM_Artemis_Sidewalk_Corner_A.SM_Artemis_Sidewalk_Corner_A'"
+            bEvaluateWorldPositionOffsetInRayTracing=True
+            StaticMeshDerivedDataKey="STATICMESH_3590ADE1085140A68202E37A3EACED95_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V2$2e0_557E1AC9$2dD61E$2d4C1D$2dA462$2d7BB695AC21EE_CONSTRAINED_900000000000000800000000000882A594985274410B4C3BE28507B690000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803F0000803F000000000000F041000000000000A0420503030000000000000000_0000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000003F0000803F000000000000F041000000000000A0420503030000000000000000_0000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803E0000803F000000000000F041000000000000A0420503030000000000000000_LS0MNSzzzzzzzz0_SWLZ_MinMLOD"
+            RelativeLocation=(X=-128.000012,Y=-1407.999894,Z=128.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+            bCanEverAffectNavigation=True
+         End Object
+         Begin Object Name="EdRenderComp" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground158_UAID_D843AE8E0CE5DB5802_1880989549.EdRenderComp'"
+            AttachParent="StaticMeshComponent0"
+         End Object
+         SavedActorGuid=185D6EDD4CC2C43DFA7F7C8B3E95CA11
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         Layers(0)="Durrr"
+         ActorLabel="S_Elevation_Ground158"
+      End Actor
+      Begin Actor Class=/Script/FortniteGame.FortStaticMeshActor Name=S_Elevation_Ground159_UAID_D843AE8E0CE5DB5802_1880898524 Archetype="/Script/FortniteGame.FortStaticMeshActor'/Script/FortniteGame.Default__FortStaticMeshActor'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5D95802_1400753103 ActorFolderPath="Greasy Grove Sidewalks" ExportPath="/Script/FortniteGame.FortStaticMeshActor'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground159_UAID_D843AE8E0CE5DB5802_1880898524'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/Engine.StaticMeshComponent'/Script/FortniteGame.Default__FortStaticMeshActor:StaticMeshComponent0'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground159_UAID_D843AE8E0CE5DB5802_1880898524.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/NavigationSystem.NavLinkRenderingComponent Name="EdRenderComp" Archetype="/Script/NavigationSystem.NavLinkRenderingComponent'/Script/FortniteGame.Default__FortStaticMeshActor:EdRenderComp'" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground159_UAID_D843AE8E0CE5DB5802_1880898524.EdRenderComp'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground159_UAID_D843AE8E0CE5DB5802_1880898524.StaticMeshComponent0'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Environments/Artemis/Sets/Sidewalk/Meshes/SM_Artemis_Sidewalk_Corner_B.SM_Artemis_Sidewalk_Corner_B'"
+            bEvaluateWorldPositionOffsetInRayTracing=True
+            StaticMeshDerivedDataKey="STATICMESH_3590ADE1085140A68202E37A3EACED95_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V2$2e0_557E1AC9$2dD61E$2d4C1D$2dA462$2d7BB695AC21EE_CONSTRAINED_9000000000000008000000000D4961C7C40A6DE317874EF9EEDFAF0530000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803F0000803F000000000000F041000000000000A0420503030000000000000000_0000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000003F0000803F000000000000F041000000000000A0420503030000000000000000_0000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803E0000803F000000000000F041000000000000A0420503030000000000000000_LS0MNSzzzzzzzz0_SWLZ_MinMLOD"
+            RelativeLocation=(X=-127.999950,Y=-2687.999894,Z=128.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+            bCanEverAffectNavigation=True
+         End Object
+         Begin Object Name="EdRenderComp" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Elevation_Ground159_UAID_D843AE8E0CE5DB5802_1880898524.EdRenderComp'"
+            AttachParent="StaticMeshComponent0"
+         End Object
+         SavedActorGuid=1638BFC54AB6530FEB649D9CA3DECFBA
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         Layers(0)="Durrr"
+         ActorLabel="S_Elevation_Ground159"
+      End Actor
+      Begin Actor Class=/Script/FortniteGame.FortStaticMeshActor Name=SM_3x3decos_Fountain_Sidewalk01_UAID_D843AE8E0CE5DB5802_1880868516 Archetype="/Script/FortniteGame.FortStaticMeshActor'/Script/FortniteGame.Default__FortStaticMeshActor'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5D95802_1400753103 ActorFolderPath="Greasy Grove Sidewalks" ExportPath="/Script/FortniteGame.FortStaticMeshActor'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_3x3decos_Fountain_Sidewalk01_UAID_D843AE8E0CE5DB5802_1880868516'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/Engine.StaticMeshComponent'/Script/FortniteGame.Default__FortStaticMeshActor:StaticMeshComponent0'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_3x3decos_Fountain_Sidewalk01_UAID_D843AE8E0CE5DB5802_1880868516.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/NavigationSystem.NavLinkRenderingComponent Name="EdRenderComp" Archetype="/Script/NavigationSystem.NavLinkRenderingComponent'/Script/FortniteGame.Default__FortStaticMeshActor:EdRenderComp'" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_3x3decos_Fountain_Sidewalk01_UAID_D843AE8E0CE5DB5802_1880868516.EdRenderComp'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_3x3decos_Fountain_Sidewalk01_UAID_D843AE8E0CE5DB5802_1880868516.StaticMeshComponent0'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Environments/Artemis/Sets/Sidewalk/Meshes/SM_Artemis_Sidewalk_05x2_B.SM_Artemis_Sidewalk_05x2_B'"
+            bEvaluateWorldPositionOffsetInRayTracing=True
+            StaticMeshDerivedDataKey="STATICMESH_3590ADE1085140A68202E37A3EACED95_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V2$2e0_557E1AC9$2dD61E$2d4C1D$2dA462$2d7BB695AC21EE_CONSTRAINED_9000000000000008000000000E7FB12E642B481E3FF8C6FA28E22F8660000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803F0000803F000000000000F041000000000000A0420503030000000000000000_0000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000003F0000803F000000000000F041000000000000A0420503030000000000000000_0000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803E0000803F000000000000F041000000000000A0420503030000000000000000_LS0MNSzzzzzzzz0_SWLZ_MinMLOD"
+            RelativeLocation=(X=-1024.000031,Y=-1023.999938,Z=128.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+            bCanEverAffectNavigation=True
+         End Object
+         Begin Object Name="EdRenderComp" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_3x3decos_Fountain_Sidewalk01_UAID_D843AE8E0CE5DB5802_1880868516.EdRenderComp'"
+            AttachParent="StaticMeshComponent0"
+         End Object
+         SavedActorGuid=9B788AB841A9E1FE38A1E3A2053A309D
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_3x3decos_Fountain_Sidewalk3"
+      End Actor
+      Begin Actor Class=/Script/FortniteGame.FortStaticMeshActor Name=FortStaticMeshActor_UAID_D843AE8E0CE5DB5802_1880914529 Archetype="/Script/FortniteGame.FortStaticMeshActor'/Script/FortniteGame.Default__FortStaticMeshActor'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5D95802_1400753103 ActorFolderPath="Greasy Grove Sidewalks" ExportPath="/Script/FortniteGame.FortStaticMeshActor'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.FortStaticMeshActor_UAID_D843AE8E0CE5DB5802_1880914529'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/Engine.StaticMeshComponent'/Script/FortniteGame.Default__FortStaticMeshActor:StaticMeshComponent0'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.FortStaticMeshActor_UAID_D843AE8E0CE5DB5802_1880914529.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/NavigationSystem.NavLinkRenderingComponent Name="EdRenderComp" Archetype="/Script/NavigationSystem.NavLinkRenderingComponent'/Script/FortniteGame.Default__FortStaticMeshActor:EdRenderComp'" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.FortStaticMeshActor_UAID_D843AE8E0CE5DB5802_1880914529.EdRenderComp'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.FortStaticMeshActor_UAID_D843AE8E0CE5DB5802_1880914529.StaticMeshComponent0'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Environments/Artemis/Sets/Sidewalk/Meshes/Grass/SM_Artemis_Sidewalk_1x1_Grass_A.SM_Artemis_Sidewalk_1x1_Grass_A'"
+            bEvaluateWorldPositionOffsetInRayTracing=True
+            StaticMeshDerivedDataKey="STATICMESH_3590ADE1085140A68202E37A3EACED95_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V2$2e0_OldSimplifier_557E1AC9$2dD61E$2d4C1D$2dA462$2d7BB695AC21EE_CONSTRAINED_9000000000000008000000000B28DB0C04176ACF8B52C04BFF890CE18000000000100000001000000000000000100000001000000000000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803F0000803F000000000000F041000000000000A0420503030000000000000000_000000000100000001000000000000000100000001000000000000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000003F0000803F000000000000F041000000000000A0420503030000000000000000_000000000100000001000000000000000100000001000000000000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803E0000803F000000000000F041000000000000A0420503030000000000000000_LS0MNSzzzzzzzz0_SWLZ_MinMLOD_10"
+            RelativeLocation=(X=-4223.999950,Y=-2688.000093,Z=128.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+            bCanEverAffectNavigation=True
+         End Object
+         Begin Object Name="EdRenderComp" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.FortStaticMeshActor_UAID_D843AE8E0CE5DB5802_1880914529.EdRenderComp'"
+            AttachParent="StaticMeshComponent0"
+         End Object
+         SavedActorGuid=061A013A4D5714EC131D4A888262B3EB
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_Artemis_Sidewalk_1x1_Grass_A"
+      End Actor
+      Begin Actor Class=/Script/FortniteGame.FortStaticMeshActor Name=FortStaticMeshActor_UAID_D843AE8E0CE5DB5802_1880851512 Archetype="/Script/FortniteGame.FortStaticMeshActor'/Script/FortniteGame.Default__FortStaticMeshActor'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5D95802_1400753103 ActorFolderPath="Greasy Grove Sidewalks" ExportPath="/Script/FortniteGame.FortStaticMeshActor'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.FortStaticMeshActor_UAID_D843AE8E0CE5DB5802_1880851512'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/Engine.StaticMeshComponent'/Script/FortniteGame.Default__FortStaticMeshActor:StaticMeshComponent0'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.FortStaticMeshActor_UAID_D843AE8E0CE5DB5802_1880851512.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/NavigationSystem.NavLinkRenderingComponent Name="EdRenderComp" Archetype="/Script/NavigationSystem.NavLinkRenderingComponent'/Script/FortniteGame.Default__FortStaticMeshActor:EdRenderComp'" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.FortStaticMeshActor_UAID_D843AE8E0CE5DB5802_1880851512.EdRenderComp'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.FortStaticMeshActor_UAID_D843AE8E0CE5DB5802_1880851512.StaticMeshComponent0'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Environments/Artemis/Sets/Sidewalk/Meshes/NoCurb/SM_Artemis_Sidewalk_05x1_NoCurb_A.SM_Artemis_Sidewalk_05x1_NoCurb_A'"
+            bEvaluateWorldPositionOffsetInRayTracing=True
+            StaticMeshDerivedDataKey="STATICMESH_3590ADE1085140A68202E37A3EACED95_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V2$2e0_OldSimplifier_557E1AC9$2dD61E$2d4C1D$2dA462$2d7BB695AC21EE_CONSTRAINED_9000000000000008000000000553C7911461287BE23A6FA955BDEADFF0000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803F0000803F000000000000F041000000000000A0420503030000000000000000_0000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000003F0000803F000000000000F041000000000000A0420503030000000000000000_0000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803E0000803F000000000000F041000000000000A0420503030000000000000000_LS0MNSzzzzzzzz0_SWLZ_MinMLOD"
+            RelativeLocation=(X=-3968.000012,Y=-1408.000081,Z=128.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+            bCanEverAffectNavigation=True
+         End Object
+         Begin Object Name="EdRenderComp" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.FortStaticMeshActor_UAID_D843AE8E0CE5DB5802_1880851512.EdRenderComp'"
+            AttachParent="StaticMeshComponent0"
+         End Object
+         SavedActorGuid=A6A9B532483AFA1A313FDB867CD12589
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_Artemis_Sidewalk_05x1_NoCurb_A"
+      End Actor
+      Begin Actor Class=/Script/FortniteGame.FortStaticMeshActor Name=FortStaticMeshActor_UAID_D843AE8E0CE5DB5802_1880880519 Archetype="/Script/FortniteGame.FortStaticMeshActor'/Script/FortniteGame.Default__FortStaticMeshActor'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5D95802_1400753103 ActorFolderPath="Greasy Grove Sidewalks" ExportPath="/Script/FortniteGame.FortStaticMeshActor'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.FortStaticMeshActor_UAID_D843AE8E0CE5DB5802_1880880519'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/Engine.StaticMeshComponent'/Script/FortniteGame.Default__FortStaticMeshActor:StaticMeshComponent0'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.FortStaticMeshActor_UAID_D843AE8E0CE5DB5802_1880880519.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/NavigationSystem.NavLinkRenderingComponent Name="EdRenderComp" Archetype="/Script/NavigationSystem.NavLinkRenderingComponent'/Script/FortniteGame.Default__FortStaticMeshActor:EdRenderComp'" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.FortStaticMeshActor_UAID_D843AE8E0CE5DB5802_1880880519.EdRenderComp'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.FortStaticMeshActor_UAID_D843AE8E0CE5DB5802_1880880519.StaticMeshComponent0'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Environments/Artemis/Sets/Sidewalk/Meshes/SM_Artemis_Sidewalk_05x2_A.SM_Artemis_Sidewalk_05x2_A'"
+            bEvaluateWorldPositionOffsetInRayTracing=True
+            StaticMeshDerivedDataKey="STATICMESH_3590ADE1085140A68202E37A3EACED95_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V2$2e0_OldSimplifier_557E1AC9$2dD61E$2d4C1D$2dA462$2d7BB695AC21EE_CONSTRAINED_9000000000000008000000000B54FA744439421E92638D2B216E5ED40000000000100000001000000000000000100000001000000000000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803F0000803F000000000000F041000000000000A0420503030000000000000000_000000000100000001000000000000000100000001000000000000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000003F0000803F000000000000F041000000000000A0420503030000000000000000_000000000100000001000000000000000100000001000000000000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803E0000803F000000000000F041000000000000A0420503030000000000000000_LS0MNSzzzzzzzz0_SWLZ_MinMLOD"
+            RelativeLocation=(X=-1023.999994,Y=-1791.999938,Z=128.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+            bCanEverAffectNavigation=True
+         End Object
+         Begin Object Name="EdRenderComp" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.FortStaticMeshActor_UAID_D843AE8E0CE5DB5802_1880880519.EdRenderComp'"
+            AttachParent="StaticMeshComponent0"
+         End Object
+         SavedActorGuid=BED304324DCE1B48398DA3B3A39448F3
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_Artemis_Sidewalk_05x2_A12"
+      End Actor
+      Begin Actor Class=/Script/FortniteGame.FortStaticMeshActor Name=SM_Sidewalk_Rounded_UAID_D843AE8E0CE5DB5802_1880917530 Archetype="/Script/FortniteGame.FortStaticMeshActor'/Script/FortniteGame.Default__FortStaticMeshActor'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5D95802_1400753103 ActorFolderPath="Greasy Grove Sidewalks" ExportPath="/Script/FortniteGame.FortStaticMeshActor'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_Sidewalk_Rounded_UAID_D843AE8E0CE5DB5802_1880917530'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/Engine.StaticMeshComponent'/Script/FortniteGame.Default__FortStaticMeshActor:StaticMeshComponent0'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_Sidewalk_Rounded_UAID_D843AE8E0CE5DB5802_1880917530.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/NavigationSystem.NavLinkRenderingComponent Name="EdRenderComp" Archetype="/Script/NavigationSystem.NavLinkRenderingComponent'/Script/FortniteGame.Default__FortStaticMeshActor:EdRenderComp'" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_Sidewalk_Rounded_UAID_D843AE8E0CE5DB5802_1880917530.EdRenderComp'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_Sidewalk_Rounded_UAID_D843AE8E0CE5DB5802_1880917530.StaticMeshComponent0'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Environments/Artemis/Sets/Sidewalk/Meshes/SM_Artemis_Sidewalk_Rounded_B.SM_Artemis_Sidewalk_Rounded_B'"
+            bEvaluateWorldPositionOffsetInRayTracing=True
+            StaticMeshDerivedDataKey="STATICMESH_3590ADE1085140A68202E37A3EACED95_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V2$2e0_557E1AC9$2dD61E$2d4C1D$2dA462$2d7BB695AC21EE_CONSTRAINED_90000000000000080000000007B3F2C93406743046986E695A87D4FB60000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803F0000803F000000000000F041000000000000A0420503030000000000000000_LS0MNSzzzzzzzz0_SWLZ_MinMLOD"
+            RelativeLocation=(X=256.000112,Y=-3967.999875,Z=128.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+            bCanEverAffectNavigation=True
+         End Object
+         Begin Object Name="EdRenderComp" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_Sidewalk_Rounded_UAID_D843AE8E0CE5DB5802_1880917530.EdRenderComp'"
+            AttachParent="StaticMeshComponent0"
+         End Object
+         SavedActorGuid=77B4D2A44FC7C633F8C00D9B40BC807D
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_Sidewalk_Rounded_26"
+      End Actor
+      Begin Actor Class=/Script/FortniteGame.FortStaticMeshActor Name=SM_Sidewalk_Small_01x13_UAID_D843AE8E0CE5DB5802_1880963543 Archetype="/Script/FortniteGame.FortStaticMeshActor'/Script/FortniteGame.Default__FortStaticMeshActor'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5D95802_1400753103 ActorFolderPath="Greasy Grove Sidewalks" ExportPath="/Script/FortniteGame.FortStaticMeshActor'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_Sidewalk_Small_01x13_UAID_D843AE8E0CE5DB5802_1880963543'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/Engine.StaticMeshComponent'/Script/FortniteGame.Default__FortStaticMeshActor:StaticMeshComponent0'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_Sidewalk_Small_01x13_UAID_D843AE8E0CE5DB5802_1880963543.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/NavigationSystem.NavLinkRenderingComponent Name="EdRenderComp" Archetype="/Script/NavigationSystem.NavLinkRenderingComponent'/Script/FortniteGame.Default__FortStaticMeshActor:EdRenderComp'" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_Sidewalk_Small_01x13_UAID_D843AE8E0CE5DB5802_1880963543.EdRenderComp'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_Sidewalk_Small_01x13_UAID_D843AE8E0CE5DB5802_1880963543.StaticMeshComponent0'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Environments/World/Sidewalks/Meshes/SM_Sidewalk_Small_01x2.SM_Sidewalk_Small_01x2'"
+            bEvaluateWorldPositionOffsetInRayTracing=True
+            StaticMeshDerivedDataKey="STATICMESH_67F287D817EE4869A093DCE770062E64_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V1$2e0_7MD006B22D34372A6539313E0A656B6EB18000000000000000001000000000000000100000001000000010000000000000001000000000000004000000000000000010000000000803F0000803F0000803F0000803F000000005C0000002F47616D652F456E7669726F6E6D656E74732F576F726C642F5369646577616C6B732F4D65736865732F534D5F5369646577616C6B5F536D616C6C5F3031783244462E534D5F5369646577616C6B5F536D616C6C5F3031783244460031000000803F0000803F0000000000000041000000000000A0420303030000000000000000MD1BD730434FC6E03872799C88145617C3000000000100000001000000000000000100000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803F0000803F0000000000000041000000000000A0420303030000000000000000LS0MNSzzzzzzzz0_MinMLOD"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceConstant'/Game/Environments/Apollo/Materials/MI_Plaza_Concrete.MI_Plaza_Concrete'"
+            RelativeLocation=(X=-1024.000012,Y=-1407.999938,Z=128.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+            bCanEverAffectNavigation=True
+         End Object
+         Begin Object Name="EdRenderComp" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_Sidewalk_Small_01x13_UAID_D843AE8E0CE5DB5802_1880963543.EdRenderComp'"
+            AttachParent="StaticMeshComponent0"
+         End Object
+         SavedActorGuid=55716CA849C722F7CAD03BA62BD74D99
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_Sidewalk_Small_01x13"
+      End Actor
+      Begin Actor Class=/Script/FortniteGame.FortStaticMeshActor Name=SM_Sidewalk_Small_UAID_D843AE8E0CE5DB5802_1880980547 Archetype="/Script/FortniteGame.FortStaticMeshActor'/Script/FortniteGame.Default__FortStaticMeshActor'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5D95802_1400753103 ActorFolderPath="Greasy Grove Sidewalks" ExportPath="/Script/FortniteGame.FortStaticMeshActor'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_Sidewalk_Small_UAID_D843AE8E0CE5DB5802_1880980547'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/Engine.StaticMeshComponent'/Script/FortniteGame.Default__FortStaticMeshActor:StaticMeshComponent0'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_Sidewalk_Small_UAID_D843AE8E0CE5DB5802_1880980547.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/NavigationSystem.NavLinkRenderingComponent Name="EdRenderComp" Archetype="/Script/NavigationSystem.NavLinkRenderingComponent'/Script/FortniteGame.Default__FortStaticMeshActor:EdRenderComp'" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_Sidewalk_Small_UAID_D843AE8E0CE5DB5802_1880980547.EdRenderComp'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_Sidewalk_Small_UAID_D843AE8E0CE5DB5802_1880980547.StaticMeshComponent0'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Environments/Artemis/Sets/Sidewalk/Meshes/NoCurb/SM_Artemis_Sidewalk_05x05_A_NoCurb.SM_Artemis_Sidewalk_05x05_A_NoCurb'"
+            bEvaluateWorldPositionOffsetInRayTracing=True
+            StaticMeshDerivedDataKey="STATICMESH_3590ADE1085140A68202E37A3EACED95_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V2$2e0_OldSimplifier_557E1AC9$2dD61E$2d4C1D$2dA462$2d7BB695AC21EE_CONSTRAINED_90000000000000080000000003FBE415D4D1E094345781F8B6D9EF4F70000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803F0000803F000000000000F041000000000000A0420503030000000000000000_0000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000003F0000803F000000000000F041000000000000A0420503030000000000000000_0000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803E0000803F000000000000F041000000000000A0420503030000000000000000_LS0MNSzzzzzzzz0_SWLZ_MinMLOD"
+            RelativeLocation=(X=256.000075,Y=-3199.999875,Z=128.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+            bCanEverAffectNavigation=True
+         End Object
+         Begin Object Name="EdRenderComp" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_Sidewalk_Small_UAID_D843AE8E0CE5DB5802_1880980547.EdRenderComp'"
+            AttachParent="StaticMeshComponent0"
+         End Object
+         SavedActorGuid=97D8E71C4C47BCE5CD6E1EA2948AEC4C
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_Sidewalk_Small_42"
+      End Actor
+      Begin Actor Class=/Script/FortniteGame.FortStaticMeshActor Name=SM_Sidewalk_Small_UAID_D843AE8E0CE5DB5802_1880927533 Archetype="/Script/FortniteGame.FortStaticMeshActor'/Script/FortniteGame.Default__FortStaticMeshActor'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5D95802_1400753103 ActorFolderPath="Greasy Grove Sidewalks" ExportPath="/Script/FortniteGame.FortStaticMeshActor'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_Sidewalk_Small_UAID_D843AE8E0CE5DB5802_1880927533'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/Engine.StaticMeshComponent'/Script/FortniteGame.Default__FortStaticMeshActor:StaticMeshComponent0'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_Sidewalk_Small_UAID_D843AE8E0CE5DB5802_1880927533.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/NavigationSystem.NavLinkRenderingComponent Name="EdRenderComp" Archetype="/Script/NavigationSystem.NavLinkRenderingComponent'/Script/FortniteGame.Default__FortStaticMeshActor:EdRenderComp'" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_Sidewalk_Small_UAID_D843AE8E0CE5DB5802_1880927533.EdRenderComp'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_Sidewalk_Small_UAID_D843AE8E0CE5DB5802_1880927533.StaticMeshComponent0'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Environments/Artemis/Sets/Sidewalk/Meshes/SM_Artemis_Sidewalk_05x05_A.SM_Artemis_Sidewalk_05x05_A'"
+            bEvaluateWorldPositionOffsetInRayTracing=True
+            StaticMeshDerivedDataKey="STATICMESH_3590ADE1085140A68202E37A3EACED95_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V2$2e0_557E1AC9$2dD61E$2d4C1D$2dA462$2d7BB695AC21EE_CONSTRAINED_9000000000000008000000000AD27CB0D4CA979C064C5B59A6D699F3A0000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803F0000803F000000000000F041000000000000A0420503030000000000000000_LS0MNSzzzzzzzz0_SWLZ_MinMLOD"
+            RelativeLocation=(X=256.000006,Y=-1791.999875,Z=128.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+            bCanEverAffectNavigation=True
+         End Object
+         Begin Object Name="EdRenderComp" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_Sidewalk_Small_UAID_D843AE8E0CE5DB5802_1880927533.EdRenderComp'"
+            AttachParent="StaticMeshComponent0"
+         End Object
+         SavedActorGuid=73D367C541F50F52392EBCABBCA7AB10
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_Sidewalk_Small_46"
+      End Actor
+      Begin Actor Class=/Script/FortniteGame.FortStaticMeshActor Name=SM_Sidewalk_Small_UAID_D843AE8E0CE5DB5802_1880910528 Archetype="/Script/FortniteGame.FortStaticMeshActor'/Script/FortniteGame.Default__FortStaticMeshActor'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5D95802_1400753103 ActorFolderPath="Greasy Grove Sidewalks" ExportPath="/Script/FortniteGame.FortStaticMeshActor'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_Sidewalk_Small_UAID_D843AE8E0CE5DB5802_1880910528'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/Engine.StaticMeshComponent'/Script/FortniteGame.Default__FortStaticMeshActor:StaticMeshComponent0'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_Sidewalk_Small_UAID_D843AE8E0CE5DB5802_1880910528.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/NavigationSystem.NavLinkRenderingComponent Name="EdRenderComp" Archetype="/Script/NavigationSystem.NavLinkRenderingComponent'/Script/FortniteGame.Default__FortStaticMeshActor:EdRenderComp'" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_Sidewalk_Small_UAID_D843AE8E0CE5DB5802_1880910528.EdRenderComp'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_Sidewalk_Small_UAID_D843AE8E0CE5DB5802_1880910528.StaticMeshComponent0'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Environments/World/Sidewalks/Meshes/SM_Sidewalk_Small_04.SM_Sidewalk_Small_04'"
+            bEvaluateWorldPositionOffsetInRayTracing=True
+            StaticMeshDerivedDataKey="STATICMESH_67F287D817EE4869A093DCE770062E64_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V1$2e0_7MD2DC61EB3463DD62405F62B8C69E3DE3A000000000100000001000000000000000100000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803F0000803F0000000000000041000000000000A0420303030000000000000000MDC4EBBABD49DB2D5A20B8A3A95D8CE50E000000000100000001000000000000000100000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803F0000803F0000000000000041000000000000A0420303030000000000000000LS0MNSzzzzzzzz0_MinMLOD"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceConstant'/Game/Environments/Apollo/Materials/MI_Plaza_Concrete.MI_Plaza_Concrete'"
+            RelativeLocation=(X=256.000093,Y=-3583.999875,Z=128.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+            bCanEverAffectNavigation=True
+         End Object
+         Begin Object Name="EdRenderComp" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_Sidewalk_Small_UAID_D843AE8E0CE5DB5802_1880910528.EdRenderComp'"
+            AttachParent="StaticMeshComponent0"
+         End Object
+         SavedActorGuid=E3FDEF1343D4C02F256092B23BB0CAA1
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_Sidewalk_Small_91"
+      End Actor
+      Begin Actor Class=/Script/FortniteGame.FortStaticMeshActor Name=SM_Sidewalk_Small_UAID_D843AE8E0CE5DB5802_1880954541 Archetype="/Script/FortniteGame.FortStaticMeshActor'/Script/FortniteGame.Default__FortStaticMeshActor'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5D95802_1400753103 ActorFolderPath="Greasy Grove Sidewalks" ExportPath="/Script/FortniteGame.FortStaticMeshActor'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_Sidewalk_Small_UAID_D843AE8E0CE5DB5802_1880954541'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/Engine.StaticMeshComponent'/Script/FortniteGame.Default__FortStaticMeshActor:StaticMeshComponent0'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_Sidewalk_Small_UAID_D843AE8E0CE5DB5802_1880954541.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/NavigationSystem.NavLinkRenderingComponent Name="EdRenderComp" Archetype="/Script/NavigationSystem.NavLinkRenderingComponent'/Script/FortniteGame.Default__FortStaticMeshActor:EdRenderComp'" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_Sidewalk_Small_UAID_D843AE8E0CE5DB5802_1880954541.EdRenderComp'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_Sidewalk_Small_UAID_D843AE8E0CE5DB5802_1880954541.StaticMeshComponent0'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Environments/World/Sidewalks/Meshes/SM_Sidewalk_Small_01.SM_Sidewalk_Small_01'"
+            bEvaluateWorldPositionOffsetInRayTracing=True
+            StaticMeshDerivedDataKey="STATICMESH_67F287D817EE4869A093DCE770062E64_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V1$2e0_7MD6360E3DB4B895107DD94A38C59CD6C47000000000100000001000000000000000100000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803F0000803F0000000000000041000000000000A0420303030000000000000000MD6F2FB17A43B6256A07A656B297F67DF6000000000100000001000000000000000100000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803F0000803F0000000000000041000000000000A0420303030000000000000000LS0MNSzzzzzzzz0_MinMLOD"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceConstant'/Game/Environments/Apollo/Materials/MI_Plaza_Concrete.MI_Plaza_Concrete'"
+            RelativeLocation=(X=-3967.999994,Y=-1792.000081,Z=128.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+            bCanEverAffectNavigation=True
+         End Object
+         Begin Object Name="EdRenderComp" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_Sidewalk_Small_UAID_D843AE8E0CE5DB5802_1880954541.EdRenderComp'"
+            AttachParent="StaticMeshComponent0"
+         End Object
+         SavedActorGuid=85DBF2E54ABD7E7CE0253F8E80AC3E97
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_Sidewalk_Small_95"
+      End Actor
+      Begin Actor Class=/Script/FortniteGame.FortStaticMeshActor Name=SM_Sidewalk_Small_UAID_D843AE8E0CE5DB5802_1880860514 Archetype="/Script/FortniteGame.FortStaticMeshActor'/Script/FortniteGame.Default__FortStaticMeshActor'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5D95802_1400753103 ActorFolderPath="Greasy Grove Sidewalks" ExportPath="/Script/FortniteGame.FortStaticMeshActor'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_Sidewalk_Small_UAID_D843AE8E0CE5DB5802_1880860514'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/Engine.StaticMeshComponent'/Script/FortniteGame.Default__FortStaticMeshActor:StaticMeshComponent0'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_Sidewalk_Small_UAID_D843AE8E0CE5DB5802_1880860514.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/NavigationSystem.NavLinkRenderingComponent Name="EdRenderComp" Archetype="/Script/NavigationSystem.NavLinkRenderingComponent'/Script/FortniteGame.Default__FortStaticMeshActor:EdRenderComp'" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_Sidewalk_Small_UAID_D843AE8E0CE5DB5802_1880860514.EdRenderComp'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_Sidewalk_Small_UAID_D843AE8E0CE5DB5802_1880860514.StaticMeshComponent0'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Environments/World/Sidewalks/Meshes/SM_Sidewalk_Small_03.SM_Sidewalk_Small_03'"
+            bEvaluateWorldPositionOffsetInRayTracing=True
+            StaticMeshDerivedDataKey="STATICMESH_67F287D817EE4869A093DCE770062E64_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V1$2e0_7MD8188204F40AD68DC922F95AEB39B0907000000000100000001000000000000000100000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803F0000803F0000000000000041000000000000A0420303030000000000000000MD435912A04C5F8745987114BC7D6AC134000000000100000001000000000000000100000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803F0000803F0000000000000041000000000000A0420303030000000000000000LS0MNSzzzzzzzz0_MinMLOD"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceConstant'/Game/Environments/Apollo/Materials/MI_Plaza_Concrete.MI_Plaza_Concrete'"
+            RelativeLocation=(X=256.000025,Y=-2175.999875,Z=128.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+            bCanEverAffectNavigation=True
+         End Object
+         Begin Object Name="EdRenderComp" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.SM_Sidewalk_Small_UAID_D843AE8E0CE5DB5802_1880860514.EdRenderComp'"
+            AttachParent="StaticMeshComponent0"
+         End Object
+         SavedActorGuid=0698E24A46FA0E4A62DB83A9035C65A6
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_Sidewalk_Small_100"
+      End Actor
+      Begin Actor Class=/Script/FortniteGame.FortStaticMeshActor Name=S_Sidewalk_1x1_A11_UAID_D843AE8E0CE5DB5802_1880906527 Archetype="/Script/FortniteGame.FortStaticMeshActor'/Script/FortniteGame.Default__FortStaticMeshActor'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5D95802_1400753103 ActorFolderPath="Greasy Grove Sidewalks" ExportPath="/Script/FortniteGame.FortStaticMeshActor'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_1x1_A11_UAID_D843AE8E0CE5DB5802_1880906527'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/Engine.StaticMeshComponent'/Script/FortniteGame.Default__FortStaticMeshActor:StaticMeshComponent0'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_1x1_A11_UAID_D843AE8E0CE5DB5802_1880906527.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/NavigationSystem.NavLinkRenderingComponent Name="EdRenderComp" Archetype="/Script/NavigationSystem.NavLinkRenderingComponent'/Script/FortniteGame.Default__FortStaticMeshActor:EdRenderComp'" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_1x1_A11_UAID_D843AE8E0CE5DB5802_1880906527.EdRenderComp'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_1x1_A11_UAID_D843AE8E0CE5DB5802_1880906527.StaticMeshComponent0'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Environments/Artemis/Sets/Sidewalk/Meshes/SM_Artemis_Sidewalk_1x1_Corner_C.SM_Artemis_Sidewalk_1x1_Corner_C'"
+            bEvaluateWorldPositionOffsetInRayTracing=True
+            StaticMeshDerivedDataKey="STATICMESH_3590ADE1085140A68202E37A3EACED95_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V2$2e0_557E1AC9$2dD61E$2d4C1D$2dA462$2d7BB695AC21EE_CONSTRAINED_90000000000000080000000004999BB3F453EAAF274898EBA2AF171090000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803F0000803F000000000000F041000000000000A0420503030000000000000000_0000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000003F0000803F000000000000F041000000000000A0420503030000000000000000_0000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803E0000803F000000000000F041000000000000A0420503030000000000000000_LS0MNSzzzzzzzz0_SWLZ_MinMLOD"
+            RelativeLocation=(X=-127.999981,Y=-2047.999894,Z=128.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+            bCanEverAffectNavigation=True
+         End Object
+         Begin Object Name="EdRenderComp" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_1x1_A11_UAID_D843AE8E0CE5DB5802_1880906527.EdRenderComp'"
+            AttachParent="StaticMeshComponent0"
+         End Object
+         SavedActorGuid=1C47196B46D2729C546202A20CE51783
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="S_Sidewalk_1x1_A11"
+      End Actor
+      Begin Actor Class=/Script/FortniteGame.FortStaticMeshActor Name=S_Sidewalk_1x1_A12_UAID_D843AE8E0CE5DB5802_1880935536 Archetype="/Script/FortniteGame.FortStaticMeshActor'/Script/FortniteGame.Default__FortStaticMeshActor'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5D95802_1400753103 ActorFolderPath="Greasy Grove Sidewalks" ExportPath="/Script/FortniteGame.FortStaticMeshActor'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_1x1_A12_UAID_D843AE8E0CE5DB5802_1880935536'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/Engine.StaticMeshComponent'/Script/FortniteGame.Default__FortStaticMeshActor:StaticMeshComponent0'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_1x1_A12_UAID_D843AE8E0CE5DB5802_1880935536.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/NavigationSystem.NavLinkRenderingComponent Name="EdRenderComp" Archetype="/Script/NavigationSystem.NavLinkRenderingComponent'/Script/FortniteGame.Default__FortStaticMeshActor:EdRenderComp'" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_1x1_A12_UAID_D843AE8E0CE5DB5802_1880935536.EdRenderComp'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_1x1_A12_UAID_D843AE8E0CE5DB5802_1880935536.StaticMeshComponent0'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Environments/Artemis/Sets/Sidewalk/Meshes/SM_Artemis_Sidewalk_1x1_A.SM_Artemis_Sidewalk_1x1_A'"
+            bEvaluateWorldPositionOffsetInRayTracing=True
+            StaticMeshDerivedDataKey="STATICMESH_3590ADE1085140A68202E37A3EACED95_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V2$2e0_557E1AC9$2dD61E$2d4C1D$2dA462$2d7BB695AC21EE_CONSTRAINED_9000000000000008000000000A5E9FF0C4417F2656C37E5A7C6486A360000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803F0000803F000000000000F041000000000000A0420503030000000000000000_0000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000003F0000803F000000000000F041000000000000A0420503030000000000000000_0000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803E0000803F000000000000F041000000000000A0420503030000000000000000_LS0MNSzzzzzzzz0_SWLZ_MinMLOD"
+            RelativeLocation=(X=-127.999857,Y=-4607.999894,Z=128.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+            bCanEverAffectNavigation=True
+         End Object
+         Begin Object Name="EdRenderComp" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_1x1_A12_UAID_D843AE8E0CE5DB5802_1880935536.EdRenderComp'"
+            AttachParent="StaticMeshComponent0"
+         End Object
+         SavedActorGuid=D1CF000E460981CE95FBBEB8B3F5E761
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="S_Sidewalk_1x1_A12"
+      End Actor
+      Begin Actor Class=/Script/FortniteGame.FortStaticMeshActor Name=S_Sidewalk_1x1_A13_UAID_D843AE8E0CE5DB5802_1880890522 Archetype="/Script/FortniteGame.FortStaticMeshActor'/Script/FortniteGame.Default__FortStaticMeshActor'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5D95802_1400753103 ActorFolderPath="Greasy Grove Sidewalks" ExportPath="/Script/FortniteGame.FortStaticMeshActor'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_1x1_A13_UAID_D843AE8E0CE5DB5802_1880890522'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/Engine.StaticMeshComponent'/Script/FortniteGame.Default__FortStaticMeshActor:StaticMeshComponent0'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_1x1_A13_UAID_D843AE8E0CE5DB5802_1880890522.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/NavigationSystem.NavLinkRenderingComponent Name="EdRenderComp" Archetype="/Script/NavigationSystem.NavLinkRenderingComponent'/Script/FortniteGame.Default__FortStaticMeshActor:EdRenderComp'" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_1x1_A13_UAID_D843AE8E0CE5DB5802_1880890522.EdRenderComp'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_1x1_A13_UAID_D843AE8E0CE5DB5802_1880890522.StaticMeshComponent0'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Environments/Artemis/Sets/Sidewalk/Meshes/NoCurb/SM_Artemis_Sidewalk_1x2_A_NoCurb.SM_Artemis_Sidewalk_1x2_A_NoCurb'"
+            bEvaluateWorldPositionOffsetInRayTracing=True
+            StaticMeshDerivedDataKey="STATICMESH_3590ADE1085140A68202E37A3EACED95_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V2$2e0_OldSimplifier_557E1AC9$2dD61E$2d4C1D$2dA462$2d7BB695AC21EE_CONSTRAINED_90000000000000080000000006DC77E27462C2A81AED6039E6189F6AD0000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803F0000803F000000000000F041000000000000A0420503030000000000000000_0000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000003F0000803F000000000000F041000000000000A0420503030000000000000000_0000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803E0000803F000000000000F041000000000000A0420503030000000000000000_LS0MNSzzzzzzzz0_SWLZ_MinMLOD"
+            RelativeLocation=(X=-3071.999950,Y=-2688.000037,Z=128.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+            bCanEverAffectNavigation=True
+         End Object
+         Begin Object Name="EdRenderComp" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_1x1_A13_UAID_D843AE8E0CE5DB5802_1880890522.EdRenderComp'"
+            AttachParent="StaticMeshComponent0"
+         End Object
+         SavedActorGuid=D0691F024A77D4830868959180153017
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="S_Sidewalk_1x1_A13"
+      End Actor
+      Begin Actor Class=/Script/FortniteGame.FortStaticMeshActor Name=S_Sidewalk_1x1_A_Gras3DB_UAID_D843AE8E0CE5DB5802_1880863515 Archetype="/Script/FortniteGame.FortStaticMeshActor'/Script/FortniteGame.Default__FortStaticMeshActor'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5D95802_1400753103 ActorFolderPath="Greasy Grove Sidewalks" ExportPath="/Script/FortniteGame.FortStaticMeshActor'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_1x1_A_Gras3DB_UAID_D843AE8E0CE5DB5802_1880863515'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/Engine.StaticMeshComponent'/Script/FortniteGame.Default__FortStaticMeshActor:StaticMeshComponent0'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_1x1_A_Gras3DB_UAID_D843AE8E0CE5DB5802_1880863515.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/NavigationSystem.NavLinkRenderingComponent Name="EdRenderComp" Archetype="/Script/NavigationSystem.NavLinkRenderingComponent'/Script/FortniteGame.Default__FortStaticMeshActor:EdRenderComp'" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_1x1_A_Gras3DB_UAID_D843AE8E0CE5DB5802_1880863515.EdRenderComp'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_1x1_A_Gras3DB_UAID_D843AE8E0CE5DB5802_1880863515.StaticMeshComponent0'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Environments/Artemis/Sets/Sidewalk/Meshes/SM_Artemis_Sidewalk_05x1_A.SM_Artemis_Sidewalk_05x1_A'"
+            bEvaluateWorldPositionOffsetInRayTracing=True
+            StaticMeshDerivedDataKey="STATICMESH_3590ADE1085140A68202E37A3EACED95_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V2$2e0_OldSimplifier_557E1AC9$2dD61E$2d4C1D$2dA462$2d7BB695AC21EE_CONSTRAINED_900000000000000800000000090BE8E024179FA64566D189844ADFEA10000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803F0000803F000000000000F041000000000000A0420503030000000000000000_LS0MNSzzzzzzzz0_SWLZ_MinMLOD"
+            RelativeLocation=(X=-3327.999994,Y=-1792.000050,Z=128.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+            bCanEverAffectNavigation=True
+         End Object
+         Begin Object Name="EdRenderComp" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_1x1_A_Gras3DB_UAID_D843AE8E0CE5DB5802_1880863515.EdRenderComp'"
+            AttachParent="StaticMeshComponent0"
+         End Object
+         SavedActorGuid=AF2F4D724265C1A7EC0D7DBC29E27A97
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="S_Sidewalk_1x1_A_Gras3DB"
+      End Actor
+      Begin Actor Class=/Script/FortniteGame.FortStaticMeshActor Name=S_Sidewalk_1x1_Corner_b2_UAID_D843AE8E0CE5DB5802_1880887521 Archetype="/Script/FortniteGame.FortStaticMeshActor'/Script/FortniteGame.Default__FortStaticMeshActor'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5D95802_1400753103 ActorFolderPath="Greasy Grove Sidewalks" ExportPath="/Script/FortniteGame.FortStaticMeshActor'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_1x1_Corner_b2_UAID_D843AE8E0CE5DB5802_1880887521'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/Engine.StaticMeshComponent'/Script/FortniteGame.Default__FortStaticMeshActor:StaticMeshComponent0'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_1x1_Corner_b2_UAID_D843AE8E0CE5DB5802_1880887521.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/NavigationSystem.NavLinkRenderingComponent Name="EdRenderComp" Archetype="/Script/NavigationSystem.NavLinkRenderingComponent'/Script/FortniteGame.Default__FortStaticMeshActor:EdRenderComp'" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_1x1_Corner_b2_UAID_D843AE8E0CE5DB5802_1880887521.EdRenderComp'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_1x1_Corner_b2_UAID_D843AE8E0CE5DB5802_1880887521.StaticMeshComponent0'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Environments/Artemis/Sets/Sidewalk/Meshes/NoCurb/SM_Artemis_Sidewalk_1x1_A_NoCurb.SM_Artemis_Sidewalk_1x1_A_NoCurb'"
+            bEvaluateWorldPositionOffsetInRayTracing=True
+            StaticMeshDerivedDataKey="STATICMESH_3590ADE1085140A68202E37A3EACED95_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V2$2e0_OldSimplifier_557E1AC9$2dD61E$2d4C1D$2dA462$2d7BB695AC21EE_CONSTRAINED_9000000000000008000000000B83B2D21460A62A1EFEE07BB7C672744000000000100000001000000000000000100000001000000000000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803F0000803F000000000000F041000000000000A0420503030000000000000000_000000000100000001000000000000000100000001000000000000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000003F0000803F000000000000F041000000000000A0420503030000000000000000_000000000100000001000000000000000100000001000000000000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803E0000803F000000000000F041000000000000A0420503030000000000000000_LS0MNSzzzzzzzz0_SWLZ_MinMLOD"
+            OverrideMaterials(0)=None
+            RelativeLocation=(X=-127.999919,Y=-3327.999894,Z=128.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+            bCanEverAffectNavigation=True
+         End Object
+         Begin Object Name="EdRenderComp" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_1x1_Corner_b2_UAID_D843AE8E0CE5DB5802_1880887521.EdRenderComp'"
+            AttachParent="StaticMeshComponent0"
+         End Object
+         SavedActorGuid=751C688545F273C2397AF4BF849A6E7D
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="S_Sidewalk_1x1_Corner_b2"
+      End Actor
+      Begin Actor Class=/Script/FortniteGame.FortStaticMeshActor Name=S_Sidewalk_1x40_UAID_D843AE8E0CE5DB5802_1880930534 Archetype="/Script/FortniteGame.FortStaticMeshActor'/Script/FortniteGame.Default__FortStaticMeshActor'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5D95802_1400753103 ActorFolderPath="Greasy Grove Sidewalks" ExportPath="/Script/FortniteGame.FortStaticMeshActor'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_1x40_UAID_D843AE8E0CE5DB5802_1880930534'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/Engine.StaticMeshComponent'/Script/FortniteGame.Default__FortStaticMeshActor:StaticMeshComponent0'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_1x40_UAID_D843AE8E0CE5DB5802_1880930534.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/NavigationSystem.NavLinkRenderingComponent Name="EdRenderComp" Archetype="/Script/NavigationSystem.NavLinkRenderingComponent'/Script/FortniteGame.Default__FortStaticMeshActor:EdRenderComp'" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_1x40_UAID_D843AE8E0CE5DB5802_1880930534.EdRenderComp'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_1x40_UAID_D843AE8E0CE5DB5802_1880930534.StaticMeshComponent0'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Environments/Artemis/Sets/Sidewalk/Meshes/SM_Artemis_Sidewalk_InsideCorner_B.SM_Artemis_Sidewalk_InsideCorner_B'"
+            bEvaluateWorldPositionOffsetInRayTracing=True
+            StaticMeshDerivedDataKey="STATICMESH_3590ADE1085140A68202E37A3EACED95_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V2$2e0_557E1AC9$2dD61E$2d4C1D$2dA462$2d7BB695AC21EE_CONSTRAINED_90000000000000080000000000C4699374AF644EBBA640399EE89E9940000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803F0000803F000000000000F041000000000000A0420503030000000000000000_LS0MNSzzzzzzzz0_SWLZ_MinMLOD"
+            RelativeLocation=(X=-127.999888,Y=-3967.999894,Z=128.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+            bCanEverAffectNavigation=True
+         End Object
+         Begin Object Name="EdRenderComp" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_1x40_UAID_D843AE8E0CE5DB5802_1880930534.EdRenderComp'"
+            AttachParent="StaticMeshComponent0"
+         End Object
+         SavedActorGuid=FA5F48B64A5A14534D69B7A277AAC727
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="S_Sidewalk_1x40"
+      End Actor
+      Begin Actor Class=/Script/FortniteGame.FortStaticMeshActor Name=S_Sidewalk_RoundWedge_UAID_D843AE8E0CE5DB5802_1880872517 Archetype="/Script/FortniteGame.FortStaticMeshActor'/Script/FortniteGame.Default__FortStaticMeshActor'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5D95802_1400753103 ActorFolderPath="Greasy Grove Sidewalks" ExportPath="/Script/FortniteGame.FortStaticMeshActor'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_RoundWedge_UAID_D843AE8E0CE5DB5802_1880872517'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/Engine.StaticMeshComponent'/Script/FortniteGame.Default__FortStaticMeshActor:StaticMeshComponent0'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_RoundWedge_UAID_D843AE8E0CE5DB5802_1880872517.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/NavigationSystem.NavLinkRenderingComponent Name="EdRenderComp" Archetype="/Script/NavigationSystem.NavLinkRenderingComponent'/Script/FortniteGame.Default__FortStaticMeshActor:EdRenderComp'" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_RoundWedge_UAID_D843AE8E0CE5DB5802_1880872517.EdRenderComp'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_RoundWedge_UAID_D843AE8E0CE5DB5802_1880872517.StaticMeshComponent0'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Environments/Artemis/Sets/Sidewalk/Meshes/Island/SM_Artemis_Sidewalk_Island_Roundwedge_A.SM_Artemis_Sidewalk_Island_Roundwedge_A'"
+            bEvaluateWorldPositionOffsetInRayTracing=True
+            StaticMeshDerivedDataKey="STATICMESH_3590ADE1085140A68202E37A3EACED95_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V2$2e0_OldSimplifier_557E1AC9$2dD61E$2d4C1D$2dA462$2d7BB695AC21EE_CONSTRAINED_900000000000000800000000073985DC44D4496AD4AF874ACC6C6F3EA0000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803F0000803F000000000000F041000000000000A0420503030000000000000000_0000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000003F0000803F000000000000F041000000000000A0420503030000000000000000_0000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803E0000803F000000000000F041000000000000A0420503030000000000000000_LS0MNSzzzzzzzz0_SWLZ_MinMLOD_01"
+            RelativeLocation=(X=384.000143,Y=-4607.999869,Z=128.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+            bCanEverAffectNavigation=True
+         End Object
+         Begin Object Name="EdRenderComp" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_RoundWedge_UAID_D843AE8E0CE5DB5802_1880872517.EdRenderComp'"
+            AttachParent="StaticMeshComponent0"
+         End Object
+         SavedActorGuid=A53FFE944224707DCCA3418A6EE3E6F5
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         Layers(0)="Durrr"
+         ActorLabel="S_Sidewalk_RoundWedge_4"
+      End Actor
+      Begin Actor Class=/Script/FortniteGame.FortStaticMeshActor Name=S_Sidewalk_Street_BLVD_b252_UAID_D843AE8E0CE5DB5802_1880945539 Archetype="/Script/FortniteGame.FortStaticMeshActor'/Script/FortniteGame.Default__FortStaticMeshActor'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5D95802_1400753103 ActorFolderPath="Greasy Grove Sidewalks" ExportPath="/Script/FortniteGame.FortStaticMeshActor'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_Street_BLVD_b252_UAID_D843AE8E0CE5DB5802_1880945539'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/Engine.StaticMeshComponent'/Script/FortniteGame.Default__FortStaticMeshActor:StaticMeshComponent0'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_Street_BLVD_b252_UAID_D843AE8E0CE5DB5802_1880945539.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/NavigationSystem.NavLinkRenderingComponent Name="EdRenderComp" Archetype="/Script/NavigationSystem.NavLinkRenderingComponent'/Script/FortniteGame.Default__FortStaticMeshActor:EdRenderComp'" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_Street_BLVD_b252_UAID_D843AE8E0CE5DB5802_1880945539.EdRenderComp'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_Street_BLVD_b252_UAID_D843AE8E0CE5DB5802_1880945539.StaticMeshComponent0'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Environments/Artemis/Sets/Sidewalk/Meshes/Island/SM_Artemis_Sidewalk_05x3_Island_Grass_A.SM_Artemis_Sidewalk_05x3_Island_Grass_A'"
+            bEvaluateWorldPositionOffsetInRayTracing=True
+            StaticMeshDerivedDataKey="STATICMESH_3590ADE1085140A68202E37A3EACED95_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V2$2e0_OldSimplifier_557E1AC9$2dD61E$2d4C1D$2dA462$2d7BB695AC21EE_CONSTRAINED_90000000000000080000000005EBF4B1048C66BF5596C05A4790065000000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803F0000803F000000000000F041000000000000A0420503030000000000000000_0000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000003F0000803F000000000000F041000000000000A0420503030000000000000000_0000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803E0000803F000000000000F041000000000000A0420503030000000000000000_LS0MNSzzzzzzzz0_SWLZ_MinMLOD_01"
+            RelativeLocation=(X=-1920.000012,Y=-1407.999981,Z=128.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+            bCanEverAffectNavigation=True
+         End Object
+         Begin Object Name="EdRenderComp" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_Street_BLVD_b252_UAID_D843AE8E0CE5DB5802_1880945539.EdRenderComp'"
+            AttachParent="StaticMeshComponent0"
+         End Object
+         SavedActorGuid=C51680CE432343CAA6E63BA4F744AFB8
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="S_Sidewalk_Street_BLVD_b252"
+      End Actor
+      Begin Actor Class=/Script/FortniteGame.FortStaticMeshActor Name=S_Sidewalk_Street_BLVD_b254_UAID_D843AE8E0CE5DB5802_1880938537 Archetype="/Script/FortniteGame.FortStaticMeshActor'/Script/FortniteGame.Default__FortStaticMeshActor'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5D95802_1400753103 ActorFolderPath="Greasy Grove Sidewalks" ExportPath="/Script/FortniteGame.FortStaticMeshActor'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_Street_BLVD_b254_UAID_D843AE8E0CE5DB5802_1880938537'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/Engine.StaticMeshComponent'/Script/FortniteGame.Default__FortStaticMeshActor:StaticMeshComponent0'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_Street_BLVD_b254_UAID_D843AE8E0CE5DB5802_1880938537.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/NavigationSystem.NavLinkRenderingComponent Name="EdRenderComp" Archetype="/Script/NavigationSystem.NavLinkRenderingComponent'/Script/FortniteGame.Default__FortStaticMeshActor:EdRenderComp'" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_Street_BLVD_b254_UAID_D843AE8E0CE5DB5802_1880938537.EdRenderComp'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_Street_BLVD_b254_UAID_D843AE8E0CE5DB5802_1880938537.StaticMeshComponent0'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Environments/Artemis/Sets/Sidewalk/Meshes/Island/SM_Artemis_Sidewalk_05x2_Island_Grass_A.SM_Artemis_Sidewalk_05x2_Island_Grass_A'"
+            bEvaluateWorldPositionOffsetInRayTracing=True
+            StaticMeshDerivedDataKey="STATICMESH_3590ADE1085140A68202E37A3EACED95_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V2$2e0_OldSimplifier_557E1AC9$2dD61E$2d4C1D$2dA462$2d7BB695AC21EE_CONSTRAINED_9000000000000008000000000CEE0E6184066B8168114A180CDE2EF6B0000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803F0000803F000000000000F041000000000000A0420503030000000000000000_0000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000003F0000803F000000000000F041000000000000A0420503030000000000000000_0000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803E0000803F000000000000F041000000000000A0420503030000000000000000_LS0MNSzzzzzzzz0_SWLZ_MinMLOD_10"
+            RelativeLocation=(X=-1920.000000,Y=-1663.999981,Z=128.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+            bCanEverAffectNavigation=True
+         End Object
+         Begin Object Name="EdRenderComp" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_Street_BLVD_b254_UAID_D843AE8E0CE5DB5802_1880938537.EdRenderComp'"
+            AttachParent="StaticMeshComponent0"
+         End Object
+         SavedActorGuid=3A2C482445B184D543E165A63D0C227F
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="S_Sidewalk_Street_BLVD_b254"
+      End Actor
+      Begin Actor Class=/Script/FortniteGame.FortStaticMeshActor Name=S_Sidewalk_Street_BLVD_Wide6_UAID_D843AE8E0CE5DB5802_1880904526 Archetype="/Script/FortniteGame.FortStaticMeshActor'/Script/FortniteGame.Default__FortStaticMeshActor'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5D95802_1400753103 ActorFolderPath="Greasy Grove Sidewalks" ExportPath="/Script/FortniteGame.FortStaticMeshActor'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_Street_BLVD_Wide6_UAID_D843AE8E0CE5DB5802_1880904526'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/Engine.StaticMeshComponent'/Script/FortniteGame.Default__FortStaticMeshActor:StaticMeshComponent0'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_Street_BLVD_Wide6_UAID_D843AE8E0CE5DB5802_1880904526.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/NavigationSystem.NavLinkRenderingComponent Name="EdRenderComp" Archetype="/Script/NavigationSystem.NavLinkRenderingComponent'/Script/FortniteGame.Default__FortStaticMeshActor:EdRenderComp'" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_Street_BLVD_Wide6_UAID_D843AE8E0CE5DB5802_1880904526.EdRenderComp'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_Street_BLVD_Wide6_UAID_D843AE8E0CE5DB5802_1880904526.StaticMeshComponent0'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Environments/Artemis/Sets/Sidewalk/Meshes/Grass/SM_Artemis_Sidewalk_05x2_Grass_A.SM_Artemis_Sidewalk_05x2_Grass_A'"
+            bEvaluateWorldPositionOffsetInRayTracing=True
+            StaticMeshDerivedDataKey="STATICMESH_3590ADE1085140A68202E37A3EACED95_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V2$2e0_OldSimplifier_557E1AC9$2dD61E$2d4C1D$2dA462$2d7BB695AC21EE_CONSTRAINED_9000000000000008000000000C7961EA048804DB97CED978244AE6D090000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803F0000803F000000000000F041000000000000A0420503030000000000000000_0000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000003F0000803F000000000000F041000000000000A0420503030000000000000000_0000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803E0000803F000000000000F041000000000000A0420503030000000000000000_LS0MNSzzzzzzzz0_SWLZ_MinMLOD_10"
+            RelativeLocation=(X=-1919.999981,Y=-2047.999981,Z=128.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+            bCanEverAffectNavigation=True
+         End Object
+         Begin Object Name="EdRenderComp" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_Street_BLVD_Wide6_UAID_D843AE8E0CE5DB5802_1880904526.EdRenderComp'"
+            AttachParent="StaticMeshComponent0"
+         End Object
+         SavedActorGuid=51F63E6D4ADB155EA29760835683DF30
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="S_Sidewalk_Street_BLVD_Wide6"
+      End Actor
+      Begin Actor Class=/Script/FortniteGame.FortStaticMeshActor Name=S_Sidewalk_Street_BLVD_Wide9_UAID_D843AE8E0CE5DB5802_1880893523 Archetype="/Script/FortniteGame.FortStaticMeshActor'/Script/FortniteGame.Default__FortStaticMeshActor'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5D95802_1400753103 ActorFolderPath="Greasy Grove Sidewalks" ExportPath="/Script/FortniteGame.FortStaticMeshActor'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_Street_BLVD_Wide9_UAID_D843AE8E0CE5DB5802_1880893523'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/Engine.StaticMeshComponent'/Script/FortniteGame.Default__FortStaticMeshActor:StaticMeshComponent0'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_Street_BLVD_Wide9_UAID_D843AE8E0CE5DB5802_1880893523.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/NavigationSystem.NavLinkRenderingComponent Name="EdRenderComp" Archetype="/Script/NavigationSystem.NavLinkRenderingComponent'/Script/FortniteGame.Default__FortStaticMeshActor:EdRenderComp'" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_Street_BLVD_Wide9_UAID_D843AE8E0CE5DB5802_1880893523.EdRenderComp'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_Street_BLVD_Wide9_UAID_D843AE8E0CE5DB5802_1880893523.StaticMeshComponent0'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Environments/World/Sidewalks/Meshes/S_Sidewalk_Street_BLVD_Wide.S_Sidewalk_Street_BLVD_Wide'"
+            bEvaluateWorldPositionOffsetInRayTracing=True
+            StaticMeshDerivedDataKey="STATICMESH_67F287D817EE4869A093DCE770062E64_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V1$2e0_9MDEA87608446DD98C1A4AA2C9923360ECB000000000100000001000000000000000100000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803F0000803F0000000000000041000000000000A0420303030000000000000000_000000000100000001000000000000000100000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000003F0000803F0000000000000041000000000000A0420303030000000000000000LS0MNSzzzzzzzz0_MinMLOD"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceConstant'/Game/Creative/Materials/CP_Apollo_Terrain_Mat_Biome_Sidewalk_noAsphalt1_HIghtower_SLC.CP_Apollo_Terrain_Mat_Biome_Sidewalk_noAsphalt1_HIghtower_SLC'"
+            RelativeLocation=(X=-1920.000031,Y=-1023.999981,Z=128.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+            bCanEverAffectNavigation=True
+         End Object
+         Begin Object Name="EdRenderComp" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_Street_BLVD_Wide9_UAID_D843AE8E0CE5DB5802_1880893523.EdRenderComp'"
+            AttachParent="StaticMeshComponent0"
+         End Object
+         SavedActorGuid=7729009E4A2D775ABD7FACA5B9F292DA
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="S_Sidewalk_Street_BLVD_Wide9"
+      End Actor
+      Begin Actor Class=/Script/FortniteGame.FortStaticMeshActor Name=S_Sidewalk_Street_BLVD_Wide20_UAID_D843AE8E0CE5DB5802_1880949540 Archetype="/Script/FortniteGame.FortStaticMeshActor'/Script/FortniteGame.Default__FortStaticMeshActor'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5D95802_1400753103 ActorFolderPath="Greasy Grove Sidewalks" ExportPath="/Script/FortniteGame.FortStaticMeshActor'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_Street_BLVD_Wide20_UAID_D843AE8E0CE5DB5802_1880949540'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/Engine.StaticMeshComponent'/Script/FortniteGame.Default__FortStaticMeshActor:StaticMeshComponent0'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_Street_BLVD_Wide20_UAID_D843AE8E0CE5DB5802_1880949540.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/NavigationSystem.NavLinkRenderingComponent Name="EdRenderComp" Archetype="/Script/NavigationSystem.NavLinkRenderingComponent'/Script/FortniteGame.Default__FortStaticMeshActor:EdRenderComp'" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_Street_BLVD_Wide20_UAID_D843AE8E0CE5DB5802_1880949540.EdRenderComp'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_Street_BLVD_Wide20_UAID_D843AE8E0CE5DB5802_1880949540.StaticMeshComponent0'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Environments/Artemis/Sets/Sidewalk/Meshes/Grass/SM_Artemis_Sidewalk_05x1_Grass_A.SM_Artemis_Sidewalk_05x1_Grass_A'"
+            bEvaluateWorldPositionOffsetInRayTracing=True
+            StaticMeshDerivedDataKey="STATICMESH_3590ADE1085140A68202E37A3EACED95_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V2$2e0_OldSimplifier_557E1AC9$2dD61E$2d4C1D$2dA462$2d7BB695AC21EE_CONSTRAINED_9000000000000008000000000D6894EE7455D5E50B60DD4BA87149DDF0000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803F0000803F000000000000F041000000000000A0420503030000000000000000_0000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000003F0000803F000000000000F041000000000000A0420503030000000000000000_0000000001000000010000000000000001000000010000000000000000000000000000004000000000000000010000000000803F0000803F0000803F0000803F00000000050000004E6F6E650030000000803E0000803F000000000000F041000000000000A0420503030000000000000000_LS0MNSzzzzzzzz0_SWLZ_MinMLOD_10"
+            RelativeLocation=(X=-2560.000019,Y=-1280.000012,Z=128.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999999,Roll=0.000000)
+            bCanEverAffectNavigation=True
+         End Object
+         Begin Object Name="EdRenderComp" ExportPath="/Script/NavigationSystem.NavLinkRenderingComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.S_Sidewalk_Street_BLVD_Wide20_UAID_D843AE8E0CE5DB5802_1880949540.EdRenderComp'"
+            AttachParent="StaticMeshComponent0"
+         End Object
+         SavedActorGuid=E77C69044B6BA323C906AF8B95885565
+         StaticMeshComponent="StaticMeshComponent0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="S_Sidewalk_Street_BLVD_Wide20"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map

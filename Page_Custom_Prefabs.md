@@ -2,6 +2,14 @@
 **[Back To Table of Contents](/Table%20of%20Contents.md)**
 # Custom Prefabs
 
+# Misc
+
+| Icon | Playset Name w/ Author | Extra Info |
+|-----------------------------------------|-----------------|-----------------|
+| <img src=".assets/Island Foundation Gallery.png" width="256"/> | **[Island Foundation Gallery](SpawnerTexts/Island%20Foundation%20Gallery.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Custom** | Every Static Mesh<br>or Blueprint that comes from<br>a template island that isnt<br>in galleries|
+| <img src=".assets/Tilted Towers Sidewalks.png" width="256"/> | **[Tilted Towers Sidewalks](SpawnerTexts/Tilted%20Towers%20Sidewalks.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Custom** | Every Static Mesh<br>or Blueprint that comes from<br>Tilted Towers that isnt<br>in galleries|
+| <img src=".assets/Greasy Grove Sidewalks.png" width="256"/> | **[Greasy Grove Sidewalks](SpawnerTexts/Greasy%20Grove%20Sidewalks.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Custom** | Every Static Mesh<br>or Blueprint that comes from<br>Greasy Grove that isnt<br>in galleries|
+
 # Neo Tilted
 
 | Icon | Playset Name w/ Author | Extra Info |
