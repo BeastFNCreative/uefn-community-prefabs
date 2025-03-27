@@ -19,10 +19,11 @@
 | <img src=".assets/slipstation A.png" width="256"/> | **[Slipstation A](SpawnerTexts/Slipstation%20A.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Recreated** | Visually Modified: ✔️<br>Requires External Download: ❌|
 | <img src=".assets/slipstation b.png" width="256"/> | **[Slipstation B](SpawnerTexts/Slipstation%20B.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Recreated** | Visually Modified: ✔️<br>Requires External Download: ❌|
 
-# Chapture 2 Custom Prefabs
+# Chapter 2 Custom Prefabs
 
 | Icon | Playset Name w/ Author | Extra Info |
 |-----------------------------------------|-----------------|-----------------|
+| <img src=".assets/Ghost House.png" width="256"/> | **[Ghost House](SpawnerTexts/Ghost%20House.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Recreated** | Visually Modified: ✔️<br>Requires External Download: ❌|
 | <img src=".assets/Risky_Reels_Icon.png" width="256"/> | **[Variant Risky Reels](SpawnerTexts/Prefab_VariantRiskyReels_POI.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Recreated** | Visually Modified: ✔️<br>Requires External Download: ❌|
 | <img src=".assets/LandmarkRainbowRentals_Icon.png" width="256"/> | **[Rainbow Rentals](SpawnerTexts/Prefab_RainbowRentals_Landmark.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Recreated** | Visually Modified: ✔️<br>Requires External Download: ❌|
 | <img src=".assets/Eye Land Cabin.png" width="256"/> | **[Eye Land Cabin](SpawnerTexts/Eye%20Land%20Cabin.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Recreated** | Visually Modified: ✔️<br>Requires External Download: ❌|
