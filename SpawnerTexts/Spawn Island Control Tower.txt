@@ -1,0 +1,1373 @@
+Begin Map
+   Begin Level
+      Begin Actor Class=/Script/FortniteGame.FortPlaysetRoot Name=FortPlaysetRoot_UAID_D843AE8E0CE5785902_2077979735 Archetype="/Script/FortniteGame.FortPlaysetRoot'/Script/FortniteGame.Default__FortPlaysetRoot'" ActorFolderPath="Spawn Island Control Tower" ExportPath="/Script/FortniteGame.FortPlaysetRoot'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.FortPlaysetRoot_UAID_D843AE8E0CE5785902_2077979735'"
+         Begin Object Class=/Script/Engine.SceneComponent Name="DefaultSceneRoot" Archetype="/Script/Engine.SceneComponent'/Script/FortniteGame.Default__FortPlaysetRoot:DefaultSceneRoot'" ExportPath="/Script/Engine.SceneComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.FortPlaysetRoot_UAID_D843AE8E0CE5785902_2077979735.DefaultSceneRoot'"
+         End Object
+         Begin Object Name="DefaultSceneRoot" ExportPath="/Script/Engine.SceneComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.FortPlaysetRoot_UAID_D843AE8E0CE5785902_2077979735.DefaultSceneRoot'"
+         End Object
+         SavedActorGuid=AD03D4384DF1002B8360A89AB3FE5D98
+         PlaysetPackagePathName="/CRP_Foundation/SetupAssets/Maps/PID_CP_Foundation_3x7_StripMallStores_01"
+         ActorLabel="Spawn Island Control Tower"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/Construction_ConcreteWall_Trim_01.Construction_ConcreteWall_Trim_01_C Name=Construction_ConcreteWall_Trim_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874436797 Archetype="/Game/Building/ActorBlueprints/Wall/Construction_ConcreteWall_Trim_01.Construction_ConcreteWall_Trim_01_C'/Game/Building/ActorBlueprints/Wall/Construction_ConcreteWall_Trim_01.Default__Construction_ConcreteWall_Trim_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5785902_2077979735 ActorFolderPath="Spawn Island Control Tower" ExportPath="/Game/Building/ActorBlueprints/Wall/Construction_ConcreteWall_Trim_01.Construction_ConcreteWall_Trim_01_C'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Construction_ConcreteWall_Trim_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874436797'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Construction_ConcreteWall_Trim_01.Default__Construction_ConcreteWall_Trim_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Construction_ConcreteWall_Trim_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874436797.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/Construction_ConcreteWall_Trim_01.Default__Construction_ConcreteWall_Trim_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Construction_ConcreteWall_Trim_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874436797.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Construction_ConcreteWall_Trim_01.Default__Construction_ConcreteWall_Trim_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Construction_ConcreteWall_Trim_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874436797.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Construction_ConcreteWall_Trim_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874436797.StaticMeshComponent0'"
+            bEvaluateWorldPositionOffsetInRayTracing=False
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Construction_Walls_2'"
+            CachedMaxDrawDistance=21783.835938
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=256.000000,Z=1152.000000)
+            RelativeScale3D=(X=1.150000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Construction_ConcreteWall_Trim_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874436797.BoundingBoxComponent'"
+            CachedMaxDrawDistance=21783.835938
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Construction_ConcreteWall_Trim_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874436797.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=21783.835938
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=21783.835938
+         DataVersion=1
+         SavedActorGuid=14869AEA478AC69B17D4ABA9590B2546
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Construction_ConcreteWall_Trim_71"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/Construction_ConcreteWall_Trim_01.Construction_ConcreteWall_Trim_01_C Name=Construction_ConcreteWall_Trim_01_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874632856 Archetype="/Game/Building/ActorBlueprints/Wall/Construction_ConcreteWall_Trim_01.Construction_ConcreteWall_Trim_01_C'/Game/Building/ActorBlueprints/Wall/Construction_ConcreteWall_Trim_01.Default__Construction_ConcreteWall_Trim_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5785902_2077979735 ActorFolderPath="Spawn Island Control Tower" ExportPath="/Game/Building/ActorBlueprints/Wall/Construction_ConcreteWall_Trim_01.Construction_ConcreteWall_Trim_01_C'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Construction_ConcreteWall_Trim_01_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874632856'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Construction_ConcreteWall_Trim_01.Default__Construction_ConcreteWall_Trim_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Construction_ConcreteWall_Trim_01_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874632856.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/Construction_ConcreteWall_Trim_01.Default__Construction_ConcreteWall_Trim_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Construction_ConcreteWall_Trim_01_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874632856.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Construction_ConcreteWall_Trim_01.Default__Construction_ConcreteWall_Trim_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Construction_ConcreteWall_Trim_01_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874632856.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Construction_ConcreteWall_Trim_01_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874632856.StaticMeshComponent0'"
+            bEvaluateWorldPositionOffsetInRayTracing=False
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Construction_Walls_2'"
+            CachedMaxDrawDistance=21783.835938
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-256.000000,Y=0.000000,Z=1152.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=89.999954,Roll=-0.000000)
+            RelativeScale3D=(X=1.150000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Construction_ConcreteWall_Trim_01_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874632856.BoundingBoxComponent'"
+            CachedMaxDrawDistance=21783.835938
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Construction_ConcreteWall_Trim_01_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874632856.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=21783.835938
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=21783.835938
+         DataVersion=1
+         SavedActorGuid=A5E9010941B170BC661C6A8ACE73440E
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Construction_ConcreteWall_Trim_72"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/Construction_ConcreteWall_Trim_01.Construction_ConcreteWall_Trim_01_C Name=Construction_ConcreteWall_Trim_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874929961 Archetype="/Game/Building/ActorBlueprints/Wall/Construction_ConcreteWall_Trim_01.Construction_ConcreteWall_Trim_01_C'/Game/Building/ActorBlueprints/Wall/Construction_ConcreteWall_Trim_01.Default__Construction_ConcreteWall_Trim_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5785902_2077979735 ActorFolderPath="Spawn Island Control Tower" ExportPath="/Game/Building/ActorBlueprints/Wall/Construction_ConcreteWall_Trim_01.Construction_ConcreteWall_Trim_01_C'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Construction_ConcreteWall_Trim_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874929961'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Construction_ConcreteWall_Trim_01.Default__Construction_ConcreteWall_Trim_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Construction_ConcreteWall_Trim_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874929961.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/Construction_ConcreteWall_Trim_01.Default__Construction_ConcreteWall_Trim_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Construction_ConcreteWall_Trim_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874929961.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Construction_ConcreteWall_Trim_01.Default__Construction_ConcreteWall_Trim_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Construction_ConcreteWall_Trim_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874929961.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Construction_ConcreteWall_Trim_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874929961.StaticMeshComponent0'"
+            bEvaluateWorldPositionOffsetInRayTracing=False
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Construction_Walls_2'"
+            CachedMaxDrawDistance=21783.835938
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=256.000000,Y=0.000000,Z=1152.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000008,Roll=0.000000)
+            RelativeScale3D=(X=1.150000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Construction_ConcreteWall_Trim_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874929961.BoundingBoxComponent'"
+            CachedMaxDrawDistance=21783.835938
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Construction_ConcreteWall_Trim_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874929961.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=21783.835938
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=21783.835938
+         DataVersion=1
+         SavedActorGuid=BDD355B24DE20AE81F844A81C12C8193
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Construction_ConcreteWall_Trim_73"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/Construction_ConcreteWall_Trim_01.Construction_ConcreteWall_Trim_01_C Name=Construction_ConcreteWall_Trim_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874939969 Archetype="/Game/Building/ActorBlueprints/Wall/Construction_ConcreteWall_Trim_01.Construction_ConcreteWall_Trim_01_C'/Game/Building/ActorBlueprints/Wall/Construction_ConcreteWall_Trim_01.Default__Construction_ConcreteWall_Trim_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5785902_2077979735 ActorFolderPath="Spawn Island Control Tower" ExportPath="/Game/Building/ActorBlueprints/Wall/Construction_ConcreteWall_Trim_01.Construction_ConcreteWall_Trim_01_C'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Construction_ConcreteWall_Trim_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874939969'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Construction_ConcreteWall_Trim_01.Default__Construction_ConcreteWall_Trim_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Construction_ConcreteWall_Trim_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874939969.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/Construction_ConcreteWall_Trim_01.Default__Construction_ConcreteWall_Trim_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Construction_ConcreteWall_Trim_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874939969.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Construction_ConcreteWall_Trim_01.Default__Construction_ConcreteWall_Trim_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Construction_ConcreteWall_Trim_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874939969.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Construction_ConcreteWall_Trim_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874939969.StaticMeshComponent0'"
+            bEvaluateWorldPositionOffsetInRayTracing=False
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Construction_Walls_2'"
+            CachedMaxDrawDistance=21783.835938
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=-256.000000,Z=1152.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999954,Roll=0.000000)
+            RelativeScale3D=(X=1.150000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Construction_ConcreteWall_Trim_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874939969.BoundingBoxComponent'"
+            CachedMaxDrawDistance=21783.835938
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Construction_ConcreteWall_Trim_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874939969.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=21783.835938
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=21783.835938
+         DataVersion=1
+         SavedActorGuid=FF53683D48A1876A66A998BD0E58FA00
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Construction_ConcreteWall_Trim_74"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Corner/Factory_1c_ThreeQuarter.Factory_1c_ThreeQuarter_C Name=Factory_1b_Whole16_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874378778 Archetype="/Game/Building/ActorBlueprints/Corner/Factory_1c_ThreeQuarter.Factory_1c_ThreeQuarter_C'/Game/Building/ActorBlueprints/Corner/Factory_1c_ThreeQuarter.Default__Factory_1c_ThreeQuarter_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5785902_2077979735 ActorFolderPath="Spawn Island Control Tower" ExportPath="/Game/Building/ActorBlueprints/Corner/Factory_1c_ThreeQuarter.Factory_1c_ThreeQuarter_C'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_1b_Whole16_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874378778'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Corner/Factory_1c_ThreeQuarter.Default__Factory_1c_ThreeQuarter_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_1b_Whole16_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874378778.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Corner/Factory_1c_ThreeQuarter.Default__Factory_1c_ThreeQuarter_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_1b_Whole16_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874378778.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Corner/Factory_1c_ThreeQuarter.Default__Factory_1c_ThreeQuarter_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_1b_Whole16_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874378778.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_1b_Whole16_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874378778.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Factory_Brick_43'"
+            CachedMaxDrawDistance=16223.807617
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-256.000273,Y=256.000273,Z=1152.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-0.000061,Roll=0.000000)
+            RelativeScale3D=(X=1.200000,Y=1.200000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_1b_Whole16_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874378778.BoundingBoxComponent'"
+            CachedMaxDrawDistance=16223.807617
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_1b_Whole16_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874378778.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=16223.807617
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=16223.807617
+         DataVersion=1
+         SavedActorGuid=7688F19A4A1BDB71BD4FE79CC064B337
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Factory_1b_Whole40"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Corner/Factory_1c_ThreeQuarter.Factory_1c_ThreeQuarter_C Name=Factory_1b_Whole20_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874517819 Archetype="/Game/Building/ActorBlueprints/Corner/Factory_1c_ThreeQuarter.Factory_1c_ThreeQuarter_C'/Game/Building/ActorBlueprints/Corner/Factory_1c_ThreeQuarter.Default__Factory_1c_ThreeQuarter_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5785902_2077979735 ActorFolderPath="Spawn Island Control Tower" ExportPath="/Game/Building/ActorBlueprints/Corner/Factory_1c_ThreeQuarter.Factory_1c_ThreeQuarter_C'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_1b_Whole20_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874517819'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Corner/Factory_1c_ThreeQuarter.Default__Factory_1c_ThreeQuarter_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_1b_Whole20_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874517819.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Corner/Factory_1c_ThreeQuarter.Default__Factory_1c_ThreeQuarter_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_1b_Whole20_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874517819.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Corner/Factory_1c_ThreeQuarter.Default__Factory_1c_ThreeQuarter_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_1b_Whole20_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874517819.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_1b_Whole20_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874517819.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Factory_Brick_43'"
+            CachedMaxDrawDistance=16223.807617
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-256.000584,Y=-256.000584,Z=1152.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=90.000000,Roll=-0.000000)
+            RelativeScale3D=(X=1.200000,Y=1.200000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_1b_Whole20_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874517819.BoundingBoxComponent'"
+            CachedMaxDrawDistance=16223.807617
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_1b_Whole20_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874517819.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=16223.807617
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=16223.807617
+         DataVersion=1
+         SavedActorGuid=632D0FC942E7ABC43045688E8608AC24
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Factory_1b_Whole42"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Corner/Factory_1c_ThreeQuarter.Factory_1c_ThreeQuarter_C Name=Factory_1b_Whole8_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874761897 Archetype="/Game/Building/ActorBlueprints/Corner/Factory_1c_ThreeQuarter.Factory_1c_ThreeQuarter_C'/Game/Building/ActorBlueprints/Corner/Factory_1c_ThreeQuarter.Default__Factory_1c_ThreeQuarter_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5785902_2077979735 ActorFolderPath="Spawn Island Control Tower" ExportPath="/Game/Building/ActorBlueprints/Corner/Factory_1c_ThreeQuarter.Factory_1c_ThreeQuarter_C'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_1b_Whole8_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874761897'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Corner/Factory_1c_ThreeQuarter.Default__Factory_1c_ThreeQuarter_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_1b_Whole8_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874761897.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Corner/Factory_1c_ThreeQuarter.Default__Factory_1c_ThreeQuarter_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_1b_Whole8_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874761897.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Corner/Factory_1c_ThreeQuarter.Default__Factory_1c_ThreeQuarter_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_1b_Whole8_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874761897.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_1b_Whole8_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874761897.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Factory_Brick_43'"
+            CachedMaxDrawDistance=16223.807617
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=255.999516,Y=-255.999516,Z=1152.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=180.000000,Roll=-0.000000)
+            RelativeScale3D=(X=1.200000,Y=1.200000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_1b_Whole8_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874761897.BoundingBoxComponent'"
+            CachedMaxDrawDistance=16223.807617
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_1b_Whole8_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874761897.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=16223.807617
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=16223.807617
+         DataVersion=1
+         SavedActorGuid=2DD3D147484ACA49EB0893A3F116E208
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Factory_1b_Whole44"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Corner/Factory_1c_ThreeQuarter.Factory_1c_ThreeQuarter_C Name=Factory_1b_Whole12_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874766900 Archetype="/Game/Building/ActorBlueprints/Corner/Factory_1c_ThreeQuarter.Factory_1c_ThreeQuarter_C'/Game/Building/ActorBlueprints/Corner/Factory_1c_ThreeQuarter.Default__Factory_1c_ThreeQuarter_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5785902_2077979735 ActorFolderPath="Spawn Island Control Tower" ExportPath="/Game/Building/ActorBlueprints/Corner/Factory_1c_ThreeQuarter.Factory_1c_ThreeQuarter_C'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_1b_Whole12_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874766900'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Corner/Factory_1c_ThreeQuarter.Default__Factory_1c_ThreeQuarter_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_1b_Whole12_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874766900.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Corner/Factory_1c_ThreeQuarter.Default__Factory_1c_ThreeQuarter_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_1b_Whole12_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874766900.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Corner/Factory_1c_ThreeQuarter.Default__Factory_1c_ThreeQuarter_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_1b_Whole12_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874766900.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_1b_Whole12_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874766900.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Factory_Brick_43'"
+            CachedMaxDrawDistance=16223.807617
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=255.999791,Y=255.999791,Z=1152.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-89.999954,Roll=0.000000)
+            RelativeScale3D=(X=1.200000,Y=1.200000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_1b_Whole12_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874766900.BoundingBoxComponent'"
+            CachedMaxDrawDistance=16223.807617
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_1b_Whole12_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874766900.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=16223.807617
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=16223.807617
+         DataVersion=1
+         SavedActorGuid=04A53FBC4AA2F6AC2BFB32B14028817B
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Factory_1b_Whole45"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Corner/Factory_2.Factory_2_C Name=Factory_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874415793 Archetype="/Game/Building/ActorBlueprints/Corner/Factory_2.Factory_2_C'/Game/Building/ActorBlueprints/Corner/Factory_2.Default__Factory_2_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5785902_2077979735 ActorFolderPath="Spawn Island Control Tower" ExportPath="/Game/Building/ActorBlueprints/Corner/Factory_2.Factory_2_C'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874415793'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Corner/Factory_2.Default__Factory_2_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874415793.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Corner/Factory_2.Default__Factory_2_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874415793.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Corner/Factory_2.Default__Factory_2_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874415793.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874415793.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Factory_Brick_43'"
+            CachedMaxDrawDistance=7788.966797
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=256.000484,Y=-256.000484,Z=1536.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=180.000000,Roll=-0.000000)
+            RelativeScale3D=(X=1.000000,Y=1.000000,Z=1.500000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874415793.BoundingBoxComponent'"
+            CachedMaxDrawDistance=7788.966797
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874415793.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=7788.966797
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=7788.966797
+         DataVersion=1
+         SavedActorGuid=ABA16E18474B27A8637C979B35730A55
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Factory_59"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Corner/Factory_2.Factory_2_C Name=Factory_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874609851 Archetype="/Game/Building/ActorBlueprints/Corner/Factory_2.Factory_2_C'/Game/Building/ActorBlueprints/Corner/Factory_2.Default__Factory_2_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5785902_2077979735 ActorFolderPath="Spawn Island Control Tower" ExportPath="/Game/Building/ActorBlueprints/Corner/Factory_2.Factory_2_C'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874609851'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Corner/Factory_2.Default__Factory_2_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874609851.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Corner/Factory_2.Default__Factory_2_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874609851.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Corner/Factory_2.Default__Factory_2_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874609851.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874609851.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Factory_Brick_43'"
+            CachedMaxDrawDistance=7788.966797
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-256.001536,Y=-256.001536,Z=1536.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=90.000000,Roll=-0.000000)
+            RelativeScale3D=(X=1.000000,Y=1.000000,Z=1.500000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874609851.BoundingBoxComponent'"
+            CachedMaxDrawDistance=7788.966797
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874609851.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=7788.966797
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=7788.966797
+         DataVersion=1
+         SavedActorGuid=CD41927C4D2655EEE43538B4F531893E
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Factory_66"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Corner/Factory_2.Factory_2_C Name=Factory_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874752890 Archetype="/Game/Building/ActorBlueprints/Corner/Factory_2.Factory_2_C'/Game/Building/ActorBlueprints/Corner/Factory_2.Default__Factory_2_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5785902_2077979735 ActorFolderPath="Spawn Island Control Tower" ExportPath="/Game/Building/ActorBlueprints/Corner/Factory_2.Factory_2_C'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874752890'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Corner/Factory_2.Default__Factory_2_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874752890.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Corner/Factory_2.Default__Factory_2_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874752890.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Corner/Factory_2.Default__Factory_2_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874752890.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874752890.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Factory_Brick_43'"
+            CachedMaxDrawDistance=7788.966797
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=256.000815,Y=256.000815,Z=1536.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000000,Roll=0.000000)
+            RelativeScale3D=(X=1.000000,Y=1.000000,Z=1.500000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874752890.BoundingBoxComponent'"
+            CachedMaxDrawDistance=7788.966797
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874752890.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=7788.966797
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=7788.966797
+         DataVersion=1
+         SavedActorGuid=0DF9D89247495FA13051339681711824
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Factory_67"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Corner/Factory_2.Factory_2_C Name=Factory_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874933964 Archetype="/Game/Building/ActorBlueprints/Corner/Factory_2.Factory_2_C'/Game/Building/ActorBlueprints/Corner/Factory_2.Default__Factory_2_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5785902_2077979735 ActorFolderPath="Spawn Island Control Tower" ExportPath="/Game/Building/ActorBlueprints/Corner/Factory_2.Factory_2_C'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874933964'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Corner/Factory_2.Default__Factory_2_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874933964.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Corner/Factory_2.Default__Factory_2_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874933964.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Corner/Factory_2.Default__Factory_2_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874933964.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874933964.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Factory_Brick_43'"
+            CachedMaxDrawDistance=7788.966797
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-256.001090,Y=256.001090,Z=1536.000000)
+            RelativeScale3D=(X=1.000000,Y=1.000000,Z=1.500000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874933964.BoundingBoxComponent'"
+            CachedMaxDrawDistance=7788.966797
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874933964.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=7788.966797
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=7788.966797
+         DataVersion=1
+         SavedActorGuid=D5130FCB42E8A9E64AD003BB4942154F
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Factory_70"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/Factory_Trim_10a.Factory_Trim_10a_C Name=Factory_Trim_10a2_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874407789 Archetype="/Game/Building/ActorBlueprints/Wall/Factory_Trim_10a.Factory_Trim_10a_C'/Game/Building/ActorBlueprints/Wall/Factory_Trim_10a.Default__Factory_Trim_10a_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5785902_2077979735 ActorFolderPath="Spawn Island Control Tower" ExportPath="/Game/Building/ActorBlueprints/Wall/Factory_Trim_10a.Factory_Trim_10a_C'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Trim_10a2_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874407789'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Factory_Trim_10a.Default__Factory_Trim_10a_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Trim_10a2_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874407789.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/Factory_Trim_10a.Default__Factory_Trim_10a_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Trim_10a2_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874407789.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Factory_Trim_10a.Default__Factory_Trim_10a_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Trim_10a2_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874407789.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Trim_10a2_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874407789.StaticMeshComponent0'"
+            bEvaluateWorldPositionOffsetInRayTracing=False
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Factory_Brick_43'"
+            CachedMaxDrawDistance=20406.316406
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=-256.000000,Z=1536.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999939,Roll=-0.000000)
+            RelativeScale3D=(X=1.000000,Y=1.000000,Z=1.500000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Trim_10a2_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874407789.BoundingBoxComponent'"
+            CachedMaxDrawDistance=20406.316406
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Trim_10a2_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874407789.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=20406.316406
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=20406.316406
+         DataVersion=1
+         SavedActorGuid=3F0961CA44E79B40C8D7E4AB8B7C23F8
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Factory_Trim_10a7"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/Factory_Trim_10a.Factory_Trim_10a_C Name=Factory_Trim_10a_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874775908 Archetype="/Game/Building/ActorBlueprints/Wall/Factory_Trim_10a.Factory_Trim_10a_C'/Game/Building/ActorBlueprints/Wall/Factory_Trim_10a.Default__Factory_Trim_10a_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5785902_2077979735 ActorFolderPath="Spawn Island Control Tower" ExportPath="/Game/Building/ActorBlueprints/Wall/Factory_Trim_10a.Factory_Trim_10a_C'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Trim_10a_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874775908'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Factory_Trim_10a.Default__Factory_Trim_10a_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Trim_10a_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874775908.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/Factory_Trim_10a.Default__Factory_Trim_10a_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Trim_10a_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874775908.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Factory_Trim_10a.Default__Factory_Trim_10a_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Trim_10a_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874775908.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Trim_10a_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874775908.StaticMeshComponent0'"
+            bEvaluateWorldPositionOffsetInRayTracing=False
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Factory_Brick_43'"
+            CachedMaxDrawDistance=20406.310547
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=256.000000,Y=0.000000,Z=1536.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000008,Roll=0.000000)
+            RelativeScale3D=(X=1.000000,Y=1.000000,Z=1.500000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Trim_10a_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874775908.BoundingBoxComponent'"
+            CachedMaxDrawDistance=20406.310547
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Trim_10a_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874775908.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=20406.310547
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=20406.310547
+         DataVersion=1
+         SavedActorGuid=CA7672C44F0D4926ABAF93BEC9B47448
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Factory_Trim_10a8"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/Factory_Trim_10a.Factory_Trim_10a_C Name=Factory_Trim_10a14_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874183744 Archetype="/Game/Building/ActorBlueprints/Wall/Factory_Trim_10a.Factory_Trim_10a_C'/Game/Building/ActorBlueprints/Wall/Factory_Trim_10a.Default__Factory_Trim_10a_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5785902_2077979735 ActorFolderPath="Spawn Island Control Tower" ExportPath="/Game/Building/ActorBlueprints/Wall/Factory_Trim_10a.Factory_Trim_10a_C'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Trim_10a14_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874183744'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Factory_Trim_10a.Default__Factory_Trim_10a_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Trim_10a14_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874183744.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/Factory_Trim_10a.Default__Factory_Trim_10a_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Trim_10a14_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874183744.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Factory_Trim_10a.Default__Factory_Trim_10a_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Trim_10a14_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874183744.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Trim_10a14_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874183744.StaticMeshComponent0'"
+            bEvaluateWorldPositionOffsetInRayTracing=False
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Factory_Brick_43'"
+            CachedMaxDrawDistance=20406.310547
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=256.000000,Z=1536.000000)
+            RelativeScale3D=(X=1.000000,Y=1.000000,Z=1.500000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Trim_10a14_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874183744.BoundingBoxComponent'"
+            CachedMaxDrawDistance=20406.310547
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Trim_10a14_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874183744.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=20406.310547
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=20406.310547
+         DataVersion=1
+         SavedActorGuid=595E789C445B6B9EC2F21F8B584500D7
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Factory_Trim_10a15"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/Factory_Trim_10a.Factory_Trim_10a_C Name=Factory_Trim_10a13_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874684866 Archetype="/Game/Building/ActorBlueprints/Wall/Factory_Trim_10a.Factory_Trim_10a_C'/Game/Building/ActorBlueprints/Wall/Factory_Trim_10a.Default__Factory_Trim_10a_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5785902_2077979735 ActorFolderPath="Spawn Island Control Tower" ExportPath="/Game/Building/ActorBlueprints/Wall/Factory_Trim_10a.Factory_Trim_10a_C'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Trim_10a13_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874684866'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Factory_Trim_10a.Default__Factory_Trim_10a_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Trim_10a13_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874684866.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/Factory_Trim_10a.Default__Factory_Trim_10a_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Trim_10a13_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874684866.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Factory_Trim_10a.Default__Factory_Trim_10a_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Trim_10a13_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874684866.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Trim_10a13_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874684866.StaticMeshComponent0'"
+            bEvaluateWorldPositionOffsetInRayTracing=False
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Factory_Brick_43'"
+            CachedMaxDrawDistance=20406.316406
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-256.000000,Y=0.000000,Z=1536.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=89.999954,Roll=-0.000000)
+            RelativeScale3D=(X=1.000000,Y=1.000000,Z=1.500000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Trim_10a13_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874684866.BoundingBoxComponent'"
+            CachedMaxDrawDistance=20406.316406
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Trim_10a13_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874684866.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=20406.316406
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=20406.316406
+         DataVersion=1
+         SavedActorGuid=F6EE41E44F9766D19057E096141EA88C
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Factory_Trim_10a16"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Factory_Wall_3_C Name=Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874308760 Archetype="/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Factory_Wall_3_C'/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Default__Factory_Wall_3_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5785902_2077979735 ActorFolderPath="Spawn Island Control Tower" ExportPath="/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Factory_Wall_3_C'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874308760'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Default__Factory_Wall_3_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874308760.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Default__Factory_Wall_3_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874308760.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Default__Factory_Wall_3_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874308760.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874308760.StaticMeshComponent0'"
+            bEvaluateWorldPositionOffsetInRayTracing=False
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Factory_Brick_46'"
+            CachedMaxDrawDistance=22870.902344
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-0.000000,Y=-256.000000,Z=768.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999939,Roll=-0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874308760.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22870.902344
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874308760.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22870.902344
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallOuter/MI_Hospital_00.MI_Hospital_00'"
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22870.902344
+         DataVersion=1
+         SavedActorGuid=49359ABC4A1236A6BC878EB74DF46D1A
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Factory_Wall_323"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Factory_Wall_3_C Name=Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874398782 Archetype="/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Factory_Wall_3_C'/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Default__Factory_Wall_3_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5785902_2077979735 ActorFolderPath="Spawn Island Control Tower" ExportPath="/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Factory_Wall_3_C'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874398782'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Default__Factory_Wall_3_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874398782.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Default__Factory_Wall_3_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874398782.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Default__Factory_Wall_3_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874398782.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874398782.StaticMeshComponent0'"
+            bEvaluateWorldPositionOffsetInRayTracing=False
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Factory_Brick_46'"
+            CachedMaxDrawDistance=22870.902344
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=256.000000,Y=0.000000,Z=768.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000008,Roll=0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874398782.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22870.902344
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874398782.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22870.902344
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallOuter/MI_Hospital_00.MI_Hospital_00'"
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22870.902344
+         DataVersion=1
+         SavedActorGuid=E9EAEA324E8904BDE7642F8AF23F392E
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Factory_Wall_343"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Factory_Wall_3_C Name=Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874471807 Archetype="/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Factory_Wall_3_C'/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Default__Factory_Wall_3_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5785902_2077979735 ActorFolderPath="Spawn Island Control Tower" ExportPath="/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Factory_Wall_3_C'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874471807'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Default__Factory_Wall_3_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874471807.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Default__Factory_Wall_3_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874471807.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Default__Factory_Wall_3_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874471807.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874471807.StaticMeshComponent0'"
+            bEvaluateWorldPositionOffsetInRayTracing=False
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Factory_Brick_46'"
+            CachedMaxDrawDistance=22870.902344
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-256.000000,Y=0.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=89.999954,Roll=-0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874471807.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22870.902344
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874471807.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22870.902344
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallOuter/MI_Hospital_00.MI_Hospital_00'"
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22870.902344
+         DataVersion=1
+         SavedActorGuid=1FFC3418452485F803605DB7F0989AC2
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Factory_Wall_347"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Factory_Wall_3_C Name=Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874513816 Archetype="/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Factory_Wall_3_C'/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Default__Factory_Wall_3_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5785902_2077979735 ActorFolderPath="Spawn Island Control Tower" ExportPath="/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Factory_Wall_3_C'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874513816'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Default__Factory_Wall_3_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874513816.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Default__Factory_Wall_3_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874513816.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Default__Factory_Wall_3_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874513816.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874513816.StaticMeshComponent0'"
+            bEvaluateWorldPositionOffsetInRayTracing=False
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Factory_Brick_46'"
+            CachedMaxDrawDistance=22870.902344
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=256.000000,Y=0.000000,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000008,Roll=0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874513816.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22870.902344
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874513816.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22870.902344
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallOuter/MI_Hospital_00.MI_Hospital_00'"
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22870.902344
+         DataVersion=1
+         SavedActorGuid=509BE571423E3419CEEE319C8421FE81
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Factory_Wall_354"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/Factory_Wall_17.Factory_Wall_17_C Name=Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874585834 Archetype="/Game/Building/ActorBlueprints/Wall/Factory_Wall_17.Factory_Wall_17_C'/Game/Building/ActorBlueprints/Wall/Factory_Wall_17.Default__Factory_Wall_17_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5785902_2077979735 ActorFolderPath="Spawn Island Control Tower" ExportPath="/Game/Building/ActorBlueprints/Wall/Factory_Wall_17.Factory_Wall_17_C'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874585834'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Factory_Wall_17.Default__Factory_Wall_17_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874585834.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/Factory_Wall_17.Default__Factory_Wall_17_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874585834.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Factory_Wall_17.Default__Factory_Wall_17_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874585834.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Script/FortniteAI.FortDoorLinkComponent Name="DoorSmartLinkComp" ExportPath="/Script/FortniteAI.FortDoorLinkComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874585834.DoorSmartLinkComp'"
+         End Object
+         Begin Object Class=/Game/Building/ActorBlueprints/Wall/DoorSoundIndicatorComponent.DoorSoundIndicatorComponent_C Name="DoorSoundIndicator" ExportPath="/Game/Building/ActorBlueprints/Wall/DoorSoundIndicatorComponent.DoorSoundIndicatorComponent_C'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874585834.DoorSoundIndicator'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874585834.StaticMeshComponent0'"
+            bEvaluateWorldPositionOffsetInRayTracing=False
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Factory_Brick_46'"
+            CachedMaxDrawDistance=22874.820312
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-0.000000,Y=-256.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999939,Roll=-0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874585834.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22874.820312
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874585834.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22874.820312
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="DoorSmartLinkComp" ExportPath="/Script/FortniteAI.FortDoorLinkComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874585834.DoorSmartLinkComp'"
+            CustomLinkId=(Id=9951693372373917681)
+            AuxiliaryCustomLinkId=(Id=2995494735977991319)
+            DisabledAreaClass="/Script/CoreUObject.Class'/Script/NavigationSystem.NavArea_Default'"
+            LinkRelativeStart=(X=12.800003,Y=130.000000,Z=0.000000)
+            LinkRelativeEnd=(X=12.800003,Y=-130.000000,Z=0.000000)
+            bLinkEnabled=False
+            ObstacleOffset=(X=12.800003,Y=0.000000,Z=0.000000)
+            ObstacleExtent=(X=38.400002,Y=17.500000,Z=153.600002)
+            ObstacleAreaClass="/Script/Engine.BlueprintGeneratedClass'/Game/Building/NavigationAreas/FortMetaNavWallAreaDef.FortMetaNavWallAreaDef_C'"
+         End Object
+         Begin Object Name="DoorSoundIndicator" ExportPath="/Game/Building/ActorBlueprints/Wall/DoorSoundIndicatorComponent.DoorSoundIndicatorComponent_C'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874585834.DoorSoundIndicator'"
+         End Object
+         DoorObstacleClass=None
+         DoorMesh=None
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallOuter/MI_Hospital_00.MI_Hospital_00'"
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22874.820312
+         StaticGameplayTags=(GameplayTags=((TagName="Building.Type.All.Wall"),(TagName="Building.Type.Door")))
+         DataVersion=1
+         SavedActorGuid=F3615D8F448044F793570EB109EF3079
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Factory_Wall_364"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Factory_Wall_3_C Name=Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874679863 Archetype="/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Factory_Wall_3_C'/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Default__Factory_Wall_3_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5785902_2077979735 ActorFolderPath="Spawn Island Control Tower" ExportPath="/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Factory_Wall_3_C'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874679863'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Default__Factory_Wall_3_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874679863.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Default__Factory_Wall_3_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874679863.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Default__Factory_Wall_3_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874679863.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874679863.StaticMeshComponent0'"
+            bEvaluateWorldPositionOffsetInRayTracing=False
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Factory_Brick_46'"
+            CachedMaxDrawDistance=22870.902344
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=256.000000,Z=768.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-0.000000,Roll=0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874679863.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22870.902344
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874679863.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22870.902344
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallOuter/MI_Hospital_00.MI_Hospital_00'"
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22870.902344
+         DataVersion=1
+         SavedActorGuid=BC2F72434481A7135BCB28B5B7AF2C5E
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Factory_Wall_373"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Factory_Wall_3_C Name=Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874690870 Archetype="/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Factory_Wall_3_C'/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Default__Factory_Wall_3_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5785902_2077979735 ActorFolderPath="Spawn Island Control Tower" ExportPath="/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Factory_Wall_3_C'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874690870'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Default__Factory_Wall_3_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874690870.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Default__Factory_Wall_3_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874690870.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Default__Factory_Wall_3_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874690870.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874690870.StaticMeshComponent0'"
+            bEvaluateWorldPositionOffsetInRayTracing=False
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Factory_Brick_46'"
+            CachedMaxDrawDistance=22870.902344
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-256.000000,Y=0.000000,Z=768.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=89.999954,Roll=-0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874690870.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22870.902344
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874690870.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22870.902344
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallOuter/MI_Hospital_00.MI_Hospital_00'"
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22870.902344
+         DataVersion=1
+         SavedActorGuid=130000994A804E9421EC608154AC0976
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Factory_Wall_383"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Factory_Wall_3_C Name=Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874760896 Archetype="/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Factory_Wall_3_C'/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Default__Factory_Wall_3_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5785902_2077979735 ActorFolderPath="Spawn Island Control Tower" ExportPath="/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Factory_Wall_3_C'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874760896'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Default__Factory_Wall_3_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874760896.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Default__Factory_Wall_3_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874760896.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Default__Factory_Wall_3_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874760896.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874760896.StaticMeshComponent0'"
+            bEvaluateWorldPositionOffsetInRayTracing=False
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Factory_Brick_46'"
+            CachedMaxDrawDistance=22870.902344
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-0.000000,Y=-256.000000,Z=384.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999939,Roll=-0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874760896.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22870.902344
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874760896.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22870.902344
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallOuter/MI_Hospital_00.MI_Hospital_00'"
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22870.902344
+         DataVersion=1
+         SavedActorGuid=0CF3EBD046FCC0F293CB499A291A6043
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Factory_Wall_421"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Factory_Wall_3_C Name=Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874773906 Archetype="/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Factory_Wall_3_C'/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Default__Factory_Wall_3_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5785902_2077979735 ActorFolderPath="Spawn Island Control Tower" ExportPath="/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Factory_Wall_3_C'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874773906'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Default__Factory_Wall_3_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874773906.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Default__Factory_Wall_3_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874773906.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Default__Factory_Wall_3_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874773906.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874773906.StaticMeshComponent0'"
+            bEvaluateWorldPositionOffsetInRayTracing=False
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Factory_Brick_46'"
+            CachedMaxDrawDistance=22870.902344
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-256.000000,Y=0.000000,Z=384.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=89.999954,Roll=-0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874773906.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22870.902344
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874773906.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22870.902344
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallOuter/MI_Hospital_00.MI_Hospital_00'"
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22870.902344
+         DataVersion=1
+         SavedActorGuid=9CBF2DBB49F97F6D355BE59B540F2AAE
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Factory_Wall_440"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Factory_Wall_3_C Name=Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874888944 Archetype="/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Factory_Wall_3_C'/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Default__Factory_Wall_3_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5785902_2077979735 ActorFolderPath="Spawn Island Control Tower" ExportPath="/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Factory_Wall_3_C'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874888944'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Default__Factory_Wall_3_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874888944.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Default__Factory_Wall_3_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874888944.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Default__Factory_Wall_3_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874888944.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874888944.StaticMeshComponent0'"
+            bEvaluateWorldPositionOffsetInRayTracing=False
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Factory_Brick_46'"
+            CachedMaxDrawDistance=22870.902344
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=256.000000,Y=0.000000,Z=384.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000008,Roll=0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874888944.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22870.902344
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874888944.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22870.902344
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallOuter/MI_Hospital_00.MI_Hospital_00'"
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22870.902344
+         DataVersion=1
+         SavedActorGuid=8050AF374274CF180AAA6BA60B0F4AE5
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Factory_Wall_450"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Factory_Wall_3_C Name=Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874891946 Archetype="/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Factory_Wall_3_C'/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Default__Factory_Wall_3_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5785902_2077979735 ActorFolderPath="Spawn Island Control Tower" ExportPath="/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Factory_Wall_3_C'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874891946'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Default__Factory_Wall_3_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874891946.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Default__Factory_Wall_3_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874891946.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Default__Factory_Wall_3_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874891946.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874891946.StaticMeshComponent0'"
+            bEvaluateWorldPositionOffsetInRayTracing=False
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Factory_Brick_46'"
+            CachedMaxDrawDistance=22870.902344
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=256.000000,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-0.000000,Roll=0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874891946.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22870.902344
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874891946.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22870.902344
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallOuter/MI_Hospital_00.MI_Hospital_00'"
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22870.902344
+         DataVersion=1
+         SavedActorGuid=388CC24C4B6A9241D6A93E8AE75042CB
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Factory_Wall_451"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Factory_Wall_3_C Name=Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874940970 Archetype="/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Factory_Wall_3_C'/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Default__Factory_Wall_3_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5785902_2077979735 ActorFolderPath="Spawn Island Control Tower" ExportPath="/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Factory_Wall_3_C'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874940970'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Default__Factory_Wall_3_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874940970.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Default__Factory_Wall_3_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874940970.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Factory_Wall_3.Default__Factory_Wall_3_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874940970.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874940970.StaticMeshComponent0'"
+            bEvaluateWorldPositionOffsetInRayTracing=False
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Factory_Brick_46'"
+            CachedMaxDrawDistance=22870.902344
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=256.000000,Z=384.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-0.000000,Roll=0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874940970.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22870.902344
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874940970.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22870.902344
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallOuter/MI_Hospital_00.MI_Hospital_00'"
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22870.902344
+         DataVersion=1
+         SavedActorGuid=8B8AE2DD4913EE5E27EA5A8B16F0D150
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Factory_Wall_454"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/StoreGeneric_WindowWide.StoreGeneric_WindowWide_C Name=Factory_Wall_Garage3_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874444799 Archetype="/Game/Building/ActorBlueprints/Wall/StoreGeneric_WindowWide.StoreGeneric_WindowWide_C'/Game/Building/ActorBlueprints/Wall/StoreGeneric_WindowWide.Default__StoreGeneric_WindowWide_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5785902_2077979735 ActorFolderPath="Spawn Island Control Tower" ExportPath="/Game/Building/ActorBlueprints/Wall/StoreGeneric_WindowWide.StoreGeneric_WindowWide_C'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_Garage3_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874444799'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/StoreGeneric_WindowWide.Default__StoreGeneric_WindowWide_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_Garage3_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874444799.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/StoreGeneric_WindowWide.Default__StoreGeneric_WindowWide_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_Garage3_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874444799.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/StoreGeneric_WindowWide.Default__StoreGeneric_WindowWide_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_Garage3_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874444799.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_Garage3_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874444799.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Storefront_1'"
+            CachedMaxDrawDistance=22896.441406
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-256.000000,Y=0.000000,Z=1152.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=89.999954,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_Garage3_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874444799.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22896.441406
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_Garage3_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874444799.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22896.441406
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22896.441406
+         DataVersion=1
+         SavedActorGuid=27E6362147409CC9FE2D86AA4DFC8119
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Factory_Wall_Garage5"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/StoreGeneric_WindowWide.StoreGeneric_WindowWide_C Name=Factory_Wall_Garage_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874759895 Archetype="/Game/Building/ActorBlueprints/Wall/StoreGeneric_WindowWide.StoreGeneric_WindowWide_C'/Game/Building/ActorBlueprints/Wall/StoreGeneric_WindowWide.Default__StoreGeneric_WindowWide_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5785902_2077979735 ActorFolderPath="Spawn Island Control Tower" ExportPath="/Game/Building/ActorBlueprints/Wall/StoreGeneric_WindowWide.StoreGeneric_WindowWide_C'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_Garage_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874759895'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/StoreGeneric_WindowWide.Default__StoreGeneric_WindowWide_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_Garage_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874759895.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/StoreGeneric_WindowWide.Default__StoreGeneric_WindowWide_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_Garage_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874759895.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/StoreGeneric_WindowWide.Default__StoreGeneric_WindowWide_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_Garage_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874759895.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_Garage_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874759895.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Storefront_1'"
+            CachedMaxDrawDistance=22896.441406
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=256.000000,Y=0.000000,Z=1152.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000008,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_Garage_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874759895.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22896.441406
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_Garage_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874759895.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22896.441406
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22896.441406
+         DataVersion=1
+         SavedActorGuid=51D5C0D14C1534995003528290D824AC
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Factory_Wall_Garage6"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/StoreGeneric_WindowWide.StoreGeneric_WindowWide_C Name=Factory_Wall_Garage2_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874788916 Archetype="/Game/Building/ActorBlueprints/Wall/StoreGeneric_WindowWide.StoreGeneric_WindowWide_C'/Game/Building/ActorBlueprints/Wall/StoreGeneric_WindowWide.Default__StoreGeneric_WindowWide_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5785902_2077979735 ActorFolderPath="Spawn Island Control Tower" ExportPath="/Game/Building/ActorBlueprints/Wall/StoreGeneric_WindowWide.StoreGeneric_WindowWide_C'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_Garage2_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874788916'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/StoreGeneric_WindowWide.Default__StoreGeneric_WindowWide_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_Garage2_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874788916.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/StoreGeneric_WindowWide.Default__StoreGeneric_WindowWide_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_Garage2_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874788916.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/StoreGeneric_WindowWide.Default__StoreGeneric_WindowWide_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_Garage2_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874788916.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_Garage2_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874788916.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Storefront_1'"
+            CachedMaxDrawDistance=22896.441406
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=-256.000000,Z=1152.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999939,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_Garage2_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874788916.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22896.441406
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_Garage2_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874788916.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22896.441406
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22896.441406
+         DataVersion=1
+         SavedActorGuid=1369928C477EFCD1C89288A73995D2A6
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Factory_Wall_Garage7"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/StoreGeneric_WindowWide.StoreGeneric_WindowWide_C Name=Factory_Wall_Garage4_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874800925 Archetype="/Game/Building/ActorBlueprints/Wall/StoreGeneric_WindowWide.StoreGeneric_WindowWide_C'/Game/Building/ActorBlueprints/Wall/StoreGeneric_WindowWide.Default__StoreGeneric_WindowWide_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5785902_2077979735 ActorFolderPath="Spawn Island Control Tower" ExportPath="/Game/Building/ActorBlueprints/Wall/StoreGeneric_WindowWide.StoreGeneric_WindowWide_C'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_Garage4_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874800925'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/StoreGeneric_WindowWide.Default__StoreGeneric_WindowWide_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_Garage4_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874800925.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/StoreGeneric_WindowWide.Default__StoreGeneric_WindowWide_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_Garage4_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874800925.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/StoreGeneric_WindowWide.Default__StoreGeneric_WindowWide_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_Garage4_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874800925.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_Garage4_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874800925.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Storefront_1'"
+            CachedMaxDrawDistance=22896.441406
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=256.000000,Z=1152.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_Garage4_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874800925.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22896.441406
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Factory_Wall_Garage4_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874800925.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22896.441406
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22896.441406
+         DataVersion=1
+         SavedActorGuid=635C58EA46D2311BE4F9FEBF0BEC5F3A
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Factory_Wall_Garage8"
+      End Actor
+      Begin Actor Class=/Game/Creative/BuildingActors/Props/Halloween/CP_Halloween_JackStraw.CP_Halloween_JackStraw_C Name=CP_Halloween_JackStraw_C_UAID_D843AE8E0CE5785902_1148208332 Archetype="/Game/Creative/BuildingActors/Props/Halloween/CP_Halloween_JackStraw.CP_Halloween_JackStraw_C'/Game/Creative/BuildingActors/Props/Halloween/CP_Halloween_JackStraw.Default__CP_Halloween_JackStraw_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5785902_2077979735 ActorFolderPath="Spawn Island Control Tower" ExportPath="/Game/Creative/BuildingActors/Props/Halloween/CP_Halloween_JackStraw.CP_Halloween_JackStraw_C'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.CP_Halloween_JackStraw_C_UAID_D843AE8E0CE5785902_1148208332'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Creative/BuildingActors/Props/Halloween/CP_Halloween_JackStraw.Default__CP_Halloween_JackStraw_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.CP_Halloween_JackStraw_C_UAID_D843AE8E0CE5785902_1148208332.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Creative/BuildingActors/Props/Halloween/CP_Halloween_JackStraw.Default__CP_Halloween_JackStraw_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.CP_Halloween_JackStraw_C_UAID_D843AE8E0CE5785902_1148208332.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Creative/BuildingActors/Props/Halloween/CP_Halloween_JackStraw.Default__CP_Halloween_JackStraw_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.CP_Halloween_JackStraw_C_UAID_D843AE8E0CE5785902_1148208332.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.CP_Halloween_JackStraw_C_UAID_D843AE8E0CE5785902_1148208332.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Prop_JackStraw_101'"
+            CachedMaxDrawDistance=5049.819824
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-60.000000,Y=-52.000000,Z=1236.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=165.934250,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.CP_Halloween_JackStraw_C_UAID_D843AE8E0CE5785902_1148208332.BoundingBoxComponent'"
+            CachedMaxDrawDistance=5049.819824
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.CP_Halloween_JackStraw_C_UAID_D843AE8E0CE5785902_1148208332.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=5049.819824
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=5049.819824
+         DataVersion=1
+         SavedActorGuid=7D7D087D4AA01B772B8ED485D58FAEC2
+         PlaysetPackagePathName="/CR_Legacy/Playsets/PlaysetProps/PPID_CR_Legacy_CP_Halloween_JackStraw"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="JackStraw12"
+      End Actor
+      Begin Actor Class=/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Living_EasyChair_02.Athena_Prop_Living_EasyChair_02_C Name=Living_EasyChair_02_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874206749 Archetype="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Living_EasyChair_02.Athena_Prop_Living_EasyChair_02_C'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Living_EasyChair_02.Default__Athena_Prop_Living_EasyChair_02_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5785902_2077979735 ActorFolderPath="Spawn Island Control Tower" ExportPath="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Living_EasyChair_02.Athena_Prop_Living_EasyChair_02_C'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Living_EasyChair_02_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874206749'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Living_EasyChair_02.Default__Athena_Prop_Living_EasyChair_02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Living_EasyChair_02_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874206749.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Living_EasyChair_02.Default__Athena_Prop_Living_EasyChair_02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Living_EasyChair_02_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874206749.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Living_EasyChair_02.Default__Athena_Prop_Living_EasyChair_02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Living_EasyChair_02_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874206749.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Living_EasyChair_02_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874206749.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_EasyChair02_5'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-93.000000,Y=-29.000000,Z=1160.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-78.741547,Roll=0.000000)
+            RelativeScale3D=(X=1.200000,Y=1.200000,Z=1.200000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Living_EasyChair_02_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874206749.BoundingBoxComponent'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Living_EasyChair_02_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874206749.EditorOnlyStaticMeshComponent'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=18000.000000
+         DataVersion=1
+         SavedActorGuid=00DFF9644BD77E5397C91996ADE726E4
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Living_EasyChair_5"
+      End Actor
+      Begin Actor Class=/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Prop/Athena_Prop_Prop_Bear.Athena_Prop_Prop_Bear_C Name=Prop_Bear_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874222751 Archetype="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Prop/Athena_Prop_Prop_Bear.Athena_Prop_Prop_Bear_C'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Prop/Athena_Prop_Prop_Bear.Default__Athena_Prop_Prop_Bear_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5785902_2077979735 ActorFolderPath="Spawn Island Control Tower" ExportPath="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Prop/Athena_Prop_Prop_Bear.Athena_Prop_Prop_Bear_C'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Prop_Bear_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874222751'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Prop/Athena_Prop_Prop_Bear.Default__Athena_Prop_Prop_Bear_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Prop_Bear_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874222751.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Prop/Athena_Prop_Prop_Bear.Default__Athena_Prop_Prop_Bear_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Prop_Bear_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874222751.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Prop/Athena_Prop_Prop_Bear.Default__Athena_Prop_Prop_Bear_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Prop_Bear_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874222751.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Prop_Bear_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874222751.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Teddy_Charm_Inst_0'"
+            CachedMaxDrawDistance=2902.590576
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-19.000000,Y=-16.000000,Z=1229.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-67.500214,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Prop_Bear_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874222751.BoundingBoxComponent'"
+            CachedMaxDrawDistance=2902.590576
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.Prop_Bear_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874222751.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=2902.590576
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=2902.590576
+         DataVersion=1
+         SavedActorGuid=C1B8397743CA12861A4D30A7BAD3E5D7
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Prop_Bear3"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/SM_FORT_DecoBarriers_WindowBoards01.SM_FORT_DecoBarriers_WindowBoards01_C Name=SM_FORT_DecoBarriers_WindowBoards01_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874574833 Archetype="/Game/Building/ActorBlueprints/Prop/SM_FORT_DecoBarriers_WindowBoards01.SM_FORT_DecoBarriers_WindowBoards01_C'/Game/Building/ActorBlueprints/Prop/SM_FORT_DecoBarriers_WindowBoards01.Default__SM_FORT_DecoBarriers_WindowBoards01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5785902_2077979735 ActorFolderPath="Spawn Island Control Tower" ExportPath="/Game/Building/ActorBlueprints/Prop/SM_FORT_DecoBarriers_WindowBoards01.SM_FORT_DecoBarriers_WindowBoards01_C'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.SM_FORT_DecoBarriers_WindowBoards01_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874574833'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/SM_FORT_DecoBarriers_WindowBoards01.Default__SM_FORT_DecoBarriers_WindowBoards01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.SM_FORT_DecoBarriers_WindowBoards01_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874574833.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/SM_FORT_DecoBarriers_WindowBoards01.Default__SM_FORT_DecoBarriers_WindowBoards01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.SM_FORT_DecoBarriers_WindowBoards01_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874574833.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/SM_FORT_DecoBarriers_WindowBoards01.Default__SM_FORT_DecoBarriers_WindowBoards01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.SM_FORT_DecoBarriers_WindowBoards01_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874574833.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.SM_FORT_DecoBarriers_WindowBoards01_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874574833.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_WoodBoards_4'"
+            CachedMaxDrawDistance=12049.129883
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-2.000000,Y=-280.000000,Z=117.000000)
+            RelativeScale3D=(X=0.750000,Y=0.500000,Z=0.750000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.SM_FORT_DecoBarriers_WindowBoards01_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874574833.BoundingBoxComponent'"
+            CachedMaxDrawDistance=12049.129883
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.SM_FORT_DecoBarriers_WindowBoards01_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874574833.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=12049.129883
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=12049.129883
+         DataVersion=1
+         SavedActorGuid=3EB1FF634A92A551AA4532842A2ABA1A
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_FORT_DecoBarriers_WindowBoards3"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C Name=SM_FORT_Floors_Generic_BasicTile2_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874204748 Archetype="/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5785902_2077979735 ActorFolderPath="Spawn Island Control Tower" ExportPath="/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.SM_FORT_Floors_Generic_BasicTile2_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874204748'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.SM_FORT_Floors_Generic_BasicTile2_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874204748.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.SM_FORT_Floors_Generic_BasicTile2_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874204748.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.SM_FORT_Floors_Generic_BasicTile2_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874204748.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.SM_FORT_Floors_Generic_BasicTile2_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874204748.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fort_Floors_Generic_TilesClean_92'"
+            CachedMaxDrawDistance=24648.673828
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=-256.000000,Z=1152.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.SM_FORT_Floors_Generic_BasicTile2_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874204748.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24648.673828
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.SM_FORT_Floors_Generic_BasicTile2_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874204748.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24648.673828
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/FloorTexture/Concrete01.Concrete01'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/FloorTexture/Concrete01.Concrete01'"
+         NavObstacles(0)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(1)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(2)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(3)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(4)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(5)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(6)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24648.673828
+         DataVersion=1
+         SavedActorGuid=65BFF0F34FF8E1AB20D52A9CDE72A7C8
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_FORT_Floors_Generic_BasicTile68"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C Name=SM_FORT_Floors_Generic_BasicTile_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874539823 Archetype="/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5785902_2077979735 ActorFolderPath="Spawn Island Control Tower" ExportPath="/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874539823'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874539823.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874539823.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874539823.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874539823.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fort_Floors_Generic_TilesClean_92'"
+            CachedMaxDrawDistance=24648.673828
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=-256.000000,Z=1536.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874539823.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24648.673828
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.SM_FORT_Floors_Generic_BasicTile_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874539823.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24648.673828
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/FloorTexture/Concrete01.Concrete01'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/FloorTexture/Concrete01.Concrete01'"
+         NavObstacles(0)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(1)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(2)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(3)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(4)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(5)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(6)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24648.673828
+         DataVersion=1
+         SavedActorGuid=90C6A3F5499AC14F72C917A4F9747269
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_FORT_Floors_Generic_BasicTile69"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C Name=SM_FORT_Floors_Generic_BasicTile3_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874757893 Archetype="/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5785902_2077979735 ActorFolderPath="Spawn Island Control Tower" ExportPath="/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.SM_FORT_Floors_Generic_BasicTile3_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874757893'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.SM_FORT_Floors_Generic_BasicTile3_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874757893.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.SM_FORT_Floors_Generic_BasicTile3_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874757893.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.SM_FORT_Floors_Generic_BasicTile3_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874757893.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.SM_FORT_Floors_Generic_BasicTile3_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874757893.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fort_Floors_Generic_TilesAndGarbage_Tan_3'"
+            CachedMaxDrawDistance=24648.673828
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=-256.000000,Z=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.SM_FORT_Floors_Generic_BasicTile3_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874757893.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24648.673828
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.SM_FORT_Floors_Generic_BasicTile3_577e11f48ac90d76_UAID_D843AE8E0CE5775902_1874757893.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24648.673828
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/FloorTexture/TileFloor3_Tan_Worn.TileFloor3_Tan_Worn'"
+         NavObstacles(0)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(1)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(2)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(3)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(4)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(5)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(6)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24648.673828
+         DataVersion=1
+         SavedActorGuid=0D4C2B7E4A8E72F843F925BE34F673AE
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_FORT_Floors_Generic_BasicTile70"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Deco/TrashPile_05_CP.TrashPile_05_CP_C Name=TrashPile_05_CP_C_UAID_D843AE8E0CE5785902_1290236648 Archetype="/Game/Building/ActorBlueprints/Deco/TrashPile_05_CP.TrashPile_05_CP_C'/Game/Building/ActorBlueprints/Deco/TrashPile_05_CP.Default__TrashPile_05_CP_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5785902_2077979735 ActorFolderPath="Spawn Island Control Tower" ExportPath="/Game/Building/ActorBlueprints/Deco/TrashPile_05_CP.TrashPile_05_CP_C'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.TrashPile_05_CP_C_UAID_D843AE8E0CE5785902_1290236648'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Deco/TrashPile_05_CP.Default__TrashPile_05_CP_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.TrashPile_05_CP_C_UAID_D843AE8E0CE5785902_1290236648.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Deco/TrashPile_05_CP.Default__TrashPile_05_CP_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.TrashPile_05_CP_C_UAID_D843AE8E0CE5785902_1290236648.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Deco/TrashPile_05_CP.Default__TrashPile_05_CP_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.TrashPile_05_CP_C_UAID_D843AE8E0CE5785902_1290236648.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.TrashPile_05_CP_C_UAID_D843AE8E0CE5785902_1290236648.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_FORT_Scraps_INST_6'"
+            LDMaxDrawDistance=0.000000
+            CachedMaxDrawDistance=20934.132812
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-23.000000,Y=-23.000000,Z=1160.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-178.430786,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.TrashPile_05_CP_C_UAID_D843AE8E0CE5785902_1290236648.BoundingBoxComponent'"
+            CachedMaxDrawDistance=20934.132812
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/s3spawnisland.s3spawnisland:PersistentLevel.TrashPile_05_CP_C_UAID_D843AE8E0CE5785902_1290236648.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=20934.132812
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=20934.132812
+         DataVersion=1
+         SavedActorGuid=A36B555B4BA40183C2764192AE070551
+         PlaysetPackagePathName="/CRP_CondoCanyon/SetupAssets/Maps/PPIDs/PPID_CRP_CondoCanyon_TrashPile_05_CP_fd0ea44a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="TrashPile_51"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map

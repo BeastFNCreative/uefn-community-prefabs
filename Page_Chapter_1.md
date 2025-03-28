@@ -11,7 +11,15 @@
 | <img src=".assets/Snobby Shores Abandoned House.png" width="256"/> | **[Abandoned House](SpawnerTexts/Snobby%20Shores%20Abandoned%20House.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Chapter 1 Island** | Visually Modified: ✔️<br>Requires External Download: ❌|
 | <img src=".assets/Snobby Shores Mansion.png" width="256"/> | **[Mansion](SpawnerTexts/Snobby%20Shores%20Mansion.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Chapter 1 Island** | Visually Modified: ❌<br>Requires External Download: ❌|
 
-# Misc Landmarks
+# Spawn Island
+
+| Icon | Playset Name w/ Author | Extra Info |
+|-----------------------------------------|-----------------|-----------------|
+| <img src=".assets/spawn island container yard.png" width="256"/> | **[Container Tard](SpawnerTexts/Spawn%20Island%20Container%20Yard.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Chapter 1 Island** | Visually Modified: ❌<br>Requires External Download: ❌|
+| <img src=".assets/spawn island control tower.png" width="256"/> | **[Control Tower](SpawnerTexts/Spawn%20Island%20Control%20Tower.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Chapter 1 Island** | Visually Modified: ❌<br>Requires External Download: ❌|
+| <img src=".assets/spawn island hangar.png" width="256"/> | **[Hangar](SpawnerTexts/Spawn%20Island%20Hangar.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Chapter 1 Island** | Visually Modified: ❌<br>Requires External Download: ❌|
+| <img src=".assets/spawn island parkour course.png" width="256"/> | **[Parkour Course](SpawnerTexts/Spawn%20Island%20Parkour%20Course.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Chapter 1 Island** | Visually Modified: ❌<br>Requires External Download: ❌|
+| <img src=".assets/spawn island warehouse.png" width="256"/> | **[Warehouse](SpawnerTexts/Spawn%20Island%20Warehouse.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Chapter 1 Island** | Visually Modified: ❌<br>Requires External Download: ❌|
 
 | Icon | Playset Name w/ Author | Extra Info |
 |-----------------------------------------|-----------------|-----------------|
