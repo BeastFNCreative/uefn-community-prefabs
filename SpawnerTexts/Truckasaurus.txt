@@ -1,0 +1,534 @@
+Begin Map
+   Begin Level
+      Begin Actor Class=/Script/FortniteGame.FortPlaysetRoot Name=FortPlaysetRoot_UAID_D843AE8E0CE53C5902_1310364426 Archetype="/Script/FortniteGame.FortPlaysetRoot'/Script/FortniteGame.Default__FortPlaysetRoot'" ActorFolderPath="Truckasaurus" ExportPath="/Script/FortniteGame.FortPlaysetRoot'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.FortPlaysetRoot_UAID_D843AE8E0CE53C5902_1310364426'"
+         Begin Object Class=/Script/Engine.SceneComponent Name="DefaultSceneRoot" Archetype="/Script/Engine.SceneComponent'/Script/FortniteGame.Default__FortPlaysetRoot:DefaultSceneRoot'" ExportPath="/Script/Engine.SceneComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.FortPlaysetRoot_UAID_D843AE8E0CE53C5902_1310364426.DefaultSceneRoot'"
+         End Object
+         Begin Object Name="DefaultSceneRoot" ExportPath="/Script/Engine.SceneComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.FortPlaysetRoot_UAID_D843AE8E0CE53C5902_1310364426.DefaultSceneRoot'"
+            RelativeRotation=(Pitch=0.000000,Yaw=89.999999,Roll=0.000000)
+         End Object
+         SavedActorGuid=FD4BEF3B491655D91096B9867AC31975
+         PlaysetPackagePathName="/CRP_Foundation/SetupAssets/Maps/PID_CP_Foundation_3x7_StripMallStores_01"
+         RootComponent="DefaultSceneRoot"
+         ActorLabel="Truckasaurus"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/Car_Rat.Car_Rat_C Name=Car_Rat14_UAID_D843AE8E0CE53C5902_1310371427 Archetype="/Game/Building/ActorBlueprints/Prop/Car_Rat.Car_Rat_C'/Game/Building/ActorBlueprints/Prop/Car_Rat.Default__Car_Rat_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE53C5902_1310364426 ActorFolderPath="Truckasaurus" ExportPath="/Game/Building/ActorBlueprints/Prop/Car_Rat.Car_Rat_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_Rat14_UAID_D843AE8E0CE53C5902_1310371427'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Car_Rat.Default__Car_Rat_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_Rat14_UAID_D843AE8E0CE53C5902_1310371427.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/Car_Rat.Default__Car_Rat_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_Rat14_UAID_D843AE8E0CE53C5902_1310371427.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Car_Rat.Default__Car_Rat_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_Rat14_UAID_D843AE8E0CE53C5902_1310371427.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.TimelineComponent Name="Timeline_2" ExportPath="/Script/Engine.TimelineComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_Rat14_UAID_D843AE8E0CE53C5902_1310371427.Timeline_2'"
+         End Object
+         Begin Object Class=/Script/Engine.TimelineComponent Name="BounceCar" ExportPath="/Script/Engine.TimelineComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_Rat14_UAID_D843AE8E0CE53C5902_1310371427.BounceCar'"
+         End Object
+         Begin Object Class=/Script/Engine.TimelineComponent Name="Timeline_0" ExportPath="/Script/Engine.TimelineComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_Rat14_UAID_D843AE8E0CE53C5902_1310371427.Timeline_0'"
+         End Object
+         Begin Object Class=/Game/Athena/Items/Components/BuildingActorLootDropOnDeathComponent.BuildingActorLootDropOnDeathComponent_C Name="BuildingActorLootDropOnDeathComponent" Archetype="/Game/Athena/Items/Components/BuildingActorLootDropOnDeathComponent.BuildingActorLootDropOnDeathComponent_C'/Game/Building/ActorBlueprints/Prop/Car_DEFAULT.Car_DEFAULT_C:BuildingActorLootDropOnDeathComponent_GEN_VARIABLE'" ExportPath="/Game/Athena/Items/Components/BuildingActorLootDropOnDeathComponent.BuildingActorLootDropOnDeathComponent_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_Rat14_UAID_D843AE8E0CE53C5902_1310371427.BuildingActorLootDropOnDeathComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_Rat14_UAID_D843AE8E0CE53C5902_1310371427.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Hotrod_3'"
+            LDMaxDrawDistance=22000.000000
+            CachedMaxDrawDistance=22000.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-51.101566,Y=-290.466796,Z=1084.000000)
+            RelativeRotation=(Pitch=16.874821,Yaw=-120.938340,Roll=53.438198)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_Rat14_UAID_D843AE8E0CE53C5902_1310371427.BoundingBoxComponent'"
+            LDMaxDrawDistance=22000.000000
+            CachedMaxDrawDistance=22000.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_Rat14_UAID_D843AE8E0CE53C5902_1310371427.EditorOnlyStaticMeshComponent'"
+            LDMaxDrawDistance=22000.000000
+            CachedMaxDrawDistance=22000.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="Timeline_2" ExportPath="/Script/Engine.TimelineComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_Rat14_UAID_D843AE8E0CE53C5902_1310371427.Timeline_2'"
+            TheTimeline=(LengthMode=TL_TimelineLength,Length=2.000000,Events=((Time=0.003737,EventFunc=Car_Rat14_UAID_D843AE8E0CE53C5902_1310371427.Timeline_2__FireOffNoise__EventFunc),(Time=1.000000,EventFunc=Car_Rat14_UAID_D843AE8E0CE53C5902_1310371427.Timeline_2__FireOffNoise__EventFunc),(Time=2.000000,EventFunc=Car_Rat14_UAID_D843AE8E0CE53C5902_1310371427.Timeline_2__FireOffNoise__EventFunc)),InterpFloats=((FloatCurve="/Script/Engine.CurveFloat'/Game/Building/ActorBlueprints/Prop/Car_DEFAULT.Car_DEFAULT_C:CurveFloat_13'",TrackName="SirenLightMultiplier",FloatPropertyName="Timeline_2_SirenLightMultiplier_432AD11E41A8AFC288A559BCD8B4B9AF")),TimelinePostUpdateFunc=Car_Rat14_UAID_D843AE8E0CE53C5902_1310371427.Timeline_2__UpdateFunc,TimelineFinishedFunc=Car_Rat14_UAID_D843AE8E0CE53C5902_1310371427.Timeline_2__FinishedFunc,PropertySetObject="/Game/Building/ActorBlueprints/Prop/Car_Rat.Car_Rat_C'Car_Rat14_UAID_D843AE8E0CE53C5902_1310371427'",DirectionPropertyName="Timeline_2__Direction_432AD11E41A8AFC288A559BCD8B4B9AF")
+            bNetAddressable=True
+            CreationMethod=UserConstructionScript
+         End Object
+         Begin Object Name="BounceCar" ExportPath="/Script/Engine.TimelineComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_Rat14_UAID_D843AE8E0CE53C5902_1310371427.BounceCar'"
+            TheTimeline=(LengthMode=TL_TimelineLength,Length=0.850000,InterpFloats=((FloatCurve="/Script/Engine.CurveFloat'/Game/Building/ActorBlueprints/Prop/Car_DEFAULT.Car_DEFAULT_C:CurveFloat_11'",TrackName="Vertical Bounce Component",FloatPropertyName="BounceCar_Vertical_Bounce_Component_80AD679E42DD1FF308EBD994998BB983")),TimelinePostUpdateFunc=Car_Rat14_UAID_D843AE8E0CE53C5902_1310371427.BounceCar__UpdateFunc,TimelineFinishedFunc=Car_Rat14_UAID_D843AE8E0CE53C5902_1310371427.BounceCar__FinishedFunc,PropertySetObject="/Game/Building/ActorBlueprints/Prop/Car_Rat.Car_Rat_C'Car_Rat14_UAID_D843AE8E0CE53C5902_1310371427'",DirectionPropertyName="BounceCar__Direction_80AD679E42DD1FF308EBD994998BB983")
+            bNetAddressable=True
+            CreationMethod=UserConstructionScript
+         End Object
+         Begin Object Name="Timeline_0" ExportPath="/Script/Engine.TimelineComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_Rat14_UAID_D843AE8E0CE53C5902_1310371427.Timeline_0'"
+            TheTimeline=(LengthMode=TL_TimelineLength,Length=0.500000,InterpFloats=((FloatCurve="/Script/Engine.CurveFloat'/Game/Building/ActorBlueprints/Prop/Car_DEFAULT.Car_DEFAULT_C:CurveFloat_10'",TrackName="AlarmLightMultiplier",FloatPropertyName="Timeline_0_AlarmLightMultiplier_431FAFC04FFC4DEBB684B3B6AF7510E7")),TimelinePostUpdateFunc=Car_Rat14_UAID_D843AE8E0CE53C5902_1310371427.Timeline_0__UpdateFunc,TimelineFinishedFunc=Car_Rat14_UAID_D843AE8E0CE53C5902_1310371427.Timeline_0__FinishedFunc,PropertySetObject="/Game/Building/ActorBlueprints/Prop/Car_Rat.Car_Rat_C'Car_Rat14_UAID_D843AE8E0CE53C5902_1310371427'",DirectionPropertyName="Timeline_0__Direction_431FAFC04FFC4DEBB684B3B6AF7510E7")
+            bNetAddressable=True
+            CreationMethod=UserConstructionScript
+         End Object
+         Begin Object Name="BuildingActorLootDropOnDeathComponent" ExportPath="/Game/Athena/Items/Components/BuildingActorLootDropOnDeathComponent.BuildingActorLootDropOnDeathComponent_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_Rat14_UAID_D843AE8E0CE53C5902_1310371427.BuildingActorLootDropOnDeathComponent'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         BuildingActorLootDropOnDeathComponent="BuildingActorLootDropOnDeathComponent"
+         Timeline_2="/Script/Engine.TimelineComponent'Timeline_2'"
+         BounceCar="/Script/Engine.TimelineComponent'BounceCar'"
+         Timeline_0="/Script/Engine.TimelineComponent'Timeline_0'"
+         CanDropOilDecal=False
+         Randomly start with some cars lights on=False
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22000.000000
+         bUsesDayPhaseChange=False
+         DataVersion=1
+         SavedActorGuid=B5B0FA464F8AF0A4CD0F8B9CDA74CFFC
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Car_Rat19"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/Car_Rat.Car_Rat_C Name=Car_Rat13_UAID_D843AE8E0CE53C5902_1310382428 Archetype="/Game/Building/ActorBlueprints/Prop/Car_Rat.Car_Rat_C'/Game/Building/ActorBlueprints/Prop/Car_Rat.Default__Car_Rat_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE53C5902_1310364426 ActorFolderPath="Truckasaurus" ExportPath="/Game/Building/ActorBlueprints/Prop/Car_Rat.Car_Rat_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_Rat13_UAID_D843AE8E0CE53C5902_1310382428'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Car_Rat.Default__Car_Rat_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_Rat13_UAID_D843AE8E0CE53C5902_1310382428.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/Car_Rat.Default__Car_Rat_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_Rat13_UAID_D843AE8E0CE53C5902_1310382428.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Car_Rat.Default__Car_Rat_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_Rat13_UAID_D843AE8E0CE53C5902_1310382428.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.TimelineComponent Name="Timeline_2" ExportPath="/Script/Engine.TimelineComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_Rat13_UAID_D843AE8E0CE53C5902_1310382428.Timeline_2'"
+         End Object
+         Begin Object Class=/Script/Engine.TimelineComponent Name="BounceCar" ExportPath="/Script/Engine.TimelineComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_Rat13_UAID_D843AE8E0CE53C5902_1310382428.BounceCar'"
+         End Object
+         Begin Object Class=/Script/Engine.TimelineComponent Name="Timeline_0" ExportPath="/Script/Engine.TimelineComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_Rat13_UAID_D843AE8E0CE53C5902_1310382428.Timeline_0'"
+         End Object
+         Begin Object Class=/Game/Athena/Items/Components/BuildingActorLootDropOnDeathComponent.BuildingActorLootDropOnDeathComponent_C Name="BuildingActorLootDropOnDeathComponent" Archetype="/Game/Athena/Items/Components/BuildingActorLootDropOnDeathComponent.BuildingActorLootDropOnDeathComponent_C'/Game/Building/ActorBlueprints/Prop/Car_DEFAULT.Car_DEFAULT_C:BuildingActorLootDropOnDeathComponent_GEN_VARIABLE'" ExportPath="/Game/Athena/Items/Components/BuildingActorLootDropOnDeathComponent.BuildingActorLootDropOnDeathComponent_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_Rat13_UAID_D843AE8E0CE53C5902_1310382428.BuildingActorLootDropOnDeathComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_Rat13_UAID_D843AE8E0CE53C5902_1310382428.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Hotrod_3'"
+            LDMaxDrawDistance=22000.000000
+            CachedMaxDrawDistance=22000.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-380.453126,Y=-93.058589,Z=1084.000000)
+            RelativeRotation=(Pitch=-16.874821,Yaw=59.060254,Roll=53.438732)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_Rat13_UAID_D843AE8E0CE53C5902_1310382428.BoundingBoxComponent'"
+            LDMaxDrawDistance=22000.000000
+            CachedMaxDrawDistance=22000.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_Rat13_UAID_D843AE8E0CE53C5902_1310382428.EditorOnlyStaticMeshComponent'"
+            LDMaxDrawDistance=22000.000000
+            CachedMaxDrawDistance=22000.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="Timeline_2" ExportPath="/Script/Engine.TimelineComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_Rat13_UAID_D843AE8E0CE53C5902_1310382428.Timeline_2'"
+            TheTimeline=(LengthMode=TL_TimelineLength,Length=2.000000,Events=((Time=0.003737,EventFunc=Car_Rat13_UAID_D843AE8E0CE53C5902_1310382428.Timeline_2__FireOffNoise__EventFunc),(Time=1.000000,EventFunc=Car_Rat13_UAID_D843AE8E0CE53C5902_1310382428.Timeline_2__FireOffNoise__EventFunc),(Time=2.000000,EventFunc=Car_Rat13_UAID_D843AE8E0CE53C5902_1310382428.Timeline_2__FireOffNoise__EventFunc)),InterpFloats=((FloatCurve="/Script/Engine.CurveFloat'/Game/Building/ActorBlueprints/Prop/Car_DEFAULT.Car_DEFAULT_C:CurveFloat_13'",TrackName="SirenLightMultiplier",FloatPropertyName="Timeline_2_SirenLightMultiplier_432AD11E41A8AFC288A559BCD8B4B9AF")),TimelinePostUpdateFunc=Car_Rat13_UAID_D843AE8E0CE53C5902_1310382428.Timeline_2__UpdateFunc,TimelineFinishedFunc=Car_Rat13_UAID_D843AE8E0CE53C5902_1310382428.Timeline_2__FinishedFunc,PropertySetObject="/Game/Building/ActorBlueprints/Prop/Car_Rat.Car_Rat_C'Car_Rat13_UAID_D843AE8E0CE53C5902_1310382428'",DirectionPropertyName="Timeline_2__Direction_432AD11E41A8AFC288A559BCD8B4B9AF")
+            bNetAddressable=True
+            CreationMethod=UserConstructionScript
+         End Object
+         Begin Object Name="BounceCar" ExportPath="/Script/Engine.TimelineComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_Rat13_UAID_D843AE8E0CE53C5902_1310382428.BounceCar'"
+            TheTimeline=(LengthMode=TL_TimelineLength,Length=0.850000,InterpFloats=((FloatCurve="/Script/Engine.CurveFloat'/Game/Building/ActorBlueprints/Prop/Car_DEFAULT.Car_DEFAULT_C:CurveFloat_11'",TrackName="Vertical Bounce Component",FloatPropertyName="BounceCar_Vertical_Bounce_Component_80AD679E42DD1FF308EBD994998BB983")),TimelinePostUpdateFunc=Car_Rat13_UAID_D843AE8E0CE53C5902_1310382428.BounceCar__UpdateFunc,TimelineFinishedFunc=Car_Rat13_UAID_D843AE8E0CE53C5902_1310382428.BounceCar__FinishedFunc,PropertySetObject="/Game/Building/ActorBlueprints/Prop/Car_Rat.Car_Rat_C'Car_Rat13_UAID_D843AE8E0CE53C5902_1310382428'",DirectionPropertyName="BounceCar__Direction_80AD679E42DD1FF308EBD994998BB983")
+            bNetAddressable=True
+            CreationMethod=UserConstructionScript
+         End Object
+         Begin Object Name="Timeline_0" ExportPath="/Script/Engine.TimelineComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_Rat13_UAID_D843AE8E0CE53C5902_1310382428.Timeline_0'"
+            TheTimeline=(LengthMode=TL_TimelineLength,Length=0.500000,InterpFloats=((FloatCurve="/Script/Engine.CurveFloat'/Game/Building/ActorBlueprints/Prop/Car_DEFAULT.Car_DEFAULT_C:CurveFloat_10'",TrackName="AlarmLightMultiplier",FloatPropertyName="Timeline_0_AlarmLightMultiplier_431FAFC04FFC4DEBB684B3B6AF7510E7")),TimelinePostUpdateFunc=Car_Rat13_UAID_D843AE8E0CE53C5902_1310382428.Timeline_0__UpdateFunc,TimelineFinishedFunc=Car_Rat13_UAID_D843AE8E0CE53C5902_1310382428.Timeline_0__FinishedFunc,PropertySetObject="/Game/Building/ActorBlueprints/Prop/Car_Rat.Car_Rat_C'Car_Rat13_UAID_D843AE8E0CE53C5902_1310382428'",DirectionPropertyName="Timeline_0__Direction_431FAFC04FFC4DEBB684B3B6AF7510E7")
+            bNetAddressable=True
+            CreationMethod=UserConstructionScript
+         End Object
+         Begin Object Name="BuildingActorLootDropOnDeathComponent" ExportPath="/Game/Athena/Items/Components/BuildingActorLootDropOnDeathComponent.BuildingActorLootDropOnDeathComponent_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_Rat13_UAID_D843AE8E0CE53C5902_1310382428.BuildingActorLootDropOnDeathComponent'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         BuildingActorLootDropOnDeathComponent="BuildingActorLootDropOnDeathComponent"
+         Timeline_2="/Script/Engine.TimelineComponent'Timeline_2'"
+         BounceCar="/Script/Engine.TimelineComponent'BounceCar'"
+         Timeline_0="/Script/Engine.TimelineComponent'Timeline_0'"
+         CanDropOilDecal=False
+         Randomly start with some cars lights on=False
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22000.000000
+         bUsesDayPhaseChange=False
+         DataVersion=1
+         SavedActorGuid=9430F49F45D15149573C7FA48A8633AD
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Car_Rat20"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/Car_RV.Car_RV_C Name=Car_RV25_UAID_D843AE8E0CE53C5902_1310388429 Archetype="/Game/Building/ActorBlueprints/Prop/Car_RV.Car_RV_C'/Game/Building/ActorBlueprints/Prop/Car_RV.Default__Car_RV_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE53C5902_1310364426 ActorFolderPath="Truckasaurus" ExportPath="/Game/Building/ActorBlueprints/Prop/Car_RV.Car_RV_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_RV25_UAID_D843AE8E0CE53C5902_1310388429'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Car_RV.Default__Car_RV_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_RV25_UAID_D843AE8E0CE53C5902_1310388429.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/Car_RV.Default__Car_RV_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_RV25_UAID_D843AE8E0CE53C5902_1310388429.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Car_RV.Default__Car_RV_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_RV25_UAID_D843AE8E0CE53C5902_1310388429.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.TimelineComponent Name="Timeline_2" ExportPath="/Script/Engine.TimelineComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_RV25_UAID_D843AE8E0CE53C5902_1310388429.Timeline_2'"
+         End Object
+         Begin Object Class=/Script/Engine.TimelineComponent Name="BounceCar" ExportPath="/Script/Engine.TimelineComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_RV25_UAID_D843AE8E0CE53C5902_1310388429.BounceCar'"
+         End Object
+         Begin Object Class=/Script/Engine.TimelineComponent Name="Timeline_0" ExportPath="/Script/Engine.TimelineComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_RV25_UAID_D843AE8E0CE53C5902_1310388429.Timeline_0'"
+         End Object
+         Begin Object Class=/Game/Athena/Items/Components/BuildingActorLootDropOnDeathComponent.BuildingActorLootDropOnDeathComponent_C Name="BuildingActorLootDropOnDeathComponent" Archetype="/Game/Athena/Items/Components/BuildingActorLootDropOnDeathComponent.BuildingActorLootDropOnDeathComponent_C'/Game/Building/ActorBlueprints/Prop/Car_DEFAULT.Car_DEFAULT_C:BuildingActorLootDropOnDeathComponent_GEN_VARIABLE'" ExportPath="/Game/Athena/Items/Components/BuildingActorLootDropOnDeathComponent.BuildingActorLootDropOnDeathComponent_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_RV25_UAID_D843AE8E0CE53C5902_1310388429.BuildingActorLootDropOnDeathComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_RV25_UAID_D843AE8E0CE53C5902_1310388429.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Camper_13'"
+            LDMaxDrawDistance=40000.000000
+            CachedMaxDrawDistance=40000.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-191.117190,Y=-150.599607,Z=796.000000)
+            RelativeRotation=(Pitch=-90.000000,Yaw=-157.380135,Roll=-143.562157)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_RV25_UAID_D843AE8E0CE53C5902_1310388429.BoundingBoxComponent'"
+            LDMaxDrawDistance=40000.000000
+            CachedMaxDrawDistance=40000.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_RV25_UAID_D843AE8E0CE53C5902_1310388429.EditorOnlyStaticMeshComponent'"
+            LDMaxDrawDistance=40000.000000
+            CachedMaxDrawDistance=40000.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="Timeline_2" ExportPath="/Script/Engine.TimelineComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_RV25_UAID_D843AE8E0CE53C5902_1310388429.Timeline_2'"
+            TheTimeline=(LengthMode=TL_TimelineLength,Length=2.000000,Events=((Time=0.003737,EventFunc=Car_RV25_UAID_D843AE8E0CE53C5902_1310388429.Timeline_2__FireOffNoise__EventFunc),(Time=1.000000,EventFunc=Car_RV25_UAID_D843AE8E0CE53C5902_1310388429.Timeline_2__FireOffNoise__EventFunc),(Time=2.000000,EventFunc=Car_RV25_UAID_D843AE8E0CE53C5902_1310388429.Timeline_2__FireOffNoise__EventFunc)),InterpFloats=((FloatCurve="/Script/Engine.CurveFloat'/Game/Building/ActorBlueprints/Prop/Car_DEFAULT.Car_DEFAULT_C:CurveFloat_13'",TrackName="SirenLightMultiplier",FloatPropertyName="Timeline_2_SirenLightMultiplier_432AD11E41A8AFC288A559BCD8B4B9AF")),TimelinePostUpdateFunc=Car_RV25_UAID_D843AE8E0CE53C5902_1310388429.Timeline_2__UpdateFunc,TimelineFinishedFunc=Car_RV25_UAID_D843AE8E0CE53C5902_1310388429.Timeline_2__FinishedFunc,PropertySetObject="/Game/Building/ActorBlueprints/Prop/Car_RV.Car_RV_C'Car_RV25_UAID_D843AE8E0CE53C5902_1310388429'",DirectionPropertyName="Timeline_2__Direction_432AD11E41A8AFC288A559BCD8B4B9AF")
+            bNetAddressable=True
+            CreationMethod=UserConstructionScript
+         End Object
+         Begin Object Name="BounceCar" ExportPath="/Script/Engine.TimelineComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_RV25_UAID_D843AE8E0CE53C5902_1310388429.BounceCar'"
+            TheTimeline=(LengthMode=TL_TimelineLength,Length=0.850000,InterpFloats=((FloatCurve="/Script/Engine.CurveFloat'/Game/Building/ActorBlueprints/Prop/Car_DEFAULT.Car_DEFAULT_C:CurveFloat_11'",TrackName="Vertical Bounce Component",FloatPropertyName="BounceCar_Vertical_Bounce_Component_80AD679E42DD1FF308EBD994998BB983")),TimelinePostUpdateFunc=Car_RV25_UAID_D843AE8E0CE53C5902_1310388429.BounceCar__UpdateFunc,TimelineFinishedFunc=Car_RV25_UAID_D843AE8E0CE53C5902_1310388429.BounceCar__FinishedFunc,PropertySetObject="/Game/Building/ActorBlueprints/Prop/Car_RV.Car_RV_C'Car_RV25_UAID_D843AE8E0CE53C5902_1310388429'",DirectionPropertyName="BounceCar__Direction_80AD679E42DD1FF308EBD994998BB983")
+            bNetAddressable=True
+            CreationMethod=UserConstructionScript
+         End Object
+         Begin Object Name="Timeline_0" ExportPath="/Script/Engine.TimelineComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_RV25_UAID_D843AE8E0CE53C5902_1310388429.Timeline_0'"
+            TheTimeline=(LengthMode=TL_TimelineLength,Length=0.500000,InterpFloats=((FloatCurve="/Script/Engine.CurveFloat'/Game/Building/ActorBlueprints/Prop/Car_DEFAULT.Car_DEFAULT_C:CurveFloat_10'",TrackName="AlarmLightMultiplier",FloatPropertyName="Timeline_0_AlarmLightMultiplier_431FAFC04FFC4DEBB684B3B6AF7510E7")),TimelinePostUpdateFunc=Car_RV25_UAID_D843AE8E0CE53C5902_1310388429.Timeline_0__UpdateFunc,TimelineFinishedFunc=Car_RV25_UAID_D843AE8E0CE53C5902_1310388429.Timeline_0__FinishedFunc,PropertySetObject="/Game/Building/ActorBlueprints/Prop/Car_RV.Car_RV_C'Car_RV25_UAID_D843AE8E0CE53C5902_1310388429'",DirectionPropertyName="Timeline_0__Direction_431FAFC04FFC4DEBB684B3B6AF7510E7")
+            bNetAddressable=True
+            CreationMethod=UserConstructionScript
+         End Object
+         Begin Object Name="BuildingActorLootDropOnDeathComponent" ExportPath="/Game/Athena/Items/Components/BuildingActorLootDropOnDeathComponent.BuildingActorLootDropOnDeathComponent_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_RV25_UAID_D843AE8E0CE53C5902_1310388429.BuildingActorLootDropOnDeathComponent'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         BuildingActorLootDropOnDeathComponent="BuildingActorLootDropOnDeathComponent"
+         Timeline_2="/Script/Engine.TimelineComponent'Timeline_2'"
+         BounceCar="/Script/Engine.TimelineComponent'BounceCar'"
+         Timeline_0="/Script/Engine.TimelineComponent'Timeline_0'"
+         CanDropOilDecal=False
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=40000.000000
+         bUsesDayPhaseChange=False
+         DataVersion=1
+         SavedActorGuid=30D242FC40EC8B4731AAC2BCE36DC7D8
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Car_RV35"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/Car_SemiTruck_Tractor.Car_SemiTruck_Tractor_C Name=Car_SemiTruck_Tractor66_UAID_D843AE8E0CE53C5902_1310397430 Archetype="/Game/Building/ActorBlueprints/Prop/Car_SemiTruck_Tractor.Car_SemiTruck_Tractor_C'/Game/Building/ActorBlueprints/Prop/Car_SemiTruck_Tractor.Default__Car_SemiTruck_Tractor_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE53C5902_1310364426 ActorFolderPath="Truckasaurus" ExportPath="/Game/Building/ActorBlueprints/Prop/Car_SemiTruck_Tractor.Car_SemiTruck_Tractor_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_SemiTruck_Tractor66_UAID_D843AE8E0CE53C5902_1310397430'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Car_SemiTruck_Tractor.Default__Car_SemiTruck_Tractor_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_SemiTruck_Tractor66_UAID_D843AE8E0CE53C5902_1310397430.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/Car_SemiTruck_Tractor.Default__Car_SemiTruck_Tractor_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_SemiTruck_Tractor66_UAID_D843AE8E0CE53C5902_1310397430.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Car_SemiTruck_Tractor.Default__Car_SemiTruck_Tractor_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_SemiTruck_Tractor66_UAID_D843AE8E0CE53C5902_1310397430.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.SpotLightComponent Name="NODE_AddSpotLightComponent-5" Archetype="/Script/Engine.SpotLightComponent'/Game/Building/ActorBlueprints/Prop/Car_DEFAULT.Car_DEFAULT_C:NODE_AddSpotLightComponent-5'" ExportPath="/Script/Engine.SpotLightComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_SemiTruck_Tractor66_UAID_D843AE8E0CE53C5902_1310397430.NODE_AddSpotLightComponent-5'"
+         End Object
+         Begin Object Class=/Script/Engine.SpotLightComponent Name="NODE_AddSpotLightComponent-3" Archetype="/Script/Engine.SpotLightComponent'/Game/Building/ActorBlueprints/Prop/Car_DEFAULT.Car_DEFAULT_C:NODE_AddSpotLightComponent-3'" ExportPath="/Script/Engine.SpotLightComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_SemiTruck_Tractor66_UAID_D843AE8E0CE53C5902_1310397430.NODE_AddSpotLightComponent-3'"
+         End Object
+         Begin Object Class=/Script/Engine.SpotLightComponent Name="NODE_AddSpotLightComponent-2" Archetype="/Script/Engine.SpotLightComponent'/Game/Building/ActorBlueprints/Prop/Car_DEFAULT.Car_DEFAULT_C:NODE_AddSpotLightComponent-2'" ExportPath="/Script/Engine.SpotLightComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_SemiTruck_Tractor66_UAID_D843AE8E0CE53C5902_1310397430.NODE_AddSpotLightComponent-2'"
+         End Object
+         Begin Object Class=/Script/Engine.SpotLightComponent Name="NODE_AddSpotLightComponent-1" Archetype="/Script/Engine.SpotLightComponent'/Game/Building/ActorBlueprints/Prop/Car_DEFAULT.Car_DEFAULT_C:NODE_AddSpotLightComponent-1'" ExportPath="/Script/Engine.SpotLightComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_SemiTruck_Tractor66_UAID_D843AE8E0CE53C5902_1310397430.NODE_AddSpotLightComponent-1'"
+         End Object
+         Begin Object Class=/Script/Engine.TimelineComponent Name="Timeline_2" ExportPath="/Script/Engine.TimelineComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_SemiTruck_Tractor66_UAID_D843AE8E0CE53C5902_1310397430.Timeline_2'"
+         End Object
+         Begin Object Class=/Script/Engine.TimelineComponent Name="BounceCar" ExportPath="/Script/Engine.TimelineComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_SemiTruck_Tractor66_UAID_D843AE8E0CE53C5902_1310397430.BounceCar'"
+         End Object
+         Begin Object Class=/Script/Engine.TimelineComponent Name="Timeline_0" ExportPath="/Script/Engine.TimelineComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_SemiTruck_Tractor66_UAID_D843AE8E0CE53C5902_1310397430.Timeline_0'"
+         End Object
+         Begin Object Class=/Game/Athena/Items/Components/BuildingActorLootDropOnDeathComponent.BuildingActorLootDropOnDeathComponent_C Name="BuildingActorLootDropOnDeathComponent" Archetype="/Game/Athena/Items/Components/BuildingActorLootDropOnDeathComponent.BuildingActorLootDropOnDeathComponent_C'/Game/Building/ActorBlueprints/Prop/Car_DEFAULT.Car_DEFAULT_C:BuildingActorLootDropOnDeathComponent_GEN_VARIABLE'" ExportPath="/Game/Athena/Items/Components/BuildingActorLootDropOnDeathComponent.BuildingActorLootDropOnDeathComponent_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_SemiTruck_Tractor66_UAID_D843AE8E0CE53C5902_1310397430.BuildingActorLootDropOnDeathComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_SemiTruck_Tractor66_UAID_D843AE8E0CE53C5902_1310397430.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_SemiTruck_Tractor_01_6'"
+            LDMaxDrawDistance=22000.000000
+            CachedMaxDrawDistance=22000.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-191.117190,Y=-150.599607,Z=1196.000000)
+            RelativeRotation=(Pitch=14.062464,Yaw=-120.938340,Roll=0.000015)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_SemiTruck_Tractor66_UAID_D843AE8E0CE53C5902_1310397430.BoundingBoxComponent'"
+            LDMaxDrawDistance=22000.000000
+            CachedMaxDrawDistance=22000.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_SemiTruck_Tractor66_UAID_D843AE8E0CE53C5902_1310397430.EditorOnlyStaticMeshComponent'"
+            LDMaxDrawDistance=22000.000000
+            CachedMaxDrawDistance=22000.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="NODE_AddSpotLightComponent-5" ExportPath="/Script/Engine.SpotLightComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_SemiTruck_Tractor66_UAID_D843AE8E0CE53C5902_1310397430.NODE_AddSpotLightComponent-5'"
+            MaxDrawDistance=22000.000000
+            MaxDistanceFadeRange=2048.000000
+            VolumetricScatteringIntensity=0.000000
+            AttachParent="StaticMeshComponent0"
+            RelativeLocation=(X=153.390778,Y=96.765381,Z=74.116814)
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=UserConstructionScript
+         End Object
+         Begin Object Name="NODE_AddSpotLightComponent-3" ExportPath="/Script/Engine.SpotLightComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_SemiTruck_Tractor66_UAID_D843AE8E0CE53C5902_1310397430.NODE_AddSpotLightComponent-3'"
+            MaxDrawDistance=22000.000000
+            MaxDistanceFadeRange=2048.000000
+            VolumetricScatteringIntensity=0.000000
+            AttachParent="StaticMeshComponent0"
+            RelativeLocation=(X=153.390778,Y=-94.490074,Z=74.116814)
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=UserConstructionScript
+         End Object
+         Begin Object Name="NODE_AddSpotLightComponent-2" ExportPath="/Script/Engine.SpotLightComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_SemiTruck_Tractor66_UAID_D843AE8E0CE53C5902_1310397430.NODE_AddSpotLightComponent-2'"
+            MaxDrawDistance=22000.000000
+            MaxDistanceFadeRange=2048.000000
+            VolumetricScatteringIntensity=0.000000
+            AttachParent="StaticMeshComponent0"
+            RelativeLocation=(X=-531.100891,Y=-101.034981,Z=103.669128)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999786,Roll=-0.000000)
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=UserConstructionScript
+         End Object
+         Begin Object Name="NODE_AddSpotLightComponent-1" ExportPath="/Script/Engine.SpotLightComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_SemiTruck_Tractor66_UAID_D843AE8E0CE53C5902_1310397430.NODE_AddSpotLightComponent-1'"
+            MaxDrawDistance=22000.000000
+            MaxDistanceFadeRange=2048.000000
+            VolumetricScatteringIntensity=0.000000
+            AttachParent="StaticMeshComponent0"
+            RelativeLocation=(X=-531.100952,Y=100.506294,Z=103.669128)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999786,Roll=-0.000000)
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=UserConstructionScript
+         End Object
+         Begin Object Name="Timeline_2" ExportPath="/Script/Engine.TimelineComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_SemiTruck_Tractor66_UAID_D843AE8E0CE53C5902_1310397430.Timeline_2'"
+            TheTimeline=(LengthMode=TL_TimelineLength,Length=2.000000,Events=((Time=0.003737,EventFunc=Car_SemiTruck_Tractor66_UAID_D843AE8E0CE53C5902_1310397430.Timeline_2__FireOffNoise__EventFunc),(Time=1.000000,EventFunc=Car_SemiTruck_Tractor66_UAID_D843AE8E0CE53C5902_1310397430.Timeline_2__FireOffNoise__EventFunc),(Time=2.000000,EventFunc=Car_SemiTruck_Tractor66_UAID_D843AE8E0CE53C5902_1310397430.Timeline_2__FireOffNoise__EventFunc)),InterpFloats=((FloatCurve="/Script/Engine.CurveFloat'/Game/Building/ActorBlueprints/Prop/Car_DEFAULT.Car_DEFAULT_C:CurveFloat_13'",TrackName="SirenLightMultiplier",FloatPropertyName="Timeline_2_SirenLightMultiplier_432AD11E41A8AFC288A559BCD8B4B9AF")),TimelinePostUpdateFunc=Car_SemiTruck_Tractor66_UAID_D843AE8E0CE53C5902_1310397430.Timeline_2__UpdateFunc,TimelineFinishedFunc=Car_SemiTruck_Tractor66_UAID_D843AE8E0CE53C5902_1310397430.Timeline_2__FinishedFunc,PropertySetObject="/Game/Building/ActorBlueprints/Prop/Car_SemiTruck_Tractor.Car_SemiTruck_Tractor_C'Car_SemiTruck_Tractor66_UAID_D843AE8E0CE53C5902_1310397430'",DirectionPropertyName="Timeline_2__Direction_432AD11E41A8AFC288A559BCD8B4B9AF")
+            bNetAddressable=True
+            CreationMethod=UserConstructionScript
+         End Object
+         Begin Object Name="BounceCar" ExportPath="/Script/Engine.TimelineComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_SemiTruck_Tractor66_UAID_D843AE8E0CE53C5902_1310397430.BounceCar'"
+            TheTimeline=(LengthMode=TL_TimelineLength,Length=0.850000,InterpFloats=((FloatCurve="/Script/Engine.CurveFloat'/Game/Building/ActorBlueprints/Prop/Car_DEFAULT.Car_DEFAULT_C:CurveFloat_11'",TrackName="Vertical Bounce Component",FloatPropertyName="BounceCar_Vertical_Bounce_Component_80AD679E42DD1FF308EBD994998BB983")),TimelinePostUpdateFunc=Car_SemiTruck_Tractor66_UAID_D843AE8E0CE53C5902_1310397430.BounceCar__UpdateFunc,TimelineFinishedFunc=Car_SemiTruck_Tractor66_UAID_D843AE8E0CE53C5902_1310397430.BounceCar__FinishedFunc,PropertySetObject="/Game/Building/ActorBlueprints/Prop/Car_SemiTruck_Tractor.Car_SemiTruck_Tractor_C'Car_SemiTruck_Tractor66_UAID_D843AE8E0CE53C5902_1310397430'",DirectionPropertyName="BounceCar__Direction_80AD679E42DD1FF308EBD994998BB983")
+            bNetAddressable=True
+            CreationMethod=UserConstructionScript
+         End Object
+         Begin Object Name="Timeline_0" ExportPath="/Script/Engine.TimelineComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_SemiTruck_Tractor66_UAID_D843AE8E0CE53C5902_1310397430.Timeline_0'"
+            TheTimeline=(LengthMode=TL_TimelineLength,Length=0.500000,InterpFloats=((FloatCurve="/Script/Engine.CurveFloat'/Game/Building/ActorBlueprints/Prop/Car_DEFAULT.Car_DEFAULT_C:CurveFloat_10'",TrackName="AlarmLightMultiplier",FloatPropertyName="Timeline_0_AlarmLightMultiplier_431FAFC04FFC4DEBB684B3B6AF7510E7")),TimelinePostUpdateFunc=Car_SemiTruck_Tractor66_UAID_D843AE8E0CE53C5902_1310397430.Timeline_0__UpdateFunc,TimelineFinishedFunc=Car_SemiTruck_Tractor66_UAID_D843AE8E0CE53C5902_1310397430.Timeline_0__FinishedFunc,PropertySetObject="/Game/Building/ActorBlueprints/Prop/Car_SemiTruck_Tractor.Car_SemiTruck_Tractor_C'Car_SemiTruck_Tractor66_UAID_D843AE8E0CE53C5902_1310397430'",DirectionPropertyName="Timeline_0__Direction_431FAFC04FFC4DEBB684B3B6AF7510E7")
+            bNetAddressable=True
+            CreationMethod=UserConstructionScript
+         End Object
+         Begin Object Name="BuildingActorLootDropOnDeathComponent" ExportPath="/Game/Athena/Items/Components/BuildingActorLootDropOnDeathComponent.BuildingActorLootDropOnDeathComponent_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_SemiTruck_Tractor66_UAID_D843AE8E0CE53C5902_1310397430.BuildingActorLootDropOnDeathComponent'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         BuildingActorLootDropOnDeathComponent="BuildingActorLootDropOnDeathComponent"
+         Timeline_2="/Script/Engine.TimelineComponent'Timeline_2'"
+         BounceCar="/Script/Engine.TimelineComponent'BounceCar'"
+         Timeline_0="/Script/Engine.TimelineComponent'Timeline_0'"
+         HLight1="NODE_AddSpotLightComponent-1"
+         HLight1SocketLocation=(X=261.218791,Y=-172.903786,Z=1167.515604)
+         HLight2SocketLocation=(X=364.834205,Y=-0.037561,Z=1167.515670)
+         CanDropOilDecal=False
+         Taillight1="NODE_AddSpotLightComponent-3"
+         Taillight2="NODE_AddSpotLightComponent-5"
+         TailLightsExist=True
+         HeadLightsExist=True
+         HLight2="NODE_AddSpotLightComponent-2"
+         TLight1SocketLocation=(X=-214.197872,Y=339.401867,Z=1305.166486)
+         TLight2SocketLocation=(X=-312.525239,Y=175.358037,Z=1305.166438)
+         hlight2 - impact bounce light location=(X=364.834205,Y=-0.037561,Z=1167.515670)
+         tlight2 - impact bounce light location=(X=-312.525239,Y=175.358037,Z=1305.166438)
+         hlight1 - impact bounce light location=(X=261.218791,Y=-172.903786,Z=1167.515604)
+         tlight1 - impact bounce light location=(X=-214.197872,Y=339.401867,Z=1305.166486)
+         Randomly start with some cars lights on=False
+         "This Car\'s Lights Have Been Enabled"=True
+         TurnHeadLightsOn=True
+         TimeOfDayControlledLightDataArray(0)=(LightComponent="NODE_AddSpotLightComponent-1",Position=(X=261.218791,Y=-172.903786,Z=1167.515604))
+         TimeOfDayControlledLightDataArray(1)=(LightComponent="NODE_AddSpotLightComponent-2",Position=(X=364.834205,Y=-0.037561,Z=1167.515670))
+         TimeOfDayControlledLightDataArray(2)=(LightComponent="NODE_AddSpotLightComponent-3",Position=(X=-214.197872,Y=339.401867,Z=1305.166486))
+         TimeOfDayControlledLightDataArray(3)=(LightComponent="NODE_AddSpotLightComponent-5",Position=(X=-312.525239,Y=175.358037,Z=1305.166438))
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22000.000000
+         DataVersion=1
+         SavedActorGuid=FFAF064443A80EFEAB6678A322D4A207
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Car_SemiTruck_Tractor99"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/Car_StationWagon.Car_StationWagon_C Name=Car_StationWagon13_UAID_D843AE8E0CE53C5902_1310402431 Archetype="/Game/Building/ActorBlueprints/Prop/Car_StationWagon.Car_StationWagon_C'/Game/Building/ActorBlueprints/Prop/Car_StationWagon.Default__Car_StationWagon_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE53C5902_1310364426 ActorFolderPath="Truckasaurus" ExportPath="/Game/Building/ActorBlueprints/Prop/Car_StationWagon.Car_StationWagon_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_StationWagon13_UAID_D843AE8E0CE53C5902_1310402431'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Car_StationWagon.Default__Car_StationWagon_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_StationWagon13_UAID_D843AE8E0CE53C5902_1310402431.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/Car_StationWagon.Default__Car_StationWagon_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_StationWagon13_UAID_D843AE8E0CE53C5902_1310402431.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Car_StationWagon.Default__Car_StationWagon_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_StationWagon13_UAID_D843AE8E0CE53C5902_1310402431.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.TimelineComponent Name="Timeline_2" ExportPath="/Script/Engine.TimelineComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_StationWagon13_UAID_D843AE8E0CE53C5902_1310402431.Timeline_2'"
+         End Object
+         Begin Object Class=/Script/Engine.TimelineComponent Name="BounceCar" ExportPath="/Script/Engine.TimelineComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_StationWagon13_UAID_D843AE8E0CE53C5902_1310402431.BounceCar'"
+         End Object
+         Begin Object Class=/Script/Engine.TimelineComponent Name="Timeline_0" ExportPath="/Script/Engine.TimelineComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_StationWagon13_UAID_D843AE8E0CE53C5902_1310402431.Timeline_0'"
+         End Object
+         Begin Object Class=/Game/Athena/Items/Components/BuildingActorLootDropOnDeathComponent.BuildingActorLootDropOnDeathComponent_C Name="BuildingActorLootDropOnDeathComponent" Archetype="/Game/Athena/Items/Components/BuildingActorLootDropOnDeathComponent.BuildingActorLootDropOnDeathComponent_C'/Game/Building/ActorBlueprints/Prop/Car_DEFAULT.Car_DEFAULT_C:BuildingActorLootDropOnDeathComponent_GEN_VARIABLE'" ExportPath="/Game/Athena/Items/Components/BuildingActorLootDropOnDeathComponent.BuildingActorLootDropOnDeathComponent_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_StationWagon13_UAID_D843AE8E0CE53C5902_1310402431.BuildingActorLootDropOnDeathComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_StationWagon13_UAID_D843AE8E0CE53C5902_1310402431.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_StationWagon_8'"
+            LDMaxDrawDistance=22000.000000
+            CachedMaxDrawDistance=22000.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-41.578126,Y=-118.974608,Z=212.000000)
+            RelativeRotation=(Pitch=-5.516491,Yaw=57.958686,Roll=-78.691811)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_StationWagon13_UAID_D843AE8E0CE53C5902_1310402431.BoundingBoxComponent'"
+            LDMaxDrawDistance=22000.000000
+            CachedMaxDrawDistance=22000.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_StationWagon13_UAID_D843AE8E0CE53C5902_1310402431.EditorOnlyStaticMeshComponent'"
+            LDMaxDrawDistance=22000.000000
+            CachedMaxDrawDistance=22000.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="Timeline_2" ExportPath="/Script/Engine.TimelineComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_StationWagon13_UAID_D843AE8E0CE53C5902_1310402431.Timeline_2'"
+            TheTimeline=(LengthMode=TL_TimelineLength,Length=2.000000,Events=((Time=0.003737,EventFunc=Car_StationWagon13_UAID_D843AE8E0CE53C5902_1310402431.Timeline_2__FireOffNoise__EventFunc),(Time=1.000000,EventFunc=Car_StationWagon13_UAID_D843AE8E0CE53C5902_1310402431.Timeline_2__FireOffNoise__EventFunc),(Time=2.000000,EventFunc=Car_StationWagon13_UAID_D843AE8E0CE53C5902_1310402431.Timeline_2__FireOffNoise__EventFunc)),InterpFloats=((FloatCurve="/Script/Engine.CurveFloat'/Game/Building/ActorBlueprints/Prop/Car_DEFAULT.Car_DEFAULT_C:CurveFloat_13'",TrackName="SirenLightMultiplier",FloatPropertyName="Timeline_2_SirenLightMultiplier_432AD11E41A8AFC288A559BCD8B4B9AF")),TimelinePostUpdateFunc=Car_StationWagon13_UAID_D843AE8E0CE53C5902_1310402431.Timeline_2__UpdateFunc,TimelineFinishedFunc=Car_StationWagon13_UAID_D843AE8E0CE53C5902_1310402431.Timeline_2__FinishedFunc,PropertySetObject="/Game/Building/ActorBlueprints/Prop/Car_StationWagon.Car_StationWagon_C'Car_StationWagon13_UAID_D843AE8E0CE53C5902_1310402431'",DirectionPropertyName="Timeline_2__Direction_432AD11E41A8AFC288A559BCD8B4B9AF")
+            bNetAddressable=True
+            CreationMethod=UserConstructionScript
+         End Object
+         Begin Object Name="BounceCar" ExportPath="/Script/Engine.TimelineComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_StationWagon13_UAID_D843AE8E0CE53C5902_1310402431.BounceCar'"
+            TheTimeline=(LengthMode=TL_TimelineLength,Length=0.850000,InterpFloats=((FloatCurve="/Script/Engine.CurveFloat'/Game/Building/ActorBlueprints/Prop/Car_DEFAULT.Car_DEFAULT_C:CurveFloat_11'",TrackName="Vertical Bounce Component",FloatPropertyName="BounceCar_Vertical_Bounce_Component_80AD679E42DD1FF308EBD994998BB983")),TimelinePostUpdateFunc=Car_StationWagon13_UAID_D843AE8E0CE53C5902_1310402431.BounceCar__UpdateFunc,TimelineFinishedFunc=Car_StationWagon13_UAID_D843AE8E0CE53C5902_1310402431.BounceCar__FinishedFunc,PropertySetObject="/Game/Building/ActorBlueprints/Prop/Car_StationWagon.Car_StationWagon_C'Car_StationWagon13_UAID_D843AE8E0CE53C5902_1310402431'",DirectionPropertyName="BounceCar__Direction_80AD679E42DD1FF308EBD994998BB983")
+            bNetAddressable=True
+            CreationMethod=UserConstructionScript
+         End Object
+         Begin Object Name="Timeline_0" ExportPath="/Script/Engine.TimelineComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_StationWagon13_UAID_D843AE8E0CE53C5902_1310402431.Timeline_0'"
+            TheTimeline=(LengthMode=TL_TimelineLength,Length=0.500000,InterpFloats=((FloatCurve="/Script/Engine.CurveFloat'/Game/Building/ActorBlueprints/Prop/Car_DEFAULT.Car_DEFAULT_C:CurveFloat_10'",TrackName="AlarmLightMultiplier",FloatPropertyName="Timeline_0_AlarmLightMultiplier_431FAFC04FFC4DEBB684B3B6AF7510E7")),TimelinePostUpdateFunc=Car_StationWagon13_UAID_D843AE8E0CE53C5902_1310402431.Timeline_0__UpdateFunc,TimelineFinishedFunc=Car_StationWagon13_UAID_D843AE8E0CE53C5902_1310402431.Timeline_0__FinishedFunc,PropertySetObject="/Game/Building/ActorBlueprints/Prop/Car_StationWagon.Car_StationWagon_C'Car_StationWagon13_UAID_D843AE8E0CE53C5902_1310402431'",DirectionPropertyName="Timeline_0__Direction_431FAFC04FFC4DEBB684B3B6AF7510E7")
+            bNetAddressable=True
+            CreationMethod=UserConstructionScript
+         End Object
+         Begin Object Name="BuildingActorLootDropOnDeathComponent" ExportPath="/Game/Athena/Items/Components/BuildingActorLootDropOnDeathComponent.BuildingActorLootDropOnDeathComponent_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_StationWagon13_UAID_D843AE8E0CE53C5902_1310402431.BuildingActorLootDropOnDeathComponent'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         BuildingActorLootDropOnDeathComponent="BuildingActorLootDropOnDeathComponent"
+         Timeline_2="/Script/Engine.TimelineComponent'Timeline_2'"
+         BounceCar="/Script/Engine.TimelineComponent'BounceCar'"
+         Timeline_0="/Script/Engine.TimelineComponent'Timeline_0'"
+         CanDropOilDecal=False
+         Randomly start with some cars lights on=False
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22000.000000
+         bUsesDayPhaseChange=False
+         DataVersion=1
+         SavedActorGuid=BBDDA0834FEC283F2E917694004060FC
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Car_StationWagon15"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/Car_Stocker.Car_Stocker_C Name=Car_StationWagon17_UAID_D843AE8E0CE53C5902_1310408432 Archetype="/Game/Building/ActorBlueprints/Prop/Car_Stocker.Car_Stocker_C'/Game/Building/ActorBlueprints/Prop/Car_Stocker.Default__Car_Stocker_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE53C5902_1310364426 ActorFolderPath="Truckasaurus" ExportPath="/Game/Building/ActorBlueprints/Prop/Car_Stocker.Car_Stocker_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_StationWagon17_UAID_D843AE8E0CE53C5902_1310408432'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Car_Stocker.Default__Car_Stocker_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_StationWagon17_UAID_D843AE8E0CE53C5902_1310408432.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/Car_Stocker.Default__Car_Stocker_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_StationWagon17_UAID_D843AE8E0CE53C5902_1310408432.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Car_Stocker.Default__Car_Stocker_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_StationWagon17_UAID_D843AE8E0CE53C5902_1310408432.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.TimelineComponent Name="Timeline_2" ExportPath="/Script/Engine.TimelineComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_StationWagon17_UAID_D843AE8E0CE53C5902_1310408432.Timeline_2'"
+         End Object
+         Begin Object Class=/Script/Engine.TimelineComponent Name="BounceCar" ExportPath="/Script/Engine.TimelineComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_StationWagon17_UAID_D843AE8E0CE53C5902_1310408432.BounceCar'"
+         End Object
+         Begin Object Class=/Script/Engine.TimelineComponent Name="Timeline_0" ExportPath="/Script/Engine.TimelineComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_StationWagon17_UAID_D843AE8E0CE53C5902_1310408432.Timeline_0'"
+         End Object
+         Begin Object Class=/Game/Athena/Items/Components/BuildingActorLootDropOnDeathComponent.BuildingActorLootDropOnDeathComponent_C Name="BuildingActorLootDropOnDeathComponent" Archetype="/Game/Athena/Items/Components/BuildingActorLootDropOnDeathComponent.BuildingActorLootDropOnDeathComponent_C'/Game/Building/ActorBlueprints/Prop/Car_DEFAULT.Car_DEFAULT_C:BuildingActorLootDropOnDeathComponent_GEN_VARIABLE'" ExportPath="/Game/Athena/Items/Components/BuildingActorLootDropOnDeathComponent.BuildingActorLootDropOnDeathComponent_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_StationWagon17_UAID_D843AE8E0CE53C5902_1310408432.BuildingActorLootDropOnDeathComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_StationWagon17_UAID_D843AE8E0CE53C5902_1310408432.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Kcar_02_12'"
+            LDMaxDrawDistance=22000.000000
+            CachedMaxDrawDistance=22000.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-219.718749,Y=67.912112,Z=249.432129)
+            RelativeRotation=(Pitch=-2.758358,Yaw=-121.489396,Roll=-78.731369)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_StationWagon17_UAID_D843AE8E0CE53C5902_1310408432.BoundingBoxComponent'"
+            LDMaxDrawDistance=22000.000000
+            CachedMaxDrawDistance=22000.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_StationWagon17_UAID_D843AE8E0CE53C5902_1310408432.EditorOnlyStaticMeshComponent'"
+            LDMaxDrawDistance=22000.000000
+            CachedMaxDrawDistance=22000.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="Timeline_2" ExportPath="/Script/Engine.TimelineComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_StationWagon17_UAID_D843AE8E0CE53C5902_1310408432.Timeline_2'"
+            TheTimeline=(LengthMode=TL_TimelineLength,Length=2.000000,Events=((Time=0.003737,EventFunc=Car_StationWagon17_UAID_D843AE8E0CE53C5902_1310408432.Timeline_2__FireOffNoise__EventFunc),(Time=1.000000,EventFunc=Car_StationWagon17_UAID_D843AE8E0CE53C5902_1310408432.Timeline_2__FireOffNoise__EventFunc),(Time=2.000000,EventFunc=Car_StationWagon17_UAID_D843AE8E0CE53C5902_1310408432.Timeline_2__FireOffNoise__EventFunc)),InterpFloats=((FloatCurve="/Script/Engine.CurveFloat'/Game/Building/ActorBlueprints/Prop/Car_DEFAULT.Car_DEFAULT_C:CurveFloat_13'",TrackName="SirenLightMultiplier",FloatPropertyName="Timeline_2_SirenLightMultiplier_432AD11E41A8AFC288A559BCD8B4B9AF")),TimelinePostUpdateFunc=Car_StationWagon17_UAID_D843AE8E0CE53C5902_1310408432.Timeline_2__UpdateFunc,TimelineFinishedFunc=Car_StationWagon17_UAID_D843AE8E0CE53C5902_1310408432.Timeline_2__FinishedFunc,PropertySetObject="/Game/Building/ActorBlueprints/Prop/Car_Stocker.Car_Stocker_C'Car_StationWagon17_UAID_D843AE8E0CE53C5902_1310408432'",DirectionPropertyName="Timeline_2__Direction_432AD11E41A8AFC288A559BCD8B4B9AF")
+            bNetAddressable=True
+            CreationMethod=UserConstructionScript
+         End Object
+         Begin Object Name="BounceCar" ExportPath="/Script/Engine.TimelineComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_StationWagon17_UAID_D843AE8E0CE53C5902_1310408432.BounceCar'"
+            TheTimeline=(LengthMode=TL_TimelineLength,Length=0.850000,InterpFloats=((FloatCurve="/Script/Engine.CurveFloat'/Game/Building/ActorBlueprints/Prop/Car_DEFAULT.Car_DEFAULT_C:CurveFloat_11'",TrackName="Vertical Bounce Component",FloatPropertyName="BounceCar_Vertical_Bounce_Component_80AD679E42DD1FF308EBD994998BB983")),TimelinePostUpdateFunc=Car_StationWagon17_UAID_D843AE8E0CE53C5902_1310408432.BounceCar__UpdateFunc,TimelineFinishedFunc=Car_StationWagon17_UAID_D843AE8E0CE53C5902_1310408432.BounceCar__FinishedFunc,PropertySetObject="/Game/Building/ActorBlueprints/Prop/Car_Stocker.Car_Stocker_C'Car_StationWagon17_UAID_D843AE8E0CE53C5902_1310408432'",DirectionPropertyName="BounceCar__Direction_80AD679E42DD1FF308EBD994998BB983")
+            bNetAddressable=True
+            CreationMethod=UserConstructionScript
+         End Object
+         Begin Object Name="Timeline_0" ExportPath="/Script/Engine.TimelineComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_StationWagon17_UAID_D843AE8E0CE53C5902_1310408432.Timeline_0'"
+            TheTimeline=(LengthMode=TL_TimelineLength,Length=0.500000,InterpFloats=((FloatCurve="/Script/Engine.CurveFloat'/Game/Building/ActorBlueprints/Prop/Car_DEFAULT.Car_DEFAULT_C:CurveFloat_10'",TrackName="AlarmLightMultiplier",FloatPropertyName="Timeline_0_AlarmLightMultiplier_431FAFC04FFC4DEBB684B3B6AF7510E7")),TimelinePostUpdateFunc=Car_StationWagon17_UAID_D843AE8E0CE53C5902_1310408432.Timeline_0__UpdateFunc,TimelineFinishedFunc=Car_StationWagon17_UAID_D843AE8E0CE53C5902_1310408432.Timeline_0__FinishedFunc,PropertySetObject="/Game/Building/ActorBlueprints/Prop/Car_Stocker.Car_Stocker_C'Car_StationWagon17_UAID_D843AE8E0CE53C5902_1310408432'",DirectionPropertyName="Timeline_0__Direction_431FAFC04FFC4DEBB684B3B6AF7510E7")
+            bNetAddressable=True
+            CreationMethod=UserConstructionScript
+         End Object
+         Begin Object Name="BuildingActorLootDropOnDeathComponent" ExportPath="/Game/Athena/Items/Components/BuildingActorLootDropOnDeathComponent.BuildingActorLootDropOnDeathComponent_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Car_StationWagon17_UAID_D843AE8E0CE53C5902_1310408432.BuildingActorLootDropOnDeathComponent'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         BuildingActorLootDropOnDeathComponent="BuildingActorLootDropOnDeathComponent"
+         Timeline_2="/Script/Engine.TimelineComponent'Timeline_2'"
+         BounceCar="/Script/Engine.TimelineComponent'BounceCar'"
+         Timeline_0="/Script/Engine.TimelineComponent'Timeline_0'"
+         CanDropOilDecal=False
+         Randomly start with some cars lights on=False
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22000.000000
+         bUsesDayPhaseChange=False
+         DataVersion=1
+         SavedActorGuid=ACFA6D3941DE9CB473900793213EECFC
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Car_StationWagon21"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/Prop_WildWest_TelegraphPole_02.Prop_WildWest_TelegraphPole_02_C Name=Prop_WildWest_TelegraphPole_UAID_D843AE8E0CE53C5902_1310413433 Archetype="/Game/Building/ActorBlueprints/Prop/Prop_WildWest_TelegraphPole_02.Prop_WildWest_TelegraphPole_02_C'/Game/Building/ActorBlueprints/Prop/Prop_WildWest_TelegraphPole_02.Default__Prop_WildWest_TelegraphPole_02_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE53C5902_1310364426 ActorFolderPath="Truckasaurus" ExportPath="/Game/Building/ActorBlueprints/Prop/Prop_WildWest_TelegraphPole_02.Prop_WildWest_TelegraphPole_02_C'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Prop_WildWest_TelegraphPole_UAID_D843AE8E0CE53C5902_1310413433'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Prop_WildWest_TelegraphPole_02.Default__Prop_WildWest_TelegraphPole_02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Prop_WildWest_TelegraphPole_UAID_D843AE8E0CE53C5902_1310413433.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/Prop_WildWest_TelegraphPole_02.Default__Prop_WildWest_TelegraphPole_02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Prop_WildWest_TelegraphPole_UAID_D843AE8E0CE53C5902_1310413433.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Prop_WildWest_TelegraphPole_02.Default__Prop_WildWest_TelegraphPole_02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Prop_WildWest_TelegraphPole_UAID_D843AE8E0CE53C5902_1310413433.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Prop_WildWest_TelegraphPole_UAID_D843AE8E0CE53C5902_1310413433.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_WildWest_TelegraphPole_02_Ambient_125'"
+            LDMaxDrawDistance=22000.000000
+            CachedMaxDrawDistance=22000.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-640.000000,Y=0.000008,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=89.999999,Roll=-8.438531)
+            RelativeScale3D=(X=1.000000,Y=1.000000,Z=1.100000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Prop_WildWest_TelegraphPole_UAID_D843AE8E0CE53C5902_1310413433.BoundingBoxComponent'"
+            LDMaxDrawDistance=22000.000000
+            CachedMaxDrawDistance=22000.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/Project_Prefab_Edit.Project_Prefab_Edit:PersistentLevel.Prop_WildWest_TelegraphPole_UAID_D843AE8E0CE53C5902_1310413433.EditorOnlyStaticMeshComponent'"
+            LDMaxDrawDistance=22000.000000
+            CachedMaxDrawDistance=22000.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22000.000000
+         DataVersion=1
+         SavedActorGuid=B52E7A824D449B229C2DE5AC1C08D437
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Prop_WildWest_TelegraphPole_9"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map

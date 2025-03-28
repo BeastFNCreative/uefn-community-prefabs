@@ -1,0 +1,925 @@
+Begin Map
+   Begin Level
+      Begin Actor Class=/Script/FortniteGame.FortPlaysetRoot Name=FortPlaysetRoot_UAID_D843AE8E0CE5375902_2062947688 Archetype="/Script/FortniteGame.FortPlaysetRoot'/Script/FortniteGame.Default__FortPlaysetRoot'" ActorFolderPath="Throne" ExportPath="/Script/FortniteGame.FortPlaysetRoot'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.FortPlaysetRoot_UAID_D843AE8E0CE5375902_2062947688'"
+         Begin Object Class=/Script/Engine.SceneComponent Name="DefaultSceneRoot" Archetype="/Script/Engine.SceneComponent'/Script/FortniteGame.Default__FortPlaysetRoot:DefaultSceneRoot'" ExportPath="/Script/Engine.SceneComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.FortPlaysetRoot_UAID_D843AE8E0CE5375902_2062947688.DefaultSceneRoot'"
+         End Object
+         Begin Object Name="DefaultSceneRoot" ExportPath="/Script/Engine.SceneComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.FortPlaysetRoot_UAID_D843AE8E0CE5375902_2062947688.DefaultSceneRoot'"
+         End Object
+         SavedActorGuid=AAB0110E450DE6DF5ACE059A58D3D867
+         PlaysetPackagePathName="/CRP_Foundation/SetupAssets/Maps/PID_CP_Foundation_3x7_StripMallStores_01"
+         ActorLabel="Throne"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.PBWA_W1_ArchwayLarge_C Name=PBWA_W1_ArchwayLarge17_UAID_D843AE8E0CE5365902_2093228670 Archetype="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.PBWA_W1_ArchwayLarge_C'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5375902_2062947688 ActorFolderPath="Throne" ExportPath="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.PBWA_W1_ArchwayLarge_C'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge17_UAID_D843AE8E0CE5365902_2093228670'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge17_UAID_D843AE8E0CE5365902_2093228670.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge17_UAID_D843AE8E0CE5365902_2093228670.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge17_UAID_D843AE8E0CE5365902_2093228670.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge17_UAID_D843AE8E0CE5365902_2093228670.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_Wood_lvl1_Static_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=256.000000,Y=0.000000,Z=384.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=89.999954,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge17_UAID_D843AE8E0CE5365902_2093228670.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22917.634766
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge17_UAID_D843AE8E0CE5365902_2093228670.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22917.634766
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22917.634766
+         bHasCustomAttackLocation=True
+         DataVersion=1
+         SavedActorGuid=0D5779EC4635E28DC305E694E2FD89D6
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="PBWA_W1_ArchwayLarge43"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.PBWA_W1_ArchwayLarge_C Name=PBWA_W1_ArchwayLarge21_UAID_D843AE8E0CE5365902_2093230671 Archetype="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.PBWA_W1_ArchwayLarge_C'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5375902_2062947688 ActorFolderPath="Throne" ExportPath="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.PBWA_W1_ArchwayLarge_C'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge21_UAID_D843AE8E0CE5365902_2093230671'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge21_UAID_D843AE8E0CE5365902_2093230671.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge21_UAID_D843AE8E0CE5365902_2093230671.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge21_UAID_D843AE8E0CE5365902_2093230671.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge21_UAID_D843AE8E0CE5365902_2093230671.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_Wood_lvl1_Static_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-512.000000,Y=-768.000000,Z=384.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=-179.999954,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge21_UAID_D843AE8E0CE5365902_2093230671.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22917.634766
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge21_UAID_D843AE8E0CE5365902_2093230671.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22917.634766
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22917.634766
+         bHasCustomAttackLocation=True
+         DataVersion=1
+         SavedActorGuid=0F59CB3946E4739682EDBDA6481006B1
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="PBWA_W1_ArchwayLarge44"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.PBWA_W1_ArchwayLarge_C Name=PBWA_W1_ArchwayLarge27_UAID_D843AE8E0CE5365902_2093233672 Archetype="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.PBWA_W1_ArchwayLarge_C'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5375902_2062947688 ActorFolderPath="Throne" ExportPath="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.PBWA_W1_ArchwayLarge_C'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge27_UAID_D843AE8E0CE5365902_2093233672'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge27_UAID_D843AE8E0CE5365902_2093233672.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge27_UAID_D843AE8E0CE5365902_2093233672.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge27_UAID_D843AE8E0CE5365902_2093233672.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge27_UAID_D843AE8E0CE5365902_2093233672.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_Wood_lvl1_Static_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-512.000000,Y=-768.000000,Z=1536.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=-179.999954,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge27_UAID_D843AE8E0CE5365902_2093233672.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22917.634766
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge27_UAID_D843AE8E0CE5365902_2093233672.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22917.634766
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22917.634766
+         bHasCustomAttackLocation=True
+         DataVersion=1
+         SavedActorGuid=6525E4AB43695A8FA79AF0BE849B3FD5
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="PBWA_W1_ArchwayLarge45"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.PBWA_W1_ArchwayLarge_C Name=PBWA_W1_ArchwayLarge28_UAID_D843AE8E0CE5365902_2093238675 Archetype="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.PBWA_W1_ArchwayLarge_C'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5375902_2062947688 ActorFolderPath="Throne" ExportPath="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.PBWA_W1_ArchwayLarge_C'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge28_UAID_D843AE8E0CE5365902_2093238675'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge28_UAID_D843AE8E0CE5365902_2093238675.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge28_UAID_D843AE8E0CE5365902_2093238675.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge28_UAID_D843AE8E0CE5365902_2093238675.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge28_UAID_D843AE8E0CE5365902_2093238675.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_Wood_lvl1_Static_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=-768.000000,Z=1536.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=-179.999954,Roll=0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge28_UAID_D843AE8E0CE5365902_2093238675.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22917.634766
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge28_UAID_D843AE8E0CE5365902_2093238675.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22917.634766
+            AttachParent="StaticMeshComponent0"
+         End Object
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22917.634766
+         bHasCustomAttackLocation=True
+         DataVersion=1
+         SavedActorGuid=AFD8D84A49AF3FEA87CA3B9974CA9016
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="PBWA_W1_ArchwayLarge46"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.PBWA_W1_ArchwayLarge_C Name=PBWA_W1_ArchwayLarge23_UAID_D843AE8E0CE5365902_2093241677 Archetype="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.PBWA_W1_ArchwayLarge_C'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5375902_2062947688 ActorFolderPath="Throne" ExportPath="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.PBWA_W1_ArchwayLarge_C'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge23_UAID_D843AE8E0CE5365902_2093241677'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge23_UAID_D843AE8E0CE5365902_2093241677.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge23_UAID_D843AE8E0CE5365902_2093241677.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge23_UAID_D843AE8E0CE5365902_2093241677.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge23_UAID_D843AE8E0CE5365902_2093241677.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_Wood_lvl1_Static_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-512.000000,Y=-768.000000,Z=768.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=-179.999954,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge23_UAID_D843AE8E0CE5365902_2093241677.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22917.634766
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge23_UAID_D843AE8E0CE5365902_2093241677.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22917.634766
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22917.634766
+         bHasCustomAttackLocation=True
+         DataVersion=1
+         SavedActorGuid=189E888B4BD2873B049433A69D83E48D
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="PBWA_W1_ArchwayLarge47"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.PBWA_W1_ArchwayLarge_C Name=PBWA_W1_ArchwayLarge20_UAID_D843AE8E0CE5365902_2093247680 Archetype="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.PBWA_W1_ArchwayLarge_C'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5375902_2062947688 ActorFolderPath="Throne" ExportPath="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.PBWA_W1_ArchwayLarge_C'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge20_UAID_D843AE8E0CE5365902_2093247680'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge20_UAID_D843AE8E0CE5365902_2093247680.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge20_UAID_D843AE8E0CE5365902_2093247680.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge20_UAID_D843AE8E0CE5365902_2093247680.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge20_UAID_D843AE8E0CE5365902_2093247680.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_Wood_lvl1_Static_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=256.000000,Z=384.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=-179.999954,Roll=0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge20_UAID_D843AE8E0CE5365902_2093247680.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22917.634766
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge20_UAID_D843AE8E0CE5365902_2093247680.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22917.634766
+            AttachParent="StaticMeshComponent0"
+         End Object
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22917.634766
+         bHasCustomAttackLocation=True
+         DataVersion=1
+         SavedActorGuid=F7DA408E4EAB9B5C014D1BAD275B6B3E
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="PBWA_W1_ArchwayLarge48"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.PBWA_W1_ArchwayLarge_C Name=PBWA_W1_ArchwayLarge25_UAID_D843AE8E0CE5365902_2093251681 Archetype="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.PBWA_W1_ArchwayLarge_C'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5375902_2062947688 ActorFolderPath="Throne" ExportPath="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.PBWA_W1_ArchwayLarge_C'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge25_UAID_D843AE8E0CE5365902_2093251681'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge25_UAID_D843AE8E0CE5365902_2093251681.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge25_UAID_D843AE8E0CE5365902_2093251681.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge25_UAID_D843AE8E0CE5365902_2093251681.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge25_UAID_D843AE8E0CE5365902_2093251681.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_Wood_lvl1_Static_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-512.000000,Y=-768.000000,Z=1152.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=-179.999954,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge25_UAID_D843AE8E0CE5365902_2093251681.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22917.634766
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge25_UAID_D843AE8E0CE5365902_2093251681.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22917.634766
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22917.634766
+         bHasCustomAttackLocation=True
+         DataVersion=1
+         SavedActorGuid=DC3C04C3401490D1D83501A714BFD4B5
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="PBWA_W1_ArchwayLarge49"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.PBWA_W1_ArchwayLarge_C Name=PBWA_W1_ArchwayLarge26_UAID_D843AE8E0CE5365902_2093255683 Archetype="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.PBWA_W1_ArchwayLarge_C'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5375902_2062947688 ActorFolderPath="Throne" ExportPath="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.PBWA_W1_ArchwayLarge_C'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge26_UAID_D843AE8E0CE5365902_2093255683'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge26_UAID_D843AE8E0CE5365902_2093255683.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge26_UAID_D843AE8E0CE5365902_2093255683.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge26_UAID_D843AE8E0CE5365902_2093255683.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge26_UAID_D843AE8E0CE5365902_2093255683.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_Wood_lvl1_Static_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=-768.000000,Z=1152.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=-179.999954,Roll=0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge26_UAID_D843AE8E0CE5365902_2093255683.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22917.634766
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge26_UAID_D843AE8E0CE5365902_2093255683.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22917.634766
+            AttachParent="StaticMeshComponent0"
+         End Object
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22917.634766
+         bHasCustomAttackLocation=True
+         DataVersion=1
+         SavedActorGuid=54412AC14E9D195BEDB3B3B9D7661094
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="PBWA_W1_ArchwayLarge50"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.PBWA_W1_ArchwayLarge_C Name=PBWA_W1_ArchwayLarge22_UAID_D843AE8E0CE5365902_2093261686 Archetype="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.PBWA_W1_ArchwayLarge_C'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5375902_2062947688 ActorFolderPath="Throne" ExportPath="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.PBWA_W1_ArchwayLarge_C'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge22_UAID_D843AE8E0CE5365902_2093261686'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge22_UAID_D843AE8E0CE5365902_2093261686.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge22_UAID_D843AE8E0CE5365902_2093261686.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge22_UAID_D843AE8E0CE5365902_2093261686.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge22_UAID_D843AE8E0CE5365902_2093261686.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_Wood_lvl1_Static_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=-768.000000,Z=384.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=-179.999954,Roll=0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge22_UAID_D843AE8E0CE5365902_2093261686.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22917.634766
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge22_UAID_D843AE8E0CE5365902_2093261686.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22917.634766
+            AttachParent="StaticMeshComponent0"
+         End Object
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22917.634766
+         bHasCustomAttackLocation=True
+         DataVersion=1
+         SavedActorGuid=3097A85C4E3740D56C77418252BABA5A
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="PBWA_W1_ArchwayLarge51"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.PBWA_W1_ArchwayLarge_C Name=PBWA_W1_ArchwayLarge18_UAID_D843AE8E0CE5365902_2093272691 Archetype="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.PBWA_W1_ArchwayLarge_C'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5375902_2062947688 ActorFolderPath="Throne" ExportPath="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.PBWA_W1_ArchwayLarge_C'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge18_UAID_D843AE8E0CE5365902_2093272691'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge18_UAID_D843AE8E0CE5365902_2093272691.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge18_UAID_D843AE8E0CE5365902_2093272691.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge18_UAID_D843AE8E0CE5365902_2093272691.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge18_UAID_D843AE8E0CE5365902_2093272691.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_Wood_lvl1_Static_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=256.000000,Y=-512.000000,Z=384.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=89.999954,Roll=0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge18_UAID_D843AE8E0CE5365902_2093272691.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22917.634766
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge18_UAID_D843AE8E0CE5365902_2093272691.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22917.634766
+            AttachParent="StaticMeshComponent0"
+         End Object
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22917.634766
+         bHasCustomAttackLocation=True
+         DataVersion=1
+         SavedActorGuid=CA7E97D24BD48A90634941BC8C5FB250
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="PBWA_W1_ArchwayLarge52"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.PBWA_W1_ArchwayLarge_C Name=PBWA_W1_ArchwayLarge19_UAID_D843AE8E0CE5365902_2093278694 Archetype="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.PBWA_W1_ArchwayLarge_C'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5375902_2062947688 ActorFolderPath="Throne" ExportPath="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.PBWA_W1_ArchwayLarge_C'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge19_UAID_D843AE8E0CE5365902_2093278694'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge19_UAID_D843AE8E0CE5365902_2093278694.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge19_UAID_D843AE8E0CE5365902_2093278694.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge19_UAID_D843AE8E0CE5365902_2093278694.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge19_UAID_D843AE8E0CE5365902_2093278694.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_Wood_lvl1_Static_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-512.000000,Y=256.000000,Z=384.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=-179.999954,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge19_UAID_D843AE8E0CE5365902_2093278694.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22917.634766
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge19_UAID_D843AE8E0CE5365902_2093278694.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22917.634766
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22917.634766
+         bHasCustomAttackLocation=True
+         DataVersion=1
+         SavedActorGuid=1263153A4CBC706F0B2C9D83C27B75A2
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="PBWA_W1_ArchwayLarge53"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.PBWA_W1_ArchwayLarge_C Name=PBWA_W1_ArchwayLarge24_UAID_D843AE8E0CE5365902_2093290699 Archetype="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.PBWA_W1_ArchwayLarge_C'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5375902_2062947688 ActorFolderPath="Throne" ExportPath="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.PBWA_W1_ArchwayLarge_C'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge24_UAID_D843AE8E0CE5365902_2093290699'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge24_UAID_D843AE8E0CE5365902_2093290699.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge24_UAID_D843AE8E0CE5365902_2093290699.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge24_UAID_D843AE8E0CE5365902_2093290699.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge24_UAID_D843AE8E0CE5365902_2093290699.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_Wood_lvl1_Static_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=-768.000000,Z=768.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=-179.999954,Roll=0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge24_UAID_D843AE8E0CE5365902_2093290699.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22917.634766
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge24_UAID_D843AE8E0CE5365902_2093290699.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22917.634766
+            AttachParent="StaticMeshComponent0"
+         End Object
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22917.634766
+         bHasCustomAttackLocation=True
+         DataVersion=1
+         SavedActorGuid=2896DB41426850C6CF40639A5488A097
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="PBWA_W1_ArchwayLarge54"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.PBWA_W1_ArchwayLarge_C Name=PBWA_W1_ArchwayLarge15_UAID_D843AE8E0CE5365902_2093295702 Archetype="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.PBWA_W1_ArchwayLarge_C'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5375902_2062947688 ActorFolderPath="Throne" ExportPath="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.PBWA_W1_ArchwayLarge_C'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge15_UAID_D843AE8E0CE5365902_2093295702'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge15_UAID_D843AE8E0CE5365902_2093295702.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge15_UAID_D843AE8E0CE5365902_2093295702.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge15_UAID_D843AE8E0CE5365902_2093295702.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge15_UAID_D843AE8E0CE5365902_2093295702.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_Wood_lvl1_Static_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-768.000000,Y=0.000000,Z=384.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=89.999954,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge15_UAID_D843AE8E0CE5365902_2093295702.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22917.634766
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge15_UAID_D843AE8E0CE5365902_2093295702.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22917.634766
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22917.634766
+         bHasCustomAttackLocation=True
+         DataVersion=1
+         SavedActorGuid=54430DCD48A8EC8BEC9203895290EED5
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="PBWA_W1_ArchwayLarge55"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.PBWA_W1_ArchwayLarge_C Name=PBWA_W1_ArchwayLarge16_UAID_D843AE8E0CE5365902_2093296703 Archetype="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.PBWA_W1_ArchwayLarge_C'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5375902_2062947688 ActorFolderPath="Throne" ExportPath="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.PBWA_W1_ArchwayLarge_C'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge16_UAID_D843AE8E0CE5365902_2093296703'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge16_UAID_D843AE8E0CE5365902_2093296703.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge16_UAID_D843AE8E0CE5365902_2093296703.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLarge.Default__PBWA_W1_ArchwayLarge_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge16_UAID_D843AE8E0CE5365902_2093296703.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge16_UAID_D843AE8E0CE5365902_2093296703.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_Wood_lvl1_Static_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-768.000000,Y=-512.000000,Z=384.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=89.999954,Roll=0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge16_UAID_D843AE8E0CE5365902_2093296703.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22917.634766
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLarge16_UAID_D843AE8E0CE5365902_2093296703.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22917.634766
+            AttachParent="StaticMeshComponent0"
+         End Object
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22917.634766
+         bHasCustomAttackLocation=True
+         DataVersion=1
+         SavedActorGuid=CD75BD07489887F8BC68AAB76B57263D
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="PBWA_W1_ArchwayLarge56"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.PBWA_W1_ArchwayLargeSupport_C Name=PBWA_W1_ArchwayLargeSupport15_UAID_D843AE8E0CE5365902_2093227669 Archetype="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.PBWA_W1_ArchwayLargeSupport_C'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.Default__PBWA_W1_ArchwayLargeSupport_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5375902_2062947688 ActorFolderPath="Throne" ExportPath="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.PBWA_W1_ArchwayLargeSupport_C'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport15_UAID_D843AE8E0CE5365902_2093227669'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.Default__PBWA_W1_ArchwayLargeSupport_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport15_UAID_D843AE8E0CE5365902_2093227669.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.Default__PBWA_W1_ArchwayLargeSupport_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport15_UAID_D843AE8E0CE5365902_2093227669.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.Default__PBWA_W1_ArchwayLargeSupport_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport15_UAID_D843AE8E0CE5365902_2093227669.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport15_UAID_D843AE8E0CE5365902_2093227669.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_Wood_lvl1_Static_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-512.000000,Y=256.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=-179.999954,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport15_UAID_D843AE8E0CE5365902_2093227669.BoundingBoxComponent'"
+            CachedMaxDrawDistance=16604.273438
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport15_UAID_D843AE8E0CE5365902_2093227669.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=16604.273438
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=16604.273438
+         bHasCustomAttackLocation=True
+         DataVersion=1
+         SavedActorGuid=F355333C4C140A209B666B919E9D391E
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="PBWA_W1_ArchwayLargeSupport31"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.PBWA_W1_ArchwayLargeSupport_C Name=PBWA_W1_ArchwayLargeSupport11_UAID_D843AE8E0CE5365902_2093235673 Archetype="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.PBWA_W1_ArchwayLargeSupport_C'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.Default__PBWA_W1_ArchwayLargeSupport_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5375902_2062947688 ActorFolderPath="Throne" ExportPath="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.PBWA_W1_ArchwayLargeSupport_C'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport11_UAID_D843AE8E0CE5365902_2093235673'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.Default__PBWA_W1_ArchwayLargeSupport_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport11_UAID_D843AE8E0CE5365902_2093235673.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.Default__PBWA_W1_ArchwayLargeSupport_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport11_UAID_D843AE8E0CE5365902_2093235673.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.Default__PBWA_W1_ArchwayLargeSupport_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport11_UAID_D843AE8E0CE5365902_2093235673.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport11_UAID_D843AE8E0CE5365902_2093235673.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_Wood_lvl1_Static_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-768.000000,Y=0.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=89.999954,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport11_UAID_D843AE8E0CE5365902_2093235673.BoundingBoxComponent'"
+            CachedMaxDrawDistance=16604.273438
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport11_UAID_D843AE8E0CE5365902_2093235673.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=16604.273438
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=16604.273438
+         bHasCustomAttackLocation=True
+         DataVersion=1
+         SavedActorGuid=1D6D47D84795D76D70D4C2A2977D4C83
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="PBWA_W1_ArchwayLargeSupport32"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_RoofWall.PBWA_W1_RoofWall_C Name=PBWA_W1_ArchwayLargeSupport20_UAID_D843AE8E0CE5365902_2093237674 Archetype="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_RoofWall.PBWA_W1_RoofWall_C'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_RoofWall.Default__PBWA_W1_RoofWall_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5375902_2062947688 ActorFolderPath="Throne" ExportPath="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_RoofWall.PBWA_W1_RoofWall_C'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport20_UAID_D843AE8E0CE5365902_2093237674'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_RoofWall.Default__PBWA_W1_RoofWall_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport20_UAID_D843AE8E0CE5365902_2093237674.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_RoofWall.Default__PBWA_W1_RoofWall_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport20_UAID_D843AE8E0CE5365902_2093237674.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_RoofWall.Default__PBWA_W1_RoofWall_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport20_UAID_D843AE8E0CE5365902_2093237674.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport20_UAID_D843AE8E0CE5365902_2093237674.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_Wood_lvl1_Static_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=256.000000,Y=-512.000000,Z=768.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000008,Roll=0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport20_UAID_D843AE8E0CE5365902_2093237674.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22998.300781
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport20_UAID_D843AE8E0CE5365902_2093237674.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22998.300781
+            AttachParent="StaticMeshComponent0"
+         End Object
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22998.300781
+         DataVersion=1
+         SavedActorGuid=B7D2A5AA43736CFB187F2E8C173B0987
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="PBWA_W1_ArchwayLargeSupport33"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.PBWA_W1_ArchwayLargeSupport_C Name=PBWA_W1_ArchwayLargeSupport12_UAID_D843AE8E0CE5365902_2093243678 Archetype="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.PBWA_W1_ArchwayLargeSupport_C'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.Default__PBWA_W1_ArchwayLargeSupport_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5375902_2062947688 ActorFolderPath="Throne" ExportPath="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.PBWA_W1_ArchwayLargeSupport_C'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport12_UAID_D843AE8E0CE5365902_2093243678'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.Default__PBWA_W1_ArchwayLargeSupport_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport12_UAID_D843AE8E0CE5365902_2093243678.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.Default__PBWA_W1_ArchwayLargeSupport_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport12_UAID_D843AE8E0CE5365902_2093243678.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.Default__PBWA_W1_ArchwayLargeSupport_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport12_UAID_D843AE8E0CE5365902_2093243678.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport12_UAID_D843AE8E0CE5365902_2093243678.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_Wood_lvl1_Static_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-768.000000,Y=-512.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=89.999954,Roll=0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport12_UAID_D843AE8E0CE5365902_2093243678.BoundingBoxComponent'"
+            CachedMaxDrawDistance=16604.273438
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport12_UAID_D843AE8E0CE5365902_2093243678.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=16604.273438
+            AttachParent="StaticMeshComponent0"
+         End Object
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=16604.273438
+         bHasCustomAttackLocation=True
+         DataVersion=1
+         SavedActorGuid=44B738654F874AB2A962079033E675AF
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="PBWA_W1_ArchwayLargeSupport34"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_RoofWall.PBWA_W1_RoofWall_C Name=PBWA_W1_ArchwayLargeSupport19_UAID_D843AE8E0CE5365902_2093245679 Archetype="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_RoofWall.PBWA_W1_RoofWall_C'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_RoofWall.Default__PBWA_W1_RoofWall_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5375902_2062947688 ActorFolderPath="Throne" ExportPath="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_RoofWall.PBWA_W1_RoofWall_C'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport19_UAID_D843AE8E0CE5365902_2093245679'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_RoofWall.Default__PBWA_W1_RoofWall_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport19_UAID_D843AE8E0CE5365902_2093245679.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_RoofWall.Default__PBWA_W1_RoofWall_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport19_UAID_D843AE8E0CE5365902_2093245679.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_RoofWall.Default__PBWA_W1_RoofWall_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport19_UAID_D843AE8E0CE5365902_2093245679.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport19_UAID_D843AE8E0CE5365902_2093245679.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_Wood_lvl1_Static_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-768.000000,Y=-512.000000,Z=768.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=89.999954,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport19_UAID_D843AE8E0CE5365902_2093245679.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22998.300781
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport19_UAID_D843AE8E0CE5365902_2093245679.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22998.300781
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22998.300781
+         DataVersion=1
+         SavedActorGuid=6AEFA570412A533B9246B68649493BA8
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="PBWA_W1_ArchwayLargeSupport35"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.PBWA_W1_ArchwayLargeSupport_C Name=PBWA_W1_ArchwayLargeSupport18_UAID_D843AE8E0CE5365902_2093253682 Archetype="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.PBWA_W1_ArchwayLargeSupport_C'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.Default__PBWA_W1_ArchwayLargeSupport_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5375902_2062947688 ActorFolderPath="Throne" ExportPath="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.PBWA_W1_ArchwayLargeSupport_C'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport18_UAID_D843AE8E0CE5365902_2093253682'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.Default__PBWA_W1_ArchwayLargeSupport_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport18_UAID_D843AE8E0CE5365902_2093253682.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.Default__PBWA_W1_ArchwayLargeSupport_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport18_UAID_D843AE8E0CE5365902_2093253682.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.Default__PBWA_W1_ArchwayLargeSupport_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport18_UAID_D843AE8E0CE5365902_2093253682.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport18_UAID_D843AE8E0CE5365902_2093253682.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_Wood_lvl1_Static_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=-768.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=-179.999954,Roll=0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport18_UAID_D843AE8E0CE5365902_2093253682.BoundingBoxComponent'"
+            CachedMaxDrawDistance=16604.273438
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport18_UAID_D843AE8E0CE5365902_2093253682.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=16604.273438
+            AttachParent="StaticMeshComponent0"
+         End Object
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=16604.273438
+         bHasCustomAttackLocation=True
+         DataVersion=1
+         SavedActorGuid=0B10674448A213DFA3D455B16A8825E4
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="PBWA_W1_ArchwayLargeSupport36"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.PBWA_W1_ArchwayLargeSupport_C Name=PBWA_W1_ArchwayLargeSupport14_UAID_D843AE8E0CE5365902_2093265688 Archetype="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.PBWA_W1_ArchwayLargeSupport_C'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.Default__PBWA_W1_ArchwayLargeSupport_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5375902_2062947688 ActorFolderPath="Throne" ExportPath="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.PBWA_W1_ArchwayLargeSupport_C'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport14_UAID_D843AE8E0CE5365902_2093265688'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.Default__PBWA_W1_ArchwayLargeSupport_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport14_UAID_D843AE8E0CE5365902_2093265688.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.Default__PBWA_W1_ArchwayLargeSupport_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport14_UAID_D843AE8E0CE5365902_2093265688.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.Default__PBWA_W1_ArchwayLargeSupport_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport14_UAID_D843AE8E0CE5365902_2093265688.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport14_UAID_D843AE8E0CE5365902_2093265688.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_Wood_lvl1_Static_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=256.000000,Y=-512.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=89.999954,Roll=0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport14_UAID_D843AE8E0CE5365902_2093265688.BoundingBoxComponent'"
+            CachedMaxDrawDistance=16604.273438
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport14_UAID_D843AE8E0CE5365902_2093265688.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=16604.273438
+            AttachParent="StaticMeshComponent0"
+         End Object
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=16604.273438
+         bHasCustomAttackLocation=True
+         DataVersion=1
+         SavedActorGuid=83A0CAA5453B3CAC19ABCD9BEF6A1AA8
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="PBWA_W1_ArchwayLargeSupport37"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.PBWA_W1_ArchwayLargeSupport_C Name=PBWA_W1_ArchwayLargeSupport17_UAID_D843AE8E0CE5365902_2093268689 Archetype="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.PBWA_W1_ArchwayLargeSupport_C'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.Default__PBWA_W1_ArchwayLargeSupport_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5375902_2062947688 ActorFolderPath="Throne" ExportPath="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.PBWA_W1_ArchwayLargeSupport_C'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport17_UAID_D843AE8E0CE5365902_2093268689'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.Default__PBWA_W1_ArchwayLargeSupport_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport17_UAID_D843AE8E0CE5365902_2093268689.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.Default__PBWA_W1_ArchwayLargeSupport_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport17_UAID_D843AE8E0CE5365902_2093268689.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.Default__PBWA_W1_ArchwayLargeSupport_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport17_UAID_D843AE8E0CE5365902_2093268689.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport17_UAID_D843AE8E0CE5365902_2093268689.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_Wood_lvl1_Static_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-512.000000,Y=-768.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=-179.999954,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport17_UAID_D843AE8E0CE5365902_2093268689.BoundingBoxComponent'"
+            CachedMaxDrawDistance=16604.273438
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport17_UAID_D843AE8E0CE5365902_2093268689.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=16604.273438
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=16604.273438
+         bHasCustomAttackLocation=True
+         DataVersion=1
+         SavedActorGuid=A4EF676D49B29681CB8B40A675F61A0B
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="PBWA_W1_ArchwayLargeSupport38"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.PBWA_W1_ArchwayLargeSupport_C Name=PBWA_W1_ArchwayLargeSupport13_UAID_D843AE8E0CE5365902_2093270690 Archetype="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.PBWA_W1_ArchwayLargeSupport_C'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.Default__PBWA_W1_ArchwayLargeSupport_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5375902_2062947688 ActorFolderPath="Throne" ExportPath="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.PBWA_W1_ArchwayLargeSupport_C'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport13_UAID_D843AE8E0CE5365902_2093270690'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.Default__PBWA_W1_ArchwayLargeSupport_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport13_UAID_D843AE8E0CE5365902_2093270690.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.Default__PBWA_W1_ArchwayLargeSupport_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport13_UAID_D843AE8E0CE5365902_2093270690.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.Default__PBWA_W1_ArchwayLargeSupport_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport13_UAID_D843AE8E0CE5365902_2093270690.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport13_UAID_D843AE8E0CE5365902_2093270690.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_Wood_lvl1_Static_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=256.000000,Y=0.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=89.999954,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport13_UAID_D843AE8E0CE5365902_2093270690.BoundingBoxComponent'"
+            CachedMaxDrawDistance=16604.273438
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport13_UAID_D843AE8E0CE5365902_2093270690.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=16604.273438
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=16604.273438
+         bHasCustomAttackLocation=True
+         DataVersion=1
+         SavedActorGuid=CDADB51946A29E7D46E71B9A9FD57F2D
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="PBWA_W1_ArchwayLargeSupport39"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.PBWA_W1_ArchwayLargeSupport_C Name=PBWA_W1_ArchwayLargeSupport16_UAID_D843AE8E0CE5365902_2093277693 Archetype="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.PBWA_W1_ArchwayLargeSupport_C'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.Default__PBWA_W1_ArchwayLargeSupport_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5375902_2062947688 ActorFolderPath="Throne" ExportPath="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.PBWA_W1_ArchwayLargeSupport_C'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport16_UAID_D843AE8E0CE5365902_2093277693'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.Default__PBWA_W1_ArchwayLargeSupport_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport16_UAID_D843AE8E0CE5365902_2093277693.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.Default__PBWA_W1_ArchwayLargeSupport_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport16_UAID_D843AE8E0CE5365902_2093277693.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_ArchwayLargeSupport.Default__PBWA_W1_ArchwayLargeSupport_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport16_UAID_D843AE8E0CE5365902_2093277693.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport16_UAID_D843AE8E0CE5365902_2093277693.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_Wood_lvl1_Static_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=256.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=-179.999954,Roll=0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport16_UAID_D843AE8E0CE5365902_2093277693.BoundingBoxComponent'"
+            CachedMaxDrawDistance=16604.273438
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W1_ArchwayLargeSupport16_UAID_D843AE8E0CE5365902_2093277693.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=16604.273438
+            AttachParent="StaticMeshComponent0"
+         End Object
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=16604.273438
+         bHasCustomAttackLocation=True
+         DataVersion=1
+         SavedActorGuid=68EF999D41A32B79A49B53B8BFA5BA04
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="PBWA_W1_ArchwayLargeSupport40"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_Floor.PBWA_W1_Floor_C Name=PBWA_W3_Floor6_UAID_D843AE8E0CE5365902_2093226668 Archetype="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_Floor.PBWA_W1_Floor_C'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_Floor.Default__PBWA_W1_Floor_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5375902_2062947688 ActorFolderPath="Throne" ExportPath="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_Floor.PBWA_W1_Floor_C'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W3_Floor6_UAID_D843AE8E0CE5365902_2093226668'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_Floor.Default__PBWA_W1_Floor_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W3_Floor6_UAID_D843AE8E0CE5365902_2093226668.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_Floor.Default__PBWA_W1_Floor_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W3_Floor6_UAID_D843AE8E0CE5365902_2093226668.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_Floor.Default__PBWA_W1_Floor_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W3_Floor6_UAID_D843AE8E0CE5365902_2093226668.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W3_Floor6_UAID_D843AE8E0CE5365902_2093226668.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_Wood_lvl1_Static_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-512.000000,Y=-768.000000,Z=768.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W3_Floor6_UAID_D843AE8E0CE5365902_2093226668.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24640.527344
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W3_Floor6_UAID_D843AE8E0CE5365902_2093226668.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24640.527344
+            AttachParent="StaticMeshComponent0"
+         End Object
+         NavObstacles(0)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(1)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(2)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(3)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(4)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(5)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(6)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24640.527344
+         DataVersion=1
+         SavedActorGuid=605FCC61482C9C01F0ED62AECB33D268
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="PBWA_W3_Floor14"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_Floor.PBWA_W1_Floor_C Name=PBWA_W3_Floor9_UAID_D843AE8E0CE5365902_2093240676 Archetype="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_Floor.PBWA_W1_Floor_C'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_Floor.Default__PBWA_W1_Floor_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5375902_2062947688 ActorFolderPath="Throne" ExportPath="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_Floor.PBWA_W1_Floor_C'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W3_Floor9_UAID_D843AE8E0CE5365902_2093240676'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_Floor.Default__PBWA_W1_Floor_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W3_Floor9_UAID_D843AE8E0CE5365902_2093240676.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_Floor.Default__PBWA_W1_Floor_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W3_Floor9_UAID_D843AE8E0CE5365902_2093240676.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_Floor.Default__PBWA_W1_Floor_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W3_Floor9_UAID_D843AE8E0CE5365902_2093240676.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W3_Floor9_UAID_D843AE8E0CE5365902_2093240676.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_Wood_lvl1_Static_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=-256.000000,Z=768.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W3_Floor9_UAID_D843AE8E0CE5365902_2093240676.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24640.527344
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W3_Floor9_UAID_D843AE8E0CE5365902_2093240676.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24640.527344
+            AttachParent="StaticMeshComponent0"
+         End Object
+         NavObstacles(0)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(1)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(2)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(3)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(4)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(5)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(6)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24640.527344
+         DataVersion=1
+         SavedActorGuid=C97C99F54E903DD85CB584AC8F8937E0
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="PBWA_W3_Floor15"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_Floor.PBWA_W1_Floor_C Name=PBWA_W3_Floor8_UAID_D843AE8E0CE5365902_2093262687 Archetype="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_Floor.PBWA_W1_Floor_C'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_Floor.Default__PBWA_W1_Floor_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5375902_2062947688 ActorFolderPath="Throne" ExportPath="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_Floor.PBWA_W1_Floor_C'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W3_Floor8_UAID_D843AE8E0CE5365902_2093262687'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_Floor.Default__PBWA_W1_Floor_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W3_Floor8_UAID_D843AE8E0CE5365902_2093262687.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_Floor.Default__PBWA_W1_Floor_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W3_Floor8_UAID_D843AE8E0CE5365902_2093262687.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_Floor.Default__PBWA_W1_Floor_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W3_Floor8_UAID_D843AE8E0CE5365902_2093262687.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W3_Floor8_UAID_D843AE8E0CE5365902_2093262687.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_Wood_lvl1_Static_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=-768.000000,Z=768.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W3_Floor8_UAID_D843AE8E0CE5365902_2093262687.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24640.527344
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W3_Floor8_UAID_D843AE8E0CE5365902_2093262687.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24640.527344
+            AttachParent="StaticMeshComponent0"
+         End Object
+         NavObstacles(0)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(1)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(2)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(3)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(4)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(5)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(6)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24640.527344
+         DataVersion=1
+         SavedActorGuid=07553BD6431384D524ED3295071A1A2A
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="PBWA_W3_Floor16"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_Floor.PBWA_W1_Floor_C Name=PBWA_W3_Floor7_UAID_D843AE8E0CE5365902_2093276692 Archetype="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_Floor.PBWA_W1_Floor_C'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_Floor.Default__PBWA_W1_Floor_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5375902_2062947688 ActorFolderPath="Throne" ExportPath="/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_Floor.PBWA_W1_Floor_C'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W3_Floor7_UAID_D843AE8E0CE5365902_2093276692'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_Floor.Default__PBWA_W1_Floor_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W3_Floor7_UAID_D843AE8E0CE5365902_2093276692.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_Floor.Default__PBWA_W1_Floor_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W3_Floor7_UAID_D843AE8E0CE5365902_2093276692.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_Floor.Default__PBWA_W1_Floor_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W3_Floor7_UAID_D843AE8E0CE5365902_2093276692.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W3_Floor7_UAID_D843AE8E0CE5365902_2093276692.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_Wood_lvl1_Static_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-512.000000,Y=-256.000000,Z=768.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W3_Floor7_UAID_D843AE8E0CE5365902_2093276692.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24640.527344
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/ChairStation.ChairStation:PersistentLevel.PBWA_W3_Floor7_UAID_D843AE8E0CE5365902_2093276692.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24640.527344
+            AttachParent="StaticMeshComponent0"
+         End Object
+         NavObstacles(0)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(1)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(2)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(3)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(4)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(5)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         NavObstacles(6)=(LocalBounds=(Min=(X=-291.000000,Y=-291.000000,Z=-250.000000),Max=(X=291.000000,Y=291.000000,Z=-100.000000),IsValid=True),ObstacleType=SmashWhenLowHeight)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24640.527344
+         DataVersion=1
+         SavedActorGuid=9C5EFA6E402207D6C2F0C28A1F6B39DA
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="PBWA_W3_Floor17"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map

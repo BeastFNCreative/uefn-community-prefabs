@@ -1,6 +1,6 @@
 
 **[Back To Table of Contents](/Table%20of%20Contents.md)**
-# Custom Prefabs
+# Chapter 3 Prefabs
 
 # Misc
 

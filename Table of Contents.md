@@ -9,7 +9,7 @@
 |**[Chapter 6 Prefabs](Page_Chapter_6.md)**<br>|**Prefabs originating from the Hermes Map**|
 |**[Chapter 3 Prefabs](Page_Chapter_3.md)**<br>|**Prefabs originating from the Artemis Map**|
 |**[Chapter 2 Prefabs](SpawnerTexts/Prefab_Reload_DustyDocks_WarehouseA.txt)**<br>|**Prefabs originating from the Apollo Map**<br>**(Currently Empty)**|
-|**[Chapter 1 Prefabs](SpawnerTexts/Prefab_Reload_DustyDocks_WarehouseA.txt)**<br>|**Prefabs originating from the Athena Map**<br>**(Currently Empty)**|
+|**[Chapter 1 Prefabs](Page_Chapter_1.md)**<br>|**Prefabs originating from the Athena Map**|
 
 # Contributors
 
