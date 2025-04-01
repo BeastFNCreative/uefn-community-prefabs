@@ -6,7 +6,7 @@
 
 | Icon | Playset Name w/ Author | Extra Info |
 |-----------------------------------------|-----------------|-----------------|
-| <img src=".assets/Sweaty Sands Hotel 23.png" width="256"/> | **[Sweaty Sands Hotel 23](SpawnerTexts/Throne.txt)**<br>**(Ported by: akira_v9)**<br><br>**Source: Chapter 2 Island** | Visually Modified: ❌<br>Requires External Download: ❌|
+| <img src=".assets/Sweaty Sands Hotel 23.png" width="256"/> | **[Sweaty Sands Hotel 23](SpawnerTexts/Sweaty%20Sands%20Hotel%2023.txt)**<br>**(Ported by: akira_v9)**<br><br>**Source: Chapter 2 Island** | Visually Modified: ❌<br>Requires External Download: ❌|
 
 # Landmarks
 | Icon | Playset Name w/ Author | Extra Info |
