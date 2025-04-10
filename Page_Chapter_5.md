@@ -4,6 +4,8 @@
 
 # Ruined Reels
 
+| Icon | Playset Name w/ Author | Extra Info |
+|-----------------------------------------|-----------------|-----------------|
 | <img src=".assets/CP_RReels2_Ampitheater_Icon.png" width="256"/> | **[Ruined Reels Ampitheater](SpawnerTexts/CP_RReels2_Ampitheater_Text.txt)**<br>**(Ported by: akira_v9)**<br><br>**Source: Chapter 5 Island** | Visually Modified: ❌<br>Requires External Download: ❌|
 | <img src=".assets/CP_RReels2_Pool_Icon.png" width="256"/> | **[Ruined Reels Pool](SpawnerTexts/CP_RReels2_Pool_Text.txt)**<br>**(Ported by: akira_v9)**<br><br>**Source: Chapter 5 Island** | Visually Modified: ❌<br>Requires External Download: ❌|
 
