@@ -4,7 +4,7 @@
 
 | Icon | Playset Name w/ Author | Extra Info |
 |-----------------------------------------|-----------------|-----------------|
-| <img src=".assets/Spiky Stadium.png" width="256"/> | **[Spiky Stadium](SpawnerTexts/Prefab_Spiky_Stadium.txt)**<br>**(Ported by: akira_v9)**<br><br>**Source: Unreleased** | Visually Modified: ✔️<br>Requires External Download: ❌|
+| <img src=".assets/Prefab Spiky Stadium.png" width="256"/> | **[Spiky Stadium](SpawnerTexts/Prefab_Spiky_Stadium.txt)**<br>**(Ported by: akira_v9)**<br><br>**Source: Unreleased** | Visually Modified: ✔️<br>Requires External Download: ❌|
 | <img src=".assets/PP_Apartments_Icon.png" width="256"/> | **[Apartments](SpawnerTexts/Prefab_Apartments.txt)**<br>**(Ported by: akira_v9)**<br><br>**Source: Unreleased** | Visually Modified: ❌<br>Requires External Download: ❌|
 | <img src=".assets/PG_ApartmentsGallery_Icon.png" width="256"/> | **[Apartments Gallery](SpawnerTexts/Gallery_ApartmentsGallery.txt)**<br>**(Ported by: akira_v9)**<br><br>**Source: Unreleased** | Visually Modified: ❌<br>Requires External Download: ❌|
 | <img src=".assets/PG_ApartmentsGalleryB.png" width="256"/> | **[Apartments Gallery B](SpawnerTexts/Gallery_ApartmentsGalleryB.txt)**<br>**(Ported by: akira_v9)**<br><br>**Source: Unreleased** | Visually Modified: ❌<br>Requires External Download: ❌|
