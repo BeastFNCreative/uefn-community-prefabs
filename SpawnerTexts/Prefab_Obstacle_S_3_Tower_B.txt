@@ -1,0 +1,439 @@
+Begin Map
+   Begin Level
+      Begin Actor Class=/Game/Building/ActorBlueprints/ObstacleCourse/Floors/Obstacle_Course_Floor_01.Obstacle_Course_Floor_01_C Name=Actor_ObstacleCourse_Floor_UAID_345A600DDC870B5202_1811908706 Archetype="/Game/Building/ActorBlueprints/ObstacleCourse/Floors/Obstacle_Course_Floor_01.Obstacle_Course_Floor_01_C'/Game/Building/ActorBlueprints/ObstacleCourse/Floors/Obstacle_Course_Floor_01.Default__Obstacle_Course_Floor_01_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87915E02_2130138287 ActorFolderPath="Obstacle_S_3_Tower_B" ExportPath="/Game/Building/ActorBlueprints/ObstacleCourse/Floors/Obstacle_Course_Floor_01.Obstacle_Course_Floor_01_C'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_ObstacleCourse_Floor_UAID_345A600DDC870B5202_1811908706'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/ObstacleCourse/Floors/Obstacle_Course_Floor_01.Default__Obstacle_Course_Floor_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_ObstacleCourse_Floor_UAID_345A600DDC870B5202_1811908706.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/ObstacleCourse/Floors/Obstacle_Course_Floor_01.Default__Obstacle_Course_Floor_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_ObstacleCourse_Floor_UAID_345A600DDC870B5202_1811908706.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/ObstacleCourse/Floors/Obstacle_Course_Floor_01.Default__Obstacle_Course_Floor_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_ObstacleCourse_Floor_UAID_345A600DDC870B5202_1811908706.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_ObstacleCourse_Floor_UAID_345A600DDC870B5202_1811908706.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_OC_Trim_9'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=-256.000000,Z=1152.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_ObstacleCourse_Floor_UAID_345A600DDC870B5202_1811908706.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24659.246094
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_ObstacleCourse_Floor_UAID_345A600DDC870B5202_1811908706.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24659.246094
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24659.246094
+         DataVersion=1
+         SavedActorGuid=FA7136964F657786C17839AFF0A52623
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="ObstacleCourse_Floor_104"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Obstacle_Course_Solid_C Name=Actor_Obstacle_Course_Solid24_UAID_345A600DDC870B5202_1811895694 Archetype="/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Obstacle_Course_Solid_C'/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Default__Obstacle_Course_Solid_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87915E02_2130138287 ActorFolderPath="Obstacle_S_3_Tower_B" ExportPath="/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Obstacle_Course_Solid_C'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid24_UAID_345A600DDC870B5202_1811895694'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Default__Obstacle_Course_Solid_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid24_UAID_345A600DDC870B5202_1811895694.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Default__Obstacle_Course_Solid_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid24_UAID_345A600DDC870B5202_1811895694.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Default__Obstacle_Course_Solid_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid24_UAID_345A600DDC870B5202_1811895694.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid24_UAID_345A600DDC870B5202_1811895694.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_OC_Trim_9'"
+            CachedMaxDrawDistance=22930.718750
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-256.000000,Y=0.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=89.999985,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid24_UAID_345A600DDC870B5202_1811895694.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22930.718750
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid24_UAID_345A600DDC870B5202_1811895694.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22930.718750
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22930.718750
+         DataVersion=1
+         SavedActorGuid=93D2BC944168C4A1E305F4B7003E8637
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Obstacle_Course_Solid24"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Obstacle_Course_Solid_C Name=Actor_Obstacle_Course_Solid25_UAID_345A600DDC870B5202_1811897695 Archetype="/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Obstacle_Course_Solid_C'/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Default__Obstacle_Course_Solid_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87915E02_2130138287 ActorFolderPath="Obstacle_S_3_Tower_B" ExportPath="/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Obstacle_Course_Solid_C'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid25_UAID_345A600DDC870B5202_1811897695'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Default__Obstacle_Course_Solid_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid25_UAID_345A600DDC870B5202_1811897695.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Default__Obstacle_Course_Solid_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid25_UAID_345A600DDC870B5202_1811897695.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Default__Obstacle_Course_Solid_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid25_UAID_345A600DDC870B5202_1811897695.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid25_UAID_345A600DDC870B5202_1811897695.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_OC_Trim_9'"
+            CachedMaxDrawDistance=22930.718750
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-256.000000,Y=0.000000,Z=384.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=89.999985,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid25_UAID_345A600DDC870B5202_1811897695.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22930.718750
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid25_UAID_345A600DDC870B5202_1811897695.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22930.718750
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22930.718750
+         DataVersion=1
+         SavedActorGuid=EA3BC88749DE8526E7C07CB0AFA1C725
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Obstacle_Course_Solid25"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Obstacle_Course_Solid_C Name=Actor_Obstacle_Course_Solid26_UAID_345A600DDC870B5202_1811898696 Archetype="/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Obstacle_Course_Solid_C'/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Default__Obstacle_Course_Solid_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87915E02_2130138287 ActorFolderPath="Obstacle_S_3_Tower_B" ExportPath="/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Obstacle_Course_Solid_C'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid26_UAID_345A600DDC870B5202_1811898696'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Default__Obstacle_Course_Solid_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid26_UAID_345A600DDC870B5202_1811898696.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Default__Obstacle_Course_Solid_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid26_UAID_345A600DDC870B5202_1811898696.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Default__Obstacle_Course_Solid_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid26_UAID_345A600DDC870B5202_1811898696.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid26_UAID_345A600DDC870B5202_1811898696.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_OC_Trim_9'"
+            CachedMaxDrawDistance=22930.718750
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=-256.000000,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999970,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid26_UAID_345A600DDC870B5202_1811898696.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22930.718750
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid26_UAID_345A600DDC870B5202_1811898696.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22930.718750
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22930.718750
+         DataVersion=1
+         SavedActorGuid=446740A44BEFDCCBEB0CF5B40EBFBF78
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Obstacle_Course_Solid26"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Obstacle_Course_Solid_C Name=Actor_Obstacle_Course_Solid27_UAID_345A600DDC870B5202_1811899697 Archetype="/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Obstacle_Course_Solid_C'/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Default__Obstacle_Course_Solid_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87915E02_2130138287 ActorFolderPath="Obstacle_S_3_Tower_B" ExportPath="/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Obstacle_Course_Solid_C'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid27_UAID_345A600DDC870B5202_1811899697'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Default__Obstacle_Course_Solid_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid27_UAID_345A600DDC870B5202_1811899697.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Default__Obstacle_Course_Solid_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid27_UAID_345A600DDC870B5202_1811899697.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Default__Obstacle_Course_Solid_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid27_UAID_345A600DDC870B5202_1811899697.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid27_UAID_345A600DDC870B5202_1811899697.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_OC_Trim_9'"
+            CachedMaxDrawDistance=22930.718750
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=-256.000000,Z=384.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999970,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid27_UAID_345A600DDC870B5202_1811899697.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22930.718750
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid27_UAID_345A600DDC870B5202_1811899697.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22930.718750
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22930.718750
+         DataVersion=1
+         SavedActorGuid=AC045B2E43A984222A7423A6AE135A1A
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Obstacle_Course_Solid27"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Obstacle_Course_Solid_C Name=Actor_Obstacle_Course_Solid28_UAID_345A600DDC870B5202_1811900698 Archetype="/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Obstacle_Course_Solid_C'/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Default__Obstacle_Course_Solid_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87915E02_2130138287 ActorFolderPath="Obstacle_S_3_Tower_B" ExportPath="/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Obstacle_Course_Solid_C'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid28_UAID_345A600DDC870B5202_1811900698'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Default__Obstacle_Course_Solid_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid28_UAID_345A600DDC870B5202_1811900698.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Default__Obstacle_Course_Solid_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid28_UAID_345A600DDC870B5202_1811900698.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Default__Obstacle_Course_Solid_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid28_UAID_345A600DDC870B5202_1811900698.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid28_UAID_345A600DDC870B5202_1811900698.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_OC_Trim_9'"
+            CachedMaxDrawDistance=22930.718750
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=256.000000,Z=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid28_UAID_345A600DDC870B5202_1811900698.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22930.718750
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid28_UAID_345A600DDC870B5202_1811900698.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22930.718750
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22930.718750
+         DataVersion=1
+         SavedActorGuid=C1F2FD044083B38D6FFD9884A416F761
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Obstacle_Course_Solid28"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Obstacle_Course_Solid_C Name=Actor_Obstacle_Course_Solid29_UAID_345A600DDC870B5202_1811902699 Archetype="/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Obstacle_Course_Solid_C'/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Default__Obstacle_Course_Solid_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87915E02_2130138287 ActorFolderPath="Obstacle_S_3_Tower_B" ExportPath="/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Obstacle_Course_Solid_C'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid29_UAID_345A600DDC870B5202_1811902699'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Default__Obstacle_Course_Solid_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid29_UAID_345A600DDC870B5202_1811902699.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Default__Obstacle_Course_Solid_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid29_UAID_345A600DDC870B5202_1811902699.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Default__Obstacle_Course_Solid_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid29_UAID_345A600DDC870B5202_1811902699.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid29_UAID_345A600DDC870B5202_1811902699.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_OC_Trim_9'"
+            CachedMaxDrawDistance=22930.718750
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=256.000000,Z=384.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid29_UAID_345A600DDC870B5202_1811902699.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22930.718750
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid29_UAID_345A600DDC870B5202_1811902699.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22930.718750
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22930.718750
+         DataVersion=1
+         SavedActorGuid=94CE8AC643FE664222AC249CC9E3A0BA
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Obstacle_Course_Solid29"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Obstacle_Course_Solid_C Name=Actor_Obstacle_Course_Solid30_UAID_345A600DDC870B5202_1811902700 Archetype="/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Obstacle_Course_Solid_C'/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Default__Obstacle_Course_Solid_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87915E02_2130138287 ActorFolderPath="Obstacle_S_3_Tower_B" ExportPath="/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Obstacle_Course_Solid_C'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid30_UAID_345A600DDC870B5202_1811902700'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Default__Obstacle_Course_Solid_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid30_UAID_345A600DDC870B5202_1811902700.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Default__Obstacle_Course_Solid_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid30_UAID_345A600DDC870B5202_1811902700.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Default__Obstacle_Course_Solid_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid30_UAID_345A600DDC870B5202_1811902700.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid30_UAID_345A600DDC870B5202_1811902700.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_OC_Trim_9'"
+            CachedMaxDrawDistance=22930.718750
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=256.000000,Y=0.000000,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-89.999990,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid30_UAID_345A600DDC870B5202_1811902700.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22930.718750
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid30_UAID_345A600DDC870B5202_1811902700.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22930.718750
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22930.718750
+         DataVersion=1
+         SavedActorGuid=DBA18E5B4856262147C15991F834F90D
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Obstacle_Course_Solid30"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Obstacle_Course_Solid_C Name=Actor_Obstacle_Course_Solid31_UAID_345A600DDC870B5202_1811903701 Archetype="/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Obstacle_Course_Solid_C'/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Default__Obstacle_Course_Solid_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87915E02_2130138287 ActorFolderPath="Obstacle_S_3_Tower_B" ExportPath="/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Obstacle_Course_Solid_C'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid31_UAID_345A600DDC870B5202_1811903701'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Default__Obstacle_Course_Solid_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid31_UAID_345A600DDC870B5202_1811903701.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Default__Obstacle_Course_Solid_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid31_UAID_345A600DDC870B5202_1811903701.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Default__Obstacle_Course_Solid_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid31_UAID_345A600DDC870B5202_1811903701.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid31_UAID_345A600DDC870B5202_1811903701.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_OC_Trim_9'"
+            CachedMaxDrawDistance=22930.718750
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=256.000000,Y=0.000000,Z=384.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-89.999990,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid31_UAID_345A600DDC870B5202_1811903701.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22930.718750
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid31_UAID_345A600DDC870B5202_1811903701.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22930.718750
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22930.718750
+         DataVersion=1
+         SavedActorGuid=F93B5CDE435035588C80E1ACAFD4DB31
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Obstacle_Course_Solid31"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Obstacle_Course_Solid_C Name=Actor_Obstacle_Course_Solid32_UAID_345A600DDC870B5202_1811904702 Archetype="/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Obstacle_Course_Solid_C'/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Default__Obstacle_Course_Solid_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87915E02_2130138287 ActorFolderPath="Obstacle_S_3_Tower_B" ExportPath="/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Obstacle_Course_Solid_C'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid32_UAID_345A600DDC870B5202_1811904702'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Default__Obstacle_Course_Solid_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid32_UAID_345A600DDC870B5202_1811904702.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Default__Obstacle_Course_Solid_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid32_UAID_345A600DDC870B5202_1811904702.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Default__Obstacle_Course_Solid_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid32_UAID_345A600DDC870B5202_1811904702.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid32_UAID_345A600DDC870B5202_1811904702.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_OC_Trim_9'"
+            CachedMaxDrawDistance=22930.718750
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-256.000000,Y=0.000000,Z=768.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=89.999985,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid32_UAID_345A600DDC870B5202_1811904702.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22930.718750
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid32_UAID_345A600DDC870B5202_1811904702.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22930.718750
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22930.718750
+         DataVersion=1
+         SavedActorGuid=7F11B58949D78D92F182929E2F46DEA6
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Obstacle_Course_Solid32"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Obstacle_Course_Solid_C Name=Actor_Obstacle_Course_Solid33_UAID_345A600DDC870B5202_1811905703 Archetype="/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Obstacle_Course_Solid_C'/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Default__Obstacle_Course_Solid_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87915E02_2130138287 ActorFolderPath="Obstacle_S_3_Tower_B" ExportPath="/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Obstacle_Course_Solid_C'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid33_UAID_345A600DDC870B5202_1811905703'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Default__Obstacle_Course_Solid_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid33_UAID_345A600DDC870B5202_1811905703.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Default__Obstacle_Course_Solid_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid33_UAID_345A600DDC870B5202_1811905703.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Default__Obstacle_Course_Solid_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid33_UAID_345A600DDC870B5202_1811905703.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid33_UAID_345A600DDC870B5202_1811905703.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_OC_Trim_9'"
+            CachedMaxDrawDistance=22930.718750
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=-256.000000,Z=768.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999970,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid33_UAID_345A600DDC870B5202_1811905703.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22930.718750
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid33_UAID_345A600DDC870B5202_1811905703.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22930.718750
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22930.718750
+         DataVersion=1
+         SavedActorGuid=D943CF2845C9D5AD0A32DEAC7BC4CA33
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Obstacle_Course_Solid33"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Obstacle_Course_Solid_C Name=Actor_Obstacle_Course_Solid34_UAID_345A600DDC870B5202_1811906704 Archetype="/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Obstacle_Course_Solid_C'/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Default__Obstacle_Course_Solid_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87915E02_2130138287 ActorFolderPath="Obstacle_S_3_Tower_B" ExportPath="/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Obstacle_Course_Solid_C'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid34_UAID_345A600DDC870B5202_1811906704'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Default__Obstacle_Course_Solid_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid34_UAID_345A600DDC870B5202_1811906704.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Default__Obstacle_Course_Solid_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid34_UAID_345A600DDC870B5202_1811906704.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Default__Obstacle_Course_Solid_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid34_UAID_345A600DDC870B5202_1811906704.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid34_UAID_345A600DDC870B5202_1811906704.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_OC_Trim_9'"
+            CachedMaxDrawDistance=22930.718750
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=256.000000,Z=768.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid34_UAID_345A600DDC870B5202_1811906704.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22930.718750
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid34_UAID_345A600DDC870B5202_1811906704.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22930.718750
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22930.718750
+         DataVersion=1
+         SavedActorGuid=9AD5C8C741D421F6B28D27B79F8FF7BC
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Obstacle_Course_Solid34"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Obstacle_Course_Solid_C Name=Actor_Obstacle_Course_Solid35_UAID_345A600DDC870B5202_1811907705 Archetype="/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Obstacle_Course_Solid_C'/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Default__Obstacle_Course_Solid_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87915E02_2130138287 ActorFolderPath="Obstacle_S_3_Tower_B" ExportPath="/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Obstacle_Course_Solid_C'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid35_UAID_345A600DDC870B5202_1811907705'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Default__Obstacle_Course_Solid_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid35_UAID_345A600DDC870B5202_1811907705.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Default__Obstacle_Course_Solid_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid35_UAID_345A600DDC870B5202_1811907705.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/ObstacleCourse/Walls/Obstacle_Course_Solid.Default__Obstacle_Course_Solid_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid35_UAID_345A600DDC870B5202_1811907705.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid35_UAID_345A600DDC870B5202_1811907705.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_OC_Trim_9'"
+            CachedMaxDrawDistance=22930.718750
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=256.000000,Y=0.000000,Z=768.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-89.999990,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid35_UAID_345A600DDC870B5202_1811907705.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22930.718750
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.Actor_Obstacle_Course_Solid35_UAID_345A600DDC870B5202_1811907705.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22930.718750
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22930.718750
+         DataVersion=1
+         SavedActorGuid=FEE5544041672E5AB16EE2BF2BEC1AEA
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Obstacle_Course_Solid35"
+      End Actor
+      Begin Actor Class=/Script/FortniteGame.FortPlaysetRoot Name=FortPlaysetRoot_UAID_345A600DDC87915E02_2130138287 Archetype="/Script/FortniteGame.FortPlaysetRoot'/Script/FortniteGame.Default__FortPlaysetRoot'" ActorFolderPath="Obstacle_S_3_Tower_B" ExportPath="/Script/FortniteGame.FortPlaysetRoot'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.FortPlaysetRoot_UAID_345A600DDC87915E02_2130138287'"
+         Begin Object Class=/Script/Engine.SceneComponent Name="DefaultSceneRoot" Archetype="/Script/Engine.SceneComponent'/Script/FortniteGame.Default__FortPlaysetRoot:DefaultSceneRoot'" ExportPath="/Script/Engine.SceneComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.FortPlaysetRoot_UAID_345A600DDC87915E02_2130138287.DefaultSceneRoot'"
+         End Object
+         Begin Object Name="DefaultSceneRoot" ExportPath="/Script/Engine.SceneComponent'/Main/Maps/Prefabs/Obstacle_S_3_Tower_B.Obstacle_S_3_Tower_B:PersistentLevel.FortPlaysetRoot_UAID_345A600DDC87915E02_2130138287.DefaultSceneRoot'"
+         End Object
+         SavedActorGuid=B69832BF46ABA93A11C6518D534F3FFB
+         PlaysetPackagePathName="/CRP_Foundation/SetupAssets/Maps/PID_CP_Foundation_3x7_StripMallStores_01"
+         ActorLabel="Obstacle_S_3_Tower_B"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map

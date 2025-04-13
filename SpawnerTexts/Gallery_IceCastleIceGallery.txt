@@ -1,0 +1,716 @@
+Begin Map
+   Begin Level
+      Begin Actor Class=/Script/FortniteGame.FortPlaysetRoot Name=FortPlaysetRoot_UAID_345A600DDC87A05202_1477982794 Archetype="/Script/FortniteGame.FortPlaysetRoot'/Script/FortniteGame.Default__FortPlaysetRoot'" ActorFolderPath="Castle Ice Gallery" ExportPath="/Script/FortniteGame.FortPlaysetRoot'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.FortPlaysetRoot_UAID_345A600DDC87A05202_1477982794'"
+         Begin Object Class=/Script/Engine.SceneComponent Name="DefaultSceneRoot" Archetype="/Script/Engine.SceneComponent'/Script/FortniteGame.Default__FortPlaysetRoot:DefaultSceneRoot'" ExportPath="/Script/Engine.SceneComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.FortPlaysetRoot_UAID_345A600DDC87A05202_1477982794.DefaultSceneRoot'"
+         End Object
+         Begin Object Name="DefaultSceneRoot" ExportPath="/Script/Engine.SceneComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.FortPlaysetRoot_UAID_345A600DDC87A05202_1477982794.DefaultSceneRoot'"
+         End Object
+         SavedActorGuid=0000000000000000000000002E431B39
+         PlaysetPackagePathName="/CR_Legacy/Playsets/PID_019_PG_IceCastle_S_Ice_Gallery"
+         ActorLabel="Castle Ice Gallery"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.PG_Prop_Ice_01_C Name=PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477962774 Archetype="/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.PG_Prop_Ice_01_C'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.Default__PG_Prop_Ice_01_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87A05202_1477982794 ActorFolderPath="Castle Ice Gallery" ExportPath="/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.PG_Prop_Ice_01_C'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477962774'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.Default__PG_Prop_Ice_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477962774.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.Default__PG_Prop_Ice_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477962774.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.Default__PG_Prop_Ice_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477962774.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477962774.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Ice_Snow_Cliff_02_1'"
+            CachedMaxDrawDistance=39999.996094
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-6656.000000,Y=6912.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000014,Yaw=19.325130,Roll=180.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477962774.BoundingBoxComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477962774.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=39999.996094
+         DataVersion=1
+         SavedActorGuid=142F41174E70B142231A2A82FFE61CD0
+         PlaysetPackagePathName="/CR_Legacy/Playsets/PID_019_PG_IceCastle_S_Ice_Gallery"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Ice 01 C"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.PG_Prop_Ice_01_C Name=PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477965776 Archetype="/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.PG_Prop_Ice_01_C'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.Default__PG_Prop_Ice_01_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87A05202_1477982794 ActorFolderPath="Castle Ice Gallery" ExportPath="/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.PG_Prop_Ice_01_C'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477965776'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.Default__PG_Prop_Ice_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477965776.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.Default__PG_Prop_Ice_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477965776.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.Default__PG_Prop_Ice_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477965776.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477965776.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Ice_Snow_Cliff_02_1'"
+            CachedMaxDrawDistance=29627.242188
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-6656.000000,Y=1024.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000014,Yaw=19.325130,Roll=180.000000)
+            RelativeScale3D=(X=0.250000,Y=0.250000,Z=0.250000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477965776.BoundingBoxComponent'"
+            CachedMaxDrawDistance=29627.242188
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477965776.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=29627.242188
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=29627.242188
+         DataVersion=1
+         SavedActorGuid=38DF7A41415E1B0EAE55D29F7F00FC7C
+         PlaysetPackagePathName="/CR_Legacy/Playsets/PID_019_PG_IceCastle_S_Ice_Gallery"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Ice 01 C"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.PG_Prop_Ice_01_C Name=PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477964775 Archetype="/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.PG_Prop_Ice_01_C'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.Default__PG_Prop_Ice_01_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87A05202_1477982794 ActorFolderPath="Castle Ice Gallery" ExportPath="/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.PG_Prop_Ice_01_C'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477964775'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.Default__PG_Prop_Ice_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477964775.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.Default__PG_Prop_Ice_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477964775.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.Default__PG_Prop_Ice_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477964775.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477964775.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Ice_Snow_Cliff_02_1'"
+            CachedMaxDrawDistance=39999.996094
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-6656.000000,Y=2560.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000014,Yaw=19.325130,Roll=180.000000)
+            RelativeScale3D=(X=0.500000,Y=0.500000,Z=0.500000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477964775.BoundingBoxComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477964775.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=39999.996094
+         DataVersion=1
+         SavedActorGuid=0FB129B54ED5DC856A4EF98620530EC3
+         PlaysetPackagePathName="/CR_Legacy/Playsets/PID_019_PG_IceCastle_S_Ice_Gallery"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Ice 01 C"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.PG_Prop_Ice_01_C Name=PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477970782 Archetype="/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.PG_Prop_Ice_01_C'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.Default__PG_Prop_Ice_01_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87A05202_1477982794 ActorFolderPath="Castle Ice Gallery" ExportPath="/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.PG_Prop_Ice_01_C'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477970782'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.Default__PG_Prop_Ice_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477970782.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.Default__PG_Prop_Ice_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477970782.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.Default__PG_Prop_Ice_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477970782.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477970782.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Ice_Snow_Cliff_02_1'"
+            CachedMaxDrawDistance=19568.607422
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-6656.000000,Y=0.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000014,Yaw=19.325130,Roll=180.000000)
+            RelativeScale3D=(X=0.125000,Y=0.125000,Z=0.125000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477970782.BoundingBoxComponent'"
+            CachedMaxDrawDistance=19568.607422
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477970782.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=19568.607422
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=19568.607422
+         DataVersion=1
+         SavedActorGuid=59B17DA04A08DF34BDA4818C6DB07C76
+         PlaysetPackagePathName="/CR_Legacy/Playsets/PID_019_PG_IceCastle_S_Ice_Gallery"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Ice 01 C"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.PG_Prop_Ice_01_C Name=PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477966778 Archetype="/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.PG_Prop_Ice_01_C'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.Default__PG_Prop_Ice_01_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87A05202_1477982794 ActorFolderPath="Castle Ice Gallery" ExportPath="/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.PG_Prop_Ice_01_C'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477966778'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.Default__PG_Prop_Ice_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477966778.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.Default__PG_Prop_Ice_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477966778.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.Default__PG_Prop_Ice_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477966778.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477966778.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Ice_Snow_Cliff_02_1'"
+            CachedMaxDrawDistance=39999.996094
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-8876.000000,Y=8192.000000,Z=0.000691)
+            RelativeRotation=(Pitch=0.000014,Yaw=19.325130,Roll=180.000000)
+            RelativeScale3D=(X=0.500000,Y=0.500000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477966778.BoundingBoxComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477966778.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=39999.996094
+         DataVersion=1
+         SavedActorGuid=648C7D534FB8447782DF95B72496E192
+         PlaysetPackagePathName="/CR_Legacy/Playsets/PID_019_PG_IceCastle_S_Ice_Gallery"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Ice 01 C"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.PG_Prop_Ice_01_C Name=PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477967779 Archetype="/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.PG_Prop_Ice_01_C'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.Default__PG_Prop_Ice_01_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87A05202_1477982794 ActorFolderPath="Castle Ice Gallery" ExportPath="/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.PG_Prop_Ice_01_C'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477967779'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.Default__PG_Prop_Ice_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477967779.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.Default__PG_Prop_Ice_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477967779.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.Default__PG_Prop_Ice_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477967779.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477967779.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Ice_Snow_Cliff_02_1'"
+            CachedMaxDrawDistance=39999.996094
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-8876.000000,Y=5120.000000,Z=0.000691)
+            RelativeRotation=(Pitch=0.000014,Yaw=19.325130,Roll=180.000000)
+            RelativeScale3D=(X=0.375000,Y=0.375000,Z=0.750000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477967779.BoundingBoxComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477967779.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=39999.996094
+         DataVersion=1
+         SavedActorGuid=FF71A7C3464BFDA3BE6F78B8EF10350F
+         PlaysetPackagePathName="/CR_Legacy/Playsets/PID_019_PG_IceCastle_S_Ice_Gallery"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Ice 01 C"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.PG_Prop_Ice_01_C Name=PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477968780 Archetype="/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.PG_Prop_Ice_01_C'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.Default__PG_Prop_Ice_01_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87A05202_1477982794 ActorFolderPath="Castle Ice Gallery" ExportPath="/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.PG_Prop_Ice_01_C'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477968780'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.Default__PG_Prop_Ice_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477968780.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.Default__PG_Prop_Ice_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477968780.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.Default__PG_Prop_Ice_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477968780.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477968780.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Ice_Snow_Cliff_02_1'"
+            CachedMaxDrawDistance=39384.054688
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-8876.000000,Y=2560.000000,Z=0.000691)
+            RelativeRotation=(Pitch=0.000014,Yaw=19.325130,Roll=180.000000)
+            RelativeScale3D=(X=0.250000,Y=0.250000,Z=0.500000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477968780.BoundingBoxComponent'"
+            CachedMaxDrawDistance=39384.054688
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477968780.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=39384.054688
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=39384.054688
+         DataVersion=1
+         SavedActorGuid=56415940431FBDA3F0916E82CCAA29DD
+         PlaysetPackagePathName="/CR_Legacy/Playsets/PID_019_PG_IceCastle_S_Ice_Gallery"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Ice 01 C"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.PG_Prop_Ice_01_C Name=PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477966777 Archetype="/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.PG_Prop_Ice_01_C'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.Default__PG_Prop_Ice_01_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87A05202_1477982794 ActorFolderPath="Castle Ice Gallery" ExportPath="/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.PG_Prop_Ice_01_C'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477966777'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.Default__PG_Prop_Ice_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477966777.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.Default__PG_Prop_Ice_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477966777.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.Default__PG_Prop_Ice_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477966777.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477966777.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Ice_Snow_Cliff_02_1'"
+            CachedMaxDrawDistance=39999.996094
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-6656.000000,Y=4352.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000014,Yaw=19.325130,Roll=180.000000)
+            RelativeScale3D=(X=0.750000,Y=0.750000,Z=0.750000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477966777.BoundingBoxComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477966777.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=39999.996094
+         DataVersion=1
+         SavedActorGuid=95D9ABAA484B016FB6A3CE85CCF67DF2
+         PlaysetPackagePathName="/CR_Legacy/Playsets/PID_019_PG_IceCastle_S_Ice_Gallery"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Ice 01 C"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.PG_Prop_Ice_01_C Name=PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477969781 Archetype="/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.PG_Prop_Ice_01_C'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.Default__PG_Prop_Ice_01_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87A05202_1477982794 ActorFolderPath="Castle Ice Gallery" ExportPath="/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.PG_Prop_Ice_01_C'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477969781'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.Default__PG_Prop_Ice_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477969781.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.Default__PG_Prop_Ice_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477969781.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.Default__PG_Prop_Ice_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477969781.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477969781.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Ice_Snow_Cliff_02_1'"
+            CachedMaxDrawDistance=28818.703125
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-8876.000000,Y=1044.000000,Z=0.000691)
+            RelativeRotation=(Pitch=0.000014,Yaw=19.325130,Roll=180.000000)
+            RelativeScale3D=(X=0.125000,Y=0.125000,Z=0.250000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477969781.BoundingBoxComponent'"
+            CachedMaxDrawDistance=28818.703125
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477969781.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=28818.703125
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=28818.703125
+         DataVersion=1
+         SavedActorGuid=5A7B47DF4F25C33F209B8985AC4341D7
+         PlaysetPackagePathName="/CR_Legacy/Playsets/PID_019_PG_IceCastle_S_Ice_Gallery"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Ice 01 C"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.PG_Prop_Ice_01_C Name=PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477971783 Archetype="/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.PG_Prop_Ice_01_C'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.Default__PG_Prop_Ice_01_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87A05202_1477982794 ActorFolderPath="Castle Ice Gallery" ExportPath="/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.PG_Prop_Ice_01_C'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477971783'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.Default__PG_Prop_Ice_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477971783.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.Default__PG_Prop_Ice_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477971783.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_01.Default__PG_Prop_Ice_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477971783.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477971783.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Ice_Snow_Cliff_02_1'"
+            CachedMaxDrawDistance=18816.441406
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-8876.000000,Y=0.000000,Z=0.000691)
+            RelativeRotation=(Pitch=0.000014,Yaw=19.325130,Roll=180.000000)
+            RelativeScale3D=(X=0.062500,Y=0.062500,Z=0.125000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477971783.BoundingBoxComponent'"
+            CachedMaxDrawDistance=18816.441406
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_01_C_UAID_345A600DDC87A05202_1477971783.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=18816.441406
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=18816.441406
+         DataVersion=1
+         SavedActorGuid=64A883474087EFEBD9974B870C213B87
+         PlaysetPackagePathName="/CR_Legacy/Playsets/PID_019_PG_IceCastle_S_Ice_Gallery"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Ice 01 C"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.PG_Prop_Ice_02_C Name=PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477980792 Archetype="/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.PG_Prop_Ice_02_C'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.Default__PG_Prop_Ice_02_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87A05202_1477982794 ActorFolderPath="Castle Ice Gallery" ExportPath="/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.PG_Prop_Ice_02_C'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477980792'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.Default__PG_Prop_Ice_02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477980792.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.Default__PG_Prop_Ice_02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477980792.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.Default__PG_Prop_Ice_02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477980792.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477980792.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Ice_Snow_Cliff_02_Creative_1'"
+            CachedMaxDrawDistance=22126.466797
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1344.000000,Y=0.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000027,Yaw=-167.818375,Roll=-179.999954)
+            RelativeScale3D=(X=0.125000,Y=0.125000,Z=0.125000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477980792.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22126.466797
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477980792.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22126.466797
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22126.466797
+         DataVersion=1
+         SavedActorGuid=F021667C4DB776FAEDB4D8A0C50E2A94
+         PlaysetPackagePathName="/CR_Legacy/Playsets/PID_019_PG_IceCastle_S_Ice_Gallery"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Ice 02 C"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.PG_Prop_Ice_02_C Name=PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477971784 Archetype="/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.PG_Prop_Ice_02_C'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.Default__PG_Prop_Ice_02_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87A05202_1477982794 ActorFolderPath="Castle Ice Gallery" ExportPath="/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.PG_Prop_Ice_02_C'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477971784'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.Default__PG_Prop_Ice_02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477971784.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.Default__PG_Prop_Ice_02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477971784.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.Default__PG_Prop_Ice_02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477971784.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477971784.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Ice_Snow_Cliff_02_Creative_1'"
+            CachedMaxDrawDistance=39999.996094
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1344.000000,Y=7680.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000027,Yaw=-167.818375,Roll=-179.999954)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477971784.BoundingBoxComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477971784.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=39999.996094
+         DataVersion=1
+         SavedActorGuid=B6B78AC74DE3C7E48C11DF8C969D32E8
+         PlaysetPackagePathName="/CR_Legacy/Playsets/PID_019_PG_IceCastle_S_Ice_Gallery"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Ice 02 C"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.PG_Prop_Ice_02_C Name=PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477981793 Archetype="/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.PG_Prop_Ice_02_C'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.Default__PG_Prop_Ice_02_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87A05202_1477982794 ActorFolderPath="Castle Ice Gallery" ExportPath="/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.PG_Prop_Ice_02_C'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477981793'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.Default__PG_Prop_Ice_02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477981793.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.Default__PG_Prop_Ice_02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477981793.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.Default__PG_Prop_Ice_02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477981793.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477981793.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Ice_Snow_Cliff_02_Creative_1'"
+            CachedMaxDrawDistance=22126.466797
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-4064.000000,Y=0.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000027,Yaw=-167.818375,Roll=-179.999954)
+            RelativeScale3D=(X=0.125000,Y=0.062500,Z=0.125000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477981793.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22126.466797
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477981793.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22126.466797
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22126.466797
+         DataVersion=1
+         SavedActorGuid=247DC6304ABB05AE4129AF9120DDDFD5
+         PlaysetPackagePathName="/CR_Legacy/Playsets/PID_019_PG_IceCastle_S_Ice_Gallery"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Ice 02 C"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.PG_Prop_Ice_02_C Name=PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477976788 Archetype="/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.PG_Prop_Ice_02_C'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.Default__PG_Prop_Ice_02_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87A05202_1477982794 ActorFolderPath="Castle Ice Gallery" ExportPath="/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.PG_Prop_Ice_02_C'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477976788'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.Default__PG_Prop_Ice_02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477976788.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.Default__PG_Prop_Ice_02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477976788.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.Default__PG_Prop_Ice_02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477976788.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477976788.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Ice_Snow_Cliff_02_Creative_1'"
+            CachedMaxDrawDistance=39999.996094
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-4064.000000,Y=8704.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000027,Yaw=-167.818375,Roll=-179.999954)
+            RelativeScale3D=(X=1.000000,Y=0.500000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477976788.BoundingBoxComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477976788.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=39999.996094
+         DataVersion=1
+         SavedActorGuid=C7D1E5004AB78998F967598C70EE7201
+         PlaysetPackagePathName="/CR_Legacy/Playsets/PID_019_PG_IceCastle_S_Ice_Gallery"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Ice 02 C"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.PG_Prop_Ice_02_C Name=PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477979791 Archetype="/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.PG_Prop_Ice_02_C'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.Default__PG_Prop_Ice_02_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87A05202_1477982794 ActorFolderPath="Castle Ice Gallery" ExportPath="/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.PG_Prop_Ice_02_C'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477979791'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.Default__PG_Prop_Ice_02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477979791.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.Default__PG_Prop_Ice_02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477979791.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.Default__PG_Prop_Ice_02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477979791.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477979791.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Ice_Snow_Cliff_02_Creative_1'"
+            CachedMaxDrawDistance=39999.996094
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-4064.000000,Y=2560.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000027,Yaw=-167.818375,Roll=-179.999954)
+            RelativeScale3D=(X=0.500000,Y=0.250000,Z=0.500000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477979791.BoundingBoxComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477979791.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=39999.996094
+         DataVersion=1
+         SavedActorGuid=9D4A00694252DF08DE9F0DA9EB48F2D5
+         PlaysetPackagePathName="/CR_Legacy/Playsets/PID_019_PG_IceCastle_S_Ice_Gallery"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Ice 02 C"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.PG_Prop_Ice_02_C Name=PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477975786 Archetype="/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.PG_Prop_Ice_02_C'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.Default__PG_Prop_Ice_02_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87A05202_1477982794 ActorFolderPath="Castle Ice Gallery" ExportPath="/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.PG_Prop_Ice_02_C'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477975786'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.Default__PG_Prop_Ice_02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477975786.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.Default__PG_Prop_Ice_02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477975786.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.Default__PG_Prop_Ice_02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477975786.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477975786.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Ice_Snow_Cliff_02_Creative_1'"
+            CachedMaxDrawDistance=32357.089844
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1344.000000,Y=1044.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000027,Yaw=-167.818375,Roll=-179.999954)
+            RelativeScale3D=(X=0.250000,Y=0.250000,Z=0.250000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477975786.BoundingBoxComponent'"
+            CachedMaxDrawDistance=32357.089844
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477975786.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=32357.089844
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=32357.089844
+         DataVersion=1
+         SavedActorGuid=028CA3104C429ADDC57E47AB2FC03FB0
+         PlaysetPackagePathName="/CR_Legacy/Playsets/PID_019_PG_IceCastle_S_Ice_Gallery"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Ice 02 C"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.PG_Prop_Ice_02_C Name=PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477973785 Archetype="/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.PG_Prop_Ice_02_C'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.Default__PG_Prop_Ice_02_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87A05202_1477982794 ActorFolderPath="Castle Ice Gallery" ExportPath="/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.PG_Prop_Ice_02_C'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477973785'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.Default__PG_Prop_Ice_02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477973785.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.Default__PG_Prop_Ice_02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477973785.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.Default__PG_Prop_Ice_02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477973785.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477973785.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Ice_Snow_Cliff_02_Creative_1'"
+            CachedMaxDrawDistance=39999.996094
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1344.000000,Y=2560.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000027,Yaw=-167.818375,Roll=-179.999954)
+            RelativeScale3D=(X=0.500000,Y=0.500000,Z=0.500000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477973785.BoundingBoxComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477973785.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=39999.996094
+         DataVersion=1
+         SavedActorGuid=1F05F74849E21FC7792A1A872843CB53
+         PlaysetPackagePathName="/CR_Legacy/Playsets/PID_019_PG_IceCastle_S_Ice_Gallery"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Ice 02 C"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.PG_Prop_Ice_02_C Name=PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477975787 Archetype="/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.PG_Prop_Ice_02_C'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.Default__PG_Prop_Ice_02_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87A05202_1477982794 ActorFolderPath="Castle Ice Gallery" ExportPath="/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.PG_Prop_Ice_02_C'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477975787'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.Default__PG_Prop_Ice_02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477975787.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.Default__PG_Prop_Ice_02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477975787.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.Default__PG_Prop_Ice_02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477975787.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477975787.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Ice_Snow_Cliff_02_Creative_1'"
+            CachedMaxDrawDistance=39999.996094
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1344.000000,Y=4608.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000027,Yaw=-167.818375,Roll=-179.999954)
+            RelativeScale3D=(X=0.750000,Y=0.750000,Z=0.750000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477975787.BoundingBoxComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477975787.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=39999.996094
+         DataVersion=1
+         SavedActorGuid=850338094DA9FDB2D22D86963FCEC8C0
+         PlaysetPackagePathName="/CR_Legacy/Playsets/PID_019_PG_IceCastle_S_Ice_Gallery"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Ice 02 C"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.PG_Prop_Ice_02_C Name=PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477978790 Archetype="/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.PG_Prop_Ice_02_C'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.Default__PG_Prop_Ice_02_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87A05202_1477982794 ActorFolderPath="Castle Ice Gallery" ExportPath="/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.PG_Prop_Ice_02_C'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477978790'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.Default__PG_Prop_Ice_02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477978790.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.Default__PG_Prop_Ice_02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477978790.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.Default__PG_Prop_Ice_02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477978790.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477978790.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Ice_Snow_Cliff_02_Creative_1'"
+            CachedMaxDrawDistance=32357.089844
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-4064.000000,Y=1044.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000027,Yaw=-167.818375,Roll=-179.999954)
+            RelativeScale3D=(X=0.250000,Y=0.125000,Z=0.250000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477978790.BoundingBoxComponent'"
+            CachedMaxDrawDistance=32357.089844
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477978790.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=32357.089844
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=32357.089844
+         DataVersion=1
+         SavedActorGuid=C7FDDE074CF3926D6C7C11B5D0FD21C6
+         PlaysetPackagePathName="/CR_Legacy/Playsets/PID_019_PG_IceCastle_S_Ice_Gallery"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Ice 02 C"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.PG_Prop_Ice_02_C Name=PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477977789 Archetype="/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.PG_Prop_Ice_02_C'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.Default__PG_Prop_Ice_02_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87A05202_1477982794 ActorFolderPath="Castle Ice Gallery" ExportPath="/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.PG_Prop_Ice_02_C'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477977789'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.Default__PG_Prop_Ice_02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477977789.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.Default__PG_Prop_Ice_02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477977789.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/PG_Prop_Ice_02.Default__PG_Prop_Ice_02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477977789.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477977789.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Ice_Snow_Cliff_02_Creative_1'"
+            CachedMaxDrawDistance=39999.996094
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-4064.000000,Y=5376.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000027,Yaw=-167.818375,Roll=-179.999954)
+            RelativeScale3D=(X=0.750000,Y=0.375000,Z=0.750000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477977789.BoundingBoxComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/IceCastleIceGallery.IceCastleIceGallery:PersistentLevel.PG_Prop_Ice_02_C_UAID_345A600DDC87A05202_1477977789.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=39999.996094
+         DataVersion=1
+         SavedActorGuid=06C4A91D4524346B21ED7C8E56D1F6D8
+         PlaysetPackagePathName="/CR_Legacy/Playsets/PID_019_PG_IceCastle_S_Ice_Gallery"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Ice 02 C"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map
+Begin FolderList
+	Folder=Castle Ice Gallery
+End FolderList

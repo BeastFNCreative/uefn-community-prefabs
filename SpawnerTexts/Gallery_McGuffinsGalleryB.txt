@@ -1,0 +1,1006 @@
+Begin Map
+   Begin Level
+      Begin Actor Class=/Script/FortniteGame.FortPlaysetRoot Name=FortPlaysetRoot_UAID_345A600DDC87425902_1528220518 Archetype="/Script/FortniteGame.FortPlaysetRoot'/Script/FortniteGame.Default__FortPlaysetRoot'" ActorFolderPath="McGuffin's Gallery B" ExportPath="/Script/FortniteGame.FortPlaysetRoot'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.FortPlaysetRoot_UAID_345A600DDC87425902_1528220518'"
+         Begin Object Class=/Script/Engine.SceneComponent Name="DefaultSceneRoot" Archetype="/Script/Engine.SceneComponent'/Script/FortniteGame.Default__FortPlaysetRoot:DefaultSceneRoot'" ExportPath="/Script/Engine.SceneComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.FortPlaysetRoot_UAID_345A600DDC87425902_1528220518.DefaultSceneRoot'"
+         End Object
+         Begin Object Name="DefaultSceneRoot" ExportPath="/Script/Engine.SceneComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.FortPlaysetRoot_UAID_345A600DDC87425902_1528220518.DefaultSceneRoot'"
+         End Object
+         SavedActorGuid=87A83FD245A3E0B168738BA6FCAFE6DD
+         PlaysetPackagePathName="/Game/Playsets/PID_019_PG_PleasantPark_M_House_g_GP.PID_019_PG_PleasantPark_M_House_g_GP"
+         ActorLabel="McGuffin\'s Gallery B"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/Chair_Kitchen02.Chair_Kitchen02_C Name=Actor_Chair_FastFood2_UAID_345A600DDC87C35102_1714844356 Archetype="/Game/Building/ActorBlueprints/Prop/Chair_Kitchen02.Chair_Kitchen02_C'/Game/Building/ActorBlueprints/Prop/Chair_Kitchen02.Default__Chair_Kitchen02_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87425902_1528220518 ActorFolderPath="McGuffin's Gallery B" ExportPath="/Game/Building/ActorBlueprints/Prop/Chair_Kitchen02.Chair_Kitchen02_C'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Chair_FastFood2_UAID_345A600DDC87C35102_1714844356'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Chair_Kitchen02.Default__Chair_Kitchen02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Chair_FastFood2_UAID_345A600DDC87C35102_1714844356.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/Chair_Kitchen02.Default__Chair_Kitchen02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Chair_FastFood2_UAID_345A600DDC87C35102_1714844356.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Chair_Kitchen02.Default__Chair_Kitchen02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Chair_FastFood2_UAID_345A600DDC87C35102_1714844356.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Chair_FastFood2_UAID_345A600DDC87C35102_1714844356.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_FORT_InteriorDecos03_KitchenTableChair01_3'"
+            CachedMaxDrawDistance=5222.477539
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-229.050480,Y=4.244141,Z=0.470947)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Chair_FastFood2_UAID_345A600DDC87C35102_1714844356.BoundingBoxComponent'"
+            CachedMaxDrawDistance=5222.477539
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Chair_FastFood2_UAID_345A600DDC87C35102_1714844356.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=5222.477539
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=5222.477539
+         DataVersion=1
+         SavedActorGuid=AEBABA314782C5CEDE0A65BBF8C41ADB
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Chair_FastFood2_2"
+      End Actor
+      Begin Actor Class=/Game/Creative/BuildingActors/Props/CP_Prop_Commerce_CashRegister.CP_Prop_Commerce_CashRegister_C Name=Actor_Commerce_CashRegister_UAID_345A600DDC87C35102_1714875360 Archetype="/Game/Creative/BuildingActors/Props/CP_Prop_Commerce_CashRegister.CP_Prop_Commerce_CashRegister_C'/Game/Creative/BuildingActors/Props/CP_Prop_Commerce_CashRegister.Default__CP_Prop_Commerce_CashRegister_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87425902_1528220518 ActorFolderPath="McGuffin's Gallery B" ExportPath="/Game/Creative/BuildingActors/Props/CP_Prop_Commerce_CashRegister.CP_Prop_Commerce_CashRegister_C'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Commerce_CashRegister_UAID_345A600DDC87C35102_1714875360'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Creative/BuildingActors/Props/CP_Prop_Commerce_CashRegister.Default__CP_Prop_Commerce_CashRegister_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Commerce_CashRegister_UAID_345A600DDC87C35102_1714875360.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Creative/BuildingActors/Props/CP_Prop_Commerce_CashRegister.Default__CP_Prop_Commerce_CashRegister_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Commerce_CashRegister_UAID_345A600DDC87C35102_1714875360.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Creative/BuildingActors/Props/CP_Prop_Commerce_CashRegister.Default__CP_Prop_Commerce_CashRegister_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Commerce_CashRegister_UAID_345A600DDC87C35102_1714875360.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Commerce_CashRegister_UAID_345A600DDC87C35102_1714875360.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_CashRegister_3'"
+            LDMaxDrawDistance=6000.000000
+            CachedMaxDrawDistance=6000.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-0.352612,Y=557.049700,Z=0.041016)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Commerce_CashRegister_UAID_345A600DDC87C35102_1714875360.BoundingBoxComponent'"
+            LDMaxDrawDistance=6000.000000
+            CachedMaxDrawDistance=6000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Commerce_CashRegister_UAID_345A600DDC87C35102_1714875360.EditorOnlyStaticMeshComponent'"
+            LDMaxDrawDistance=6000.000000
+            CachedMaxDrawDistance=6000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=6000.000000
+         DataVersion=1
+         SavedActorGuid=2344116546DFFF158468479C55E606E8
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Commerce_CashRegister_2"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/Commerce_Counter_HalfLength.Commerce_Counter_HalfLength_C Name=Actor_Commerce_Counter01_a_UAID_345A600DDC87C35102_1714780349 Archetype="/Game/Building/ActorBlueprints/Prop/Commerce_Counter_HalfLength.Commerce_Counter_HalfLength_C'/Game/Building/ActorBlueprints/Prop/Commerce_Counter_HalfLength.Default__Commerce_Counter_HalfLength_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87425902_1528220518 ActorFolderPath="McGuffin's Gallery B" ExportPath="/Game/Building/ActorBlueprints/Prop/Commerce_Counter_HalfLength.Commerce_Counter_HalfLength_C'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Commerce_Counter01_a_UAID_345A600DDC87C35102_1714780349'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Commerce_Counter_HalfLength.Default__Commerce_Counter_HalfLength_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Commerce_Counter01_a_UAID_345A600DDC87C35102_1714780349.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/Commerce_Counter_HalfLength.Default__Commerce_Counter_HalfLength_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Commerce_Counter01_a_UAID_345A600DDC87C35102_1714780349.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Commerce_Counter_HalfLength.Default__Commerce_Counter_HalfLength_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Commerce_Counter01_a_UAID_345A600DDC87C35102_1714780349.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Commerce_Counter01_a_UAID_345A600DDC87C35102_1714780349.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_CoffeeCounter_4'"
+            CachedMaxDrawDistance=8383.416016
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-619.861300,Y=245.604000,Z=0.041382)
+            RelativeScale3D=(X=0.650000,Y=1.000000,Z=0.900000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Commerce_Counter01_a_UAID_345A600DDC87C35102_1714780349.BoundingBoxComponent'"
+            CachedMaxDrawDistance=8383.416016
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Commerce_Counter01_a_UAID_345A600DDC87C35102_1714780349.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=8383.416016
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=8383.416016
+         DataVersion=1
+         SavedActorGuid=730F58B84E126339AEDAE8B84F2FD579
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Commerce_Counter01_a_1"
+      End Actor
+      Begin Actor Class=/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Commerce_Counter01_a.Athena_Prop_Commerce_Counter01_a_C Name=Actor_Commerce_Counter01_a_UAID_345A600DDC87C35102_1714873359 Archetype="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Commerce_Counter01_a.Athena_Prop_Commerce_Counter01_a_C'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Commerce_Counter01_a.Default__Athena_Prop_Commerce_Counter01_a_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87425902_1528220518 ActorFolderPath="McGuffin's Gallery B" ExportPath="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Commerce_Counter01_a.Athena_Prop_Commerce_Counter01_a_C'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Commerce_Counter01_a_UAID_345A600DDC87C35102_1714873359'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Commerce_Counter01_a.Default__Athena_Prop_Commerce_Counter01_a_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Commerce_Counter01_a_UAID_345A600DDC87C35102_1714873359.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Commerce_Counter01_a.Default__Athena_Prop_Commerce_Counter01_a_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Commerce_Counter01_a_UAID_345A600DDC87C35102_1714873359.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Commerce_Counter01_a.Default__Athena_Prop_Commerce_Counter01_a_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Commerce_Counter01_a_UAID_345A600DDC87C35102_1714873359.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Commerce_Counter01_a_UAID_345A600DDC87C35102_1714873359.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_CoffeeCounter_4'"
+            CachedMaxDrawDistance=14434.326172
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1592.801300,Y=246.216800,Z=0.041382)
+            RelativeScale3D=(X=0.625000,Y=1.000000,Z=0.900000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Commerce_Counter01_a_UAID_345A600DDC87C35102_1714873359.BoundingBoxComponent'"
+            CachedMaxDrawDistance=14434.326172
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Commerce_Counter01_a_UAID_345A600DDC87C35102_1714873359.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=14434.326172
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=14434.326172
+         DataVersion=1
+         SavedActorGuid=257B1B5245C4C696DE9DEDA6578D33AA
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Commerce_Counter01_a_2"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/Commerce_Counter_Corner.Commerce_Counter_Corner_C Name=Actor_Commerce_Counter_Corner_UAID_345A600DDC87C35102_1714763346 Archetype="/Game/Building/ActorBlueprints/Prop/Commerce_Counter_Corner.Commerce_Counter_Corner_C'/Game/Building/ActorBlueprints/Prop/Commerce_Counter_Corner.Default__Commerce_Counter_Corner_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87425902_1528220518 ActorFolderPath="McGuffin's Gallery B" ExportPath="/Game/Building/ActorBlueprints/Prop/Commerce_Counter_Corner.Commerce_Counter_Corner_C'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Commerce_Counter_Corner_UAID_345A600DDC87C35102_1714763346'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Commerce_Counter_Corner.Default__Commerce_Counter_Corner_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Commerce_Counter_Corner_UAID_345A600DDC87C35102_1714763346.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/Commerce_Counter_Corner.Default__Commerce_Counter_Corner_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Commerce_Counter_Corner_UAID_345A600DDC87C35102_1714763346.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Commerce_Counter_Corner.Default__Commerce_Counter_Corner_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Commerce_Counter_Corner_UAID_345A600DDC87C35102_1714763346.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Commerce_Counter_Corner_UAID_345A600DDC87C35102_1714763346.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_CoffeeCounter_4'"
+            CachedMaxDrawDistance=5194.922852
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-184.840620,Y=514.123660,Z=0.000244)
+            RelativeScale3D=(X=1.000000,Y=1.000000,Z=0.900000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Commerce_Counter_Corner_UAID_345A600DDC87C35102_1714763346.BoundingBoxComponent'"
+            CachedMaxDrawDistance=5194.922852
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Commerce_Counter_Corner_UAID_345A600DDC87C35102_1714763346.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=5194.922852
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=5194.922852
+         DataVersion=1
+         SavedActorGuid=FFCABEF24FB3DB9256C722B52AEFAF52
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Commerce_Counter_Corner_2"
+      End Actor
+      Begin Actor Class=/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Commerce_MagazineStand_01.Athena_Prop_Commerce_MagazineStand_01_C Name=Actor_Commerce_MagazineStand_01_UAID_345A600DDC87C35102_1714897364 Archetype="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Commerce_MagazineStand_01.Athena_Prop_Commerce_MagazineStand_01_C'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Commerce_MagazineStand_01.Default__Athena_Prop_Commerce_MagazineStand_01_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87425902_1528220518 ActorFolderPath="McGuffin's Gallery B" ExportPath="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Commerce_MagazineStand_01.Athena_Prop_Commerce_MagazineStand_01_C'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Commerce_MagazineStand_01_UAID_345A600DDC87C35102_1714897364'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Commerce_MagazineStand_01.Default__Athena_Prop_Commerce_MagazineStand_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Commerce_MagazineStand_01_UAID_345A600DDC87C35102_1714897364.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Commerce_MagazineStand_01.Default__Athena_Prop_Commerce_MagazineStand_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Commerce_MagazineStand_01_UAID_345A600DDC87C35102_1714897364.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Commerce_MagazineStand_01.Default__Athena_Prop_Commerce_MagazineStand_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Commerce_MagazineStand_01_UAID_345A600DDC87C35102_1714897364.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Commerce_MagazineStand_01_UAID_345A600DDC87C35102_1714897364.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_MagazineStands_4'"
+            CachedMaxDrawDistance=12704.995117
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-424.361500,Y=1345.470700,Z=-0.178345)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Commerce_MagazineStand_01_UAID_345A600DDC87C35102_1714897364.BoundingBoxComponent'"
+            CachedMaxDrawDistance=12704.995117
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Commerce_MagazineStand_01_UAID_345A600DDC87C35102_1714897364.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=12704.995117
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=12704.995117
+         DataVersion=1
+         SavedActorGuid=134BC2E64BD5DD8685559A88E762F392
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Commerce_MagazineStand_01_2"
+      End Actor
+      Begin Actor Class=/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Commerce_NewspaperBox_01.Athena_Prop_Commerce_NewspaperBox_01_C Name=Actor_Commerce_NewspaperBox_UAID_345A600DDC87C35102_1714910365 Archetype="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Commerce_NewspaperBox_01.Athena_Prop_Commerce_NewspaperBox_01_C'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Commerce_NewspaperBox_01.Default__Athena_Prop_Commerce_NewspaperBox_01_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87425902_1528220518 ActorFolderPath="McGuffin's Gallery B" ExportPath="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Commerce_NewspaperBox_01.Athena_Prop_Commerce_NewspaperBox_01_C'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Commerce_NewspaperBox_UAID_345A600DDC87C35102_1714910365'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Commerce_NewspaperBox_01.Default__Athena_Prop_Commerce_NewspaperBox_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Commerce_NewspaperBox_UAID_345A600DDC87C35102_1714910365.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Commerce_NewspaperBox_01.Default__Athena_Prop_Commerce_NewspaperBox_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Commerce_NewspaperBox_UAID_345A600DDC87C35102_1714910365.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Commerce_NewspaperBox_01.Default__Athena_Prop_Commerce_NewspaperBox_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Commerce_NewspaperBox_UAID_345A600DDC87C35102_1714910365.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Commerce_NewspaperBox_UAID_345A600DDC87C35102_1714910365.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Prop_NewspaperBox01_2'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=290.076870,Z=0.016479)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Commerce_NewspaperBox_UAID_345A600DDC87C35102_1714910365.BoundingBoxComponent'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Commerce_NewspaperBox_UAID_345A600DDC87C35102_1714910365.EditorOnlyStaticMeshComponent'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=18000.000000
+         DataVersion=1
+         SavedActorGuid=CCF92679434EFAAF277F3D9DBE865828
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Commerce_NewspaperBox_9"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/Construction_ConcreteWall_Trim_01.Construction_ConcreteWall_Trim_01_C Name=Actor_Construction_ConcreteWall_Trim_UAID_345A600DDC87C35102_1714694340 Archetype="/Game/Building/ActorBlueprints/Wall/Construction_ConcreteWall_Trim_01.Construction_ConcreteWall_Trim_01_C'/Game/Building/ActorBlueprints/Wall/Construction_ConcreteWall_Trim_01.Default__Construction_ConcreteWall_Trim_01_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87425902_1528220518 ActorFolderPath="McGuffin's Gallery B" ExportPath="/Game/Building/ActorBlueprints/Wall/Construction_ConcreteWall_Trim_01.Construction_ConcreteWall_Trim_01_C'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Construction_ConcreteWall_Trim_UAID_345A600DDC87C35102_1714694340'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Construction_ConcreteWall_Trim_01.Default__Construction_ConcreteWall_Trim_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Construction_ConcreteWall_Trim_UAID_345A600DDC87C35102_1714694340.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/Construction_ConcreteWall_Trim_01.Default__Construction_ConcreteWall_Trim_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Construction_ConcreteWall_Trim_UAID_345A600DDC87C35102_1714694340.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/Construction_ConcreteWall_Trim_01.Default__Construction_ConcreteWall_Trim_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Construction_ConcreteWall_Trim_UAID_345A600DDC87C35102_1714694340.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Construction_ConcreteWall_Trim_UAID_345A600DDC87C35102_1714694340.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Construction_Walls_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1432.811200,Y=1023.623660,Z=16.221802)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Construction_ConcreteWall_Trim_UAID_345A600DDC87C35102_1714694340.BoundingBoxComponent'"
+            CachedMaxDrawDistance=19830.013672
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Construction_ConcreteWall_Trim_UAID_345A600DDC87C35102_1714694340.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=19830.013672
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=19830.013672
+         DataVersion=1
+         SavedActorGuid=22502B0D411BF77CBB1C25AF3839E4D3
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Construction_ConcreteWall_Trim_45"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Corner/Construction_Concrete_Corner_1.Construction_Concrete_Corner_1_C Name=Actor_Construction_ConcreteWall_Trim_UAID_345A600DDC87C35102_1714715341 Archetype="/Game/Building/ActorBlueprints/Corner/Construction_Concrete_Corner_1.Construction_Concrete_Corner_1_C'/Game/Building/ActorBlueprints/Corner/Construction_Concrete_Corner_1.Default__Construction_Concrete_Corner_1_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87425902_1528220518 ActorFolderPath="McGuffin's Gallery B" ExportPath="/Game/Building/ActorBlueprints/Corner/Construction_Concrete_Corner_1.Construction_Concrete_Corner_1_C'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Construction_ConcreteWall_Trim_UAID_345A600DDC87C35102_1714715341'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Corner/Construction_Concrete_Corner_1.Default__Construction_Concrete_Corner_1_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Construction_ConcreteWall_Trim_UAID_345A600DDC87C35102_1714715341.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Corner/Construction_Concrete_Corner_1.Default__Construction_Concrete_Corner_1_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Construction_ConcreteWall_Trim_UAID_345A600DDC87C35102_1714715341.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Corner/Construction_Concrete_Corner_1.Default__Construction_Concrete_Corner_1_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Construction_ConcreteWall_Trim_UAID_345A600DDC87C35102_1714715341.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Construction_ConcreteWall_Trim_UAID_345A600DDC87C35102_1714715341.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Construction_Walls_1'"
+            LDMaxDrawDistance=0.000000
+            CachedMaxDrawDistance=0.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=30.039814,Y=779.688100,Z=16.210815)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Construction_ConcreteWall_Trim_UAID_345A600DDC87C35102_1714715341.BoundingBoxComponent'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Construction_ConcreteWall_Trim_UAID_345A600DDC87C35102_1714715341.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=2800.000000
+         DataVersion=1
+         SavedActorGuid=D9DEFEDB41D2FA05C844909DD31D4EFC
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Construction_ConcreteWall_Trim_65"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Corner/Factory_4b_Whole.Factory_4b_Whole_C Name=Actor_Factory_4b_UAID_345A600DDC87C35102_1714685338 Archetype="/Game/Building/ActorBlueprints/Corner/Factory_4b_Whole.Factory_4b_Whole_C'/Game/Building/ActorBlueprints/Corner/Factory_4b_Whole.Default__Factory_4b_Whole_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87425902_1528220518 ActorFolderPath="McGuffin's Gallery B" ExportPath="/Game/Building/ActorBlueprints/Corner/Factory_4b_Whole.Factory_4b_Whole_C'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Factory_4b_UAID_345A600DDC87C35102_1714685338'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Corner/Factory_4b_Whole.Default__Factory_4b_Whole_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Factory_4b_UAID_345A600DDC87C35102_1714685338.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Corner/Factory_4b_Whole.Default__Factory_4b_Whole_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Factory_4b_UAID_345A600DDC87C35102_1714685338.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Corner/Factory_4b_Whole.Default__Factory_4b_Whole_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Factory_4b_UAID_345A600DDC87C35102_1714685338.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Factory_4b_UAID_345A600DDC87C35102_1714685338.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Factory_Corner_4b_3'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=1053.570600,Z=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Factory_4b_UAID_345A600DDC87C35102_1714685338.BoundingBoxComponent'"
+            CachedMaxDrawDistance=16046.667969
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Factory_4b_UAID_345A600DDC87C35102_1714685338.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=16046.667969
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallOuter/MI_Brick_Brown_1.MI_Brick_Brown_1'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=16046.667969
+         DataVersion=1
+         SavedActorGuid=F88743384DFE447217EF57934FFB3401
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Factory_4b_16"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Corner/BrickSimple_02c_ThreeQuarter.BrickSimple_02c_ThreeQuarter_C Name=Actor_FORT_Wiggly_Corner_B_UAID_345A600DDC87C35102_1714750344 Archetype="/Game/Building/ActorBlueprints/Corner/BrickSimple_02c_ThreeQuarter.BrickSimple_02c_ThreeQuarter_C'/Game/Building/ActorBlueprints/Corner/BrickSimple_02c_ThreeQuarter.Default__BrickSimple_02c_ThreeQuarter_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87425902_1528220518 ActorFolderPath="McGuffin's Gallery B" ExportPath="/Game/Building/ActorBlueprints/Corner/BrickSimple_02c_ThreeQuarter.BrickSimple_02c_ThreeQuarter_C'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_FORT_Wiggly_Corner_B_UAID_345A600DDC87C35102_1714750344'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Corner/BrickSimple_02c_ThreeQuarter.Default__BrickSimple_02c_ThreeQuarter_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_FORT_Wiggly_Corner_B_UAID_345A600DDC87C35102_1714750344.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Corner/BrickSimple_02c_ThreeQuarter.Default__BrickSimple_02c_ThreeQuarter_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_FORT_Wiggly_Corner_B_UAID_345A600DDC87C35102_1714750344.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Corner/BrickSimple_02c_ThreeQuarter.Default__BrickSimple_02c_ThreeQuarter_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_FORT_Wiggly_Corner_B_UAID_345A600DDC87C35102_1714750344.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_FORT_Wiggly_Corner_B_UAID_345A600DDC87C35102_1714750344.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_FORT_Brick_Simple_54'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=0.000006,Z=0.029785)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_FORT_Wiggly_Corner_B_UAID_345A600DDC87C35102_1714750344.BoundingBoxComponent'"
+            CachedMaxDrawDistance=15869.647461
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_FORT_Wiggly_Corner_B_UAID_345A600DDC87C35102_1714750344.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=15869.647461
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallOuter/MI_Brick_Brown_1.MI_Brick_Brown_1'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=15869.647461
+         DataVersion=1
+         SavedActorGuid=7CE1BBB74C36500EC777B292256CAE16
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="FORT_Wiggly_Corner_B_2"
+      End Actor
+      Begin Actor Class=/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_CardboardBoxes_02.Athena_Prop_Storage_CardboardBoxes_02_C Name=Actor_LCD_Cardboard_Boxes_02_Small_UAID_345A600DDC87C35102_1714893362 Archetype="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_CardboardBoxes_02.Athena_Prop_Storage_CardboardBoxes_02_C'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_CardboardBoxes_02.Default__Athena_Prop_Storage_CardboardBoxes_02_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87425902_1528220518 ActorFolderPath="McGuffin's Gallery B" ExportPath="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_CardboardBoxes_02.Athena_Prop_Storage_CardboardBoxes_02_C'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_LCD_Cardboard_Boxes_02_Small_UAID_345A600DDC87C35102_1714893362'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_CardboardBoxes_02.Default__Athena_Prop_Storage_CardboardBoxes_02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_LCD_Cardboard_Boxes_02_Small_UAID_345A600DDC87C35102_1714893362.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_CardboardBoxes_02.Default__Athena_Prop_Storage_CardboardBoxes_02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_LCD_Cardboard_Boxes_02_Small_UAID_345A600DDC87C35102_1714893362.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_CardboardBoxes_02.Default__Athena_Prop_Storage_CardboardBoxes_02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_LCD_Cardboard_Boxes_02_Small_UAID_345A600DDC87C35102_1714893362.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_LCD_Cardboard_Boxes_02_Small_UAID_345A600DDC87C35102_1714893362.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_Boxes_6'"
+            LDMaxDrawDistance=12000.000000
+            CachedMaxDrawDistance=12000.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-525.449340,Y=3.932617,Z=0.692261)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_LCD_Cardboard_Boxes_02_Small_UAID_345A600DDC87C35102_1714893362.BoundingBoxComponent'"
+            LDMaxDrawDistance=12000.000000
+            CachedMaxDrawDistance=12000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_LCD_Cardboard_Boxes_02_Small_UAID_345A600DDC87C35102_1714893362.EditorOnlyStaticMeshComponent'"
+            LDMaxDrawDistance=12000.000000
+            CachedMaxDrawDistance=12000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=12000.000000
+         DataVersion=1
+         SavedActorGuid=4711C5A64B858B2E61BBFC9588DF112F
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="LCD_Cardboard_Boxes_02_Small_13"
+      End Actor
+      Begin Actor Class=/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Utility_Dumpster_01.Athena_Prop_Utility_Dumpster_01_C Name=Actor_LCD_Dumpster_UAID_345A600DDC87C35102_1714894363 Archetype="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Utility_Dumpster_01.Athena_Prop_Utility_Dumpster_01_C'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Utility_Dumpster_01.Default__Athena_Prop_Utility_Dumpster_01_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87425902_1528220518 ActorFolderPath="McGuffin's Gallery B" ExportPath="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Utility_Dumpster_01.Athena_Prop_Utility_Dumpster_01_C'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_LCD_Dumpster_UAID_345A600DDC87C35102_1714894363'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Utility_Dumpster_01.Default__Athena_Prop_Utility_Dumpster_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_LCD_Dumpster_UAID_345A600DDC87C35102_1714894363.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Utility_Dumpster_01.Default__Athena_Prop_Utility_Dumpster_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_LCD_Dumpster_UAID_345A600DDC87C35102_1714894363.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Utility_Dumpster_01.Default__Athena_Prop_Utility_Dumpster_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_LCD_Dumpster_UAID_345A600DDC87C35102_1714894363.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_LCD_Dumpster_UAID_345A600DDC87C35102_1714894363.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Prop_DumpstersColors_3'"
+            CachedMaxDrawDistance=12326.190430
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-906.980600,Y=213.957520,Z=0.055786)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_LCD_Dumpster_UAID_345A600DDC87C35102_1714894363.BoundingBoxComponent'"
+            CachedMaxDrawDistance=12326.190430
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_LCD_Dumpster_UAID_345A600DDC87C35102_1714894363.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=12326.190430
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=12326.190430
+         DataVersion=1
+         SavedActorGuid=63F18AD84D797C5E597112B683AD52D7
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="LCD_Dumpster_4"
+      End Actor
+      Begin Actor Class=/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Living_BookShelves_06_2sided.Athena_Prop_Living_BookShelves_06_2sided_C Name=Actor_Living_BookShelves_06_2sided_UAID_345A600DDC87C35102_1714848357 Archetype="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Living_BookShelves_06_2sided.Athena_Prop_Living_BookShelves_06_2sided_C'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Living_BookShelves_06_2sided.Default__Athena_Prop_Living_BookShelves_06_2sided_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87425902_1528220518 ActorFolderPath="McGuffin's Gallery B" ExportPath="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Living_BookShelves_06_2sided.Athena_Prop_Living_BookShelves_06_2sided_C'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Living_BookShelves_06_2sided_UAID_345A600DDC87C35102_1714848357'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Living_BookShelves_06_2sided.Default__Athena_Prop_Living_BookShelves_06_2sided_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Living_BookShelves_06_2sided_UAID_345A600DDC87C35102_1714848357.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Living_BookShelves_06_2sided.Default__Athena_Prop_Living_BookShelves_06_2sided_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Living_BookShelves_06_2sided_UAID_345A600DDC87C35102_1714848357.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Living_BookShelves_06_2sided.Default__Athena_Prop_Living_BookShelves_06_2sided_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Living_BookShelves_06_2sided_UAID_345A600DDC87C35102_1714848357.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Living_BookShelves_06_2sided_UAID_345A600DDC87C35102_1714848357.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_LibraryBookShelves_7'"
+            CachedMaxDrawDistance=16666.769531
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-895.977540,Y=1375.169300,Z=-0.000122)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Living_BookShelves_06_2sided_UAID_345A600DDC87C35102_1714848357.BoundingBoxComponent'"
+            CachedMaxDrawDistance=16666.769531
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Living_BookShelves_06_2sided_UAID_345A600DDC87C35102_1714848357.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=16666.769531
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=16666.769531
+         DataVersion=1
+         SavedActorGuid=0649F9674C91B49908DE5DBD4461A036
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Living_BookShelves_06_2sided_3"
+      End Actor
+      Begin Actor Class=/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Living_BookShelves_06.Athena_Prop_Living_BookShelves_06_C Name=Actor_Living_BookShelves_06_2sided_UAID_345A600DDC87C35102_1714925367 Archetype="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Living_BookShelves_06.Athena_Prop_Living_BookShelves_06_C'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Living_BookShelves_06.Default__Athena_Prop_Living_BookShelves_06_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87425902_1528220518 ActorFolderPath="McGuffin's Gallery B" ExportPath="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Living_BookShelves_06.Athena_Prop_Living_BookShelves_06_C'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Living_BookShelves_06_2sided_UAID_345A600DDC87C35102_1714925367'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Living_BookShelves_06.Default__Athena_Prop_Living_BookShelves_06_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Living_BookShelves_06_2sided_UAID_345A600DDC87C35102_1714925367.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Living_BookShelves_06.Default__Athena_Prop_Living_BookShelves_06_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Living_BookShelves_06_2sided_UAID_345A600DDC87C35102_1714925367.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Living_BookShelves_06.Default__Athena_Prop_Living_BookShelves_06_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Living_BookShelves_06_2sided_UAID_345A600DDC87C35102_1714925367.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Living_BookShelves_06_2sided_UAID_345A600DDC87C35102_1714925367.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_LibraryBookShelves_7'"
+            CachedMaxDrawDistance=16558.888672
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-895.977540,Y=845.976900,Z=-0.000122)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Living_BookShelves_06_2sided_UAID_345A600DDC87C35102_1714925367.BoundingBoxComponent'"
+            CachedMaxDrawDistance=16558.888672
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Living_BookShelves_06_2sided_UAID_345A600DDC87C35102_1714925367.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=16558.888672
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=16558.888672
+         DataVersion=1
+         SavedActorGuid=C4BEFAF84052ED9284AD9DA4240AA60A
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Living_BookShelves_06_2sided_4"
+      End Actor
+      Begin Actor Class=/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Living_BookShelves_07_2Sided_CThru.Athena_Prop_Living_BookShelves_07_2Sided_CThru_C Name=Actor_Living_BookShelves_06_2sided_UAID_345A600DDC87C35102_1714913366 Archetype="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Living_BookShelves_07_2Sided_CThru.Athena_Prop_Living_BookShelves_07_2Sided_CThru_C'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Living_BookShelves_07_2Sided_CThru.Default__Athena_Prop_Living_BookShelves_07_2Sided_CThru_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87425902_1528220518 ActorFolderPath="McGuffin's Gallery B" ExportPath="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Living_BookShelves_07_2Sided_CThru.Athena_Prop_Living_BookShelves_07_2Sided_CThru_C'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Living_BookShelves_06_2sided_UAID_345A600DDC87C35102_1714913366'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Living_BookShelves_07_2Sided_CThru.Default__Athena_Prop_Living_BookShelves_07_2Sided_CThru_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Living_BookShelves_06_2sided_UAID_345A600DDC87C35102_1714913366.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Living_BookShelves_07_2Sided_CThru.Default__Athena_Prop_Living_BookShelves_07_2Sided_CThru_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Living_BookShelves_06_2sided_UAID_345A600DDC87C35102_1714913366.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Living_BookShelves_07_2Sided_CThru.Default__Athena_Prop_Living_BookShelves_07_2Sided_CThru_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Living_BookShelves_06_2sided_UAID_345A600DDC87C35102_1714913366.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Living_BookShelves_06_2sided_UAID_345A600DDC87C35102_1714913366.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_LibraryBookShelves_7'"
+            CachedMaxDrawDistance=16253.546875
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-534.251400,Y=1053.510900,Z=0.000000)
+            RelativeScale3D=(X=1.000000,Y=0.875000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Living_BookShelves_06_2sided_UAID_345A600DDC87C35102_1714913366.BoundingBoxComponent'"
+            CachedMaxDrawDistance=16253.546875
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Living_BookShelves_06_2sided_UAID_345A600DDC87C35102_1714913366.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=16253.546875
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=16253.546875
+         DataVersion=1
+         SavedActorGuid=7CBE4D4A4CFEB4E68A4ECFB2EB044A37
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Living_BookShelves_06_2sided_11"
+      End Actor
+      Begin Actor Class=/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Living_BookShelves_06_CThru.Athena_Prop_Living_BookShelves_06_CThru_C Name=Actor_Living_BookShelves_06_2sided_UAID_345A600DDC87C35102_1714861358 Archetype="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Living_BookShelves_06_CThru.Athena_Prop_Living_BookShelves_06_CThru_C'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Living_BookShelves_06_CThru.Default__Athena_Prop_Living_BookShelves_06_CThru_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87425902_1528220518 ActorFolderPath="McGuffin's Gallery B" ExportPath="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Living_BookShelves_06_CThru.Athena_Prop_Living_BookShelves_06_CThru_C'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Living_BookShelves_06_2sided_UAID_345A600DDC87C35102_1714861358'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Living_BookShelves_06_CThru.Default__Athena_Prop_Living_BookShelves_06_CThru_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Living_BookShelves_06_2sided_UAID_345A600DDC87C35102_1714861358.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Living_BookShelves_06_CThru.Default__Athena_Prop_Living_BookShelves_06_CThru_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Living_BookShelves_06_2sided_UAID_345A600DDC87C35102_1714861358.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Living_BookShelves_06_CThru.Default__Athena_Prop_Living_BookShelves_06_CThru_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Living_BookShelves_06_2sided_UAID_345A600DDC87C35102_1714861358.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Living_BookShelves_06_2sided_UAID_345A600DDC87C35102_1714861358.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_LibraryBookShelves_7'"
+            CachedMaxDrawDistance=16790.318359
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-895.977540,Y=1053.292100,Z=-0.000122)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Living_BookShelves_06_2sided_UAID_345A600DDC87C35102_1714861358.BoundingBoxComponent'"
+            CachedMaxDrawDistance=16790.318359
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Living_BookShelves_06_2sided_UAID_345A600DDC87C35102_1714861358.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=16790.318359
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=16790.318359
+         DataVersion=1
+         SavedActorGuid=45A1352243A497D643FB1E8D116128B2
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Living_BookShelves_06_2sided_12"
+      End Actor
+      Begin Actor Class=/Game/Creative/BuildingActors/Props/CP_Prop_Office_Desk_03.CP_Prop_Office_Desk_03_C Name=Actor_Office_Desk_03_UAID_345A600DDC87C35102_1714881361 Archetype="/Game/Creative/BuildingActors/Props/CP_Prop_Office_Desk_03.CP_Prop_Office_Desk_03_C'/Game/Creative/BuildingActors/Props/CP_Prop_Office_Desk_03.Default__CP_Prop_Office_Desk_03_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87425902_1528220518 ActorFolderPath="McGuffin's Gallery B" ExportPath="/Game/Creative/BuildingActors/Props/CP_Prop_Office_Desk_03.CP_Prop_Office_Desk_03_C'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Office_Desk_03_UAID_345A600DDC87C35102_1714881361'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Creative/BuildingActors/Props/CP_Prop_Office_Desk_03.Default__CP_Prop_Office_Desk_03_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Office_Desk_03_UAID_345A600DDC87C35102_1714881361.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Creative/BuildingActors/Props/CP_Prop_Office_Desk_03.Default__CP_Prop_Office_Desk_03_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Office_Desk_03_UAID_345A600DDC87C35102_1714881361.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Creative/BuildingActors/Props/CP_Prop_Office_Desk_03.Default__CP_Prop_Office_Desk_03_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Office_Desk_03_UAID_345A600DDC87C35102_1714881361.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.SpotLightComponent Name="SpotLight" Archetype="/Script/Engine.SpotLightComponent'/Game/Creative/BuildingActors/Props/CP_Prop_Office_Desk_03.CP_Prop_Office_Desk_03_C:SpotLight_GEN_VARIABLE'" ExportPath="/Script/Engine.SpotLightComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Office_Desk_03_UAID_345A600DDC87C35102_1714881361.SpotLight'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Office_Desk_03_UAID_345A600DDC87C35102_1714881361.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Desk03_3'"
+            CachedMaxDrawDistance=9261.830078
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-452.479250,Y=513.380000,Z=0.000122)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Office_Desk_03_UAID_345A600DDC87C35102_1714881361.BoundingBoxComponent'"
+            CachedMaxDrawDistance=9261.830078
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Office_Desk_03_UAID_345A600DDC87C35102_1714881361.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=9261.830078
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="SpotLight" ExportPath="/Script/Engine.SpotLightComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Office_Desk_03_UAID_345A600DDC87C35102_1714881361.SpotLight'"
+            MaxDrawDistance=9261.830078
+            MaxDistanceFadeRange=2048.000000
+            VolumetricScatteringIntensity=0.000000
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         SpotLight="SpotLight"
+         TimeOfDayControlledLightDataArray(0)=(LightComponent="SpotLight",Position=(X=-499.847368,Y=538.832629,Z=119.720345),InitialIntensity=5180.042969)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=9261.830078
+         DataVersion=1
+         SavedActorGuid=9CF22CD5405170DF011B00811BB41CCA
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Office_Desk_03_2"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/Roof_AirConditioner_01.Roof_AirConditioner_01_C Name=Actor_Prop_AirConditioner_01_UAID_345A600DDC87C35102_1714746343 Archetype="/Game/Building/ActorBlueprints/Prop/Roof_AirConditioner_01.Roof_AirConditioner_01_C'/Game/Building/ActorBlueprints/Prop/Roof_AirConditioner_01.Default__Roof_AirConditioner_01_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87425902_1528220518 ActorFolderPath="McGuffin's Gallery B" ExportPath="/Game/Building/ActorBlueprints/Prop/Roof_AirConditioner_01.Roof_AirConditioner_01_C'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Prop_AirConditioner_01_UAID_345A600DDC87C35102_1714746343'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Roof_AirConditioner_01.Default__Roof_AirConditioner_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Prop_AirConditioner_01_UAID_345A600DDC87C35102_1714746343.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/Roof_AirConditioner_01.Default__Roof_AirConditioner_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Prop_AirConditioner_01_UAID_345A600DDC87C35102_1714746343.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Roof_AirConditioner_01.Default__Roof_AirConditioner_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Prop_AirConditioner_01_UAID_345A600DDC87C35102_1714746343.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Prop_AirConditioner_01_UAID_345A600DDC87C35102_1714746343.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_AirConditioner01_3'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-895.939150,Y=-15.598877,Z=2.624390)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Prop_AirConditioner_01_UAID_345A600DDC87C35102_1714746343.BoundingBoxComponent'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Prop_AirConditioner_01_UAID_345A600DDC87C35102_1714746343.EditorOnlyStaticMeshComponent'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=18000.000000
+         DataVersion=1
+         SavedActorGuid=43AD126A400382449EAE4D8E4C27432B
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Prop_AirConditioner_01_2"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/Prop_Boxes_01b.Prop_Boxes_01b_C Name=Actor_Prop_Boxes_01b_UAID_345A600DDC87C35102_1714768348 Archetype="/Game/Building/ActorBlueprints/Prop/Prop_Boxes_01b.Prop_Boxes_01b_C'/Game/Building/ActorBlueprints/Prop/Prop_Boxes_01b.Default__Prop_Boxes_01b_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87425902_1528220518 ActorFolderPath="McGuffin's Gallery B" ExportPath="/Game/Building/ActorBlueprints/Prop/Prop_Boxes_01b.Prop_Boxes_01b_C'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Prop_Boxes_01b_UAID_345A600DDC87C35102_1714768348'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Prop_Boxes_01b.Default__Prop_Boxes_01b_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Prop_Boxes_01b_UAID_345A600DDC87C35102_1714768348.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/Prop_Boxes_01b.Default__Prop_Boxes_01b_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Prop_Boxes_01b_UAID_345A600DDC87C35102_1714768348.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Prop_Boxes_01b.Default__Prop_Boxes_01b_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Prop_Boxes_01b_UAID_345A600DDC87C35102_1714768348.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Prop_Boxes_01b_UAID_345A600DDC87C35102_1714768348.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_Boxes1_1'"
+            CachedMaxDrawDistance=3702.982422
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-229.442490,Y=280.562400,Z=0.581787)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Prop_Boxes_01b_UAID_345A600DDC87C35102_1714768348.BoundingBoxComponent'"
+            CachedMaxDrawDistance=3702.982422
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Prop_Boxes_01b_UAID_345A600DDC87C35102_1714768348.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=3702.982422
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=3702.982422
+         DataVersion=1
+         SavedActorGuid=3C663F79438106E3632F58909B15241B
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Prop_Boxes_01b_2"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/Prop_LibraryBookPile_02_B.Prop_LibraryBookPile_02_B_C Name=Actor_Prop_LibraryBookPile_01_B_UAID_345A600DDC87C35102_1714831355 Archetype="/Game/Building/ActorBlueprints/Prop/Prop_LibraryBookPile_02_B.Prop_LibraryBookPile_02_B_C'/Game/Building/ActorBlueprints/Prop/Prop_LibraryBookPile_02_B.Default__Prop_LibraryBookPile_02_B_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87425902_1528220518 ActorFolderPath="McGuffin's Gallery B" ExportPath="/Game/Building/ActorBlueprints/Prop/Prop_LibraryBookPile_02_B.Prop_LibraryBookPile_02_B_C'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Prop_LibraryBookPile_01_B_UAID_345A600DDC87C35102_1714831355'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Prop_LibraryBookPile_02_B.Default__Prop_LibraryBookPile_02_B_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Prop_LibraryBookPile_01_B_UAID_345A600DDC87C35102_1714831355.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/Prop_LibraryBookPile_02_B.Default__Prop_LibraryBookPile_02_B_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Prop_LibraryBookPile_01_B_UAID_345A600DDC87C35102_1714831355.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Prop_LibraryBookPile_02_B.Default__Prop_LibraryBookPile_02_B_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Prop_LibraryBookPile_01_B_UAID_345A600DDC87C35102_1714831355.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Prop_LibraryBookPile_01_B_UAID_345A600DDC87C35102_1714831355.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_LibraryDesk_1'"
+            CachedMaxDrawDistance=6404.947266
+            RelativeLocation=(X=-229.442490,Y=1053.570600,Z=0.000000)
+            RelativeScale3D=(X=1.167948,Y=1.167948,Z=1.167948)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Prop_LibraryBookPile_01_B_UAID_345A600DDC87C35102_1714831355.BoundingBoxComponent'"
+            CachedMaxDrawDistance=6404.947266
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Prop_LibraryBookPile_01_B_UAID_345A600DDC87C35102_1714831355.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=6404.947266
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=6404.947266
+         DataVersion=1
+         SavedActorGuid=EEB8ADAA484A9FB7891B33B9DB8F6D2B
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Prop_LibraryBookPile_01_B_2"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/Prop_LibraryBookPile_02_A.Prop_LibraryBookPile_02_A_C Name=Actor_Prop_LibraryBookPile_02_A_UAID_345A600DDC87C35102_1714801352 Archetype="/Game/Building/ActorBlueprints/Prop/Prop_LibraryBookPile_02_A.Prop_LibraryBookPile_02_A_C'/Game/Building/ActorBlueprints/Prop/Prop_LibraryBookPile_02_A.Default__Prop_LibraryBookPile_02_A_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87425902_1528220518 ActorFolderPath="McGuffin's Gallery B" ExportPath="/Game/Building/ActorBlueprints/Prop/Prop_LibraryBookPile_02_A.Prop_LibraryBookPile_02_A_C'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Prop_LibraryBookPile_02_A_UAID_345A600DDC87C35102_1714801352'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Prop_LibraryBookPile_02_A.Default__Prop_LibraryBookPile_02_A_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Prop_LibraryBookPile_02_A_UAID_345A600DDC87C35102_1714801352.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/Prop_LibraryBookPile_02_A.Default__Prop_LibraryBookPile_02_A_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Prop_LibraryBookPile_02_A_UAID_345A600DDC87C35102_1714801352.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Prop_LibraryBookPile_02_A.Default__Prop_LibraryBookPile_02_A_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Prop_LibraryBookPile_02_A_UAID_345A600DDC87C35102_1714801352.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Prop_LibraryBookPile_02_A_UAID_345A600DDC87C35102_1714801352.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_LibraryDesk_1'"
+            CachedMaxDrawDistance=2800.000000
+            RelativeLocation=(X=31.294240,Y=1375.459200,Z=0.000000)
+            RelativeScale3D=(X=1.236874,Y=1.236874,Z=1.236874)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Prop_LibraryBookPile_02_A_UAID_345A600DDC87C35102_1714801352.BoundingBoxComponent'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Prop_LibraryBookPile_02_A_UAID_345A600DDC87C35102_1714801352.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=2800.000000
+         DataVersion=1
+         SavedActorGuid=AB27C233472F498E30B97B9C6869474C
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Prop_LibraryBookPile_02_A_2"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/Prop_Sign_BookStore_Large.Prop_Sign_BookStore_Large_C Name=Actor_Prop_Sign_BookStore_Small2_UAID_345A600DDC87C35102_1714817353 Archetype="/Game/Building/ActorBlueprints/Prop/Prop_Sign_BookStore_Large.Prop_Sign_BookStore_Large_C'/Game/Building/ActorBlueprints/Prop/Prop_Sign_BookStore_Large.Default__Prop_Sign_BookStore_Large_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87425902_1528220518 ActorFolderPath="McGuffin's Gallery B" ExportPath="/Game/Building/ActorBlueprints/Prop/Prop_Sign_BookStore_Large.Prop_Sign_BookStore_Large_C'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Prop_Sign_BookStore_Small2_UAID_345A600DDC87C35102_1714817353'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Prop_Sign_BookStore_Large.Default__Prop_Sign_BookStore_Large_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Prop_Sign_BookStore_Small2_UAID_345A600DDC87C35102_1714817353.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/Prop_Sign_BookStore_Large.Default__Prop_Sign_BookStore_Large_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Prop_Sign_BookStore_Small2_UAID_345A600DDC87C35102_1714817353.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Prop_Sign_BookStore_Large.Default__Prop_Sign_BookStore_Large_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Prop_Sign_BookStore_Small2_UAID_345A600DDC87C35102_1714817353.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Prop_Sign_BookStore_Small2_UAID_345A600DDC87C35102_1714817353.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Sign_Bookstore_3'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1431.833600,Y=519.876700,Z=32.498170)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Prop_Sign_BookStore_Small2_UAID_345A600DDC87C35102_1714817353.BoundingBoxComponent'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Prop_Sign_BookStore_Small2_UAID_345A600DDC87C35102_1714817353.EditorOnlyStaticMeshComponent'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=18000.000000
+         DataVersion=1
+         SavedActorGuid=D1EE11424C0D21AA710C818760EE656B
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Prop_Sign_BookStore_Small2_7"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/Roof_Ducts04.Roof_Ducts04_C Name=Actor_Roof_Ducts5_UAID_345A600DDC87C35102_1714829354 Archetype="/Game/Building/ActorBlueprints/Prop/Roof_Ducts04.Roof_Ducts04_C'/Game/Building/ActorBlueprints/Prop/Roof_Ducts04.Default__Roof_Ducts04_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87425902_1528220518 ActorFolderPath="McGuffin's Gallery B" ExportPath="/Game/Building/ActorBlueprints/Prop/Roof_Ducts04.Roof_Ducts04_C'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Roof_Ducts5_UAID_345A600DDC87C35102_1714829354'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Roof_Ducts04.Default__Roof_Ducts04_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Roof_Ducts5_UAID_345A600DDC87C35102_1714829354.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/Roof_Ducts04.Default__Roof_Ducts04_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Roof_Ducts5_UAID_345A600DDC87C35102_1714829354.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Roof_Ducts04.Default__Roof_Ducts04_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Roof_Ducts5_UAID_345A600DDC87C35102_1714829354.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Roof_Ducts5_UAID_345A600DDC87C35102_1714829354.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Ducts02_5'"
+            CachedMaxDrawDistance=23108.177734
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1669.928700,Y=1268.330300,Z=0.000122)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Roof_Ducts5_UAID_345A600DDC87C35102_1714829354.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23108.177734
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Roof_Ducts5_UAID_345A600DDC87C35102_1714829354.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23108.177734
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=23108.177734
+         DataVersion=1
+         SavedActorGuid=D07B94A5434BDBC4ACF4B0B2F5731158
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Roof_Ducts5_2"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/Roof_Ducts05.Roof_Ducts05_C Name=Actor_Roof_Ducts05_UAID_345A600DDC87C35102_1714733342 Archetype="/Game/Building/ActorBlueprints/Prop/Roof_Ducts05.Roof_Ducts05_C'/Game/Building/ActorBlueprints/Prop/Roof_Ducts05.Default__Roof_Ducts05_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87425902_1528220518 ActorFolderPath="McGuffin's Gallery B" ExportPath="/Game/Building/ActorBlueprints/Prop/Roof_Ducts05.Roof_Ducts05_C'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Roof_Ducts05_UAID_345A600DDC87C35102_1714733342'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Roof_Ducts05.Default__Roof_Ducts05_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Roof_Ducts05_UAID_345A600DDC87C35102_1714733342.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/Roof_Ducts05.Default__Roof_Ducts05_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Roof_Ducts05_UAID_345A600DDC87C35102_1714733342.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Roof_Ducts05.Default__Roof_Ducts05_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Roof_Ducts05_UAID_345A600DDC87C35102_1714733342.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Roof_Ducts05_UAID_345A600DDC87C35102_1714733342.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Ducts02_5'"
+            CachedMaxDrawDistance=6639.720703
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-231.841450,Y=810.987700,Z=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Roof_Ducts05_UAID_345A600DDC87C35102_1714733342.BoundingBoxComponent'"
+            CachedMaxDrawDistance=6639.720703
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_Roof_Ducts05_UAID_345A600DDC87C35102_1714733342.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=6639.720703
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=6639.720703
+         DataVersion=1
+         SavedActorGuid=2240E6E44D2A63D133642589FDBC2CB9
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Roof_Ducts05_2"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/S_BuildingTrim_D.S_BuildingTrim_D_C Name=Actor_S_BuildingTrim_B11_UAID_345A600DDC87C35102_1714687339 Archetype="/Game/Building/ActorBlueprints/Wall/S_BuildingTrim_D.S_BuildingTrim_D_C'/Game/Building/ActorBlueprints/Wall/S_BuildingTrim_D.Default__S_BuildingTrim_D_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87425902_1528220518 ActorFolderPath="McGuffin's Gallery B" ExportPath="/Game/Building/ActorBlueprints/Wall/S_BuildingTrim_D.S_BuildingTrim_D_C'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_S_BuildingTrim_B11_UAID_345A600DDC87C35102_1714687339'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/S_BuildingTrim_D.Default__S_BuildingTrim_D_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_S_BuildingTrim_B11_UAID_345A600DDC87C35102_1714687339.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/S_BuildingTrim_D.Default__S_BuildingTrim_D_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_S_BuildingTrim_B11_UAID_345A600DDC87C35102_1714687339.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/S_BuildingTrim_D.Default__S_BuildingTrim_D_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_S_BuildingTrim_B11_UAID_345A600DDC87C35102_1714687339.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_S_BuildingTrim_B11_UAID_345A600DDC87C35102_1714687339.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fortress_Wood_BlackTrim_9'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1432.801600,Y=858.064400,Z=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_S_BuildingTrim_B11_UAID_345A600DDC87C35102_1714687339.BoundingBoxComponent'"
+            CachedMaxDrawDistance=20371.271484
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_S_BuildingTrim_B11_UAID_345A600DDC87C35102_1714687339.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=20371.271484
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=20371.271484
+         DataVersion=1
+         SavedActorGuid=58440E3244629E0DDCA4AB90DC27F51B
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="S_BuildingTrim_B11"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/SM_FORT_DecoBarriers_MetalRailing02.SM_FORT_DecoBarriers_MetalRailing02_C Name=Actor_SM_FORT_DecoBarriers_MetalRailing3_UAID_345A600DDC87C35102_1714762345 Archetype="/Game/Building/ActorBlueprints/Wall/SM_FORT_DecoBarriers_MetalRailing02.SM_FORT_DecoBarriers_MetalRailing02_C'/Game/Building/ActorBlueprints/Wall/SM_FORT_DecoBarriers_MetalRailing02.Default__SM_FORT_DecoBarriers_MetalRailing02_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87425902_1528220518 ActorFolderPath="McGuffin's Gallery B" ExportPath="/Game/Building/ActorBlueprints/Wall/SM_FORT_DecoBarriers_MetalRailing02.SM_FORT_DecoBarriers_MetalRailing02_C'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_SM_FORT_DecoBarriers_MetalRailing3_UAID_345A600DDC87C35102_1714762345'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/SM_FORT_DecoBarriers_MetalRailing02.Default__SM_FORT_DecoBarriers_MetalRailing02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_SM_FORT_DecoBarriers_MetalRailing3_UAID_345A600DDC87C35102_1714762345.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/SM_FORT_DecoBarriers_MetalRailing02.Default__SM_FORT_DecoBarriers_MetalRailing02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_SM_FORT_DecoBarriers_MetalRailing3_UAID_345A600DDC87C35102_1714762345.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/SM_FORT_DecoBarriers_MetalRailing02.Default__SM_FORT_DecoBarriers_MetalRailing02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_SM_FORT_DecoBarriers_MetalRailing3_UAID_345A600DDC87C35102_1714762345.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_SM_FORT_DecoBarriers_MetalRailing3_UAID_345A600DDC87C35102_1714762345.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_FireEscape_8'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1560.886100,Y=-3.088989,Z=0.370483)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_SM_FORT_DecoBarriers_MetalRailing3_UAID_345A600DDC87C35102_1714762345.BoundingBoxComponent'"
+            CachedMaxDrawDistance=12261.066406
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_SM_FORT_DecoBarriers_MetalRailing3_UAID_345A600DDC87C35102_1714762345.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=12261.066406
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/Trim/FireEscape_Black.FireEscape_Black'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=12261.066406
+         DataVersion=1
+         SavedActorGuid=8C959C2D471A19FF3DE474B77813E1CD
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_FORT_DecoBarriers_MetalRailing3"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/Recreation_ParkBench_04.Recreation_ParkBench_04_C Name=Actor_SM_ParkBench_UAID_345A600DDC87C35102_1714786350 Archetype="/Game/Building/ActorBlueprints/Prop/Recreation_ParkBench_04.Recreation_ParkBench_04_C'/Game/Building/ActorBlueprints/Prop/Recreation_ParkBench_04.Default__Recreation_ParkBench_04_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87425902_1528220518 ActorFolderPath="McGuffin's Gallery B" ExportPath="/Game/Building/ActorBlueprints/Prop/Recreation_ParkBench_04.Recreation_ParkBench_04_C'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_SM_ParkBench_UAID_345A600DDC87C35102_1714786350'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Recreation_ParkBench_04.Default__Recreation_ParkBench_04_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_SM_ParkBench_UAID_345A600DDC87C35102_1714786350.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/Recreation_ParkBench_04.Default__Recreation_ParkBench_04_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_SM_ParkBench_UAID_345A600DDC87C35102_1714786350.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Recreation_ParkBench_04.Default__Recreation_ParkBench_04_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_SM_ParkBench_UAID_345A600DDC87C35102_1714786350.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_SM_ParkBench_UAID_345A600DDC87C35102_1714786350.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_parkBench_02_1'"
+            CachedMaxDrawDistance=11479.677734
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-895.977540,Y=557.655500,Z=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_SM_ParkBench_UAID_345A600DDC87C35102_1714786350.BoundingBoxComponent'"
+            CachedMaxDrawDistance=11479.677734
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_SM_ParkBench_UAID_345A600DDC87C35102_1714786350.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=11479.677734
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=11479.677734
+         DataVersion=1
+         SavedActorGuid=76971D0143D1103E31C11ABD8ECCECE8
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_ParkBench_48"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/WarehouseShelves_03.WarehouseShelves_03_C Name=Actor_WarehouseShelves_03_UAID_345A600DDC87C35102_1714765347 Archetype="/Game/Building/ActorBlueprints/Prop/WarehouseShelves_03.WarehouseShelves_03_C'/Game/Building/ActorBlueprints/Prop/WarehouseShelves_03.Default__WarehouseShelves_03_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87425902_1528220518 ActorFolderPath="McGuffin's Gallery B" ExportPath="/Game/Building/ActorBlueprints/Prop/WarehouseShelves_03.WarehouseShelves_03_C'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_WarehouseShelves_03_UAID_345A600DDC87C35102_1714765347'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/WarehouseShelves_03.Default__WarehouseShelves_03_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_WarehouseShelves_03_UAID_345A600DDC87C35102_1714765347.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/WarehouseShelves_03.Default__WarehouseShelves_03_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_WarehouseShelves_03_UAID_345A600DDC87C35102_1714765347.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/WarehouseShelves_03.Default__WarehouseShelves_03_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_WarehouseShelves_03_UAID_345A600DDC87C35102_1714765347.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_WarehouseShelves_03_UAID_345A600DDC87C35102_1714765347.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Warehouse_shelves_7'"
+            CachedMaxDrawDistance=14363.056641
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-536.661600,Y=809.678700,Z=0.047607)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_WarehouseShelves_03_UAID_345A600DDC87C35102_1714765347.BoundingBoxComponent'"
+            CachedMaxDrawDistance=14363.056641
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_WarehouseShelves_03_UAID_345A600DDC87C35102_1714765347.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=14363.056641
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=14363.056641
+         DataVersion=1
+         SavedActorGuid=AAF956E34B036AFBF183D9AA7C226AB2
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="WarehouseShelves_03_2"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/WarehouseShelves_01.WarehouseShelves_01_C Name=Actor_WarehouseShelves_UAID_345A600DDC87C35102_1714796351 Archetype="/Game/Building/ActorBlueprints/Prop/WarehouseShelves_01.WarehouseShelves_01_C'/Game/Building/ActorBlueprints/Prop/WarehouseShelves_01.Default__WarehouseShelves_01_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87425902_1528220518 ActorFolderPath="McGuffin's Gallery B" ExportPath="/Game/Building/ActorBlueprints/Prop/WarehouseShelves_01.WarehouseShelves_01_C'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_WarehouseShelves_UAID_345A600DDC87C35102_1714796351'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/WarehouseShelves_01.Default__WarehouseShelves_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_WarehouseShelves_UAID_345A600DDC87C35102_1714796351.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/WarehouseShelves_01.Default__WarehouseShelves_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_WarehouseShelves_UAID_345A600DDC87C35102_1714796351.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/WarehouseShelves_01.Default__WarehouseShelves_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_WarehouseShelves_UAID_345A600DDC87C35102_1714796351.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_WarehouseShelves_UAID_345A600DDC87C35102_1714796351.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Warehouse_shelves_7'"
+            CachedMaxDrawDistance=11026.026367
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-228.235290,Y=1375.622300,Z=-0.142944)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_WarehouseShelves_UAID_345A600DDC87C35102_1714796351.BoundingBoxComponent'"
+            CachedMaxDrawDistance=11026.026367
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MCGuffinsGalleryB.MCGuffinsGalleryB:PersistentLevel.Actor_WarehouseShelves_UAID_345A600DDC87C35102_1714796351.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=11026.026367
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=11026.026367
+         DataVersion=1
+         SavedActorGuid=2158E17A4B4E7A54C5A4359DE0DF202D
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="WarehouseShelves_18"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map
+Begin FolderList
+	Folder=McGuffin's Gallery B
+End FolderList

@@ -1,0 +1,860 @@
+Begin Map
+   Begin Level
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/BrickSimple_AAA_SolidWall.BrickSimple_AAA_SolidWall_C Name=Actor_AAAsimplewall_2sided_C25_UAID_345A600DDC87BA5102_2069130434 Archetype="/Game/Building/ActorBlueprints/Wall/BrickSimple_AAA_SolidWall.BrickSimple_AAA_SolidWall_C'/Game/Building/ActorBlueprints/Wall/BrickSimple_AAA_SolidWall.Default__BrickSimple_AAA_SolidWall_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87935E02_1792088677 ActorFolderPath="Tilted NOMS Gallery" ExportPath="/Game/Building/ActorBlueprints/Wall/BrickSimple_AAA_SolidWall.BrickSimple_AAA_SolidWall_C'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_AAAsimplewall_2sided_C25_UAID_345A600DDC87BA5102_2069130434'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_AAA_SolidWall.Default__BrickSimple_AAA_SolidWall_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_AAAsimplewall_2sided_C25_UAID_345A600DDC87BA5102_2069130434.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_AAA_SolidWall.Default__BrickSimple_AAA_SolidWall_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_AAAsimplewall_2sided_C25_UAID_345A600DDC87BA5102_2069130434.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_AAA_SolidWall.Default__BrickSimple_AAA_SolidWall_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_AAAsimplewall_2sided_C25_UAID_345A600DDC87BA5102_2069130434.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_AAAsimplewall_2sided_C25_UAID_345A600DDC87BA5102_2069130434.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_FORT_Brick_Simple_31'"
+            CachedMaxDrawDistance=22870.902344
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1274.000000,Y=2548.322500,Z=-0.000031)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999970,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_AAAsimplewall_2sided_C25_UAID_345A600DDC87BA5102_2069130434.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22870.902344
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_AAAsimplewall_2sided_C25_UAID_345A600DDC87BA5102_2069130434.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22870.902344
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallOuter/TilingWall_RedBrick_01.TilingWall_RedBrick_01'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallOuter/RestaurantBrick03.RestaurantBrick03'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22870.902344
+         DataVersion=1
+         SavedActorGuid=2A21119C4A4AB5FE27D0849B2FCD8919
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="AAAsimplewall_2sided_C25_0"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/BrickSimple_DoorWaySide_INT.BrickSimple_DoorWaySide_INT_C Name=Actor_AAAsimplewall_2sided_C1954_UAID_345A600DDC87BA5102_2069142446 Archetype="/Game/Building/ActorBlueprints/Wall/BrickSimple_DoorWaySide_INT.BrickSimple_DoorWaySide_INT_C'/Game/Building/ActorBlueprints/Wall/BrickSimple_DoorWaySide_INT.Default__BrickSimple_DoorWaySide_INT_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87935E02_1792088677 ActorFolderPath="Tilted NOMS Gallery" ExportPath="/Game/Building/ActorBlueprints/Wall/BrickSimple_DoorWaySide_INT.BrickSimple_DoorWaySide_INT_C'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_AAAsimplewall_2sided_C1954_UAID_345A600DDC87BA5102_2069142446'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_DoorWaySide_INT.Default__BrickSimple_DoorWaySide_INT_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_AAAsimplewall_2sided_C1954_UAID_345A600DDC87BA5102_2069142446.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_DoorWaySide_INT.Default__BrickSimple_DoorWaySide_INT_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_AAAsimplewall_2sided_C1954_UAID_345A600DDC87BA5102_2069142446.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_DoorWaySide_INT.Default__BrickSimple_DoorWaySide_INT_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_AAAsimplewall_2sided_C1954_UAID_345A600DDC87BA5102_2069142446.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Script/FortniteAI.FortDoorLinkComponent Name="DoorSmartLinkComp" ExportPath="/Script/FortniteAI.FortDoorLinkComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_AAAsimplewall_2sided_C1954_UAID_345A600DDC87BA5102_2069142446.DoorSmartLinkComp'"
+         End Object
+         Begin Object Class=/Game/Building/ActorBlueprints/Wall/DoorSoundIndicatorComponent.DoorSoundIndicatorComponent_C Name="DoorSoundIndicator" ExportPath="/Game/Building/ActorBlueprints/Wall/DoorSoundIndicatorComponent.DoorSoundIndicatorComponent_C'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_AAAsimplewall_2sided_C1954_UAID_345A600DDC87BA5102_2069142446.DoorSoundIndicator'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_AAAsimplewall_2sided_C1954_UAID_345A600DDC87BA5102_2069142446.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_FORT_Brick_Simple_32'"
+            CachedMaxDrawDistance=22870.902344
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1274.000000,Y=637.322400,Z=-0.000061)
+            RelativeRotation=(Pitch=0.000000,Yaw=-179.999970,Roll=0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_AAAsimplewall_2sided_C1954_UAID_345A600DDC87BA5102_2069142446.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22870.902344
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_AAAsimplewall_2sided_C1954_UAID_345A600DDC87BA5102_2069142446.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22870.902344
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="DoorSmartLinkComp" ExportPath="/Script/FortniteAI.FortDoorLinkComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_AAAsimplewall_2sided_C1954_UAID_345A600DDC87BA5102_2069142446.DoorSmartLinkComp'"
+            CustomLinkId=(Id=17049838013639312522)
+            AuxiliaryCustomLinkId=(Id=13687214081658846989)
+            DisabledAreaClass="/Script/CoreUObject.Class'/Script/NavigationSystem.NavArea_Default'"
+            LinkRelativeStart=(X=-138.199997,Y=130.000000,Z=0.000000)
+            LinkRelativeEnd=(X=-138.199997,Y=-130.000000,Z=0.000000)
+            bLinkEnabled=False
+            ObstacleOffset=(X=-138.199997,Y=0.000000,Z=0.000000)
+            ObstacleExtent=(X=38.400002,Y=17.500000,Z=153.600002)
+            ObstacleAreaClass="/Script/Engine.BlueprintGeneratedClass'/Game/Building/NavigationAreas/FortMetaNavWallAreaDef.FortMetaNavWallAreaDef_C'"
+         End Object
+         Begin Object Name="DoorSoundIndicator" ExportPath="/Game/Building/ActorBlueprints/Wall/DoorSoundIndicatorComponent.DoorSoundIndicatorComponent_C'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_AAAsimplewall_2sided_C1954_UAID_345A600DDC87BA5102_2069142446.DoorSoundIndicator'"
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallInner/House_Interior_02.House_Interior_02'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallOuter/RestaurantBrick03.RestaurantBrick03'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22870.902344
+         StaticGameplayTags=(GameplayTags=((TagName="Building.Type.All.Wall"),(TagName="Building.Type.Door")))
+         DataVersion=1
+         SavedActorGuid=E63071554C4001D14AE6BA9C66E409E4
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="AAAsimplewall_2sided_C1954_0"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/BrickSimple_DoorWayCenter_INT.BrickSimple_DoorWayCenter_INT_C Name=Actor_BrickSimple_DoorWayCenter_EXT_UAID_345A600DDC87BA5102_2069143447 Archetype="/Game/Building/ActorBlueprints/Wall/BrickSimple_DoorWayCenter_INT.BrickSimple_DoorWayCenter_INT_C'/Game/Building/ActorBlueprints/Wall/BrickSimple_DoorWayCenter_INT.Default__BrickSimple_DoorWayCenter_INT_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87935E02_1792088677 ActorFolderPath="Tilted NOMS Gallery" ExportPath="/Game/Building/ActorBlueprints/Wall/BrickSimple_DoorWayCenter_INT.BrickSimple_DoorWayCenter_INT_C'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_BrickSimple_DoorWayCenter_EXT_UAID_345A600DDC87BA5102_2069143447'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_DoorWayCenter_INT.Default__BrickSimple_DoorWayCenter_INT_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_BrickSimple_DoorWayCenter_EXT_UAID_345A600DDC87BA5102_2069143447.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_DoorWayCenter_INT.Default__BrickSimple_DoorWayCenter_INT_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_BrickSimple_DoorWayCenter_EXT_UAID_345A600DDC87BA5102_2069143447.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_DoorWayCenter_INT.Default__BrickSimple_DoorWayCenter_INT_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_BrickSimple_DoorWayCenter_EXT_UAID_345A600DDC87BA5102_2069143447.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Script/FortniteAI.FortDoorLinkComponent Name="DoorSmartLinkComp" ExportPath="/Script/FortniteAI.FortDoorLinkComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_BrickSimple_DoorWayCenter_EXT_UAID_345A600DDC87BA5102_2069143447.DoorSmartLinkComp'"
+         End Object
+         Begin Object Class=/Game/Building/ActorBlueprints/Wall/DoorSoundIndicatorComponent.DoorSoundIndicatorComponent_C Name="DoorSoundIndicator" ExportPath="/Game/Building/ActorBlueprints/Wall/DoorSoundIndicatorComponent.DoorSoundIndicatorComponent_C'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_BrickSimple_DoorWayCenter_EXT_UAID_345A600DDC87BA5102_2069143447.DoorSoundIndicator'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_BrickSimple_DoorWayCenter_EXT_UAID_345A600DDC87BA5102_2069143447.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_FORT_Brick_Simple_33'"
+            CachedMaxDrawDistance=22870.902344
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1274.000000,Y=1274.322500,Z=-0.000061)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999970,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_BrickSimple_DoorWayCenter_EXT_UAID_345A600DDC87BA5102_2069143447.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22870.902344
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_BrickSimple_DoorWayCenter_EXT_UAID_345A600DDC87BA5102_2069143447.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22870.902344
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="DoorSmartLinkComp" ExportPath="/Script/FortniteAI.FortDoorLinkComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_BrickSimple_DoorWayCenter_EXT_UAID_345A600DDC87BA5102_2069143447.DoorSmartLinkComp'"
+            CustomLinkId=(Id=14071854306411838444)
+            AuxiliaryCustomLinkId=(Id=17523058406383916630)
+            DisabledAreaClass="/Script/CoreUObject.Class'/Script/NavigationSystem.NavArea_Default'"
+            LinkRelativeStart=(X=-8.399994,Y=130.000000,Z=0.000000)
+            LinkRelativeEnd=(X=-8.399994,Y=-130.000000,Z=0.000000)
+            bLinkEnabled=False
+            ObstacleOffset=(X=-8.399994,Y=0.000000,Z=0.000000)
+            ObstacleExtent=(X=38.400002,Y=17.500000,Z=153.600002)
+            ObstacleAreaClass="/Script/Engine.BlueprintGeneratedClass'/Game/Building/NavigationAreas/FortMetaNavWallAreaDef.FortMetaNavWallAreaDef_C'"
+         End Object
+         Begin Object Name="DoorSoundIndicator" ExportPath="/Game/Building/ActorBlueprints/Wall/DoorSoundIndicatorComponent.DoorSoundIndicatorComponent_C'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_BrickSimple_DoorWayCenter_EXT_UAID_345A600DDC87BA5102_2069143447.DoorSoundIndicator'"
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallOuter/BrickWall_003a.BrickWall_003a'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallInner/House_Interior_02.House_Interior_02'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22870.902344
+         StaticGameplayTags=(GameplayTags=((TagName="Building.Type.All.Wall"),(TagName="Building.Type.Door")))
+         DataVersion=1
+         SavedActorGuid=CB19F03E46D023347D4222B7FDAEB221
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="BrickSimple_DoorWayCenter_EXT_0"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/BrickSimple_Archway02.BrickSimple_Archway02_C Name=Actor_FORT_Arch_Pillars4_UAID_345A600DDC87BA5102_2069136440 Archetype="/Game/Building/ActorBlueprints/Wall/BrickSimple_Archway02.BrickSimple_Archway02_C'/Game/Building/ActorBlueprints/Wall/BrickSimple_Archway02.Default__BrickSimple_Archway02_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87935E02_1792088677 ActorFolderPath="Tilted NOMS Gallery" ExportPath="/Game/Building/ActorBlueprints/Wall/BrickSimple_Archway02.BrickSimple_Archway02_C'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Arch_Pillars4_UAID_345A600DDC87BA5102_2069136440'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_Archway02.Default__BrickSimple_Archway02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Arch_Pillars4_UAID_345A600DDC87BA5102_2069136440.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_Archway02.Default__BrickSimple_Archway02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Arch_Pillars4_UAID_345A600DDC87BA5102_2069136440.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_Archway02.Default__BrickSimple_Archway02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Arch_Pillars4_UAID_345A600DDC87BA5102_2069136440.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Arch_Pillars4_UAID_345A600DDC87BA5102_2069136440.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_FORT_Brick_Simple_30'"
+            CachedMaxDrawDistance=22874.523438
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1911.000100,Y=1274.322500,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999970,Roll=0.000000)
+            RelativeScale3D=(X=1.000000,Y=0.500000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Arch_Pillars4_UAID_345A600DDC87BA5102_2069136440.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22874.523438
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Arch_Pillars4_UAID_345A600DDC87BA5102_2069136440.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22874.523438
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallOuter/TilingWall_RedBrick_01.TilingWall_RedBrick_01'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22874.523438
+         DataVersion=1
+         SavedActorGuid=7C6A5CB74A24240FFEB68C9982A3AD63
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="FORT_Arch_Pillars4_0"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/BrickSimple_Window_A.BrickSimple_Window_A_C Name=Actor_FORT_Brick_Window_A6_UAID_345A600DDC87BA5102_2069132435 Archetype="/Game/Building/ActorBlueprints/Wall/BrickSimple_Window_A.BrickSimple_Window_A_C'/Game/Building/ActorBlueprints/Wall/BrickSimple_Window_A.Default__BrickSimple_Window_A_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87935E02_1792088677 ActorFolderPath="Tilted NOMS Gallery" ExportPath="/Game/Building/ActorBlueprints/Wall/BrickSimple_Window_A.BrickSimple_Window_A_C'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_A6_UAID_345A600DDC87BA5102_2069132435'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_Window_A.Default__BrickSimple_Window_A_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_A6_UAID_345A600DDC87BA5102_2069132435.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_Window_A.Default__BrickSimple_Window_A_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_A6_UAID_345A600DDC87BA5102_2069132435.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_Window_A.Default__BrickSimple_Window_A_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_A6_UAID_345A600DDC87BA5102_2069132435.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_A6_UAID_345A600DDC87BA5102_2069132435.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_FORT_Brick_Simple_35'"
+            CachedMaxDrawDistance=22879.544922
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-2548.000200,Y=641.676940,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999970,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_A6_UAID_345A600DDC87BA5102_2069132435.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22879.544922
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_A6_UAID_345A600DDC87BA5102_2069132435.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22879.544922
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallOuter/TilingWall_RedBrick_01.TilingWall_RedBrick_01'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallInner/House_Interior_02.House_Interior_02'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22879.544922
+         DataVersion=1
+         SavedActorGuid=C62A196747598BC6F78B369915D51502
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="FORT_Brick_Window_A6"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/BrickSimple_DoorWaySide_EXT.BrickSimple_DoorWaySide_EXT_C Name=Actor_FORT_Brick_Window_A40_UAID_345A600DDC87BA5102_2069145449 Archetype="/Game/Building/ActorBlueprints/Wall/BrickSimple_DoorWaySide_EXT.BrickSimple_DoorWaySide_EXT_C'/Game/Building/ActorBlueprints/Wall/BrickSimple_DoorWaySide_EXT.Default__BrickSimple_DoorWaySide_EXT_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87935E02_1792088677 ActorFolderPath="Tilted NOMS Gallery" ExportPath="/Game/Building/ActorBlueprints/Wall/BrickSimple_DoorWaySide_EXT.BrickSimple_DoorWaySide_EXT_C'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_A40_UAID_345A600DDC87BA5102_2069145449'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_DoorWaySide_EXT.Default__BrickSimple_DoorWaySide_EXT_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_A40_UAID_345A600DDC87BA5102_2069145449.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_DoorWaySide_EXT.Default__BrickSimple_DoorWaySide_EXT_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_A40_UAID_345A600DDC87BA5102_2069145449.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_DoorWaySide_EXT.Default__BrickSimple_DoorWaySide_EXT_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_A40_UAID_345A600DDC87BA5102_2069145449.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Script/FortniteAI.FortDoorLinkComponent Name="DoorSmartLinkComp" ExportPath="/Script/FortniteAI.FortDoorLinkComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_A40_UAID_345A600DDC87BA5102_2069145449.DoorSmartLinkComp'"
+         End Object
+         Begin Object Class=/Game/Building/ActorBlueprints/Wall/DoorSoundIndicatorComponent.DoorSoundIndicatorComponent_C Name="DoorSoundIndicator" ExportPath="/Game/Building/ActorBlueprints/Wall/DoorSoundIndicatorComponent.DoorSoundIndicatorComponent_C'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_A40_UAID_345A600DDC87BA5102_2069145449.DoorSoundIndicator'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_A40_UAID_345A600DDC87BA5102_2069145449.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_FORT_Brick_Simple_35'"
+            CachedMaxDrawDistance=22871.123047
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1274.000000,Y=1911.434600,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=-179.999970,Roll=0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_A40_UAID_345A600DDC87BA5102_2069145449.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22871.123047
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_A40_UAID_345A600DDC87BA5102_2069145449.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22871.123047
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="DoorSmartLinkComp" ExportPath="/Script/FortniteAI.FortDoorLinkComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_A40_UAID_345A600DDC87BA5102_2069145449.DoorSmartLinkComp'"
+            CustomLinkId=(Id=13637082316437499370)
+            AuxiliaryCustomLinkId=(Id=9251315838958865625)
+            DisabledAreaClass="/Script/CoreUObject.Class'/Script/NavigationSystem.NavArea_Default'"
+            LinkRelativeStart=(X=-139.199997,Y=130.000000,Z=0.000000)
+            LinkRelativeEnd=(X=-139.199997,Y=-130.000000,Z=0.000000)
+            bLinkEnabled=False
+            ObstacleOffset=(X=-139.199997,Y=0.000000,Z=0.000000)
+            ObstacleExtent=(X=38.400002,Y=17.500000,Z=153.600002)
+            ObstacleAreaClass="/Script/Engine.BlueprintGeneratedClass'/Game/Building/NavigationAreas/FortMetaNavWallAreaDef.FortMetaNavWallAreaDef_C'"
+         End Object
+         Begin Object Name="DoorSoundIndicator" ExportPath="/Game/Building/ActorBlueprints/Wall/DoorSoundIndicatorComponent.DoorSoundIndicatorComponent_C'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_A40_UAID_345A600DDC87BA5102_2069145449.DoorSoundIndicator'"
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallOuter/TilingWall_RedBrick_01.TilingWall_RedBrick_01'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallInner/House_Interior_02.House_Interior_02'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22871.123047
+         StaticGameplayTags=(GameplayTags=((TagName="Building.Type.All.Wall"),(TagName="Building.Type.Door")))
+         DataVersion=1
+         SavedActorGuid=BDE078C34243C1C45B637A889BFE4C8A
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="FORT_Brick_Window_A40"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/BrickSimple_Archway01.BrickSimple_Archway01_C Name=Actor_FORT_Brick_Window_A58_UAID_345A600DDC87BA5102_2069135439 Archetype="/Game/Building/ActorBlueprints/Wall/BrickSimple_Archway01.BrickSimple_Archway01_C'/Game/Building/ActorBlueprints/Wall/BrickSimple_Archway01.Default__BrickSimple_Archway01_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87935E02_1792088677 ActorFolderPath="Tilted NOMS Gallery" ExportPath="/Game/Building/ActorBlueprints/Wall/BrickSimple_Archway01.BrickSimple_Archway01_C'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_A58_UAID_345A600DDC87BA5102_2069135439'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_Archway01.Default__BrickSimple_Archway01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_A58_UAID_345A600DDC87BA5102_2069135439.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_Archway01.Default__BrickSimple_Archway01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_A58_UAID_345A600DDC87BA5102_2069135439.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_Archway01.Default__BrickSimple_Archway01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_A58_UAID_345A600DDC87BA5102_2069135439.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_A58_UAID_345A600DDC87BA5102_2069135439.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_FORT_Brick_Simple_34'"
+            CachedMaxDrawDistance=22901.093750
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1911.000100,Y=2548.322500,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999970,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_A58_UAID_345A600DDC87BA5102_2069135439.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22901.093750
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_A58_UAID_345A600DDC87BA5102_2069135439.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22901.093750
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallInner/House_Interior_02.House_Interior_02'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22901.093750
+         DataVersion=1
+         SavedActorGuid=26344C574F66FDE784BE08888B627EC5
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="FORT_Brick_Window_A58_0"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/BrickSimple_AAA_SolidWall.BrickSimple_AAA_SolidWall_C Name=Actor_FORT_Brick_Window_A60_UAID_345A600DDC87BA5102_2069140444 Archetype="/Game/Building/ActorBlueprints/Wall/BrickSimple_AAA_SolidWall.BrickSimple_AAA_SolidWall_C'/Game/Building/ActorBlueprints/Wall/BrickSimple_AAA_SolidWall.Default__BrickSimple_AAA_SolidWall_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87935E02_1792088677 ActorFolderPath="Tilted NOMS Gallery" ExportPath="/Game/Building/ActorBlueprints/Wall/BrickSimple_AAA_SolidWall.BrickSimple_AAA_SolidWall_C'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_A60_UAID_345A600DDC87BA5102_2069140444'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_AAA_SolidWall.Default__BrickSimple_AAA_SolidWall_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_A60_UAID_345A600DDC87BA5102_2069140444.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_AAA_SolidWall.Default__BrickSimple_AAA_SolidWall_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_A60_UAID_345A600DDC87BA5102_2069140444.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_AAA_SolidWall.Default__BrickSimple_AAA_SolidWall_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_A60_UAID_345A600DDC87BA5102_2069140444.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_A60_UAID_345A600DDC87BA5102_2069140444.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_FORT_Brick_Simple_35'"
+            CachedMaxDrawDistance=22870.902344
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1911.000100,Y=0.000000,Z=-0.000031)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999970,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_A60_UAID_345A600DDC87BA5102_2069140444.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22870.902344
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_A60_UAID_345A600DDC87BA5102_2069140444.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22870.902344
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallOuter/TilingWall_RedBrick_01.TilingWall_RedBrick_01'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallInner/House_Interior_02.House_Interior_02'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22870.902344
+         DataVersion=1
+         SavedActorGuid=C4694BE94171D6887C5017812677D4DA
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="FORT_Brick_Window_A60"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/BrickSimple_Window_F.BrickSimple_Window_F_C Name=Actor_FORT_Brick_Window_B4_UAID_345A600DDC87BA5102_2069144448 Archetype="/Game/Building/ActorBlueprints/Wall/BrickSimple_Window_F.BrickSimple_Window_F_C'/Game/Building/ActorBlueprints/Wall/BrickSimple_Window_F.Default__BrickSimple_Window_F_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87935E02_1792088677 ActorFolderPath="Tilted NOMS Gallery" ExportPath="/Game/Building/ActorBlueprints/Wall/BrickSimple_Window_F.BrickSimple_Window_F_C'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_B4_UAID_345A600DDC87BA5102_2069144448'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_Window_F.Default__BrickSimple_Window_F_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_B4_UAID_345A600DDC87BA5102_2069144448.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_Window_F.Default__BrickSimple_Window_F_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_B4_UAID_345A600DDC87BA5102_2069144448.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_Window_F.Default__BrickSimple_Window_F_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_B4_UAID_345A600DDC87BA5102_2069144448.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_B4_UAID_345A600DDC87BA5102_2069144448.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_FORT_Brick_Simple_35'"
+            CachedMaxDrawDistance=22871.300781
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-637.000000,Y=2548.322500,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999970,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_B4_UAID_345A600DDC87BA5102_2069144448.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22871.300781
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_B4_UAID_345A600DDC87BA5102_2069144448.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22871.300781
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallOuter/TilingWall_RedBrick_01.TilingWall_RedBrick_01'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallInner/House_Interior_02.House_Interior_02'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22871.300781
+         DataVersion=1
+         SavedActorGuid=3C5D2F394B3D4876076573B44CF9C7DB
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="FORT_Brick_Window_B4_0"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/BrickSimple_Window_A.BrickSimple_Window_A_C Name=Actor_FORT_Brick_Window_B6_UAID_345A600DDC87BA5102_2069139443 Archetype="/Game/Building/ActorBlueprints/Wall/BrickSimple_Window_A.BrickSimple_Window_A_C'/Game/Building/ActorBlueprints/Wall/BrickSimple_Window_A.Default__BrickSimple_Window_A_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87935E02_1792088677 ActorFolderPath="Tilted NOMS Gallery" ExportPath="/Game/Building/ActorBlueprints/Wall/BrickSimple_Window_A.BrickSimple_Window_A_C'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_B6_UAID_345A600DDC87BA5102_2069139443'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_Window_A.Default__BrickSimple_Window_A_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_B6_UAID_345A600DDC87BA5102_2069139443.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_Window_A.Default__BrickSimple_Window_A_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_B6_UAID_345A600DDC87BA5102_2069139443.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_Window_A.Default__BrickSimple_Window_A_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_B6_UAID_345A600DDC87BA5102_2069139443.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_B6_UAID_345A600DDC87BA5102_2069139443.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_FORT_Brick_Simple_33'"
+            CachedMaxDrawDistance=22879.544922
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-2548.000000,Y=4.354605,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999970,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_B6_UAID_345A600DDC87BA5102_2069139443.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22879.544922
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_B6_UAID_345A600DDC87BA5102_2069139443.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22879.544922
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallOuter/BrickWall_003a.BrickWall_003a'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallInner/House_Interior_02.House_Interior_02'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22879.544922
+         DataVersion=1
+         SavedActorGuid=DDE1BDAD4BB6D9406D914CA2E7095572
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="FORT_Brick_Window_B6"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/BrickSimple_AAA_SolidWall.BrickSimple_AAA_SolidWall_C Name=Actor_FORT_Brick_Window_D_UAID_345A600DDC87BA5102_2069141445 Archetype="/Game/Building/ActorBlueprints/Wall/BrickSimple_AAA_SolidWall.BrickSimple_AAA_SolidWall_C'/Game/Building/ActorBlueprints/Wall/BrickSimple_AAA_SolidWall.Default__BrickSimple_AAA_SolidWall_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87935E02_1792088677 ActorFolderPath="Tilted NOMS Gallery" ExportPath="/Game/Building/ActorBlueprints/Wall/BrickSimple_AAA_SolidWall.BrickSimple_AAA_SolidWall_C'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_D_UAID_345A600DDC87BA5102_2069141445'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_AAA_SolidWall.Default__BrickSimple_AAA_SolidWall_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_D_UAID_345A600DDC87BA5102_2069141445.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_AAA_SolidWall.Default__BrickSimple_AAA_SolidWall_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_D_UAID_345A600DDC87BA5102_2069141445.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_AAA_SolidWall.Default__BrickSimple_AAA_SolidWall_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_D_UAID_345A600DDC87BA5102_2069141445.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_D_UAID_345A600DDC87BA5102_2069141445.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_FORT_Brick_Simple_33'"
+            CachedMaxDrawDistance=22870.902344
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1911.000100,Y=637.322400,Z=-0.000031)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999970,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_D_UAID_345A600DDC87BA5102_2069141445.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22870.902344
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_D_UAID_345A600DDC87BA5102_2069141445.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22870.902344
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallOuter/BrickWall_003a.BrickWall_003a'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallInner/House_Interior_02.House_Interior_02'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22870.902344
+         DataVersion=1
+         SavedActorGuid=B9C1BF0C4F4F59BD2C608AA07DDC8FB6
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="FORT_Brick_Window_D"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/BrickSimple_Window_D.BrickSimple_Window_D_C Name=Actor_FORT_Brick_Window_D4_UAID_345A600DDC87BA5102_2069133437 Archetype="/Game/Building/ActorBlueprints/Wall/BrickSimple_Window_D.BrickSimple_Window_D_C'/Game/Building/ActorBlueprints/Wall/BrickSimple_Window_D.Default__BrickSimple_Window_D_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87935E02_1792088677 ActorFolderPath="Tilted NOMS Gallery" ExportPath="/Game/Building/ActorBlueprints/Wall/BrickSimple_Window_D.BrickSimple_Window_D_C'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_D4_UAID_345A600DDC87BA5102_2069133437'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_Window_D.Default__BrickSimple_Window_D_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_D4_UAID_345A600DDC87BA5102_2069133437.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_Window_D.Default__BrickSimple_Window_D_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_D4_UAID_345A600DDC87BA5102_2069133437.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_Window_D.Default__BrickSimple_Window_D_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_D4_UAID_345A600DDC87BA5102_2069133437.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_D4_UAID_345A600DDC87BA5102_2069133437.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_FORT_Brick_Simple_33'"
+            CachedMaxDrawDistance=22879.849609
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1911.000100,Y=1915.822400,Z=-0.000031)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999970,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_D4_UAID_345A600DDC87BA5102_2069133437.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22879.849609
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_FORT_Brick_Window_D4_UAID_345A600DDC87BA5102_2069133437.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22879.849609
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallOuter/BrickWall_003a.BrickWall_003a'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallInner/House_Interior_02.House_Interior_02'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22879.849609
+         DataVersion=1
+         SavedActorGuid=442BC48F4DAFE4B775FB2C9DAFC8ADFC
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="FORT_Brick_Window_D4"
+      End Actor
+      Begin Actor Class=/Game/Creative/BuildingActors/Floors/CP_S_Sidewalk_1x1_A_NoCurb.CP_S_Sidewalk_1x1_A_NoCurb_C Name=Actor_PG_S_Sidewalk_1x1_A_NoCurb_UAID_345A600DDC87BA5102_2069146450 Archetype="/Game/Creative/BuildingActors/Floors/CP_S_Sidewalk_1x1_A_NoCurb.CP_S_Sidewalk_1x1_A_NoCurb_C'/Game/Creative/BuildingActors/Floors/CP_S_Sidewalk_1x1_A_NoCurb.Default__CP_S_Sidewalk_1x1_A_NoCurb_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87935E02_1792088677 ActorFolderPath="Tilted NOMS Gallery" ExportPath="/Game/Creative/BuildingActors/Floors/CP_S_Sidewalk_1x1_A_NoCurb.CP_S_Sidewalk_1x1_A_NoCurb_C'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_PG_S_Sidewalk_1x1_A_NoCurb_UAID_345A600DDC87BA5102_2069146450'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Creative/BuildingActors/Floors/CP_S_Sidewalk_1x1_A_NoCurb.Default__CP_S_Sidewalk_1x1_A_NoCurb_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_PG_S_Sidewalk_1x1_A_NoCurb_UAID_345A600DDC87BA5102_2069146450.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Creative/BuildingActors/Floors/CP_S_Sidewalk_1x1_A_NoCurb.Default__CP_S_Sidewalk_1x1_A_NoCurb_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_PG_S_Sidewalk_1x1_A_NoCurb_UAID_345A600DDC87BA5102_2069146450.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Creative/BuildingActors/Floors/CP_S_Sidewalk_1x1_A_NoCurb.Default__CP_S_Sidewalk_1x1_A_NoCurb_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_PG_S_Sidewalk_1x1_A_NoCurb_UAID_345A600DDC87BA5102_2069146450.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_PG_S_Sidewalk_1x1_A_NoCurb_UAID_345A600DDC87BA5102_2069146450.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Sidewalk_3'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-2816.000200,Y=1274.322800,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000050,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_PG_S_Sidewalk_1x1_A_NoCurb_UAID_345A600DDC87BA5102_2069146450.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24667.291016
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_PG_S_Sidewalk_1x1_A_NoCurb_UAID_345A600DDC87BA5102_2069146450.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24667.291016
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24667.291016
+         DataVersion=1
+         SavedActorGuid=5E95F9B34803A9FB3C8568AB23213735
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="PG_S_Sidewalk_1x1_A_NoCurb_2"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Stairs/SM_FireEscape_Walkway_Stairs.SM_FireEscape_Walkway_Stairs_C Name=Actor_SM_FireEscape_Walkway_Stair34_UAID_345A600DDC87BA5102_2069137442 Archetype="/Game/Building/ActorBlueprints/Stairs/SM_FireEscape_Walkway_Stairs.SM_FireEscape_Walkway_Stairs_C'/Game/Building/ActorBlueprints/Stairs/SM_FireEscape_Walkway_Stairs.Default__SM_FireEscape_Walkway_Stairs_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87935E02_1792088677 ActorFolderPath="Tilted NOMS Gallery" ExportPath="/Game/Building/ActorBlueprints/Stairs/SM_FireEscape_Walkway_Stairs.SM_FireEscape_Walkway_Stairs_C'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FireEscape_Walkway_Stair34_UAID_345A600DDC87BA5102_2069137442'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Stairs/SM_FireEscape_Walkway_Stairs.Default__SM_FireEscape_Walkway_Stairs_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FireEscape_Walkway_Stair34_UAID_345A600DDC87BA5102_2069137442.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Stairs/SM_FireEscape_Walkway_Stairs.Default__SM_FireEscape_Walkway_Stairs_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FireEscape_Walkway_Stair34_UAID_345A600DDC87BA5102_2069137442.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Stairs/SM_FireEscape_Walkway_Stairs.Default__SM_FireEscape_Walkway_Stairs_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FireEscape_Walkway_Stair34_UAID_345A600DDC87BA5102_2069137442.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FireEscape_Walkway_Stair34_UAID_345A600DDC87BA5102_2069137442.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_FireEscape_2'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-127.506226,Y=256.016780,Z=6.764084)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999940,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FireEscape_Walkway_Stair34_UAID_345A600DDC87BA5102_2069137442.BoundingBoxComponent'"
+            CachedMaxDrawDistance=25369.734375
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FireEscape_Walkway_Stair34_UAID_345A600DDC87BA5102_2069137442.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=25369.734375
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/Trim/FireEscape_Turquoise.FireEscape_Turquoise'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=25369.734375
+         DataVersion=1
+         SavedActorGuid=4D0396404E4FB1019B1FC18983341EA0
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_FireEscape_Walkway_Stair34_0"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C Name=Actor_SM_FORT_Floors_Generic_BasicTile_C9_UAID_345A600DDC87BA5102_2069126430 Archetype="/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87935E02_1792088677 ActorFolderPath="Tilted NOMS Gallery" ExportPath="/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FORT_Floors_Generic_BasicTile_C9_UAID_345A600DDC87BA5102_2069126430'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FORT_Floors_Generic_BasicTile_C9_UAID_345A600DDC87BA5102_2069126430.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FORT_Floors_Generic_BasicTile_C9_UAID_345A600DDC87BA5102_2069126430.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FORT_Floors_Generic_BasicTile_C9_UAID_345A600DDC87BA5102_2069126430.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FORT_Floors_Generic_BasicTile_C9_UAID_345A600DDC87BA5102_2069126430.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fort_Floors_Generic_TilesClean_27'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-0.000183,Y=2167.322500,Z=8.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999970,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FORT_Floors_Generic_BasicTile_C9_UAID_345A600DDC87BA5102_2069126430.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24648.673828
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FORT_Floors_Generic_BasicTile_C9_UAID_345A600DDC87BA5102_2069126430.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24648.673828
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/FloorTexture/TileFloor5_Blue_Small.TileFloor5_Blue_Small'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24648.673828
+         DataVersion=1
+         SavedActorGuid=B5857F0549ED116B39A4BFA8B44EB698
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_FORT_Floors_Generic_BasicTile_C9_2"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C Name=Actor_SM_FORT_Floors_Generic_BasicTile_C10_UAID_345A600DDC87BA5102_2069128431 Archetype="/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87935E02_1792088677 ActorFolderPath="Tilted NOMS Gallery" ExportPath="/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FORT_Floors_Generic_BasicTile_C10_UAID_345A600DDC87BA5102_2069128431'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FORT_Floors_Generic_BasicTile_C10_UAID_345A600DDC87BA5102_2069128431.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FORT_Floors_Generic_BasicTile_C10_UAID_345A600DDC87BA5102_2069128431.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FORT_Floors_Generic_BasicTile_C10_UAID_345A600DDC87BA5102_2069128431.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FORT_Floors_Generic_BasicTile_C10_UAID_345A600DDC87BA5102_2069128431.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fort_Floors_Generic_TilesClean_24'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-0.000183,Y=2804.322500,Z=8.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999970,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FORT_Floors_Generic_BasicTile_C10_UAID_345A600DDC87BA5102_2069128431.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24648.673828
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FORT_Floors_Generic_BasicTile_C10_UAID_345A600DDC87BA5102_2069128431.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24648.673828
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/FloorTexture/RooftopTar_01.RooftopTar_01'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/Ceiling/DropCeiling.DropCeiling'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24648.673828
+         DataVersion=1
+         SavedActorGuid=7280B3E744E0C753254E1B9C241E8C08
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_FORT_Floors_Generic_BasicTile_C10_3"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C Name=Actor_SM_FORT_Floors_Generic_BasicTile_C12_UAID_345A600DDC87BA5102_2069129432 Archetype="/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87935E02_1792088677 ActorFolderPath="Tilted NOMS Gallery" ExportPath="/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FORT_Floors_Generic_BasicTile_C12_UAID_345A600DDC87BA5102_2069129432'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FORT_Floors_Generic_BasicTile_C12_UAID_345A600DDC87BA5102_2069129432.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FORT_Floors_Generic_BasicTile_C12_UAID_345A600DDC87BA5102_2069129432.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FORT_Floors_Generic_BasicTile_C12_UAID_345A600DDC87BA5102_2069129432.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FORT_Floors_Generic_BasicTile_C12_UAID_345A600DDC87BA5102_2069129432.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_FORT_Garage_Concrete_FloorNoLines_2'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-637.000100,Y=255.999880,Z=8.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999970,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FORT_Floors_Generic_BasicTile_C12_UAID_345A600DDC87BA5102_2069129432.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24648.673828
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FORT_Floors_Generic_BasicTile_C12_UAID_345A600DDC87BA5102_2069129432.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24648.673828
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/FloorTexture/M_FORT_ParkingGarage_NoLines.M_FORT_ParkingGarage_NoLines'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24648.673828
+         DataVersion=1
+         SavedActorGuid=2D06D6144D9C1C503F0A488F18AF18A4
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_FORT_Floors_Generic_BasicTile_C12_4"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C Name=Actor_SM_FORT_Floors_Generic_BasicTile_C25_UAID_345A600DDC87BA5102_2069130433 Archetype="/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87935E02_1792088677 ActorFolderPath="Tilted NOMS Gallery" ExportPath="/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FORT_Floors_Generic_BasicTile_C25_UAID_345A600DDC87BA5102_2069130433'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FORT_Floors_Generic_BasicTile_C25_UAID_345A600DDC87BA5102_2069130433.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FORT_Floors_Generic_BasicTile_C25_UAID_345A600DDC87BA5102_2069130433.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FORT_Floors_Generic_BasicTile_C25_UAID_345A600DDC87BA5102_2069130433.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FORT_Floors_Generic_BasicTile_C25_UAID_345A600DDC87BA5102_2069130433.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fort_Floors_Generic_TilesClean_28'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-637.000100,Y=893.322270,Z=8.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999970,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FORT_Floors_Generic_BasicTile_C25_UAID_345A600DDC87BA5102_2069130433.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24648.673828
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FORT_Floors_Generic_BasicTile_C25_UAID_345A600DDC87BA5102_2069130433.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24648.673828
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/FloorTexture/Wood_Floor_Hardwood_05.Wood_Floor_Hardwood_05'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/Ceiling/DropCeiling.DropCeiling'"
+         ResourceType=Wood
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24648.673828
+         DataVersion=1
+         SavedActorGuid=E7C2922F4E035653091025BC73F003DB
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_FORT_Floors_Generic_BasicTile_C25_5"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C Name=Actor_SM_FORT_Floors_Generic_BasicTile_C28_UAID_345A600DDC87BA5102_2069132436 Archetype="/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87935E02_1792088677 ActorFolderPath="Tilted NOMS Gallery" ExportPath="/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FORT_Floors_Generic_BasicTile_C28_UAID_345A600DDC87BA5102_2069132436'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FORT_Floors_Generic_BasicTile_C28_UAID_345A600DDC87BA5102_2069132436.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FORT_Floors_Generic_BasicTile_C28_UAID_345A600DDC87BA5102_2069132436.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FORT_Floors_Generic_BasicTile_C28_UAID_345A600DDC87BA5102_2069132436.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FORT_Floors_Generic_BasicTile_C28_UAID_345A600DDC87BA5102_2069132436.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fort_Floors_Generic_TilesClean_26'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-637.000100,Y=1530.322400,Z=8.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999970,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FORT_Floors_Generic_BasicTile_C28_UAID_345A600DDC87BA5102_2069132436.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24648.673828
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FORT_Floors_Generic_BasicTile_C28_UAID_345A600DDC87BA5102_2069132436.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24648.673828
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/FloorTexture/RooftopTar_01.RooftopTar_01'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/Ceiling/OrnamentalCeiling02b.OrnamentalCeiling02b'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24648.673828
+         DataVersion=1
+         SavedActorGuid=4B8C09A44F6A7104E0AE158D25CA68CE
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_FORT_Floors_Generic_BasicTile_C28_6"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C Name=Actor_SM_FORT_Floors_Generic_BasicTile_C3176_UAID_345A600DDC87BA5102_2069124428 Archetype="/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87935E02_1792088677 ActorFolderPath="Tilted NOMS Gallery" ExportPath="/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FORT_Floors_Generic_BasicTile_C3176_UAID_345A600DDC87BA5102_2069124428'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FORT_Floors_Generic_BasicTile_C3176_UAID_345A600DDC87BA5102_2069124428.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FORT_Floors_Generic_BasicTile_C3176_UAID_345A600DDC87BA5102_2069124428.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FORT_Floors_Generic_BasicTile_C3176_UAID_345A600DDC87BA5102_2069124428.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FORT_Floors_Generic_BasicTile_C3176_UAID_345A600DDC87BA5102_2069124428.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_PrisonFloor_Tile2_2'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-0.000183,Y=893.322270,Z=8.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999970,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FORT_Floors_Generic_BasicTile_C3176_UAID_345A600DDC87BA5102_2069124428.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24648.673828
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FORT_Floors_Generic_BasicTile_C3176_UAID_345A600DDC87BA5102_2069124428.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24648.673828
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/FloorTexture/TileFloor3_Tan_Normal.TileFloor3_Tan_Normal'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24648.673828
+         DataVersion=1
+         SavedActorGuid=81B1AAA242ECC2C0D1FB8A93279AC213
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_FORT_Floors_Generic_BasicTile_C3176_0"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C Name=Actor_SM_FORT_Floors_Generic_BasicTile_C3177_UAID_345A600DDC87BA5102_2069126429 Archetype="/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87935E02_1792088677 ActorFolderPath="Tilted NOMS Gallery" ExportPath="/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.SM_FORT_Floors_Generic_BasicTile_C'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FORT_Floors_Generic_BasicTile_C3177_UAID_345A600DDC87BA5102_2069126429'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FORT_Floors_Generic_BasicTile_C3177_UAID_345A600DDC87BA5102_2069126429.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FORT_Floors_Generic_BasicTile_C3177_UAID_345A600DDC87BA5102_2069126429.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Floor/SM_FORT_Floors_Generic_BasicTile.Default__SM_FORT_Floors_Generic_BasicTile_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FORT_Floors_Generic_BasicTile_C3177_UAID_345A600DDC87BA5102_2069126429.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FORT_Floors_Generic_BasicTile_C3177_UAID_345A600DDC87BA5102_2069126429.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fort_Floors_Generic_TilesClean_25'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-0.000183,Y=1530.322400,Z=8.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999970,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FORT_Floors_Generic_BasicTile_C3177_UAID_345A600DDC87BA5102_2069126429.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24648.673828
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_SM_FORT_Floors_Generic_BasicTile_C3177_UAID_345A600DDC87BA5102_2069126429.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24648.673828
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/FloorTexture/Wood_Floor_Hardwood_05.Wood_Floor_Hardwood_05'"
+         ResourceType=Wood
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24648.673828
+         DataVersion=1
+         SavedActorGuid=77C7AFC64B56BB4F93CCECB78D66977C
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_FORT_Floors_Generic_BasicTile_C3177_1"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/S_StoreFront_Glass_K2.S_StoreFront_Glass_K2_C Name=Actor_S_StoreFront_Glass_C4_UAID_345A600DDC87BA5102_2069137441 Archetype="/Game/Building/ActorBlueprints/Wall/S_StoreFront_Glass_K2.S_StoreFront_Glass_K2_C'/Game/Building/ActorBlueprints/Wall/S_StoreFront_Glass_K2.Default__S_StoreFront_Glass_K2_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87935E02_1792088677 ActorFolderPath="Tilted NOMS Gallery" ExportPath="/Game/Building/ActorBlueprints/Wall/S_StoreFront_Glass_K2.S_StoreFront_Glass_K2_C'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_S_StoreFront_Glass_C4_UAID_345A600DDC87BA5102_2069137441'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/S_StoreFront_Glass_K2.Default__S_StoreFront_Glass_K2_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_S_StoreFront_Glass_C4_UAID_345A600DDC87BA5102_2069137441.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/S_StoreFront_Glass_K2.Default__S_StoreFront_Glass_K2_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_S_StoreFront_Glass_C4_UAID_345A600DDC87BA5102_2069137441.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/S_StoreFront_Glass_K2.Default__S_StoreFront_Glass_K2_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_S_StoreFront_Glass_C4_UAID_345A600DDC87BA5102_2069137441.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_S_StoreFront_Glass_C4_UAID_345A600DDC87BA5102_2069137441.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_StoreFront_Facade_7'"
+            CachedMaxDrawDistance=22894.365234
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-637.000000,Y=1911.322500,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999970,Roll=0.000000)
+            RelativeScale3D=(X=1.000000,Y=0.500000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_S_StoreFront_Glass_C4_UAID_345A600DDC87BA5102_2069137441.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22894.365234
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_S_StoreFront_Glass_C4_UAID_345A600DDC87BA5102_2069137441.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22894.365234
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallOuter/TilingWall_RedBrick_01.TilingWall_RedBrick_01'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22894.365234
+         DataVersion=1
+         SavedActorGuid=E0F886D84F64F4855581F188CB2CFE6C
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="S_StoreFront_Glass_C4_0"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/S_StoreFront_Glass_L.S_StoreFront_Glass_L_C Name=Actor_S_StoreFront_Glass_L_UAID_345A600DDC87BA5102_2069134438 Archetype="/Game/Building/ActorBlueprints/Wall/S_StoreFront_Glass_L.S_StoreFront_Glass_L_C'/Game/Building/ActorBlueprints/Wall/S_StoreFront_Glass_L.Default__S_StoreFront_Glass_L_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87935E02_1792088677 ActorFolderPath="Tilted NOMS Gallery" ExportPath="/Game/Building/ActorBlueprints/Wall/S_StoreFront_Glass_L.S_StoreFront_Glass_L_C'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_S_StoreFront_Glass_L_UAID_345A600DDC87BA5102_2069134438'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/S_StoreFront_Glass_L.Default__S_StoreFront_Glass_L_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_S_StoreFront_Glass_L_UAID_345A600DDC87BA5102_2069134438.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/S_StoreFront_Glass_L.Default__S_StoreFront_Glass_L_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_S_StoreFront_Glass_L_UAID_345A600DDC87BA5102_2069134438.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/S_StoreFront_Glass_L.Default__S_StoreFront_Glass_L_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_S_StoreFront_Glass_L_UAID_345A600DDC87BA5102_2069134438.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_S_StoreFront_Glass_L_UAID_345A600DDC87BA5102_2069134438.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_StoreFront_Facade_6'"
+            CachedMaxDrawDistance=22932.277344
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1274.000000,Y=0.000000,Z=0.000015)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.999970,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_S_StoreFront_Glass_L_UAID_345A600DDC87BA5102_2069134438.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22932.277344
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.Actor_S_StoreFront_Glass_L_UAID_345A600DDC87BA5102_2069134438.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22932.277344
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallOuter/TilingWall_RedBrick_01.TilingWall_RedBrick_01'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22932.277344
+         DataVersion=1
+         SavedActorGuid=C5B3938149A1D7F993DC6785A0528775
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="S_StoreFront_Glass_L"
+      End Actor
+      Begin Actor Class=/Script/FortniteGame.FortPlaysetRoot Name=FortPlaysetRoot_UAID_345A600DDC87935E02_1792088677 Archetype="/Script/FortniteGame.FortPlaysetRoot'/Script/FortniteGame.Default__FortPlaysetRoot'" ActorFolderPath="Tilted NOMS Gallery" ExportPath="/Script/FortniteGame.FortPlaysetRoot'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.FortPlaysetRoot_UAID_345A600DDC87935E02_1792088677'"
+         Begin Object Class=/Script/Engine.SceneComponent Name="DefaultSceneRoot" Archetype="/Script/Engine.SceneComponent'/Script/FortniteGame.Default__FortPlaysetRoot:DefaultSceneRoot'" ExportPath="/Script/Engine.SceneComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.FortPlaysetRoot_UAID_345A600DDC87935E02_1792088677.DefaultSceneRoot'"
+         End Object
+         Begin Object Name="DefaultSceneRoot" ExportPath="/Script/Engine.SceneComponent'/Main/Maps/Prefabs/TiltedNomsGallery.TiltedNomsGallery:PersistentLevel.FortPlaysetRoot_UAID_345A600DDC87935E02_1792088677.DefaultSceneRoot'"
+         End Object
+         SavedActorGuid=5A1A38054B3ADE4DEA12C6BBF10EC8BC
+         PlaysetPackagePathName="/CRP_Foundation/SetupAssets/Maps/PID_CP_Foundation_3x7_StripMallStores_01"
+         ActorLabel="Tilted NOMS Gallery"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map

@@ -1,0 +1,378 @@
+Begin Map
+   Begin Level
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/BrickSimple_Archway03.BrickSimple_Archway03_C Name=None_UAID_345A600DDC87A05202_1099330463 Archetype="/Game/Building/ActorBlueprints/Wall/BrickSimple_Archway03.BrickSimple_Archway03_C'/Game/Building/ActorBlueprints/Wall/BrickSimple_Archway03.Default__BrickSimple_Archway03_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87485902_1770853707 ActorFolderPath="CP_Nuke_Build_9a" ExportPath="/Game/Building/ActorBlueprints/Wall/BrickSimple_Archway03.BrickSimple_Archway03_C'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099330463'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_Archway03.Default__BrickSimple_Archway03_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099330463.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_Archway03.Default__BrickSimple_Archway03_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099330463.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/BrickSimple_Archway03.Default__BrickSimple_Archway03_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099330463.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099330463.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_FORT_Brick_Simple_144'"
+            CachedMaxDrawDistance=22883.498047
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=-256.000000,Z=0.000000)
+            RelativeScale3D=(X=1.000000,Y=0.750000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099330463.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22883.498047
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099330463.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22883.498047
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallInner/Durr_Plaster_Interior.Durr_Plaster_Interior'"
+         TextureData(1)="/Script/FortniteGame.BuildingTextureData'/Game/Building/TextureData/WallInner/Durr_Plaster_Interior.Durr_Plaster_Interior'"
+         ResourceType=Wood
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22883.498047
+         DataVersion=1
+         SavedActorGuid=118910194205FC21018EF1A608BA4317
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="BrickSimple_Archway03"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/Garage_Door_03.Garage_Door_03_C Name=None_UAID_345A600DDC87A05202_1099338464 Archetype="/Game/Building/ActorBlueprints/Prop/Garage_Door_03.Garage_Door_03_C'/Game/Building/ActorBlueprints/Prop/Garage_Door_03.Default__Garage_Door_03_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87485902_1770853707 ActorFolderPath="CP_Nuke_Build_9a" ExportPath="/Game/Building/ActorBlueprints/Prop/Garage_Door_03.Garage_Door_03_C'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099338464'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Garage_Door_03.Default__Garage_Door_03_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099338464.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/Garage_Door_03.Default__Garage_Door_03_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099338464.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Garage_Door_03.Default__Garage_Door_03_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099338464.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099338464.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Factory_RoofSimple_3'"
+            CachedMaxDrawDistance=21977.658203
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=-255.997070,Z=24.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.904890,Roll=0.000000)
+            RelativeScale3D=(X=1.500000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099338464.BoundingBoxComponent'"
+            CachedMaxDrawDistance=21977.658203
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099338464.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=21977.658203
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=21977.658203
+         DataVersion=1
+         SavedActorGuid=FBBDDC7C46F131E7690B46BCF80E5D13
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Garage_Door_03"
+      End Actor
+      Begin Actor Class=/Game/Playgrounds/Items/Cubes/Cube4x/PG_Cube_Silver_4x.PG_Cube_Silver_4x_C Name=None_UAID_345A600DDC87A05202_1099351465 Archetype="/Game/Playgrounds/Items/Cubes/Cube4x/PG_Cube_Silver_4x.PG_Cube_Silver_4x_C'/Game/Playgrounds/Items/Cubes/Cube4x/PG_Cube_Silver_4x.Default__PG_Cube_Silver_4x_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87485902_1770853707 ActorFolderPath="CP_Nuke_Build_9a" ExportPath="/Game/Playgrounds/Items/Cubes/Cube4x/PG_Cube_Silver_4x.PG_Cube_Silver_4x_C'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099351465'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Playgrounds/Items/Cubes/Cube4x/PG_Cube_Silver_4x.Default__PG_Cube_Silver_4x_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099351465.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Playgrounds/Items/Cubes/Cube4x/PG_Cube_Silver_4x.Default__PG_Cube_Silver_4x_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099351465.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Playgrounds/Items/Cubes/Cube4x/PG_Cube_Silver_4x.Default__PG_Cube_Silver_4x_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099351465.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099351465.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_C_Cube_Silver_32'"
+            CachedMaxDrawDistance=22062.187500
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=256.000000,Y=-256.000000,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-89.857230,Roll=0.000000)
+            RelativeScale3D=(X=0.347428,Y=0.938994,Z=0.834661)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099351465.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22062.187500
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099351465.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22062.187500
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22062.187500
+         DataVersion=1
+         SavedActorGuid=9764B507463422D1EC61D992D1AFA173
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="PG_Cube_Silver_4x9"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/Recreation_ParkBench_04.Recreation_ParkBench_04_C Name=None_UAID_345A600DDC87A05202_1099353467 Archetype="/Game/Building/ActorBlueprints/Prop/Recreation_ParkBench_04.Recreation_ParkBench_04_C'/Game/Building/ActorBlueprints/Prop/Recreation_ParkBench_04.Default__Recreation_ParkBench_04_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87485902_1770853707 ActorFolderPath="CP_Nuke_Build_9a" ExportPath="/Game/Building/ActorBlueprints/Prop/Recreation_ParkBench_04.Recreation_ParkBench_04_C'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099353467'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Recreation_ParkBench_04.Default__Recreation_ParkBench_04_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099353467.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/Recreation_ParkBench_04.Default__Recreation_ParkBench_04_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099353467.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Recreation_ParkBench_04.Default__Recreation_ParkBench_04_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099353467.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099353467.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_parkBench_02_7'"
+            CachedMaxDrawDistance=11479.677734
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=82.140625,Y=-324.684570,Z=0.341797)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.933500,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099353467.BoundingBoxComponent'"
+            CachedMaxDrawDistance=11479.677734
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099353467.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=11479.677734
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=11479.677734
+         DataVersion=1
+         SavedActorGuid=FC65ACDA474B78DE4E1F538FA8BBEA36
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Recreation_ParkBench_04"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/S_BuildingTrim_A.S_BuildingTrim_A_C Name=None_UAID_345A600DDC87A05202_1099353468 Archetype="/Game/Building/ActorBlueprints/Wall/S_BuildingTrim_A.S_BuildingTrim_A_C'/Game/Building/ActorBlueprints/Wall/S_BuildingTrim_A.Default__S_BuildingTrim_A_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87485902_1770853707 ActorFolderPath="CP_Nuke_Build_9a" ExportPath="/Game/Building/ActorBlueprints/Wall/S_BuildingTrim_A.S_BuildingTrim_A_C'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099353468'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/S_BuildingTrim_A.Default__S_BuildingTrim_A_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099353468.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/S_BuildingTrim_A.Default__S_BuildingTrim_A_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099353468.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/S_BuildingTrim_A.Default__S_BuildingTrim_A_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099353468.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099353468.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fortress_Wood_BlackTrim_29'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=-256.000000,Z=384.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099353468.BoundingBoxComponent'"
+            CachedMaxDrawDistance=20032.644531
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099353468.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=20032.644531
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=20032.644531
+         DataVersion=1
+         SavedActorGuid=E9C03CCB4EF73845EC53B69302D51789
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="S_BuildingTrim_A39"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/Sign_PawnShop_3.Sign_PawnShop_3_C Name=None_UAID_345A600DDC87A05202_1099355470 Archetype="/Game/Building/ActorBlueprints/Prop/Sign_PawnShop_3.Sign_PawnShop_3_C'/Game/Building/ActorBlueprints/Prop/Sign_PawnShop_3.Default__Sign_PawnShop_3_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87485902_1770853707 ActorFolderPath="CP_Nuke_Build_9a" ExportPath="/Game/Building/ActorBlueprints/Prop/Sign_PawnShop_3.Sign_PawnShop_3_C'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099355470'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Sign_PawnShop_3.Default__Sign_PawnShop_3_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099355470.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/Sign_PawnShop_3.Default__Sign_PawnShop_3_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099355470.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Sign_PawnShop_3.Default__Sign_PawnShop_3_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099355470.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099355470.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_PawnShop_Sign_3'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=8.054688,Y=-291.872070,Z=360.593750)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-179.761960,Roll=0.000000)
+            RelativeScale3D=(X=1.890000,Y=1.530000,Z=1.530000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099355470.BoundingBoxComponent'"
+            CachedMaxDrawDistance=14761.300781
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099355470.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=14761.300781
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=14761.300781
+         DataVersion=1
+         SavedActorGuid=6BC2D7964B6F2A1A6283199EA81D5AEB
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Sign_PawnShop_3"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Corner/SM_Trim_Corner_04.SM_Trim_Corner_04_C Name=None_UAID_345A600DDC87A05202_1099356471 Archetype="/Game/Building/ActorBlueprints/Corner/SM_Trim_Corner_04.SM_Trim_Corner_04_C'/Game/Building/ActorBlueprints/Corner/SM_Trim_Corner_04.Default__SM_Trim_Corner_04_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87485902_1770853707 ActorFolderPath="CP_Nuke_Build_9a" ExportPath="/Game/Building/ActorBlueprints/Corner/SM_Trim_Corner_04.SM_Trim_Corner_04_C'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099356471'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Corner/SM_Trim_Corner_04.Default__SM_Trim_Corner_04_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099356471.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Corner/SM_Trim_Corner_04.Default__SM_Trim_Corner_04_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099356471.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Corner/SM_Trim_Corner_04.Default__SM_Trim_Corner_04_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099356471.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099356471.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fortress_Wood_BlackTrim_29'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=256.000300,Y=-256.000300,Z=384.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999940,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099356471.BoundingBoxComponent'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099356471.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=2800.000000
+         DataVersion=1
+         SavedActorGuid=929132F14277B983B74C7DA9243E712F
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_Trim_Corner_041"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Corner/SM_Trim_Corner_04.SM_Trim_Corner_04_C Name=None_UAID_345A600DDC87A05202_1099357472 Archetype="/Game/Building/ActorBlueprints/Corner/SM_Trim_Corner_04.SM_Trim_Corner_04_C'/Game/Building/ActorBlueprints/Corner/SM_Trim_Corner_04.Default__SM_Trim_Corner_04_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87485902_1770853707 ActorFolderPath="CP_Nuke_Build_9a" ExportPath="/Game/Building/ActorBlueprints/Corner/SM_Trim_Corner_04.SM_Trim_Corner_04_C'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099357472'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Corner/SM_Trim_Corner_04.Default__SM_Trim_Corner_04_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099357472.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Corner/SM_Trim_Corner_04.Default__SM_Trim_Corner_04_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099357472.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Corner/SM_Trim_Corner_04.Default__SM_Trim_Corner_04_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099357472.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099357472.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Fortress_Wood_BlackTrim_29'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-256.000180,Y=-256.000180,Z=384.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=89.999980,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099357472.BoundingBoxComponent'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099357472.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=2800.000000
+         DataVersion=1
+         SavedActorGuid=3193BD744468F45B986F55B223782F9E
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_Trim_Corner_042"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Corner/SM_Wood01_InteriorPillarSingle.SM_Wood01_InteriorPillarSingle_C Name=None_UAID_345A600DDC87A05202_1099358473 Archetype="/Game/Building/ActorBlueprints/Corner/SM_Wood01_InteriorPillarSingle.SM_Wood01_InteriorPillarSingle_C'/Game/Building/ActorBlueprints/Corner/SM_Wood01_InteriorPillarSingle.Default__SM_Wood01_InteriorPillarSingle_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87485902_1770853707 ActorFolderPath="CP_Nuke_Build_9a" ExportPath="/Game/Building/ActorBlueprints/Corner/SM_Wood01_InteriorPillarSingle.SM_Wood01_InteriorPillarSingle_C'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099358473'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Corner/SM_Wood01_InteriorPillarSingle.Default__SM_Wood01_InteriorPillarSingle_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099358473.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Corner/SM_Wood01_InteriorPillarSingle.Default__SM_Wood01_InteriorPillarSingle_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099358473.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Corner/SM_Wood01_InteriorPillarSingle.Default__SM_Wood01_InteriorPillarSingle_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099358473.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099358473.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_WoodHouseSet_01_14'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-256.000000,Y=-256.000000,Z=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099358473.BoundingBoxComponent'"
+            CachedMaxDrawDistance=16102.416992
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099358473.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=16102.416992
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=16102.416992
+         DataVersion=1
+         SavedActorGuid=27F1A22A4045C7D3C4E99389E80EC2BF
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_Wood01_InteriorPillarSingle"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Corner/SM_Wood01_InteriorPillarSingle.SM_Wood01_InteriorPillarSingle_C Name=None_UAID_345A600DDC87A05202_1099359474 Archetype="/Game/Building/ActorBlueprints/Corner/SM_Wood01_InteriorPillarSingle.SM_Wood01_InteriorPillarSingle_C'/Game/Building/ActorBlueprints/Corner/SM_Wood01_InteriorPillarSingle.Default__SM_Wood01_InteriorPillarSingle_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87485902_1770853707 ActorFolderPath="CP_Nuke_Build_9a" ExportPath="/Game/Building/ActorBlueprints/Corner/SM_Wood01_InteriorPillarSingle.SM_Wood01_InteriorPillarSingle_C'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099359474'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Corner/SM_Wood01_InteriorPillarSingle.Default__SM_Wood01_InteriorPillarSingle_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099359474.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Corner/SM_Wood01_InteriorPillarSingle.Default__SM_Wood01_InteriorPillarSingle_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099359474.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Corner/SM_Wood01_InteriorPillarSingle.Default__SM_Wood01_InteriorPillarSingle_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099359474.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099359474.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_WoodHouseSet_01_14'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=256.000000,Y=-256.000000,Z=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099359474.BoundingBoxComponent'"
+            CachedMaxDrawDistance=16102.416992
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099359474.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=16102.416992
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=16102.416992
+         DataVersion=1
+         SavedActorGuid=A76221894AA74477DE75DC93DF36AA17
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_Wood01_InteriorPillarSingle1"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/S_Parking_Spot_Stopper.S_Parking_Spot_Stopper_C Name=None_UAID_345A600DDC87A05202_1099355469 Archetype="/Game/Building/ActorBlueprints/Prop/S_Parking_Spot_Stopper.S_Parking_Spot_Stopper_C'/Game/Building/ActorBlueprints/Prop/S_Parking_Spot_Stopper.Default__S_Parking_Spot_Stopper_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87485902_1770853707 ActorFolderPath="CP_Nuke_Build_9a" ExportPath="/Game/Building/ActorBlueprints/Prop/S_Parking_Spot_Stopper.S_Parking_Spot_Stopper_C'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099355469'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/S_Parking_Spot_Stopper.Default__S_Parking_Spot_Stopper_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099355469.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/S_Parking_Spot_Stopper.Default__S_Parking_Spot_Stopper_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099355469.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/S_Parking_Spot_Stopper.Default__S_Parking_Spot_Stopper_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099355469.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099355469.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_ParkingBlock_27'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-2.789063,Y=-249.372070,Z=-8.949219)
+            RelativeRotation=(Pitch=0.000007,Yaw=0.809532,Roll=0.000036)
+            RelativeScale3D=(X=2.000000,Y=2.300000,Z=2.200000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099355469.BoundingBoxComponent'"
+            CachedMaxDrawDistance=19910.802734
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.None_UAID_345A600DDC87A05202_1099355469.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=19910.802734
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=19910.802734
+         DataVersion=1
+         SavedActorGuid=BF6F68D24124FD2A7AF69FBC2A3510C9
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="S_Parking_Spot_Stopper58"
+      End Actor
+      Begin Actor Class=/Script/FortniteGame.FortPlaysetRoot Name=FortPlaysetRoot_UAID_345A600DDC87485902_1770853707 Archetype="/Script/FortniteGame.FortPlaysetRoot'/Script/FortniteGame.Default__FortPlaysetRoot'" ActorFolderPath="CP_Nuke_Build_9a" ExportPath="/Script/FortniteGame.FortPlaysetRoot'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.FortPlaysetRoot_UAID_345A600DDC87485902_1770853707'"
+         Begin Object Class=/Script/Engine.SceneComponent Name="DefaultSceneRoot" Archetype="/Script/Engine.SceneComponent'/Script/FortniteGame.Default__FortPlaysetRoot:DefaultSceneRoot'" ExportPath="/Script/Engine.SceneComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.FortPlaysetRoot_UAID_345A600DDC87485902_1770853707.DefaultSceneRoot'"
+         End Object
+         Begin Object Name="DefaultSceneRoot" ExportPath="/Script/Engine.SceneComponent'/Main/Maps/Prefabs/Nuke_Build_9a.Nuke_Build_9a:PersistentLevel.FortPlaysetRoot_UAID_345A600DDC87485902_1770853707.DefaultSceneRoot'"
+         End Object
+         SavedActorGuid=F721656943A36994CFBFC5939F6B9643
+         PlaysetPackagePathName="/Game/Playsets/PID_019_PG_PleasantPark_M_House_g_GP.PID_019_PG_PleasantPark_M_House_g_GP"
+         ActorLabel="CP_Nuke_Build_9a"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map
+Begin FolderList
+	Folder=CP_Nuke_Build_9a
+End FolderList

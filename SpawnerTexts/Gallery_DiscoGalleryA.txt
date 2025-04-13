@@ -1,0 +1,451 @@
+Begin Map
+   Begin Level
+      Begin Actor Class=/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_Crate06.Athena_Prop_Storage_Crate06_C Name=Actor_Athena_Prop_Storage_Crate06_UAID_345A600DDC87C35102_2108286404 Archetype="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_Crate06.Athena_Prop_Storage_Crate06_C'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_Crate06.Default__Athena_Prop_Storage_Crate06_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87415902_1843491339 ActorFolderPath="Disco Gallery A" ExportPath="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_Crate06.Athena_Prop_Storage_Crate06_C'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Athena_Prop_Storage_Crate06_UAID_345A600DDC87C35102_2108286404'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_Crate06.Default__Athena_Prop_Storage_Crate06_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Athena_Prop_Storage_Crate06_UAID_345A600DDC87C35102_2108286404.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_Crate06.Default__Athena_Prop_Storage_Crate06_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Athena_Prop_Storage_Crate06_UAID_345A600DDC87C35102_2108286404.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_Crate06.Default__Athena_Prop_Storage_Crate06_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Athena_Prop_Storage_Crate06_UAID_345A600DDC87C35102_2108286404.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Athena_Prop_Storage_Crate06_UAID_345A600DDC87C35102_2108286404.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_EquipmentCrates_4'"
+            CachedMaxDrawDistance=5736.735840
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1952.000000,Y=776.000000,Z=1.147671)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Athena_Prop_Storage_Crate06_UAID_345A600DDC87C35102_2108286404.BoundingBoxComponent'"
+            CachedMaxDrawDistance=5736.735840
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Athena_Prop_Storage_Crate06_UAID_345A600DDC87C35102_2108286404.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=5736.735840
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=5736.735840
+         DataVersion=1
+         SavedActorGuid=822EAC5E4A20B456A74A869454C434AB
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Athena_Prop_Storage_Crate06_0"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/DanceClub_SpeakerCluster_01.DanceClub_SpeakerCluster_01_C Name=Actor_DanceClub_SpeakerCluster_01_UAID_345A600DDC87C35102_2108306405 Archetype="/Game/Building/ActorBlueprints/Prop/DanceClub_SpeakerCluster_01.DanceClub_SpeakerCluster_01_C'/Game/Building/ActorBlueprints/Prop/DanceClub_SpeakerCluster_01.Default__DanceClub_SpeakerCluster_01_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87415902_1843491339 ActorFolderPath="Disco Gallery A" ExportPath="/Game/Building/ActorBlueprints/Prop/DanceClub_SpeakerCluster_01.DanceClub_SpeakerCluster_01_C'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_DanceClub_SpeakerCluster_01_UAID_345A600DDC87C35102_2108306405'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/DanceClub_SpeakerCluster_01.Default__DanceClub_SpeakerCluster_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_DanceClub_SpeakerCluster_01_UAID_345A600DDC87C35102_2108306405.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/DanceClub_SpeakerCluster_01.Default__DanceClub_SpeakerCluster_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_DanceClub_SpeakerCluster_01_UAID_345A600DDC87C35102_2108306405.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/DanceClub_SpeakerCluster_01.Default__DanceClub_SpeakerCluster_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_DanceClub_SpeakerCluster_01_UAID_345A600DDC87C35102_2108306405.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_DanceClub_SpeakerCluster_01_UAID_345A600DDC87C35102_2108306405.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_DanceClub_Speakers_1'"
+            CachedMaxDrawDistance=13913.406250
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1160.000200,Y=1353.618700,Z=37.583360)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_DanceClub_SpeakerCluster_01_UAID_345A600DDC87C35102_2108306405.BoundingBoxComponent'"
+            CachedMaxDrawDistance=13913.406250
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_DanceClub_SpeakerCluster_01_UAID_345A600DDC87C35102_2108306405.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=13913.406250
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=13913.406250
+         DataVersion=1
+         SavedActorGuid=5782F6C64F1D5C1EC35CD1805493594B
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="DanceClub_SpeakerCluster_01_0"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/SpeakerStack_01.SpeakerStack_01_C Name=Actor_SpeakerStack_01_UAID_345A600DDC87C35102_2108331406 Archetype="/Game/Building/ActorBlueprints/Prop/SpeakerStack_01.SpeakerStack_01_C'/Game/Building/ActorBlueprints/Prop/SpeakerStack_01.Default__SpeakerStack_01_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87415902_1843491339 ActorFolderPath="Disco Gallery A" ExportPath="/Game/Building/ActorBlueprints/Prop/SpeakerStack_01.SpeakerStack_01_C'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_SpeakerStack_01_UAID_345A600DDC87C35102_2108331406'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/SpeakerStack_01.Default__SpeakerStack_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_SpeakerStack_01_UAID_345A600DDC87C35102_2108331406.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/SpeakerStack_01.Default__SpeakerStack_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_SpeakerStack_01_UAID_345A600DDC87C35102_2108331406.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/SpeakerStack_01.Default__SpeakerStack_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_SpeakerStack_01_UAID_345A600DDC87C35102_2108331406.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Game/Sounds/Fort_Audio_Blueprints/MusicParty/MusicPartyPropComponent.MusicPartyPropComponent_C Name="MusicPartyPropComponent" Archetype="/Game/Sounds/Fort_Audio_Blueprints/MusicParty/MusicPartyPropComponent.MusicPartyPropComponent_C'/Game/Building/ActorBlueprints/Prop/SpeakerStack_01.SpeakerStack_01_C:MusicPartyPropComponent_GEN_VARIABLE'" ExportPath="/Game/Sounds/Fort_Audio_Blueprints/MusicParty/MusicPartyPropComponent.MusicPartyPropComponent_C'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_SpeakerStack_01_UAID_345A600DDC87C35102_2108331406.MusicPartyPropComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.AudioComponent Name="Audio" Archetype="/Script/Engine.AudioComponent'/Game/Building/ActorBlueprints/Prop/SpeakerStack_01.SpeakerStack_01_C:Audio_GEN_VARIABLE'" ExportPath="/Script/Engine.AudioComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_SpeakerStack_01_UAID_345A600DDC87C35102_2108331406.Audio'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_SpeakerStack_01_UAID_345A600DDC87C35102_2108331406.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Speakers_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-712.802250,Y=722.848140,Z=-0.035294)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999950,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_SpeakerStack_01_UAID_345A600DDC87C35102_2108331406.BoundingBoxComponent'"
+            CachedMaxDrawDistance=18755.322266
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_SpeakerStack_01_UAID_345A600DDC87C35102_2108331406.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=18755.322266
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="MusicPartyPropComponent" ExportPath="/Game/Sounds/Fort_Audio_Blueprints/MusicParty/MusicPartyPropComponent.MusicPartyPropComponent_C'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_SpeakerStack_01_UAID_345A600DDC87C35102_2108331406.MusicPartyPropComponent'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Audio" ExportPath="/Script/Engine.AudioComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_SpeakerStack_01_UAID_345A600DDC87C35102_2108331406.Audio'"
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         MusicPartyPropComponent="MusicPartyPropComponent"
+         Audio="Audio"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=18755.322266
+         DataVersion=1
+         SavedActorGuid=503D0584405BC4C8D0A14DAFE62DFE69
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SpeakerStack_01_0"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/Stage.Stage_C Name=Actor_Stage_UAID_345A600DDC87C35102_2108346407 Archetype="/Game/Building/ActorBlueprints/Prop/Stage.Stage_C'/Game/Building/ActorBlueprints/Prop/Stage.Default__Stage_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87415902_1843491339 ActorFolderPath="Disco Gallery A" ExportPath="/Game/Building/ActorBlueprints/Prop/Stage.Stage_C'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_UAID_345A600DDC87C35102_2108346407'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Stage.Default__Stage_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_UAID_345A600DDC87C35102_2108346407.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/Stage.Default__Stage_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_UAID_345A600DDC87C35102_2108346407.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Stage.Default__Stage_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_UAID_345A600DDC87C35102_2108346407.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_UAID_345A600DDC87C35102_2108346407.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Stage_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-72.084230,Y=2127.802000,Z=0.761642)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_UAID_345A600DDC87C35102_2108346407.BoundingBoxComponent'"
+            CachedMaxDrawDistance=21766.496094
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_UAID_345A600DDC87C35102_2108346407.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=21766.496094
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=21766.496094
+         DataVersion=1
+         SavedActorGuid=E93DBCC2491A61D0DA352CAADAA56B50
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Stage_0"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/Stage_DanceFloor_Reactive.Stage_DanceFloor_Reactive_C Name=Actor_Stage_DanceFloor_Reactive_UAID_345A600DDC87C35102_2108366408 Archetype="/Game/Building/ActorBlueprints/Prop/Stage_DanceFloor_Reactive.Stage_DanceFloor_Reactive_C'/Game/Building/ActorBlueprints/Prop/Stage_DanceFloor_Reactive.Default__Stage_DanceFloor_Reactive_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87415902_1843491339 ActorFolderPath="Disco Gallery A" ExportPath="/Game/Building/ActorBlueprints/Prop/Stage_DanceFloor_Reactive.Stage_DanceFloor_Reactive_C'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_DanceFloor_Reactive_UAID_345A600DDC87C35102_2108366408'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Stage_DanceFloor_Reactive.Default__Stage_DanceFloor_Reactive_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_DanceFloor_Reactive_UAID_345A600DDC87C35102_2108366408.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/Stage_DanceFloor_Reactive.Default__Stage_DanceFloor_Reactive_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_DanceFloor_Reactive_UAID_345A600DDC87C35102_2108366408.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Stage_DanceFloor_Reactive.Default__Stage_DanceFloor_Reactive_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_DanceFloor_Reactive_UAID_345A600DDC87C35102_2108366408.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.TimelineComponent Name="OverallGlow" ExportPath="/Script/Engine.TimelineComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_DanceFloor_Reactive_UAID_345A600DDC87C35102_2108366408.OverallGlow'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="CharacterDetection" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/Stage_DanceFloor_Reactive.Stage_DanceFloor_Reactive_C:CharacterDetection_GEN_VARIABLE'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_DanceFloor_Reactive_UAID_345A600DDC87C35102_2108366408.CharacterDetection'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_DanceFloor_Reactive_UAID_345A600DDC87C35102_2108366408.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_DanceFloor_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1967.991200,Y=-160.000000,Z=8.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_DanceFloor_Reactive_UAID_345A600DDC87C35102_2108366408.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24649.619141
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_DanceFloor_Reactive_UAID_345A600DDC87C35102_2108366408.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24649.619141
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="OverallGlow" ExportPath="/Script/Engine.TimelineComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_DanceFloor_Reactive_UAID_345A600DDC87C35102_2108366408.OverallGlow'"
+            TheTimeline=(LengthMode=TL_TimelineLength,Length=1.000000,PlayRate=3.000000,InterpFloats=((FloatCurve="/Script/Engine.CurveFloat'/Game/Building/ActorBlueprints/Prop/Stage_DanceFloor_Reactive.Stage_DanceFloor_Reactive_C:CurveFloat_0'",TrackName="FullPanelGlow",FloatPropertyName="OverallGlow_FullPanelGlow_7CABB34A4AD05402B742F0972E69E2F3")),TimelinePostUpdateFunc=Actor_Stage_DanceFloor_Reactive_UAID_345A600DDC87C35102_2108366408.OverallGlow__UpdateFunc,TimelineFinishedFunc=Actor_Stage_DanceFloor_Reactive_UAID_345A600DDC87C35102_2108366408.OverallGlow__FinishedFunc,PropertySetObject="/Game/Building/ActorBlueprints/Prop/Stage_DanceFloor_Reactive.Stage_DanceFloor_Reactive_C'Actor_Stage_DanceFloor_Reactive_UAID_345A600DDC87C35102_2108366408'",DirectionPropertyName="OverallGlow__Direction_7CABB34A4AD05402B742F0972E69E2F3")
+            bNetAddressable=True
+            CreationMethod=UserConstructionScript
+         End Object
+         Begin Object Name="CharacterDetection" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_DanceFloor_Reactive_UAID_345A600DDC87C35102_2108366408.CharacterDetection'"
+            CachedMaxDrawDistance=24649.619141
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         CharacterDetection="CharacterDetection"
+         OverallGlow="/Script/Engine.TimelineComponent'OverallGlow'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24649.619141
+         DataVersion=1
+         SavedActorGuid=AEA18ABC42B1FC1D17EB9D9E640F351B
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Stage_DanceFloor_Reactive_0"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/Stage_DanceFloor_Reactive_02.Stage_DanceFloor_Reactive_02_C Name=Actor_Stage_DanceFloor_Reactive_02_UAID_345A600DDC87C35102_2108380409 Archetype="/Game/Building/ActorBlueprints/Prop/Stage_DanceFloor_Reactive_02.Stage_DanceFloor_Reactive_02_C'/Game/Building/ActorBlueprints/Prop/Stage_DanceFloor_Reactive_02.Default__Stage_DanceFloor_Reactive_02_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87415902_1843491339 ActorFolderPath="Disco Gallery A" ExportPath="/Game/Building/ActorBlueprints/Prop/Stage_DanceFloor_Reactive_02.Stage_DanceFloor_Reactive_02_C'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_DanceFloor_Reactive_02_UAID_345A600DDC87C35102_2108380409'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Stage_DanceFloor_Reactive_02.Default__Stage_DanceFloor_Reactive_02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_DanceFloor_Reactive_02_UAID_345A600DDC87C35102_2108380409.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/Stage_DanceFloor_Reactive_02.Default__Stage_DanceFloor_Reactive_02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_DanceFloor_Reactive_02_UAID_345A600DDC87C35102_2108380409.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Stage_DanceFloor_Reactive_02.Default__Stage_DanceFloor_Reactive_02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_DanceFloor_Reactive_02_UAID_345A600DDC87C35102_2108380409.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.TimelineComponent Name="OverallGlow" ExportPath="/Script/Engine.TimelineComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_DanceFloor_Reactive_02_UAID_345A600DDC87C35102_2108380409.OverallGlow'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="CharacterDetection" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/Stage_DanceFloor_Reactive_02.Stage_DanceFloor_Reactive_02_C:CharacterDetection_GEN_VARIABLE'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_DanceFloor_Reactive_02_UAID_345A600DDC87C35102_2108380409.CharacterDetection'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_DanceFloor_Reactive_02_UAID_345A600DDC87C35102_2108380409.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_DanceFloor_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1119.994300,Y=-176.000120,Z=8.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_DanceFloor_Reactive_02_UAID_345A600DDC87C35102_2108380409.BoundingBoxComponent'"
+            CachedMaxDrawDistance=21275.673828
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_DanceFloor_Reactive_02_UAID_345A600DDC87C35102_2108380409.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=21275.673828
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="OverallGlow" ExportPath="/Script/Engine.TimelineComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_DanceFloor_Reactive_02_UAID_345A600DDC87C35102_2108380409.OverallGlow'"
+            TheTimeline=(LengthMode=TL_TimelineLength,Length=1.000000,PlayRate=3.000000,InterpFloats=((FloatCurve="/Script/Engine.CurveFloat'/Game/Building/ActorBlueprints/Prop/Stage_DanceFloor_Reactive.Stage_DanceFloor_Reactive_C:CurveFloat_0'",TrackName="FullPanelGlow",FloatPropertyName="OverallGlow_FullPanelGlow_7CABB34A4AD05402B742F0972E69E2F3")),TimelinePostUpdateFunc=Actor_Stage_DanceFloor_Reactive_02_UAID_345A600DDC87C35102_2108380409.OverallGlow__UpdateFunc,TimelineFinishedFunc=Actor_Stage_DanceFloor_Reactive_02_UAID_345A600DDC87C35102_2108380409.OverallGlow__FinishedFunc,PropertySetObject="/Game/Building/ActorBlueprints/Prop/Stage_DanceFloor_Reactive_02.Stage_DanceFloor_Reactive_02_C'Actor_Stage_DanceFloor_Reactive_02_UAID_345A600DDC87C35102_2108380409'",DirectionPropertyName="OverallGlow__Direction_7CABB34A4AD05402B742F0972E69E2F3")
+            bNetAddressable=True
+            CreationMethod=UserConstructionScript
+         End Object
+         Begin Object Name="CharacterDetection" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_DanceFloor_Reactive_02_UAID_345A600DDC87C35102_2108380409.CharacterDetection'"
+            CachedMaxDrawDistance=21275.673828
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         CharacterDetection="CharacterDetection"
+         OverallGlow="/Script/Engine.TimelineComponent'OverallGlow'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=21275.673828
+         DataVersion=1
+         SavedActorGuid=FAFCF3CA4CF8CA0F1F1C2AB72132C6CC
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Stage_DanceFloor_Reactive_02_0"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/Stage_DJ_Booth.Stage_DJ_Booth_C Name=Actor_Stage_DJ_Booth_UAID_345A600DDC87C35102_2108395410 Archetype="/Game/Building/ActorBlueprints/Prop/Stage_DJ_Booth.Stage_DJ_Booth_C'/Game/Building/ActorBlueprints/Prop/Stage_DJ_Booth.Default__Stage_DJ_Booth_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87415902_1843491339 ActorFolderPath="Disco Gallery A" ExportPath="/Game/Building/ActorBlueprints/Prop/Stage_DJ_Booth.Stage_DJ_Booth_C'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_DJ_Booth_UAID_345A600DDC87C35102_2108395410'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Stage_DJ_Booth.Default__Stage_DJ_Booth_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_DJ_Booth_UAID_345A600DDC87C35102_2108395410.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/Stage_DJ_Booth.Default__Stage_DJ_Booth_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_DJ_Booth_UAID_345A600DDC87C35102_2108395410.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Stage_DJ_Booth.Default__Stage_DJ_Booth_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_DJ_Booth_UAID_345A600DDC87C35102_2108395410.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_DJ_Booth_UAID_345A600DDC87C35102_2108395410.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Speakers_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-710.339500,Y=132.308600,Z=-0.464622)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999950,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_DJ_Booth_UAID_345A600DDC87C35102_2108395410.BoundingBoxComponent'"
+            CachedMaxDrawDistance=18481.708984
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_DJ_Booth_UAID_345A600DDC87C35102_2108395410.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=18481.708984
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=18481.708984
+         DataVersion=1
+         SavedActorGuid=405F4BED4E7F29FE2FFD21907AB0CF6F
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Stage_DJ_Booth_0"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/Stage_LightRig.Stage_LightRig_C Name=Actor_Stage_LightRig_UAID_345A600DDC87C35102_2108415411 Archetype="/Game/Building/ActorBlueprints/Prop/Stage_LightRig.Stage_LightRig_C'/Game/Building/ActorBlueprints/Prop/Stage_LightRig.Default__Stage_LightRig_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87415902_1843491339 ActorFolderPath="Disco Gallery A" ExportPath="/Game/Building/ActorBlueprints/Prop/Stage_LightRig.Stage_LightRig_C'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_LightRig_UAID_345A600DDC87C35102_2108415411'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Stage_LightRig.Default__Stage_LightRig_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_LightRig_UAID_345A600DDC87C35102_2108415411.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/Stage_LightRig.Default__Stage_LightRig_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_LightRig_UAID_345A600DDC87C35102_2108415411.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Stage_LightRig.Default__Stage_LightRig_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_LightRig_UAID_345A600DDC87C35102_2108415411.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_LightRig_UAID_345A600DDC87C35102_2108415411.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_DanceClub_Lights_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-53.203613,Y=661.759500,Z=378.102080)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999950,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_LightRig_UAID_345A600DDC87C35102_2108415411.BoundingBoxComponent'"
+            CachedMaxDrawDistance=25685.107422
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_LightRig_UAID_345A600DDC87C35102_2108415411.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=25685.107422
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=25685.107422
+         DataVersion=1
+         SavedActorGuid=CCDF8A6249D7D549B697C790B5573CED
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Stage_LightRig_0"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/Stage_Rig_01.Stage_Rig_01_C Name=Actor_Stage_Rig_01_UAID_345A600DDC87C35102_2108428412 Archetype="/Game/Building/ActorBlueprints/Prop/Stage_Rig_01.Stage_Rig_01_C'/Game/Building/ActorBlueprints/Prop/Stage_Rig_01.Default__Stage_Rig_01_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87415902_1843491339 ActorFolderPath="Disco Gallery A" ExportPath="/Game/Building/ActorBlueprints/Prop/Stage_Rig_01.Stage_Rig_01_C'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_Rig_01_UAID_345A600DDC87C35102_2108428412'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Stage_Rig_01.Default__Stage_Rig_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_Rig_01_UAID_345A600DDC87C35102_2108428412.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/Stage_Rig_01.Default__Stage_Rig_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_Rig_01_UAID_345A600DDC87C35102_2108428412.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Stage_Rig_01.Default__Stage_Rig_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_Rig_01_UAID_345A600DDC87C35102_2108428412.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_Rig_01_UAID_345A600DDC87C35102_2108428412.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_DanceClub_Lights_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-47.821655,Y=90.666200,Z=319.645570)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_Rig_01_UAID_345A600DDC87C35102_2108428412.BoundingBoxComponent'"
+            CachedMaxDrawDistance=19797.412109
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_Rig_01_UAID_345A600DDC87C35102_2108428412.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=19797.412109
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=19797.412109
+         DataVersion=1
+         SavedActorGuid=8F8D2469455BC76391AD1D8BAB0D0ED6
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Stage_Rig_01_0"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/Stage_Rig_02.Stage_Rig_02_C Name=Actor_Stage_Rig_02_UAID_345A600DDC87C35102_2108441413 Archetype="/Game/Building/ActorBlueprints/Prop/Stage_Rig_02.Stage_Rig_02_C'/Game/Building/ActorBlueprints/Prop/Stage_Rig_02.Default__Stage_Rig_02_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87415902_1843491339 ActorFolderPath="Disco Gallery A" ExportPath="/Game/Building/ActorBlueprints/Prop/Stage_Rig_02.Stage_Rig_02_C'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_Rig_02_UAID_345A600DDC87C35102_2108441413'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Stage_Rig_02.Default__Stage_Rig_02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_Rig_02_UAID_345A600DDC87C35102_2108441413.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/Stage_Rig_02.Default__Stage_Rig_02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_Rig_02_UAID_345A600DDC87C35102_2108441413.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Stage_Rig_02.Default__Stage_Rig_02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_Rig_02_UAID_345A600DDC87C35102_2108441413.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_Rig_02_UAID_345A600DDC87C35102_2108441413.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_DanceClub_Lights_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-35.695800,Y=1335.100200,Z=0.627808)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_Rig_02_UAID_345A600DDC87C35102_2108441413.BoundingBoxComponent'"
+            CachedMaxDrawDistance=15980.356445
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_Rig_02_UAID_345A600DDC87C35102_2108441413.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=15980.356445
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=15980.356445
+         DataVersion=1
+         SavedActorGuid=7CAB32A14BF408A5DD7732B5F7346446
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Stage_Rig_02_0"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/Stage_Stairs.Stage_Stairs_C Name=Actor_Stage_Stairs_UAID_345A600DDC87C35102_2108456414 Archetype="/Game/Building/ActorBlueprints/Prop/Stage_Stairs.Stage_Stairs_C'/Game/Building/ActorBlueprints/Prop/Stage_Stairs.Default__Stage_Stairs_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87415902_1843491339 ActorFolderPath="Disco Gallery A" ExportPath="/Game/Building/ActorBlueprints/Prop/Stage_Stairs.Stage_Stairs_C'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_Stairs_UAID_345A600DDC87C35102_2108456414'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Stage_Stairs.Default__Stage_Stairs_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_Stairs_UAID_345A600DDC87C35102_2108456414.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/Stage_Stairs.Default__Stage_Stairs_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_Stairs_UAID_345A600DDC87C35102_2108456414.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Stage_Stairs.Default__Stage_Stairs_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_Stairs_UAID_345A600DDC87C35102_2108456414.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_Stairs_UAID_345A600DDC87C35102_2108456414.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Stage_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-804.773200,Y=1535.812900,Z=0.761642)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999950,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_Stairs_UAID_345A600DDC87C35102_2108456414.BoundingBoxComponent'"
+            CachedMaxDrawDistance=20397.994141
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Stage_Stairs_UAID_345A600DDC87C35102_2108456414.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=20397.994141
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=20397.994141
+         DataVersion=1
+         SavedActorGuid=2DB27A6D453573BF8A2F7DB3FB58830C
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Stage_Stairs_0"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Containers/Storage_Crate05.Storage_Crate05_C Name=Actor_Storage_Crate05_UAID_345A600DDC87C35102_2108473415 Archetype="/Game/Building/ActorBlueprints/Containers/Storage_Crate05.Storage_Crate05_C'/Game/Building/ActorBlueprints/Containers/Storage_Crate05.Default__Storage_Crate05_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87415902_1843491339 ActorFolderPath="Disco Gallery A" ExportPath="/Game/Building/ActorBlueprints/Containers/Storage_Crate05.Storage_Crate05_C'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Storage_Crate05_UAID_345A600DDC87C35102_2108473415'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Containers/Storage_Crate05.Default__Storage_Crate05_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Storage_Crate05_UAID_345A600DDC87C35102_2108473415.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Containers/Storage_Crate05.Default__Storage_Crate05_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Storage_Crate05_UAID_345A600DDC87C35102_2108473415.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Containers/Storage_Crate05.Default__Storage_Crate05_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Storage_Crate05_UAID_345A600DDC87C35102_2108473415.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Storage_Crate05_UAID_345A600DDC87C35102_2108473415.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_EquipmentCrates_4'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1247.881100,Y=803.937600,Z=1.648727)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Storage_Crate05_UAID_345A600DDC87C35102_2108473415.BoundingBoxComponent'"
+            CachedMaxDrawDistance=7375.010742
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.Actor_Storage_Crate05_UAID_345A600DDC87C35102_2108473415.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=7375.010742
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=7375.010742
+         DataVersion=1
+         SavedActorGuid=AFD2D17F45B78D8ED778B486A81EDFFA
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Storage_Crate05_0"
+      End Actor
+      Begin Actor Class=/Script/FortniteGame.FortPlaysetRoot Name=FortPlaysetRoot_UAID_345A600DDC87415902_1843491339 Archetype="/Script/FortniteGame.FortPlaysetRoot'/Script/FortniteGame.Default__FortPlaysetRoot'" ActorFolderPath="Disco Gallery A" ExportPath="/Script/FortniteGame.FortPlaysetRoot'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.FortPlaysetRoot_UAID_345A600DDC87415902_1843491339'"
+         Begin Object Class=/Script/Engine.SceneComponent Name="DefaultSceneRoot" Archetype="/Script/Engine.SceneComponent'/Script/FortniteGame.Default__FortPlaysetRoot:DefaultSceneRoot'" ExportPath="/Script/Engine.SceneComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.FortPlaysetRoot_UAID_345A600DDC87415902_1843491339.DefaultSceneRoot'"
+         End Object
+         Begin Object Name="DefaultSceneRoot" ExportPath="/Script/Engine.SceneComponent'/Main/Maps/Prefabs/DiscoGalleryA.DiscoGalleryA:PersistentLevel.FortPlaysetRoot_UAID_345A600DDC87415902_1843491339.DefaultSceneRoot'"
+         End Object
+         SavedActorGuid=420903104F6784F231BD51A7DCC6AD91
+         PlaysetPackagePathName="/Game/Playsets/PID_019_PG_PleasantPark_M_House_g_GP.PID_019_PG_PleasantPark_M_House_g_GP"
+         ActorLabel="Disco Gallery A"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map
+Begin FolderList
+	Folder=Disco Gallery A
+End FolderList
