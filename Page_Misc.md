@@ -1,8 +1,6 @@
 
 **[Back To Table of Contents](/Table%20of%20Contents.md)**
-# Chapter 1 Prefabs
-
-# Snobby Shores
+# Miscellaneous
 
 | Icon | Playset Name w/ Author | Extra Info |
 |-----------------------------------------|-----------------|-----------------|
