@@ -1,0 +1,471 @@
+Begin Map
+   Begin Level
+      Begin Actor Class=/Script/FortniteGame.FortPlaysetRoot Name=FortPlaysetRoot_UAID_345A600DDC87535F02_1969352624 Archetype="/Script/FortniteGame.FortPlaysetRoot'/Script/FortniteGame.Default__FortPlaysetRoot'" ActorFolderPath="Cyber City Building Prop Gallery C" ExportPath="/Script/FortniteGame.FortPlaysetRoot'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.FortPlaysetRoot_UAID_345A600DDC87535F02_1969352624'"
+         Begin Object Class=/Script/Engine.SceneComponent Name="DefaultSceneRoot" Archetype="/Script/Engine.SceneComponent'/Script/FortniteGame.Default__FortPlaysetRoot:DefaultSceneRoot'" ExportPath="/Script/Engine.SceneComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.FortPlaysetRoot_UAID_345A600DDC87535F02_1969352624.DefaultSceneRoot'"
+         End Object
+         Begin Object Name="DefaultSceneRoot" ExportPath="/Script/Engine.SceneComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.FortPlaysetRoot_UAID_345A600DDC87535F02_1969352624.DefaultSceneRoot'"
+         End Object
+         SavedActorGuid=00000000000000000000000012C73BBF
+         PlaysetPackagePathName="/CRP_Sunburst/SetupAssets/Maps/PID_CP_Props_Sunburst_Bldg_c"
+         ActorLabel="Cyber City Building Prop Gallery C"
+      End Actor
+      Begin Actor Class=/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_01_Base_01b.CP_Sunburst_SciFiCity_Bldg_01_Base_01b_C Name=CP_Sunburst_SciFiCity_Bldg_01_Base_01b_C_UAID_345A600DDC87535F02_1969336619 Archetype="/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_01_Base_01b.CP_Sunburst_SciFiCity_Bldg_01_Base_01b_C'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_01_Base_01b.Default__CP_Sunburst_SciFiCity_Bldg_01_Base_01b_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87535F02_1969352624 ActorFolderPath="Cyber City Building Prop Gallery C" ExportPath="/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_01_Base_01b.CP_Sunburst_SciFiCity_Bldg_01_Base_01b_C'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_01_Base_01b_C_UAID_345A600DDC87535F02_1969336619'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_01_Base_01b.Default__CP_Sunburst_SciFiCity_Bldg_01_Base_01b_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_01_Base_01b_C_UAID_345A600DDC87535F02_1969336619.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_01_Base_01b.Default__CP_Sunburst_SciFiCity_Bldg_01_Base_01b_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_01_Base_01b_C_UAID_345A600DDC87535F02_1969336619.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_01_Base_01b.Default__CP_Sunburst_SciFiCity_Bldg_01_Base_01b_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_01_Base_01b_C_UAID_345A600DDC87535F02_1969336619.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="CP_Sunburst_SciFiCity_Bldg_01_Base_Sign_01" Archetype="/Script/Engine.StaticMeshComponent'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_01_Base_01b.CP_Sunburst_SciFiCity_Bldg_01_Base_01b_C:CP_Sunburst_SciFiCity_Bldg_01_Base_Sign_01_GEN_VARIABLE'" ExportPath="/Script/Engine.StaticMeshComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_01_Base_01b_C_UAID_345A600DDC87535F02_1969336619.CP_Sunburst_SciFiCity_Bldg_01_Base_Sign_01'"
+         End Object
+         Begin Object Class=/Script/Engine.ChildActorComponent Name="BP_Sunburst_Billboard_Bracket" Archetype="/Script/Engine.ChildActorComponent'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_01_Base_01b.CP_Sunburst_SciFiCity_Bldg_01_Base_01b_C:BP_Sunburst_Billboard_Bracket_GEN_VARIABLE'" ExportPath="/Script/Engine.ChildActorComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_01_Base_01b_C_UAID_345A600DDC87535F02_1969336619.BP_Sunburst_Billboard_Bracket'"
+         End Object
+         Begin Object Class=/Script/Engine.ChildActorComponent Name="BP_Sunburst_Billboard_Pose" Archetype="/Script/Engine.ChildActorComponent'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_01_Base_01b.CP_Sunburst_SciFiCity_Bldg_01_Base_01b_C:BP_Sunburst_Billboard_Pose_GEN_VARIABLE'" ExportPath="/Script/Engine.ChildActorComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_01_Base_01b_C_UAID_345A600DDC87535F02_1969336619.BP_Sunburst_Billboard_Pose'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_01_Base_01b_C_UAID_345A600DDC87535F02_1969336619.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Decals_Atls_Test_01_0'"
+            CachedMaxDrawDistance=39999.996094
+            RelativeLocation=(X=-2176.000000,Y=2048.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=180.000000,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_01_Base_01b_C_UAID_345A600DDC87535F02_1969336619.BoundingBoxComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_01_Base_01b_C_UAID_345A600DDC87535F02_1969336619.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="CP_Sunburst_SciFiCity_Bldg_01_Base_Sign_01" ExportPath="/Script/Engine.StaticMeshComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_01_Base_01b_C_UAID_345A600DDC87535F02_1969336619.CP_Sunburst_SciFiCity_Bldg_01_Base_Sign_01'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="BP_Sunburst_Billboard_Bracket" ExportPath="/Script/Engine.ChildActorComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_01_Base_01b_C_UAID_345A600DDC87535F02_1969336619.BP_Sunburst_Billboard_Bracket'"
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            bReplicates=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="BP_Sunburst_Billboard_Pose" ExportPath="/Script/Engine.ChildActorComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_01_Base_01b_C_UAID_345A600DDC87535F02_1969336619.BP_Sunburst_Billboard_Pose'"
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            bReplicates=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         BP_Sunburst_Billboard_Pose="BP_Sunburst_Billboard_Pose"
+         BP_Sunburst_Billboard_Bracket="BP_Sunburst_Billboard_Bracket"
+         CP_Sunburst_SciFiCity_Bldg_01_Base_Sign_01="CP_Sunburst_SciFiCity_Bldg_01_Base_Sign_01"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=39999.996094
+         SavedActorGuid=537D53984B7D40F2B1E277BB699A4C20
+         PlaysetPackagePathName="/CRP_Sunburst/SetupAssets/Maps/PID_CP_Props_Sunburst_Bldg_c"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Sunburst SciFiCity Bldg 01 Base 01b C"
+      End Actor
+      Begin Actor Class=/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_01_Mid_01b.CP_Sunburst_SciFiCity_Bldg_01_Mid_01b_C Name=CP_Sunburst_SciFiCity_Bldg_01_Mid_01b_C_UAID_345A600DDC87535F02_1969294606 Archetype="/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_01_Mid_01b.CP_Sunburst_SciFiCity_Bldg_01_Mid_01b_C'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_01_Mid_01b.Default__CP_Sunburst_SciFiCity_Bldg_01_Mid_01b_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87535F02_1969352624 ActorFolderPath="Cyber City Building Prop Gallery C" ExportPath="/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_01_Mid_01b.CP_Sunburst_SciFiCity_Bldg_01_Mid_01b_C'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_01_Mid_01b_C_UAID_345A600DDC87535F02_1969294606'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_01_Mid_01b.Default__CP_Sunburst_SciFiCity_Bldg_01_Mid_01b_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_01_Mid_01b_C_UAID_345A600DDC87535F02_1969294606.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_01_Mid_01b.Default__CP_Sunburst_SciFiCity_Bldg_01_Mid_01b_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_01_Mid_01b_C_UAID_345A600DDC87535F02_1969294606.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_01_Mid_01b.Default__CP_Sunburst_SciFiCity_Bldg_01_Mid_01b_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_01_Mid_01b_C_UAID_345A600DDC87535F02_1969294606.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="CP_Sunburst_SciFiCity_Bldg_01_Mid_01_Sign_02" Archetype="/Script/Engine.StaticMeshComponent'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_01_Mid_01b.CP_Sunburst_SciFiCity_Bldg_01_Mid_01b_C:CP_Sunburst_SciFiCity_Bldg_01_Mid_01_Sign_02_GEN_VARIABLE'" ExportPath="/Script/Engine.StaticMeshComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_01_Mid_01b_C_UAID_345A600DDC87535F02_1969294606.CP_Sunburst_SciFiCity_Bldg_01_Mid_01_Sign_02'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_01_Mid_01b_C_UAID_345A600DDC87535F02_1969294606.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Sunburst_SciFi_City_Metal_01_0'"
+            CachedMaxDrawDistance=39999.996094
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-3968.000000,Y=9984.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=180.000000,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_01_Mid_01b_C_UAID_345A600DDC87535F02_1969294606.BoundingBoxComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_01_Mid_01b_C_UAID_345A600DDC87535F02_1969294606.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="CP_Sunburst_SciFiCity_Bldg_01_Mid_01_Sign_02" ExportPath="/Script/Engine.StaticMeshComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_01_Mid_01b_C_UAID_345A600DDC87535F02_1969294606.CP_Sunburst_SciFiCity_Bldg_01_Mid_01_Sign_02'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         CP_Sunburst_SciFiCity_Bldg_01_Mid_01_Sign_02="CP_Sunburst_SciFiCity_Bldg_01_Mid_01_Sign_02"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=39999.996094
+         SavedActorGuid=FBD396D74D7E951A7BDB95A20376639A
+         PlaysetPackagePathName="/CRP_Sunburst/SetupAssets/Maps/PID_CP_Props_Sunburst_Bldg_c"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Sunburst SciFiCity Bldg 01 Mid 01b C"
+      End Actor
+      Begin Actor Class=/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_01_Top_01b.CP_Sunburst_SciFiCity_Bldg_01_Top_01b_C Name=CP_Sunburst_SciFiCity_Bldg_01_Top_01b_C_UAID_345A600DDC87535F02_1969296608 Archetype="/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_01_Top_01b.CP_Sunburst_SciFiCity_Bldg_01_Top_01b_C'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_01_Top_01b.Default__CP_Sunburst_SciFiCity_Bldg_01_Top_01b_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87535F02_1969352624 ActorFolderPath="Cyber City Building Prop Gallery C" ExportPath="/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_01_Top_01b.CP_Sunburst_SciFiCity_Bldg_01_Top_01b_C'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_01_Top_01b_C_UAID_345A600DDC87535F02_1969296608'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_01_Top_01b.Default__CP_Sunburst_SciFiCity_Bldg_01_Top_01b_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_01_Top_01b_C_UAID_345A600DDC87535F02_1969296608.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_01_Top_01b.Default__CP_Sunburst_SciFiCity_Bldg_01_Top_01b_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_01_Top_01b_C_UAID_345A600DDC87535F02_1969296608.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_01_Top_01b.Default__CP_Sunburst_SciFiCity_Bldg_01_Top_01b_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_01_Top_01b_C_UAID_345A600DDC87535F02_1969296608.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="CP_Sunburst_SciFiCity_Bldg_01_Top_01_Sign_01" Archetype="/Script/Engine.StaticMeshComponent'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_01_Top_01b.CP_Sunburst_SciFiCity_Bldg_01_Top_01b_C:CP_Sunburst_SciFiCity_Bldg_01_Top_01_Sign_01_GEN_VARIABLE'" ExportPath="/Script/Engine.StaticMeshComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_01_Top_01b_C_UAID_345A600DDC87535F02_1969296608.CP_Sunburst_SciFiCity_Bldg_01_Top_01_Sign_01'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_01_Top_01b_C_UAID_345A600DDC87535F02_1969296608.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Sunburst_SciFi_City_Metal_01_0'"
+            CachedMaxDrawDistance=39999.996094
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-7936.000000,Y=5888.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=180.000000,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_01_Top_01b_C_UAID_345A600DDC87535F02_1969296608.BoundingBoxComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_01_Top_01b_C_UAID_345A600DDC87535F02_1969296608.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="CP_Sunburst_SciFiCity_Bldg_01_Top_01_Sign_01" ExportPath="/Script/Engine.StaticMeshComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_01_Top_01b_C_UAID_345A600DDC87535F02_1969296608.CP_Sunburst_SciFiCity_Bldg_01_Top_01_Sign_01'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         CP_Sunburst_SciFiCity_Bldg_01_Top_01_Sign_01="CP_Sunburst_SciFiCity_Bldg_01_Top_01_Sign_01"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=39999.996094
+         SavedActorGuid=EE9776F84C23433F3EA9839CC5EA5091
+         PlaysetPackagePathName="/CRP_Sunburst/SetupAssets/Maps/PID_CP_Props_Sunburst_Bldg_c"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Sunburst SciFiCity Bldg 01 Top 01b C"
+      End Actor
+      Begin Actor Class=/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_02_Base_01b.CP_Sunburst_SciFiCity_Bldg_02_Base_01b_C Name=CP_Sunburst_SciFiCity_Bldg_02_Base_01b_C_UAID_345A600DDC87535F02_1969347622 Archetype="/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_02_Base_01b.CP_Sunburst_SciFiCity_Bldg_02_Base_01b_C'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_02_Base_01b.Default__CP_Sunburst_SciFiCity_Bldg_02_Base_01b_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87535F02_1969352624 ActorFolderPath="Cyber City Building Prop Gallery C" ExportPath="/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_02_Base_01b.CP_Sunburst_SciFiCity_Bldg_02_Base_01b_C'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_02_Base_01b_C_UAID_345A600DDC87535F02_1969347622'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_02_Base_01b.Default__CP_Sunburst_SciFiCity_Bldg_02_Base_01b_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_02_Base_01b_C_UAID_345A600DDC87535F02_1969347622.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_02_Base_01b.Default__CP_Sunburst_SciFiCity_Bldg_02_Base_01b_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_02_Base_01b_C_UAID_345A600DDC87535F02_1969347622.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_02_Base_01b.Default__CP_Sunburst_SciFiCity_Bldg_02_Base_01b_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_02_Base_01b_C_UAID_345A600DDC87535F02_1969347622.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.ChildActorComponent Name="BP_Sunburst_Billboard_Square" Archetype="/Script/Engine.ChildActorComponent'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_02_Base_01b.CP_Sunburst_SciFiCity_Bldg_02_Base_01b_C:BP_Sunburst_Billboard_Square_GEN_VARIABLE'" ExportPath="/Script/Engine.ChildActorComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_02_Base_01b_C_UAID_345A600DDC87535F02_1969347622.BP_Sunburst_Billboard_Square'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_02_Base_01b_C_UAID_345A600DDC87535F02_1969347622.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Sunburst_SciFi_City_Metal_01_0'"
+            CachedMaxDrawDistance=39999.996094
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-13696.000000,Y=2048.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=180.000000,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_02_Base_01b_C_UAID_345A600DDC87535F02_1969347622.BoundingBoxComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_02_Base_01b_C_UAID_345A600DDC87535F02_1969347622.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="BP_Sunburst_Billboard_Square" ExportPath="/Script/Engine.ChildActorComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_02_Base_01b_C_UAID_345A600DDC87535F02_1969347622.BP_Sunburst_Billboard_Square'"
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            bReplicates=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         BP_Sunburst_Billboard_Square="BP_Sunburst_Billboard_Square"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=39999.996094
+         SavedActorGuid=FE2FD36942BA453680176C84F1697EFB
+         PlaysetPackagePathName="/CRP_Sunburst/SetupAssets/Maps/PID_CP_Props_Sunburst_Bldg_c"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Sunburst SciFiCity Bldg 02 Base 01b C"
+      End Actor
+      Begin Actor Class=/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_02_Mid_01b.CP_Sunburst_SciFiCity_Bldg_02_Mid_01b_C Name=CP_Sunburst_SciFiCity_Bldg_02_Mid_01b_C_UAID_345A600DDC87535F02_1969295607 Archetype="/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_02_Mid_01b.CP_Sunburst_SciFiCity_Bldg_02_Mid_01b_C'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_02_Mid_01b.Default__CP_Sunburst_SciFiCity_Bldg_02_Mid_01b_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87535F02_1969352624 ActorFolderPath="Cyber City Building Prop Gallery C" ExportPath="/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_02_Mid_01b.CP_Sunburst_SciFiCity_Bldg_02_Mid_01b_C'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_02_Mid_01b_C_UAID_345A600DDC87535F02_1969295607'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_02_Mid_01b.Default__CP_Sunburst_SciFiCity_Bldg_02_Mid_01b_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_02_Mid_01b_C_UAID_345A600DDC87535F02_1969295607.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_02_Mid_01b.Default__CP_Sunburst_SciFiCity_Bldg_02_Mid_01b_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_02_Mid_01b_C_UAID_345A600DDC87535F02_1969295607.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_02_Mid_01b.Default__CP_Sunburst_SciFiCity_Bldg_02_Mid_01b_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_02_Mid_01b_C_UAID_345A600DDC87535F02_1969295607.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="CP_Sunburst_SciFiCity_Bldg_02_Mid_01_Sign" Archetype="/Script/Engine.StaticMeshComponent'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_02_Mid_01b.CP_Sunburst_SciFiCity_Bldg_02_Mid_01b_C:CP_Sunburst_SciFiCity_Bldg_02_Mid_01_Sign_GEN_VARIABLE'" ExportPath="/Script/Engine.StaticMeshComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_02_Mid_01b_C_UAID_345A600DDC87535F02_1969295607.CP_Sunburst_SciFiCity_Bldg_02_Mid_01_Sign'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_02_Mid_01b_C_UAID_345A600DDC87535F02_1969295607.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Sunburst_SciFi_City_Metal_01_0'"
+            CachedMaxDrawDistance=39999.996094
+            RelativeLocation=(X=-11776.000000,Y=9984.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=180.000000,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_02_Mid_01b_C_UAID_345A600DDC87535F02_1969295607.BoundingBoxComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_02_Mid_01b_C_UAID_345A600DDC87535F02_1969295607.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="CP_Sunburst_SciFiCity_Bldg_02_Mid_01_Sign" ExportPath="/Script/Engine.StaticMeshComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_02_Mid_01b_C_UAID_345A600DDC87535F02_1969295607.CP_Sunburst_SciFiCity_Bldg_02_Mid_01_Sign'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         CP_Sunburst_SciFiCity_Bldg_02_Mid_01_Sign="CP_Sunburst_SciFiCity_Bldg_02_Mid_01_Sign"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=39999.996094
+         SavedActorGuid=8EB36BE9440A56A5101BADA978A6F230
+         PlaysetPackagePathName="/CRP_Sunburst/SetupAssets/Maps/PID_CP_Props_Sunburst_Bldg_c"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Sunburst SciFiCity Bldg 02 Mid 01b C"
+      End Actor
+      Begin Actor Class=/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_02_Top_01.CP_Sunburst_SciFiCity_Bldg_02_Top_01_C Name=CP_Sunburst_SciFiCity_Bldg_02_Top_01_C_UAID_345A600DDC87535F02_1969291604 Archetype="/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_02_Top_01.CP_Sunburst_SciFiCity_Bldg_02_Top_01_C'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_02_Top_01.Default__CP_Sunburst_SciFiCity_Bldg_02_Top_01_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87535F02_1969352624 ActorFolderPath="Cyber City Building Prop Gallery C" ExportPath="/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_02_Top_01.CP_Sunburst_SciFiCity_Bldg_02_Top_01_C'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_02_Top_01_C_UAID_345A600DDC87535F02_1969291604'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_02_Top_01.Default__CP_Sunburst_SciFiCity_Bldg_02_Top_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_02_Top_01_C_UAID_345A600DDC87535F02_1969291604.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_02_Top_01.Default__CP_Sunburst_SciFiCity_Bldg_02_Top_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_02_Top_01_C_UAID_345A600DDC87535F02_1969291604.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_02_Top_01.Default__CP_Sunburst_SciFiCity_Bldg_02_Top_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_02_Top_01_C_UAID_345A600DDC87535F02_1969291604.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_02_Top_01_C_UAID_345A600DDC87535F02_1969291604.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Sunburst_SciFi_City_Metal_01_0'"
+            CachedMaxDrawDistance=39999.996094
+            RelativeLocation=(X=-2176.000000,Y=5888.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=180.000000,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_02_Top_01_C_UAID_345A600DDC87535F02_1969291604.BoundingBoxComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_02_Top_01_C_UAID_345A600DDC87535F02_1969291604.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=39999.996094
+         SavedActorGuid=4C8446184E2C9C55849842B46E75974B
+         PlaysetPackagePathName="/CRP_Sunburst/SetupAssets/Maps/PID_CP_Props_Sunburst_Bldg_c"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Sunburst SciFiCity Bldg 02 Top 01 C"
+      End Actor
+      Begin Actor Class=/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_03_Base_01b.CP_Sunburst_SciFiCity_Bldg_03_Base_01b_C Name=CP_Sunburst_SciFiCity_Bldg_03_Base_01b_C_UAID_345A600DDC87535F02_1969298610 Archetype="/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_03_Base_01b.CP_Sunburst_SciFiCity_Bldg_03_Base_01b_C'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_03_Base_01b.Default__CP_Sunburst_SciFiCity_Bldg_03_Base_01b_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87535F02_1969352624 ActorFolderPath="Cyber City Building Prop Gallery C" ExportPath="/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_03_Base_01b.CP_Sunburst_SciFiCity_Bldg_03_Base_01b_C'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_03_Base_01b_C_UAID_345A600DDC87535F02_1969298610'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_03_Base_01b.Default__CP_Sunburst_SciFiCity_Bldg_03_Base_01b_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_03_Base_01b_C_UAID_345A600DDC87535F02_1969298610.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_03_Base_01b.Default__CP_Sunburst_SciFiCity_Bldg_03_Base_01b_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_03_Base_01b_C_UAID_345A600DDC87535F02_1969298610.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_03_Base_01b.Default__CP_Sunburst_SciFiCity_Bldg_03_Base_01b_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_03_Base_01b_C_UAID_345A600DDC87535F02_1969298610.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="CP_Sunburst_SciFiCity_GraffitiDecal_01" Archetype="/Script/Engine.StaticMeshComponent'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_03_Base_01b.CP_Sunburst_SciFiCity_Bldg_03_Base_01b_C:CP_Sunburst_SciFiCity_GraffitiDecal_01_GEN_VARIABLE'" ExportPath="/Script/Engine.StaticMeshComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_03_Base_01b_C_UAID_345A600DDC87535F02_1969298610.CP_Sunburst_SciFiCity_GraffitiDecal_01'"
+         End Object
+         Begin Object Class=/Script/Engine.ChildActorComponent Name="BP_Sunburst_Billboard_Hex" Archetype="/Script/Engine.ChildActorComponent'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_03_Base_01b.CP_Sunburst_SciFiCity_Bldg_03_Base_01b_C:BP_Sunburst_Billboard_Hex_GEN_VARIABLE'" ExportPath="/Script/Engine.ChildActorComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_03_Base_01b_C_UAID_345A600DDC87535F02_1969298610.BP_Sunburst_Billboard_Hex'"
+         End Object
+         Begin Object Class=/Script/Engine.ChildActorComponent Name="BP_Sunburst_Billboard_Simple" Archetype="/Script/Engine.ChildActorComponent'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_03_Base_01b.CP_Sunburst_SciFiCity_Bldg_03_Base_01b_C:BP_Sunburst_Billboard_Simple_GEN_VARIABLE'" ExportPath="/Script/Engine.ChildActorComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_03_Base_01b_C_UAID_345A600DDC87535F02_1969298610.BP_Sunburst_Billboard_Simple'"
+         End Object
+         Begin Object Class=/Script/Engine.ChildActorComponent Name="BP_Sunburst_Billboard_HexType" Archetype="/Script/Engine.ChildActorComponent'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_03_Base_01b.CP_Sunburst_SciFiCity_Bldg_03_Base_01b_C:BP_Sunburst_Billboard_HexType_GEN_VARIABLE'" ExportPath="/Script/Engine.ChildActorComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_03_Base_01b_C_UAID_345A600DDC87535F02_1969298610.BP_Sunburst_Billboard_HexType'"
+         End Object
+         Begin Object Class=/Script/Engine.ChildActorComponent Name="BP_Sunburst_Billboard_Border" Archetype="/Script/Engine.ChildActorComponent'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_03_Base_01b.CP_Sunburst_SciFiCity_Bldg_03_Base_01b_C:BP_Sunburst_Billboard_Border_GEN_VARIABLE'" ExportPath="/Script/Engine.ChildActorComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_03_Base_01b_C_UAID_345A600DDC87535F02_1969298610.BP_Sunburst_Billboard_Border'"
+         End Object
+         Begin Object Class=/Script/Engine.ChildActorComponent Name="BP_Sunburst_Billboard_Star" Archetype="/Script/Engine.ChildActorComponent'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_03_Base_01b.CP_Sunburst_SciFiCity_Bldg_03_Base_01b_C:BP_Sunburst_Billboard_Star_GEN_VARIABLE'" ExportPath="/Script/Engine.ChildActorComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_03_Base_01b_C_UAID_345A600DDC87535F02_1969298610.BP_Sunburst_Billboard_Star'"
+         End Object
+         Begin Object Class=/Script/Engine.ChildActorComponent Name="BP_Sunburst_Billboard_Rect" Archetype="/Script/Engine.ChildActorComponent'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_03_Base_01b.CP_Sunburst_SciFiCity_Bldg_03_Base_01b_C:BP_Sunburst_Billboard_Rect_GEN_VARIABLE'" ExportPath="/Script/Engine.ChildActorComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_03_Base_01b_C_UAID_345A600DDC87535F02_1969298610.BP_Sunburst_Billboard_Rect'"
+         End Object
+         Begin Object Class=/Script/Engine.ChildActorComponent Name="BP_Sunburst_Billboard_Circle" Archetype="/Script/Engine.ChildActorComponent'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_03_Base_01b.CP_Sunburst_SciFiCity_Bldg_03_Base_01b_C:BP_Sunburst_Billboard_Circle_GEN_VARIABLE'" ExportPath="/Script/Engine.ChildActorComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_03_Base_01b_C_UAID_345A600DDC87535F02_1969298610.BP_Sunburst_Billboard_Circle'"
+         End Object
+         Begin Object Class=/Script/Engine.ChildActorComponent Name="BP_Sunburst_Billboard_Skew" Archetype="/Script/Engine.ChildActorComponent'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_03_Base_01b.CP_Sunburst_SciFiCity_Bldg_03_Base_01b_C:BP_Sunburst_Billboard_Skew_GEN_VARIABLE'" ExportPath="/Script/Engine.ChildActorComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_03_Base_01b_C_UAID_345A600DDC87535F02_1969298610.BP_Sunburst_Billboard_Skew'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_03_Base_01b_C_UAID_345A600DDC87535F02_1969298610.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Sunburst_SciFi_City_Metal_01_0'"
+            CachedMaxDrawDistance=39999.996094
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-7936.000000,Y=2048.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=180.000000,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_03_Base_01b_C_UAID_345A600DDC87535F02_1969298610.BoundingBoxComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_03_Base_01b_C_UAID_345A600DDC87535F02_1969298610.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="CP_Sunburst_SciFiCity_GraffitiDecal_01" ExportPath="/Script/Engine.StaticMeshComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_03_Base_01b_C_UAID_345A600DDC87535F02_1969298610.CP_Sunburst_SciFiCity_GraffitiDecal_01'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="BP_Sunburst_Billboard_Hex" ExportPath="/Script/Engine.ChildActorComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_03_Base_01b_C_UAID_345A600DDC87535F02_1969298610.BP_Sunburst_Billboard_Hex'"
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            bReplicates=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="BP_Sunburst_Billboard_Simple" ExportPath="/Script/Engine.ChildActorComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_03_Base_01b_C_UAID_345A600DDC87535F02_1969298610.BP_Sunburst_Billboard_Simple'"
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            bReplicates=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="BP_Sunburst_Billboard_HexType" ExportPath="/Script/Engine.ChildActorComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_03_Base_01b_C_UAID_345A600DDC87535F02_1969298610.BP_Sunburst_Billboard_HexType'"
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            bReplicates=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="BP_Sunburst_Billboard_Border" ExportPath="/Script/Engine.ChildActorComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_03_Base_01b_C_UAID_345A600DDC87535F02_1969298610.BP_Sunburst_Billboard_Border'"
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            bReplicates=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="BP_Sunburst_Billboard_Star" ExportPath="/Script/Engine.ChildActorComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_03_Base_01b_C_UAID_345A600DDC87535F02_1969298610.BP_Sunburst_Billboard_Star'"
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            bReplicates=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="BP_Sunburst_Billboard_Rect" ExportPath="/Script/Engine.ChildActorComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_03_Base_01b_C_UAID_345A600DDC87535F02_1969298610.BP_Sunburst_Billboard_Rect'"
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            bReplicates=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="BP_Sunburst_Billboard_Circle" ExportPath="/Script/Engine.ChildActorComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_03_Base_01b_C_UAID_345A600DDC87535F02_1969298610.BP_Sunburst_Billboard_Circle'"
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            bReplicates=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="BP_Sunburst_Billboard_Skew" ExportPath="/Script/Engine.ChildActorComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_03_Base_01b_C_UAID_345A600DDC87535F02_1969298610.BP_Sunburst_Billboard_Skew'"
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            bReplicates=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         BP_Sunburst_Billboard_Skew="BP_Sunburst_Billboard_Skew"
+         BP_Sunburst_Billboard_Circle="BP_Sunburst_Billboard_Circle"
+         BP_Sunburst_Billboard_Rect="BP_Sunburst_Billboard_Rect"
+         BP_Sunburst_Billboard_Star="BP_Sunburst_Billboard_Star"
+         BP_Sunburst_Billboard_Border="BP_Sunburst_Billboard_Border"
+         BP_Sunburst_Billboard_HexType="BP_Sunburst_Billboard_HexType"
+         BP_Sunburst_Billboard_Simple="BP_Sunburst_Billboard_Simple"
+         BP_Sunburst_Billboard_Hex="BP_Sunburst_Billboard_Hex"
+         CP_Sunburst_SciFiCity_GraffitiDecal_01="CP_Sunburst_SciFiCity_GraffitiDecal_01"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=39999.996094
+         SavedActorGuid=6D5D0562454FA16C5F1E8689ECEB2461
+         PlaysetPackagePathName="/CRP_Sunburst/SetupAssets/Maps/PID_CP_Props_Sunburst_Bldg_c"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Sunburst SciFiCity Bldg 03 Base 01b C"
+      End Actor
+      Begin Actor Class=/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_03_Mid_01.CP_Sunburst_SciFiCity_Bldg_03_Mid_01_C Name=CP_Sunburst_SciFiCity_Bldg_03_Mid_01_C_UAID_345A600DDC87535F02_1969293605 Archetype="/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_03_Mid_01.CP_Sunburst_SciFiCity_Bldg_03_Mid_01_C'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_03_Mid_01.Default__CP_Sunburst_SciFiCity_Bldg_03_Mid_01_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87535F02_1969352624 ActorFolderPath="Cyber City Building Prop Gallery C" ExportPath="/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_03_Mid_01.CP_Sunburst_SciFiCity_Bldg_03_Mid_01_C'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_03_Mid_01_C_UAID_345A600DDC87535F02_1969293605'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_03_Mid_01.Default__CP_Sunburst_SciFiCity_Bldg_03_Mid_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_03_Mid_01_C_UAID_345A600DDC87535F02_1969293605.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_03_Mid_01.Default__CP_Sunburst_SciFiCity_Bldg_03_Mid_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_03_Mid_01_C_UAID_345A600DDC87535F02_1969293605.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_03_Mid_01.Default__CP_Sunburst_SciFiCity_Bldg_03_Mid_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_03_Mid_01_C_UAID_345A600DDC87535F02_1969293605.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_03_Mid_01_C_UAID_345A600DDC87535F02_1969293605.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Sunburst_SciFi_City_Metal_01_0'"
+            CachedMaxDrawDistance=39999.996094
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-8064.000000,Y=13312.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=180.000000,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_03_Mid_01_C_UAID_345A600DDC87535F02_1969293605.BoundingBoxComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_03_Mid_01_C_UAID_345A600DDC87535F02_1969293605.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=39999.996094
+         SavedActorGuid=C997508B432A30A619E778BB168E338A
+         PlaysetPackagePathName="/CRP_Sunburst/SetupAssets/Maps/PID_CP_Props_Sunburst_Bldg_c"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Sunburst SciFiCity Bldg 03 Mid 01 C"
+      End Actor
+      Begin Actor Class=/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_03_Top_01b.CP_Sunburst_SciFiCity_Bldg_03_Top_01b_C Name=CP_Sunburst_SciFiCity_Bldg_03_Top_01b_C_UAID_345A600DDC87535F02_1969297609 Archetype="/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_03_Top_01b.CP_Sunburst_SciFiCity_Bldg_03_Top_01b_C'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_03_Top_01b.Default__CP_Sunburst_SciFiCity_Bldg_03_Top_01b_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87535F02_1969352624 ActorFolderPath="Cyber City Building Prop Gallery C" ExportPath="/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_03_Top_01b.CP_Sunburst_SciFiCity_Bldg_03_Top_01b_C'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_03_Top_01b_C_UAID_345A600DDC87535F02_1969297609'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_03_Top_01b.Default__CP_Sunburst_SciFiCity_Bldg_03_Top_01b_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_03_Top_01b_C_UAID_345A600DDC87535F02_1969297609.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_03_Top_01b.Default__CP_Sunburst_SciFiCity_Bldg_03_Top_01b_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_03_Top_01b_C_UAID_345A600DDC87535F02_1969297609.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_03_Top_01b.Default__CP_Sunburst_SciFiCity_Bldg_03_Top_01b_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_03_Top_01b_C_UAID_345A600DDC87535F02_1969297609.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="CP_Sunburst_SciFiCity_Bldg_03_Top_01_Sign_02" Archetype="/Script/Engine.StaticMeshComponent'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_03_Top_01b.CP_Sunburst_SciFiCity_Bldg_03_Top_01b_C:CP_Sunburst_SciFiCity_Bldg_03_Top_01_Sign_02_GEN_VARIABLE'" ExportPath="/Script/Engine.StaticMeshComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_03_Top_01b_C_UAID_345A600DDC87535F02_1969297609.CP_Sunburst_SciFiCity_Bldg_03_Top_01_Sign_02'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="CP_Sunburst_SciFiCity_Bldg_03_Top_01_Sign_01" Archetype="/Script/Engine.StaticMeshComponent'/CRP_Sunburst/SetupAssets/Blueprints/CP_Sunburst_SciFiCity_Bldg_03_Top_01b.CP_Sunburst_SciFiCity_Bldg_03_Top_01b_C:CP_Sunburst_SciFiCity_Bldg_03_Top_01_Sign_01_GEN_VARIABLE'" ExportPath="/Script/Engine.StaticMeshComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_03_Top_01b_C_UAID_345A600DDC87535F02_1969297609.CP_Sunburst_SciFiCity_Bldg_03_Top_01_Sign_01'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_03_Top_01b_C_UAID_345A600DDC87535F02_1969297609.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Sunburst_SciFi_City_Metal_01_0'"
+            CachedMaxDrawDistance=39999.996094
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-13696.000000,Y=5888.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=180.000000,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_03_Top_01b_C_UAID_345A600DDC87535F02_1969297609.BoundingBoxComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_03_Top_01b_C_UAID_345A600DDC87535F02_1969297609.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="CP_Sunburst_SciFiCity_Bldg_03_Top_01_Sign_02" ExportPath="/Script/Engine.StaticMeshComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_03_Top_01b_C_UAID_345A600DDC87535F02_1969297609.CP_Sunburst_SciFiCity_Bldg_03_Top_01_Sign_02'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="CP_Sunburst_SciFiCity_Bldg_03_Top_01_Sign_01" ExportPath="/Script/Engine.StaticMeshComponent'/PrefabStorage/CP_IconCaptureLevel.CP_IconCaptureLevel:PersistentLevel.CP_Sunburst_SciFiCity_Bldg_03_Top_01b_C_UAID_345A600DDC87535F02_1969297609.CP_Sunburst_SciFiCity_Bldg_03_Top_01_Sign_01'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         CP_Sunburst_SciFiCity_Bldg_03_Top_01_Sign_01="CP_Sunburst_SciFiCity_Bldg_03_Top_01_Sign_01"
+         CP_Sunburst_SciFiCity_Bldg_03_Top_01_Sign_02="CP_Sunburst_SciFiCity_Bldg_03_Top_01_Sign_02"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=39999.996094
+         SavedActorGuid=7478A30A4C859E07B39D858A1C929703
+         PlaysetPackagePathName="/CRP_Sunburst/SetupAssets/Maps/PID_CP_Props_Sunburst_Bldg_c"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Sunburst SciFiCity Bldg 03 Top 01b C"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map
