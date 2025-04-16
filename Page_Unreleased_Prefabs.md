@@ -18,6 +18,11 @@
 | <img src=".assets/PG_McGuffinsGalleryB.png" width="256"/> | **[MC Guffins Gallery B](SpawnerTexts/Gallery_McGuffinsGalleryB.txt)**<br>**(Ported by: akira_v9)**<br><br>**Source: Unreleased** | Visually Modified: ❌<br>Requires External Download: ❌|
 | <img src=".assets/PG_ModernHouseGalleryB.png" width="256"/> | **[Modern House Gallery B](SpawnerTexts/Gallery_ModernHouseGalleryB.txt)**<br>**(Ported by: akira_v9)**<br><br>**Source: Unreleased** | Visually Modified: ❌<br>Requires External Download: ❌|
 | <img src=".assets/PG_NOMSGalleryB.png" width="256"/> | **[NOMS Gallery B](SpawnerTexts/Gallery_NOMSGalleryB.txt)**<br>**(Ported by: akira_v9)**<br><br>**Source: Unreleased** | Visually Modified: ❌<br>Requires External Download: ❌|
+
+# Nuke
+
+| Icon | Playset Name w/ Author | Extra Info |
+|-----------------------------------------|-----------------|-----------------|
 | <img src=".assets/PP_CP_Nuke_Build_1a.png" width="256"/> | **[Nuke_Build_1a](SpawnerTexts/Prefab_CP_Nuke_Build_1a.txt)**<br>**(Ported by: akira_v9)**<br><br>**Source: Unreleased** | Visually Modified: ❌<br>Requires External Download: ❌|
 | <img src=".assets/PP_CP_Nuke_Build_1a.png" width="256"/> | **[Nuke_Build_1b](SpawnerTexts/Prefab_CP_Nuke_Build_1b.txt)**<br>**(Ported by: akira_v9)**<br><br>**Source: Unreleased** | Visually Modified: ❌<br>Requires External Download: ❌|
 | <img src=".assets/PP_CP_Nuke_Build_1a.png" width="256"/> | **[Nuke_Build_1c](SpawnerTexts/Prefab_CP_Nuke_Build_1c.txt)**<br>**(Ported by: akira_v9)**<br><br>**Source: Unreleased** | Visually Modified: ❌<br>Requires External Download: ❌|
@@ -53,6 +58,11 @@
 | <img src=".assets/PP_Nuke_Build_Ramp.png" width="256"/> | **[Nuke_Build_Ramp](SpawnerTexts/Prefab_Nuke_Build_Ramp.txt)**<br>**(Ported by: akira_v9)**<br><br>**Source: Unreleased** | Visually Modified: ❌<br>Requires External Download: ❌|
 | <img src=".assets/PP_Nuke_Build_Ramp.png" width="256"/> | **[Nuke_Build_Straight](SpawnerTexts/Prefab_Nuke_Build_Straight.txt)**<br>**(Ported by: akira_v9)**<br><br>**Source: Unreleased** | Visually Modified: ❌<br>Requires External Download: ❌|
 | <img src=".assets/PP_Nuke_Build_Ramp.png" width="256"/> | **[Nuke_Build_Turn](SpawnerTexts/Prefab_Nuke_Build_Turn.txt)**<br>**(Ported by: akira_v9)**<br><br>**Source: Unreleased** | Visually Modified: ❌<br>Requires External Download: ❌|
+
+# Obstacle Course
+
+| Icon | Playset Name w/ Author | Extra Info |
+|-----------------------------------------|-----------------|-----------------|
 | <img src=".assets/PG_Obstacle_L_Course_A_G.png" width="256"/> | **[Obstacle_L_Course_A_G](SpawnerTexts/Gallery_Obstacle_L_Course_A_G.txt)**<br>**(Ported by: akira_v9)**<br><br>**Source: Unreleased** | Visually Modified: ❌<br>Requires External Download: ❌|
 | <img src=".assets/PG_Obstacle_L_Course_B_G.png" width="256"/> | **[Obstacle_L_Course_B_G](SpawnerTexts/Gallery_Obstacle_L_Course_B_G.txt)**<br>**(Ported by: akira_v9)**<br><br>**Source: Unreleased** | Visually Modified: ❌<br>Requires External Download: ❌|
 | <img src=".assets/PG_Obstacle_L_Course_C_G.png" width="256"/> | **[Obstacle_L_Course_C_G](SpawnerTexts/Gallery_Obstacle_L_Course_C_G.txt)**<br>**(Ported by: akira_v9)**<br><br>**Source: Unreleased** | Visually Modified: ❌<br>Requires External Download: ❌|
@@ -83,6 +93,11 @@
 | <img src=".assets/PP_Obstacle_S_Jumper_B.png" width="256"/> | **[Obstacle_S_Jumper_B](SpawnerTexts/Prefab_Obstacle_S_Jumper_B.txt)**<br>**(Ported by: akira_v9)**<br><br>**Source: Unreleased** | Visually Modified: ❌<br>Requires External Download: ❌|
 | <img src=".assets/PP_Obstacle_S_Jumper_C.png" width="256"/> | **[Obstacle_S_Jumper_C](SpawnerTexts/Prefab_Obstacle_S_Jumper_C.txt)**<br>**(Ported by: akira_v9)**<br><br>**Source: Unreleased** | Visually Modified: ❌<br>Requires External Download: ❌|
 | <img src=".assets/PG_ObstacleCourseGallery.png" width="256"/> | **[Obstacle Course Gallery](SpawnerTexts/Gallery_ObstacleCourseGallery.txt)**<br>**(Ported by: akira_v9)**<br><br>**Source: Unreleased** | Visually Modified: ❌<br>Requires External Download: ❌|
+
+# Unused Tilted Towers Buildings
+
+| Icon | Playset Name w/ Author | Extra Info |
+|-----------------------------------------|-----------------|-----------------|
 | <img src=".assets/PG_OfficeGalleryB.png" width="256"/> | **[Office Gallery B](SpawnerTexts/Gallery_OfficeGalleryB.txt)**<br>**(Ported by: akira_v9)**<br><br>**Source: Unreleased** | Visually Modified: ❌<br>Requires External Download: ❌|
 | <img src=".assets/PG_OneStackGalleryB.png" width="256"/> | **[One Stack Gallery B](SpawnerTexts/Gallery_OneStackGalleryB.txt)**<br>**(Ported by: akira_v9)**<br><br>**Source: Unreleased** | Visually Modified: ❌<br>Requires External Download: ❌|
 | <img src=".assets/PG_OtherHouseGalleryB.png" width="256"/> | **[Other House Gallery B](SpawnerTexts/Gallery_OtherHouseGalleryB.txt)**<br>**(Ported by: akira_v9)**<br><br>**Source: Unreleased** | Visually Modified: ❌<br>Requires External Download: ❌|
@@ -90,9 +105,19 @@
 | <img src=".assets/PP_TiltedNOMS.png" width="256"/> | **[Tilted NOMS](SpawnerTexts/Prefab_TiltedNOMS.txt)**<br>**(Ported by: akira_v9)**<br><br>**Source: Unreleased** | Visually Modified: ❌<br>Requires External Download: ❌|
 | <img src=".assets/PG_TiltedNOMSGallery.png" width="256"/> | **[Tilted NOMS Gallery](SpawnerTexts/Gallery_TiltedNOMSGallery.txt)**<br>**(Ported by: akira_v9)**<br><br>**Source: Unreleased** | Visually Modified: ❌<br>Requires External Download: ❌|
 | <img src=".assets/PG_VillageChurchGallery.png" width="256"/> | **[Village Church Gallery](SpawnerTexts/Gallery_VillageChurchGallery.txt)**<br>**(Ported by: akira_v9)**<br><br>**Source: Unreleased** | Visually Modified: ❌<br>Requires External Download: ❌|
+
+# Cyber City
+
+| Icon | Playset Name w/ Author | Extra Info |
+|-----------------------------------------|-----------------|-----------------|
 | <img src=".assets/PG_CyberCityBuildingPropGalleryC.png" width="256"/> | **[Cyber City Building Prop Gallery C](SpawnerTexts/Gallery_CyberCityBuildingPropGalleryC.txt)**<br>**(Ported by: akira_v9)**<br><br>**Source: Unreleased** | Visually Modified: ❌<br>Requires External Download: ❌|
 | <img src=".assets/PG_CyberCityBuildingPropGalleryD.png" width="256"/> | **[Cyber City Building Prop Gallery D](SpawnerTexts/Gallery_CyberCityBuildingPropGalleryD.txt)**<br>**(Ported by: akira_v9)**<br><br>**Source: Unreleased** | Visually Modified: ❌<br>Requires External Download: ❌|
 | <img src=".assets/PG_CyberCityPropGallery.png" width="256"/> | **[Cyber City Prop Gallery](SpawnerTexts/Gallery_CyberCityPropGallery.txt)**<br>**(Ported by: akira_v9)**<br><br>**Source: Unreleased** | Visually Modified: ❌<br>Requires External Download: ❌|
+
+# Random Buildings
+
+| Icon | Playset Name w/ Author | Extra Info |
+|-----------------------------------------|-----------------|-----------------|
 | <img src=".assets/PP_Foudation3x7CoastMotel01_CUSTOM.png" width="256"/> | **[CP_Foudation_3x7_CoastMotel_01](SpawnerTexts/Prefab_Foudation3x7CoastMotel01.txt)**<br>**(Ported by: akira_v9)**<br><br>**Source: Unreleased** | Visually Modified: ❌<br>Requires External Download: ❌|
 | <img src=".assets/PP_Foundation3x3CliffHouseA_CUSTOM.png" width="256"/> | **[CP_Foundation_3x3_CliffHouse_a](SpawnerTexts/Prefab_Foundation3x3CliffHouseA.txt)**<br>**(Ported by: akira_v9)**<br><br>**Source: Unreleased** | Visually Modified: ❌<br>Requires External Download: ❌|
 | <img src=".assets/PP_Foundation3x3GenericHouseE_CUSTOM.png" width="256"/> | **[CP_Foundation_3x3_GenericHouse_e](SpawnerTexts/Prefab_Foundation3x3GenericHouseE.txt)**<br>**(Ported by: akira_v9)**<br><br>**Source: Unreleased** | Visually Modified: ❌<br>Requires External Download: ❌|
