@@ -1,0 +1,1012 @@
+Begin Map
+   Begin Level
+      Begin Actor Class=/Script/FortniteGame.FortPlaysetRoot Name=FortPlaysetRoot_UAID_345A600DDC87A05202_1395700753 Archetype="/Script/FortniteGame.FortPlaysetRoot'/Script/FortniteGame.Default__FortPlaysetRoot'" ActorFolderPath="Minerva Gallery" ExportPath="/Script/FortniteGame.FortPlaysetRoot'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.FortPlaysetRoot_UAID_345A600DDC87A05202_1395700753'"
+         Begin Object Class=/Script/Engine.SceneComponent Name="DefaultSceneRoot" Archetype="/Script/Engine.SceneComponent'/Script/FortniteGame.Default__FortPlaysetRoot:DefaultSceneRoot'" ExportPath="/Script/Engine.SceneComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.FortPlaysetRoot_UAID_345A600DDC87A05202_1395700753.DefaultSceneRoot'"
+         End Object
+         Begin Object Name="DefaultSceneRoot" ExportPath="/Script/Engine.SceneComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.FortPlaysetRoot_UAID_345A600DDC87A05202_1395700753.DefaultSceneRoot'"
+         End Object
+         SavedActorGuid=00000000000000000000000090BDDE44
+         PlaysetPackagePathName="/CRG_Minerva/SetupAssets/PID_CP_Props_Minerva_a"
+         ActorLabel="Minerva Gallery"
+      End Actor
+      Begin Actor Class=/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_01.CP_Minerva_Painting_01_C Name=CP_Minerva_Painting_01_C_UAID_345A600DDC87A05202_1395674724 Archetype="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_01.CP_Minerva_Painting_01_C'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_01.Default__CP_Minerva_Painting_01_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87A05202_1395700753 ActorFolderPath="Minerva Gallery" ExportPath="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_01.CP_Minerva_Painting_01_C'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_01_C_UAID_345A600DDC87A05202_1395674724'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_01.Default__CP_Minerva_Painting_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_01_C_UAID_345A600DDC87A05202_1395674724.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_01.Default__CP_Minerva_Painting_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_01_C_UAID_345A600DDC87A05202_1395674724.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_01.Default__CP_Minerva_Painting_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_01_C_UAID_345A600DDC87A05202_1395674724.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_01_C_UAID_345A600DDC87A05202_1395674724.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Minerva_Painting_01_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=192.000000,Y=256.000000,Z=69.143555)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999969,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_01_C_UAID_345A600DDC87A05202_1395674724.BoundingBoxComponent'"
+            CachedMaxDrawDistance=7932.103027
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_01_C_UAID_345A600DDC87A05202_1395674724.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=7932.103027
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=7932.103027
+         DataVersion=1
+         SavedActorGuid=BF7A5E0F472230A826C8FFB3BDAF915E
+         PlaysetPackagePathName="/CRG_Minerva/SetupAssets/PID_CP_Props_Minerva_a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Minerva Painting 01 C"
+      End Actor
+      Begin Actor Class=/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_02.CP_Minerva_Painting_02_C Name=CP_Minerva_Painting_02_C_UAID_345A600DDC87A05202_1395676725 Archetype="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_02.CP_Minerva_Painting_02_C'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_02.Default__CP_Minerva_Painting_02_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87A05202_1395700753 ActorFolderPath="Minerva Gallery" ExportPath="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_02.CP_Minerva_Painting_02_C'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_02_C_UAID_345A600DDC87A05202_1395676725'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_02.Default__CP_Minerva_Painting_02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_02_C_UAID_345A600DDC87A05202_1395676725.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_02.Default__CP_Minerva_Painting_02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_02_C_UAID_345A600DDC87A05202_1395676725.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_02.Default__CP_Minerva_Painting_02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_02_C_UAID_345A600DDC87A05202_1395676725.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_02_C_UAID_345A600DDC87A05202_1395676725.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Minerva_Painting_02_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-128.000000,Y=256.000000,Z=63.143555)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999969,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_02_C_UAID_345A600DDC87A05202_1395676725.BoundingBoxComponent'"
+            CachedMaxDrawDistance=13578.343750
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_02_C_UAID_345A600DDC87A05202_1395676725.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=13578.343750
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=13578.343750
+         DataVersion=1
+         SavedActorGuid=B8AFBCBA4F33CE23A313DC9107A44D86
+         PlaysetPackagePathName="/CRG_Minerva/SetupAssets/PID_CP_Props_Minerva_a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Minerva Painting 02 C"
+      End Actor
+      Begin Actor Class=/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_03.CP_Minerva_Painting_03_C Name=CP_Minerva_Painting_03_C_UAID_345A600DDC87A05202_1395677726 Archetype="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_03.CP_Minerva_Painting_03_C'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_03.Default__CP_Minerva_Painting_03_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87A05202_1395700753 ActorFolderPath="Minerva Gallery" ExportPath="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_03.CP_Minerva_Painting_03_C'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_03_C_UAID_345A600DDC87A05202_1395677726'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_03.Default__CP_Minerva_Painting_03_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_03_C_UAID_345A600DDC87A05202_1395677726.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_03.Default__CP_Minerva_Painting_03_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_03_C_UAID_345A600DDC87A05202_1395677726.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_03.Default__CP_Minerva_Painting_03_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_03_C_UAID_345A600DDC87A05202_1395677726.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_03_C_UAID_345A600DDC87A05202_1395677726.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Minerva_Painting_03_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-448.000000,Y=256.000000,Z=75.143555)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999969,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_03_C_UAID_345A600DDC87A05202_1395677726.BoundingBoxComponent'"
+            CachedMaxDrawDistance=7149.203125
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_03_C_UAID_345A600DDC87A05202_1395677726.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=7149.203125
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=7149.203125
+         DataVersion=1
+         SavedActorGuid=CFC34C3D4AB17803DAC4C29D0611FC7B
+         PlaysetPackagePathName="/CRG_Minerva/SetupAssets/PID_CP_Props_Minerva_a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Minerva Painting 03 C"
+      End Actor
+      Begin Actor Class=/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_04.CP_Minerva_Painting_04_C Name=CP_Minerva_Painting_04_C_UAID_345A600DDC87A05202_1395678727 Archetype="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_04.CP_Minerva_Painting_04_C'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_04.Default__CP_Minerva_Painting_04_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87A05202_1395700753 ActorFolderPath="Minerva Gallery" ExportPath="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_04.CP_Minerva_Painting_04_C'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_04_C_UAID_345A600DDC87A05202_1395678727'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_04.Default__CP_Minerva_Painting_04_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_04_C_UAID_345A600DDC87A05202_1395678727.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_04.Default__CP_Minerva_Painting_04_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_04_C_UAID_345A600DDC87A05202_1395678727.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_04.Default__CP_Minerva_Painting_04_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_04_C_UAID_345A600DDC87A05202_1395678727.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_04_C_UAID_345A600DDC87A05202_1395678727.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Minerva_Painting_04_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-672.000000,Y=256.000000,Z=75.143555)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999969,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_04_C_UAID_345A600DDC87A05202_1395678727.BoundingBoxComponent'"
+            CachedMaxDrawDistance=7474.913086
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_04_C_UAID_345A600DDC87A05202_1395678727.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=7474.913086
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=7474.913086
+         DataVersion=1
+         SavedActorGuid=9CE62D034ED8D068CCD5FBA1E88D1AC8
+         PlaysetPackagePathName="/CRG_Minerva/SetupAssets/PID_CP_Props_Minerva_a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Minerva Painting 04 C"
+      End Actor
+      Begin Actor Class=/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_05.CP_Minerva_Painting_05_C Name=CP_Minerva_Painting_05_C_UAID_345A600DDC87A05202_1395679728 Archetype="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_05.CP_Minerva_Painting_05_C'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_05.Default__CP_Minerva_Painting_05_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87A05202_1395700753 ActorFolderPath="Minerva Gallery" ExportPath="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_05.CP_Minerva_Painting_05_C'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_05_C_UAID_345A600DDC87A05202_1395679728'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_05.Default__CP_Minerva_Painting_05_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_05_C_UAID_345A600DDC87A05202_1395679728.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_05.Default__CP_Minerva_Painting_05_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_05_C_UAID_345A600DDC87A05202_1395679728.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_05.Default__CP_Minerva_Painting_05_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_05_C_UAID_345A600DDC87A05202_1395679728.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_05_C_UAID_345A600DDC87A05202_1395679728.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Minerva_Painting_05_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=192.000000,Y=448.000000,Z=53.143555)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999969,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_05_C_UAID_345A600DDC87A05202_1395679728.BoundingBoxComponent'"
+            CachedMaxDrawDistance=4103.158203
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_05_C_UAID_345A600DDC87A05202_1395679728.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=4103.158203
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=4103.158203
+         DataVersion=1
+         SavedActorGuid=E32D951C494443A0E6C06B875ECED1DA
+         PlaysetPackagePathName="/CRG_Minerva/SetupAssets/PID_CP_Props_Minerva_a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Minerva Painting 05 C"
+      End Actor
+      Begin Actor Class=/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_06.CP_Minerva_Painting_06_C Name=CP_Minerva_Painting_06_C_UAID_345A600DDC87A05202_1395680729 Archetype="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_06.CP_Minerva_Painting_06_C'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_06.Default__CP_Minerva_Painting_06_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87A05202_1395700753 ActorFolderPath="Minerva Gallery" ExportPath="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_06.CP_Minerva_Painting_06_C'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_06_C_UAID_345A600DDC87A05202_1395680729'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_06.Default__CP_Minerva_Painting_06_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_06_C_UAID_345A600DDC87A05202_1395680729.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_06.Default__CP_Minerva_Painting_06_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_06_C_UAID_345A600DDC87A05202_1395680729.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_06.Default__CP_Minerva_Painting_06_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_06_C_UAID_345A600DDC87A05202_1395680729.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_06_C_UAID_345A600DDC87A05202_1395680729.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Minerva_Painting_06_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=448.000000,Z=53.143555)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999969,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_06_C_UAID_345A600DDC87A05202_1395680729.BoundingBoxComponent'"
+            CachedMaxDrawDistance=4103.158203
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_06_C_UAID_345A600DDC87A05202_1395680729.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=4103.158203
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=4103.158203
+         DataVersion=1
+         SavedActorGuid=D7C246494FCCD8DA6686E689EC1E299A
+         PlaysetPackagePathName="/CRG_Minerva/SetupAssets/PID_CP_Props_Minerva_a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Minerva Painting 06 C"
+      End Actor
+      Begin Actor Class=/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_07.CP_Minerva_Painting_07_C Name=CP_Minerva_Painting_07_C_UAID_345A600DDC87A05202_1395680730 Archetype="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_07.CP_Minerva_Painting_07_C'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_07.Default__CP_Minerva_Painting_07_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87A05202_1395700753 ActorFolderPath="Minerva Gallery" ExportPath="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_07.CP_Minerva_Painting_07_C'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_07_C_UAID_345A600DDC87A05202_1395680730'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_07.Default__CP_Minerva_Painting_07_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_07_C_UAID_345A600DDC87A05202_1395680730.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_07.Default__CP_Minerva_Painting_07_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_07_C_UAID_345A600DDC87A05202_1395680730.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_07.Default__CP_Minerva_Painting_07_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_07_C_UAID_345A600DDC87A05202_1395680730.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_07_C_UAID_345A600DDC87A05202_1395680730.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Minerva_Painting_07_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-192.000000,Y=448.000000,Z=53.143555)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999969,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_07_C_UAID_345A600DDC87A05202_1395680730.BoundingBoxComponent'"
+            CachedMaxDrawDistance=4103.158203
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_07_C_UAID_345A600DDC87A05202_1395680730.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=4103.158203
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=4103.158203
+         DataVersion=1
+         SavedActorGuid=0222504C4423414DC089EDAACD78A2B1
+         PlaysetPackagePathName="/CRG_Minerva/SetupAssets/PID_CP_Props_Minerva_a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Minerva Painting 07 C"
+      End Actor
+      Begin Actor Class=/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_08.CP_Minerva_Painting_08_C Name=CP_Minerva_Painting_08_C_UAID_345A600DDC87A05202_1395681731 Archetype="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_08.CP_Minerva_Painting_08_C'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_08.Default__CP_Minerva_Painting_08_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87A05202_1395700753 ActorFolderPath="Minerva Gallery" ExportPath="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_08.CP_Minerva_Painting_08_C'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_08_C_UAID_345A600DDC87A05202_1395681731'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_08.Default__CP_Minerva_Painting_08_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_08_C_UAID_345A600DDC87A05202_1395681731.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_08.Default__CP_Minerva_Painting_08_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_08_C_UAID_345A600DDC87A05202_1395681731.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_08.Default__CP_Minerva_Painting_08_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_08_C_UAID_345A600DDC87A05202_1395681731.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_08_C_UAID_345A600DDC87A05202_1395681731.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Minerva_Painting_08_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-384.000000,Y=448.000000,Z=53.143555)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999969,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_08_C_UAID_345A600DDC87A05202_1395681731.BoundingBoxComponent'"
+            CachedMaxDrawDistance=4103.158203
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_08_C_UAID_345A600DDC87A05202_1395681731.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=4103.158203
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=4103.158203
+         DataVersion=1
+         SavedActorGuid=F5ECA42340ED2D4CCC542D87DF2CE00C
+         PlaysetPackagePathName="/CRG_Minerva/SetupAssets/PID_CP_Props_Minerva_a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Minerva Painting 08 C"
+      End Actor
+      Begin Actor Class=/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_09.CP_Minerva_Painting_09_C Name=CP_Minerva_Painting_09_C_UAID_345A600DDC87A05202_1395682732 Archetype="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_09.CP_Minerva_Painting_09_C'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_09.Default__CP_Minerva_Painting_09_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87A05202_1395700753 ActorFolderPath="Minerva Gallery" ExportPath="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_09.CP_Minerva_Painting_09_C'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_09_C_UAID_345A600DDC87A05202_1395682732'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_09.Default__CP_Minerva_Painting_09_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_09_C_UAID_345A600DDC87A05202_1395682732.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_09.Default__CP_Minerva_Painting_09_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_09_C_UAID_345A600DDC87A05202_1395682732.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_09.Default__CP_Minerva_Painting_09_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_09_C_UAID_345A600DDC87A05202_1395682732.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_09_C_UAID_345A600DDC87A05202_1395682732.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Minerva_Painting_09_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-576.000000,Y=448.000000,Z=53.143555)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999969,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_09_C_UAID_345A600DDC87A05202_1395682732.BoundingBoxComponent'"
+            CachedMaxDrawDistance=4103.158203
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_09_C_UAID_345A600DDC87A05202_1395682732.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=4103.158203
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=4103.158203
+         DataVersion=1
+         SavedActorGuid=AA206D9047BF9E58BEAF6F8E3E541B04
+         PlaysetPackagePathName="/CRG_Minerva/SetupAssets/PID_CP_Props_Minerva_a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Minerva Painting 09 C"
+      End Actor
+      Begin Actor Class=/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_10.CP_Minerva_Painting_10_C Name=CP_Minerva_Painting_10_C_UAID_345A600DDC87A05202_1395683733 Archetype="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_10.CP_Minerva_Painting_10_C'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_10.Default__CP_Minerva_Painting_10_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87A05202_1395700753 ActorFolderPath="Minerva Gallery" ExportPath="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_10.CP_Minerva_Painting_10_C'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_10_C_UAID_345A600DDC87A05202_1395683733'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_10.Default__CP_Minerva_Painting_10_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_10_C_UAID_345A600DDC87A05202_1395683733.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_10.Default__CP_Minerva_Painting_10_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_10_C_UAID_345A600DDC87A05202_1395683733.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_10.Default__CP_Minerva_Painting_10_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_10_C_UAID_345A600DDC87A05202_1395683733.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_10_C_UAID_345A600DDC87A05202_1395683733.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Minerva_Painting_12'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=192.000000,Y=640.000000,Z=75.143555)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999969,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_10_C_UAID_345A600DDC87A05202_1395683733.BoundingBoxComponent'"
+            CachedMaxDrawDistance=7464.658691
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_10_C_UAID_345A600DDC87A05202_1395683733.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=7464.658691
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=7464.658691
+         DataVersion=1
+         SavedActorGuid=AD6BC24B4015751E90BCCE800A4209BC
+         PlaysetPackagePathName="/CRG_Minerva/SetupAssets/PID_CP_Props_Minerva_a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Minerva Painting 10 C"
+      End Actor
+      Begin Actor Class=/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_11.CP_Minerva_Painting_11_C Name=CP_Minerva_Painting_11_C_UAID_345A600DDC87A05202_1395684734 Archetype="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_11.CP_Minerva_Painting_11_C'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_11.Default__CP_Minerva_Painting_11_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87A05202_1395700753 ActorFolderPath="Minerva Gallery" ExportPath="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_11.CP_Minerva_Painting_11_C'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_11_C_UAID_345A600DDC87A05202_1395684734'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_11.Default__CP_Minerva_Painting_11_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_11_C_UAID_345A600DDC87A05202_1395684734.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_11.Default__CP_Minerva_Painting_11_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_11_C_UAID_345A600DDC87A05202_1395684734.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_11.Default__CP_Minerva_Painting_11_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_11_C_UAID_345A600DDC87A05202_1395684734.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_11_C_UAID_345A600DDC87A05202_1395684734.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Minerva_Painting_13'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-64.000000,Y=640.000000,Z=75.143555)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999969,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_11_C_UAID_345A600DDC87A05202_1395684734.BoundingBoxComponent'"
+            CachedMaxDrawDistance=8292.281250
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_11_C_UAID_345A600DDC87A05202_1395684734.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=8292.281250
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=8292.281250
+         DataVersion=1
+         SavedActorGuid=329B8C9E468FF602101C65B55D7FE190
+         PlaysetPackagePathName="/CRG_Minerva/SetupAssets/PID_CP_Props_Minerva_a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Minerva Painting 11 C"
+      End Actor
+      Begin Actor Class=/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_12.CP_Minerva_Painting_12_C Name=CP_Minerva_Painting_12_C_UAID_345A600DDC87A05202_1395685735 Archetype="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_12.CP_Minerva_Painting_12_C'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_12.Default__CP_Minerva_Painting_12_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87A05202_1395700753 ActorFolderPath="Minerva Gallery" ExportPath="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_12.CP_Minerva_Painting_12_C'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_12_C_UAID_345A600DDC87A05202_1395685735'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_12.Default__CP_Minerva_Painting_12_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_12_C_UAID_345A600DDC87A05202_1395685735.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_12.Default__CP_Minerva_Painting_12_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_12_C_UAID_345A600DDC87A05202_1395685735.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_12.Default__CP_Minerva_Painting_12_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_12_C_UAID_345A600DDC87A05202_1395685735.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_12_C_UAID_345A600DDC87A05202_1395685735.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Minerva_Painting_3'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-384.000000,Y=640.000000,Z=75.143555)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999969,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_12_C_UAID_345A600DDC87A05202_1395685735.BoundingBoxComponent'"
+            CachedMaxDrawDistance=12176.827148
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_12_C_UAID_345A600DDC87A05202_1395685735.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=12176.827148
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=12176.827148
+         DataVersion=1
+         SavedActorGuid=06A6BCD14349B271D60925870C29F91B
+         PlaysetPackagePathName="/CRG_Minerva/SetupAssets/PID_CP_Props_Minerva_a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Minerva Painting 12 C"
+      End Actor
+      Begin Actor Class=/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_13.CP_Minerva_Painting_13_C Name=CP_Minerva_Painting_13_C_UAID_345A600DDC87A05202_1395685736 Archetype="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_13.CP_Minerva_Painting_13_C'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_13.Default__CP_Minerva_Painting_13_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87A05202_1395700753 ActorFolderPath="Minerva Gallery" ExportPath="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_13.CP_Minerva_Painting_13_C'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_13_C_UAID_345A600DDC87A05202_1395685736'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_13.Default__CP_Minerva_Painting_13_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_13_C_UAID_345A600DDC87A05202_1395685736.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_13.Default__CP_Minerva_Painting_13_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_13_C_UAID_345A600DDC87A05202_1395685736.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_13.Default__CP_Minerva_Painting_13_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_13_C_UAID_345A600DDC87A05202_1395685736.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_13_C_UAID_345A600DDC87A05202_1395685736.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Minerva_Painting_7'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-768.000000,Y=640.000000,Z=75.143555)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999969,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_13_C_UAID_345A600DDC87A05202_1395685736.BoundingBoxComponent'"
+            CachedMaxDrawDistance=12176.827148
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_13_C_UAID_345A600DDC87A05202_1395685736.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=12176.827148
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=12176.827148
+         DataVersion=1
+         SavedActorGuid=71809A5941B2FAD676B2B7B03C6E9F0A
+         PlaysetPackagePathName="/CRG_Minerva/SetupAssets/PID_CP_Props_Minerva_a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Minerva Painting 13 C"
+      End Actor
+      Begin Actor Class=/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_14.CP_Minerva_Painting_14_C Name=CP_Minerva_Painting_14_C_UAID_345A600DDC87A05202_1395686737 Archetype="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_14.CP_Minerva_Painting_14_C'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_14.Default__CP_Minerva_Painting_14_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87A05202_1395700753 ActorFolderPath="Minerva Gallery" ExportPath="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_14.CP_Minerva_Painting_14_C'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_14_C_UAID_345A600DDC87A05202_1395686737'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_14.Default__CP_Minerva_Painting_14_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_14_C_UAID_345A600DDC87A05202_1395686737.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_14.Default__CP_Minerva_Painting_14_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_14_C_UAID_345A600DDC87A05202_1395686737.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_14.Default__CP_Minerva_Painting_14_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_14_C_UAID_345A600DDC87A05202_1395686737.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_14_C_UAID_345A600DDC87A05202_1395686737.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Minerva_Painting_15'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=128.000000,Y=832.000000,Z=75.143555)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999969,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_14_C_UAID_345A600DDC87A05202_1395686737.BoundingBoxComponent'"
+            CachedMaxDrawDistance=12176.827148
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_14_C_UAID_345A600DDC87A05202_1395686737.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=12176.827148
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=12176.827148
+         DataVersion=1
+         SavedActorGuid=964662B94F8EF77FBC2CD5B5C3D3C41B
+         PlaysetPackagePathName="/CRG_Minerva/SetupAssets/PID_CP_Props_Minerva_a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Minerva Painting 14 C"
+      End Actor
+      Begin Actor Class=/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_15.CP_Minerva_Painting_15_C Name=CP_Minerva_Painting_15_C_UAID_345A600DDC87A05202_1395687738 Archetype="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_15.CP_Minerva_Painting_15_C'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_15.Default__CP_Minerva_Painting_15_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87A05202_1395700753 ActorFolderPath="Minerva Gallery" ExportPath="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_15.CP_Minerva_Painting_15_C'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_15_C_UAID_345A600DDC87A05202_1395687738'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_15.Default__CP_Minerva_Painting_15_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_15_C_UAID_345A600DDC87A05202_1395687738.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_15.Default__CP_Minerva_Painting_15_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_15_C_UAID_345A600DDC87A05202_1395687738.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_15.Default__CP_Minerva_Painting_15_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_15_C_UAID_345A600DDC87A05202_1395687738.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_15_C_UAID_345A600DDC87A05202_1395687738.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Minerva_Painting_4'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-192.000000,Y=832.000000,Z=51.143555)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999969,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_15_C_UAID_345A600DDC87A05202_1395687738.BoundingBoxComponent'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_15_C_UAID_345A600DDC87A05202_1395687738.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=2800.000000
+         DataVersion=1
+         SavedActorGuid=B18F478A4288FDE5771B959D1F667001
+         PlaysetPackagePathName="/CRG_Minerva/SetupAssets/PID_CP_Props_Minerva_a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Minerva Painting 15 C"
+      End Actor
+      Begin Actor Class=/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_16.CP_Minerva_Painting_16_C Name=CP_Minerva_Painting_16_C_UAID_345A600DDC87A05202_1395688739 Archetype="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_16.CP_Minerva_Painting_16_C'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_16.Default__CP_Minerva_Painting_16_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87A05202_1395700753 ActorFolderPath="Minerva Gallery" ExportPath="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_16.CP_Minerva_Painting_16_C'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_16_C_UAID_345A600DDC87A05202_1395688739'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_16.Default__CP_Minerva_Painting_16_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_16_C_UAID_345A600DDC87A05202_1395688739.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_16.Default__CP_Minerva_Painting_16_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_16_C_UAID_345A600DDC87A05202_1395688739.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_16.Default__CP_Minerva_Painting_16_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_16_C_UAID_345A600DDC87A05202_1395688739.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_16_C_UAID_345A600DDC87A05202_1395688739.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Minerva_Painting_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-512.000000,Y=832.000000,Z=51.143555)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999969,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_16_C_UAID_345A600DDC87A05202_1395688739.BoundingBoxComponent'"
+            CachedMaxDrawDistance=13216.088867
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_16_C_UAID_345A600DDC87A05202_1395688739.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=13216.088867
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=13216.088867
+         DataVersion=1
+         SavedActorGuid=D4F4841747C505AA403D3894D1526B88
+         PlaysetPackagePathName="/CRG_Minerva/SetupAssets/PID_CP_Props_Minerva_a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Minerva Painting 16 C"
+      End Actor
+      Begin Actor Class=/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_17.CP_Minerva_Painting_17_C Name=CP_Minerva_Painting_17_C_UAID_345A600DDC87A05202_1395689740 Archetype="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_17.CP_Minerva_Painting_17_C'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_17.Default__CP_Minerva_Painting_17_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87A05202_1395700753 ActorFolderPath="Minerva Gallery" ExportPath="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_17.CP_Minerva_Painting_17_C'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_17_C_UAID_345A600DDC87A05202_1395689740'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_17.Default__CP_Minerva_Painting_17_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_17_C_UAID_345A600DDC87A05202_1395689740.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_17.Default__CP_Minerva_Painting_17_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_17_C_UAID_345A600DDC87A05202_1395689740.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_17.Default__CP_Minerva_Painting_17_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_17_C_UAID_345A600DDC87A05202_1395689740.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_17_C_UAID_345A600DDC87A05202_1395689740.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Minerva_Painting_16'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-832.000000,Y=832.000000,Z=75.143555)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999969,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_17_C_UAID_345A600DDC87A05202_1395689740.BoundingBoxComponent'"
+            CachedMaxDrawDistance=8292.281250
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_17_C_UAID_345A600DDC87A05202_1395689740.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=8292.281250
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=8292.281250
+         DataVersion=1
+         SavedActorGuid=27AC88F241E53E28D9ECD791A78020E9
+         PlaysetPackagePathName="/CRG_Minerva/SetupAssets/PID_CP_Props_Minerva_a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Minerva Painting 17 C"
+      End Actor
+      Begin Actor Class=/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_18.CP_Minerva_Painting_18_C Name=CP_Minerva_Painting_18_C_UAID_345A600DDC87A05202_1395690741 Archetype="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_18.CP_Minerva_Painting_18_C'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_18.Default__CP_Minerva_Painting_18_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87A05202_1395700753 ActorFolderPath="Minerva Gallery" ExportPath="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_18.CP_Minerva_Painting_18_C'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_18_C_UAID_345A600DDC87A05202_1395690741'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_18.Default__CP_Minerva_Painting_18_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_18_C_UAID_345A600DDC87A05202_1395690741.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_18.Default__CP_Minerva_Painting_18_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_18_C_UAID_345A600DDC87A05202_1395690741.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_18.Default__CP_Minerva_Painting_18_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_18_C_UAID_345A600DDC87A05202_1395690741.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_18_C_UAID_345A600DDC87A05202_1395690741.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Minerva_Painting_8'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=192.000000,Y=1024.000000,Z=75.143555)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999969,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_18_C_UAID_345A600DDC87A05202_1395690741.BoundingBoxComponent'"
+            CachedMaxDrawDistance=7149.203125
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_18_C_UAID_345A600DDC87A05202_1395690741.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=7149.203125
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=7149.203125
+         DataVersion=1
+         SavedActorGuid=05710ED74DA2CFC707EDE88468830143
+         PlaysetPackagePathName="/CRG_Minerva/SetupAssets/PID_CP_Props_Minerva_a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Minerva Painting 18 C"
+      End Actor
+      Begin Actor Class=/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_19.CP_Minerva_Painting_19_C Name=CP_Minerva_Painting_19_C_UAID_345A600DDC87A05202_1395691742 Archetype="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_19.CP_Minerva_Painting_19_C'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_19.Default__CP_Minerva_Painting_19_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87A05202_1395700753 ActorFolderPath="Minerva Gallery" ExportPath="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_19.CP_Minerva_Painting_19_C'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_19_C_UAID_345A600DDC87A05202_1395691742'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_19.Default__CP_Minerva_Painting_19_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_19_C_UAID_345A600DDC87A05202_1395691742.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_19.Default__CP_Minerva_Painting_19_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_19_C_UAID_345A600DDC87A05202_1395691742.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_19.Default__CP_Minerva_Painting_19_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_19_C_UAID_345A600DDC87A05202_1395691742.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_19_C_UAID_345A600DDC87A05202_1395691742.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Minerva_Painting_6'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-64.000000,Y=1024.000000,Z=75.143555)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999969,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_19_C_UAID_345A600DDC87A05202_1395691742.BoundingBoxComponent'"
+            CachedMaxDrawDistance=7149.203125
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_19_C_UAID_345A600DDC87A05202_1395691742.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=7149.203125
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=7149.203125
+         DataVersion=1
+         SavedActorGuid=C95C9A7A468CABF3B51AB59359BF0916
+         PlaysetPackagePathName="/CRG_Minerva/SetupAssets/PID_CP_Props_Minerva_a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Minerva Painting 19 C"
+      End Actor
+      Begin Actor Class=/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_20.CP_Minerva_Painting_20_C Name=CP_Minerva_Painting_20_C_UAID_345A600DDC87A05202_1395691743 Archetype="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_20.CP_Minerva_Painting_20_C'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_20.Default__CP_Minerva_Painting_20_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87A05202_1395700753 ActorFolderPath="Minerva Gallery" ExportPath="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_20.CP_Minerva_Painting_20_C'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_20_C_UAID_345A600DDC87A05202_1395691743'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_20.Default__CP_Minerva_Painting_20_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_20_C_UAID_345A600DDC87A05202_1395691743.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_20.Default__CP_Minerva_Painting_20_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_20_C_UAID_345A600DDC87A05202_1395691743.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_20.Default__CP_Minerva_Painting_20_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_20_C_UAID_345A600DDC87A05202_1395691743.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_20_C_UAID_345A600DDC87A05202_1395691743.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Minerva_Painting_9'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-320.000000,Y=1024.000000,Z=75.143555)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999969,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_20_C_UAID_345A600DDC87A05202_1395691743.BoundingBoxComponent'"
+            CachedMaxDrawDistance=7149.203125
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_20_C_UAID_345A600DDC87A05202_1395691743.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=7149.203125
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=7149.203125
+         DataVersion=1
+         SavedActorGuid=F369949246B8C40E4B5931BA972708C1
+         PlaysetPackagePathName="/CRG_Minerva/SetupAssets/PID_CP_Props_Minerva_a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Minerva Painting 20 C"
+      End Actor
+      Begin Actor Class=/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_21.CP_Minerva_Painting_21_C Name=CP_Minerva_Painting_21_C_UAID_345A600DDC87A05202_1395692744 Archetype="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_21.CP_Minerva_Painting_21_C'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_21.Default__CP_Minerva_Painting_21_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87A05202_1395700753 ActorFolderPath="Minerva Gallery" ExportPath="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_21.CP_Minerva_Painting_21_C'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_21_C_UAID_345A600DDC87A05202_1395692744'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_21.Default__CP_Minerva_Painting_21_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_21_C_UAID_345A600DDC87A05202_1395692744.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_21.Default__CP_Minerva_Painting_21_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_21_C_UAID_345A600DDC87A05202_1395692744.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_21.Default__CP_Minerva_Painting_21_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_21_C_UAID_345A600DDC87A05202_1395692744.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_21_C_UAID_345A600DDC87A05202_1395692744.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Minerva_Painting_11'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-640.000000,Y=1024.000000,Z=75.143555)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999969,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_21_C_UAID_345A600DDC87A05202_1395692744.BoundingBoxComponent'"
+            CachedMaxDrawDistance=12176.827148
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_21_C_UAID_345A600DDC87A05202_1395692744.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=12176.827148
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=12176.827148
+         DataVersion=1
+         SavedActorGuid=4CC500D549CBED7FD1279FA74D61096E
+         PlaysetPackagePathName="/CRG_Minerva/SetupAssets/PID_CP_Props_Minerva_a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Minerva Painting 21 C"
+      End Actor
+      Begin Actor Class=/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_22.CP_Minerva_Painting_22_C Name=CP_Minerva_Painting_22_C_UAID_345A600DDC87A05202_1395697750 Archetype="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_22.CP_Minerva_Painting_22_C'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_22.Default__CP_Minerva_Painting_22_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87A05202_1395700753 ActorFolderPath="Minerva Gallery" ExportPath="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_22.CP_Minerva_Painting_22_C'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_22_C_UAID_345A600DDC87A05202_1395697750'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_22.Default__CP_Minerva_Painting_22_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_22_C_UAID_345A600DDC87A05202_1395697750.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_22.Default__CP_Minerva_Painting_22_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_22_C_UAID_345A600DDC87A05202_1395697750.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_22.Default__CP_Minerva_Painting_22_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_22_C_UAID_345A600DDC87A05202_1395697750.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_22_C_UAID_345A600DDC87A05202_1395697750.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Minerva_Painting_5'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=1216.000000,Z=75.143555)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999969,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_22_C_UAID_345A600DDC87A05202_1395697750.BoundingBoxComponent'"
+            CachedMaxDrawDistance=7474.913086
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_22_C_UAID_345A600DDC87A05202_1395697750.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=7474.913086
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=7474.913086
+         DataVersion=1
+         SavedActorGuid=ACC523C24C1E8DBA5A52CFBBE6644E5A
+         PlaysetPackagePathName="/CRG_Minerva/SetupAssets/PID_CP_Props_Minerva_a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Minerva Painting 22 C"
+      End Actor
+      Begin Actor Class=/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_23.CP_Minerva_Painting_23_C Name=CP_Minerva_Painting_23_C_UAID_345A600DDC87A05202_1395698751 Archetype="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_23.CP_Minerva_Painting_23_C'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_23.Default__CP_Minerva_Painting_23_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87A05202_1395700753 ActorFolderPath="Minerva Gallery" ExportPath="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_23.CP_Minerva_Painting_23_C'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_23_C_UAID_345A600DDC87A05202_1395698751'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_23.Default__CP_Minerva_Painting_23_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_23_C_UAID_345A600DDC87A05202_1395698751.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_23.Default__CP_Minerva_Painting_23_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_23_C_UAID_345A600DDC87A05202_1395698751.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_23.Default__CP_Minerva_Painting_23_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_23_C_UAID_345A600DDC87A05202_1395698751.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_23_C_UAID_345A600DDC87A05202_1395698751.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Minerva_Painting_10'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-256.000000,Y=1216.000000,Z=75.143555)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999969,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_23_C_UAID_345A600DDC87A05202_1395698751.BoundingBoxComponent'"
+            CachedMaxDrawDistance=7474.913086
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_23_C_UAID_345A600DDC87A05202_1395698751.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=7474.913086
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=7474.913086
+         DataVersion=1
+         SavedActorGuid=124039624019BA433D6F1DAA9A82A9D6
+         PlaysetPackagePathName="/CRG_Minerva/SetupAssets/PID_CP_Props_Minerva_a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Minerva Painting 23 C"
+      End Actor
+      Begin Actor Class=/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_24.CP_Minerva_Painting_24_C Name=CP_Minerva_Painting_24_C_UAID_345A600DDC87A05202_1395699752 Archetype="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_24.CP_Minerva_Painting_24_C'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_24.Default__CP_Minerva_Painting_24_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87A05202_1395700753 ActorFolderPath="Minerva Gallery" ExportPath="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_24.CP_Minerva_Painting_24_C'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_24_C_UAID_345A600DDC87A05202_1395699752'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_24.Default__CP_Minerva_Painting_24_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_24_C_UAID_345A600DDC87A05202_1395699752.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_24.Default__CP_Minerva_Painting_24_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_24_C_UAID_345A600DDC87A05202_1395699752.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Painting_24.Default__CP_Minerva_Painting_24_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_24_C_UAID_345A600DDC87A05202_1395699752.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_24_C_UAID_345A600DDC87A05202_1395699752.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Minerva_Painting_2'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-512.000000,Y=1216.000000,Z=75.143555)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999969,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_24_C_UAID_345A600DDC87A05202_1395699752.BoundingBoxComponent'"
+            CachedMaxDrawDistance=7474.913086
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Painting_24_C_UAID_345A600DDC87A05202_1395699752.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=7474.913086
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=7474.913086
+         DataVersion=1
+         SavedActorGuid=E562B67A4F8E62184990D6A7C51500F0
+         PlaysetPackagePathName="/CRG_Minerva/SetupAssets/PID_CP_Props_Minerva_a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Minerva Painting 24 C"
+      End Actor
+      Begin Actor Class=/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Statue_01.CP_Minerva_Statue_01_C Name=CP_Minerva_Statue_01_C_UAID_345A600DDC87A05202_1395694746 Archetype="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Statue_01.CP_Minerva_Statue_01_C'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Statue_01.Default__CP_Minerva_Statue_01_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87A05202_1395700753 ActorFolderPath="Minerva Gallery" ExportPath="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Statue_01.CP_Minerva_Statue_01_C'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Statue_01_C_UAID_345A600DDC87A05202_1395694746'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Statue_01.Default__CP_Minerva_Statue_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Statue_01_C_UAID_345A600DDC87A05202_1395694746.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Statue_01.Default__CP_Minerva_Statue_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Statue_01_C_UAID_345A600DDC87A05202_1395694746.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Statue_01.Default__CP_Minerva_Statue_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Statue_01_C_UAID_345A600DDC87A05202_1395694746.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Statue_01_C_UAID_345A600DDC87A05202_1395694746.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_CP_Minerva_Statue_01_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=16.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999969,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Statue_01_C_UAID_345A600DDC87A05202_1395694746.BoundingBoxComponent'"
+            CachedMaxDrawDistance=7641.238770
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Statue_01_C_UAID_345A600DDC87A05202_1395694746.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=7641.238770
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=7641.238770
+         DataVersion=1
+         SavedActorGuid=2411546A47B2F6F7ABC6C1AE8B235BAA
+         PlaysetPackagePathName="/CRG_Minerva/SetupAssets/PID_CP_Props_Minerva_a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Minerva Statue 01 C"
+      End Actor
+      Begin Actor Class=/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Statue_02.CP_Minerva_Statue_02_C Name=CP_Minerva_Statue_02_C_UAID_345A600DDC87A05202_1395695747 Archetype="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Statue_02.CP_Minerva_Statue_02_C'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Statue_02.Default__CP_Minerva_Statue_02_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87A05202_1395700753 ActorFolderPath="Minerva Gallery" ExportPath="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Statue_02.CP_Minerva_Statue_02_C'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Statue_02_C_UAID_345A600DDC87A05202_1395695747'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Statue_02.Default__CP_Minerva_Statue_02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Statue_02_C_UAID_345A600DDC87A05202_1395695747.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Statue_02.Default__CP_Minerva_Statue_02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Statue_02_C_UAID_345A600DDC87A05202_1395695747.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Statue_02.Default__CP_Minerva_Statue_02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Statue_02_C_UAID_345A600DDC87A05202_1395695747.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Statue_02_C_UAID_345A600DDC87A05202_1395695747.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_CP_Minerva_Statue_02_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=192.000000,Y=-192.000000,Z=-74.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999969,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Statue_02_C_UAID_345A600DDC87A05202_1395695747.BoundingBoxComponent'"
+            CachedMaxDrawDistance=3029.869385
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Statue_02_C_UAID_345A600DDC87A05202_1395695747.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=3029.869385
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=3029.869385
+         DataVersion=1
+         SavedActorGuid=3E56E25B43435C4719759DA45988AD1F
+         PlaysetPackagePathName="/CRG_Minerva/SetupAssets/PID_CP_Props_Minerva_a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Minerva Statue 02 C"
+      End Actor
+      Begin Actor Class=/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Statue_03.CP_Minerva_Statue_03_C Name=CP_Minerva_Statue_03_C_UAID_345A600DDC87A05202_1395696748 Archetype="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Statue_03.CP_Minerva_Statue_03_C'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Statue_03.Default__CP_Minerva_Statue_03_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87A05202_1395700753 ActorFolderPath="Minerva Gallery" ExportPath="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Statue_03.CP_Minerva_Statue_03_C'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Statue_03_C_UAID_345A600DDC87A05202_1395696748'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Statue_03.Default__CP_Minerva_Statue_03_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Statue_03_C_UAID_345A600DDC87A05202_1395696748.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Statue_03.Default__CP_Minerva_Statue_03_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Statue_03_C_UAID_345A600DDC87A05202_1395696748.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Statue_03.Default__CP_Minerva_Statue_03_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Statue_03_C_UAID_345A600DDC87A05202_1395696748.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Statue_03_C_UAID_345A600DDC87A05202_1395696748.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_CP_Minerva_Statue_03_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=-224.000000,Z=-107.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999969,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Statue_03_C_UAID_345A600DDC87A05202_1395696748.BoundingBoxComponent'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Statue_03_C_UAID_345A600DDC87A05202_1395696748.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=2800.000000
+         DataVersion=1
+         SavedActorGuid=C6516A704E473444CC6299B602C53BA2
+         PlaysetPackagePathName="/CRG_Minerva/SetupAssets/PID_CP_Props_Minerva_a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Minerva Statue 03 C"
+      End Actor
+      Begin Actor Class=/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Statue_04.CP_Minerva_Statue_04_C Name=CP_Minerva_Statue_04_C_UAID_345A600DDC87A05202_1395696749 Archetype="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Statue_04.CP_Minerva_Statue_04_C'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Statue_04.Default__CP_Minerva_Statue_04_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87A05202_1395700753 ActorFolderPath="Minerva Gallery" ExportPath="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Statue_04.CP_Minerva_Statue_04_C'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Statue_04_C_UAID_345A600DDC87A05202_1395696749'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Statue_04.Default__CP_Minerva_Statue_04_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Statue_04_C_UAID_345A600DDC87A05202_1395696749.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Statue_04.Default__CP_Minerva_Statue_04_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Statue_04_C_UAID_345A600DDC87A05202_1395696749.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Statue_04.Default__CP_Minerva_Statue_04_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Statue_04_C_UAID_345A600DDC87A05202_1395696749.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Statue_04_C_UAID_345A600DDC87A05202_1395696749.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_CP_Minerva_Statue_04_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=192.000000,Y=-48.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999969,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Statue_04_C_UAID_345A600DDC87A05202_1395696749.BoundingBoxComponent'"
+            CachedMaxDrawDistance=10111.577148
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Statue_04_C_UAID_345A600DDC87A05202_1395696749.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=10111.577148
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=10111.577148
+         DataVersion=1
+         SavedActorGuid=88E352D045F781F7EF536CBD4EC46BAD
+         PlaysetPackagePathName="/CRG_Minerva/SetupAssets/PID_CP_Props_Minerva_a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Minerva Statue 04 C"
+      End Actor
+      Begin Actor Class=/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Statue_Group.CP_Minerva_Statue_Group_C Name=CP_Minerva_Statue_Group_C_UAID_345A600DDC87A05202_1395693745 Archetype="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Statue_Group.CP_Minerva_Statue_Group_C'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Statue_Group.Default__CP_Minerva_Statue_Group_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87A05202_1395700753 ActorFolderPath="Minerva Gallery" ExportPath="/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Statue_Group.CP_Minerva_Statue_Group_C'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Statue_Group_C_UAID_345A600DDC87A05202_1395693745'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Statue_Group.Default__CP_Minerva_Statue_Group_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Statue_Group_C_UAID_345A600DDC87A05202_1395693745.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Statue_Group.Default__CP_Minerva_Statue_Group_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Statue_Group_C_UAID_345A600DDC87A05202_1395693745.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Statue_Group.Default__CP_Minerva_Statue_Group_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Statue_Group_C_UAID_345A600DDC87A05202_1395693745.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="CP_Minerva_Statue_F_05" Archetype="/Script/Engine.StaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Statue_Group.CP_Minerva_Statue_Group_C:CP_Minerva_Statue_F_05_GEN_VARIABLE'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Statue_Group_C_UAID_345A600DDC87A05202_1395693745.CP_Minerva_Statue_F_05'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="CP_Minerva_Statue_F_04" Archetype="/Script/Engine.StaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Statue_Group.CP_Minerva_Statue_Group_C:CP_Minerva_Statue_F_04_GEN_VARIABLE'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Statue_Group_C_UAID_345A600DDC87A05202_1395693745.CP_Minerva_Statue_F_04'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="CP_Minerva_Statue_F_03" Archetype="/Script/Engine.StaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Statue_Group.CP_Minerva_Statue_Group_C:CP_Minerva_Statue_F_03_GEN_VARIABLE'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Statue_Group_C_UAID_345A600DDC87A05202_1395693745.CP_Minerva_Statue_F_03'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="CP_Minerva_Statue_F_02" Archetype="/Script/Engine.StaticMeshComponent'/CRG_Minerva/SetupAssets/Blueprints/CP_Minerva_Statue_Group.CP_Minerva_Statue_Group_C:CP_Minerva_Statue_F_02_GEN_VARIABLE'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Statue_Group_C_UAID_345A600DDC87A05202_1395693745.CP_Minerva_Statue_F_02'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Statue_Group_C_UAID_345A600DDC87A05202_1395693745.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_CP_Minerva_Statue_F_01_1'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-576.000000,Y=-128.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999969,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Statue_Group_C_UAID_345A600DDC87A05202_1395693745.BoundingBoxComponent'"
+            CachedMaxDrawDistance=9933.713867
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Statue_Group_C_UAID_345A600DDC87A05202_1395693745.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=9933.713867
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+         End Object
+         Begin Object Name="CP_Minerva_Statue_F_05" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Statue_Group_C_UAID_345A600DDC87A05202_1395693745.CP_Minerva_Statue_F_05'"
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="CP_Minerva_Statue_F_04" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Statue_Group_C_UAID_345A600DDC87A05202_1395693745.CP_Minerva_Statue_F_04'"
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="CP_Minerva_Statue_F_03" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Statue_Group_C_UAID_345A600DDC87A05202_1395693745.CP_Minerva_Statue_F_03'"
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="CP_Minerva_Statue_F_02" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/MinervaGallery.MinervaGallery:PersistentLevel.CP_Minerva_Statue_Group_C_UAID_345A600DDC87A05202_1395693745.CP_Minerva_Statue_F_02'"
+            AttachParent="StaticMeshComponent0"
+            Mobility=Static
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         CP_Minerva_Statue_F_05="CP_Minerva_Statue_F_05"
+         CP_Minerva_Statue_F_04="CP_Minerva_Statue_F_04"
+         CP_Minerva_Statue_F_03="CP_Minerva_Statue_F_03"
+         CP_Minerva_Statue_F_02="CP_Minerva_Statue_F_02"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=9933.713867
+         DataVersion=1
+         SavedActorGuid=9E3340D14460D0F608CCB6A773E427CE
+         PlaysetPackagePathName="/CRG_Minerva/SetupAssets/PID_CP_Props_Minerva_a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Minerva Statue Group C"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map

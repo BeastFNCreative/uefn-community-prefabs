@@ -1,0 +1,554 @@
+Begin Map
+   Begin Level
+      Begin Actor Class=/Script/FortniteGame.FortPlaysetRoot Name=FortPlaysetRoot_UAID_345A600DDC87B45E02_2022507505 Archetype="/Script/FortniteGame.FortPlaysetRoot'/Script/FortniteGame.Default__FortPlaysetRoot'" ActorFolderPath="Haste Gallery" ExportPath="/Script/FortniteGame.FortPlaysetRoot'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.FortPlaysetRoot_UAID_345A600DDC87B45E02_2022507505'"
+         Begin Object Class=/Script/Engine.SceneComponent Name="DefaultSceneRoot" Archetype="/Script/Engine.SceneComponent'/Script/FortniteGame.Default__FortPlaysetRoot:DefaultSceneRoot'" ExportPath="/Script/Engine.SceneComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.FortPlaysetRoot_UAID_345A600DDC87B45E02_2022507505.DefaultSceneRoot'"
+         End Object
+         Begin Object Name="DefaultSceneRoot" ExportPath="/Script/Engine.SceneComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.FortPlaysetRoot_UAID_345A600DDC87B45E02_2022507505.DefaultSceneRoot'"
+         End Object
+         SavedActorGuid=000000000000000000000000AE7268AA
+         PlaysetPackagePathName="/CRG_Haste/SetupAssets/PID_CP_Props_Haste_a"
+         ActorLabel="Haste Gallery"
+      End Actor
+      Begin Actor Class=/CRG_Haste/SetupAssets/Blueprints/CP_Haste_Ball.CP_Haste_Ball_C Name=CP_Haste_Ball_C_UAID_345A600DDC87B45E02_2022490488 Archetype="/CRG_Haste/SetupAssets/Blueprints/CP_Haste_Ball.CP_Haste_Ball_C'/CRG_Haste/SetupAssets/Blueprints/CP_Haste_Ball.Default__CP_Haste_Ball_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87B45E02_2022507505 ActorFolderPath="Haste Gallery" ExportPath="/CRG_Haste/SetupAssets/Blueprints/CP_Haste_Ball.CP_Haste_Ball_C'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Haste_Ball_C_UAID_345A600DDC87B45E02_2022490488'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRG_Haste/SetupAssets/Blueprints/CP_Haste_Ball.Default__CP_Haste_Ball_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Haste_Ball_C_UAID_345A600DDC87B45E02_2022490488.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRG_Haste/SetupAssets/Blueprints/CP_Haste_Ball.Default__CP_Haste_Ball_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Haste_Ball_C_UAID_345A600DDC87B45E02_2022490488.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRG_Haste/SetupAssets/Blueprints/CP_Haste_Ball.Default__CP_Haste_Ball_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Haste_Ball_C_UAID_345A600DDC87B45E02_2022490488.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Haste_Ball_C_UAID_345A600DDC87B45E02_2022490488.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_CP_AJ_Basketball_01_0'"
+            CachedMaxDrawDistance=29922.716797
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1616.000000,Y=176.000000,Z=496.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=89.999992,Roll=-0.000000)
+            RelativeScale3D=(X=32.000000,Y=32.000000,Z=32.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Haste_Ball_C_UAID_345A600DDC87B45E02_2022490488.BoundingBoxComponent'"
+            CachedMaxDrawDistance=29922.716797
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Haste_Ball_C_UAID_345A600DDC87B45E02_2022490488.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=29922.716797
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=29922.716797
+         SavedActorGuid=B49E9AE748289D263093E2AAE8D53A3F
+         PlaysetPackagePathName="/CRG_Haste/SetupAssets/PID_CP_Props_Haste_a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Haste Ball C"
+      End Actor
+      Begin Actor Class=/CRG_Haste/SetupAssets/Blueprints/CP_Haste_Board.CP_Haste_Board_C Name=CP_Haste_Board_C_UAID_345A600DDC87B45E02_2022493490 Archetype="/CRG_Haste/SetupAssets/Blueprints/CP_Haste_Board.CP_Haste_Board_C'/CRG_Haste/SetupAssets/Blueprints/CP_Haste_Board.Default__CP_Haste_Board_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87B45E02_2022507505 ActorFolderPath="Haste Gallery" ExportPath="/CRG_Haste/SetupAssets/Blueprints/CP_Haste_Board.CP_Haste_Board_C'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Haste_Board_C_UAID_345A600DDC87B45E02_2022493490'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRG_Haste/SetupAssets/Blueprints/CP_Haste_Board.Default__CP_Haste_Board_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Haste_Board_C_UAID_345A600DDC87B45E02_2022493490.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRG_Haste/SetupAssets/Blueprints/CP_Haste_Board.Default__CP_Haste_Board_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Haste_Board_C_UAID_345A600DDC87B45E02_2022493490.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRG_Haste/SetupAssets/Blueprints/CP_Haste_Board.Default__CP_Haste_Board_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Haste_Board_C_UAID_345A600DDC87B45E02_2022493490.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Haste_Board_C_UAID_345A600DDC87B45E02_2022493490.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_CP_AJ_BasketballHoop_Backboard_01_0'"
+            CachedMaxDrawDistance=39999.996094
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-888.000000,Y=888.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999969,Roll=-0.000000)
+            RelativeScale3D=(X=8.000000,Y=8.000000,Z=8.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Haste_Board_C_UAID_345A600DDC87B45E02_2022493490.BoundingBoxComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Haste_Board_C_UAID_345A600DDC87B45E02_2022493490.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=39999.996094
+         SavedActorGuid=D53809D546C10FBC0904FCA886D77F4D
+         PlaysetPackagePathName="/CRG_Haste/SetupAssets/PID_CP_Props_Haste_a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Haste Board C"
+      End Actor
+      Begin Actor Class=/CRG_Haste/SetupAssets/Blueprints/CP_Sm_Haste_Mount_a.CP_Sm_Haste_Mount_a_C Name=CP_Sm_Haste_Mount_a_C_UAID_345A600DDC87B45E02_2022502500 Archetype="/CRG_Haste/SetupAssets/Blueprints/CP_Sm_Haste_Mount_a.CP_Sm_Haste_Mount_a_C'/CRG_Haste/SetupAssets/Blueprints/CP_Sm_Haste_Mount_a.Default__CP_Sm_Haste_Mount_a_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87B45E02_2022507505 ActorFolderPath="Haste Gallery" ExportPath="/CRG_Haste/SetupAssets/Blueprints/CP_Sm_Haste_Mount_a.CP_Sm_Haste_Mount_a_C'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Sm_Haste_Mount_a_C_UAID_345A600DDC87B45E02_2022502500'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRG_Haste/SetupAssets/Blueprints/CP_Sm_Haste_Mount_a.Default__CP_Sm_Haste_Mount_a_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Sm_Haste_Mount_a_C_UAID_345A600DDC87B45E02_2022502500.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRG_Haste/SetupAssets/Blueprints/CP_Sm_Haste_Mount_a.Default__CP_Sm_Haste_Mount_a_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Sm_Haste_Mount_a_C_UAID_345A600DDC87B45E02_2022502500.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRG_Haste/SetupAssets/Blueprints/CP_Sm_Haste_Mount_a.Default__CP_Sm_Haste_Mount_a_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Sm_Haste_Mount_a_C_UAID_345A600DDC87B45E02_2022502500.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Sm_Haste_Mount_a_C_UAID_345A600DDC87B45E02_2022502500.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Primitive_Haste_Iridescent_0'"
+            CachedMaxDrawDistance=39999.996094
+            RelativeLocation=(X=-4263.423828,Y=9607.142578,Z=-0.004883)
+            RelativeScale3D=(X=0.500000,Y=0.500000,Z=0.500000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Sm_Haste_Mount_a_C_UAID_345A600DDC87B45E02_2022502500.BoundingBoxComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Sm_Haste_Mount_a_C_UAID_345A600DDC87B45E02_2022502500.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=39999.996094
+         SavedActorGuid=2A9F938741B241B9076719867C0A6BE3
+         PlaysetPackagePathName="/CRG_Haste/SetupAssets/PID_CP_Props_Haste_a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Haste Mount a C"
+      End Actor
+      Begin Actor Class=/CRG_Haste/SetupAssets/Blueprints/CP_Sm_Haste_Mount_a.CP_Sm_Haste_Mount_a_C Name=CP_Sm_Haste_Mount_a_C_UAID_345A600DDC87B45E02_2022503501 Archetype="/CRG_Haste/SetupAssets/Blueprints/CP_Sm_Haste_Mount_a.CP_Sm_Haste_Mount_a_C'/CRG_Haste/SetupAssets/Blueprints/CP_Sm_Haste_Mount_a.Default__CP_Sm_Haste_Mount_a_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87B45E02_2022507505 ActorFolderPath="Haste Gallery" ExportPath="/CRG_Haste/SetupAssets/Blueprints/CP_Sm_Haste_Mount_a.CP_Sm_Haste_Mount_a_C'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Sm_Haste_Mount_a_C_UAID_345A600DDC87B45E02_2022503501'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRG_Haste/SetupAssets/Blueprints/CP_Sm_Haste_Mount_a.Default__CP_Sm_Haste_Mount_a_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Sm_Haste_Mount_a_C_UAID_345A600DDC87B45E02_2022503501.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRG_Haste/SetupAssets/Blueprints/CP_Sm_Haste_Mount_a.Default__CP_Sm_Haste_Mount_a_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Sm_Haste_Mount_a_C_UAID_345A600DDC87B45E02_2022503501.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRG_Haste/SetupAssets/Blueprints/CP_Sm_Haste_Mount_a.Default__CP_Sm_Haste_Mount_a_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Sm_Haste_Mount_a_C_UAID_345A600DDC87B45E02_2022503501.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Sm_Haste_Mount_a_C_UAID_345A600DDC87B45E02_2022503501.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Primitive_Haste_Chrome_Polished_0'"
+            CachedMaxDrawDistance=39999.996094
+            RelativeLocation=(X=-9671.423828,Y=9607.142578,Z=-0.004883)
+            RelativeScale3D=(X=0.500000,Y=0.500000,Z=0.500000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Sm_Haste_Mount_a_C_UAID_345A600DDC87B45E02_2022503501.BoundingBoxComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Sm_Haste_Mount_a_C_UAID_345A600DDC87B45E02_2022503501.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Creative/Environments/Haste/Materials/CP_Primitive_Haste_Chrome_Polished.CP_Primitive_Haste_Chrome_Polished'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=39999.996094
+         SavedActorGuid=6703669942B1CEA130E3B88B8D887AF7
+         PlaysetPackagePathName="/CRG_Haste/SetupAssets/PID_CP_Props_Haste_a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Haste Mount a C"
+      End Actor
+      Begin Actor Class=/CRG_Haste/SetupAssets/Blueprints/CP_Sm_Haste_Mount_b.CP_Sm_Haste_Mount_b_C Name=CP_Sm_Haste_Mount_b_C_UAID_345A600DDC87B45E02_2022504502 Archetype="/CRG_Haste/SetupAssets/Blueprints/CP_Sm_Haste_Mount_b.CP_Sm_Haste_Mount_b_C'/CRG_Haste/SetupAssets/Blueprints/CP_Sm_Haste_Mount_b.Default__CP_Sm_Haste_Mount_b_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87B45E02_2022507505 ActorFolderPath="Haste Gallery" ExportPath="/CRG_Haste/SetupAssets/Blueprints/CP_Sm_Haste_Mount_b.CP_Sm_Haste_Mount_b_C'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Sm_Haste_Mount_b_C_UAID_345A600DDC87B45E02_2022504502'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRG_Haste/SetupAssets/Blueprints/CP_Sm_Haste_Mount_b.Default__CP_Sm_Haste_Mount_b_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Sm_Haste_Mount_b_C_UAID_345A600DDC87B45E02_2022504502.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRG_Haste/SetupAssets/Blueprints/CP_Sm_Haste_Mount_b.Default__CP_Sm_Haste_Mount_b_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Sm_Haste_Mount_b_C_UAID_345A600DDC87B45E02_2022504502.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRG_Haste/SetupAssets/Blueprints/CP_Sm_Haste_Mount_b.Default__CP_Sm_Haste_Mount_b_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Sm_Haste_Mount_b_C_UAID_345A600DDC87B45E02_2022504502.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Sm_Haste_Mount_b_C_UAID_345A600DDC87B45E02_2022504502.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Primitive_Haste_Chrome_Polished_0'"
+            CachedMaxDrawDistance=39999.996094
+            RelativeLocation=(X=-15941.664062,Y=3412.850586,Z=-0.004883)
+            RelativeScale3D=(X=5.000000,Y=5.000000,Z=5.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Sm_Haste_Mount_b_C_UAID_345A600DDC87B45E02_2022504502.BoundingBoxComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Sm_Haste_Mount_b_C_UAID_345A600DDC87B45E02_2022504502.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Creative/Environments/Haste/Materials/CP_Primitive_Haste_Chrome_Polished.CP_Primitive_Haste_Chrome_Polished'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=39999.996094
+         SavedActorGuid=7AC1B7364FB384C25349F987F4FDD3C9
+         PlaysetPackagePathName="/CRG_Haste/SetupAssets/PID_CP_Props_Haste_a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Haste Mount b C"
+      End Actor
+      Begin Actor Class=/CRG_Haste/SetupAssets/Blueprints/CP_Sm_Haste_Mount_b.CP_Sm_Haste_Mount_b_C Name=CP_Sm_Haste_Mount_b_C_UAID_345A600DDC87B45E02_2022505503 Archetype="/CRG_Haste/SetupAssets/Blueprints/CP_Sm_Haste_Mount_b.CP_Sm_Haste_Mount_b_C'/CRG_Haste/SetupAssets/Blueprints/CP_Sm_Haste_Mount_b.Default__CP_Sm_Haste_Mount_b_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87B45E02_2022507505 ActorFolderPath="Haste Gallery" ExportPath="/CRG_Haste/SetupAssets/Blueprints/CP_Sm_Haste_Mount_b.CP_Sm_Haste_Mount_b_C'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Sm_Haste_Mount_b_C_UAID_345A600DDC87B45E02_2022505503'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRG_Haste/SetupAssets/Blueprints/CP_Sm_Haste_Mount_b.Default__CP_Sm_Haste_Mount_b_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Sm_Haste_Mount_b_C_UAID_345A600DDC87B45E02_2022505503.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRG_Haste/SetupAssets/Blueprints/CP_Sm_Haste_Mount_b.Default__CP_Sm_Haste_Mount_b_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Sm_Haste_Mount_b_C_UAID_345A600DDC87B45E02_2022505503.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRG_Haste/SetupAssets/Blueprints/CP_Sm_Haste_Mount_b.Default__CP_Sm_Haste_Mount_b_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Sm_Haste_Mount_b_C_UAID_345A600DDC87B45E02_2022505503.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Sm_Haste_Mount_b_C_UAID_345A600DDC87B45E02_2022505503.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Primitive_Haste_Iridescent_0'"
+            CachedMaxDrawDistance=39999.996094
+            RelativeLocation=(X=-10053.664062,Y=3412.850586,Z=-0.004883)
+            RelativeScale3D=(X=5.000000,Y=5.000000,Z=5.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Sm_Haste_Mount_b_C_UAID_345A600DDC87B45E02_2022505503.BoundingBoxComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Sm_Haste_Mount_b_C_UAID_345A600DDC87B45E02_2022505503.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=39999.996094
+         SavedActorGuid=E86A1A964EF650AB7C45F394EB37A269
+         PlaysetPackagePathName="/CRG_Haste/SetupAssets/PID_CP_Props_Haste_a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Haste Mount b C"
+      End Actor
+      Begin Actor Class=/CRG_Haste/SetupAssets/Blueprints/CP_Haste_Ring.CP_Haste_Ring_C Name=CP_Haste_Ring_C_UAID_345A600DDC87B45E02_2022492489 Archetype="/CRG_Haste/SetupAssets/Blueprints/CP_Haste_Ring.CP_Haste_Ring_C'/CRG_Haste/SetupAssets/Blueprints/CP_Haste_Ring.Default__CP_Haste_Ring_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87B45E02_2022507505 ActorFolderPath="Haste Gallery" ExportPath="/CRG_Haste/SetupAssets/Blueprints/CP_Haste_Ring.CP_Haste_Ring_C'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Haste_Ring_C_UAID_345A600DDC87B45E02_2022492489'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRG_Haste/SetupAssets/Blueprints/CP_Haste_Ring.Default__CP_Haste_Ring_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Haste_Ring_C_UAID_345A600DDC87B45E02_2022492489.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRG_Haste/SetupAssets/Blueprints/CP_Haste_Ring.Default__CP_Haste_Ring_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Haste_Ring_C_UAID_345A600DDC87B45E02_2022492489.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRG_Haste/SetupAssets/Blueprints/CP_Haste_Ring.Default__CP_Haste_Ring_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Haste_Ring_C_UAID_345A600DDC87B45E02_2022492489.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Haste_Ring_C_UAID_345A600DDC87B45E02_2022492489.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_CP_AJ_BasketballHoop_Ring_01_0'"
+            CachedMaxDrawDistance=36239.019531
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-224.000000,Y=-64.000000,Z=8.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000069,Roll=0.000000)
+            RelativeScale3D=(X=16.000000,Y=16.000000,Z=16.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Haste_Ring_C_UAID_345A600DDC87B45E02_2022492489.BoundingBoxComponent'"
+            CachedMaxDrawDistance=36239.019531
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Haste_Ring_C_UAID_345A600DDC87B45E02_2022492489.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=36239.019531
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=36239.019531
+         SavedActorGuid=C2D4D4AC4C0799DA37E700B469735BC6
+         PlaysetPackagePathName="/CRG_Haste/SetupAssets/PID_CP_Props_Haste_a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Haste Ring C"
+      End Actor
+      Begin Actor Class=/CRD_ThrowingToy/SetupAssets/B_HasteHoopWithMinigame.B_HasteHoopWithMinigame_C Name=B_HasteHoopWithMinigame_C_UAID_345A600DDC87B45E02_2022505504 Archetype="/CRD_ThrowingToy/SetupAssets/B_HasteHoopWithMinigame.B_HasteHoopWithMinigame_C'/CRD_ThrowingToy/SetupAssets/B_HasteHoopWithMinigame.Default__B_HasteHoopWithMinigame_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87B45E02_2022507505 ActorFolderPath="Haste Gallery" ExportPath="/CRD_ThrowingToy/SetupAssets/B_HasteHoopWithMinigame.B_HasteHoopWithMinigame_C'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.B_HasteHoopWithMinigame_C_UAID_345A600DDC87B45E02_2022505504'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRD_ThrowingToy/SetupAssets/B_HasteHoopWithMinigame.Default__B_HasteHoopWithMinigame_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.B_HasteHoopWithMinigame_C_UAID_345A600DDC87B45E02_2022505504.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRD_ThrowingToy/SetupAssets/B_HasteHoopWithMinigame.Default__B_HasteHoopWithMinigame_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.B_HasteHoopWithMinigame_C_UAID_345A600DDC87B45E02_2022505504.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRD_ThrowingToy/SetupAssets/B_HasteHoopWithMinigame.Default__B_HasteHoopWithMinigame_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.B_HasteHoopWithMinigame_C_UAID_345A600DDC87B45E02_2022505504.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="HoopTriggerBox" Archetype="/Script/Engine.BoxComponent'/CRD_ThrowingToy/SetupAssets/B_HasteHoopWithMinigame.B_HasteHoopWithMinigame_C:HoopTriggerBox_GEN_VARIABLE'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.B_HasteHoopWithMinigame_C_UAID_345A600DDC87B45E02_2022505504.HoopTriggerBox'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="HasteHoop" Archetype="/Script/Engine.StaticMeshComponent'/CRD_ThrowingToy/SetupAssets/B_HasteHoopWithMinigame.B_HasteHoopWithMinigame_C:HasteHoop_GEN_VARIABLE'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.B_HasteHoopWithMinigame_C_UAID_345A600DDC87B45E02_2022505504.HasteHoop'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.B_HasteHoopWithMinigame_C_UAID_345A600DDC87B45E02_2022505504.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_CP_AJ_BasketballHoop_Backboard_01_0'"
+            LDMaxDrawDistance=0.000000
+            CachedMaxDrawDistance=21026.968750
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-970.000000,Y=-134.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999969,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.B_HasteHoopWithMinigame_C_UAID_345A600DDC87B45E02_2022505504.BoundingBoxComponent'"
+            CachedMaxDrawDistance=21026.968750
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.B_HasteHoopWithMinigame_C_UAID_345A600DDC87B45E02_2022505504.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=21026.968750
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="HoopTriggerBox" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.B_HasteHoopWithMinigame_C_UAID_345A600DDC87B45E02_2022505504.HoopTriggerBox'"
+            CachedMaxDrawDistance=21026.968750
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="HasteHoop" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.B_HasteHoopWithMinigame_C_UAID_345A600DDC87B45E02_2022505504.HasteHoop'"
+            CachedMaxDrawDistance=21026.968750
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         HasteHoop="HasteHoop"
+         HoopTriggerBox="HoopTriggerBox"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=21026.968750
+         SavedActorGuid=65F441614BB490037CAE0482E0C59013
+         PlaysetPackagePathName="/CRG_Haste/SetupAssets/PID_CP_Props_Haste_a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="HasteHoopWithMinigame C"
+      End Actor
+      Begin Actor Class=/Game/Creative/Misc/Razor/CP_Razor_Hump.CP_Razor_Hump_C Name=CP_Razor_Hump_C_UAID_345A600DDC87B45E02_2022500497 Archetype="/Game/Creative/Misc/Razor/CP_Razor_Hump.CP_Razor_Hump_C'/Game/Creative/Misc/Razor/CP_Razor_Hump.Default__CP_Razor_Hump_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87B45E02_2022507505 ActorFolderPath="Haste Gallery" ExportPath="/Game/Creative/Misc/Razor/CP_Razor_Hump.CP_Razor_Hump_C'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Razor_Hump_C_UAID_345A600DDC87B45E02_2022500497'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Creative/Misc/Razor/CP_Razor_Hump.Default__CP_Razor_Hump_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Razor_Hump_C_UAID_345A600DDC87B45E02_2022500497.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Creative/Misc/Razor/CP_Razor_Hump.Default__CP_Razor_Hump_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Razor_Hump_C_UAID_345A600DDC87B45E02_2022500497.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Creative/Misc/Razor/CP_Razor_Hump.Default__CP_Razor_Hump_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Razor_Hump_C_UAID_345A600DDC87B45E02_2022500497.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Razor_Hump_C_UAID_345A600DDC87B45E02_2022500497.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Primitive_Haste_Chrome_Polished_0'"
+            CachedMaxDrawDistance=39999.996094
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-4672.000000,Y=1696.000000,Z=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Razor_Hump_C_UAID_345A600DDC87B45E02_2022500497.BoundingBoxComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Razor_Hump_C_UAID_345A600DDC87B45E02_2022500497.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Creative/Environments/Haste/Materials/CP_Primitive_Haste_Chrome_Polished.CP_Primitive_Haste_Chrome_Polished'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=39999.996094
+         SavedActorGuid=731A13C84E3DF28494D31FAAE8F8AAF7
+         PlaysetPackagePathName="/CRG_Haste/SetupAssets/PID_CP_Props_Haste_a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Razor Hump C"
+      End Actor
+      Begin Actor Class=/Game/Creative/Misc/Razor/CP_Razor_Hump.CP_Razor_Hump_C Name=CP_Razor_Hump_C_UAID_345A600DDC87B45E02_2022499496 Archetype="/Game/Creative/Misc/Razor/CP_Razor_Hump.CP_Razor_Hump_C'/Game/Creative/Misc/Razor/CP_Razor_Hump.Default__CP_Razor_Hump_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87B45E02_2022507505 ActorFolderPath="Haste Gallery" ExportPath="/Game/Creative/Misc/Razor/CP_Razor_Hump.CP_Razor_Hump_C'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Razor_Hump_C_UAID_345A600DDC87B45E02_2022499496'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Creative/Misc/Razor/CP_Razor_Hump.Default__CP_Razor_Hump_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Razor_Hump_C_UAID_345A600DDC87B45E02_2022499496.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Creative/Misc/Razor/CP_Razor_Hump.Default__CP_Razor_Hump_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Razor_Hump_C_UAID_345A600DDC87B45E02_2022499496.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Creative/Misc/Razor/CP_Razor_Hump.Default__CP_Razor_Hump_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Razor_Hump_C_UAID_345A600DDC87B45E02_2022499496.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Razor_Hump_C_UAID_345A600DDC87B45E02_2022499496.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Primitive_Haste_Iridescent_0'"
+            CachedMaxDrawDistance=39999.996094
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-4640.000000,Y=3616.000000,Z=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Razor_Hump_C_UAID_345A600DDC87B45E02_2022499496.BoundingBoxComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Razor_Hump_C_UAID_345A600DDC87B45E02_2022499496.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Creative/Environments/Haste/Materials/CP_Primitive_Haste_Iridescent.CP_Primitive_Haste_Iridescent'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=39999.996094
+         SavedActorGuid=B5542CFF4C15513B163D5A8D4F6ED258
+         PlaysetPackagePathName="/CRG_Haste/SetupAssets/PID_CP_Props_Haste_a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Razor Hump C"
+      End Actor
+      Begin Actor Class=/Game/Creative/Misc/Razor/CP_Razor_Snow_02.CP_Razor_Snow_02_C Name=CP_Razor_Snow_02_C_UAID_345A600DDC87B45E02_2022501499 Archetype="/Game/Creative/Misc/Razor/CP_Razor_Snow_02.CP_Razor_Snow_02_C'/Game/Creative/Misc/Razor/CP_Razor_Snow_02.Default__CP_Razor_Snow_02_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87B45E02_2022507505 ActorFolderPath="Haste Gallery" ExportPath="/Game/Creative/Misc/Razor/CP_Razor_Snow_02.CP_Razor_Snow_02_C'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Razor_Snow_02_C_UAID_345A600DDC87B45E02_2022501499'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Creative/Misc/Razor/CP_Razor_Snow_02.Default__CP_Razor_Snow_02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Razor_Snow_02_C_UAID_345A600DDC87B45E02_2022501499.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Creative/Misc/Razor/CP_Razor_Snow_02.Default__CP_Razor_Snow_02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Razor_Snow_02_C_UAID_345A600DDC87B45E02_2022501499.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Creative/Misc/Razor/CP_Razor_Snow_02.Default__CP_Razor_Snow_02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Razor_Snow_02_C_UAID_345A600DDC87B45E02_2022501499.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Razor_Snow_02_C_UAID_345A600DDC87B45E02_2022501499.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Primitive_Haste_Chrome_Polished_0'"
+            CachedMaxDrawDistance=16920.550781
+            RelativeLocation=(X=-5408.000000,Y=256.000000,Z=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Razor_Snow_02_C_UAID_345A600DDC87B45E02_2022501499.BoundingBoxComponent'"
+            CachedMaxDrawDistance=16920.550781
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Razor_Snow_02_C_UAID_345A600DDC87B45E02_2022501499.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=16920.550781
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Creative/Environments/Haste/Materials/CP_Primitive_Haste_Chrome_Polished.CP_Primitive_Haste_Chrome_Polished'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=16920.550781
+         SavedActorGuid=1B8E12714D5E42DA8DCF4A8CE496E1C4
+         PlaysetPackagePathName="/CRG_Haste/SetupAssets/PID_CP_Props_Haste_a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Razor Snow 02 C"
+      End Actor
+      Begin Actor Class=/Game/Creative/Misc/Razor/CP_Razor_Snow_02.CP_Razor_Snow_02_C Name=CP_Razor_Snow_02_C_UAID_345A600DDC87B45E02_2022500498 Archetype="/Game/Creative/Misc/Razor/CP_Razor_Snow_02.CP_Razor_Snow_02_C'/Game/Creative/Misc/Razor/CP_Razor_Snow_02.Default__CP_Razor_Snow_02_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87B45E02_2022507505 ActorFolderPath="Haste Gallery" ExportPath="/Game/Creative/Misc/Razor/CP_Razor_Snow_02.CP_Razor_Snow_02_C'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Razor_Snow_02_C_UAID_345A600DDC87B45E02_2022500498'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Creative/Misc/Razor/CP_Razor_Snow_02.Default__CP_Razor_Snow_02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Razor_Snow_02_C_UAID_345A600DDC87B45E02_2022500498.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Creative/Misc/Razor/CP_Razor_Snow_02.Default__CP_Razor_Snow_02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Razor_Snow_02_C_UAID_345A600DDC87B45E02_2022500498.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Creative/Misc/Razor/CP_Razor_Snow_02.Default__CP_Razor_Snow_02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Razor_Snow_02_C_UAID_345A600DDC87B45E02_2022500498.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Razor_Snow_02_C_UAID_345A600DDC87B45E02_2022500498.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Primitive_Haste_Iridescent_0'"
+            CachedMaxDrawDistance=16920.550781
+            RelativeLocation=(X=-4832.000000,Y=256.000000,Z=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Razor_Snow_02_C_UAID_345A600DDC87B45E02_2022500498.BoundingBoxComponent'"
+            CachedMaxDrawDistance=16920.550781
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_Razor_Snow_02_C_UAID_345A600DDC87B45E02_2022500498.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=16920.550781
+            AttachParent="StaticMeshComponent0"
+         End Object
+         TextureData(0)="/Script/FortniteGame.BuildingTextureData'/Game/Creative/Environments/Haste/Materials/CP_Primitive_Haste_Iridescent.CP_Primitive_Haste_Iridescent'"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=16920.550781
+         SavedActorGuid=F0D46EB64AC912EF42DB07832D0981D5
+         PlaysetPackagePathName="/CRG_Haste/SetupAssets/PID_CP_Props_Haste_a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Razor Snow 02 C"
+      End Actor
+      Begin Actor Class=/CRG_Haste/SetupAssets/Blueprints/CP_SnowDunes_Ramp_Inner.CP_SnowDunes_Ramp_Inner_C Name=CP_SnowDunes_Ramp_Inner_C_UAID_345A600DDC87B45E02_2022494491 Archetype="/CRG_Haste/SetupAssets/Blueprints/CP_SnowDunes_Ramp_Inner.CP_SnowDunes_Ramp_Inner_C'/CRG_Haste/SetupAssets/Blueprints/CP_SnowDunes_Ramp_Inner.Default__CP_SnowDunes_Ramp_Inner_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87B45E02_2022507505 ActorFolderPath="Haste Gallery" ExportPath="/CRG_Haste/SetupAssets/Blueprints/CP_SnowDunes_Ramp_Inner.CP_SnowDunes_Ramp_Inner_C'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_SnowDunes_Ramp_Inner_C_UAID_345A600DDC87B45E02_2022494491'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRG_Haste/SetupAssets/Blueprints/CP_SnowDunes_Ramp_Inner.Default__CP_SnowDunes_Ramp_Inner_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_SnowDunes_Ramp_Inner_C_UAID_345A600DDC87B45E02_2022494491.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRG_Haste/SetupAssets/Blueprints/CP_SnowDunes_Ramp_Inner.Default__CP_SnowDunes_Ramp_Inner_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_SnowDunes_Ramp_Inner_C_UAID_345A600DDC87B45E02_2022494491.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRG_Haste/SetupAssets/Blueprints/CP_SnowDunes_Ramp_Inner.Default__CP_SnowDunes_Ramp_Inner_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_SnowDunes_Ramp_Inner_C_UAID_345A600DDC87B45E02_2022494491.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_SnowDunes_Ramp_Inner_C_UAID_345A600DDC87B45E02_2022494491.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_Athena_Terrain_Mat_Biome_Cliff_ForceSnow_0'"
+            CachedMaxDrawDistance=39999.996094
+            RelativeLocation=(X=-3584.000000,Y=3328.000000,Z=384.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_SnowDunes_Ramp_Inner_C_UAID_345A600DDC87B45E02_2022494491.BoundingBoxComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_SnowDunes_Ramp_Inner_C_UAID_345A600DDC87B45E02_2022494491.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=39999.996094
+         SavedActorGuid=D251E70748CB62595808BFA258A4A16F
+         PlaysetPackagePathName="/CRG_Haste/SetupAssets/PID_CP_Props_Haste_a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SnowDunes Ramp Inner C"
+      End Actor
+      Begin Actor Class=/CRG_Haste/SetupAssets/Blueprints/CP_SnowDunes_Ramp_Outer.CP_SnowDunes_Ramp_Outer_C Name=CP_SnowDunes_Ramp_Outer_C_UAID_345A600DDC87B45E02_2022495492 Archetype="/CRG_Haste/SetupAssets/Blueprints/CP_SnowDunes_Ramp_Outer.CP_SnowDunes_Ramp_Outer_C'/CRG_Haste/SetupAssets/Blueprints/CP_SnowDunes_Ramp_Outer.Default__CP_SnowDunes_Ramp_Outer_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87B45E02_2022507505 ActorFolderPath="Haste Gallery" ExportPath="/CRG_Haste/SetupAssets/Blueprints/CP_SnowDunes_Ramp_Outer.CP_SnowDunes_Ramp_Outer_C'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_SnowDunes_Ramp_Outer_C_UAID_345A600DDC87B45E02_2022495492'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRG_Haste/SetupAssets/Blueprints/CP_SnowDunes_Ramp_Outer.Default__CP_SnowDunes_Ramp_Outer_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_SnowDunes_Ramp_Outer_C_UAID_345A600DDC87B45E02_2022495492.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRG_Haste/SetupAssets/Blueprints/CP_SnowDunes_Ramp_Outer.Default__CP_SnowDunes_Ramp_Outer_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_SnowDunes_Ramp_Outer_C_UAID_345A600DDC87B45E02_2022495492.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRG_Haste/SetupAssets/Blueprints/CP_SnowDunes_Ramp_Outer.Default__CP_SnowDunes_Ramp_Outer_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_SnowDunes_Ramp_Outer_C_UAID_345A600DDC87B45E02_2022495492.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_SnowDunes_Ramp_Outer_C_UAID_345A600DDC87B45E02_2022495492.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_Athena_Terrain_Mat_Biome_Cliff_ForceSnow_0'"
+            CachedMaxDrawDistance=38794.746094
+            RelativeLocation=(X=-3584.000000,Y=1280.000000,Z=384.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_SnowDunes_Ramp_Outer_C_UAID_345A600DDC87B45E02_2022495492.BoundingBoxComponent'"
+            CachedMaxDrawDistance=38794.746094
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_SnowDunes_Ramp_Outer_C_UAID_345A600DDC87B45E02_2022495492.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=38794.746094
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=38794.746094
+         SavedActorGuid=F52CD8774F7642CC2128DB924A61D9AF
+         PlaysetPackagePathName="/CRG_Haste/SetupAssets/PID_CP_Props_Haste_a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SnowDunes Ramp Outer C"
+      End Actor
+      Begin Actor Class=/CRG_Haste/SetupAssets/Blueprints/CP_SnowDunes_Ramp_Straight.CP_SnowDunes_Ramp_Straight_C Name=CP_SnowDunes_Ramp_Straight_C_UAID_345A600DDC87B45E02_2022496493 Archetype="/CRG_Haste/SetupAssets/Blueprints/CP_SnowDunes_Ramp_Straight.CP_SnowDunes_Ramp_Straight_C'/CRG_Haste/SetupAssets/Blueprints/CP_SnowDunes_Ramp_Straight.Default__CP_SnowDunes_Ramp_Straight_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87B45E02_2022507505 ActorFolderPath="Haste Gallery" ExportPath="/CRG_Haste/SetupAssets/Blueprints/CP_SnowDunes_Ramp_Straight.CP_SnowDunes_Ramp_Straight_C'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_SnowDunes_Ramp_Straight_C_UAID_345A600DDC87B45E02_2022496493'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRG_Haste/SetupAssets/Blueprints/CP_SnowDunes_Ramp_Straight.Default__CP_SnowDunes_Ramp_Straight_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_SnowDunes_Ramp_Straight_C_UAID_345A600DDC87B45E02_2022496493.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRG_Haste/SetupAssets/Blueprints/CP_SnowDunes_Ramp_Straight.Default__CP_SnowDunes_Ramp_Straight_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_SnowDunes_Ramp_Straight_C_UAID_345A600DDC87B45E02_2022496493.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRG_Haste/SetupAssets/Blueprints/CP_SnowDunes_Ramp_Straight.Default__CP_SnowDunes_Ramp_Straight_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_SnowDunes_Ramp_Straight_C_UAID_345A600DDC87B45E02_2022496493.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_SnowDunes_Ramp_Straight_C_UAID_345A600DDC87B45E02_2022496493.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_Athena_Terrain_Mat_Biome_Cliff_ForceSnow_0'"
+            CachedMaxDrawDistance=39999.996094
+            RelativeLocation=(X=-1664.000000,Y=3328.000000,Z=384.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_SnowDunes_Ramp_Straight_C_UAID_345A600DDC87B45E02_2022496493.BoundingBoxComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_SnowDunes_Ramp_Straight_C_UAID_345A600DDC87B45E02_2022496493.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=39999.996094
+         SavedActorGuid=131FC19546D1DBE5F6F429A0B0A9A571
+         PlaysetPackagePathName="/CRG_Haste/SetupAssets/PID_CP_Props_Haste_a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SnowDunes Ramp Straight C"
+      End Actor
+      Begin Actor Class=/CRG_Haste/SetupAssets/Blueprints/CP_SnowDunes_Small_Outer.CP_SnowDunes_Small_Outer_C Name=CP_SnowDunes_Small_Outer_C_UAID_345A600DDC87B45E02_2022497494 Archetype="/CRG_Haste/SetupAssets/Blueprints/CP_SnowDunes_Small_Outer.CP_SnowDunes_Small_Outer_C'/CRG_Haste/SetupAssets/Blueprints/CP_SnowDunes_Small_Outer.Default__CP_SnowDunes_Small_Outer_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87B45E02_2022507505 ActorFolderPath="Haste Gallery" ExportPath="/CRG_Haste/SetupAssets/Blueprints/CP_SnowDunes_Small_Outer.CP_SnowDunes_Small_Outer_C'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_SnowDunes_Small_Outer_C_UAID_345A600DDC87B45E02_2022497494'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRG_Haste/SetupAssets/Blueprints/CP_SnowDunes_Small_Outer.Default__CP_SnowDunes_Small_Outer_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_SnowDunes_Small_Outer_C_UAID_345A600DDC87B45E02_2022497494.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRG_Haste/SetupAssets/Blueprints/CP_SnowDunes_Small_Outer.Default__CP_SnowDunes_Small_Outer_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_SnowDunes_Small_Outer_C_UAID_345A600DDC87B45E02_2022497494.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRG_Haste/SetupAssets/Blueprints/CP_SnowDunes_Small_Outer.Default__CP_SnowDunes_Small_Outer_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_SnowDunes_Small_Outer_C_UAID_345A600DDC87B45E02_2022497494.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_SnowDunes_Small_Outer_C_UAID_345A600DDC87B45E02_2022497494.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_Athena_Terrain_Mat_Biome_Cliff_ForceSnow_0'"
+            CachedMaxDrawDistance=24701.742188
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-4185.103516,Y=53.225586,Z=224.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_SnowDunes_Small_Outer_C_UAID_345A600DDC87B45E02_2022497494.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24701.742188
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_SnowDunes_Small_Outer_C_UAID_345A600DDC87B45E02_2022497494.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24701.742188
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24701.742188
+         SavedActorGuid=FAF2DDED495B8BD27764F1A1C52D56CC
+         PlaysetPackagePathName="/CRG_Haste/SetupAssets/PID_CP_Props_Haste_a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SnowDunes Small Outer C"
+      End Actor
+      Begin Actor Class=/CRG_Haste/SetupAssets/Blueprints/CP_SnowDunes_Small_Straight.CP_SnowDunes_Small_Straight_C Name=CP_SnowDunes_Small_Straight_C_UAID_345A600DDC87B45E02_2022498495 Archetype="/CRG_Haste/SetupAssets/Blueprints/CP_SnowDunes_Small_Straight.CP_SnowDunes_Small_Straight_C'/CRG_Haste/SetupAssets/Blueprints/CP_SnowDunes_Small_Straight.Default__CP_SnowDunes_Small_Straight_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87B45E02_2022507505 ActorFolderPath="Haste Gallery" ExportPath="/CRG_Haste/SetupAssets/Blueprints/CP_SnowDunes_Small_Straight.CP_SnowDunes_Small_Straight_C'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_SnowDunes_Small_Straight_C_UAID_345A600DDC87B45E02_2022498495'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRG_Haste/SetupAssets/Blueprints/CP_SnowDunes_Small_Straight.Default__CP_SnowDunes_Small_Straight_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_SnowDunes_Small_Straight_C_UAID_345A600DDC87B45E02_2022498495.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRG_Haste/SetupAssets/Blueprints/CP_SnowDunes_Small_Straight.Default__CP_SnowDunes_Small_Straight_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_SnowDunes_Small_Straight_C_UAID_345A600DDC87B45E02_2022498495.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRG_Haste/SetupAssets/Blueprints/CP_SnowDunes_Small_Straight.Default__CP_SnowDunes_Small_Straight_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_SnowDunes_Small_Straight_C_UAID_345A600DDC87B45E02_2022498495.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_SnowDunes_Small_Straight_C_UAID_345A600DDC87B45E02_2022498495.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_Athena_Terrain_Mat_Biome_Cliff_ForceSnow_0'"
+            CachedMaxDrawDistance=24701.742188
+            RelativeLocation=(X=-4185.103516,Y=917.225586,Z=224.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_SnowDunes_Small_Straight_C_UAID_345A600DDC87B45E02_2022498495.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24701.742188
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/HasteGallery.HasteGallery:PersistentLevel.CP_SnowDunes_Small_Straight_C_UAID_345A600DDC87B45E02_2022498495.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24701.742188
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24701.742188
+         SavedActorGuid=0373495940CED21E75CF73BF859FB992
+         PlaysetPackagePathName="/CRG_Haste/SetupAssets/PID_CP_Props_Haste_a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SnowDunes Small Straight C"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map

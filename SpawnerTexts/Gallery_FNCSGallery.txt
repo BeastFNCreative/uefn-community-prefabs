@@ -1,0 +1,82 @@
+Begin Map
+   Begin Level
+      Begin Actor Class=/Script/FortniteGame.FortPlaysetRoot Name=FortPlaysetRoot_UAID_345A600DDC87B65E02_1351996149 Archetype="/Script/FortniteGame.FortPlaysetRoot'/Script/FortniteGame.Default__FortPlaysetRoot'" ActorFolderPath="FNCS Gallery" ExportPath="/Script/FortniteGame.FortPlaysetRoot'/Main/Maps/Prefabs/FNCSGallery.FNCSGallery:PersistentLevel.FortPlaysetRoot_UAID_345A600DDC87B65E02_1351996149'"
+         Begin Object Class=/Script/Engine.SceneComponent Name="DefaultSceneRoot" Archetype="/Script/Engine.SceneComponent'/Script/FortniteGame.Default__FortPlaysetRoot:DefaultSceneRoot'" ExportPath="/Script/Engine.SceneComponent'/Main/Maps/Prefabs/FNCSGallery.FNCSGallery:PersistentLevel.FortPlaysetRoot_UAID_345A600DDC87B65E02_1351996149.DefaultSceneRoot'"
+         End Object
+         Begin Object Name="DefaultSceneRoot" ExportPath="/Script/Engine.SceneComponent'/Main/Maps/Prefabs/FNCSGallery.FNCSGallery:PersistentLevel.FortPlaysetRoot_UAID_345A600DDC87B65E02_1351996149.DefaultSceneRoot'"
+         End Object
+         SavedActorGuid=0000000000000000000000006EFFD42F
+         PlaysetPackagePathName="/CRG_Props/SetupAssets/Maps/PID_CP_Props_FNCS_a"
+         ActorLabel="FNCS Gallery"
+      End Actor
+      Begin Actor Class=/CRG_Props/SetupAssets/Blueprints/CP_BP_FNCS_Axe.CP_BP_FNCS_Axe_C Name=CP_BP_FNCS_Axe_C_UAID_345A600DDC87B65E02_1351993147 Archetype="/CRG_Props/SetupAssets/Blueprints/CP_BP_FNCS_Axe.CP_BP_FNCS_Axe_C'/CRG_Props/SetupAssets/Blueprints/CP_BP_FNCS_Axe.Default__CP_BP_FNCS_Axe_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87B65E02_1351996149 ActorFolderPath="FNCS Gallery" ExportPath="/CRG_Props/SetupAssets/Blueprints/CP_BP_FNCS_Axe.CP_BP_FNCS_Axe_C'/Main/Maps/Prefabs/FNCSGallery.FNCSGallery:PersistentLevel.CP_BP_FNCS_Axe_C_UAID_345A600DDC87B65E02_1351993147'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRG_Props/SetupAssets/Blueprints/CP_BP_FNCS_Axe.Default__CP_BP_FNCS_Axe_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/FNCSGallery.FNCSGallery:PersistentLevel.CP_BP_FNCS_Axe_C_UAID_345A600DDC87B65E02_1351993147.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRG_Props/SetupAssets/Blueprints/CP_BP_FNCS_Axe.Default__CP_BP_FNCS_Axe_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/FNCSGallery.FNCSGallery:PersistentLevel.CP_BP_FNCS_Axe_C_UAID_345A600DDC87B65E02_1351993147.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRG_Props/SetupAssets/Blueprints/CP_BP_FNCS_Axe.Default__CP_BP_FNCS_Axe_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/FNCSGallery.FNCSGallery:PersistentLevel.CP_BP_FNCS_Axe_C_UAID_345A600DDC87B65E02_1351993147.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/FNCSGallery.FNCSGallery:PersistentLevel.CP_BP_FNCS_Axe_C_UAID_345A600DDC87B65E02_1351993147.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Pickaxe_FNCS_0'"
+            LDMaxDrawDistance=6000.000000
+            CachedMaxDrawDistance=6000.000000
+            RelativeLocation=(X=216.000000,Y=-240.000000,Z=76.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=90.000000,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/FNCSGallery.FNCSGallery:PersistentLevel.CP_BP_FNCS_Axe_C_UAID_345A600DDC87B65E02_1351993147.BoundingBoxComponent'"
+            LDMaxDrawDistance=6000.000000
+            CachedMaxDrawDistance=6000.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/FNCSGallery.FNCSGallery:PersistentLevel.CP_BP_FNCS_Axe_C_UAID_345A600DDC87B65E02_1351993147.EditorOnlyStaticMeshComponent'"
+            LDMaxDrawDistance=6000.000000
+            CachedMaxDrawDistance=6000.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=6000.000000
+         SavedActorGuid=FEC8387F42F6BA68C616FABF904A5896
+         PlaysetPackagePathName="/CRG_Props/SetupAssets/Maps/PID_CP_Props_FNCS_a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="FNCS Axe C"
+      End Actor
+      Begin Actor Class=/CRG_Props/SetupAssets/Blueprints/CP_BP_FNCS_S20_Male_Axe.CP_BP_FNCS_S20_Male_Axe_C Name=CP_BP_FNCS_S20_Male_Axe_C_UAID_345A600DDC87B65E02_1351995148 Archetype="/CRG_Props/SetupAssets/Blueprints/CP_BP_FNCS_S20_Male_Axe.CP_BP_FNCS_S20_Male_Axe_C'/CRG_Props/SetupAssets/Blueprints/CP_BP_FNCS_S20_Male_Axe.Default__CP_BP_FNCS_S20_Male_Axe_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87B65E02_1351996149 ActorFolderPath="FNCS Gallery" ExportPath="/CRG_Props/SetupAssets/Blueprints/CP_BP_FNCS_S20_Male_Axe.CP_BP_FNCS_S20_Male_Axe_C'/Main/Maps/Prefabs/FNCSGallery.FNCSGallery:PersistentLevel.CP_BP_FNCS_S20_Male_Axe_C_UAID_345A600DDC87B65E02_1351995148'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRG_Props/SetupAssets/Blueprints/CP_BP_FNCS_S20_Male_Axe.Default__CP_BP_FNCS_S20_Male_Axe_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/FNCSGallery.FNCSGallery:PersistentLevel.CP_BP_FNCS_S20_Male_Axe_C_UAID_345A600DDC87B65E02_1351995148.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRG_Props/SetupAssets/Blueprints/CP_BP_FNCS_S20_Male_Axe.Default__CP_BP_FNCS_S20_Male_Axe_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/FNCSGallery.FNCSGallery:PersistentLevel.CP_BP_FNCS_S20_Male_Axe_C_UAID_345A600DDC87B65E02_1351995148.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRG_Props/SetupAssets/Blueprints/CP_BP_FNCS_S20_Male_Axe.Default__CP_BP_FNCS_S20_Male_Axe_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/FNCSGallery.FNCSGallery:PersistentLevel.CP_BP_FNCS_S20_Male_Axe_C_UAID_345A600DDC87B65E02_1351995148.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/FNCSGallery.FNCSGallery:PersistentLevel.CP_BP_FNCS_S20_Male_Axe_C_UAID_345A600DDC87B65E02_1351995148.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Pickaxe_FNCS_S20_Male_0'"
+            LDMaxDrawDistance=6000.000000
+            CachedMaxDrawDistance=6000.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=56.000000,Y=-240.000000,Z=76.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=90.000000,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/FNCSGallery.FNCSGallery:PersistentLevel.CP_BP_FNCS_S20_Male_Axe_C_UAID_345A600DDC87B65E02_1351995148.BoundingBoxComponent'"
+            LDMaxDrawDistance=6000.000000
+            CachedMaxDrawDistance=6000.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/FNCSGallery.FNCSGallery:PersistentLevel.CP_BP_FNCS_S20_Male_Axe_C_UAID_345A600DDC87B65E02_1351995148.EditorOnlyStaticMeshComponent'"
+            LDMaxDrawDistance=6000.000000
+            CachedMaxDrawDistance=6000.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=6000.000000
+         SavedActorGuid=B5C3329E4E5B5D2AB14D78BB031ED179
+         PlaysetPackagePathName="/CRG_Props/SetupAssets/Maps/PID_CP_Props_FNCS_a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="FNCS S20 Male Axe C"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map

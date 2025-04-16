@@ -1,0 +1,82 @@
+Begin Map
+   Begin Level
+      Begin Actor Class=/Script/FortniteGame.FortPlaysetRoot Name=FortPlaysetRoot_UAID_345A600DDC87B45E02_1858883470 Archetype="/Script/FortniteGame.FortPlaysetRoot'/Script/FortniteGame.Default__FortPlaysetRoot'" ActorFolderPath="Monument" ExportPath="/Script/FortniteGame.FortPlaysetRoot'/Main/Maps/Prefabs/Monument.Monument:PersistentLevel.FortPlaysetRoot_UAID_345A600DDC87B45E02_1858883470'"
+         Begin Object Class=/Script/Engine.SceneComponent Name="DefaultSceneRoot" Archetype="/Script/Engine.SceneComponent'/Script/FortniteGame.Default__FortPlaysetRoot:DefaultSceneRoot'" ExportPath="/Script/Engine.SceneComponent'/Main/Maps/Prefabs/Monument.Monument:PersistentLevel.FortPlaysetRoot_UAID_345A600DDC87B45E02_1858883470.DefaultSceneRoot'"
+         End Object
+         Begin Object Name="DefaultSceneRoot" ExportPath="/Script/Engine.SceneComponent'/Main/Maps/Prefabs/Monument.Monument:PersistentLevel.FortPlaysetRoot_UAID_345A600DDC87B45E02_1858883470.DefaultSceneRoot'"
+         End Object
+         SavedActorGuid=000000000000000000000000CD39CBBA
+         PlaysetPackagePathName="/CR_Legacy/Playsets/PID_CP_Prop_Monument_a"
+         ActorLabel="Monument"
+      End Actor
+      Begin Actor Class=/Game/Creative/Sets/March/CP_March_Statue.CP_March_Statue_C Name=CP_March_Statue_C_UAID_345A600DDC87B45E02_1858882469 Archetype="/Game/Creative/Sets/March/CP_March_Statue.CP_March_Statue_C'/Game/Creative/Sets/March/CP_March_Statue.Default__CP_March_Statue_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87B45E02_1858883470 ActorFolderPath="Monument" ExportPath="/Game/Creative/Sets/March/CP_March_Statue.CP_March_Statue_C'/Main/Maps/Prefabs/Monument.Monument:PersistentLevel.CP_March_Statue_C_UAID_345A600DDC87B45E02_1858882469'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Creative/Sets/March/CP_March_Statue.Default__CP_March_Statue_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Monument.Monument:PersistentLevel.CP_March_Statue_C_UAID_345A600DDC87B45E02_1858882469.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Creative/Sets/March/CP_March_Statue.Default__CP_March_Statue_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Monument.Monument:PersistentLevel.CP_March_Statue_C_UAID_345A600DDC87B45E02_1858882469.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Creative/Sets/March/CP_March_Statue.Default__CP_March_Statue_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Monument.Monument:PersistentLevel.CP_March_Statue_C_UAID_345A600DDC87B45E02_1858882469.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Monument.Monument:PersistentLevel.CP_March_Statue_C_UAID_345A600DDC87B45E02_1858882469.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_March_Statue_1'"
+            CachedMaxDrawDistance=26859.773438
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-1728.000000,Y=-96.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999969,Roll=-0.000000)
+            RelativeScale3D=(X=0.986349,Y=0.986349,Z=0.986349)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Monument.Monument:PersistentLevel.CP_March_Statue_C_UAID_345A600DDC87B45E02_1858882469.BoundingBoxComponent'"
+            CachedMaxDrawDistance=26859.773438
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Monument.Monument:PersistentLevel.CP_March_Statue_C_UAID_345A600DDC87B45E02_1858882469.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=26859.773438
+            AttachParent="StaticMeshComponent0"
+         End Object
+         EditorOnlyInstanceMaterialParameters=(VectorParams=((ParameterInfo=(Name="RandomColor_A"),ParameterValue=(R=0.555420,G=0.589770,B=0.609375,A=1.000000)),(ParameterInfo=(Name="RandomColor_B"),ParameterValue=(R=0.479167,G=0.442939,B=0.354384,A=1.000000))))
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=26859.773438
+         SavedActorGuid=F6E4ED9A4A518F4B94680F8D9C46CE2C
+         PlaysetPackagePathName="/CR_Legacy/Playsets/PID_CP_Prop_Monument_a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="March Statue C"
+      End Actor
+      Begin Actor Class=/Game/Creative/BuildingActors/Props/CP_Monument.CP_Monument_C Name=CP_Monument_C_UAID_345A600DDC87B45E02_1858880468 Archetype="/Game/Creative/BuildingActors/Props/CP_Monument.CP_Monument_C'/Game/Creative/BuildingActors/Props/CP_Monument.Default__CP_Monument_C'" ParentActor=FortPlaysetRoot_UAID_345A600DDC87B45E02_1858883470 ActorFolderPath="Monument" ExportPath="/Game/Creative/BuildingActors/Props/CP_Monument.CP_Monument_C'/Main/Maps/Prefabs/Monument.Monument:PersistentLevel.CP_Monument_C_UAID_345A600DDC87B45E02_1858880468'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Creative/BuildingActors/Props/CP_Monument.Default__CP_Monument_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Monument.Monument:PersistentLevel.CP_Monument_C_UAID_345A600DDC87B45E02_1858880468.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Creative/BuildingActors/Props/CP_Monument.Default__CP_Monument_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Monument.Monument:PersistentLevel.CP_Monument_C_UAID_345A600DDC87B45E02_1858880468.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Creative/BuildingActors/Props/CP_Monument.Default__CP_Monument_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Monument.Monument:PersistentLevel.CP_Monument_C_UAID_345A600DDC87B45E02_1858880468.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Main/Maps/Prefabs/Monument.Monument:PersistentLevel.CP_Monument_C_UAID_345A600DDC87B45E02_1858880468.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Tower_Test_0_HLOD_0_SingleCluster_2'"
+            CachedMaxDrawDistance=39999.996094
+            CustomPrimitiveData=(Data=(0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000))
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=171.124207,Y=296.640808,Z=12544.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-89.896271,Roll=0.000000)
+            RelativeScale3D=(X=0.933644,Y=0.933644,Z=0.933644)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Main/Maps/Prefabs/Monument.Monument:PersistentLevel.CP_Monument_C_UAID_345A600DDC87B45E02_1858880468.BoundingBoxComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Main/Maps/Prefabs/Monument.Monument:PersistentLevel.CP_Monument_C_UAID_345A600DDC87B45E02_1858880468.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=39999.996094
+            AttachParent="StaticMeshComponent0"
+         End Object
+         EditorOnlyInstanceMaterialParameters=(ScalarParams=((ParameterInfo=(Name="RockRandomLerpValue"),ParameterValue=0.793270)),VectorParams=((ParameterInfo=(Name="RandomColor_A"),ParameterValue=(R=0.555420,G=0.589770,B=0.609375,A=1.000000)),(ParameterInfo=(Name="RandomColor_B"),ParameterValue=(R=0.479167,G=0.442939,B=0.354384,A=1.000000))))
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=39999.996094
+         SavedActorGuid=921CBBA64C6C12054561A4BFEC18A65C
+         PlaysetPackagePathName="/CR_Legacy/Playsets/PID_CP_Prop_Monument_a"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Monument C"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map
