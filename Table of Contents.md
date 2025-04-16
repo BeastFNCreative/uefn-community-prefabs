@@ -4,8 +4,8 @@
 | Type | Description |
 |-----------------------------------------|-----------------|
 |**[Chapter 6 Prefabs](Page_Chapter_6.md)**<br>|**Prefabs originating from the Hermes Map**|
-|**[Chapter 5 Prefabs](Page_Chapter_5.md)**<br>|**Prefabs originating from the Helios Map<br>Currently Empty**|
-|**[Chapter 4 Prefabs](Page_Chapter_4.md)**<br>|**Prefabs originating from the Asteria Map<br>Currently Empty**|
+|**[Chapter 5 Prefabs](Page_Chapter_5.md)**<br>|**Prefabs originating from the Helios Map**|
+|**[Chapter 4 Prefabs](Page_Chapter_4.md)**<br>|**Prefabs originating from the Asteria Map**|
 |**[Chapter 3 Prefabs](Page_Chapter_3.md)**<br>|**Prefabs originating from the Artemis Map**|
 |**[Chapter 2 Prefabs](Page_Chapter_2.md)**<br>|**Prefabs originating from the Apollo Map**|
 |**[Chapter 1 Prefabs](Page_Chapter_1.md)**<br>|**Prefabs originating from the Athena Map**|

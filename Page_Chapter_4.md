@@ -18,4 +18,4 @@
 
 | Icon | Playset Name w/ Author | Extra Info |
 |-----------------------------------------|-----------------|-----------------|
-| <img src=".assets/Anvil Square Blacksmith.png" width="256"/> | **[Anvil Square Blacksmith](SpawnerTexts/Anvil%20Square%20Blacksmith.txt)**<br>**(Ported by: Akira_V9)**<br><br>**Source: Asteria Map** | Visually Modified: ❌<br>Requires External Download: ❌|
+| <img src=".assets/PP_GenericHouseAsteriaA.png" width="256"/> | **[Generic House Asteria A](SpawnerTexts/GenericHouseAsteriaA.txt)**<br>**(Ported by: akira_v9)**<br><br>**Source: Asteria Map** | Visually Modified: ❌<br>Requires External Download: ❌|
