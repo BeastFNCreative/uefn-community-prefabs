@@ -23,4 +23,4 @@
 |**[Unreleased Prefabs](Page_Unreleased_Prefabs.md)**<br>|**Prefabs that where once in the game files but never released**|
 |**[POI Island Prefabs](/Page_POI_Island_Prefabs%20.md)**<br>|**Prefabs taken from any island template**|
 |**[Custom Prefabs](/Page_Custom_Prefabs.md)**<br>|**Prefabs rebuilt using UEFN tools**|
-|**[Miscellaneous](/Page_Misc.md)**<br>|**Misc Assets or Tips**|
+|**[Miscellaneous](/Page_Misc.md)**<br>|**Misc Assets**|
