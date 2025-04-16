@@ -15,7 +15,7 @@
 |-----------------------------------------|-----------------|
 |**[Venture Prefabs](/Page_Reload_Venture_Prefabs.md)**<br>|**Prefabs from the Venture Reload Map**|
 |**[Oasis Prefabs](/Page_Reload_Oasis_Prefabs.md)**<br>|**Prefabs from the Oasis Reload Map**|
-|**[Dashberry Prefabs](/Page_Reload_Dashberry_Prefabs.md)**<br>|**Prefabs from the Dashberry Reload Map**|
+|**[Slurp Rush Prefabs](/Page_Reload_Slurp_Rush_Prefabs.md)**<br>|**Prefabs from the Slurp Rush Reload Map**|
 
 # Misc
 | Type | Description |
