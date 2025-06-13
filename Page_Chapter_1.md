@@ -2,6 +2,23 @@
 **[Back To Table of Contents](/Table%20of%20Contents.md)**
 # Chapter 1 Prefabs
 
+# Movie Set
+
+| Icon | Playset Name w/ Author | Extra Info |
+|-----------------------------------------|-----------------|-----------------|
+| <img src=".assets/Moisty Mire Movie Set.png" width="256"/> | **[Moisty Mire Movie Set](SpawnerTexts/Moisty%20Mire%20Movie%20Set.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Chapter 1 Island** | Visually Modified: ❌<br>Requires External Download: ❌|
+| <img src=".assets/Ruined Home Movie Set.png" width="256"/> | **[Ruined Home Movie Set](SpawnerTexts/Ruined%20Home%20Movie%20Set.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Chapter 1 Island** | Visually Modified: ❌<br>Requires External Download: ❌|
+
+# Ruined Homes
+
+| Icon | Playset Name w/ Author | Extra Info |
+|-----------------------------------------|-----------------|-----------------|
+| <img src=".assets/Damaged House A.png" width="256"/> | **[Damaged House A](SpawnerTexts/Damaged%20House%20A.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Chapter 1 Island** | Visually Modified: ❌<br>Requires External Download: ❌|
+| <img src=".assets/Damaged House B.png" width="256"/> | **[Damaged House B](SpawnerTexts/Damaged%20House%20B.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Chapter 1 Island** | Visually Modified: ❌<br>Requires External Download: ❌|
+| <img src=".assets/Damaged House C.png" width="256"/> | **[Damaged House C](SpawnerTexts/Damaged%20House%20C.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Chapter 1 Island** | Visually Modified: ❌<br>Requires External Download: ❌|
+| <img src=".assets/Damaged House D.png" width="256"/> | **[Damaged House D](SpawnerTexts/Damaged%20House%20D.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Chapter 1 Island** | Visually Modified: ❌<br>Requires External Download: ❌|
+| <img src=".assets/Damaged House E.png" width="256"/> | **[Damaged House E](SpawnerTexts/Damaged%20House%20E.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Chapter 1 Island** | Visually Modified: ❌<br>Requires External Download: ❌|
+
 # Snobby Shores
 
 | Icon | Playset Name w/ Author | Extra Info |
@@ -10,6 +27,26 @@
 | <img src=".assets/Other House B.png" width="256"/> | **[Other House B](SpawnerTexts/Other%20House%20B.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Chapter 1 Island** | Visually Modified: ❌<br>Requires External Download: ❌|
 | <img src=".assets/Snobby Shores Abandoned House.png" width="256"/> | **[Abandoned House](SpawnerTexts/Snobby%20Shores%20Abandoned%20House.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Chapter 1 Island** | Visually Modified: ✔️<br>Requires External Download: ❌|
 | <img src=".assets/Snobby Shores Mansion.png" width="256"/> | **[Mansion](SpawnerTexts/Snobby%20Shores%20Mansion.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Chapter 1 Island** | Visually Modified: ❌<br>Requires External Download: ❌|
+
+# Dusty Depot
+
+| Icon | Playset Name w/ Author | Extra Info |
+|-----------------------------------------|-----------------|-----------------|
+| <img src=".assets/Dusty Divot Damaged Depot.png" width="256"/> | **[Dusty Divot Damaged Depot](SpawnerTexts/Dusty%20Divot%20Damaged%20Depot.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Chapter 1 Island** | Visually Modified: ❌<br>Requires External Download: ❌|
+
+# Tilted Towers
+
+| Icon | Playset Name w/ Author | Extra Info |
+|-----------------------------------------|-----------------|-----------------|
+| <img src=".assets/Tilted Towers Damaged Office.png" width="256"/> | **[Tilted Towers Damaged Office](SpawnerTexts/Tilted%20Towers%20Damaged%20Office.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Chapter 1 Island** | Visually Modified: ✔️<br>Requires External Download: ❌|
+
+# Loot Lake
+
+| Icon | Playset Name w/ Author | Extra Info |
+|-----------------------------------------|-----------------|-----------------|
+| <img src=".assets/Loot Lake Depot.png" width="256"/> | **[Loot Lake Depot](SpawnerTexts/Loot%20Lake%20Depot.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Chapter 1 Island** | Visually Modified: ❌<br>Requires External Download: ❌|
+| <img src=".assets/Loot Lake Slant.png" width="256"/> | **[Loot Lake Slant](SpawnerTexts/Loot%20Lake%20Slant.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Chapter 1 Island** | Visually Modified: ❌<br>Requires External Download: ❌|
+| <img src=".assets/Loot Lake House.png" width="256"/> | **[Loot Lake House](SpawnerTexts/Loot%20Lake%20House.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Chapter 1 Island** | Visually Modified: ❌<br>Requires External Download: ❌|
 
 # Spawn Island
 
@@ -21,8 +58,13 @@
 | <img src=".assets/spawn island parkour course.png" width="256"/> | **[Parkour Course](SpawnerTexts/Spawn%20Island%20Parkour%20Course.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Chapter 1 Island** | Visually Modified: ❌<br>Requires External Download: ❌|
 | <img src=".assets/spawn island warehouse.png" width="256"/> | **[Warehouse](SpawnerTexts/Spawn%20Island%20Warehouse.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Chapter 1 Island** | Visually Modified: ❌<br>Requires External Download: ❌|
 
+# Misc Landmarks
+
 | Icon | Playset Name w/ Author | Extra Info |
 |-----------------------------------------|-----------------|-----------------|
+| <img src=".assets/Fort House.png" width="256"/> | **[Fort House](SpawnerTexts/Fort%20House.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Chapter 1 Island** | Visually Modified: ✔️<br>Requires External Download: ❌|
+| <img src=".assets/Damaged Risky Reels.png" width="256"/> | **[Damaged Risky Reels](SpawnerTexts/Damaged%20Risky%20Reels.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Chapter 1 Island** | Visually Modified: ✔️<br>Requires External Download: ❌|
+| <img src=".assets/Damaged Prison.png" width="256"/> | **[Damaged Prison](SpawnerTexts/Damaged%20Prison.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Chapter 1 Island** | Visually Modified: ✔️<br>Requires External Download: ❌|
 | <img src=".assets/Wailing Woods Maze.png" width="256"/> | **[Wailing Woods Maze](SpawnerTexts/Wailing%20Woods%20Maze.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Chapter 1 Island** | Visually Modified: ✔️<br>Requires External Download: ❌|
 | <img src=".assets/Throne.png" width="256"/> | **[Throne](SpawnerTexts/Throne.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Chapter 1 Island** | Visually Modified: ❌<br>Requires External Download: ❌|
 | <img src=".assets/Throne Station.png" width="256"/> | **[Throne Station](SpawnerTexts/Throne%20Station.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Chapter 1 Island** | Visually Modified: ✔️<br>Requires External Download: ❌|

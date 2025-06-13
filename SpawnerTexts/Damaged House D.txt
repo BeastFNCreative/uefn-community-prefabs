@@ -1,0 +1,1274 @@
+Begin Map
+   Begin Level
+      Begin Actor Class=/Script/FortniteGame.FortPlaysetRoot Name=FortPlaysetRoot_UAID_D843AE8E0CE5707102_1338301381 Archetype="/Script/FortniteGame.FortPlaysetRoot'/Script/FortniteGame.Default__FortPlaysetRoot'" ActorFolderPath="Damaged House D" ExportPath="/Script/FortniteGame.FortPlaysetRoot'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.FortPlaysetRoot_UAID_D843AE8E0CE5707102_1338301381'"
+         Begin Object Class=/Script/Engine.SceneComponent Name="DefaultSceneRoot" Archetype="/Script/Engine.SceneComponent'/Script/FortniteGame.Default__FortPlaysetRoot:DefaultSceneRoot'" ExportPath="/Script/Engine.SceneComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.FortPlaysetRoot_UAID_D843AE8E0CE5707102_1338301381.DefaultSceneRoot'"
+         End Object
+         Begin Object Name="DefaultSceneRoot" ExportPath="/Script/Engine.SceneComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.FortPlaysetRoot_UAID_D843AE8E0CE5707102_1338301381.DefaultSceneRoot'"
+         End Object
+         SavedActorGuid=8CFCB7484C37D8BA943D84AD1EA2BCBE
+         PlaysetPackagePathName="/CRP_Foundation/SetupAssets/Maps/PID_CP_Foundation_3x7_StripMallStores_01"
+         ActorLabel="Damaged House D"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/WoodMines_Solid.WoodMines_Solid_C Name=Boardwalk_Archway6_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572588635 Archetype="/Game/Building/ActorBlueprints/Wall/WoodMines_Solid.WoodMines_Solid_C'/Game/Building/ActorBlueprints/Wall/WoodMines_Solid.Default__WoodMines_Solid_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5707102_1338301381 ActorFolderPath="Damaged House D" ExportPath="/Game/Building/ActorBlueprints/Wall/WoodMines_Solid.WoodMines_Solid_C'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Boardwalk_Archway6_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572588635'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/WoodMines_Solid.Default__WoodMines_Solid_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Boardwalk_Archway6_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572588635.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/WoodMines_Solid.Default__WoodMines_Solid_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Boardwalk_Archway6_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572588635.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/WoodMines_Solid.Default__WoodMines_Solid_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Boardwalk_Archway6_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572588635.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Boardwalk_Archway6_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572588635.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_WoodMines_Wood02_49'"
+            CachedMaxDrawDistance=22703.490234
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=256.000000,Y=-512.000000,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000061,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Boardwalk_Archway6_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572588635.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22703.490234
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Boardwalk_Archway6_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572588635.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22703.490234
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22703.490234
+         DataVersion=1
+         SavedActorGuid=2648432E4591941B2D269686550AB6E9
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Boardwalk_Archway69"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/WoodMines_Archway.WoodMines_Archway_C Name=Boardwalk_Archway7_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572630642 Archetype="/Game/Building/ActorBlueprints/Wall/WoodMines_Archway.WoodMines_Archway_C'/Game/Building/ActorBlueprints/Wall/WoodMines_Archway.Default__WoodMines_Archway_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5707102_1338301381 ActorFolderPath="Damaged House D" ExportPath="/Game/Building/ActorBlueprints/Wall/WoodMines_Archway.WoodMines_Archway_C'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Boardwalk_Archway7_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572630642'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/WoodMines_Archway.Default__WoodMines_Archway_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Boardwalk_Archway7_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572630642.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/WoodMines_Archway.Default__WoodMines_Archway_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Boardwalk_Archway7_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572630642.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/WoodMines_Archway.Default__WoodMines_Archway_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Boardwalk_Archway7_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572630642.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.AudioComponent Name="WoodCreakSound" Archetype="/Script/Engine.AudioComponent'/Game/Building/ActorBlueprints/Wall/WoodMines_Archway.WoodMines_Archway_C:AudioComponent_2__5D67AF7F'" ExportPath="/Script/Engine.AudioComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Boardwalk_Archway7_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572630642.WoodCreakSound'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Boardwalk_Archway7_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572630642.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_WoodMines_Wood02_49'"
+            CachedMaxDrawDistance=22781.873047
+            CanCharacterStepUpOn=ECB_Yes
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=256.000000,Y=0.000000,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000061,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Boardwalk_Archway7_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572630642.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22781.873047
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Boardwalk_Archway7_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572630642.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22781.873047
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="WoodCreakSound" ExportPath="/Script/Engine.AudioComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Boardwalk_Archway7_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572630642.WoodCreakSound'"
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         WoodCreakSound="WoodCreakSound"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22781.873047
+         DataVersion=1
+         SavedActorGuid=7707E3E54C2ED6A2DF9CC89EF836C8CA
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Boardwalk_Archway70"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/SM_Farm_Doorway_2.SM_Farm_Doorway_2_C Name=Factory_GarageDoorWay6_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572560629 Archetype="/Game/Building/ActorBlueprints/Wall/SM_Farm_Doorway_2.SM_Farm_Doorway_2_C'/Game/Building/ActorBlueprints/Wall/SM_Farm_Doorway_2.Default__SM_Farm_Doorway_2_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5707102_1338301381 ActorFolderPath="Damaged House D" ExportPath="/Game/Building/ActorBlueprints/Wall/SM_Farm_Doorway_2.SM_Farm_Doorway_2_C'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Factory_GarageDoorWay6_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572560629'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/SM_Farm_Doorway_2.Default__SM_Farm_Doorway_2_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Factory_GarageDoorWay6_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572560629.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/SM_Farm_Doorway_2.Default__SM_Farm_Doorway_2_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Factory_GarageDoorWay6_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572560629.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/SM_Farm_Doorway_2.Default__SM_Farm_Doorway_2_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Factory_GarageDoorWay6_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572560629.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Factory_GarageDoorWay6_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572560629.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Fort_Farm_Barn_127'"
+            CachedMaxDrawDistance=23166.787109
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=-768.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999977,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Factory_GarageDoorWay6_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572560629.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23166.787109
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Factory_GarageDoorWay6_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572560629.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23166.787109
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=23166.787109
+         DataVersion=1
+         SavedActorGuid=DB898380471E15198A924DA3A2BD6D63
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Factory_GarageDoorWay7"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/SM_Farm_Doorway_2.SM_Farm_Doorway_2_C Name=Factory_GarageDoorWay4_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572632643 Archetype="/Game/Building/ActorBlueprints/Wall/SM_Farm_Doorway_2.SM_Farm_Doorway_2_C'/Game/Building/ActorBlueprints/Wall/SM_Farm_Doorway_2.Default__SM_Farm_Doorway_2_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5707102_1338301381 ActorFolderPath="Damaged House D" ExportPath="/Game/Building/ActorBlueprints/Wall/SM_Farm_Doorway_2.SM_Farm_Doorway_2_C'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Factory_GarageDoorWay4_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572632643'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/SM_Farm_Doorway_2.Default__SM_Farm_Doorway_2_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Factory_GarageDoorWay4_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572632643.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/SM_Farm_Doorway_2.Default__SM_Farm_Doorway_2_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Factory_GarageDoorWay4_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572632643.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/SM_Farm_Doorway_2.Default__SM_Farm_Doorway_2_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Factory_GarageDoorWay4_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572632643.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Factory_GarageDoorWay4_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572632643.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Fort_Farm_Barn_127'"
+            CachedMaxDrawDistance=23166.787109
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=512.000000,Y=256.000000,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-0.000107,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Factory_GarageDoorWay4_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572632643.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23166.787109
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Factory_GarageDoorWay4_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572632643.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23166.787109
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=23166.787109
+         DataVersion=1
+         SavedActorGuid=61CE1D8B47466E7CC4FF54B64B966DBA
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Factory_GarageDoorWay8"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Roof/DestroyedHouse_Roof_Straight_02.DestroyedHouse_Roof_Straight_02_C Name=Factory_Roof_2_C7_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572563630 Archetype="/Game/Building/ActorBlueprints/Roof/DestroyedHouse_Roof_Straight_02.DestroyedHouse_Roof_Straight_02_C'/Game/Building/ActorBlueprints/Roof/DestroyedHouse_Roof_Straight_02.Default__DestroyedHouse_Roof_Straight_02_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5707102_1338301381 ActorFolderPath="Damaged House D" ExportPath="/Game/Building/ActorBlueprints/Roof/DestroyedHouse_Roof_Straight_02.DestroyedHouse_Roof_Straight_02_C'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Factory_Roof_2_C7_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572563630'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Roof/DestroyedHouse_Roof_Straight_02.Default__DestroyedHouse_Roof_Straight_02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Factory_Roof_2_C7_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572563630.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Roof/DestroyedHouse_Roof_Straight_02.Default__DestroyedHouse_Roof_Straight_02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Factory_Roof_2_C7_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572563630.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Roof/DestroyedHouse_Roof_Straight_02.Default__DestroyedHouse_Roof_Straight_02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Factory_Roof_2_C7_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572563630.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Factory_Roof_2_C7_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572563630.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_DestroyedHouse_Roof_02_70'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000109,Y=-256.000000,Z=384.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999977,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Factory_Roof_2_C7_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572563630.BoundingBoxComponent'"
+            CachedMaxDrawDistance=26455.068359
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Factory_Roof_2_C7_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572563630.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=26455.068359
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         DefaultTags=(GameplayTags=)
+         CullDistance=26455.068359
+         DataVersion=1
+         SavedActorGuid=68503E81429A2360804887923561D30E
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Factory_Roof_2_C13"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Roof/DestroyedHouse_Roof_Straight_02.DestroyedHouse_Roof_Straight_02_C Name=Factory_Roof_2_C8_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572660650 Archetype="/Game/Building/ActorBlueprints/Roof/DestroyedHouse_Roof_Straight_02.DestroyedHouse_Roof_Straight_02_C'/Game/Building/ActorBlueprints/Roof/DestroyedHouse_Roof_Straight_02.Default__DestroyedHouse_Roof_Straight_02_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5707102_1338301381 ActorFolderPath="Damaged House D" ExportPath="/Game/Building/ActorBlueprints/Roof/DestroyedHouse_Roof_Straight_02.DestroyedHouse_Roof_Straight_02_C'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Factory_Roof_2_C8_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572660650'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Roof/DestroyedHouse_Roof_Straight_02.Default__DestroyedHouse_Roof_Straight_02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Factory_Roof_2_C8_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572660650.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Roof/DestroyedHouse_Roof_Straight_02.Default__DestroyedHouse_Roof_Straight_02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Factory_Roof_2_C8_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572660650.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Roof/DestroyedHouse_Roof_Straight_02.Default__DestroyedHouse_Roof_Straight_02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Factory_Roof_2_C8_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572660650.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Factory_Roof_2_C8_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572660650.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_DestroyedHouse_Roof_02_70'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-0.000478,Y=-256.000000,Z=384.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Factory_Roof_2_C8_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572660650.BoundingBoxComponent'"
+            CachedMaxDrawDistance=26455.068359
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Factory_Roof_2_C8_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572660650.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=26455.068359
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=26455.068359
+         DataVersion=1
+         SavedActorGuid=E76DB5664A6E5C0DB3BB30997BAA75D0
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Factory_Roof_2_C14"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Roof/DestroyedHouse_Roof_Straight_02.DestroyedHouse_Roof_Straight_02_C Name=Factory_Roof_2_C8_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572625638 Archetype="/Game/Building/ActorBlueprints/Roof/DestroyedHouse_Roof_Straight_02.DestroyedHouse_Roof_Straight_02_C'/Game/Building/ActorBlueprints/Roof/DestroyedHouse_Roof_Straight_02.Default__DestroyedHouse_Roof_Straight_02_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5707102_1338301381 ActorFolderPath="Damaged House D" ExportPath="/Game/Building/ActorBlueprints/Roof/DestroyedHouse_Roof_Straight_02.DestroyedHouse_Roof_Straight_02_C'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Factory_Roof_2_C8_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572625638'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Roof/DestroyedHouse_Roof_Straight_02.Default__DestroyedHouse_Roof_Straight_02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Factory_Roof_2_C8_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572625638.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Roof/DestroyedHouse_Roof_Straight_02.Default__DestroyedHouse_Roof_Straight_02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Factory_Roof_2_C8_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572625638.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Roof/DestroyedHouse_Roof_Straight_02.Default__DestroyedHouse_Roof_Straight_02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Factory_Roof_2_C8_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572625638.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Factory_Roof_2_C8_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572625638.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_DestroyedHouse_Roof_02_70'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=512.000109,Y=-256.000000,Z=384.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999977,Roll=-0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Factory_Roof_2_C8_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572625638.BoundingBoxComponent'"
+            CachedMaxDrawDistance=26455.068359
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Factory_Roof_2_C8_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572625638.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=26455.068359
+            AttachParent="StaticMeshComponent0"
+         End Object
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         DefaultTags=(GameplayTags=)
+         CullDistance=26455.068359
+         DataVersion=1
+         SavedActorGuid=5CA761814478F7D45D6876986116CB0F
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Factory_Roof_2_C16"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Roof/DestroyedHouse_Roof_Straight_02.DestroyedHouse_Roof_Straight_02_C Name=Factory_Roof_2_C9_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572661651 Archetype="/Game/Building/ActorBlueprints/Roof/DestroyedHouse_Roof_Straight_02.DestroyedHouse_Roof_Straight_02_C'/Game/Building/ActorBlueprints/Roof/DestroyedHouse_Roof_Straight_02.Default__DestroyedHouse_Roof_Straight_02_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5707102_1338301381 ActorFolderPath="Damaged House D" ExportPath="/Game/Building/ActorBlueprints/Roof/DestroyedHouse_Roof_Straight_02.DestroyedHouse_Roof_Straight_02_C'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Factory_Roof_2_C9_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572661651'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Roof/DestroyedHouse_Roof_Straight_02.Default__DestroyedHouse_Roof_Straight_02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Factory_Roof_2_C9_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572661651.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Roof/DestroyedHouse_Roof_Straight_02.Default__DestroyedHouse_Roof_Straight_02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Factory_Roof_2_C9_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572661651.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Roof/DestroyedHouse_Roof_Straight_02.Default__DestroyedHouse_Roof_Straight_02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Factory_Roof_2_C9_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572661651.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Factory_Roof_2_C9_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572661651.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_DestroyedHouse_Roof_02_70'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=511.999522,Y=-256.000000,Z=384.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Factory_Roof_2_C9_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572661651.BoundingBoxComponent'"
+            CachedMaxDrawDistance=26455.068359
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Factory_Roof_2_C9_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572661651.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=26455.068359
+            AttachParent="StaticMeshComponent0"
+         End Object
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=26455.068359
+         DataVersion=1
+         SavedActorGuid=3D55806841D045D6CA6332AB1680E6B9
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Factory_Roof_2_C17"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/DestroyedHouse_RoofWall.DestroyedHouse_RoofWall_C Name=FORT_Roof_Wall2_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572510617 Archetype="/Game/Building/ActorBlueprints/Wall/DestroyedHouse_RoofWall.DestroyedHouse_RoofWall_C'/Game/Building/ActorBlueprints/Wall/DestroyedHouse_RoofWall.Default__DestroyedHouse_RoofWall_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5707102_1338301381 ActorFolderPath="Damaged House D" ExportPath="/Game/Building/ActorBlueprints/Wall/DestroyedHouse_RoofWall.DestroyedHouse_RoofWall_C'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.FORT_Roof_Wall2_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572510617'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/DestroyedHouse_RoofWall.Default__DestroyedHouse_RoofWall_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.FORT_Roof_Wall2_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572510617.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/DestroyedHouse_RoofWall.Default__DestroyedHouse_RoofWall_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.FORT_Roof_Wall2_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572510617.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/DestroyedHouse_RoofWall.Default__DestroyedHouse_RoofWall_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.FORT_Roof_Wall2_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572510617.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.FORT_Roof_Wall2_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572510617.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_DestroyedHouse_Roof_01_13'"
+            CachedMaxDrawDistance=22801.347656
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=768.000000,Y=-512.000000,Z=384.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=90.000046,Roll=-0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.FORT_Roof_Wall2_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572510617.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22801.347656
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.FORT_Roof_Wall2_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572510617.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22801.347656
+            AttachParent="StaticMeshComponent0"
+         End Object
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22801.347656
+         DataVersion=1
+         SavedActorGuid=BAD00AD748135C79D2E7A9B8F6F58562
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="FORT_Roof_Wall9"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/DestroyedHouse_RoofWall.DestroyedHouse_RoofWall_C Name=FORT_Roof_Wall3_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572554624 Archetype="/Game/Building/ActorBlueprints/Wall/DestroyedHouse_RoofWall.DestroyedHouse_RoofWall_C'/Game/Building/ActorBlueprints/Wall/DestroyedHouse_RoofWall.Default__DestroyedHouse_RoofWall_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5707102_1338301381 ActorFolderPath="Damaged House D" ExportPath="/Game/Building/ActorBlueprints/Wall/DestroyedHouse_RoofWall.DestroyedHouse_RoofWall_C'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.FORT_Roof_Wall3_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572554624'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/DestroyedHouse_RoofWall.Default__DestroyedHouse_RoofWall_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.FORT_Roof_Wall3_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572554624.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/DestroyedHouse_RoofWall.Default__DestroyedHouse_RoofWall_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.FORT_Roof_Wall3_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572554624.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/DestroyedHouse_RoofWall.Default__DestroyedHouse_RoofWall_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.FORT_Roof_Wall3_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572554624.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.FORT_Roof_Wall3_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572554624.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_DestroyedHouse_Roof_01_13'"
+            CachedMaxDrawDistance=22801.347656
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=768.000000,Y=0.000000,Z=384.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=90.000046,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.FORT_Roof_Wall3_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572554624.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22801.347656
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.FORT_Roof_Wall3_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572554624.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22801.347656
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22801.347656
+         DataVersion=1
+         SavedActorGuid=3EE0C3CA46DA0F9C5AEFFAB54268CC29
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="FORT_Roof_Wall11"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/DestroyedHouse_RoofWall.DestroyedHouse_RoofWall_C Name=FORT_Roof_Wall3_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572579631 Archetype="/Game/Building/ActorBlueprints/Wall/DestroyedHouse_RoofWall.DestroyedHouse_RoofWall_C'/Game/Building/ActorBlueprints/Wall/DestroyedHouse_RoofWall.Default__DestroyedHouse_RoofWall_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5707102_1338301381 ActorFolderPath="Damaged House D" ExportPath="/Game/Building/ActorBlueprints/Wall/DestroyedHouse_RoofWall.DestroyedHouse_RoofWall_C'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.FORT_Roof_Wall3_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572579631'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/DestroyedHouse_RoofWall.Default__DestroyedHouse_RoofWall_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.FORT_Roof_Wall3_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572579631.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/DestroyedHouse_RoofWall.Default__DestroyedHouse_RoofWall_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.FORT_Roof_Wall3_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572579631.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/DestroyedHouse_RoofWall.Default__DestroyedHouse_RoofWall_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.FORT_Roof_Wall3_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572579631.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.FORT_Roof_Wall3_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572579631.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_DestroyedHouse_Roof_01_13'"
+            CachedMaxDrawDistance=22801.347656
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-256.000000,Y=-512.000000,Z=384.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000061,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.FORT_Roof_Wall3_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572579631.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22801.347656
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.FORT_Roof_Wall3_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572579631.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22801.347656
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22801.347656
+         DataVersion=1
+         SavedActorGuid=B5635C5343C66129B1D0FBAC06A1D768
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="FORT_Roof_Wall13"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/DestroyedHouse_RoofWall.DestroyedHouse_RoofWall_C Name=FORT_Roof_Wall4_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572605636 Archetype="/Game/Building/ActorBlueprints/Wall/DestroyedHouse_RoofWall.DestroyedHouse_RoofWall_C'/Game/Building/ActorBlueprints/Wall/DestroyedHouse_RoofWall.Default__DestroyedHouse_RoofWall_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5707102_1338301381 ActorFolderPath="Damaged House D" ExportPath="/Game/Building/ActorBlueprints/Wall/DestroyedHouse_RoofWall.DestroyedHouse_RoofWall_C'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.FORT_Roof_Wall4_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572605636'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/DestroyedHouse_RoofWall.Default__DestroyedHouse_RoofWall_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.FORT_Roof_Wall4_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572605636.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/DestroyedHouse_RoofWall.Default__DestroyedHouse_RoofWall_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.FORT_Roof_Wall4_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572605636.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/DestroyedHouse_RoofWall.Default__DestroyedHouse_RoofWall_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.FORT_Roof_Wall4_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572605636.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.FORT_Roof_Wall4_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572605636.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_DestroyedHouse_Roof_01_13'"
+            CachedMaxDrawDistance=22801.347656
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-256.000000,Y=0.000000,Z=384.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000061,Roll=0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.FORT_Roof_Wall4_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572605636.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22801.347656
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.FORT_Roof_Wall4_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572605636.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22801.347656
+            AttachParent="StaticMeshComponent0"
+         End Object
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22801.347656
+         DataVersion=1
+         SavedActorGuid=EB78F533441F8A409D5D97A026CE0AB6
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="FORT_Roof_Wall22"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Deco/TrashPile_05_CP.TrashPile_05_CP_C Name=TrashPile_05_CP_C_UAID_D843AE8E0CE5657102_1678653358 Archetype="/Game/Building/ActorBlueprints/Deco/TrashPile_05_CP.TrashPile_05_CP_C'/Game/Building/ActorBlueprints/Deco/TrashPile_05_CP.Default__TrashPile_05_CP_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5707102_1338301381 ActorFolderPath="Damaged House D" ExportPath="/Game/Building/ActorBlueprints/Deco/TrashPile_05_CP.TrashPile_05_CP_C'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.TrashPile_05_CP_C_UAID_D843AE8E0CE5657102_1678653358'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Deco/TrashPile_05_CP.Default__TrashPile_05_CP_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.TrashPile_05_CP_C_UAID_D843AE8E0CE5657102_1678653358.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Deco/TrashPile_05_CP.Default__TrashPile_05_CP_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.TrashPile_05_CP_C_UAID_D843AE8E0CE5657102_1678653358.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Deco/TrashPile_05_CP.Default__TrashPile_05_CP_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.TrashPile_05_CP_C_UAID_D843AE8E0CE5657102_1678653358.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.TrashPile_05_CP_C_UAID_D843AE8E0CE5657102_1678653358.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_FORT_Scraps_INST_85'"
+            LDMaxDrawDistance=0.000000
+            CachedMaxDrawDistance=0.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=7.999047,Y=-496.001968,Z=7.999995)
+            RelativeRotation=(Pitch=0.000000,Yaw=174.374954,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.TrashPile_05_CP_C_UAID_D843AE8E0CE5657102_1678653358.BoundingBoxComponent'"
+            CachedMaxDrawDistance=20934.132812
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.TrashPile_05_CP_C_UAID_D843AE8E0CE5657102_1678653358.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=20934.132812
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=20934.132812
+         DataVersion=1
+         SavedActorGuid=F2C2BCA341339C57E2A07C876EA252A3
+         PlaysetPackagePathName="/CR_Legacy/Playsets/PlaysetProps/PPID_CR_Legacy_TrashPile_05_CP_79114472"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="FORT_TrashPile_A12"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Deco/Athena_Prop_Hobopile_A_CP.Athena_Prop_Hobopile_A_CP_C Name=Athena_Prop_Hobopile_A_CP_C_UAID_D843AE8E0CE5657102_1686858359 Archetype="/Game/Building/ActorBlueprints/Deco/Athena_Prop_Hobopile_A_CP.Athena_Prop_Hobopile_A_CP_C'/Game/Building/ActorBlueprints/Deco/Athena_Prop_Hobopile_A_CP.Default__Athena_Prop_Hobopile_A_CP_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5707102_1338301381 ActorFolderPath="Damaged House D" ExportPath="/Game/Building/ActorBlueprints/Deco/Athena_Prop_Hobopile_A_CP.Athena_Prop_Hobopile_A_CP_C'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Athena_Prop_Hobopile_A_CP_C_UAID_D843AE8E0CE5657102_1686858359'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Deco/Athena_Prop_Hobopile_A_CP.Default__Athena_Prop_Hobopile_A_CP_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Athena_Prop_Hobopile_A_CP_C_UAID_D843AE8E0CE5657102_1686858359.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Deco/Athena_Prop_Hobopile_A_CP.Default__Athena_Prop_Hobopile_A_CP_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Athena_Prop_Hobopile_A_CP_C_UAID_D843AE8E0CE5657102_1686858359.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Deco/Athena_Prop_Hobopile_A_CP.Default__Athena_Prop_Hobopile_A_CP_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Athena_Prop_Hobopile_A_CP_C_UAID_D843AE8E0CE5657102_1686858359.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Athena_Prop_Hobopile_A_CP_C_UAID_D843AE8E0CE5657102_1686858359.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_FORT_Scraps_INST_85'"
+            LDMaxDrawDistance=0.000000
+            CachedMaxDrawDistance=0.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=68.000096,Y=-428.000078,Z=396.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=133.746353,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Athena_Prop_Hobopile_A_CP_C_UAID_D843AE8E0CE5657102_1686858359.BoundingBoxComponent'"
+            CachedMaxDrawDistance=18724.298828
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Athena_Prop_Hobopile_A_CP_C_UAID_D843AE8E0CE5657102_1686858359.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=18724.298828
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=18724.298828
+         DataVersion=1
+         SavedActorGuid=995EF23445CEF87772024AA2DAA84322
+         PlaysetPackagePathName="/CR_Legacy/Playsets/PlaysetProps/PPID_CR_Legacy_Athena_Prop_Hobopile_A_CP_4764e87b"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Hobopile_A3"
+      End Actor
+      Begin Actor Class=/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_Barrel_02.Athena_Prop_Storage_Barrel_02_C Name=LCD_Barrel_029_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572549622 Archetype="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_Barrel_02.Athena_Prop_Storage_Barrel_02_C'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_Barrel_02.Default__Athena_Prop_Storage_Barrel_02_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5707102_1338301381 ActorFolderPath="Damaged House D" ExportPath="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_Barrel_02.Athena_Prop_Storage_Barrel_02_C'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.LCD_Barrel_029_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572549622'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_Barrel_02.Default__Athena_Prop_Storage_Barrel_02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.LCD_Barrel_029_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572549622.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_Barrel_02.Default__Athena_Prop_Storage_Barrel_02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.LCD_Barrel_029_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572549622.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_Barrel_02.Default__Athena_Prop_Storage_Barrel_02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.LCD_Barrel_029_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572549622.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.LCD_Barrel_029_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572549622.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_Barrel02_69'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-190.001168,Y=-698.001757,Z=9.000342)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-10.323784,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.LCD_Barrel_029_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572549622.BoundingBoxComponent'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.LCD_Barrel_029_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572549622.EditorOnlyStaticMeshComponent'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=18000.000000
+         DataVersion=1
+         SavedActorGuid=593EFDE542B811F000F20D936099E3C3
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="LCD_Barrel_30"
+      End Actor
+      Begin Actor Class=/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_CardboardBoxes_02.Athena_Prop_Storage_CardboardBoxes_02_C Name=LCD_Cardboard_Boxes_02_Small4_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572662652 Archetype="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_CardboardBoxes_02.Athena_Prop_Storage_CardboardBoxes_02_C'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_CardboardBoxes_02.Default__Athena_Prop_Storage_CardboardBoxes_02_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5707102_1338301381 ActorFolderPath="Damaged House D" ExportPath="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_CardboardBoxes_02.Athena_Prop_Storage_CardboardBoxes_02_C'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.LCD_Cardboard_Boxes_02_Small4_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572662652'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_CardboardBoxes_02.Default__Athena_Prop_Storage_CardboardBoxes_02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.LCD_Cardboard_Boxes_02_Small4_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572662652.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_CardboardBoxes_02.Default__Athena_Prop_Storage_CardboardBoxes_02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.LCD_Cardboard_Boxes_02_Small4_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572662652.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_CardboardBoxes_02.Default__Athena_Prop_Storage_CardboardBoxes_02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.LCD_Cardboard_Boxes_02_Small4_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572662652.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.LCD_Cardboard_Boxes_02_Small4_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572662652.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_Boxes_70'"
+            LDMaxDrawDistance=12000.000000
+            CachedMaxDrawDistance=12000.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-26.000393,Y=29.998068,Z=390.999939)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-45.000069,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.LCD_Cardboard_Boxes_02_Small4_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572662652.BoundingBoxComponent'"
+            LDMaxDrawDistance=12000.000000
+            CachedMaxDrawDistance=12000.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.LCD_Cardboard_Boxes_02_Small4_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572662652.EditorOnlyStaticMeshComponent'"
+            LDMaxDrawDistance=12000.000000
+            CachedMaxDrawDistance=12000.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=12000.000000
+         DataVersion=1
+         SavedActorGuid=C21EF60B4712168404BE468286ACF981
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="LCD_Cardboard_Boxes_02_Small6"
+      End Actor
+      Begin Actor Class=/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_Crate02.Athena_Prop_Storage_Crate02_C Name=LCD_Crate02_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572557627 Archetype="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_Crate02.Athena_Prop_Storage_Crate02_C'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_Crate02.Default__Athena_Prop_Storage_Crate02_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5707102_1338301381 ActorFolderPath="Damaged House D" ExportPath="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_Crate02.Athena_Prop_Storage_Crate02_C'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.LCD_Crate02_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572557627'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_Crate02.Default__Athena_Prop_Storage_Crate02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.LCD_Crate02_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572557627.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_Crate02.Default__Athena_Prop_Storage_Crate02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.LCD_Crate02_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572557627.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_Crate02.Default__Athena_Prop_Storage_Crate02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.LCD_Crate02_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572557627.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.LCD_Crate02_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572557627.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_WoodenCrates_80'"
+            CachedMaxDrawDistance=9515.710938
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=659.999172,Y=-378.002662,Z=9.114020)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-1.554085,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.LCD_Crate02_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572557627.BoundingBoxComponent'"
+            CachedMaxDrawDistance=9515.710938
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.LCD_Crate02_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572557627.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=9515.710938
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=9515.710938
+         DataVersion=1
+         SavedActorGuid=F1FFBA524B6813AF85F9DDBCFC216124
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="LCD_Crate3"
+      End Actor
+      Begin Actor Class=/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_Crate03.Athena_Prop_Storage_Crate03_C Name=LCD_Crate03_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572636646 Archetype="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_Crate03.Athena_Prop_Storage_Crate03_C'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_Crate03.Default__Athena_Prop_Storage_Crate03_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5707102_1338301381 ActorFolderPath="Damaged House D" ExportPath="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_Crate03.Athena_Prop_Storage_Crate03_C'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.LCD_Crate03_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572636646'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_Crate03.Default__Athena_Prop_Storage_Crate03_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.LCD_Crate03_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572636646.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_Crate03.Default__Athena_Prop_Storage_Crate03_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.LCD_Crate03_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572636646.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_Crate03.Default__Athena_Prop_Storage_Crate03_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.LCD_Crate03_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572636646.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.LCD_Crate03_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572636646.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_WoodenCrates_80'"
+            CachedMaxDrawDistance=15767.055664
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-73.000253,Y=161.998118,Z=9.023017)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-0.000107,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.LCD_Crate03_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572636646.BoundingBoxComponent'"
+            CachedMaxDrawDistance=15767.055664
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.LCD_Crate03_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572636646.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=15767.055664
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=15767.055664
+         DataVersion=1
+         SavedActorGuid=106F0FDC4D5565CDF34C37B58FD5926A
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="LCD_Crate4"
+      End Actor
+      Begin Actor Class=/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_Crate02.Athena_Prop_Storage_Crate02_C Name=LCD_Crate023_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572547621 Archetype="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_Crate02.Athena_Prop_Storage_Crate02_C'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_Crate02.Default__Athena_Prop_Storage_Crate02_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5707102_1338301381 ActorFolderPath="Damaged House D" ExportPath="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_Crate02.Athena_Prop_Storage_Crate02_C'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.LCD_Crate023_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572547621'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_Crate02.Default__Athena_Prop_Storage_Crate02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.LCD_Crate023_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572547621.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_Crate02.Default__Athena_Prop_Storage_Crate02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.LCD_Crate023_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572547621.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_Crate02.Default__Athena_Prop_Storage_Crate02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.LCD_Crate023_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572547621.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.LCD_Crate023_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572547621.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_WoodenCrates_80'"
+            CachedMaxDrawDistance=9515.710938
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=163.999223,Y=-330.002134,Z=9.114020)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-87.187547,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.LCD_Crate023_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572547621.BoundingBoxComponent'"
+            CachedMaxDrawDistance=9515.710938
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.LCD_Crate023_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572547621.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=9515.710938
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=9515.710938
+         DataVersion=1
+         SavedActorGuid=0F7C1BCC4FBED6F8FE6AD8B3612E4476
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="LCD_Crate24"
+      End Actor
+      Begin Actor Class=/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Living_EasyChair_02.Athena_Prop_Living_EasyChair_02_C Name=LCD_EasyChair_024_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572559628 Archetype="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Living_EasyChair_02.Athena_Prop_Living_EasyChair_02_C'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Living_EasyChair_02.Default__Athena_Prop_Living_EasyChair_02_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5707102_1338301381 ActorFolderPath="Damaged House D" ExportPath="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Living_EasyChair_02.Athena_Prop_Living_EasyChair_02_C'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.LCD_EasyChair_024_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572559628'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Living_EasyChair_02.Default__Athena_Prop_Living_EasyChair_02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.LCD_EasyChair_024_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572559628.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Living_EasyChair_02.Default__Athena_Prop_Living_EasyChair_02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.LCD_EasyChair_024_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572559628.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Living_EasyChair_02.Default__Athena_Prop_Living_EasyChair_02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.LCD_EasyChair_024_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572559628.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.LCD_EasyChair_024_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572559628.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_EasyChair02_41'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=321.999081,Y=-464.002302,Z=390.999939)
+            RelativeRotation=(Pitch=0.000041,Yaw=33.749870,Roll=-89.999969)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.LCD_EasyChair_024_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572559628.BoundingBoxComponent'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.LCD_EasyChair_024_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572559628.EditorOnlyStaticMeshComponent'"
+            LDMaxDrawDistance=18000.000000
+            CachedMaxDrawDistance=18000.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=18000.000000
+         DataVersion=1
+         SavedActorGuid=4C7E1D3E4A8689053E35E3A13E48A43E
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="LCD_EasyChair_25"
+      End Actor
+      Begin Actor Class=/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Plant_Shrub_09.Athena_Prop_Plant_Shrub_09_C Name=LCD_Shrub_05_C8_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572581632 Archetype="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Plant_Shrub_09.Athena_Prop_Plant_Shrub_09_C'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Plant_Shrub_09.Default__Athena_Prop_Plant_Shrub_09_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5707102_1338301381 ActorFolderPath="Damaged House D" ExportPath="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Plant_Shrub_09.Athena_Prop_Plant_Shrub_09_C'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.LCD_Shrub_05_C8_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572581632'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Plant_Shrub_09.Default__Athena_Prop_Plant_Shrub_09_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.LCD_Shrub_05_C8_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572581632.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Plant_Shrub_09.Default__Athena_Prop_Plant_Shrub_09_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.LCD_Shrub_05_C8_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572581632.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Plant_Shrub_09.Default__Athena_Prop_Plant_Shrub_09_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.LCD_Shrub_05_C8_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572581632.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.LCD_Shrub_05_C8_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572581632.StaticMeshComponent0'"
+            bEvaluateWorldPositionOffset=False
+            bEvaluateWorldPositionOffsetInRayTracing=True
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Shrub_05_Atlas_Ambient_64'"
+            CachedMaxDrawDistance=6916.686035
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=489.839428,Y=-908.381387,Z=2.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-78.750060,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.LCD_Shrub_05_C8_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572581632.BoundingBoxComponent'"
+            CachedMaxDrawDistance=6916.686035
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.LCD_Shrub_05_C8_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572581632.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=6916.686035
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=6916.686035
+         DataVersion=1
+         SavedActorGuid=92C3BBB7486EEADF4BE1B4AE7B342235
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="LCD_Shrub_05_C9"
+      End Actor
+      Begin Actor Class=/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_CardboardBoxes_02.Athena_Prop_Storage_CardboardBoxes_02_C Name=Prop_Boxes_02Small_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572634644 Archetype="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_CardboardBoxes_02.Athena_Prop_Storage_CardboardBoxes_02_C'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_CardboardBoxes_02.Default__Athena_Prop_Storage_CardboardBoxes_02_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5707102_1338301381 ActorFolderPath="Damaged House D" ExportPath="/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_CardboardBoxes_02.Athena_Prop_Storage_CardboardBoxes_02_C'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Prop_Boxes_02Small_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572634644'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_CardboardBoxes_02.Default__Athena_Prop_Storage_CardboardBoxes_02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Prop_Boxes_02Small_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572634644.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_CardboardBoxes_02.Default__Athena_Prop_Storage_CardboardBoxes_02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Prop_Boxes_02Small_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572634644.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Athena/BuildingActors/Props/Building/ActorBlueprints/Containers/Athena_Prop_Storage_CardboardBoxes_02.Default__Athena_Prop_Storage_CardboardBoxes_02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Prop_Boxes_02Small_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572634644.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Prop_Boxes_02Small_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572634644.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_Boxes_70'"
+            LDMaxDrawDistance=12000.000000
+            CachedMaxDrawDistance=12000.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=675.999702,Y=119.997321,Z=9.094970)
+            RelativeRotation=(Pitch=0.000000,Yaw=44.999802,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Prop_Boxes_02Small_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572634644.BoundingBoxComponent'"
+            LDMaxDrawDistance=12000.000000
+            CachedMaxDrawDistance=12000.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Prop_Boxes_02Small_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572634644.EditorOnlyStaticMeshComponent'"
+            LDMaxDrawDistance=12000.000000
+            CachedMaxDrawDistance=12000.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=12000.000000
+         DataVersion=1
+         SavedActorGuid=8B1C68504F63A3B0FC8F3BACB2979E67
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Prop_Boxes_02Small3"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/Prop_TirePile_04.Prop_TirePile_04_C Name=Prop_TirePile_02Small_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572610637 Archetype="/Game/Building/ActorBlueprints/Prop/Prop_TirePile_04.Prop_TirePile_04_C'/Game/Building/ActorBlueprints/Prop/Prop_TirePile_04.Default__Prop_TirePile_04_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5707102_1338301381 ActorFolderPath="Damaged House D" ExportPath="/Game/Building/ActorBlueprints/Prop/Prop_TirePile_04.Prop_TirePile_04_C'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Prop_TirePile_02Small_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572610637'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Prop_TirePile_04.Default__Prop_TirePile_04_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Prop_TirePile_02Small_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572610637.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/Prop_TirePile_04.Default__Prop_TirePile_04_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Prop_TirePile_02Small_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572610637.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Prop_TirePile_04.Default__Prop_TirePile_04_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Prop_TirePile_02Small_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572610637.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Game/Athena/Items/Components/BuildingActorLootDropOnDeathComponent.BuildingActorLootDropOnDeathComponent_C Name="BuildingActorLootDropOnDeathComponent" Archetype="/Game/Athena/Items/Components/BuildingActorLootDropOnDeathComponent.BuildingActorLootDropOnDeathComponent_C'/Game/Building/ActorBlueprints/Prop/Prop_TirePile_01.Prop_TirePile_01_C:BuildingActorLootDropOnDeathComponent_GEN_VARIABLE'" ExportPath="/Game/Athena/Items/Components/BuildingActorLootDropOnDeathComponent.BuildingActorLootDropOnDeathComponent_C'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Prop_TirePile_02Small_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572610637.BuildingActorLootDropOnDeathComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="Jump_Collision" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/Prop_TirePile_04.Prop_TirePile_04_C:StaticMeshComponent_2372__4F4778FA'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Prop_TirePile_02Small_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572610637.Jump_Collision'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Prop_TirePile_02Small_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572610637.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_TirePiles01_15'"
+            CachedMaxDrawDistance=6596.213867
+            CanCharacterStepUpOn=ECB_Yes
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=683.999436,Y=-130.002687,Z=10.191241)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-7.500000,Roll=0.000000)
+            RelativeScale3D=(X=0.800000,Y=0.800000,Z=0.800000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Prop_TirePile_02Small_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572610637.BoundingBoxComponent'"
+            CachedMaxDrawDistance=6596.213867
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Prop_TirePile_02Small_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572610637.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=6596.213867
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="BuildingActorLootDropOnDeathComponent" ExportPath="/Game/Athena/Items/Components/BuildingActorLootDropOnDeathComponent.BuildingActorLootDropOnDeathComponent_C'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Prop_TirePile_02Small_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572610637.BuildingActorLootDropOnDeathComponent'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Jump_Collision" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.Prop_TirePile_02Small_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572610637.Jump_Collision'"
+            CachedMaxDrawDistance=6596.213867
+            bAffectDistanceFieldLighting=True
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         BuildingActorLootDropOnDeathComponent="BuildingActorLootDropOnDeathComponent"
+         Jump_Collision="Jump_Collision"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=6596.213867
+         DataVersion=1
+         SavedActorGuid=8F9772264CD9232F9942ACA8CF75CBBF
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Prop_TirePile_02Small3"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/SM_Farm_Wall_1.SM_Farm_Wall_1_C Name=SM_Farm_Wall_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572470615 Archetype="/Game/Building/ActorBlueprints/Wall/SM_Farm_Wall_1.SM_Farm_Wall_1_C'/Game/Building/ActorBlueprints/Wall/SM_Farm_Wall_1.Default__SM_Farm_Wall_1_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5707102_1338301381 ActorFolderPath="Damaged House D" ExportPath="/Game/Building/ActorBlueprints/Wall/SM_Farm_Wall_1.SM_Farm_Wall_1_C'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_Farm_Wall_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572470615'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/SM_Farm_Wall_1.Default__SM_Farm_Wall_1_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_Farm_Wall_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572470615.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/SM_Farm_Wall_1.Default__SM_Farm_Wall_1_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_Farm_Wall_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572470615.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/SM_Farm_Wall_1.Default__SM_Farm_Wall_1_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_Farm_Wall_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572470615.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_Farm_Wall_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572470615.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Fort_Farm_Barn_127'"
+            CachedMaxDrawDistance=23190.361328
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=512.000000,Y=-768.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999977,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_Farm_Wall_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572470615.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23190.361328
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_Farm_Wall_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572470615.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23190.361328
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=23190.361328
+         DataVersion=1
+         SavedActorGuid=319E7C0A4E1A23B38E8C17BA50DF66BC
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_Farm_Wall_161"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/SM_Farm_Wall_1.SM_Farm_Wall_1_C Name=SM_Farm_Wall_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572656648 Archetype="/Game/Building/ActorBlueprints/Wall/SM_Farm_Wall_1.SM_Farm_Wall_1_C'/Game/Building/ActorBlueprints/Wall/SM_Farm_Wall_1.Default__SM_Farm_Wall_1_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5707102_1338301381 ActorFolderPath="Damaged House D" ExportPath="/Game/Building/ActorBlueprints/Wall/SM_Farm_Wall_1.SM_Farm_Wall_1_C'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_Farm_Wall_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572656648'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/SM_Farm_Wall_1.Default__SM_Farm_Wall_1_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_Farm_Wall_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572656648.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/SM_Farm_Wall_1.Default__SM_Farm_Wall_1_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_Farm_Wall_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572656648.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/SM_Farm_Wall_1.Default__SM_Farm_Wall_1_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_Farm_Wall_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572656648.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_Farm_Wall_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572656648.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Fort_Farm_Barn_127'"
+            CachedMaxDrawDistance=23190.361328
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000000,Y=256.000000,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-0.000107,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_Farm_Wall_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572656648.BoundingBoxComponent'"
+            CachedMaxDrawDistance=23190.361328
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_Farm_Wall_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572656648.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=23190.361328
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=23190.361328
+         DataVersion=1
+         SavedActorGuid=D7DF7B5F4B90FE5FFB70DAB86B8F2FDB
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_Farm_Wall_162"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/CryptWalls_00.CryptWalls_00_C Name=SM_Farm_Wall_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572532620 Archetype="/Game/Building/ActorBlueprints/Wall/CryptWalls_00.CryptWalls_00_C'/Game/Building/ActorBlueprints/Wall/CryptWalls_00.Default__CryptWalls_00_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5707102_1338301381 ActorFolderPath="Damaged House D" ExportPath="/Game/Building/ActorBlueprints/Wall/CryptWalls_00.CryptWalls_00_C'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_Farm_Wall_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572532620'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/CryptWalls_00.Default__CryptWalls_00_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_Farm_Wall_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572532620.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/CryptWalls_00.Default__CryptWalls_00_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_Farm_Wall_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572532620.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/CryptWalls_00.Default__CryptWalls_00_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_Farm_Wall_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572532620.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_Farm_Wall_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572532620.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_CryptWallsSet_449'"
+            CachedMaxDrawDistance=22870.906250
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=768.000000,Y=-512.000000,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000061,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_Farm_Wall_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572532620.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22870.906250
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_Farm_Wall_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572532620.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22870.906250
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22870.906250
+         DataVersion=1
+         SavedActorGuid=610516CD4BB3BB6E9555ED87AE88525E
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_Farm_Wall_163"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/CryptWalls_02.CryptWalls_02_C Name=SM_Farm_Wall_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572658649 Archetype="/Game/Building/ActorBlueprints/Wall/CryptWalls_02.CryptWalls_02_C'/Game/Building/ActorBlueprints/Wall/CryptWalls_02.Default__CryptWalls_02_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5707102_1338301381 ActorFolderPath="Damaged House D" ExportPath="/Game/Building/ActorBlueprints/Wall/CryptWalls_02.CryptWalls_02_C'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_Farm_Wall_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572658649'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/CryptWalls_02.Default__CryptWalls_02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_Farm_Wall_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572658649.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/CryptWalls_02.Default__CryptWalls_02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_Farm_Wall_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572658649.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/CryptWalls_02.Default__CryptWalls_02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_Farm_Wall_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572658649.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_Farm_Wall_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572658649.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_CryptWallsSet_449'"
+            CachedMaxDrawDistance=22897.421875
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=768.000000,Y=0.000000,Z=0.000000)
+            RelativeRotation=(Pitch=-0.000000,Yaw=-90.000061,Roll=0.000000)
+            RelativeScale3D=(X=-1.000000,Y=1.000000,Z=1.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_Farm_Wall_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572658649.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22897.421875
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_Farm_Wall_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572658649.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22897.421875
+            AttachParent="StaticMeshComponent0"
+         End Object
+         bMirrored=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22897.421875
+         DataVersion=1
+         SavedActorGuid=A04E8E0D412DD582F1D936BF3C529478
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_Farm_Wall_164"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/CryptWalls_02.CryptWalls_02_C Name=SM_Farm_Wall_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572583633 Archetype="/Game/Building/ActorBlueprints/Wall/CryptWalls_02.CryptWalls_02_C'/Game/Building/ActorBlueprints/Wall/CryptWalls_02.Default__CryptWalls_02_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5707102_1338301381 ActorFolderPath="Damaged House D" ExportPath="/Game/Building/ActorBlueprints/Wall/CryptWalls_02.CryptWalls_02_C'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_Farm_Wall_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572583633'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/CryptWalls_02.Default__CryptWalls_02_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_Farm_Wall_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572583633.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/CryptWalls_02.Default__CryptWalls_02_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_Farm_Wall_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572583633.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/CryptWalls_02.Default__CryptWalls_02_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_Farm_Wall_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572583633.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_Farm_Wall_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572583633.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_CryptWallsSet_449'"
+            CachedMaxDrawDistance=22897.421875
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-256.000000,Y=-512.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=90.000046,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_Farm_Wall_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572583633.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22897.421875
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_Farm_Wall_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572583633.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22897.421875
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22897.421875
+         DataVersion=1
+         SavedActorGuid=CDEB89384BED1CF05F7A658F1AF07553
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_Farm_Wall_172"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Wall/CryptWalls_08.CryptWalls_08_C Name=SM_Farm_Wall_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572584634 Archetype="/Game/Building/ActorBlueprints/Wall/CryptWalls_08.CryptWalls_08_C'/Game/Building/ActorBlueprints/Wall/CryptWalls_08.Default__CryptWalls_08_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5707102_1338301381 ActorFolderPath="Damaged House D" ExportPath="/Game/Building/ActorBlueprints/Wall/CryptWalls_08.CryptWalls_08_C'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_Farm_Wall_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572584634'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Wall/CryptWalls_08.Default__CryptWalls_08_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_Farm_Wall_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572584634.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Wall/CryptWalls_08.Default__CryptWalls_08_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_Farm_Wall_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572584634.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Wall/CryptWalls_08.Default__CryptWalls_08_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_Farm_Wall_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572584634.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_Farm_Wall_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572584634.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_CryptWallsSet_449'"
+            CachedMaxDrawDistance=22890.175781
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-256.000000,Y=0.000000,Z=0.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=90.000046,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_Farm_Wall_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572584634.BoundingBoxComponent'"
+            CachedMaxDrawDistance=22890.175781
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_Farm_Wall_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572584634.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=22890.175781
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=22890.175781
+         DataVersion=1
+         SavedActorGuid=A3C6FCEF45ED6E4661A7CB9BC3A9FBF4
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_Farm_Wall_173"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Floor/Boardwalk_Floor.Boardwalk_Floor_C Name=SM_FORT_Floors_Generic_BasicTileBeams_C3_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572529619 Archetype="/Game/Building/ActorBlueprints/Floor/Boardwalk_Floor.Boardwalk_Floor_C'/Game/Building/ActorBlueprints/Floor/Boardwalk_Floor.Default__Boardwalk_Floor_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5707102_1338301381 ActorFolderPath="Damaged House D" ExportPath="/Game/Building/ActorBlueprints/Floor/Boardwalk_Floor.Boardwalk_Floor_C'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_BasicTileBeams_C3_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572529619'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Floor/Boardwalk_Floor.Default__Boardwalk_Floor_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_BasicTileBeams_C3_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572529619.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Floor/Boardwalk_Floor.Default__Boardwalk_Floor_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_BasicTileBeams_C3_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572529619.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Floor/Boardwalk_Floor.Default__Boardwalk_Floor_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_BasicTileBeams_C3_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572529619.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_BasicTileBeams_C3_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572529619.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Wood_Dock_98'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=511.999522,Y=-768.000000,Z=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_BasicTileBeams_C3_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572529619.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24538.298828
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_BasicTileBeams_C3_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572529619.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24538.298828
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24538.298828
+         DataVersion=1
+         SavedActorGuid=2B7D9A3445FE3162D24AE9AFC78CEAE5
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_FORT_Floors_Generic_BasicTileBeams_C8"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Floor/Boardwalk_Floor.Boardwalk_Floor_C Name=SM_FORT_Floors_Generic_BasicTileBeams_C2_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572552623 Archetype="/Game/Building/ActorBlueprints/Floor/Boardwalk_Floor.Boardwalk_Floor_C'/Game/Building/ActorBlueprints/Floor/Boardwalk_Floor.Default__Boardwalk_Floor_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5707102_1338301381 ActorFolderPath="Damaged House D" ExportPath="/Game/Building/ActorBlueprints/Floor/Boardwalk_Floor.Boardwalk_Floor_C'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_BasicTileBeams_C2_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572552623'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Floor/Boardwalk_Floor.Default__Boardwalk_Floor_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_BasicTileBeams_C2_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572552623.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Floor/Boardwalk_Floor.Default__Boardwalk_Floor_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_BasicTileBeams_C2_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572552623.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Floor/Boardwalk_Floor.Default__Boardwalk_Floor_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_BasicTileBeams_C2_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572552623.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_BasicTileBeams_C2_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572552623.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Wood_Dock_98'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=511.999522,Y=-256.000000,Z=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_BasicTileBeams_C2_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572552623.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24538.298828
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_BasicTileBeams_C2_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572552623.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24538.298828
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24538.298828
+         DataVersion=1
+         SavedActorGuid=CF2BDE714ADEF3A088E71B843B6C5B1C
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_FORT_Floors_Generic_BasicTileBeams_C9"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Floor/Boardwalk_Floor.Boardwalk_Floor_C Name=SM_FORT_Floors_Generic_BasicTileBeams_C_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572556626 Archetype="/Game/Building/ActorBlueprints/Floor/Boardwalk_Floor.Boardwalk_Floor_C'/Game/Building/ActorBlueprints/Floor/Boardwalk_Floor.Default__Boardwalk_Floor_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5707102_1338301381 ActorFolderPath="Damaged House D" ExportPath="/Game/Building/ActorBlueprints/Floor/Boardwalk_Floor.Boardwalk_Floor_C'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_BasicTileBeams_C_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572556626'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Floor/Boardwalk_Floor.Default__Boardwalk_Floor_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_BasicTileBeams_C_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572556626.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Floor/Boardwalk_Floor.Default__Boardwalk_Floor_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_BasicTileBeams_C_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572556626.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Floor/Boardwalk_Floor.Default__Boardwalk_Floor_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_BasicTileBeams_C_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572556626.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_BasicTileBeams_C_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572556626.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Wood_Dock_98'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-0.000478,Y=-768.000000,Z=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_BasicTileBeams_C_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572556626.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24538.298828
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_BasicTileBeams_C_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572556626.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24538.298828
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24538.298828
+         DataVersion=1
+         SavedActorGuid=8FC241E249D76C677C6BE9B66AE2A663
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_FORT_Floors_Generic_BasicTileBeams_C10"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Floor/Boardwalk_Floor.Boardwalk_Floor_C Name=SM_FORT_Floors_Generic_BasicTileBeams_C1_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572629641 Archetype="/Game/Building/ActorBlueprints/Floor/Boardwalk_Floor.Boardwalk_Floor_C'/Game/Building/ActorBlueprints/Floor/Boardwalk_Floor.Default__Boardwalk_Floor_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5707102_1338301381 ActorFolderPath="Damaged House D" ExportPath="/Game/Building/ActorBlueprints/Floor/Boardwalk_Floor.Boardwalk_Floor_C'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_BasicTileBeams_C1_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572629641'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Floor/Boardwalk_Floor.Default__Boardwalk_Floor_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_BasicTileBeams_C1_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572629641.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Floor/Boardwalk_Floor.Default__Boardwalk_Floor_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_BasicTileBeams_C1_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572629641.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Floor/Boardwalk_Floor.Default__Boardwalk_Floor_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_BasicTileBeams_C1_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572629641.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_BasicTileBeams_C1_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572629641.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_Wood_Dock_98'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-0.000478,Y=-256.000000,Z=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_BasicTileBeams_C1_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572629641.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24538.298828
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_BasicTileBeams_C1_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572629641.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24538.298828
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24538.298828
+         DataVersion=1
+         SavedActorGuid=C578FC544F9C36CFF76176AE4C5F4751
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_FORT_Floors_Generic_BasicTileBeams_C11"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Floor/WoodMines_Floor.WoodMines_Floor_C Name=SM_FORT_Floors_Generic_Beams_C-1_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572526618 Archetype="/Game/Building/ActorBlueprints/Floor/WoodMines_Floor.WoodMines_Floor_C'/Game/Building/ActorBlueprints/Floor/WoodMines_Floor.Default__WoodMines_Floor_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5707102_1338301381 ActorFolderPath="Damaged House D" ExportPath="/Game/Building/ActorBlueprints/Floor/WoodMines_Floor.WoodMines_Floor_C'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_Beams_C-1_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572526618'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Floor/WoodMines_Floor.Default__WoodMines_Floor_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_Beams_C-1_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572526618.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Floor/WoodMines_Floor.Default__WoodMines_Floor_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_Beams_C-1_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572526618.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Floor/WoodMines_Floor.Default__WoodMines_Floor_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_Beams_C-1_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572526618.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.AudioComponent Name="WoodStressSound" Archetype="/Script/Engine.AudioComponent'/Game/Building/ActorBlueprints/Floor/WoodMines_Floor.WoodMines_Floor_C:AudioComponent_7'" ExportPath="/Script/Engine.AudioComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_Beams_C-1_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572526618.WoodStressSound'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_Beams_C-1_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572526618.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_WoodMines_Wood02_49'"
+            CanCharacterStepUpOn=ECB_Yes
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000109,Y=-256.000000,Z=384.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999977,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_Beams_C-1_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572526618.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24508.164062
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_Beams_C-1_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572526618.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24508.164062
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="WoodStressSound" ExportPath="/Script/Engine.AudioComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_Beams_C-1_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572526618.WoodStressSound'"
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         WoodStressSound="WoodStressSound"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24508.164062
+         DataVersion=1
+         SavedActorGuid=0E523130424E70D2B40881BE6D377BC9
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_FORT_Floors_Generic_Beams_C-3"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Floor/WoodMines_Floor.WoodMines_Floor_C Name=SM_FORT_Floors_Generic_Beams_C-1_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572626639 Archetype="/Game/Building/ActorBlueprints/Floor/WoodMines_Floor.WoodMines_Floor_C'/Game/Building/ActorBlueprints/Floor/WoodMines_Floor.Default__WoodMines_Floor_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5707102_1338301381 ActorFolderPath="Damaged House D" ExportPath="/Game/Building/ActorBlueprints/Floor/WoodMines_Floor.WoodMines_Floor_C'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_Beams_C-1_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572626639'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Floor/WoodMines_Floor.Default__WoodMines_Floor_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_Beams_C-1_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572626639.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Floor/WoodMines_Floor.Default__WoodMines_Floor_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_Beams_C-1_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572626639.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Floor/WoodMines_Floor.Default__WoodMines_Floor_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_Beams_C-1_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572626639.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.AudioComponent Name="WoodStressSound" Archetype="/Script/Engine.AudioComponent'/Game/Building/ActorBlueprints/Floor/WoodMines_Floor.WoodMines_Floor_C:AudioComponent_7'" ExportPath="/Script/Engine.AudioComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_Beams_C-1_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572626639.WoodStressSound'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_Beams_C-1_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572626639.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_WoodMines_Wood02_49'"
+            CanCharacterStepUpOn=ECB_Yes
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=0.000109,Y=256.000000,Z=384.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999977,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_Beams_C-1_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572626639.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24508.164062
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_Beams_C-1_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572626639.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24508.164062
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="WoodStressSound" ExportPath="/Script/Engine.AudioComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_Beams_C-1_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572626639.WoodStressSound'"
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         WoodStressSound="WoodStressSound"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24508.164062
+         DataVersion=1
+         SavedActorGuid=CB090729474E653016054E924B009B69
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_FORT_Floors_Generic_Beams_C-4"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Floor/WoodMines_BalconyI.WoodMines_BalconyI_C Name=SM_FORT_Floors_Generic_Beams_C-1_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572640647 Archetype="/Game/Building/ActorBlueprints/Floor/WoodMines_BalconyI.WoodMines_BalconyI_C'/Game/Building/ActorBlueprints/Floor/WoodMines_BalconyI.Default__WoodMines_BalconyI_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5707102_1338301381 ActorFolderPath="Damaged House D" ExportPath="/Game/Building/ActorBlueprints/Floor/WoodMines_BalconyI.WoodMines_BalconyI_C'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_Beams_C-1_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572640647'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Floor/WoodMines_BalconyI.Default__WoodMines_BalconyI_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_Beams_C-1_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572640647.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Floor/WoodMines_BalconyI.Default__WoodMines_BalconyI_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_Beams_C-1_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572640647.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Floor/WoodMines_BalconyI.Default__WoodMines_BalconyI_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_Beams_C-1_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572640647.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.AudioComponent Name="WoodCreakSound" Archetype="/Script/Engine.AudioComponent'/Game/Building/ActorBlueprints/Floor/WoodMines_BalconyI.WoodMines_BalconyI_C:AudioComponent_3'" ExportPath="/Script/Engine.AudioComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_Beams_C-1_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572640647.WoodCreakSound'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_Beams_C-1_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572640647.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_WoodMines_Wood02_49'"
+            CanCharacterStepUpOn=ECB_Yes
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=511.999522,Y=-256.000000,Z=384.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_Beams_C-1_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572640647.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24614.925781
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_Beams_C-1_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572640647.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24614.925781
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="WoodCreakSound" ExportPath="/Script/Engine.AudioComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_Beams_C-1_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572640647.WoodCreakSound'"
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         WoodCreakSound="WoodCreakSound"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24614.925781
+         DataVersion=1
+         SavedActorGuid=152D9A4E44FF00C0CC31FC8D41832265
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_FORT_Floors_Generic_Beams_C-5"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Floor/WoodMines_Floor.WoodMines_Floor_C Name=SM_FORT_Floors_Generic_Beams_C5_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572491616 Archetype="/Game/Building/ActorBlueprints/Floor/WoodMines_Floor.WoodMines_Floor_C'/Game/Building/ActorBlueprints/Floor/WoodMines_Floor.Default__WoodMines_Floor_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5707102_1338301381 ActorFolderPath="Damaged House D" ExportPath="/Game/Building/ActorBlueprints/Floor/WoodMines_Floor.WoodMines_Floor_C'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_Beams_C5_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572491616'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Floor/WoodMines_Floor.Default__WoodMines_Floor_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_Beams_C5_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572491616.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Floor/WoodMines_Floor.Default__WoodMines_Floor_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_Beams_C5_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572491616.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Floor/WoodMines_Floor.Default__WoodMines_Floor_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_Beams_C5_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572491616.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.AudioComponent Name="WoodStressSound" Archetype="/Script/Engine.AudioComponent'/Game/Building/ActorBlueprints/Floor/WoodMines_Floor.WoodMines_Floor_C:AudioComponent_7'" ExportPath="/Script/Engine.AudioComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_Beams_C5_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572491616.WoodStressSound'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_Beams_C5_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572491616.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_M_WoodMines_Wood02_49'"
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=768.000000,Y=-511.999731,Z=384.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=90.000061,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_Beams_C5_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572491616.BoundingBoxComponent'"
+            CachedMaxDrawDistance=24508.164062
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_Beams_C5_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572491616.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=24508.164062
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="WoodStressSound" ExportPath="/Script/Engine.AudioComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.SM_FORT_Floors_Generic_Beams_C5_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572491616.WoodStressSound'"
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         WoodStressSound="WoodStressSound"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=24508.164062
+         DataVersion=1
+         SavedActorGuid=AB0C9B854E3F7039AADFFF81C6D40028
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="SM_FORT_Floors_Generic_Beams_C6"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Prop/WarehouseShelves_01.WarehouseShelves_01_C Name=WarehouseShelves_01_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572635645 Archetype="/Game/Building/ActorBlueprints/Prop/WarehouseShelves_01.WarehouseShelves_01_C'/Game/Building/ActorBlueprints/Prop/WarehouseShelves_01.Default__WarehouseShelves_01_C'" ParentActor=FortPlaysetRoot_UAID_D843AE8E0CE5707102_1338301381 ActorFolderPath="Damaged House D" ExportPath="/Game/Building/ActorBlueprints/Prop/WarehouseShelves_01.WarehouseShelves_01_C'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.WarehouseShelves_01_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572635645'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Building/ActorBlueprints/Prop/WarehouseShelves_01.Default__WarehouseShelves_01_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.WarehouseShelves_01_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572635645.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Prop/WarehouseShelves_01.Default__WarehouseShelves_01_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.WarehouseShelves_01_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572635645.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Prop/WarehouseShelves_01.Default__WarehouseShelves_01_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.WarehouseShelves_01_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572635645.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.WarehouseShelves_01_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572635645.StaticMeshComponent0'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'/Engine/Transient.MID_MI_Warehouse_shelves_62'"
+            CachedMaxDrawDistance=11026.026367
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=157.999779,Y=191.997873,Z=9.000098)
+            RelativeRotation=(Pitch=0.000000,Yaw=179.999977,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.WarehouseShelves_01_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572635645.BoundingBoxComponent'"
+            CachedMaxDrawDistance=11026.026367
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/Project_Prefab_Edit/levels/c1s4/Damaged_House_D.Damaged_House_D:PersistentLevel.WarehouseShelves_01_c7ece964a6b5b2e8_UAID_D843AE8E0CE5627102_1572635645.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=11026.026367
+            AttachParent="StaticMeshComponent0"
+         End Object
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=11026.026367
+         DataVersion=1
+         SavedActorGuid=E710973F42DD98DEC5BDEE86D403D6B9
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="WarehouseShelves_41"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map
