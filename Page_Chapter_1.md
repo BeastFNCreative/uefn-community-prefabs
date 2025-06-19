@@ -34,6 +34,7 @@
 |-----------------------------------------|-----------------|-----------------|
 | <img src=".assets/Dusty Divot Damaged Depot.png" width="256"/> | **[Dusty Divot Damaged Depot](SpawnerTexts/Dusty%20Divot%20Damaged%20Depot.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Chapter 1 Island** | Visually Modified: ❌<br>Requires External Download: ❌|
 | <img src=".assets/Dusty Divot Lab Stage 1.png" width="256"/> | **[Dusty Divot Lab Stage 1](SpawnerTexts/Dusty%20Divot%20Lab%20Stage%201.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Chapter 1 Island** | Visually Modified: ❌<br>Requires External Download: ❌|
+| <img src=".assets/Dusty Divot Lab Built.png" width="256"/> | **[Dusty Divot Lab Built](SpawnerTexts/Dusty%20Divot%20Lab%20Built.txt)**<br>**(Ported by: Lady Miranda)**<br><br>**Source: Chapter 1 Island** | Visually Modified: ❌<br>Requires External Download: ❌|
 
 # Tilted Towers
 
