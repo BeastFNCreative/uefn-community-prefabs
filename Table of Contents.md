@@ -30,4 +30,5 @@
 
 # Supporting this tool
 Lady Miranda's Tip Jar: https://ko-fi.com/lady_miranda
+akira_v9 / BeastFNCreative's Tip Jar: https://ko-fi.com/beastfncreative
 
