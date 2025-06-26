@@ -21,4 +21,5 @@
 
 | Icon | Playset Name w/ Author | Extra Info |
 |-----------------------------------------|-----------------|-----------------|
+| <img src=".assets/POI_RadarDish_03.png" width="256"/> | **[IO Base 04](SpawnerTexts/POI_RadarDish_03.txt)**<br>**(Ported by: akira_v9)**<br><br>**Source: Chapter 2 Island** | Visually Modified: ❌<br>Requires External Download: [DOWNLOAD](https://mega.nz/file/SnhHiA4Y#LIEXxjdc9LKApgK7YAk4GIFDxtKy8Be4fCpnefSFXP4)<br>Project Name: TinfoilUEFN<br><br>Please make sure you follow [this](/README.md#Download-Guide) guide. |
 | <img src=".assets/POI_RadarDish_04.png" width="256"/> | **[IO Base 04](SpawnerTexts/POI_RadarDish_04.txt)**<br>**(Ported by: akira_v9)**<br><br>**Source: Chapter 2 Island** | Visually Modified: ❌<br>Requires External Download: [DOWNLOAD](https://mega.nz/file/qmAggQ4D#0twXOzBF-6Tavn8ft61_nK_drN_SpK4uo1Azv4c7UcY)<br>Project Name: TinfoilUEFN<br><br>Please make sure you follow [this](/README.md#Download-Guide) guide. |
