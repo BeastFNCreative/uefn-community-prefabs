@@ -22,12 +22,13 @@
 | Type | Description |
 |-----------------------------------------|-----------------|
 |**[Unreleased Prefabs](Page_Unreleased_Prefabs.md)**<br>|**Prefabs that where once in the game files but never released**|
+|**[Fixed Prefabs](Page_Fixed_Prefabs.md)**<br>|**Prefabs that are in the game, but fixed because of various issues**|
 |**[Beta / Developer Prefabs](Page_Beta_Prefabs.md)**<br>|**Special Galleries & Prefabs used for specific Epic Supported Creative Events.**|
 |**[POI Island Prefabs](/Page_POI_Island_Prefabs%20.md)**<br>|**Prefabs taken from any island template**|
 |**[Custom Prefabs](/Page_Custom_Prefabs.md)**<br>|**Prefabs rebuilt using UEFN tools**|
 |**[Save The World](/Page_STW.md)**<br>|**Prefabs from Save The World**|
 |**[Miscellaneous](/Page_Misc.md)**<br>|**Misc Assets**|
 
-# Supporting this tool
+# Supporting this repo:
 Lady Miranda's Tip Jar: https://ko-fi.com/lady_miranda
 
