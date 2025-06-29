@@ -17,6 +17,7 @@
 |**[Venture Prefabs](/Page_Reload_Venture_Prefabs.md)**<br>|**Prefabs from the Venture Reload Map**|
 |**[Oasis Prefabs](/Page_Reload_Oasis_Prefabs.md)**<br>|**Prefabs from the Oasis Reload Map**|
 |**[Slurp Rush Prefabs](/Page_Reload_Slurp_Rush_Prefabs.md)**<br>|**Prefabs from the Slurp Rush Reload Map**|
+|**[Squid Grounds Prefabs](/Page_Reload_SquidGrounds_Prefabs.md)**<br>|**Prefabs from the Squid Grounds Reload Map**|
 
 # Misc
 | Type | Description |
