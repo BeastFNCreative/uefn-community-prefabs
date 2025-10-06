@@ -41,4 +41,5 @@ Now if you paste the text again, you should have the full prefab, if this didn't
 | akira_v9                                             | Owner (Unreleased, Reload, CH2 Prefabs)              |
 | Lady Miranda                                         | Owner (POI Island, Custom Prefabs)                   |
 | Deutsche Alman/Alemán sein Vater                     | Level Loading (mainly for OG & Reload)               |
-| PixelatedDreams 🍔                                 | Anvil Square Recreation                               |
+| PixelatedDreams 🍔                                  | Anvil Square Recreation                               |
+| Mineblo                                              | Haunted Castle Help                                  |

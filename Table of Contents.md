@@ -34,3 +34,14 @@
 Lady Miranda's Tip Jar: https://ko-fi.com/lady_miranda
 akira_v9 / BeastFNCreative's Tip Jar: https://ko-fi.com/beastfncreative
 
+
+## Credits
+
+| Name                                                 | Role                                                 |
+| :--------------------------------------------------- | :--------------------------------------------------- |
+| akira_v9                                             | Owner (Unreleased, Reload, CH2 Prefabs)              |
+| Lady Miranda                                         | Owner (POI Island, Custom Prefabs)                   |
+| Deutsche Alman/Alemán sein Vater                     | Level Loading (mainly for OG & Reload)               |
+| PixelatedDreams 🍔                                  | Anvil Square Recreation                               |
+| Mineblo                                              | Haunted Castle Help                                  |
+
